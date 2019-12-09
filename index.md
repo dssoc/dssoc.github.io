@@ -18,10 +18,10 @@ buttons:
 
 # Author box
 author:
-    title: About Author
-    title_url: '#'
+    title: Professor
+    title_url: 'https://www.chrisbail.net/'
     external_url: true
-    description: Author description
+    description: This course is instructed by Chris Bail.
 
 # Grid navigation
 grid_navigation:
