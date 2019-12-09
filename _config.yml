@@ -1,6 +1,7 @@
 # Theme settings
 doks:
-    baseurl:
+    baseurl: "https://taylorwhittenbrown.github.io/computationalsocialscience/"
+    url: "https://taylorwhittenbrown.github.io/computationalsocialscience/"
     color_theme: blue
     header:
         logo:
