@@ -5,7 +5,7 @@ doks:
     color_theme: blue
     header:
         logo:
-            text: Data Science \& Society
+            text: Data Science & Society
             image:
         nav:
             - item_name: Item 1
@@ -17,7 +17,7 @@ doks:
     footer:
         content:
             logo:
-                text: Data Science \& Society
+                text: Data Science & Society
                 image:
             copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
         social_list:
