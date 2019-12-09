@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Project description
+description: Resources and instruction for computational social science.
 buttons:
     - icon: github
       content: Course 101
