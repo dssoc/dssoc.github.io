@@ -4,14 +4,15 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Project name
+title: Data Science & Society
 description: Project description
 buttons:
-    - content: Button
+    - icon: github
+      content: Course 101
       url: '#'
       external_url: false
     - icon: github
-      content: Button with icon
+      content: Course 201
       url: '#'
       external_url: true
 
