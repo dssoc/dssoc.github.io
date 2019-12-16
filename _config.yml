@@ -9,11 +9,11 @@ doks:
             image:
         nav:
             - item_name: Syllabus
-              item_url: '#'
+              item_url: '/syllabus'
             - item_name: Schedule
-              item_url: '#'
+              item_url: '/schedule'
             - item_name: References
-              item_url: '#'
+              item_url: '/references'
     footer:
         content:
             logo:
