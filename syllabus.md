@@ -10,10 +10,11 @@ description: Page description
 
 # Author box
 author:
-    title: Chris Bail
+    title: Professor
     title_url: '#'
     external_url: true
-    description: '/https://www.chrisbail.net/'
+    description: Chris Bail
+    url: '/https://www.chrisbail.net/'
 
 # Micro navigation
 micro_nav: true
@@ -28,4 +29,6 @@ page_nav:
         url: '/schedule'
 ---
 
-Write your markdown here ...
+### COURSE DESCRIPTION
+
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
