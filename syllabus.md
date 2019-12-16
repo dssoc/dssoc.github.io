@@ -38,30 +38,31 @@ The past decade has witnessed an explosion of data produced by websites such as 
 
 This course requires no prior knowledge of computer programming or social science. Students will obtain basic skills that will enable them to automate collection of data about cultural globalization from social media sites, classify these highly unstructured data into discrete variables that can be analyzed using conventional social science models, and analyze them using a combination of techniques that includes screen-scraping, natural language processing and machine learning. We will also discuss the complex ethical and legal issues that arise when working with these novel sources of data. In order to obtain these skills, we will perform a group research project together.
 
-**Required Readings**
-
-	<blockquote> Bit-by-Bit </blockquote>
-
+***Required Readings***
+<br/>
+	- Bit-by-Bit
+<br/>
 
 **Annotated Computer Code**
 <br/>
 At the end of each class on Thursday, I will upload the code we write together to the Github site linked above in order to help you practice your coding skills and, eventually, contribute to the code that we will write together as part of our group project.
+<br/>
 
-
-**Stack Overflow**
-
+***Stack Overflow***
+<br/>
 The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems.
+<br/>
 
-
-**RStudio Tutorials**
-
+***RStudio Tutorials***
+<br/>
 In this class, we will use the R software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software RStudio, a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
+<br/>
 
-
-**Twitter/Blogs** 
-
+***Twitter/Blogs***
+<br/>
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people I follow. Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
-
+<br/>
+<br/>
 
 
 ### FORMAL REQUIREMENTS
