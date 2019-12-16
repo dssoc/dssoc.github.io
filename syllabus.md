@@ -43,7 +43,7 @@ This course requires no prior knowledge of computer programming or social scienc
 - Bit-by-Bit
 <br/><br/>
 
-*Annotated Computer Code*
+***Annotated Computer Code***
 <br/>
 At the end of each class on Thursday, I will upload the code we write together to the Github site linked above in order to help you practice your coding skills and, eventually, contribute to the code that we will write together as part of our group project.
 <br/><br/>
@@ -69,15 +69,15 @@ Many of the most important advances in computational social science appear first
 This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science as we do an original research project together. We will identify the topic of our research project during the first few weeks of the class. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Note that lab assignments are ungraded, but mandatory. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
 
 
-**Reading**
+***Reading***
 You are responsible for understanding the readings. Make use of your fellow students, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion sections will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a “living document.” By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least one week’s notice.
 
 	
-**Participation**
+***Participation***
 Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom discussions. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape our group research project (described below). Hence, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to our group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
 
 
-**Group Project**
+***Group Project***
 Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think about ways to get you engaged in the classroom. My own view is that we cannot simply ask you to think through hypothetical situations or puzzles: we should all learn together by doing actual research together that could change the world. This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. And if we get lucky, maybe our research will be good enough to share with the world (either in a blog post or perhaps even a full-blown piece of scholarly research in an academic journal). At the end of each week of class, I will assign teams of students to work on different parts of the group research project.
 
 You will receive two grades for your group project: the first (which counts for 50% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
@@ -99,30 +99,30 @@ B- Student makes a minor contribution to the group project and contributes only 
 C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
 
 
-**How Your Grade Will be Calculated**
+***How Your Grade Will be Calculated***
 Participation 	25%
 Group Project (My Assessment)	50%
 Group Project (Median Peer Assessment)	25%
 
 
-**Surveys**
+***Surveys***
 I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
 
 
 
 ### COURSE POLICIES
 
-**Academic Integrity**
+***Academic Integrity***
 Cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
 
 
-**Classroom Behavior**
+***Classroom Behavior***
 Uncivil behavior such as engaging in personal conversations during class time, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your participation grade.
 
 
-**Extra-Credit Policy**
+***Extra-Credit Policy***
 There will be no extra credit or make-up assignments. 
 
 
-**Office Hours**
+***Office Hours***
 If you have any questions about this class, please visit me during the office hours listed above. 
