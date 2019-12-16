@@ -7,14 +7,11 @@ keywords:
 title: Data Science & Society
 description: Resources and instruction for computational social science.
 buttons:
-    - icon: github
-      content: Syllabus
-      url: '#'
+    - content: Syllabus
+      url: '/syllabus'
       external_url: false
-    - icon: github
-      content: Schedule
-      url: '#'
-      external_url: true
+    - content: Schedule
+      url: '/schedule'
 
 # Author box
 author:
