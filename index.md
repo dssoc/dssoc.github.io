@@ -28,15 +28,15 @@ grid_navigation:
     - title: Syllabus
       excerpt: Sociology XX
       cta: Winter 2020
-      url: '#'
+      url: '/syllabus'
       
     - title: Schedule
       excerpt: Sociology XX
       cta: Winter 2020
-      url: '#'
+      url: '/schedule'
       
     - title: References
       excerpt: Readings and tutorials
       cta: 
-      url: '#'
+      url: '/references'
 ---

@@ -25,7 +25,7 @@ page_nav:
         url: '#'
     next:
         content: Schedule
-        url: '#'
+        url: '/schedule'
 ---
 
 Write your markdown here ...
