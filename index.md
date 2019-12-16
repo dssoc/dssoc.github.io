@@ -7,11 +7,14 @@ keywords:
 title: Data Science & Society
 description: Resources and instruction for computational social science.
 buttons:
-    - content: Syllabus
-      url: '/syllabus'
-      external_url: false
-    - content: Schedule
-      url: '/schedule'
+    - content: 
+      url: 'https://github.com/cbail'
+      external_url: true
+      icon: github
+    - content: 
+      url: 'https://twitter.com/chris_bail'
+      external_url: true
+      icon: twitter
 
 # Author box
 author:
