@@ -29,4 +29,14 @@ grid_navigation:
       excerpt: Sociology XX
       cta: Winter 2020
       url: '#'
+      
+    - title: Schedule
+      excerpt: Sociology XX
+      cta: Winter 2020
+      url: '#'
+      
+    - title: References
+      excerpt: Readings and tutorials
+      cta: 
+      url: '#'
 ---
