@@ -55,7 +55,7 @@ The field of computational social science is going so rapidly that none of the r
 
 ***RStudio Tutorials***
 <br/>
-In this class, we will use the R software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software RStudio, a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
+In this class, we will use the [R](https://cran.r-project.org/) software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
 <br/><br/>
 
 ***Twitter/Blogs***
@@ -104,9 +104,9 @@ C or below Student does not make an impactful contribution to the group project.
 
 ***How Your Grade Will be Calculated***
 <br/>
-Participation 	25%
-Group Project (My Assessment)	50%
-Group Project (Median Peer Assessment)	25%
+- Participation 	25%
+- Group Project (My Assessment)	50%
+- Group Project (Median Peer Assessment)	25%
 <br/><br/>
 
 ***Surveys***
