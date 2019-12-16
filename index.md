@@ -8,11 +8,11 @@ title: Data Science & Society
 description: Resources and instruction for computational social science.
 buttons:
     - icon: github
-      content: Course 101
+      content: Syllabus
       url: '#'
       external_url: false
     - icon: github
-      content: Course 201
+      content: Schedule
       url: '#'
       external_url: true
 
@@ -25,8 +25,8 @@ author:
 
 # Grid navigation
 grid_navigation:
-    - title: Grid navigation
-      excerpt: Section description
-      cta: Read more
+    - title: Syllabus
+      excerpt: Sociology XX
+      cta: Winter 2020
       url: '#'
 ---

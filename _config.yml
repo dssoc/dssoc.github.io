@@ -8,11 +8,11 @@ doks:
             text: Data Science & Society
             image:
         nav:
-            - item_name: Item 1
+            - item_name: Syllabus
               item_url: '#'
-            - item_name: Item 2
+            - item_name: Schedule
               item_url: '#'
-            - item_name: Item 3
+            - item_name: References
               item_url: '#'
     footer:
         content:
