@@ -1,7 +1,7 @@
 # Theme settings
 doks:
     baseurl: "https://dssoc.github.io"
-    url: "dssoc.github.io"
+    url: "https://dssoc.github.io"
     color_theme: blue
     header:
         logo:
