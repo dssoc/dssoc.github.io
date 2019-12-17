@@ -53,10 +53,16 @@ At the end of each class on Thursday, I will upload the code we write together t
 The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems.
 <br/><br/>
 
-***RStudio Tutorials***
+***R & RStudio***
 <br/>
 In this class, we will use the [R](https://cran.r-project.org/) software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
 <br/><br/>
+
+***Slack***
+<br/>
+
+<br/><br/>
+
 
 ***Twitter/Blogs***
 <br/>
@@ -76,7 +82,7 @@ You are responsible for understanding the readings. Make use of your fellow stud
 	
 ***Participation***
 <br/>
-Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom discussions. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape our group research project (described below). Hence, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to our group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
+Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape our group research project (described below). On Slack, you will organize your group and further develop the research project, which is why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
 <br/><br/>
 
 ***Group Project***
