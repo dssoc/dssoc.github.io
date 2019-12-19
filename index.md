@@ -5,13 +5,13 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Resources and instruction for Data Science and Society (Sociol 367S) - an undergraduate course at Duke University.
+description: Resources and instruction for Data Science and Society (Sociol 367S) at Duke University.
 buttons:
-    - content: 
+    - content:
       url: 'https://github.com/cbail'
       external_url: true
       icon: github
-    - content: 
+    - content:
       url: '#'
       external_url: true
       icon: slack

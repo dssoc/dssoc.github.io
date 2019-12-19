@@ -21,24 +21,24 @@ micro_nav: true
 ---
 
 <p align="center">
-Christopher A. Bail <br>
-<font size="-5">Professor of Sociology, Public Policy, and Data Science <br>
-Duke University <br>
-*christopher.bail@duke.edu* <br>
-<a href="www.chrisbail.net">www.chrisbail.net</a> <br>
-Office: <br>
+<b>Christopher A. Bail</b> <br/>
+<font size="-2">Professor of Sociology, Public Policy, and Data Science <br/>
+Duke University <br/>
+*christopher.bail@duke.edu* <br/>
+<a href="www.chrisbail.net">www.chrisbail.net</a> <br/>
+Office: <br/>
 Office Hours: </font>
-<br><br>
+<br/><br/>
 
 
-<font size="-2">TA: Taylor W. Brown </font><br>
-<font size="-5">PhD Candidate, Sociology <br>
-*taylor.w.brown@duke.edu* <br>
-<a href="www.taylorwhittenbrown.com">www.taylorwhittenbrown.com</a> <br>
-Office: Skype <br>
-Office Hours: M & W 2pm - 3pm <br>
-by Google Doc appointment <br>
-Please specify your concern and Skype handle in appointment notes <br></font>
+<font size="-1">TA: Taylor W. Brown </font><br/>
+<font size="-2">PhD Candidate, Sociology <br/>
+*taylor.w.brown@duke.edu* <br/>
+<a href="www.taylorwhittenbrown.com">www.taylorwhittenbrown.com</a> <br/>
+Office: Skype <br/>
+Office Hours: M & W 2pm - 3pm <br/>
+by Google Doc appointment <br/>
+Please specify your concern and Skype handle in appointment notes <br/></font>
 </p>
 <br/><br/>
 
