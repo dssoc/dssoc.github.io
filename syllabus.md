@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: Sociol 367S, T/Th, 3:05 - 4:20, Social Sciences 105
+description: Sociol 367S <br/> T/Th, 3:05 - 4:20, Social Sciences 105
 
 # Author box
 author: 
@@ -22,18 +22,18 @@ micro_nav: true
 
 <p align="center">
 <b>Christopher A. Bail</b> <br/>
-<font size="-2">Professor of Sociology, Public Policy, and Data Science <br/>
+<font size="-1">Professor of Sociology, Public Policy, and Data Science <br/>
 Duke University <br/>
-*christopher.bail@duke.edu* <br/>
+christopher.bail@duke.edu <br/>
 <a href="www.chrisbail.net">www.chrisbail.net</a> <br/>
 Office: <br/>
 Office Hours: </font>
 <br/><br/>
 
 
-<font size="-1">TA: Taylor W. Brown </font><br/>
-<font size="-2">PhD Candidate, Sociology <br/>
-*taylor.w.brown@duke.edu* <br/>
+<font size="-.5">TA: Taylor W. Brown </font><br/>
+<font size="-1">PhD Candidate, Sociology <br/>
+taylor.w.brown@duke.edu <br/>
 <a href="www.taylorwhittenbrown.com">www.taylorwhittenbrown.com</a> <br/>
 Office: Skype <br/>
 Office Hours: M & W 2pm - 3pm <br/>
