@@ -20,17 +20,17 @@ The past decade has witnessed an explosion of data produced by websites such as 
 <br/><br/>
 
 <div class="callout callout--info">
-<p><strong>Christopher A. Bail</strong></p>
-<i>Professor of Sociology, Public Policy, and Data Science</i> <br/>
+<p><strong>Professor Christopher A. Bail</strong></p>
+<i>Sociology, Public Policy, and Data Science</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
 Office Hours: <br/>
-<br/>
+<br/><br/>
 
-<strong>TA: Taylor W. Brown </strong><br/>
+<strong>TA: Taylor W. Brown </strong>
 <i>PhD Candidate, Sociology</i> <br/>
 taylor.w.brown@duke.edu <br/>
-Office Hours: Skype, M & W 2pm - 3pm by Google Doc appointment
+Office Hours: M & W, 2-3pm [by appointment]()
 </div>
 
 ### COURSE GOALS
