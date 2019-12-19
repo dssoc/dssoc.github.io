@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: *Sociol 367S* <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
+description: Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
 
 
 # Micro navigation
