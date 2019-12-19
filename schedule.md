@@ -21,16 +21,16 @@ page_nav:
 ---
 
 ## Week 1
+**January 9**
+### What is Data Science?
 
-###What is Data Science?
+*Required reading*:
+- Bit by Bit
 
-#### Required reading:
-Bit by Bit
-
-#### Additional reading:
+*Additional reading*:
 - **50 Years of Data Science**, by Donoho [link](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 
-“Computational Social Science. Science”
+- Computational Social Science. Science”
 	 Science
 By Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, ... https://science.sciencemag.org/content/323/5915/721
 
