@@ -22,7 +22,7 @@ micro_nav: true
 
 <p align="center">
 <b>Christopher A. Bail</b> <br/>
-<font size="-1">Professor of Sociology, Public Policy, and Data Science <br/>
+<font size="-1" LINE-HEIGHT:10px>Professor of Sociology, Public Policy, and Data Science <br/>
 Duke University <br/>
 christopher.bail@duke.edu <br/>
 <a href="www.chrisbail.net">www.chrisbail.net</a> <br/>
