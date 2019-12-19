@@ -13,8 +13,13 @@ author:
     title: Professor
     title_url: '#'
     external_url: true
-    description: Chris Bail
-    url: '/https://www.chrisbail.net/'
+    - content: Chris Bail
+      url: '/https://www.chrisbail.net/'
+      external_url: true
+    - content: 
+      url: 'https://twitter.com/chris_bail'
+      external_url: true
+      icon: twitter
 
 # Micro navigation
 micro_nav: true
