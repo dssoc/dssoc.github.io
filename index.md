@@ -17,8 +17,8 @@ buttons:
       icon: twitter
 
 # Author box
-author: Professor
-    title: Chris Bail
+author: 
+    title:Chris Bail
     title_url: 'https://www.chrisbail.net/'
     external_url: true
     description: Professor of Sociology, Duke University

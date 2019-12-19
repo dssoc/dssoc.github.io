@@ -9,8 +9,8 @@ title: Syllabus
 description: 
 
 # Author box
-author: Chris Bail
-    title: Professor of Sociology
+author: 
+    title: Chris Bail
     title_url: 'https://www.chrisbail.net/'
     external_url: true
 
