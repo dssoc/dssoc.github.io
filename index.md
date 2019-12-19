@@ -21,7 +21,7 @@ author:
     title: Christopher A. Bail
     title_url: 'https://www.chrisbail.net/'
     external_url: true
-    description: Professor of Sociology (Duke University)
+    description: Professor of Sociology, Public Policy, and Data Science (Duke University)
 
     
     
