@@ -25,14 +25,12 @@ The past decade has witnessed an explosion of data produced by websites such as 
 christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
 Office Hours: <br/>
-<br/><br/>
+<br/>
 
-TA: Taylor W. Brown <br/>
+<strong>TA: Taylor W. Brown </strong><br/>
 <i>PhD Candidate, Sociology</i> <br/>
 taylor.w.brown@duke.edu <br/>
-Office Hours: Skype, M & W 2pm - 3pm <br/>
-by Google Doc appointment <br/>
-Please specify your concern and Skype handle in appointment notes <br/>
+Office Hours: Skype, M & W 2pm - 3pm by Google Doc appointment
 </div>
 
 ### COURSE GOALS
