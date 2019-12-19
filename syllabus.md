@@ -16,16 +16,8 @@ author: Chris Bail
 
 
 # Micro navigation
-micro_nav: false
+micro_nav: true
 
-# Page navigation
-page_nav:
-    prev:
-        content: Home
-        url: '#'
-    next:
-        content: Schedule
-        url: '/schedule'
 ---
 
 ### COURSE DESCRIPTION
