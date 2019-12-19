@@ -12,9 +12,9 @@ buttons:
       external_url: true
       icon: github
     - content: 
-      url: 'https://twitter.com/chris_bail'
+      url: '#'
       external_url: true
-      icon: twitter
+      icon: slack
 
 # Author box
 author: 
