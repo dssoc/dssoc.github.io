@@ -23,7 +23,7 @@ The past decade has witnessed an explosion of data produced by websites such as 
 >*Professor of Sociology, Public Policy, and Data Science* <br/>
 >Duke University <br/>
 >christopher.bail@duke.edu <br/>
->[www.chrisbail.net">www.chrisbail.net](www.chrisbail.net">www.chrisbail.net)<br/>
+>[www.chrisbail.net](www.chrisbail.net)<br/>
 >Office: <br/>
 >Office Hours: <br/>
 ><br/><br/>
