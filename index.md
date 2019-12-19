@@ -5,23 +5,23 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Resources and instruction for Data Science and Society (Sociol 367S), an undergraduate course at Duke University.
+description: Resources and instruction for Data Science and Society (Sociol 367S) - an undergraduate course at Duke University.
 buttons:
-    - content:
+    - content: 
       url: 'https://github.com/cbail'
       external_url: true
       icon: github
-    - content:
+    - content: 
       url: 'https://twitter.com/chris_bail'
       external_url: true
       icon: twitter
 
 # Author box
 author: 
-    title:Chris Bail
+    title: Chris Bail
     title_url: 'https://www.chrisbail.net/'
     external_url: true
-    description: Professor of Sociology, Duke University
+    description: Professor of Sociology (Duke University)
 
 # Grid navigation
 grid_navigation:
