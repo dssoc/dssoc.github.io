@@ -13,13 +13,7 @@ author:
     title: Professor
     title_url: '#'
     external_url: true
-    - content: Chris Bail
-      url: '/https://www.chrisbail.net/'
-      external_url: true
-    - content: 
-      url: 'https://twitter.com/chris_bail'
-      external_url: true
-      icon: twitter
+
 
 # Micro navigation
 micro_nav: true
@@ -45,7 +39,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ***Required Readings***
 <br/>
-- Bit-by-Bit
+- *Bit by Bit: Social Research in the Digital Age*, Matthew J Salganik, 2017, **Princeton University Press** https://www.bitbybitbook.com/en/1st-ed/preface/
 <br/><br/>
 
 ***Annotated Computer Code***
