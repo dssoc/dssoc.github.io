@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: Sociol 367S <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
+description: *Sociol 367S* <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
 
 
 # Micro navigation
@@ -19,24 +19,24 @@ micro_nav: true
 The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 <br/><br/>
 
->**Christopher A. Bail** <br/>
->*Professor of Sociology, Public Policy, and Data Science* <br/>
->Duke University <br/>
->christopher.bail@duke.edu <br/>
->[www.chrisbail.net](www.chrisbail.net)<br/>
->Office: <br/>
->Office Hours: <br/>
-><br/><br/>
->TA: Taylor W. Brown <br/>
->*PhD Candidate, Sociology* <br/>
->taylor.w.brown@duke.edu <br/>
->[www.taylorwhittenbrown.com](www.taylorwhittenbrown.com) <br/>
->Office: Skype <br/>
->Office Hours: M & W 2pm - 3pm <br/>
->by Google Doc appointment <br/>
->Please specify your concern and Skype handle in appointment notes <br/>
+<div class="callout callout--info">
+<p><strong>Christopher A. Bail</strong></p> <br/>
+<i>Professor of Sociology, Public Policy, and Data Science</i> <br/>
+Duke University <br/>
+christopher.bail@duke.edu <br/>
+[www.chrisbail.net](www.chrisbail.net)<br/>
+Office Hours: <br/>
 <br/><br/>
 
+TA: Taylor W. Brown <br/>
+*PhD Candidate, Sociology* <br/>
+taylor.w.brown@duke.edu <br/>
+[www.taylorwhittenbrown.com](www.taylorwhittenbrown.com) <br/>
+Office Hours: Skype, M & W 2pm - 3pm <br/>
+by Google Doc appointment <br/>
+Please specify your concern and Skype handle in appointment notes <br/>
+<br/><br/>
+</div>
 
 ### COURSE GOALS
 
