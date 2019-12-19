@@ -6,13 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: Sociol 367S <br/> T/Th, 3:05 - 4:20, Social Sciences 105
-
-# Author box
-author: 
-    title: Chris Bail
-    title_url: 'https://www.chrisbail.net/'
-    external_url: true
+description: Sociol 367S <br/> T/Th, 3:05 - 4:20 <br/> Social Sciences 105
 
 
 # Micro navigation
@@ -22,7 +16,7 @@ micro_nav: true
 
 <p align="center">
 <b>Christopher A. Bail</b> <br/>
-<font size="-1" LINE-HEIGHT:10px>Professor of Sociology, Public Policy, and Data Science <br/>
+<font size="-1" line height:10px>Professor of Sociology, Public Policy, and Data Science <br/>
 Duke University <br/>
 christopher.bail@duke.edu <br/>
 <a href="www.chrisbail.net">www.chrisbail.net</a> <br/>
