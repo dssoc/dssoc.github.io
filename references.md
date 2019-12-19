@@ -6,7 +6,6 @@ comments: false
 
 # Hero section
 title: References
-description: Page description
 
 # Micro navigation
 micro_nav: true

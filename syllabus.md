@@ -82,21 +82,21 @@ Numerous studies arrive at the same conclusion: students learn more when they ar
 
 You will receive two grades for your group project: the first (which counts for 50% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
 
-A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
+> A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
 
-A+ Student contributes to group research project at an extremely high level. This includes dedicating a large amount of hours (~ 12 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+> A+ Student contributes to group research project at an extremely high level. This includes dedicating a large amount of hours (~ 12 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
 
-A Student contributes to group research project at a very high level. This includes dedicating a large amount of hours (~ 6 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript. 
+> A Student contributes to group research project at a very high level. This includes dedicating a large amount of hours (~ 6 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript. 
 
-A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+> A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
 
-B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
+> B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
 
-B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
+> B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
 
-B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
+> B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
 
-C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
+> C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
 <br/><br/>
 
 ***How Your Grade Will be Calculated***
