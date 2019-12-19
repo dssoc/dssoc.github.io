@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: Sociol 367S <br/> T/Th, 3:05 - 4:20 <br/> Social Sciences 105
+description: Sociol 367S <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
 
 
 # Micro navigation
@@ -14,31 +14,30 @@ micro_nav: true
 
 ---
 
-<p align="center">
-<b>Christopher A. Bail</b> <br/>
-<font size="-1" line height:10px>Professor of Sociology, Public Policy, and Data Science <br/>
+### COURSE DESCRIPTION
+
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
+<br/><br/>
+
+>
+**Christopher A. Bail** <br/>
+*Professor of Sociology, Public Policy, and Data Science* <br/>
 Duke University <br/>
 christopher.bail@duke.edu <br/>
-<a href="www.chrisbail.net">www.chrisbail.net</a> <br/>
+[www.chrisbail.net">www.chrisbail.net](www.chrisbail.net">www.chrisbail.net)<br/>
 Office: <br/>
 Office Hours: </font>
 <br/><br/>
-
-
-<font size="-.5">TA: Taylor W. Brown </font><br/>
-<font size="-1">PhD Candidate, Sociology <br/>
+TA: Taylor W. Brown <br/>
+*PhD Candidate, Sociology* <br/>
 taylor.w.brown@duke.edu <br/>
-<a href="www.taylorwhittenbrown.com">www.taylorwhittenbrown.com</a> <br/>
+[www.taylorwhittenbrown.com](www.taylorwhittenbrown.com) <br/>
 Office: Skype <br/>
 Office Hours: M & W 2pm - 3pm <br/>
 by Google Doc appointment <br/>
 Please specify your concern and Skype handle in appointment notes <br/></font>
 </p>
 <br/><br/>
-
-### COURSE DESCRIPTION
-
-The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 
 
 ### COURSE GOALS
