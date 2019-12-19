@@ -25,7 +25,7 @@ page_nav:
 ### What is Data Science?
 
 *Required reading*:
-- Bit by Bit
+- Bit by Bit :book:
 
 *Additional reading*:
 - **50 Years of Data Science**, by Donoho [link](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
