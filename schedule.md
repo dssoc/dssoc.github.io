@@ -20,7 +20,9 @@ page_nav:
         url: '/references'
 ---
 
-## What is Data Science?
+## Week 1
+
+###What is Data Science?
 
 #### Required reading:
 Bit by Bit

@@ -18,16 +18,11 @@ buttons:
 
 # Author box
 author: 
-    title: Professor - Chris Bail
+    title: Christopher A. Bail
     title_url: 'https://www.chrisbail.net/'
     external_url: true
-    description:
+    description: Professor of Sociology (Duke University)
 
-author: 
-    title: 
-    title_url: 'http://www.taylorwhittenbrown.com/'
-    external_url: true
-    description: TA - Taylor Brown
     
     
 # Grid navigation

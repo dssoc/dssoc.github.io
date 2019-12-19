@@ -20,6 +20,27 @@ micro_nav: true
 
 ---
 
+<p align="center">
+Christopher A. Bail
+Professor of Sociology, Public Policy, and Data Science
+Duke University
+*christopher.bail@duke.edu*
+[www.chrisbail.net](www.chrisbail.net)
+Office: 
+Office Hours: 
+
+
+**TA**: Taylor W. Brown
+PhD Candidate, Sociology
+*taylor.w.brown@duke.edu*
+['www.taylorwhittenbrown.com'](www.taylorwhittenbrown.com)
+Office: Skype
+Office Hours: M & W 2pm - 3pm 
+ by Google Doc appointment
+Please specify your concern and Skype handle in appointment notes
+</p>
+<br/><br/>
+
 ### COURSE DESCRIPTION
 
 The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
