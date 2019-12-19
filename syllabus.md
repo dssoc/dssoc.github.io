@@ -9,14 +9,14 @@ title: Syllabus
 description: 
 
 # Author box
-author:
-    title: Professor
-    title_url: '#'
+author: Chris Bail
+    title: Professor of Sociology
+    title_url: 'https://www.chrisbail.net/'
     external_url: true
 
 
 # Micro navigation
-micro_nav: true
+micro_nav: false
 
 # Page navigation
 page_nav:
@@ -39,7 +39,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ***Required Readings***
 <br/>
-- *Bit by Bit: Social Research in the Digital Age*, Matthew J Salganik, 2017, **Princeton University Press** https://www.bitbybitbook.com/en/1st-ed/preface/
+- **Bit by Bit: Social Research in the Digital Age**, Matthew J Salganik, 2017, *Princeton University Press*:  https://www.bitbybitbook.com/en/1st-ed/preface/
 <br/><br/>
 
 ***Annotated Computer Code***

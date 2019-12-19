@@ -5,13 +5,13 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Resources and instruction for computational social science.
+description: Resources and instruction for Data Science and Society (Sociol 367S), an undergraduate course at Duke University.
 buttons:
-    - content: 
+    - content:
       url: 'https://github.com/cbail'
       external_url: true
       icon: github
-    - content: 
+    - content:
       url: 'https://twitter.com/chris_bail'
       external_url: true
       icon: twitter
@@ -26,12 +26,12 @@ author:
 # Grid navigation
 grid_navigation:
     - title: Syllabus
-      excerpt: Sociology XX
+      excerpt: Sociol 367S
       cta: Winter 2020
       url: '/syllabus'
       
     - title: Schedule
-      excerpt: Sociology XX
+      excerpt: Sociol 367S
       cta: Winter 2020
       url: '/schedule'
       
