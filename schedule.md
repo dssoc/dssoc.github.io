@@ -21,7 +21,7 @@ page_nav:
 ---
 
 ## Week 1
-<strong><font color="#E84E4E">January 9</font></strong>
+<strong><i><font color="#E84E4E">January 9</font></i></strong>
 ### What is Data Science?
 
 ***Required reading***:
@@ -35,7 +35,7 @@ page_nav:
 <br/>
 
 <hr>
-<strong><font color="#E84E4E">January 13</font></strong>
+<strong><i><font color="#E84E4E">January 13</font></i></strong>
 
 
 
