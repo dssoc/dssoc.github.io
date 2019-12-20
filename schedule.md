@@ -21,7 +21,7 @@ page_nav:
 ---
 
 ## Week 1
-<strong><font color="#F0C808">January 9</font></strong>
+<strong><font color="#E84E4E">January 9</font></strong>
 ### What is Data Science?
 
 ***Required reading***:
@@ -33,6 +33,13 @@ page_nav:
 - **Life in the network: the coming age of computational social science**, *Science*, Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., … [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/)
 - **Should social science be more solution-oriented?**, *Nature*, Duncan Watts, [link](https://www.nature.com/articles/s41562-016-0015)
 <br/>
+
+<hr>
+<strong><font color="#E84E4E">January 13</font></strong>
+
+
+
+
 
 <div class="callout callout--info">
 <p><strong>LAB: Introduction to R and RStudio </strong></p>
