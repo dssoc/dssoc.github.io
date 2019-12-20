@@ -44,14 +44,18 @@ page_nav:
 <div class="callout callout--info">
 <p><strong>LAB: Introduction to R and RStudio </strong></p>
 <i>Assignment:</i> <br/>
-- Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop <br/>
-- Install the following packages on RStudio: <br/>
+<ul>
+<li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
+<li>Install the following packages on RStudio: </li>
+</ul>
 <br/>
 
 <i>Resources:</i><br/>
 Resources:
-- Installing R (Mac / PC)
-- Installing packages in RStudio
-- <a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a>
-- <a href = "https://style.tidyverse.org/">R Style Guide</a> 
+<ul>
+  <li>Installing R (Mac / PC)</li>
+  <li>Installing packages in RStudio</li>
+  <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
+  <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
+</ul>
 </div>
