@@ -32,7 +32,7 @@ page_nav:
 - **Computational Social Science**, *Science*, Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, ... [link](https://science.sciencemag.org/content/323/5915/721)
 - **Life in the network: the coming age of computational social science**, *Science*, Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., … [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/)
 - **Should social science be more solution-oriented?**, *Nature*, Duncan Watts, [link](https://www.nature.com/articles/s41562-016-0015)
-<br/>
+<br/><br/><br/>
 
 <hr>
 <strong><i><font color="#E84E4E">January 13</font></i></strong>
@@ -44,6 +44,14 @@ page_nav:
 <div class="callout callout--info">
 <p><strong>LAB: Introduction to R and RStudio </strong></p>
 <i>Assignment:</i> <br/>
-Install R and R Studio on your laptop <br/>
-Install the following packages on RStudio: <br/>
+- Install [R](cloud.r-project.org) and [R Studio](https://www.rstudio.com/) on your laptop <br/>
+- Install the following packages on RStudio: <br/>
+<br/>
+
+<i>Resources:</i><br/>
+Resources:
+- Installing R (Mac / PC)
+- Installing packages in RStudio
+- [RStudio cheatsheets](https://rstudio.com/resources/cheatsheets/)
+- [R Style Guide](https://style.tidyverse.org/) 
 </div>
