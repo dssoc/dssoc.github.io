@@ -44,7 +44,7 @@ page_nav:
 <div class="callout callout--info">
 <p><strong>LAB: Introduction to R and RStudio </strong></p>
 <i>Assignment:</i> <br/>
-- Install [R](cloud.r-project.org) and [R Studio](https://www.rstudio.com/) on your laptop <br/>
+- Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop <br/>
 - Install the following packages on RStudio: <br/>
 <br/>
 
@@ -52,6 +52,6 @@ page_nav:
 Resources:
 - Installing R (Mac / PC)
 - Installing packages in RStudio
-- [RStudio cheatsheets](https://rstudio.com/resources/cheatsheets/)
-- [R Style Guide](https://style.tidyverse.org/) 
+- <a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a>
+- <a href = "https://style.tidyverse.org/">R Style Guide</a> 
 </div>
