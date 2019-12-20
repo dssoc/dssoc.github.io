@@ -35,7 +35,6 @@ page_nav:
 <br/><br/><br/>
 
 ## Week 2
-<hr>
 <strong><i><font color="#E84E4E">January 14</font></i></strong>
 
 <div class="callout callout--info">
@@ -55,3 +54,33 @@ page_nav:
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
 </ul>
 </div>
+
+<strong><i><font color="#E84E4E">January 16</font></i></strong>
+### New Data, Old Problems
+
+***Required reading***:
+- **Bit by Bit**, 
+
+***Additional reading***:
+- **Predicting Poverty and Wealth from Mobile Phone Data**, *Science*, Blumenstock, Cadamuro, & On [link](https://science.sciencemag.org/content/350/6264/1073)
+- **Biased Algorithms Are Easier to Fix Than Biased People**, *New York Times*, Sendhil Mullainathan [link](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
+<br/><br/><br/>
+
+## Week 3
+<strong><i><font color="#E84E4E">January 21</font></i></strong>
+
+<div class="callout callout--info">
+<p><strong>LAB: Data Wrangling </strong></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li>Work through dplyr introduction: </li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li>[R for Data Science](http://r4ds.had.co.nz/)</li>
+  <li>[Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)</li>
+</ul>
+</div>
+
