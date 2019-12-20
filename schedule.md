@@ -25,7 +25,7 @@ page_nav:
 ### What is Data Science?
 
 ***Required reading***:
-- **Bit by Bit**, Introduction
+- **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/)
 
 ***Additional reading***:
 - **50 Years of Data Science**, Donoho [link](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
@@ -34,24 +34,21 @@ page_nav:
 - **Should social science be more solution-oriented?**, *Nature*, Duncan Watts, [link](https://www.nature.com/articles/s41562-016-0015)
 <br/><br/><br/>
 
+## Week 2
 <hr>
-<strong><i><font color="#E84E4E">January 13</font></i></strong>
-
-
-
-
+<strong><i><font color="#E84E4E">January 14</font></i></strong>
 
 <div class="callout callout--info">
 <p><strong>LAB: Introduction to R and RStudio </strong></p>
 <i>Assignment:</i> <br/>
-<ul style="list-style-type:circle;">
+<ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages on RStudio: </li>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
-<ul style="list-style-type:circle;">
+<ul>
   <li>Installing R (Mac / PC)</li>
   <li>Installing packages in RStudio</li>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
