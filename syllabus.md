@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Syllabus
-description: Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
+description: Duke University, Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
 
 
 # Micro navigation
@@ -30,7 +30,7 @@ Office Hours: <br/>
 <strong>TA: Taylor W. Brown </strong>
 <i>PhD Candidate, Sociology</i> <br/>
 taylor.w.brown@duke.edu <br/>
-Office Hours: M & W, 2-3pm [by appointment]()
+Office Hours: M & W, 2-3pm [by appointment](https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing)
 </div>
 
 ### COURSE GOALS

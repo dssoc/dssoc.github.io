@@ -12,7 +12,7 @@ buttons:
       external_url: true
       icon: github
     - content:
-      url: '#'
+      url: 'https://dssoc-s20.slack.com'
       external_url: true
       icon: slack
 
