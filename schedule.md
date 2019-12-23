@@ -130,6 +130,32 @@ page_nav:
 
 ***Required reading***:
 <br/>
+- Cristakis, Nicholas and James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
 
 ***Additional reading***:
+- Watts, Duncan. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Healy, K. (2013). [**Using Metadata to Find Paul Revere**], Blog post.
+- Austin, D. (2006). [**How Google Finds Your Needle in the Web's Haystack**], 
+American Mathematical Society Feature Column.
 <br/><br/><br/>
+
+## Week 5
+<b><i><font color="#E84E4E">February 4</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB: Basic programming</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<ul>
+<li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21_</a></li>
+</ul></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/>
