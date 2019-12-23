@@ -30,9 +30,9 @@ page_nav:
 
 ***Additional reading***:
 - [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf), Donoho
-- **Computational Social Science**, *Science*, Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, ... [link](https://science.sciencemag.org/content/323/5915/721)
-- **Life in the network: the coming age of computational social science**, *Science*, Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., … [link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/)
-- **Should social science be more solution-oriented?**, *Nature*, Duncan Watts, [link](https://www.nature.com/articles/s41562-016-0015)
+- [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*, Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, ... 
+- [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*, Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., ...
+- [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*, Duncan Watts
 <br/><br/><br/>
 
 ## Week 2
@@ -56,16 +56,17 @@ page_nav:
 </ul>
 </div>
 <br/>
+
 <strong><i><font color="#E84E4E">January 16</font></i></strong>
 ### New Data, Old Problems
 
 ***Required reading***:
 - **Bit by Bit** [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
-- **Biased Algorithms Are Easier to Fix Than Biased People**, *New York Times*, Sendhil Mullainathan [link](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
+- [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*, Sendhil Mullainathan
 <br/>
 
 ***Additional reading***:
-- **Predicting Poverty and Wealth from Mobile Phone Data**, *Science*, Blumenstock, Cadamuro, & On [link](https://science.sciencemag.org/content/350/6264/1073)
+- [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*, Blumenstock, Cadamuro, & On
 <br/><br/><br/>
 
 ## Week 3
@@ -91,4 +92,15 @@ page_nav:
   <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
 </ul>
 </div>
+<br/>
 
+<strong><i><font color="#E84E4E">January 23</font></i></strong>
+### Research Ethics
+
+***Required reading***:
+- **Bit by Bit** [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/), 
+
+
+***Additional reading***:
+- **Emotional Contagion**
+<br/><br/><br/>
