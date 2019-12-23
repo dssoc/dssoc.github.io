@@ -25,7 +25,8 @@ page_nav:
 ### What is Data Science?
 
 ***Required reading***:
-- **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/)
+- **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
+<br/>
 
 ***Additional reading***:
 - **50 Years of Data Science**, Donoho [link](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
@@ -59,11 +60,12 @@ page_nav:
 ### New Data, Old Problems
 
 ***Required reading***:
-- **Bit by Bit**, 
+- **Bit by Bit** [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
+- **Biased Algorithms Are Easier to Fix Than Biased People**, *New York Times*, Sendhil Mullainathan [link](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
+<br/>
 
 ***Additional reading***:
 - **Predicting Poverty and Wealth from Mobile Phone Data**, *Science*, Blumenstock, Cadamuro, & On [link](https://science.sciencemag.org/content/350/6264/1073)
-- **Biased Algorithms Are Easier to Fix Than Biased People**, *New York Times*, Sendhil Mullainathan [link](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html)
 <br/><br/><br/>
 
 ## Week 3
