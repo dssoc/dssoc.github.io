@@ -54,7 +54,7 @@ page_nav:
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
 </ul>
 </div>
-
+<br/>
 <strong><i><font color="#E84E4E">January 16</font></i></strong>
 ### New Data, Old Problems
 
@@ -73,14 +73,21 @@ page_nav:
 <p><strong>LAB: Data Wrangling </strong></p>
 <i>Assignment:</i> <br/>
 <ul>
-<li>Work through dplyr introduction: </li>
+<li>Work through the following chapters of "R for Data Science": </li>
+<ul>
+<li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a>
+<li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a>
+<li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a>
+<li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a>
+<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (9 - 16)</a>
+</ul>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
 <ul>
-  <li>[R for Data Science](http://r4ds.had.co.nz/)</li>
-  <li>[Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)</li>
+  <li><a href = "http://r4ds.had.co.nz/">R for Data Science</a></li>
+  <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
 </ul>
 </div>
 
