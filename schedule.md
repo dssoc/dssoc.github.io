@@ -89,18 +89,47 @@ page_nav:
 
 <i>Resources:</i><br/>
 <ul>
-  <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
+  <li></li>
 </ul>
 </div>
 <br/>
 
 <strong><i><font color="#E84E4E">January 23</font></i></strong>
 ### Research Ethics
-
 ***Required reading***:
 - **Bit by Bit** [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/), 
-
+<br/>
 
 ***Additional reading***:
 - **Emotional Contagion**
+<br/><br/><br/>
+
+
+## Week 4
+<strong><i><font color="#E84E4E">January 28</font></i></strong>
+
+<div class="callout callout--info">
+<p><strong>LAB: Basic ggplot</strong></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li>Kieran Healy, <strong><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></strong> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+  <li><strong><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></strong>, MIT Civic Media Lab by kanarinka </li>
+  <li><strong><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></strong></li>
+</ul>
+</div>
+<br/>
+
+<strong><i><font color="#E84E4E">January 30</font></i></strong>
+### What is a Social Network?
+
+***Required reading***:
+<br/>
+
+***Additional reading***:
 <br/><br/><br/>
