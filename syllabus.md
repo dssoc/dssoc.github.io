@@ -30,7 +30,7 @@ Office Hours: <br/>
 <strong>TA: Taylor W. Brown </strong>
 <i>PhD Candidate, Sociology</i> <br/>
 taylor.w.brown@duke.edu <br/>
-Office Hours: M & W, 2-3pm [by appointment](https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing)
+Office Hours: M & W, 2-3pm <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
 </div>
 
 ### COURSE GOALS
