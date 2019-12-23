@@ -59,7 +59,7 @@ In this class, we will use the [R](https://cran.r-project.org/) software, which 
 
 ***Slack***
 <br/>
-
+We will be using [Slack](https://slack.com/help/articles/218080037-Getting-started-for-new-members) to communicate and organize group projects in this class. Please download the app to your desktop and sign-in to [this workplace](https://join.slack.com/t/dssoc-s20/shared_invite/enQtODY3OTU3NjYyODY2LTZmZmMzOGVjZTgzZWU4ZjdjMDAxNTM1YjFjMjRhN2YwODkwZjY3MTYwOWU2NDg3Y2NkOTQyMGEwZjEzNzk5MDg). You can learn more about how Slack works [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). As a reminder, part of your participation grade will rely on your Slack participation. 
 <br/><br/>
 
 
