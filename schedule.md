@@ -73,20 +73,19 @@ page_nav:
 <p><strong>LAB: Data Wrangling </strong></p>
 <i>Assignment:</i> <br/>
 <ul>
-<li>Work through the following chapters of "R for Data Science": 
+<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a>
-<li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a>
-<li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a>
-<li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a>
-<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (9 - 16)</a>
+<li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
+<li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a></li>
+<li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
+<li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
+<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (9 - 16)</a></li>
 </ul></li>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
 <ul>
-  <li><a href = "http://r4ds.had.co.nz/">R for Data Science</a></li>
   <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
 </ul>
 </div>
