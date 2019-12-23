@@ -21,7 +21,7 @@ page_nav:
 ---
 
 ## Week 1
-<strong><i><font color="#E84E4E">January 9</font></i></strong>
+<b><i><font color="#E84E4E">January 9</font></i></b>
 ### What is Data Science?
 
 ***Required reading***:
@@ -29,17 +29,17 @@ page_nav:
 <br/>
 
 ***Additional reading***:
-- [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf), Donoho
-- [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*, Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, ... 
-- [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*, Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., ...
-- [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*, Duncan Watts
+- Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+- Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science* 
+- Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., .... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*
+- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*
 <br/><br/><br/>
 
 ## Week 2
-<strong><i><font color="#E84E4E">January 14</font></i></strong>
+<b><i><font color="#E84E4E">January 14</font></i></b>
 
 <div class="callout callout--info">
-<p><strong>LAB: Introduction to R and RStudio </strong></p>
+<p><b>LAB: Introduction to R and RStudio </b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
@@ -57,23 +57,23 @@ page_nav:
 </div>
 <br/>
 
-<strong><i><font color="#E84E4E">January 16</font></i></strong>
+<b><i><font color="#E84E4E">January 16</font></i></b>
 ### New Data, Old Problems
 
 ***Required reading***:
 - **Bit by Bit** [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
-- [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*, Sendhil Mullainathan
+- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*
 <br/>
 
 ***Additional reading***:
-- [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*, Blumenstock, Cadamuro, & On
+- Blumenstock, Cadamuro, & On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*
 <br/><br/><br/>
 
 ## Week 3
-<strong><i><font color="#E84E4E">January 21</font></i></strong>
+<b><i><font color="#E84E4E">January 21</font></i></b>
 
 <div class="callout callout--info">
-<p><strong>LAB: Data Wrangling </strong></p>
+<p><b>LAB: Data Wrangling </b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
@@ -94,7 +94,7 @@ page_nav:
 </div>
 <br/>
 
-<strong><i><font color="#E84E4E">January 23</font></i></strong>
+<b><i><font color="#E84E4E">January 23</font></i></b>
 ### Research Ethics
 ***Required reading***:
 - **Bit by Bit** [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/), 
@@ -106,10 +106,10 @@ page_nav:
 
 
 ## Week 4
-<strong><i><font color="#E84E4E">January 28</font></i></strong>
+<b><i><font color="#E84E4E">January 28</font></i></b>
 
 <div class="callout callout--info">
-<p><strong>LAB: Basic ggplot</strong></p>
+<p><b>LAB: Basic ggplot</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li></li>
@@ -118,14 +118,14 @@ page_nav:
 
 <i>Resources:</i><br/>
 <ul>
-  <li>Kieran Healy, <strong><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></strong> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
-  <li><strong><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></strong>, MIT Civic Media Lab by kanarinka </li>
-  <li><strong><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></strong></li>
+  <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka </li>
+  <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
 </ul>
 </div>
 <br/>
 
-<strong><i><font color="#E84E4E">January 30</font></i></strong>
+<b><i><font color="#E84E4E">January 30</font></i></b>
 ### What is a Social Network?
 
 ***Required reading***:
