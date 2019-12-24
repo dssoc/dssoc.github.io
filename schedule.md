@@ -26,12 +26,12 @@ page_nav:
 
 ***Required reading***:
 - **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
-<br/>
+<br/><br/>
 
 ***Additional reading***:
-- Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-- Lazer, D., Pentland, A., Adamic, L., Aral, S., Barabasi, .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science* 
-- Lazer, D., Pentland, A. S., Adamic, L., Aral, S., Barabasi, A. L., .... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*
+- David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
+- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*
 <br/><br/><br/>
 
@@ -63,10 +63,10 @@ page_nav:
 ***Required reading***:
 - **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
-<br/>
+<br/><br/>
 
 ***Additional reading***:
-- Blumenstock, Cadamuro, & On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+- Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/>
 
 ## Week 3
@@ -98,7 +98,7 @@ page_nav:
 ### Research Ethics
 ***Required reading***:
 - **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/) 
-<br/>
+<br/><br/>
 
 ***Additional reading***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
@@ -119,8 +119,9 @@ page_nav:
 
 <i>Resources:</i><br/>
 <ul>
+  <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization</a> in R for Data Science.</li>
   <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
-  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka </li>
+  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
 </ul>
 </div>
@@ -132,6 +133,7 @@ page_nav:
 ***Required reading***:
 <br/>
 - Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
+<br/><br/>
 
 ***Additional reading***:
 - Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
