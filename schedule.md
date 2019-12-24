@@ -31,8 +31,8 @@ page_nav:
 ***Additional reading***:
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
-- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*
-- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*
+- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
+- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 <br/><br/><br/>
 
 ## Week 2
@@ -61,7 +61,7 @@ page_nav:
 ### New Data, Old Problems
 
 ***Required reading***:
-- **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
+- **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 <br/><br/>
 
@@ -97,7 +97,7 @@ page_nav:
 <b><i><font color="#E84E4E">January 23</font></i></b>
 ### Research Ethics
 ***Required reading***:
-- **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/) 
+- **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
 
 ***Additional reading***:
@@ -123,6 +123,7 @@ page_nav:
   <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
+  <li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
 </ul>
 </div>
 <br/>
@@ -151,7 +152,7 @@ American Mathematical Society Feature Column.
 <ul>
 <li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21_</a></li>
+<li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
 </ul></li>
 </ul>
 <br/>
@@ -162,3 +163,24 @@ American Mathematical Society Feature Column.
 </ul>
 </div>
 <br/>
+
+<b><i><font color="#E84E4E">January 30</font></i></b>
+### Social Network basics
+
+***Required reading***:
+<br/>
+- Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
+- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
+- Stanley Milgram. [**The small world problem**](), Psychology Today.
+- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
+- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
+
+<br/><br/>
+
+***Additional reading***:
+- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
+- Lynn Michell & Amanda Amos. [Girls, pecking order and smoking](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
+- James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
+<br/><br/><br/>
+
