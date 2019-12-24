@@ -61,12 +61,12 @@ page_nav:
 ### New Data, Old Problems
 
 ***Required reading***:
-- **Bit by Bit** [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
-- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*
+- **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), 
+- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 <br/>
 
 ***Additional reading***:
-- Blumenstock, Cadamuro, & On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*
+- Blumenstock, Cadamuro, & On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/>
 
 ## Week 3
@@ -97,11 +97,12 @@ page_nav:
 <b><i><font color="#E84E4E">January 23</font></i></b>
 ### Research Ethics
 ***Required reading***:
-- **Bit by Bit** [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/), 
+- **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/) 
 <br/>
 
 ***Additional reading***:
-- **Emotional Contagion**
+- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
+- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 <br/><br/><br/>
 
 
@@ -130,12 +131,12 @@ page_nav:
 
 ***Required reading***:
 <br/>
-- Cristakis, Nicholas and James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
 
 ***Additional reading***:
-- Watts, Duncan. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
-- Healy, K. (2013). [**Using Metadata to Find Paul Revere**], Blog post.
-- Austin, D. (2006). [**How Google Finds Your Needle in the Web's Haystack**], 
+- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+- David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
 <br/><br/><br/>
 
