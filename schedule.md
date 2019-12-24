@@ -123,7 +123,7 @@ page_nav:
   <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
-  <li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
+  <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
 </ul>
 </div>
 <br/>
@@ -174,13 +174,71 @@ American Mathematical Society Feature Column.
 - Stanley Milgram. [**The small world problem**](), Psychology Today.
 - Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
 - Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
-
 <br/><br/>
 
 ***Additional reading***:
-- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
-- Lynn Michell & Amanda Amos. [Girls, pecking order and smoking](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
+- Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
 <br/><br/><br/>
 
+## Week 6
+<b><i><font color="#E84E4E">February 11</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB: Working with APIs</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/>
+
+<b><i><font color="#E84E4E">February 13</font></i></b>
+### A case for network analysis - political filter bubbles on social media
+***Required reading***:
+<br/>
+-
+
+<br/><br/>
+***Additional reading***:
+- 
+<br/><br/><br/>
+
+## Week 7
+<b><i><font color="#E84E4E">February 18</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB: Network Analysis & calculating centrality measures</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li>Calculate the average number of retweets one of Elizabeth Warren's tweets receives.</li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/>
+
+<b><i><font color="#E84E4E">February 20</font></i></b>
+### Text analysis: how do we get from words to numbers?
+***Required reading***:
+<br/>
+- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
+<br/><br/>
+
+***Additional reading***:
+- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
+- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
+- Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
+
+<br/><br/><br/>
