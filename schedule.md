@@ -391,7 +391,6 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 2</font></i></b>
@@ -429,7 +428,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
  
 
-## Week 14
+## Week 15
 <b><i><font color="#E84E4E">April 14</font></i></b>
 ### TITLE
 ***Required reading***:
@@ -444,7 +443,7 @@ American Mathematical Society Feature Column.
 ### FINAL PRESENTATIONS
 <br/><br/><br/>
 
-## Week 14
+## Week 16
 <b><i><font color="#E84E4E">April 21</font></i></b>
 ### FINAL PRESENTATIONS
  
