@@ -20,9 +20,9 @@ page_nav:
         url: '/references'
 ---
 
-## Week 1
+## Week 1 - What is Data Science?
 <b><i><font color="#E84E4E">January 9</font></i></b>
-### What is Data Science?
+### Discussion
 
 ***Required reading***:
 - **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
@@ -210,7 +210,7 @@ American Mathematical Society Feature Column.
 
 ## Week 7
 <b><i><font color="#E84E4E">February 18</font></i></b>
-### A case for network analysis - political filter bubbles on social media
+### Case study: political filter bubbles on social media
 ***Required reading***:
 <br/>
 -
