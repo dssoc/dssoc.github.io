@@ -205,9 +205,11 @@ American Mathematical Society Feature Column.
   <li></li>
 </ul>
 </div>
-<br/>
+<br/><br/><br/>
 
-<b><i><font color="#E84E4E">February 13</font></i></b>
+
+## Week 7
+<b><i><font color="#E84E4E">February 18</font></i></b>
 ### A case for network analysis - political filter bubbles on social media
 ***Required reading***:
 <br/>
@@ -218,8 +220,8 @@ American Mathematical Society Feature Column.
 - 
 <br/><br/><br/>
 
-## Week 7
-<b><i><font color="#E84E4E">February 18</font></i></b>
+
+<b><i><font color="#E84E4E">February 20</font></i></b>
 
 <div class="callout callout--info">
 <p><b>LAB: Network Analysis & calculating centrality measures</b></p>
@@ -237,8 +239,8 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 7
-<b><i><font color="#E84E4E">February 20</font></i></b>
+## Week 8
+<b><i><font color="#E84E4E">February 25</font></i></b>
 ### Text analysis: how do we get from words to numbers?
 ***Required reading***:
 <br/>
@@ -251,3 +253,202 @@ American Mathematical Society Feature Column.
 - Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
 
 <br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">February 27</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB: Getting started with text data</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+
+
+
+## Week 9
+<b><i><font color="#E84E4E">March 3</font></i></b>
+### Sentiment analysis
+***Required reading***:
+<br/>
+- Kramer et al. 2014. Experimental evidence of massive-scale emotional con- tagion through social networks Proceedings of the National Academy of Sciences
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">March 5</font></i></b>
+### MIDTERM EXAM
+
+
+
+
+## Week 9
+<b><i><font color="#E84E4E">March 5</font></i></b>
+### MIDTERM EXAM
+
+<br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">March 10</font></i></b>
+
+### SPRING RECESS
+<br/><br/><br/>
+
+
+## Week 10
+<b><i><font color="#E84E4E">March 12</font></i></b>
+### SPRING RECESS
+
+<br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">March 17</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB: Dictionary-based text analysis and sentiment analysis</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+
+## Week 11
+<b><i><font color="#E84E4E">March 3</font></i></b>
+### Topic Models
+***Required reading***:
+<br/>
+- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<b><i><font color="#E84E4E">March 19</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB:Basic topic modeling</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+
+## Week 12
+<b><i><font color="#E84E4E">March 24</font></i></b>
+### What are the most promising applications of data science?
+***Required reading***:
+<br/>
+- 
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<b><i><font color="#E84E4E">March 26</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB:</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+
+
+## Week 13
+<b><i><font color="#E84E4E">March 31</font></i></b>
+### TITLE
+***Required reading***:
+<br/>
+- 
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<b><i><font color="#E84E4E">April 2</font></i></b>
+### CLASS CANCELLED
+<br/><br/><br/>
+
+
+## Week 14
+<b><i><font color="#E84E4E">April 7</font></i></b>
+### TITLE
+***Required reading***:
+<br/>
+- 
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<b><i><font color="#E84E4E">April 9</font></i></b>
+
+<div class="callout callout--info">
+<p><b>LAB:</b></p>
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+ 
+
+## Week 14
+<b><i><font color="#E84E4E">April 14</font></i></b>
+### TITLE
+***Required reading***:
+<br/>
+- 
+<br/><br/>
+
+***Additional reading***:
+- 
+
+<b><i><font color="#E84E4E">April 16</font></i></b>
+### FINAL PRESENTATIONS
+<br/><br/><br/>
+
+## Week 14
+<b><i><font color="#E84E4E">April 21</font></i></b>
+### FINAL PRESENTATIONS
+ 
