@@ -164,7 +164,15 @@ American Mathematical Society Feature Column.
 </div>
 <br/>
 
-<b><i><font color="#E84E4E">January 30</font></i></b>
+
+<b><i><font color="#E84E4E">February 6</font></i></b>
+### CLASS CANCELLED
+<br/><br/><br/>
+
+
+
+## Week 6
+<b><i><font color="#E84E4E">February 11</font></i></b>
 ### Social Network basics
 
 ***Required reading***:
@@ -183,8 +191,7 @@ American Mathematical Society Feature Column.
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
 <br/><br/><br/>
 
-## Week 6
-<b><i><font color="#E84E4E">February 11</font></i></b>
+<b><i><font color="#E84E4E">February 13</font></i></b>
 
 <div class="callout callout--info">
 <p><b>LAB: Working with APIs</b></p>
@@ -227,8 +234,10 @@ American Mathematical Society Feature Column.
   <li></li>
 </ul>
 </div>
-<br/>
+<br/><br/><br/>
 
+
+## Week 7
 <b><i><font color="#E84E4E">February 20</font></i></b>
 ### Text analysis: how do we get from words to numbers?
 ***Required reading***:
