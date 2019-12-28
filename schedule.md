@@ -384,7 +384,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 13
+## Week 14
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### DISCUSSION
 ***Required reading***:
@@ -400,7 +400,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 14
+## Week 15
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### DISCUSSION
 ***Required reading***:
@@ -430,7 +430,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
  
 
-## Week 15
+## Week 16
 <b><i><font color="#E84E4E">April 14</font></i></b>
 #### DISCUSSION
 ***Required reading***:
@@ -445,7 +445,7 @@ American Mathematical Society Feature Column.
 ### FINAL PRESENTATIONS
 <br/><br/><br/>
 
-## Week 16
+## Week 17
 <b><i><font color="#E84E4E">April 21</font></i></b>
 ### FINAL PRESENTATIONS
  
