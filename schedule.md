@@ -22,7 +22,7 @@ page_nav:
 
 ## Week 1 - What is Data Science?
 <b><i><font color="#E84E4E">January 9</font></i></b>
-### Discussion
+#### Discussion
 
 ***Required reading***:
 - **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
@@ -35,7 +35,7 @@ page_nav:
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 <br/><br/><br/>
 
-## Week 2
+## Week 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14</font></i></b>
 
 <div class="callout callout--info">
@@ -58,7 +58,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 16</font></i></b>
-### New Data, Old Problems
+### Discussion
 
 ***Required reading***:
 - **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
@@ -69,7 +69,7 @@ page_nav:
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/>
 
-## Week 3
+## Week 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
 
 <div class="callout callout--info">
@@ -95,7 +95,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 23</font></i></b>
-### Research Ethics
+### Discussion
 ***Required reading***:
 - **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
@@ -106,7 +106,7 @@ page_nav:
 <br/><br/><br/>
 
 
-## Week 4
+## Week 4 - What is a Social Network?
 <b><i><font color="#E84E4E">January 28</font></i></b>
 
 <div class="callout callout--info">
@@ -129,7 +129,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
-### What is a Social Network?
+### Discussion
 
 ***Required reading***:
 <br/>
