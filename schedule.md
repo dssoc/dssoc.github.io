@@ -283,39 +283,33 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
 
 <br/><br/><br/>
 
-
 <b><i><font color="#E84E4E">March 5</font></i></b>
 ### MIDTERM EXAM
+<br/><br/><br/>
 
 
 
-
-## Week 9
+## Week 10
 <b><i><font color="#E84E4E">March 5</font></i></b>
 ### MIDTERM EXAM
-
 <br/><br/><br/>
 
 
 <b><i><font color="#E84E4E">March 10</font></i></b>
-
 ### SPRING RECESS
 <br/><br/><br/>
 
 
-## Week 10
+## Week 11
 <b><i><font color="#E84E4E">March 12</font></i></b>
 ### SPRING RECESS
-
 <br/><br/><br/>
 
 
 <b><i><font color="#E84E4E">March 17</font></i></b>
-
 <div class="callout callout--info">
 <p><b>LAB: Dictionary-based text analysis and sentiment analysis</b></p>
 <i>Assignment:</i> <br/>
@@ -331,7 +325,7 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## Week 11
+## Week 12
 <b><i><font color="#E84E4E">March 3</font></i></b>
 ### Topic Models
 ***Required reading***:
@@ -340,7 +334,7 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 19</font></i></b>
 
@@ -368,7 +362,7 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 26</font></i></b>
 
@@ -398,6 +392,7 @@ American Mathematical Society Feature Column.
 
 ***Additional reading***:
 - 
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 2</font></i></b>
 ### CLASS CANCELLED
@@ -413,7 +408,8 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
+<br/><br/><br/>
+
 
 <b><i><font color="#E84E4E">April 9</font></i></b>
 
@@ -442,7 +438,7 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 ***Additional reading***:
-- 
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 16</font></i></b>
 ### FINAL PRESENTATIONS
