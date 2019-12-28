@@ -13,8 +13,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: Syllabus
-        url: '/syllabus'
+        content: SylLabus
+        url: '/sylLabus'
     next:
         content: References
         url: '/references'
@@ -38,7 +38,7 @@ page_nav:
 ## Week 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14</font></i></b>
 
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Introduction to R and RStudio </b></p>
 <i>Assignment:</i> <br/>
@@ -72,7 +72,7 @@ page_nav:
 
 ## Week 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Data Wrangling </b></p>
 <i>Assignment:</i> <br/>
@@ -109,7 +109,7 @@ page_nav:
 
 ## Week 4 - What is a Social Network?
 <b><i><font color="#E84E4E">January 28</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Basic ggplot</b></p>
 <i>Assignment:</i> <br/>
@@ -146,7 +146,7 @@ American Mathematical Society Feature Column.
 
 ## Week 5 - Basic programming
 <b><i><font color="#E84E4E">February 4</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Basic programming</b></p>
 <i>Assignment:</i> <br/>
@@ -174,7 +174,7 @@ American Mathematical Society Feature Column.
 
 ## Week 6 - Social Network basics
 <b><i><font color="#E84E4E">February 11</font></i></b>
-#### DISCUSSION
+#### Discussion
 
 ***Required reading***:
 <br/>
@@ -193,7 +193,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Working with APIs</b></p>
 <i>Assignment:</i> <br/>
@@ -211,7 +211,7 @@ American Mathematical Society Feature Column.
 
 ## Week 7 - Filter bubbles on social media
 <b><i><font color="#E84E4E">February 18</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 -
@@ -223,7 +223,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Network Analysis & calculating centrality measures</b></p>
 <i>Assignment:</i> <br/>
@@ -242,7 +242,7 @@ American Mathematical Society Feature Column.
 
 ## Week 8 - Text analysis
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
@@ -257,7 +257,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 27</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Getting started with text data</b></p>
 <i>Assignment:</i> <br/>
@@ -277,7 +277,7 @@ American Mathematical Society Feature Column.
 
 ## Week 9 -Sentiment analysis
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - Kramer et al. 2014. Experimental evidence of massive-scale emotional con- tagion through social networks Proceedings of the National Academy of Sciences
@@ -311,7 +311,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">March 17</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Dictionary-based text analysis and sentiment analysis</b></p>
 <i>Assignment:</i> <br/>
@@ -329,7 +329,7 @@ American Mathematical Society Feature Column.
 
 ## Week 12 - Topic Models
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
@@ -339,7 +339,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 19</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>Basic topic modeling</b></p>
 <i>Assignment:</i> <br/>
@@ -357,7 +357,7 @@ American Mathematical Society Feature Column.
 
 ## Week 13 - the Future of Data Science
 <b><i><font color="#E84E4E">March 24</font></i></b>
-#### DISCUSSION 
+#### Discussion 
 ***Required reading***:
 <br/>
 - 
@@ -367,7 +367,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 26</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>title</b></p>
 <i>Assignment:</i> <br/>
@@ -386,7 +386,7 @@ American Mathematical Society Feature Column.
 
 ## Week 14
 <b><i><font color="#E84E4E">March 31</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - 
@@ -402,7 +402,7 @@ American Mathematical Society Feature Column.
 
 ## Week 15
 <b><i><font color="#E84E4E">April 7</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - 
@@ -413,7 +413,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">April 9</font></i></b>
-#### LAB
+#### Lab
 <div class="callout callout--info">
 <p><b>title</b></p>
 <i>Assignment:</i> <br/>
@@ -432,7 +432,7 @@ American Mathematical Society Feature Column.
 
 ## Week 16
 <b><i><font color="#E84E4E">April 14</font></i></b>
-#### DISCUSSION
+#### Discussion
 ***Required reading***:
 <br/>
 - 
