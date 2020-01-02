@@ -88,7 +88,7 @@ page_nav:
 <li>5.2.4</li>
 <li>5.3.1</li>
 <li>5.4.1</li>
-<li>5.6.7</li>
+<li>5.7.1</li>
 </ul></li>
 </ul>
 </div>
@@ -114,16 +114,14 @@ page_nav:
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 16)</a></li>
+<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
-<li>11.2.2</li>
 <li>12.2.1</li>
 <li>12.3.3</li>
 <li>12.4.3</li>
 <li>13.4.6</li>
-<li>13.5.1</li>
 </ul></li>
 </ul>
 </div>
@@ -144,12 +142,9 @@ page_nav:
 </ul></li>
 <li>Complete the following exercises:
 <ul>
-<li>19.2.1</li>
 <li>19.3.1</li>
 <li>19.4.4</li>
 <li>20.3.5</li>
-<li>20.4.6</li>
-<li>21.2.1</li>
 </ul></li>
 </ul>
 </div>
