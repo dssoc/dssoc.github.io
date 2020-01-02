@@ -21,7 +21,7 @@ page_nav:
 ---
 
 ## 1 - What is Data Science?
-<b><i><font color="#E84E4E">January 9 - Discussion </font></i></b>
+<b><i><font color="#E84E4E">January 9</font></i></b>
 
 ***Required reading***:
 - **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
@@ -57,7 +57,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 16</font></i></b>
-#### Discussion: Social Research in the Digital Age
+#### Social Research in the Digital Age
 
 ***Required reading***:
 - **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
