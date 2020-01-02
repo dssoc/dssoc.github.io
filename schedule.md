@@ -282,7 +282,7 @@ American Mathematical Society Feature Column.
 
 ## 10 - SPRING RECESS
 <b><i><font color="#E84E4E">March 10 & 12</font></i></b>
-#### NO CLASSES
+#### No Classes
 <br/><br/><br/><br/>
 
 
@@ -314,6 +314,102 @@ American Mathematical Society Feature Column.
   <li></li>
 </ul>
 </div>
-<br/><br/><br/><br/
+<br/><br/><br/><br/>
+
+
+## 12 - Sentiment analysis
+<b><i><font color="#E84E4E">March 24</font></i></b>
+#### Sentiment analysis
+***Required reading***:
+<br/>
+- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
+<br/><br/>
+
+***Additional reading***:
+<br/><br/><br/>
+
+<b><i><font color="#E84E4E">March 26</font></i></b>
+#### Word counts and Dictionaries (Lab)
+<div class="callout callout--info">
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/><br/>
+
+
+## 13 - Topic Models
+<b><i><font color="#E84E4E">March 31</font></i></b>
+#### LDA and Beyond
+***Required reading***:
+<br/>
+- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+<br/><br/>
+
+***Additional reading***:
+<br/><br/><br/>
+
+<b><i><font color="#E84E4E">April 12</font></i></b>
+#### Class Cancelled
+<br/><br/><br/><br/>
+
+
+
+
+## 14 - Topic Models, cont'd
+<b><i><font color="#E84E4E">April 7</font></i></b>
+#### Your First Topic Model (Lab)
+<div class="callout callout--info">
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/>
+
+<b><i><font color="#E84E4E">April 9</font></i></b>
+#### TOPIC
+***Required reading***:
+<br/>
+
+***Additional reading***:
+<br/><br/><br/><br/>
+
+
+## 15 - the Future of Data Science
+<b><i><font color="#E84E4E">April 14</font></i></b>
+#### Topic
+***Required reading***:
+<br/>
+- 
+<br/><br/>
+
+***Additional reading***:
+<br/><br/><br/>
+
+<b><i><font color="#E84E4E">April 16</font></i></b>
+#### FINAL PRESENTATIONS, Part 1
+<br/><br/><br/><br/>
+
+
+## 17 - Final Presentations
+<b><i><font color="#E84E4E">April 21</font></i></b>
+#### FINAL PRESENTATIONS, Part 2
+
+
+
 
 
