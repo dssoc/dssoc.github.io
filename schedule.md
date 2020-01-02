@@ -43,8 +43,10 @@ page_nav:
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages on RStudio: devtools, tidyverse, ggplot2</li>
-<li>Read the <a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a> to R for Data Science</li>
-</ul>
+<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<ul>
+<li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
+</ul></li></ul>
 <br/>
 
 <i>Resources:</i><br/>
@@ -166,12 +168,6 @@ American Mathematical Society Feature Column.
 <ul>
 <li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
 </ul></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
 </ul>
 </div>
 <br/>
