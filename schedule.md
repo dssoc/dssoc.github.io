@@ -20,7 +20,7 @@ page_nav:
         url: '/references'
 ---
 
-## Week 1 - What is Data Science?
+## 1 - What is Data Science?
 <b><i><font color="#E84E4E">January 9 - Discussion </font></i></b>
 
 ***Required reading***:
@@ -34,12 +34,12 @@ page_nav:
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 <br/><br/><br/>
 
-## Week 2 - New Data, Old Problems
+## 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14 </font></i></b>
 
-#### Lab: Introduction to R and RStudio
+#### Lab: Intro to R and RStudio
 <div class="callout callout--info">
-Intro to R and RStudio<i>Assignment:</i> <br/>
+<i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages on RStudio: </li>
@@ -68,7 +68,7 @@ Intro to R and RStudio<i>Assignment:</i> <br/>
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/>
 
-## Week 3 - Research Ethics
+## 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
 #### Lab: Data Wrangling
 <div class="callout callout--info">
