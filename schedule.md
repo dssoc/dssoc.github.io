@@ -73,7 +73,7 @@ page_nav:
 
 ## 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
-#### Data Wrangling (Lab)
+#### Data Wrangling, Part 1 (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -92,12 +92,6 @@ page_nav:
 <li>5.6.7</li>
 </ul></li>
 </ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
 </div>
 <br/>
 
@@ -115,31 +109,23 @@ page_nav:
 
 ## 4 - Intro to Social Networks
 <b><i><font color="#E84E4E">January 28</font></i></b>
-#### Basic ggplot (Lab)
+#### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
-<li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
+<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
 </ul></li>
-<li>Complete the following exercises:
+<li>Complete and submit the following exercises:
 <ul>
-<li>3.3.1</li>
-<li>3.5.1</li>
-<li>3.6.1</li>
-<li>3.8.1</li>
+<li>11.2.2</li>
+<li>12.2.1</li>
+<li>12.3.3</li>
+<li>12.4.3</li>
+<li>13.4.6</li>
+<li>13.5.1</li>
 </ul></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization</a> in R for Data Science.</li>
-  <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
-  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
-  <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
-  <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
 </ul>
 </div>
 <br/>
@@ -201,19 +187,35 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
-#### Working with APIs (Lab)
+
+#### Basic ggplot (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
+<li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<ul>
+<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
+</ul></li>
+<li>Complete the following exercises:
+<ul>
+<li>3.3.1</li>
+<li>3.5.1</li>
+<li>3.6.1</li>
+<li>3.8.1</li>
+</ul></li>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
 <ul>
-  <li></li>
+  <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization</a> in R for Data Science.</li>
+  <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
+  <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
+  <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
 </ul>
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 7 - Measuring social networks
@@ -230,6 +232,22 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
+
+#### Working with APIs (Lab)
+<div class="callout callout--info">
+<i>Assignment:</i> <br/>
+<ul>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/></br>
+
+
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
