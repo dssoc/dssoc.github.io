@@ -82,7 +82,6 @@ page_nav:
 <li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a></li>
 <li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
 <li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
-<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (9 - 16)</a></li>
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
@@ -115,7 +114,7 @@ page_nav:
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
+<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 16)</a></li>
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
@@ -142,6 +141,15 @@ page_nav:
 <li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
 <li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
+</ul></li>
+<li>Complete the following exercises:
+<ul>
+<li>19.2.1</li>
+<li>19.3.1</li>
+<li>19.4.4</li>
+<li>20.3.5</li>
+<li>20.4.6</li>
+<li>21.2.1</li>
 </ul></li>
 </ul>
 </div>
@@ -203,7 +211,7 @@ American Mathematical Society Feature Column.
 <br/>
 
 
-## 7 - Measuring social networks
+## 7 - Social networks, concepts and data
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Social Network basics
 
@@ -405,7 +413,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-## 17 - Final Presentations
+## 16 - Final Presentations
 <b><i><font color="#E84E4E">April 21</font></i></b>
 #### FINAL PRESENTATIONS, Part 2
 
