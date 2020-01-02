@@ -117,7 +117,16 @@ page_nav:
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
-<li></li>
+<li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<ul>
+<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li></ul>
+<li>Complete the following exercises:
+<ul>
+<li>3.3.1</li>
+<li>3.5.1</li>
+<li>3.6.1</li>
+<li>3.8.1</li>
+</ul></li>
 </ul>
 <br/>
 
