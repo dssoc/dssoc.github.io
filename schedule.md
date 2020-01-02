@@ -32,7 +32,7 @@ page_nav:
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 ## 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14 </font></i></b>
@@ -69,7 +69,7 @@ page_nav:
 
 ***Additional reading***:
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 ## 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
@@ -110,7 +110,7 @@ page_nav:
 ***Additional reading***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 ## 4 - Intro to Social Networks
@@ -121,7 +121,8 @@ page_nav:
 <ul>
 <li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li></ul>
+<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
+</ul></li>
 <li>Complete the following exercises:
 <ul>
 <li>3.3.1</li>
