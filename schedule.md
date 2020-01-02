@@ -35,11 +35,11 @@ page_nav:
 <br/><br/><br/>
 
 ## Week 2 - New Data, Old Problems
-<b><i><font color="#E84E4E">January 14 - Lab </font></i></b>
+<b><i><font color="#E84E4E">January 14 </font></i></b>
 
-#### Introduction to R and RStudio
+#### Lab: Introduction to R and RStudio
 <div class="callout callout--info">
-Introduction to R and RStudio<i>Assignment:</i> <br/>
+Intro to R and RStudio<i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages on RStudio: </li>
@@ -56,8 +56,8 @@ Introduction to R and RStudio<i>Assignment:</i> <br/>
 </div>
 <br/>
 
-<b><i><font color="#E84E4E">January 16 - Discussion</font></i></b>
-#### Social Research in the Digital Age
+<b><i><font color="#E84E4E">January 16</font></i></b>
+#### Discussion: Social Research in the Digital Age
 
 ***Required reading***:
 - **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
@@ -69,8 +69,8 @@ Introduction to R and RStudio<i>Assignment:</i> <br/>
 <br/><br/><br/>
 
 ## Week 3 - Research Ethics
-<b><i><font color="#E84E4E">January 21 - Lab</font></i></b>
-#### Data Wrangling
+<b><i><font color="#E84E4E">January 21</font></i></b>
+#### Lab: Data Wrangling
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
