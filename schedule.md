@@ -237,7 +237,7 @@ American Mathematical Society Feature Column.
   <li></li>
 </ul>
 </div>
-<br/><br/><br/></br>
+<br/><br/><br/><br/>
 
 
 ## 8 - Measuring social networks
@@ -245,13 +245,14 @@ American Mathematical Society Feature Column.
 #### Filter bubbles on social media
 ***Required reading***:
 <br/>
--
+
 
 <br/><br/>
 ***Additional reading***:
 - 
 <br/><br/><br/>
 
+<b><i><font color="#E84E4E">February 27</font></i></b>
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
@@ -271,17 +272,48 @@ American Mathematical Society Feature Column.
 ## 9 - MIDTERM EXAM
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### Review 
-<br/><br/><br/>
+<br/><br/>
 
 <b><i><font color="#E84E4E">March 5</font></i></b>
-### MIDTERM EXAM
+#### Midterm Exam
 <br/><br/><br/><br/>
 
 
 
 ## 10 - SPRING RECESS
-### NO CLASSES
+<b><i><font color="#E84E4E">March 10 & 12</font></i></b>
+#### NO CLASSES
 <br/><br/><br/><br/>
 
+
+## 11 - Text analysis
+<b><i><font color="#E84E4E">March 17</font></i></b>
+#### Words to Numbers
+***Required reading***:
+<br/>
+- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
+<br/><br/>
+
+***Additional reading***:
+- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
+- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
+- Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
+<br/><br/><br/>
+
+<b><i><font color="#E84E4E">March 19</font></i></b>
+#### Intro to text data (Lab)
+<div class="callout callout--info">
+<i>Assignment:</i> <br/>
+<ul>
+<li></li>
+</ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li></li>
+</ul>
+</div>
+<br/><br/><br/><br/
 
 
