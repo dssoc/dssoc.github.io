@@ -42,7 +42,8 @@ page_nav:
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
-<li>Install the following packages on RStudio: </li>
+<li>Install the following packages on RStudio: devtools, tidyverse, ggplot2</li>
+<li>Read the <a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a> to R for Data Science</li>
 </ul>
 <br/>
 
@@ -76,7 +77,6 @@ page_nav:
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
-<li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
 <li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a></li>
 <li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
 <li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
@@ -217,7 +217,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### Centrality measures (Lab)
+#### Network centrality measures (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -292,7 +292,7 @@ American Mathematical Society Feature Column.
 
 ## 11 - Dictionary-based text analysis
 <b><i><font color="#E84E4E">March 17</font></i></b>
-#### Dictionary-based text analysis (Lab)
+#### Word counts and  (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -409,9 +409,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
  
 
-## 16 - Wrapping Up
+## 16 - the Future of Data Science
 <b><i><font color="#E84E4E">April 14</font></i></b>
-#### the Future of Data Science
+#### ...
 ***Required reading***:
 <br/>
 - 
@@ -421,10 +421,10 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 16</font></i></b>
-#### Final Presentations
+#### FINAL PRESENTATIONS, Part 1
 <br/><br/><br/>
 
 ## 17 - Final Presentations
 <b><i><font color="#E84E4E">April 21</font></i></b>
-#### Final Presentations
+#### FINAL PRESENTATIONS, Part 2
  
