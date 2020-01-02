@@ -233,7 +233,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 8 - Text analysis
+## 8 - Text analysis, Part 1
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### Words to Numbers
 ***Required reading***:
@@ -267,9 +267,9 @@ American Mathematical Society Feature Column.
 
 
 
-## 9 -Sentiment analysis
+## 9 - Text Analysis, Part 2
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### What does it *mean*
+#### Sentiment analysis
 ***Required reading***:
 <br/>
 - Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
@@ -288,12 +288,11 @@ American Mathematical Society Feature Column.
 ## 10 - Spring Recess
 
 
-## 11 - Dictionary-based text analysis
+## 11 - Text Analysius, Part 3
 
 <b><i><font color="#E84E4E">March 17</font></i></b>
-#### (Lab)
+#### Dictionary-based text analysis (Lab)
 <div class="callout callout--info">
-<p><b>Dictionary-based text analysis and sentiment analysis</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li></li>
@@ -307,9 +306,9 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## 12 - Topic Models
+## 12 - Text Analysius, Part 4
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Latent Dirichlet Allocation
+#### Topic Models
 ***Required reading***:
 <br/>
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
