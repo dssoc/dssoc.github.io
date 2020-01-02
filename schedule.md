@@ -21,8 +21,7 @@ page_nav:
 ---
 
 ## Week 1 - What is Data Science?
-<b><i><font color="#E84E4E">January 9</font></i></b>
-#### Discussion
+<b><i><font color="#E84E4E">January 9 - Discussion </font></i></b>
 
 ***Required reading***:
 - **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
@@ -36,12 +35,11 @@ page_nav:
 <br/><br/><br/>
 
 ## Week 2 - New Data, Old Problems
-<b><i><font color="#E84E4E">January 14</font></i></b>
+<b><i><font color="#E84E4E">January 14 - Lab </font></i></b>
 
-#### Lab
+#### Introduction to R and RStudio
 <div class="callout callout--info">
-<p><b>Introduction to R and RStudio </b></p>
-<i>Assignment:</i> <br/>
+Introduction to R and RStudio<i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages on RStudio: </li>
@@ -58,8 +56,8 @@ page_nav:
 </div>
 <br/>
 
-<b><i><font color="#E84E4E">January 16</font></i></b>
-#### Discussion
+<b><i><font color="#E84E4E">January 16 - Discussion</font></i></b>
+#### Social Research in the Digital Age
 
 ***Required reading***:
 - **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
@@ -71,10 +69,9 @@ page_nav:
 <br/><br/><br/>
 
 ## Week 3 - Research Ethics
-<b><i><font color="#E84E4E">January 21</font></i></b>
-#### Lab
+<b><i><font color="#E84E4E">January 21 - Lab</font></i></b>
+#### Data Wrangling
 <div class="callout callout--info">
-<p><b>Data Wrangling </b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
