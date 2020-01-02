@@ -167,7 +167,7 @@ American Mathematical Society Feature Column.
 
 
 
-## 6 - Social Network Concepts & Data
+## 6 - Social network concepts & data
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### Social Network basics
 
@@ -203,7 +203,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 7 - Measuring Social Networks
+## 7 - Measuring social networks
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Filter bubbles on social media
 ***Required reading***:
@@ -267,7 +267,7 @@ American Mathematical Society Feature Column.
 
 
 
-## 9 - Text & Sentiment Analysis
+## 9 - Sentiment analysis
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### Sentiment analysis
 ***Required reading***:
@@ -285,12 +285,12 @@ American Mathematical Society Feature Column.
 
 
 
-## 10 - Spring Recess
+## 10 - SPRING RECESS
 ### NO CLASSES
 <br/><br/><br/>
 
 
-## 11 - Dictionary-based Text Analysis
+## 11 - Dictionary-based text analysis
 <b><i><font color="#E84E4E">March 17</font></i></b>
 #### Dictionary-based text analysis (Lab)
 <div class="callout callout--info">
@@ -307,7 +307,7 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## 12 - Text Analysis, Topic Models
+## 12 - Topic Models for text analysis
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### LDA and Beyond
 ***Required reading***:
@@ -363,7 +363,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 14
+## 14 -
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### Discussion
 ***Required reading***:
@@ -379,7 +379,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 15
+## 15 - 
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Discussion
 ***Required reading***:
