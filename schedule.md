@@ -104,7 +104,7 @@ page_nav:
 <br/><br/><br/>
 
 
-## 4 - Social Networks (Part 1)
+## 4 - Social Networks, Part 1
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Basic ggplot (Lab)
 <div class="callout callout--info">
@@ -167,7 +167,7 @@ American Mathematical Society Feature Column.
 
 
 
-## 6 - Social Networks (Part 2)
+## 6 - Social Networks, Part 2
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### Social Network basics
 
@@ -203,7 +203,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 7 - Social Networks (Part 3)
+## 7 - Social Networks, Part 3
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Filter bubbles on social media
 ***Required reading***:
@@ -217,7 +217,7 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### Calculating centrality measures (Lab)
+#### Centrality measures (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -233,9 +233,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 8 - Text analysis
+## 8 - Text analysis
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### Discussion
+#### Words to Numbers
 ***Required reading***:
 <br/>
 - James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
@@ -250,9 +250,8 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 27</font></i></b>
-#### Lab
+#### Intro to text data (Lab)
 <div class="callout callout--info">
-<p><b>Getting started with text data</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li></li>
@@ -268,12 +267,12 @@ American Mathematical Society Feature Column.
 
 
 
-## Week 9 -Sentiment analysis
+## 9 -Sentiment analysis
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Discussion
+#### What does it *mean*
 ***Required reading***:
 <br/>
-- Kramer et al. 2014. Experimental evidence of massive-scale emotional con- tagion through social networks Proceedings of the National Academy of Sciences
+- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
 <br/><br/>
 
 ***Additional reading***:
@@ -286,25 +285,13 @@ American Mathematical Society Feature Column.
 
 
 
-## Week 10 - Spring Recess
-<b><i><font color="#E84E4E">March 5</font></i></b>
-### SPRING RECESS
-<br/><br/><br/>
+## 10 - Spring Recess
 
 
-<b><i><font color="#E84E4E">March 10</font></i></b>
-### SPRING RECESS
-<br/><br/><br/>
-
-
-## Week 11 - Dictionary-based text analysis
-<b><i><font color="#E84E4E">March 12</font></i></b>
-### SPRING RECESS
-<br/><br/><br/>
-
+## 11 - Dictionary-based text analysis
 
 <b><i><font color="#E84E4E">March 17</font></i></b>
-#### Lab
+#### (Lab)
 <div class="callout callout--info">
 <p><b>Dictionary-based text analysis and sentiment analysis</b></p>
 <i>Assignment:</i> <br/>
@@ -320,9 +307,9 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## Week 12 - Topic Models
+## 12 - Topic Models
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Discussion
+#### Latent Dirichlet Allocation
 ***Required reading***:
 <br/>
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
@@ -332,9 +319,8 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 19</font></i></b>
-#### Lab
+#### Your First Topic Model (Lab)
 <div class="callout callout--info">
-<p><b>Basic topic modeling</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li></li>
@@ -348,7 +334,7 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## Week 13 - the Future of Data Science
+## 13 - the Future of Data Science
 <b><i><font color="#E84E4E">March 24</font></i></b>
 #### Discussion 
 ***Required reading***:
@@ -360,7 +346,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 26</font></i></b>
-#### Lab
+#### (Lab)
 <div class="callout callout--info">
 <p><b>title</b></p>
 <i>Assignment:</i> <br/>
