@@ -104,7 +104,7 @@ page_nav:
 <br/><br/><br/>
 
 
-## 4 - Social Networks, Part 1
+## 4 - Intro to Social Networks
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Basic ggplot (Lab)
 <div class="callout callout--info">
@@ -140,7 +140,7 @@ page_nav:
 American Mathematical Society Feature Column.
 <br/><br/><br/>
 
-## 5 - Basic programming
+## 5 - Basics of programming
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
@@ -167,7 +167,7 @@ American Mathematical Society Feature Column.
 
 
 
-## 6 - Social Networks, Part 2
+## 6 - Social Network Concepts & Data
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### Social Network basics
 
@@ -203,7 +203,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 7 - Social Networks, Part 3
+## 7 - Measuring Social Networks
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Filter bubbles on social media
 ***Required reading***:
@@ -233,7 +233,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 8 - Text analysis, Part 1
+## 8 - Intro to Text Analysis
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### Words to Numbers
 ***Required reading***:
@@ -267,7 +267,7 @@ American Mathematical Society Feature Column.
 
 
 
-## 9 - Text Analysis, Part 2
+## 9 - Text & Sentiment Analysis
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### Sentiment analysis
 ***Required reading***:
@@ -286,10 +286,11 @@ American Mathematical Society Feature Column.
 
 
 ## 10 - Spring Recess
+### NO CLASSES
+<br/><br/><br/>
 
 
-## 11 - Text Analysius, Part 3
-
+## 11 - Dictionary-based Text Analysis
 <b><i><font color="#E84E4E">March 17</font></i></b>
 #### Dictionary-based text analysis (Lab)
 <div class="callout callout--info">
@@ -306,9 +307,9 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## 12 - Text Analysius, Part 4
+## 12 - Text Analysis, Topic Models
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Topic Models
+#### LDA and Beyond
 ***Required reading***:
 <br/>
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
@@ -333,7 +334,7 @@ American Mathematical Society Feature Column.
 </div>
 <br/><br/><br/>
 
-## 13 - the Future of Data Science
+## 13 - 
 <b><i><font color="#E84E4E">March 24</font></i></b>
 #### Discussion 
 ***Required reading***:
@@ -408,9 +409,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
  
 
-## Week 16
+## 16 - Wrapping Up
 <b><i><font color="#E84E4E">April 14</font></i></b>
-#### Discussion
+#### the Future of Data Science
 ***Required reading***:
 <br/>
 - 
@@ -420,10 +421,10 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 16</font></i></b>
-### FINAL PRESENTATIONS
+#### Final Presentations
 <br/><br/><br/>
 
-## Week 17
+## 17 - Final Presentations
 <b><i><font color="#E84E4E">April 21</font></i></b>
-### FINAL PRESENTATIONS
+#### Final Presentations
  
