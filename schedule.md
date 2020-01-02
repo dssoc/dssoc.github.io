@@ -106,7 +106,7 @@ page_nav:
 <br/><br/><br/><br/>
 
 
-## 4 - Basics of programming
+## 4 - Open Topic
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
@@ -132,7 +132,7 @@ page_nav:
 <br/><br/><br/><br/>
 
 
-## 5 - Basics of Programming, cont'd
+## 5 - Basics of Programming
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
@@ -226,10 +226,9 @@ American Mathematical Society Feature Column.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
-
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-
 #### Working with APIs (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
