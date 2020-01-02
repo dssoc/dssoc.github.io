@@ -125,9 +125,11 @@ page_nav:
 </ul></li>
 </ul>
 </div>
-<br/>
+<br/><br/><br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
+#### OPEN TOPIC
+<br/><br/><br/><br/>
 
 
 ## 5 - Basics of Programming, cont'd
