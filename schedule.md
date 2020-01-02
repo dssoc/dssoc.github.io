@@ -82,6 +82,13 @@ page_nav:
 <li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
 <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (9 - 16)</a></li>
 </ul></li>
+<li>Complete and submit the following exercises:
+<ul>
+<li>5.2.4</li>
+<li>5.3.1</li>
+<li>5.4.1</li>
+<li>5.6.7</li>
+</ul></li>
 </ul>
 <br/>
 
