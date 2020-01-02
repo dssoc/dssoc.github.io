@@ -107,7 +107,7 @@ page_nav:
 <br/><br/><br/><br/>
 
 
-## 4 - Intro to Social Networks
+## 4 - Basics of programming
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
@@ -131,21 +131,9 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
-#### What is a Social Network?
 
-***Required reading***:
-<br/>
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
-<br/><br/>
 
-***Additional reading***:
-- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
-- Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-- David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
-American Mathematical Society Feature Column.
-<br/><br/><br/>
-
-## 5 - Basics of programming
+## 5 - Basics of Programming, cont'd
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
@@ -162,29 +150,26 @@ American Mathematical Society Feature Column.
 
 <b><i><font color="#E84E4E">February 6</font></i></b>
 ### CLASS CANCELLED
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 
-## 6 - Social network concepts & data
+## 6 - Intro to Social Networks
 <b><i><font color="#E84E4E">February 11</font></i></b>
-#### Social Network basics
+#### What is a Social Network?
 
 ***Required reading***:
 <br/>
-- Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
-- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Stanley Milgram. [**The small world problem**](), Psychology Today.
-- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
-- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
 <br/><br/>
 
 ***Additional reading***:
-- Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
-- Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
-- Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
-- James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
+- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+- David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
+American Mathematical Society Feature Column.
 <br/><br/><br/>
+
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
 
@@ -220,15 +205,22 @@ American Mathematical Society Feature Column.
 
 ## 7 - Measuring social networks
 <b><i><font color="#E84E4E">February 18</font></i></b>
-#### Filter bubbles on social media
+#### Social Network basics
+
 ***Required reading***:
 <br/>
--
-
+- Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
+- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
+- Stanley Milgram. [**The small world problem**](), Psychology Today.
+- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
+- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 <br/><br/>
+
 ***Additional reading***:
-- 
-<br/><br/><br/>
+- Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
+- Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
+- James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
@@ -248,6 +240,18 @@ American Mathematical Society Feature Column.
 <br/><br/><br/></br>
 
 
+## 8 - Measuring social networks
+<b><i><font color="#E84E4E">February 25</font></i></b>
+#### Filter bubbles on social media
+***Required reading***:
+<br/>
+-
+
+<br/><br/>
+***Additional reading***:
+- 
+<br/><br/><br/>
+
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
@@ -264,198 +268,20 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## 8 - Intro to Text Analysis
-<b><i><font color="#E84E4E">February 25</font></i></b>
-#### Words to Numbers
-***Required reading***:
-<br/>
-- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
-<br/><br/>
-
-***Additional reading***:
-- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
-- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
-- Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
-
-<br/><br/><br/>
-
-
-<b><i><font color="#E84E4E">February 27</font></i></b>
-#### Intro to text data (Lab)
-<div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
-
-
-
-## 9 - Sentiment analysis
+## 9 - MIDTERM EXAM
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Sentiment analysis
-***Required reading***:
-<br/>
-- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
-<br/><br/>
-
-***Additional reading***:
-
+#### Review 
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 5</font></i></b>
 ### MIDTERM EXAM
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 
 ## 10 - SPRING RECESS
 ### NO CLASSES
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
-## 11 - Dictionary-based text analysis
-<b><i><font color="#E84E4E">March 17</font></i></b>
-#### Word counts and  (Lab)
-<div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
 
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
-
-## 12 - Topic Models for text analysis
-<b><i><font color="#E84E4E">March 3</font></i></b>
-#### LDA and Beyond
-***Required reading***:
-<br/>
-- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">March 19</font></i></b>
-#### Your First Topic Model (Lab)
-<div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
-
-## 13 - 
-<b><i><font color="#E84E4E">March 24</font></i></b>
-#### Discussion 
-***Required reading***:
-<br/>
-- 
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">March 26</font></i></b>
-#### (Lab)
-<div class="callout callout--info">
-<p><b>title</b></p>
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
-
-
-## 14 -
-<b><i><font color="#E84E4E">March 31</font></i></b>
-#### Discussion
-***Required reading***:
-<br/>
-- 
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">April 2</font></i></b>
-### CLASS CANCELLED
-<br/><br/><br/>
-
-
-## 15 - 
-<b><i><font color="#E84E4E">April 7</font></i></b>
-#### Discussion
-***Required reading***:
-<br/>
-- 
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
-
-
-<b><i><font color="#E84E4E">April 9</font></i></b>
-#### Lab
-<div class="callout callout--info">
-<p><b>title</b></p>
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
- 
-
-## 16 - the Future of Data Science
-<b><i><font color="#E84E4E">April 14</font></i></b>
-#### ...
-***Required reading***:
-<br/>
-- 
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">April 16</font></i></b>
-#### FINAL PRESENTATIONS, Part 1
-<br/><br/><br/>
-
-## 17 - Final Presentations
-<b><i><font color="#E84E4E">April 21</font></i></b>
-#### FINAL PRESENTATIONS, Part 2
- 
