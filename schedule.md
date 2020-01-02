@@ -37,7 +37,7 @@ page_nav:
 ## 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14 </font></i></b>
 
-#### Lab: Intro to R and RStudio
+#### Intro to R and RStudio (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -70,7 +70,7 @@ page_nav:
 
 ## 3 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
-#### Lab: Data Wrangling
+#### Data Wrangling (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -93,7 +93,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 23</font></i></b>
-#### Discussion
+#### Able is not always ethical
 ***Required reading***:
 - **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
@@ -104,11 +104,10 @@ page_nav:
 <br/><br/><br/>
 
 
-## Week 4 - What is a Social Network?
+## 4 - Social Networks (Part 1)
 <b><i><font color="#E84E4E">January 28</font></i></b>
-#### Lab
+#### Basic ggplot (Lab)
 <div class="callout callout--info">
-<p><b>Basic ggplot</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li></li>
@@ -127,7 +126,7 @@ page_nav:
 <br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
-#### Discussion
+#### What is a Social Network?
 
 ***Required reading***:
 <br/>
@@ -141,11 +140,10 @@ page_nav:
 American Mathematical Society Feature Column.
 <br/><br/><br/>
 
-## Week 5 - Basic programming
+## 5 - Basic programming
 <b><i><font color="#E84E4E">February 4</font></i></b>
-#### Lab
+#### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
-<p><b>Basic programming</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Work through the following chapter of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
@@ -169,9 +167,9 @@ American Mathematical Society Feature Column.
 
 
 
-## Week 6 - Social Network basics
+## 6 - Social Networks (Part 2)
 <b><i><font color="#E84E4E">February 11</font></i></b>
-#### Discussion
+#### Social Network basics
 
 ***Required reading***:
 <br/>
@@ -190,9 +188,8 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
-#### Lab
+#### Working with APIs (Lab)
 <div class="callout callout--info">
-<p><b>Working with APIs</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 </ul>
@@ -206,9 +203,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 
-## Week 7 - Filter bubbles on social media
+## 7 - Social Networks (Part 3)
 <b><i><font color="#E84E4E">February 18</font></i></b>
-#### Discussion
+#### Filter bubbles on social media
 ***Required reading***:
 <br/>
 -
@@ -220,9 +217,8 @@ American Mathematical Society Feature Column.
 
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### Lab
+#### Calculating centrality measures (Lab)
 <div class="callout callout--info">
-<p><b>Network Analysis & calculating centrality measures</b></p>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Calculate the average number of retweets one of Elizabeth Warren's tweets receives.</li>
