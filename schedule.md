@@ -42,7 +42,8 @@ page_nav:
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
-<li>Install the following packages on RStudio: devtools, tidyverse, ggplot2</li>
+<li>Install the following packages on RStudio: devtools, tidyverse, ggplot2, knitr</li>
+<ul><li>to do this, run the folling code command in R Studio: <code>install.packages(c("devtools", "tidyverse", "ggplot2", "knitr"))</code></li></ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
 <li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
@@ -52,7 +53,7 @@ page_nav:
 <i>Resources:</i><br/>
 <ul>
   <li>Installing R (Mac / PC)</li>
-  <li>Installing packages in RStudio</li>
+  <li><a href = "http://r-pkgs.had.co.nz/intro.html">Installing packages in RStudio</a></li>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
 </ul>
