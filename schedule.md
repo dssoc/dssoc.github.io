@@ -42,7 +42,7 @@ page_nav:
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
-<li>Install the following packages in RStudio: devtools, tidyverse, ggplot2, knitr. to do this, run the folling code command in R Studio:
+<li>Install the following packages in RStudio: devtools, tidyverse, ggplot2, knitr by executing the following code command in R Studio:
 <br/><small><code>install.packages(c("devtools", "tidyverse", "ggplot2", "knitr"))</code></small></li>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
@@ -64,7 +64,7 @@ page_nav:
 #### Social Research in the Digital Age
 
 ***Required reading***:
-- **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
+- Matthew Salganik. **Bit by Bit**, [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 <br/><br/>
 
@@ -98,7 +98,7 @@ page_nav:
 <b><i><font color="#E84E4E">January 23</font></i></b>
 #### Able is not always ethical
 ***Required reading***:
-- **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
+- Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
 
 ***Additional reading***:
@@ -170,7 +170,9 @@ page_nav:
 <br/><br/>
 
 ***Additional reading***:
+- Stanley Milgram. [**The small world problem**](), Psychology Today.
 - Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
+- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
 - Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 - David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
@@ -183,26 +185,27 @@ American Mathematical Society Feature Column.
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-<ul>
-<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
-<li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html"</a></li>
-</ul></li>
-<li>Complete the following exercises:
-<ul>
-<li>3.3.1</li>
-<li>3.5.1</li>
-<li>3.6.1</li>
-<li>3.8.1</li>
-<li>28.2.1</li>
-</ul></li>
+  <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+  <ul>
+    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
+    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a></li>
+  </ul></li>
+  <li>Complete the following exercises:
+  <ul>
+    <li>3.3.1</li>
+    <li>3.5.1</li>
+    <li>3.6.1</li>
+    <li>3.8.1</li>
+    <li>28.2.1</li>
+  </ul></li>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
 <ul>
+
   <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization</a> in R for Data Science.</li>
-  <li>Kieran Healy, <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+  <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
@@ -219,8 +222,6 @@ American Mathematical Society Feature Column.
 <br/>
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
 - Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Stanley Milgram. [**The small world problem**](), Psychology Today.
-- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
 - Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 <br/><br/>
 
