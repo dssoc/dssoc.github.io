@@ -42,7 +42,7 @@ page_nav:
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
-<li>Install the following packages in RStudio: devtools, tidyverse, ggplot2, knitr by executing the following code command in R Studio:
+<li>Install the following packages in RStudio by executing the following code command in R Studio:
 <br/><small><code>install.packages(c("devtools", "tidyverse", "ggplot2", "knitr"))</code></small></li>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
@@ -170,9 +170,8 @@ page_nav:
 <br/><br/>
 
 ***Additional reading***:
-- Stanley Milgram. [**The small world problem**](), Psychology Today.
-- Duncan Watts. 1999. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
-- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba), Blog post.
+- Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
+- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
 - Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 - David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
