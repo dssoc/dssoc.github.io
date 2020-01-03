@@ -39,8 +39,8 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ***Required Readings***
 <br/>
-- Matthew J Salganik (2017). **Bit by Bit: Social Research in the Digital Age**, *Princeton University Press*: [https://www.bitbybitbook.com/en/1st-ed/preface/](https://www.bitbybitbook.com/en/1st-ed/preface/)
-- Garrett Grolemund & Hadley Wickham. **R for Data Science**, *O'Reily*:[http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
+- **Bit by Bit: Social Research in the Digital Age**. Matthew J Salganik (2017), *Princeton University Press*: [https://www.bitbybitbook.com/en/1st-ed/preface/](https://www.bitbybitbook.com/en/1st-ed/preface/)
+- **R for Data Science**. Garrett Grolemund & Hadley Wickham, *O'Reilly*: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
 <br/><br/>
 
 ***Annotated Computer Code***
