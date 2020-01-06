@@ -27,10 +27,10 @@ author:
     
 # Grid navigation
 grid_navigation:
-    - title: Syllabus
+    - title: Course Description
       excerpt: Sociol 367S
-      cta: Winter 2020
-      url: '/syllabus'
+      cta:
+      url: '/course'
       
     - title: Schedule
       excerpt: Sociol 367S

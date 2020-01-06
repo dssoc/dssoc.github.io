@@ -5,7 +5,7 @@ keywords:
 comments: false
 
 # Hero section
-title: Syllabus
+title: Course Description & Policies
 description: Duke University, Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
 
 
@@ -22,9 +22,10 @@ The past decade has witnessed an explosion of data produced by websites such as 
 <div class="callout callout--info">
 <p><strong>Professor Christopher A. Bail</strong></p>
 <i>Sociology, Public Policy, and Data Science</i> <br/>
+254 Soc Psych Hall <br/>
 christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: <br/>
+Office Hours: T, 12-1:15pm 
 <br/><br/>
 
 <strong>TA: Taylor W. Brown </strong>

@@ -13,8 +13,8 @@ micro_nav: true
 # Page navigation
 page_nav:
     prev:
-        content: SylLabus
-        url: '/sylLabus'
+        content: Course Description
+        url: '/course'
     next:
         content: References
         url: '/references'
@@ -86,10 +86,10 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
-<li>5.2.4</li>
-<li>5.3.1</li>
-<li>5.4.1</li>
-<li>5.7.1</li>
+<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-7">5.2.4</a></li>
+<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-8">5.3.1</a></li>
+<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-9">5.4.1</a></li>
+<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-12">5.7.1</a></li>
 </ul></li>
 </ul>
 </div>
@@ -119,10 +119,10 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
-<li>12.2.1</li>
-<li>12.3.3</li>
-<li>12.4.3</li>
-<li>13.4.6</li>
+<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-21">12.2.1</a></li>
+<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-22">12.3.3</a></li>
+<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-23">12.4.3</a></li>
+<li><a href = "https://r4ds.had.co.nz/relational-data.html#exercises-28">13.4.6</a></li>
 </ul></li>
 </ul>
 </div>
@@ -145,9 +145,9 @@ page_nav:
 </ul></li>
 <li>Complete the following exercises:
 <ul>
-<li>19.3.1</li>
-<li>19.4.4</li>
-<li>20.3.5</li>
+<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-48">19.3.1</a></li>
+<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-49">19.4.4</a></li>
+<li><a href = "https://r4ds.had.co.nz/vectors.html#exercises-51">20.3.5</a></li>
 </ul></li>
 </ul>
 </div>
@@ -191,23 +191,23 @@ American Mathematical Society Feature Column.
   </ul></li>
   <li>Complete the following exercises:
   <ul>
-    <li>3.3.1</li>
-    <li>3.5.1</li>
-    <li>3.6.1</li>
-    <li>3.8.1</li>
-    <li>28.2.1</li>
+    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-1">3.3.1</a></li>
+    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-2">3.5.1</a></li>
+    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-3">3.6.1</a></li>
+    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-5">3.8.1</a></li>
+    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html#exercises-71">28.2.1</a></li>
   </ul></li>
 </ul>
 <br/>
 
 <i>Resources:</i><br/>
 <ul>
-
-  <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization</a> in R for Data Science.</li>
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
-  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
+  <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"Sometimes the y-axis doesn't start at zero, and it's fine.</a> Vox.</li>
+  <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
+  
 </ul>
 </div>
 <br/>
@@ -388,7 +388,7 @@ American Mathematical Society Feature Column.
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 9</font></i></b>
-#### TOPIC
+#### the Future of Data Science
 ***Required reading***:
 <br/>
 
@@ -396,9 +396,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-## 15 - the Future of Data Science
+## 15 - Group Projects
 <b><i><font color="#E84E4E">April 14</font></i></b>
-#### Topic
+#### In-class project time
 ***Required reading***:
 <br/>
 - 
