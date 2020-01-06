@@ -54,7 +54,7 @@ page_nav:
 #### Social Research in the Digital Age
 
 ***Required reading***:
-- Matthew Salganik. **Bit by Bit**, [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/) & [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/) & [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
+- Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 <br/><br/>
 
