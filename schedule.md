@@ -22,12 +22,15 @@ page_nav:
 
 ## 1 - What is Data Science?
 <b><i><font color="#E84E4E">January 9</font></i></b>
+#### Introduction and Syllabus
+
+
 <br/><br/><br/><br/>
 
 ## 2 - New Data, Old Problems
 <b><i><font color="#E84E4E">January 14 </font></i></b>
 
-#### Intro to R and RStudio (Lab)
+#### R and RStudio (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
