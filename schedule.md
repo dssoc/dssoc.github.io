@@ -126,7 +126,16 @@ page_nav:
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
-#### OPEN TOPIC
+#### Political Polraization
+
+***Required reading***:
+<br/>
+- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), PNAS.
+- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
+<br/><br/>
+
+***Additional reading***:
+- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 <br/><br/><br/><br/>
 
 
@@ -172,7 +181,7 @@ page_nav:
 - Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 - David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
