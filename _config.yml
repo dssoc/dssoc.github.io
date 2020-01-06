@@ -25,10 +25,7 @@ doks:
               profile_url: '#'
             - network_name: youtube
               profile_url: '#'
-    google_analytics:
-        tracking_code: # Add your Google Analytics tracking code to activate Google Analytics
-    comments:
-        disqus_forum_shortname: # Add your disqus forum shortname to activate comments
+
 
 # SASS settings
 sass:
