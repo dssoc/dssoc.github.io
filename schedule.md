@@ -104,7 +104,7 @@ page_nav:
 <br/><br/><br/><br/>
 
 
-## 4 - Open Topic
+## 4 - Social Media & Political Polarization
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
@@ -126,7 +126,7 @@ page_nav:
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
-#### Political Polraization
+#### Social Media, Filter Bubbles, and Political Polarization
 
 ***Required reading***:
 <br/>
