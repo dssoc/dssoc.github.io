@@ -6,7 +6,7 @@ doks:
 
     header:
         logo:
-            text: Data Science & Society
+            text:
             image: true
         nav:
             - item_name: Course Description
