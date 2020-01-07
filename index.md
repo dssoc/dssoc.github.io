@@ -19,7 +19,9 @@ buttons:
 # Author box
 author: 
     title: Christopher A. Bail
-    description: Professor of Sociology, Public Policy, and Data Science, Duke University https://www.chrisbail.net/
+    title_url: 'https://www.chrisbail.net/'
+    external_url: true
+    description: Professor of Sociology, Public Policy, and Data Science, Duke University 
 
     
     
