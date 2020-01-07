@@ -3,10 +3,11 @@ doks:
     baseurl: "https://dssoc.github.io"
     url: "https://dssoc.github.io"
     color_theme: blue
+
     header:
         logo:
             text: Data Science & Society
-            image: /doks-theme/assets/images/layout/logo.png
+            image: true
         nav:
             - item_name: Course Description
               item_url: '/course'
