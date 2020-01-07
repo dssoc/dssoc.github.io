@@ -5,7 +5,8 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Resources and instruction for Data Science and Society (Sociol 367S) at Duke University.
+description: Resources and instruction for Sociol 367S at Duke University
+
 buttons:
     - content:
       url: 'https://github.com/cbail'
@@ -23,7 +24,9 @@ author:
     external_url: true
     description: Professor of Sociology, Public Policy, and Data Science, Duke University 
 
-    
+
+# Micro navigation
+micro_nav: false
     
 # Grid navigation
 grid_navigation:
