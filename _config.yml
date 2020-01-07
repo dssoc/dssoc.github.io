@@ -6,8 +6,8 @@ doks:
 
     header:
         logo:
-            text:
-            image: true
+            text: Data Science & Society
+            image:
         nav:
             - item_name: Course Description
               item_url: '/course'
