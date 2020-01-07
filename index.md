@@ -19,9 +19,9 @@ buttons:
 
 # Author box
 author: 
-    title: Christopher A. Bail
+    title: Prof. Christopher A. Bail
     title_url: '#'
-    description: <b>Duke University </b><br/> <i>Professor of Sociology, Public Policy, and Data Science</i> <br/> https://www.chrisbail.net/
+    description: <b>Sociology, Public Policy, and Data Science</b> <i>Duke University </i><br/>  <br/> https://www.chrisbail.net/
 
 
 # Micro navigation
