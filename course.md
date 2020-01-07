@@ -46,7 +46,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ***Annotated Computer Code***
 <br/>
-At the end of each class on Thursday, I will upload the code we write together to the Github site linked above in order to help you practice your coding skills and, eventually, contribute to the code that we will write together as part of our group project.
+At the end of each Lab class, I will upload the code we write together to the Github site linked above in order to help you practice your coding skills and, eventually, contribute to the code that we will write together as part of our group project.
 <br/><br/>
 
 ***Stack Overflow***
@@ -78,9 +78,16 @@ This class alternates between discussions of assigned readings and “labs” wh
 
 ***Reading***
 <br/>
-You are responsible for understanding the readings. Make use of your fellow students, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion sections will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a “living document.” By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least one week’s notice.
+You are responsible for understanding the readings. Make use of your fellow students, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion classes will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least one week's notice.
 <br/><br/>
-	
+
+***Lab Assignments***
+<br/>
+Prior to each Lab class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. 
+Exercises will be graded according to your attempt to complete them.
+<br/><br/>
+
+
 ***Participation***
 <br/>
 Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape our group research project (described below). On Slack, you will organize your group and further develop the research project, which is why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
