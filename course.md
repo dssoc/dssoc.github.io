@@ -74,7 +74,7 @@ Many of the most important advances in computational social science appear first
 ### FORMAL REQUIREMENTS
 
 This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science as we do an original research project together. We will identify the topic of our research project during the first few weeks of the class. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Note that lab assignments are ungraded, but mandatory. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
-<br/>
+<br/><br/>
 
 ***Reading***
 <br/>
@@ -84,7 +84,7 @@ You are responsible for understanding the readings. Make use of your fellow stud
 ***Lab Assignments***
 <br/>
 Prior to each Lab class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. 
-Exercises will be graded according to your attempt to complete them.
+Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of questions, 2% for attempting all questions, 3% for attempting *and* annotating all questions.
 <br/><br/>
 
 
@@ -97,7 +97,7 @@ Attendance is mandatory at every class, though all students are allowed one excu
 <br/>
 Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think about ways to get you engaged in the classroom. My own view is that we cannot simply ask you to think through hypothetical situations or puzzles: we should all learn together by doing actual research together that could change the world. This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. And if we get lucky, maybe our research will be good enough to share with the world (either in a blog post or perhaps even a full-blown piece of scholarly research in an academic journal). At the end of each week of class, I will assign teams of students to work on different parts of the group research project.
 
-You will receive two grades for your group project: the first (which counts for 50% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
+You will receive two grades for your group project: the first (which counts for 25% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
 
 > A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
 
@@ -105,21 +105,22 @@ You will receive two grades for your group project: the first (which counts for 
 
 > A Student contributes to group research project at a very high level. This includes dedicating a large amount of hours (~ 6 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript. 
 
-> A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+> A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~ 4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
 
-> B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
+> B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~ 4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
 
-> B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
+> B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~ 2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
 
-> B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
+> B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~ 2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
 
 > C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
 <br/><br/>
 
 ***How Your Grade Will be Calculated***
 <br/>
-- Participation 	25%
-- Group Project (My Assessment)	50%
+- Participation	25%
+- Lab exercises 25%
+- Group Project (My Assessment)	25%
 - Group Project (Median Peer Assessment)	25%
 <br/><br/>
 
