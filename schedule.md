@@ -83,7 +83,7 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><code>Assignment pending</code></li>
+<li><code>assignment pending</code></li>
 </ul></li>
 </ul>
 </div>
@@ -111,12 +111,9 @@ page_nav:
 <ul>
 <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
 </ul></li>
-<li>Complete and submit the following exercises:
+<li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-21">12.2.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-22">12.3.3</a></li>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-23">12.4.3</a></li>
-<li><a href = "https://r4ds.had.co.nz/relational-data.html#exercises-28">13.4.6</a></li>
+<li><code>assignment pending</code></li>
 </ul></li>
 </ul>
 </div>
@@ -146,11 +143,9 @@ page_nav:
 <ul>
 <li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
 </ul></li>
-<li>Complete the following exercises:
+<li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-48">19.3.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-49">19.4.4</a></li>
-<li><a href = "https://r4ds.had.co.nz/vectors.html#exercises-51">20.3.5</a></li>
+<li><code>assignment pending</code></li>
 </ul></li>
 </ul>
 </div>
@@ -192,13 +187,9 @@ American Mathematical Society Feature Column.
     <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
     <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a></li>
   </ul></li>
-  <li>Complete the following exercises:
-  <ul>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-1">3.3.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-2">3.5.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-3">3.6.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-5">3.8.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html#exercises-71">28.2.1</a></li>
+  <li>Complete and submit the following exercises by midnight on Friday:
+<ul>
+<li><code>assignment pending</code></li>
   </ul></li>
 </ul>
 <br/>
