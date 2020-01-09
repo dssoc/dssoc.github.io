@@ -201,7 +201,6 @@ American Mathematical Society Feature Column.
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
   <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"Sometimes the y-axis doesn't start at zero, and it's fine.</a> Vox.</li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
-  
 </ul>
 </div>
 <br/>
@@ -228,7 +227,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">February 20</font></i></b>
 #### Working with APIs (Lab)
 <div class="callout callout--info">
-<li><code>assignment pending</code></li>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -241,7 +240,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">February 27</font></i></b>
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
-<li><code>assignment pending</code></li>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -280,7 +279,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 19</font></i></b>
 #### Intro to text data (Lab)
 <div class="callout callout--info">
-<li><code>assignment pending</code></li>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -299,7 +298,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 26</font></i></b>
 #### Word counts and Dictionaries (Lab)
 <div class="callout callout--info">
-<li><code>assignment pending</code></li>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -326,7 +325,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
-<li><code>assignment pending</code></li>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
