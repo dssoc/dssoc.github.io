@@ -228,15 +228,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">February 20</font></i></b>
 #### Working with APIs (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<li><code>assignment pending</code></li>
 </div>
 <br/><br/><br/><br/>
 
@@ -249,18 +241,9 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">February 27</font></i></b>
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li>Calculate the average number of retweets one of Elizabeth Warren's tweets receives.</li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<li><code>assignment pending</code></li>
 </div>
-<br/><br/><br/>
+<br/><br/><br/><br/>
 
 
 ## 9 - MIDTERM EXAM
@@ -297,16 +280,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 19</font></i></b>
 #### Intro to text data (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<li><code>assignment pending</code></li>
 </div>
 <br/><br/><br/><br/>
 
@@ -325,16 +299,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 26</font></i></b>
 #### Word counts and Dictionaries (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<li><code>assignment pending</code></li>
 </div>
 <br/><br/><br/><br/>
 
@@ -361,18 +326,10 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<li><code>assignment pending</code></li>
 </div>
-<br/><br/><br/>
+<br/><br/><br/><br/>
+
 
 <b><i><font color="#E84E4E">April 9</font></i></b>
 #### the Future of Data Science
