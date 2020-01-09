@@ -83,7 +83,7 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><a href = "https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab Exercise 1 - Data Wrangling Part 1</a></li>
+<li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab Exercise 1 - Data Wrangling Part 1</a></li>
 </ul></li>
 </ul>
 </div>
