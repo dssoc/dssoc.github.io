@@ -175,8 +175,8 @@ page_nav:
 ***Additional reading***:
 - Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 - Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
-- Kieran Healy. (2013). [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-- David Austin. (2006). [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+- David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
@@ -252,14 +252,7 @@ American Mathematical Society Feature Column.
 
 ## 8 - Measuring social networks
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### Filter bubbles on social media
-***Required reading***:
-<br/>
-
-
-<br/><br/>
-***Additional reading***:
-- 
+#### TBD
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 27</font></i></b>
