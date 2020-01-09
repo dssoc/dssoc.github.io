@@ -241,9 +241,9 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-## 8 - Measuring social networks
+## 8 - Algorithms & ML
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### TBD
+#### Intro to Algorithms and Machine Learning
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 27</font></i></b>
