@@ -81,9 +81,9 @@ page_nav:
 <li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
 <li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
 </ul></li>
-<li>Complete and submit the following exercises:
+<li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li></li>
+<li><code>Assignment pending</code></li>
 </ul></li>
 </ul>
 </div>
