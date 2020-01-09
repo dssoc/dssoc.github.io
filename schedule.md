@@ -83,10 +83,7 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises:
 <ul>
-<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-7">5.2.4</a></li>
-<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-8">5.3.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-9">5.4.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/transform.html#exercises-12">5.7.1</a></li>
+<li></li>
 </ul></li>
 </ul>
 </div>
