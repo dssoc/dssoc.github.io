@@ -21,7 +21,7 @@ buttons:
 author: 
     title: Christopher A. Bail
     title_url: '#'
-    description: <b>Professor of Sociology, Public Policy, and Data Science</b> <br/>Duke University<br/> https://www.chrisbail.net/<br/> <br/>Office Hours: Tuesdays 12-1:15pm, 254 Soc./Psych Building<br/>
+    description: <b>Professor of Sociology, Public Policy, and Data Science</b> <br/>Duke University <br/> https://www.chrisbail.net/ <br/> <br/>Office Hours: Tuesdays 12-1:15pm, 254 Soc. Psych Building
 
 
 # Micro navigation
