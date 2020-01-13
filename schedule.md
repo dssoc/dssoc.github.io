@@ -245,13 +245,13 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-## 9 - MIDTERM EXAM
+## 9 - Algorithms & ML, cont'd
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### Review 
+#### TBD 
 <br/><br/>
 
 <b><i><font color="#E84E4E">March 5</font></i></b>
-#### Midterm Exam
+#### TBD
 <br/><br/><br/><br/>
 
 
