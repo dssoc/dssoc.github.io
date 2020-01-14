@@ -34,7 +34,7 @@ page_nav:
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
-<li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
+<li>Install <a href = "https://cloud.r-project.org/">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
 <li>Install the following packages in RStudio by executing the following code command in R Studio:
 <br/><small><code>install.packages(c("devtools", "tidyverse", "ggplot2", "knitr"))</code></small></li>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
