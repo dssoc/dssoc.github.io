@@ -45,8 +45,8 @@ page_nav:
 
 <i>Resources:</i><br/>
 <ul>
-  <li>Installing R (Mac / PC)</li>
-  <li><a href = "http://r-pkgs.had.co.nz/intro.html">What are "packages"" in R?</a></li>
+  <li><a href = "https://cloud.r-project.org/">Installing R (Mac / PC)</a></li>
+  <li><a href = "http://r-pkgs.had.co.nz/intro.html">What are 'packages' in R?</a></li>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
   <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a></li>
