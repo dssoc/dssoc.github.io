@@ -57,7 +57,7 @@ page_nav:
 <b><i><font color="#E84E4E">January 16</font></i></b>
 #### Social Research in the Digital Age
 
-***Class slides***: What is Digital Trace Data? (1) [html](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/), (2) [html with notes](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/rmarkdown/Strengths_and_Weaknesses.html)
+***Class slides***: [What is Digital Trace Data?](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/) (See also [html with notes](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/rmarkdown/Strengths_and_Weaknesses.html))
 <br/><br/>
 
 ***Required reading***:
