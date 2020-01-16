@@ -238,7 +238,7 @@ American Mathematical Society Feature Column.
 
 ## 8 - APIs
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### Getting structure data
+#### When they want to give you data...
 
 ***Required reading***:
 <br/>
