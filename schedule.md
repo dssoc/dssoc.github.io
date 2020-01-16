@@ -207,7 +207,7 @@ American Mathematical Society Feature Column.
 </ul>
 </div>
 <br/>
-
+<br/><br/><br/>
 
 ## 7 - Social networks, concepts and data
 <b><i><font color="#E84E4E">February 18</font></i></b>
@@ -225,25 +225,9 @@ American Mathematical Society Feature Column.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">February 20</font></i></b>
-#### Working with APIs (Lab)
-<div class="callout callout--info">
-<code>assignment pending</code>
-</div>
 <br/><br/><br/><br/>
 
-
-## 8 - Algorithms & ML
-<b><i><font color="#E84E4E">February 25</font></i></b>
-***Required reading***:
-<br/>
-#### Intro to Algorithms and Machine Learning
-- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
-<br/><br/><br/>
-
-<b><i><font color="#E84E4E">February 27</font></i></b>
+<b><i><font color="#E84E4E">February 20</font></i></b>
 #### Network centrality measures (Lab)
 <div class="callout callout--info">
 <code>assignment pending</code>
@@ -251,14 +235,42 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-## 9 - Algorithms & ML, cont'd
+
+## 8 - APIs
+<b><i><font color="#E84E4E">February 25</font></i></b>
+#### Getting structure data
+
+***Required reading***:
+<br/>
+- TBD
+<br/><br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">February 27</font></i></b>
+#### Working with APIs (Lab)
+<div class="callout callout--info">
+<code>assignment pending</code>
+</div>
+<br/><br/><br/><br/>
+
+
+## 10 - Algorithms & ML
 <b><i><font color="#E84E4E">March 3</font></i></b>
-#### TBD 
-<br/><br/>
+#### Intro to Algorithms and Machine Learning
+
+***Required reading***:
+<br/>
+- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
+<br/><br/><br/><br/>
+
 
 <b><i><font color="#E84E4E">March 5</font></i></b>
-#### TBD
+#### Algorithms & ML (lab)
+<div class="callout callout--info">
+<code>assignment pending</code>
+</div>
 <br/><br/><br/><br/>
+
 
 
 
