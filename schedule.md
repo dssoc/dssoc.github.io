@@ -94,6 +94,10 @@ page_nav:
 
 <b><i><font color="#E84E4E">January 23</font></i></b>
 #### Able is not always ethical
+
+***Slides***: [Ethics and Digital Trace Data](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+<br/><br/>
+
 ***Required reading***:
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
