@@ -247,6 +247,12 @@ American Mathematical Society Feature Column.
 ***Required reading***:
 <br/>
 - TBD
+
+<br/><br/>
+
+***Additional reading***:
+- [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
+
 <br/><br/><br/><br/>
 
 
