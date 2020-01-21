@@ -87,7 +87,12 @@ page_nav:
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
 <li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab Exercise 1 - Data Wrangling Part 1</a></li>
-</ul></li>
+</ul></li></ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/1.2">Programming basics</a></li>
 </ul>
 </div>
 <br/>
@@ -122,7 +127,13 @@ page_nav:
 <ul>
 <li><code>assignment pending</code></li>
 </ul></li>
+</ul><br/>
+<i>Resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
+  <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
 </ul>
+
 </div>
 <br/><br/><br/>
 
@@ -154,6 +165,10 @@ page_nav:
 <ul>
 <li><code>assignment pending</code></li>
 </ul></li>
+</ul><br/>
+<i>Resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
 </ul>
 </div>
 <br/>
@@ -203,6 +218,7 @@ American Mathematical Society Feature Column.
 
 <i>Resources:</i><br/>
 <ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
