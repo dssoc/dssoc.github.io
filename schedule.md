@@ -222,7 +222,7 @@ American Mathematical Society Feature Column.
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
-  <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"Sometimes the y-axis doesn't start at zero, and it's fine.</a> Vox.</li>
+  <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/">Sometimes the y-axis doesn't start at zero, and it's fine.</a> Vox.</li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
 </ul>
 </div>
