@@ -13,6 +13,19 @@ micro_nav: true
 
 ---
 
+## R & R Studio
+- [Installing R (Mac / PC)](https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html)
+- [What are 'packages' in R?](http://r-pkgs.had.co.nz/intro.html)
+- [RStudio cheatsheets](https://rstudio.com/resources/cheatsheets/)
+- [R Style Guides](https://style.tidyverse.org/)
+- [R Markdown quick tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
+- [R Markdown long tour](https://rmarkdown.rstudio.com/lesson-1.html)
+- [R vs Python for data analysis](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis)
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [R Primers](https://rstudio.cloud/learn/primers)
+
+  
+
 ## What is Data Science?
 
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).

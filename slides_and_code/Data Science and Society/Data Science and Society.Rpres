@@ -39,8 +39,8 @@ transition: fade
 
 ========================================================
 
-<div class="midcenter" style="margin-left:-300px; margin-top:-300px;">
-<img src="Needle.png" height="600" class=".midcenter"/>
+<div class="midcenter" style="margin-left:-300px; margin-right: 200px; margin-top:-200px;">
+<img src="Needle.png" height="400" class=".midcenter"/>
 </div>
 
 
@@ -48,8 +48,8 @@ transition: fade
 
 ========================================================
 
-<div class="midcenter" style="margin-left:-300px; margin-top:-300px;">
-<img src="SilentKiller.png" height="600" class=".midcenter"/>
+<div class="midcenter" style="margin-left:-200px; margin-top:-200px;">
+<img src="SilentKiller.png" height="400" class=".midcenter"/>
 </div>
 
 
@@ -58,8 +58,8 @@ transition: fade
 
 ========================================================
 
-<div class="midcenter" style="margin-left:-300px; margin-top:-300px;">
-<img src="GoogleFever.png" height="500" class=".midcenter"/>
+<div class="midcenter" style="margin-left:-300px; margin-right: 200px; margin-top:-200px;">
+<img src="GoogleFever.png" height="300" class=".midcenter"/>
 </div>
 
 
@@ -67,8 +67,8 @@ transition: fade
 
 ========================================================
 
-<div class="midcenter" style="margin-left:-300px; margin-top:-300px;">
-<img src="Circuits.png" height="600" class=".midcenter"/>
+<div class="midcenter" style="margin-left:-400px; margin-right: 100px; margin-top:-300px;">
+<img src="Circuits.png" height="500" class=".midcenter"/>
 </div>
 
 
@@ -76,8 +76,8 @@ transition: fade
 
 ========================================================
 
-<div class="midcenter" style="margin-left:-300px; margin-top:-300px;">
-<img src="GoogleFlu.png" height="600" class=".midcenter"/>
+<div class="midcenter" style="margin-left:-300px;  margin-right: 200px;  margin-top:-300px;">
+<img src="GoogleFlu.png" height="500" class=".midcenter"/>
 </div>
 
 
