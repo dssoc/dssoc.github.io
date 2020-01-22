@@ -175,7 +175,10 @@ page_nav:
 
 
 <b><i><font color="#E84E4E">February 6</font></i></b>
-### CLASS CANCELLED
+### Data Science in the Wild
+<br/>
+
+This will be an open class discussion with our TA, [Taylor Brown](http://www.taylorwhittenbrown.com/). Taylor is a PhD Candidate in the Duke sociology department. She has experience working at several companies--including Facebook--as a data scientist, and is finishing her dissertation using many of the methods we cover in class. There will be some snacks, and Taylor will give a bit of background on her experience before opening up to Q&A. Taylor will also be happy to brainstorm and iterate on possible group projects for the course. 
 <br/><br/><br/><br/>
 
 
