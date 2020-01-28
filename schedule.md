@@ -123,9 +123,12 @@ page_nav:
 <ul>
 <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
 </ul></li>
-<li>Complete and submit the following exercises by midnight on Friday:
+<li>Complete and submit the following exercises by midnight on Sunday:
 <ul>
-<li><a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">Lab 2 Exercises - Data Wrangling Part 2</a> (click <a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">here<a/> to see and html version.</li>
+<li><a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">Lab 2 Exercises - Data Wrangling Part 2</a> (click <a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">here</a> to see and html version.</li>
+<li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a></li>
+<li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a></li>
+<li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a></li>
 </ul></li></ul>
 <br/>
 <i>Resources:</i><br/>
