@@ -117,12 +117,14 @@ page_nav:
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
 <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
-</ul></li>
+</ul></ul></li><br/>
+<i>Assignment:</i> <br/>
+<ul>
 <li>Complete and submit the following exercises by midnight on Sunday:
 <ul>
 <li><code>Lab 2 Exercises - Data Wrangling Part 2 </code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)</li>
@@ -133,7 +135,7 @@ page_nav:
 <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a></li>
 </ol></ul></li></ul>
 <br/>
-<i>Resources:</i><br/>
+<i>Optional resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
