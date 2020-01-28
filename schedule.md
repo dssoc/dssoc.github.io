@@ -125,11 +125,13 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises by midnight on Sunday:
 <ul>
-<li>Lab 2 Exercises - Data Wrangling Part 2 (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>), (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)</li>
+<li><code>Lab 2 Exercises - Data Wrangling Part 2 </code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)</li>
+<li> Datasets: </li>
+<ol>
 <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a></li>
 <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a></li>
 <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a></li>
-</ul></li></ul>
+</ol></ul></li></ul>
 <br/>
 <i>Resources:</i><br/>
 <ul>
