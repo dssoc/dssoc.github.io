@@ -119,14 +119,11 @@ page_nav:
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<li><a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
-<i>Assignment:</i> <br/>
+<i>Assignment:</i>Complete and submit the following exercises by midnight on Sunday <br/>
 <ul>
-<li>Complete and submit the following exercises by midnight on Sunday:</li>
-<ul>
-<li><code>Lab 2 Exercises - Data Wrangling Part 2 </code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)</li>
-<li> Datasets: </li>
+<li><code>Lab 2 Exercises - Data Wrangling Part 2</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)</li><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a><br/>
