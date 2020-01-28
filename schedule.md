@@ -86,7 +86,7 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab Exercise 1 - Data Wrangling Part 1</a></li>
+<li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
 </ul></li></ul>
 <br/>
 
@@ -125,9 +125,9 @@ page_nav:
 </ul></li>
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li><code>assignment pending</code></li>
-</ul></li>
-</ul><br/>
+<li><a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">Lab 2 Exercises - Data Wrangling Part 2</a> (click <a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">here<a/> to see and html version.</li>
+</ul></li></ul>
+<br/>
 <i>Resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
