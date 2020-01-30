@@ -139,6 +139,10 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">January 30</font></i></b>
 #### Social Media, Filter Bubbles, and Political Polarization
 
+***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
+<br/><br/>
+
+
 ***Required reading***:
 <br/>
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), PNAS.
