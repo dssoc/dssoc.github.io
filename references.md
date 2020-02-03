@@ -23,6 +23,8 @@ micro_nav: true
 - [R vs Python for data analysis](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis)
 - [R for Data Science](https://r4ds.had.co.nz/)
 - [R Primers](https://rstudio.cloud/learn/primers)
+- [Hands-On Programming with R](https://www.amazon.com/dp/1449359019/ref=cm_sw_su_dp)
+- [Advanced R](https://www.amazon.com/dp/1466586966/ref=cm_sw_su_dp)
 
   
 
