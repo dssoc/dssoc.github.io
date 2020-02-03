@@ -158,23 +158,25 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-<ul>
-<li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
-</ul></li>
-<li>Complete and submit the following exercises by midnight on Friday:
-<ul>
-<li><code>assignment pending</code></li>
-</ul></li>
-</ul><br/>
-<i>Resources:</i><br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li></ul><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
 </ul>
+
 </div>
-<br/>
+<br/><br/><br/>
+
+
+
 
 
 <b><i><font color="#E84E4E">February 6</font></i></b>
