@@ -194,7 +194,7 @@ This will be an open class discussion with our TA, [Taylor Brown](http://www.tay
 
 ***Required reading***:
 <br/>
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 <br/><br/>
 
 ***Additional reading***:
