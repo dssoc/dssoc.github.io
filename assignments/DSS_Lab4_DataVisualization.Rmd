@@ -1,0 +1,103 @@
+---
+title: "DS&S Lab 4 - Data Visualization"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Lab assignments are due by midnight on Friday of each week. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+- `artist_meta`: 'artist_meta.Rdata' is a table of Grammy nominee names and some of their metadata.
+
+The exercises in this lab correspond with  *R for Data Science* (Wickham), chapters 3 and 28 (https://r4ds.had.co.nz/data-visualisation.html), and *Data Visualization a Practical Introduction* (Healy), chapter 1 (http://socviz.co/lookatdata.html).
+
+Load the datasets:
+```{r}
+library(tidyverse)
+
+load('artist_meta.Rdata')
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### **Exercise 1**: Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be 'pop' and 'not pop'.
+
+```{r}
+# your answer here
+```
+<br/>
+
+#### **Exercise 2**: Using the `artist_meta` table, make a scatterplot of `followers` vs `popularity`.
+```{r}
+# your answer here
+```
+<br/>
+
+#### **Exercise 3**: Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see 28.6 in *R for Data Science* or 8.3 of *Data Visualization a Practical Introduction*.
+```{r}
+# your answer here
+```
+<br/>
+
+
+#### **Exercise 4**: Now, color your scatter plot points according to whether the artists are associated with a pop genre.
+```{r}
+# your answer here
+```
+<br/>
+
+#### **Exercise 5**: Change the colors in the plot created for Exercise 4 to something that you think looks better. Note: for this, you may want to use a `scale_color_manual()` layer in your plot.
+```{r}
+# your answer here
+```
+<br/>
+
+#### **Exercise 6**: Select *and* implement an appropriate visualization to describe the relationship between `pop` and  `popularity`. Justify your choice of chart (i.e. why did you choose this chart type and not another), and describe how you would improve your chart, given more time.
+
+```{r}
+# your answer here
+```
+<br/>
+
+
+#### **Exercise 7**: In your own words, describe why we make data visualizations. 
+```{r}
+# your answer here
+```
+<br/>
+
+
+
+#### **Exercise 8**: In your own words, describe at least three qualities of a good data visualization. Many of these were provided in your reading.
+```{r}
+# your answer here
+```
+<br/>
+
+
+#### **Exercise 8**: Link to a data visualization online and describe something that could make it better at conveying the central information or relationship.
+```{r}
+# your answer here
+```
+<br/>
+
+
+#### **Exercise 9**: Compare two chart types from the R Graph Gallery (`https://www.r-graph-gallery.com/index.html`). What kinds of relationships are they used to represent? What kinds of relationships would they be unable to represent? For example, do they represent continuous or categorical variable relationships? Both? Would they be useful at describing a temporal relationship, or relative proportions? These are example questions you might address as you compare and contrast. Often a chart can do many things. Simply show that you have thought deeply about how and when to use different chart types.
+```{r}
+# your answer here
+```
+<br/>
+
+#### **Exercise 10**: Provide three social science research questions that you would be interested in exploring for the group project. There are no right answers here. We just want to get a sense of interests.
+```{r}
+# your answer here
+```
