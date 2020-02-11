@@ -160,7 +160,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li></ul><br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
@@ -215,7 +215,7 @@ American Mathematical Society Feature Column.
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (cpaters 3 & 28)</a></li></ul><br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li></ul><br/>
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
