@@ -228,7 +228,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 <i>Optional resources:</i><br/>
 <ul>
-  <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
+  <li><b><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></b></li>
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
