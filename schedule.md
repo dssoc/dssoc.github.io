@@ -192,6 +192,9 @@ This will be an open class discussion with our TA, [Taylor Brown](http://www.tay
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### What is a Social Network?
 
+***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
+<br/><br/>
+
 ***Required reading***:
 <br/>
 - Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
@@ -210,21 +213,20 @@ American Mathematical Society Feature Column.
 
 #### Basic ggplot (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
   <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
   <ul>
     <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
     <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a></li>
-  </ul></li>
-  <li>Complete and submit the following exercises by midnight on Friday:
-<ul>
-<li><code>assignment pending</code></li>
-  </ul></li>
-</ul>
+  </ul>
 <br/>
-
-<i>Resources:</i><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
@@ -234,8 +236,8 @@ American Mathematical Society Feature Column.
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
 </ul>
 </div>
-<br/>
 <br/><br/><br/>
+
 
 ## 7 - Social networks, concepts and data
 <b><i><font color="#E84E4E">February 18</font></i></b>
