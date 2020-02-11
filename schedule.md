@@ -215,12 +215,7 @@ American Mathematical Society Feature Column.
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-  <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-  <ul>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
-    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a></li>
-  </ul>
-<br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (cpaters 3 & 28)</a></li></ul><br/>
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
