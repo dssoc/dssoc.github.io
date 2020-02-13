@@ -250,6 +250,7 @@ For these excercises, you will need the following datasets:<br/>
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
+- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
 <br/><br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
