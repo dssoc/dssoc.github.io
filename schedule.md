@@ -254,11 +254,22 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### Network centrality measures (Lab)
+#### Basics of Social Networks (Lab)
 <div class="callout callout--info">
-<code>assignment pending</code>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 4 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_candidates_flw_am.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
+<ul>
+  <li><b><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></b></li>
+  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R, by Jesse Sadler</a></b></li>
+</ul>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
+
 
 
 
