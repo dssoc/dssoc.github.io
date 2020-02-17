@@ -268,13 +268,13 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Required reading***:
 <br/>
-- TBD
+- [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
 
 <br/><br/>
 
 ***Additional reading***:
 - [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
-
+- [`rtweet`](https://rtweet.info/) is an R wrapper for the Twitter API
 <br/><br/><br/><br/>
 
 
