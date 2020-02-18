@@ -265,7 +265,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Optional resources:</i><br/>
 <ul>
   <li><b><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></b></li>
-  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R, by Jesse Sadler</a></b></li>
+  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
 <br/><br/><br/>
@@ -273,13 +273,17 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 8 - APIs
+## 8 - Application Programming Interfaces
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### When they want to give you data...
 
 ***Required reading***:
 <br/>
+- [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
+- [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
+- [Twitter catches the flu: detecting influenza epidemics using Twitter](https://dl.acm.org/doi/10.5555/2145432.2145600), by Aramaki et al.
 - [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+- [Setup for `spotifyr`](https://github.com/charlie86/spotifyr)
 
 <br/><br/>
 
