@@ -13,6 +13,22 @@ micro_nav: true
 
 ---
 
+## R & R Studio
+- [Installing R (Mac / PC)](https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html)
+- [What are 'packages' in R?](http://r-pkgs.had.co.nz/intro.html)
+- [RStudio cheatsheets](https://rstudio.com/resources/cheatsheets/)
+- [R Style Guides](https://style.tidyverse.org/)
+- [R Markdown quick tour](https://rmarkdown.rstudio.com/authoring_quick_tour.html)
+- [R Markdown long tour](https://rmarkdown.rstudio.com/lesson-1.html)
+- [R vs Python for data analysis](https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis)
+- [R for Data Science](https://r4ds.had.co.nz/)
+- [Things to know about R](http://socviz.co/gettingstarted.html)
+- [R Primers](https://rstudio.cloud/learn/primers)
+- [Hands-On Programming with R](https://www.amazon.com/dp/1449359019/ref=cm_sw_su_dp)
+- [Advanced R](https://www.amazon.com/dp/1466586966/ref=cm_sw_su_dp)
+
+  
+
 ## What is Data Science?
 
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
@@ -28,6 +44,8 @@ micro_nav: true
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+
+- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), *The ANNALS of the American Academy of Political and Social Science*.
 <br/><br/>
 
 ## Research Ethics
@@ -60,7 +78,7 @@ micro_nav: true
 
 ## Social Networks
 
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
 - Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 
@@ -85,6 +103,10 @@ American Mathematical Society Feature Column.
 
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
 <br/><br/>
+
+
+## APIs
+
 
 
 ## Text analysis

@@ -34,7 +34,7 @@ page_nav:
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
-<li>Install <a href = "cloud.r-project.org">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop </li>
+<li>Install <a href = "https://cloud.r-project.org/">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop with <a href = "https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html"> this tutorial</a></li>
 <li>Install the following packages in RStudio by executing the following code command in R Studio:
 <br/><small><code>install.packages(c("devtools", "tidyverse", "ggplot2", "knitr"))</code></small></li>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
@@ -45,10 +45,11 @@ page_nav:
 
 <i>Resources:</i><br/>
 <ul>
-  <li>Installing R (Mac / PC)</li>
-  <li><a href = "http://r-pkgs.had.co.nz/intro.html">What are "packages"" in R?</a></li>
+  <li><a href = "https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html">Installing R (Mac / PC)</a></li>
+  <li><a href = "http://r-pkgs.had.co.nz/intro.html">What are 'packages' in R?</a></li>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
+  <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a></li>
 </ul>
 </div>
 <br/>
@@ -56,16 +57,18 @@ page_nav:
 <b><i><font color="#E84E4E">January 16</font></i></b>
 #### Social Research in the Digital Age
 
+***Slides***: [What is Digital Trace Data?](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/)  (see also [slides with notes](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/rmarkdown/Strengths_and_Weaknesses.html))
+<br/><br/>
+
 ***Required reading***:
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
-- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
+- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 <br/><br/>
 
 ***Additional reading***:
+- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
-- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
-- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/><br/>
 
@@ -81,23 +84,32 @@ page_nav:
 <li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
 <li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
 </ul></li>
-<li>Complete and submit the following exercises:
+<li>Complete and submit the following exercises by midnight on Friday:
 <ul>
-<li></li>
-</ul></li>
+<li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
+</ul></li></ul>
+<br/>
+
+<i>Resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/1.2">Programming basics</a></li>
 </ul>
 </div>
 <br/>
 
 <b><i><font color="#E84E4E">January 23</font></i></b>
 #### Able is not always ethical
+
+***Slides***: [Ethics and Digital Trace Data](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+<br/><br/>
+
 ***Required reading***:
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
 
 ***Additional reading***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
-- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
+- Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 <br/><br/><br/><br/>
 
 
@@ -105,30 +117,36 @@ page_nav:
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Sunday<br/>
+<code>Lab 2 Exercises - Data Wrangling Part 2</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
 <ul>
-<li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li>
-</ul></li>
-<li>Complete and submit the following exercises:
-<ul>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-21">12.2.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-22">12.3.3</a></li>
-<li><a href = "https://r4ds.had.co.nz/tidy-data.html#exercises-23">12.4.3</a></li>
-<li><a href = "https://r4ds.had.co.nz/relational-data.html#exercises-28">13.4.6</a></li>
-</ul></li>
+  <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
+  <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
 </ul>
+
 </div>
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">January 30</font></i></b>
 #### Social Media, Filter Bubbles, and Political Polarization
 
+***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
+<br/><br/>
+
+
 ***Required reading***:
 <br/>
-- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), PNAS.
 - John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
+- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 <br/><br/>
 
 ***Additional reading***:
@@ -140,25 +158,32 @@ page_nav:
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-<ul>
-<li><a href = "https://r4ds.had.co.nz/program-intro.html">Program (17 -21)</a></li>
-</ul></li>
-<li>Complete the following exercises:
-<ul>
-<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-48">19.3.1</a></li>
-<li><a href = "https://r4ds.had.co.nz/functions.html#exercises-49">19.4.4</a></li>
-<li><a href = "https://r4ds.had.co.nz/vectors.html#exercises-51">20.3.5</a></li>
-</ul></li>
-</ul>
-</div>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 <br/>
+<i>Optional resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
+</ul>
+
+</div>
+<br/><br/><br/>
+
+
+
 
 
 <b><i><font color="#E84E4E">February 6</font></i></b>
-### CLASS CANCELLED
+### Data Science in the Wild
+<br/>
+
+This will be an open class discussion with our TA, [Taylor Brown](http://www.taylorwhittenbrown.com/). Taylor is a PhD Candidate in the Duke sociology department. She has experience working at several companies--including Facebook--as a data scientist, and is finishing her dissertation using many of the methods we cover in class. There will be some snacks, and Taylor will give a bit of background on her experience before opening up to Q&A. Taylor will also be happy to brainstorm and iterate on possible group projects for the course. 
 <br/><br/><br/><br/>
 
 
@@ -167,9 +192,12 @@ page_nav:
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### What is a Social Network?
 
+***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
+<br/><br/>
+
 ***Required reading***:
 <br/>
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**], Chapter One.
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 <br/><br/>
 
 ***Additional reading***:
@@ -185,35 +213,25 @@ American Mathematical Society Feature Column.
 
 #### Basic ggplot (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Required reading:</i> <br/>
 <ul>
-  <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-  <ul>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html">Data visualization</a></li>
-    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html">Graphics for communication</a></li>
-  </ul></li>
-  <li>Complete the following exercises:
-  <ul>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-1">3.3.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-2">3.5.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-3">3.6.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/data-visualisation.html#exercises-5">3.8.1</a></li>
-    <li><a href = "https://r4ds.had.co.nz/graphics-for-communication.html#exercises-71">28.2.1</a></li>
-  </ul></li>
-</ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li></ul><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
 <br/>
-
-<i>Resources:</i><br/>
+<i>Optional resources:</i><br/>
 <ul>
+  <li><b><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></b></li>
   <li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
   <li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
-  <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"Sometimes the y-axis doesn't start at zero, and it's fine.</a> Vox.</li>
+  <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"><b>Sometimes the y-axis doesn't start at zero, and it's fine.</b></a> Vox.</li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
-  
 </ul>
 </div>
-<br/>
+<br/><br/><br/>
 
 
 ## 7 - Social networks, concepts and data
@@ -232,54 +250,74 @@ American Mathematical Society Feature Column.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
-<br/><br/><br/>
+- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
+<br/><br/><br/><br/>
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
-#### Working with APIs (Lab)
+#### Basics of Social Networks (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-</ul>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 4 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_candidates_flw_am.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
 <br/>
-
-<i>Resources:</i><br/>
+<i>Optional resources:</i><br/>
 <ul>
-  <li></li>
+  <li><b><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></b></li>
+  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 
-## 8 - Measuring social networks
+
+
+## 8 - Application Programming Interfaces
 <b><i><font color="#E84E4E">February 25</font></i></b>
-#### TBD
-<br/><br/><br/>
+#### When they want to give you data...
 
-<b><i><font color="#E84E4E">February 27</font></i></b>
-#### Network centrality measures (Lab)
-<div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li>Calculate the average number of retweets one of Elizabeth Warren's tweets receives.</li>
-</ul>
+***Required reading***:
 <br/>
+- [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
+- [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
+- [Twitter catches the flu: detecting influenza epidemics using Twitter](https://dl.acm.org/doi/10.5555/2145432.2145600), by Aramaki et al.
+- [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+- [Setup for `spotifyr`](https://github.com/charlie86/spotifyr)
 
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
-</div>
-<br/><br/><br/>
-
-
-## 9 - MIDTERM EXAM
-<b><i><font color="#E84E4E">March 3</font></i></b>
-#### Review 
 <br/><br/>
 
-<b><i><font color="#E84E4E">March 5</font></i></b>
-#### Midterm Exam
+***Additional reading***:
+- [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
+- [`rtweet`](https://rtweet.info/) is an R wrapper for the Twitter API
 <br/><br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">February 27</font></i></b>
+#### Working with APIs (Lab)
+<div class="callout callout--info">
+<code>assignment pending</code>
+</div>
+<br/><br/><br/><br/>
+
+
+## 10 - Algorithms & ML
+<b><i><font color="#E84E4E">March 3</font></i></b>
+#### Intro to Algorithms and Machine Learning
+
+***Required reading***:
+<br/>
+- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
+<br/><br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">March 5</font></i></b>
+#### Algorithms & ML (lab)
+<div class="callout callout--info">
+<code>assignment pending</code>
+</div>
+<br/><br/><br/><br/>
+
 
 
 
@@ -306,16 +344,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 19</font></i></b>
 #### Intro to text data (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -334,16 +363,7 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">March 26</font></i></b>
 #### Word counts and Dictionaries (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<code>assignment pending</code>
 </div>
 <br/><br/><br/><br/>
 
@@ -370,18 +390,10 @@ American Mathematical Society Feature Column.
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
-<ul>
-<li></li>
-</ul>
-<br/>
-
-<i>Resources:</i><br/>
-<ul>
-  <li></li>
-</ul>
+<code>assignment pending</code>
 </div>
-<br/><br/><br/>
+<br/><br/><br/><br/>
+
 
 <b><i><font color="#E84E4E">April 9</font></i></b>
 #### the Future of Data Science

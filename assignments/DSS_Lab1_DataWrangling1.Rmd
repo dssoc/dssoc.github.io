@@ -1,0 +1,84 @@
+---
+title: "DS&S Lab Exercise 1 - Data Wrangling Part 1"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Lab assignments are due by midnight on Friday of each week. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+### Setup
+
+The data used in these exercises can be accessed by importing the `nycflights13` library into RStudio, which will produce a table object called `flights` that you can query.
+<br/>
+
+#### Import the libraries that will be used in this script:
+```{r}
+library()
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### Exercise 1: Find all flights that had a departure delay of more than an hour.
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 2: Of these departure-delayed flights, find all that arrived on time.
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 3: Of all flights, how many were operated by United or Delta?
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 4: And of the flights found in answer to question 3, how many departed in winter (Dec, Jan, Feb).
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 5: How could you use `arrange()` to sort distance travelled, in descending order?
+```{r}
+# provide your answer here
+```
+
+#### Exercise 6: Sort flights to find the slowest flight, excluding cases with the missing `distance` and `air_time` variables necessary to calculate speed.
+```{r}
+# provide your answer here
+```
+
+#### Exercise 7: Create a new object (dataframe or tibble) that is a subset of the `flights` data containing only the following variables: carrier, flight, origin, dest, dep_delay
+
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 8: Using the subset of data in Question 7, calculate the average departure delay time for each carrier (hint: you will likely want to use the `group_by` function).
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 9: Again using this subset of data, create a new variable that is the total delay time (`dep_delay` + `arr_delay`).
+```{r}
+# provide your answer here
+```
+
+
+#### Exercise 10: Describe and demonstrate the functionality of one other command that you learned from the reading.
+```{r}
+# provide your answer here
+```
+

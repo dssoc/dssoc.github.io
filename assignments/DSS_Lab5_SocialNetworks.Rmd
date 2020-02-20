@@ -1,0 +1,99 @@
+---
+title: "DS&S Lab 5 - Basics of Social Network Analysis"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Lab assignments are due by midnight on Friday of each week. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+- `dnc_canidates_flw_el.Rdata`: an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+
+- `dnc_canidates_flw_am.Rdata`: an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
+
+
+Load packages and datasets:
+```{r, message = FALSE}
+library(tidyverse)
+# etc
+
+load('dnc_candidates_flw_el.Rdata')
+load('dnc_candidates_flw_am.Rdata')
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### **Exercise 1**: In class you learned that there are several ways to store network data. Describe the difference between an edgelist and an adjacency matrix.
+
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+#### **Exercise 2**: You also learned about one- and two-mode networks. Describe the difference. 
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+#### **Exercise 3**: Does the `dnc_candidates_flw_am.Rdata` adjacency matrix contain one- or two-mode network information? What about the `dnc_candidates_flw_am.Rdata` edgelist?
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+
+#### **Exercise 4**: Using the `dnc_candidates_flw_am.Rdata` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+
+#### **Exercise 5**: Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.
+```{r}
+# Your answer here
+```
+<br/>
+
+#### **Exercise 6**: Using the graph object that you created, indicate which candidate has the highest betweenness centrality, taking into account edge weight. If you had to write this finding in a research paper, how would you describe its meaning to a social science audience?
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+
+#### **Exercise 7**: Make a visual of your graph object, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+
+
+#### **Exercise 8**: Using the `dnc_candidates_flw_el.Rdata` edgelist, calculate the degree for each candidate.
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+
+#### **Exercise 9**: If you did not do so for Exercise 8, demonstrate how you would turn the `dnc_candidates_flw_el.Rdata` edgelist into a graph object.
+```{r}
+# Yor answer here or in text.
+```
+<br/>
+
+#### **Exercise 10**: In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for the final group project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).
+```{r}
+# your answer here
+```

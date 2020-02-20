@@ -79,6 +79,8 @@ You are responsible for understanding the readings. Make use of your fellow stud
 ***Weekly Lab Assignments***
 <br/>
 Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+
+Submit all homework assignments to: dsandsociety@gmail.com
 <br/><br/>
 
 
