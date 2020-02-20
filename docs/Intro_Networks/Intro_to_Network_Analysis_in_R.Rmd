@@ -1,0 +1,75 @@
+---
+title: "Intro to Network Analaysis in R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Creating a Network using Igraph
+
+The first thing we will do in this tutorial is to create a network object from an "edgelist" an edgelist is a two column dataset that describes relationships between two people. Let's create a fake network edgelist with some people as follows:
+
+```{r}
+Source <- c("John","Amy","Eviatar","Zoe","Zoe","Maliq","Charles")
+Target <- c("Maliq","Allison","Zoe","Amy","Allison","Charles","John")
+# Join the variables to create a data frame
+edgelist <- data.frame(Source,Target)
+edgelist
+```
+
+In a directed edgelist, the person in the first column is somehow determined to have a connection with the person in the second column. In an undirected edgelist, the order of people (i.e. who is nominating who is a social contact) does not matter.
+
+But network datasets require more than a list of social connections (or edges), they also require a list of all the nodes in a given social network. This is because some nodes in a social network may not have any social connections to other nodes, or because we might want to save additional information about the individuals or nodes such as their gender, age, political party, or whatever.
+
+If we don't have any network "isolates" (people without any connections) AND we don't have any attributes about our nodes, we can ask a powerful R package called igraph to create a list of nodes for us as follows:
+
+```{r}
+library(igraph)
+my_edgelist<-graph.data.frame(edgelist)
+plot(my_edgelist)
+```
+
+In this (ugly) visual above, we can see our network represented in graphic form, but R has also transformed our edgelist dataframe into a "igraph" object that includes information about both the nodes and edges in our dataframe.
+
+Next, we will learn how to read an adjacency matrix into R. An Adjacency matrix is a square matrix where the rows and columns refer to people-- or other types of nodes within a network. The cells of the adjacency matrix describe whether any two people are connected with each other using 1s or 0s (or in the case of a weighted adjacency matrix, we might have continuous numbers that describe the overall strength of the relationship between any two nodes). Note that we could create an adjacency matrix from our existing data as follows:
+
+```{r}
+my_adjacency_matrix<-get.adjacency(my_edgelist)
+my_adjacency_matrix
+```
+
+To make data storage more efficient, igraph has stored the zeros in our adjacency matrix as dots.
+
+Let's read in a slightly larger adjacency matrix that is a bit more interesting. This is a matrix of network relationships between political "opinion leaders" (elected officials, journalists, advocacy organizations etc) on Twitter
+
+```{r}
+load(url("https://cbail.github.io/Opinion_Leader_Matrix.Rdata"))
+oplead_network<-graph.adjacency(opinion_leaders)
+```
+
+This is a really large network, however, so we need to prune it if we want to visualize it without using too much memory. For now, we are doing this for the sake of convenience, but note that doing this could have significant implications for how you interpret statistical metrics you compute about the network.
+
+To prune the network, let's first calculate the degree (or numher of connections) for each node
+
+```{r}
+V(oplead_network)$degree<-degree(oplead_network)
+```
+
+Next we can drop nodes with degree less than, say, 10:
+
+```{r}
+only_cool_folks <- delete.vertices(oplead_network,which(degree(oplead_network)<100))
+```
+
+Now let's see how many nodes we have:
+
+```{r}
+length(V(only_cool_folks))
+
+```
+
+Now let's cook up some better graphics using ggraph, which is sort of like ggplot for igraph objects
+
+```
