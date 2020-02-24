@@ -12,6 +12,11 @@ knitr::opts_chunk$set(echo = TRUE)
 The first thing we will do in this tutorial is to create a network object from an "edgelist" an edgelist is a two column dataset that describes relationships between two people. Let's create a fake network edgelist with some people as follows:
 
 ```{r}
+library(tidyverse)
+library(igraph)
+library(tidygraph)
+library(ggraph)
+
 Source <- c("John","Amy","Eviatar","Zoe","Zoe","Maliq","Charles")
 Target <- c("Maliq","Allison","Zoe","Amy","Allison","Charles","John")
 # Join the variables to create a data frame
@@ -26,7 +31,6 @@ But network datasets require more than a list of social connections (or edges), 
 If we don't have any network "isolates" (people without any connections) AND we don't have any attributes about our nodes, we can ask a powerful R package called igraph to create a list of nodes for us as follows:
 
 ```{r}
-library(igraph)
 my_edgelist<-graph.data.frame(edgelist)
 plot(my_edgelist)
 ```
@@ -57,19 +61,28 @@ To prune the network, let's first calculate the degree (or numher of connections
 V(oplead_network)$degree<-degree(oplead_network)
 ```
 
-Next we can drop nodes with degree less than, say, 10:
+Next we can drop nodes with degree less than, say, 3k:
 
 ```{r}
-only_cool_folks <- delete.vertices(oplead_network,which(degree(oplead_network)<100))
+only_cool_folks <- delete.vertices(oplead_network,which(degree(oplead_network)<3000))
 ```
 
 Now let's see how many nodes we have:
 
 ```{r}
 length(V(only_cool_folks))
-
 ```
 
 Now let's cook up some better graphics using ggraph, which is sort of like ggplot for igraph objects
 
+```{r}
+only_cool_folks_tidy <- as_tbl_graph(only_cool_folks)
+
+ggraph(only_cool_folks, layout = 'kk', maxiter = 100) + 
+  geom_node_point(aes(size = degree)) + 
+  scale_size(range = c(2,10)) +
+  geom_edge_link(alpha = 0.25) +
+  #geom_node_text(aes(label = name), repel = TRUE) +
+  theme_graph()
 ```
+
