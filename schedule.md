@@ -237,6 +237,9 @@ For these excercises, you will need the following datasets:<br/>
 ## 7 - Social networks, concepts and data
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Social Network basics
+***Code***: Intro to Social Network Analysis [Rmd](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.Rmd), [html](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.html)
+<br/><br/>
+
 
 ***Required reading***:
 <br/>
