@@ -377,42 +377,30 @@ summary {
 <li><code>nominees</code>: ‘grammy_nominees_20102020.Rdata’ is a table of Grammy nominees from 2010 to 2020 in the categories “Album of the year” (album_oty), “Record of the year” (record_oty), “Song of the year (song_oty), and”Best new artist of the year&quot; (new_artist_oty).</li>
 <li><code>winners</code>: ‘grammy_winners_20102020.Rdata’ is a table of Grammy winners for the above listed categories, from 2010 to 2020.</li>
 <li><code>artist_meta</code>: ‘artist_meta.Rdata’ is a table of Grammy nominee names and some of their metadata.</li>
-<li><code>dnc_candidates_flw_el.Rdata</code>: an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.</li>
+<li><code>dnc_candidates_flw_el</code>: ‘dnc_candidates_flw_el.Rdata’ is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.</li>
 </ol>
 <p>Load the datasets:</p>
-<pre class="r"><code>setwd(&quot;~/Sites/dssoc_labkeys&quot;)
-library(tidyverse)</code></pre>
-<pre><code>## ── Attaching packages ──────────────────────────────────────────────────────────────────── tidyverse 1.2.1 ──</code></pre>
-<pre><code>## ✓ ggplot2 3.2.1     ✓ purrr   0.3.3
-## ✓ tibble  2.1.3     ✓ dplyr   0.8.3
-## ✓ tidyr   1.0.0     ✓ stringr 1.4.0
-## ✓ readr   1.3.1     ✓ forcats 0.4.0</code></pre>
-<pre><code>## ── Conflicts ─────────────────────────────────────────────────────────────────────── tidyverse_conflicts() ──
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>library(spotifyr)
-library(rtweet)</code></pre>
-<pre><code>## 
-## Attaching package: 'rtweet'</code></pre>
-<pre><code>## The following object is masked from 'package:purrr':
-## 
-##     flatten</code></pre>
-<pre class="r"><code>load('grammy_nominees_20102020.Rdata')
-load('grammy_winners_20102020.Rdata')
-load('artist_meta.Rdata')
-load('dnc_candidates_flw_el.Rdata')</code></pre>
+<pre class="r"><code># setwd(&quot;~/Sites/dssoc_labkeys&quot;)
+# library(tidyverse)
+# library(spotifyr)
+# library(rtweet)
+# 
+# load('grammy_nominees_20102020.Rdata')
+# load('grammy_winners_20102020.Rdata')
+# load('artist_meta.Rdata')
+# load('dnc_candidates_flw_el.Rdata')</code></pre>
 <p><br /><br /></p>
 </div>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
 <p><br /></p>
 <div id="exercise-1-in-your-own-words-describe-what-an-application-programming-interface-is-and-what-advantage-it-provides-to-data-scientistscomputational-social-scientists." class="section level4">
-<h4><strong>Exercise 1</strong>: In your own words, describe what an Application Programming Interface is, and what advantage it provides to data scientists/computational social scientists.</h4>
+<h4><strong>Exercise 1</strong>: In your own words, describe what an application programming interface is, and what advantage it provides to data scientists/computational social scientists.</h4>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 </div>
-<div id="exercise-2-follow-the-steps-to-set-up-your-twitter-api-credentials.-instructions-for-this-can-be-found-here.-when-you-have-completed-the-steps-you-will-enter-your-below-key-secret-key-token-and-token-secret-below-but-be-sure-to-remove-these-before-submitting-your-assignment" class="section level4">
-<h4><strong>Exercise 2</strong>: Follow the steps to set up your Twitter API credentials. Instructions for this can be found <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">here</a>. When you have completed the steps, you will enter your below key, secret key, token, and token secret below, but <strong>BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT</strong></h4>
+<div id="exercise-2-follow-the-steps-to-set-up-your-twitter-api-credentials.-instructions-for-this-can-be-found-here.-when-you-have-completed-the-steps-you-will-enter-your-credentials-below-but-be-sure-to-remove-these-before-submitting-your-assignment." class="section level4">
+<h4><strong>Exercise 2</strong>: Follow the steps to set up your Twitter API credentials. Instructions for this can be found <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">here</a>. When you have completed the steps, you will enter your credentials below, but <strong>BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.</strong></h4>
 <pre class="r"><code>api_key &lt;- &quot;&lt;your key here&gt;&quot;
 api_secret_key &lt;- &quot;&lt;your secret here&gt;&quot;
 access_token &lt;- &quot;&lt;your token here&gt;&quot;
@@ -427,13 +415,13 @@ token &lt;- create_token(
   access_secret = access_token_secret)</code></pre>
 <p><br /></p>
 </div>
-<div id="exercise-3-using-the-dnc_canidates_flw_el.rdata-dataset-and-the-rtweet-package-create-a-new-dataset-that-contains-additional-meta-information-about-all-candidates-andor-the-accounts-they-follow.-once-gathered-describe-and-demonstrate-e.g.in-table-or-graph-some-new-insight-e.g.a-summary-statistic-or-pattern-that-you-gain-from-this-additional-data.-what-more-does-it-tell-you-about-the-candidates-the-accounts-they-follow-or-how-they-relate-to-one-another" class="section level4">
-<h4><strong>Exercise 3</strong>: Using the <code>dnc_canidates_flw_el.Rdata</code> dataset, and the <a href="https://cloud.r-project.org/web/packages/rtweet/rtweet.pdf"><code>rtweet</code> package</a>, create a new dataset that contains additional meta information about all candidates and/or the accounts they follow. Once gathered, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this additional data. What more does it tell you about the candidates, the accounts they follow, or how they relate to one another?</h4>
+<div id="exercise-3-using-the-dnc_canidates_flw_el.rdata-dataset-and-the-rtweet-package-create-a-new-dataset-that-contains-additional-meta-information-about-all-candidates-andor-the-accounts-they-follow.-once-gathered-describe-and-demonstrate-e.g.in-table-or-graph-some-new-insight-e.g.a-summary-statistic-or-pattern-that-you-gain-from-this-new-data.-what-more-does-it-tell-you-about-the-candidates-the-accounts-they-follow-or-how-they-relate-to-one-another" class="section level4">
+<h4><strong>Exercise 3</strong>: Using the <code>dnc_canidates_flw_el.Rdata</code> dataset, and the <a href="https://cloud.r-project.org/web/packages/rtweet/rtweet.pdf"><code>rtweet</code> package</a>, create a new dataset that contains additional meta information about all candidates and/or the accounts they follow. Once gathered, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the candidates, the accounts they follow, or how they relate to one another?</h4>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 </div>
-<div id="exercise-4-follow-the-steps-to-set-up-your-spotify-api-credentials.-when-you-have-finished-you-will-enter-your-client-id-and-secret-below-but-be-sure-to-remove-these-before-submitting-your-assignment." class="section level4">
-<h4><strong>Exercise 4</strong>: Follow <a href="https://github.com/charlie86/spotifyr">the steps</a> to set up your Spotify API credentials. When you have finished, you will enter your client ID and secret below, but <strong>BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.</strong></h4>
+<div id="exercise-4-follow-the-steps-to-set-up-your-spotify-api-credentials.-when-you-have-finished-you-will-enter-your-credentials-below-but-be-sure-to-remove-these-before-submitting-your-assignment." class="section level4">
+<h4><strong>Exercise 4</strong>: Follow <a href="https://github.com/charlie86/spotifyr">the steps</a> to set up your Spotify API credentials. When you have finished, you will enter your credentials below, but <strong>BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.</strong></h4>
 <pre class="r"><code>Sys.setenv(SPOTIFY_CLIENT_ID = '&lt;your id here&gt;')
 Sys.setenv(SPOTIFY_CLIENT_SECRET = '&lt;your secret here&gt;')
 
@@ -445,8 +433,8 @@ access_token &lt;- get_spotify_access_token()</code></pre>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 </div>
-<div id="exercise-6-now-make-a-network-visualization-of-the-edge-list-created-in-exercise-1.-you-may-do-this-however-youd-like.-although-not-necessary-you-may-consider-reformatting-your-data-so-that-the-network-visual-contains-only-nodes-for-the-grammy-nominees-i.e.those-spotify-ids-in-the-artist_meta-dataset-with-edges-weighted-by-the-number-of-related-artists-they-share-in-common.-you-may-also-consider-adding-artist-names-from-the-artist_meta-dataset-as-node-attributes-in-your-visualization.-alternatively-you-may-like-to-gather-more-information-from-the-spotify-api-and-add-it-as-node-or-edge-information-in-your-visualization-e.g.coloring-nodes-by-primary-genre-that-the-artist-belongs-to.-be-creative" class="section level4">
-<h4><strong>Exercise 6</strong>: Now, make a network visualization of the edge list created in Exercise 1. You may do this however you’d like. Although not necessary, you may consider reformatting your data so that the network visual contains only nodes for the Grammy nominees (i.e. those Spotify ids in the <code>artist_meta</code> dataset), with edges weighted by the number of related artists they share in common. You may also consider adding artist names from the <code>artist_meta</code> dataset as node attributes in your visualization. Alternatively, you may like to gather more information from the Spotify API and add it as node or edge information in your visualization (e.g. coloring nodes by primary genre that the artist belongs to). Be creative :)</h4>
+<div id="exercise-6-now-make-a-network-visualization-of-the-edge-list-created-in-exercise-5.-you-may-do-this-however-youd-like.-although-not-necessary-you-may-consider-reformatting-your-data-so-that-the-network-visual-contains-only-nodes-for-the-grammy-nominees-i.e.those-spotify-ids-in-the-artist_meta-dataset-with-edges-weighted-by-the-number-of-related-artists-they-share-in-common.-you-may-also-consider-adding-artist-names-from-the-artist_meta-dataset-as-node-attributes-in-your-visualization.-alternatively-you-may-like-to-gather-more-information-from-the-spotify-api-and-add-it-as-node-or-edge-information-in-your-visualization-e.g.coloring-nodes-by-primary-genre-that-the-artist-belongs-to.-be-creative" class="section level4">
+<h4><strong>Exercise 6</strong>: Now, make a network visualization of the edge list created in Exercise 5. You may do this however you’d like. Although not necessary, you may consider reformatting your data so that the network visual contains only nodes for the Grammy nominees (i.e. those Spotify ids in the <code>artist_meta</code> dataset), with edges weighted by the number of related artists they share in common. You may also consider adding artist names from the <code>artist_meta</code> dataset as node attributes in your visualization. Alternatively, you may like to gather more information from the Spotify API and add it as node or edge information in your visualization (e.g. coloring nodes by primary genre that the artist belongs to). Be creative :)</h4>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 </div>
