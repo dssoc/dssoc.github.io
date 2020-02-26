@@ -260,7 +260,7 @@ For these excercises, you will need the following datasets:<br/>
 #### Basics of Social Networks (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
-<code>Lab 4 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
+<code>Lab 5 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_candidates_flw_am.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
@@ -279,6 +279,8 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Application Programming Interfaces
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### When they want to give you data...
+***Slides***: [Social Network Analysis](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
+<br/><br/>
 
 ***Required reading***:
 <br/>
@@ -299,9 +301,15 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">February 27</font></i></b>
 #### Working with APIs (Lab)
 <div class="callout callout--info">
-<code>assignment pending</code>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
+<code>Lab 6 Exercises - Application Programming Intefaces</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 
 ## 10 - Algorithms & ML
