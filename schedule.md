@@ -312,7 +312,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 10 - Algorithms & ML
+## 9 - Algorithms & ML
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### Intro to Algorithms and Machine Learning
 
