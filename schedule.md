@@ -279,8 +279,10 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Application Programming Interfaces
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### When they want to give you data...
-***Slides***: [Social Network Analysis](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
+***Slides***: [APIs](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
 <br/><br/>
+
+***Annotated Code***: [html](https://compsocialscience.github.io/summer-institute/2019/materials/day2-digital-trace-data/apis/rmarkdown/Application_Programming_interfaces.html)
 
 ***Required reading***:
 <br/>
@@ -318,7 +320,9 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Required reading***:
 <br/>
+- Gavin Edwards. [**Machine Learning | An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), towardsdatascience.com, *Medium*.
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
+- Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
 <br/><br/><br/><br/>
 
 
@@ -382,6 +386,8 @@ For these excercises, you will need the following datasets:<br/>
 ## 13 - Topic Models
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### LDA and Beyond
+***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/) 
+
 ***Required reading***:
 <br/>
 - Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
