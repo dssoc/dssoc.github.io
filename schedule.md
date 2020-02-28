@@ -280,7 +280,6 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### When they want to give you data...
 ***Slides***: [APIs](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
-<br/><br/>
 
 ***Annotated Code***: [html](https://compsocialscience.github.io/summer-institute/2019/materials/day2-digital-trace-data/apis/rmarkdown/Application_Programming_interfaces.html)
 
