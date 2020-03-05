@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Resource/Slides:</i><br/>
 - <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html">`caret` Package</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html">caret Package</a><br/>
 - <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
 <br/><br/>
 
