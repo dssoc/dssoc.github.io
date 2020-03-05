@@ -1,0 +1,147 @@
+---
+title: "DS&S Lab 7 - Intro to Machine Learning"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Lab assignments are due by midnight on the Monday after each it is assigned. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+**Some useful resources for this lab include:** 
+- the [`caret` package](https://topepo.github.io/caret/index.html) in R.
+- [Visual intro to ML](http://www.r2d3.us/visual-intro-to-machine-learning-part-1/)
+- [A review of predictive modeling processes](https://bookdown.org/max/FES/review-predictive-modeling-process.html)
+<br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+(1) `spotify_relatedArtists`: 'spotify_relatedArtists.Rdata' is an edge list of Grammy nominees from 2010 to 2020, with all of the artist they are "related to" on Spotify.
+(2) `nominees`: 'grammy_nominees_20102020.Rdata' is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(3) `winners`: 'grammy_winners_20102020.Rdata' is a table of Grammy winners for the above listed categories, from 2010 to 2020.
+(4) `artist_meta`: 'artist_meta.Rdata' is a table of Grammy nominee names and some of their metadata.
+
+Load the datasets:
+```{r, message = FALSE}
+library(tidyverse)
+library(spotifyr)
+library(rtweet)
+
+load('spotify_relatedArtists.Rdata')
+load('grammy_nominees_20102020.Rdata')
+load('grammy_winners_20102020.Rdata')
+load('artist_meta.Rdata')
+load('dnc_candidates_flw_el.Rdata')
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### **Exercise 1**: In your own words, describe machine learning.
+
+
+
+<br/><br/>
+
+#### **Exercise 2**: Is clustering a form of supervised or unsupervised machine learning? What makes it so?
+
+
+
+<br/><br/>
+
+#### **Exercise 3**: What is the difference, in machine learning, between "classification" and "regression"?
+
+
+
+<br/><br/>
+
+#### **Exercise 4**: In Sendhil Mullainathan's New York Times article ["Biased Algorithms Are Easier to Fix Than Biased People"](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), what is the primary argument, and why is it important for data/computational social science?
+
+
+
+<br/><br/>
+
+#### **Exercise 5**: How does the chapter you read of Cathy O'Neils' book "Weapons of Math Destruction" relate to the primary argument in Sendhil Mullainathan's article? For example, do algorithms need to be implemented in machine learning in order to have social impacts? Beyond bias, what other forms of heed should be taken in our modern implementations of algorithms?
+
+
+
+<br/><br/>
+
+#### **Exercise 6**: Describe the use of an algorithm--machine learning or otherwise--somewhere in modern life. Choose any algorithm that interests you. Learn more about it. What benefits does it provide to society? What risk factors might it introduce?
+
+
+
+<br/><br/>
+
+
+#### **Exercise 7**: Using the `spotify_relatedArtists.Rdata` dataset, implement your choice of unsupervised learning to cluster the artists based on how many related artists they share in common. How many artists fall into each cluster? If you had to, what would name each cluster to describe it for an audience?
+<br/>
+```{r}
+# your answer here
+```
+<br/><br/>
+
+
+
+#### **Exercise 8**: What parameters did you choose to set in Exercise 7 and how do you think your choice may have impacted your results?
+```{r}
+# your answer here
+```
+<br/><br/>
+
+
+
+#### **Exercise 9**: Below, I create a new data frame, which contains a row for each Grammy nominee, along with information extracted from the `nominees.Rdata` and `winners.Rdata` tables. Run this code yourself, to create the new data frame.
+```{r, warning = FALSE}
+# add genre columns, as 0/1
+genres <- unique(strsplit(paste(artist_meta$genre, collapse=','), ',')[[1]])
+genres.df <- setNames(data.frame(matrix(ncol = (length(genres)+1), 
+                                        nrow = nrow(artist_meta))), 
+                      c('spotifyID', genres))
+
+for(i in 1:nrow(artist_meta)){
+  genres.df$spotifyID[i] <- artist_meta$spotifyID[i]
+  for (j in 1:length(genres)){
+    if(grepl(genres[j], artist_meta$genre[i])){
+      genres.df[i, j+1] <- 1
+    } else {genres.df[i, j+1] <- 0}
+  }
+}
+for_classifier <- left_join(artist_meta, genres.df, by = 'spotifyID')
+
+# add awards nominated columns, as 0/1
+for (i in 1:nrow(for_classifier)){
+  a <- for_classifier$artist[i]
+  nominations <- nominees %>%
+    filter(performer1 == a | performer2 == a | performer3 == a | performer4 == a) %>%
+    select(record_oty, album_oty, song_oty, new_artist_oty)
+  for_classifier$record_oty[i] <- max(nominations$record_oty)
+  for_classifier$album_oty[i] <- max(nominations$album_oty)
+  for_classifier$song_oty[i] <- max(nominations$song_oty)
+  for_classifier$new_artist_oty[i] <- max(nominations$new_artist_oty)
+}
+
+# add outcome column, "winner" as 0/1
+for_classifier$winner <- 0
+for(i in 1:nrow(for_classifier)){
+  if(any(grepl(for_classifier$artist[i], winners))){
+    for_classifier$winner[i] <- 1
+  }
+}
+```
+<br/>
+Now, Using the dataset created above, implement your choice of supervised learning method to classify artists into categories of the `winner` column. 
+
+**Alternatively, you may wish to use the Twitter data and predict retweets or some other outcome gathered from the Twitter API.** 
+
+Note that it can be very difficult to find models that work well for social science, as [this article](https://www.jessesadler.com/post/network-analysis-with-r/), *"Exploring limits to prediction in complex social system,"* suggests. Don't get discouraged if your models does not predict well.
+
+<br/><br/>
+
+#### **Exercise 10**: How can you tell whether your method performed well? What could you do to try to improve it in the future?
+
