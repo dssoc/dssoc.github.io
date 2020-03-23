@@ -401,7 +401,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 <br/>
 - Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
-- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in **Text Mining with R**.
+- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 <br/><br/>
 
 ***Additional reading***:
@@ -453,16 +453,10 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 15 - Group Projects
+## 15 - Final Project(s)
 <b><i><font color="#E84E4E">April 14</font></i></b>
-#### In-class project time
-***Required reading***:
-<br/>
-- 
-<br/><br/>
-
-***Additional reading***:
-<br/><br/><br/>
+#### Remote project time
+<br/><br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 16</font></i></b>
 #### FINAL PRESENTATIONS, Part 1
