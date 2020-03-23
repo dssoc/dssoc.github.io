@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Resource/Slides:</i><br/>
 - <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html">caret Package</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html">`caret` Package</a><br/>
 - <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
 <br/><br/>
 
@@ -387,8 +387,8 @@ For these excercises, you will need the following datasets:<br/>
 
 <i>Optional resources:</i><br/>
 <ul>
-  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach, by Julia Silge and David Robinson</a></b></li><br/>
-  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> `stringr` Cheet Sheet</a></b></li><br/>
+  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach, by Julia Silge and David Robinson</a></b></li>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> `stringr` Cheet Sheet</a></b></li>
   <li><b><a href = "https://quanteda.io/">`quanteda` package</a></b></li><br/>
 </ul>
 </div>
@@ -400,8 +400,8 @@ For these excercises, you will need the following datasets:<br/>
 #### Sentiment analysis
 ***Required reading***:
 <br/>
-- Kramer et al.(2014). [Experimental evidence of massive-scale emotional contagion through social networks](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
-- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in **Text Mining with R**.
+- Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
+- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in **Text Mining with R**.
 <br/><br/>
 
 ***Additional reading***:
@@ -418,11 +418,11 @@ For these excercises, you will need the following datasets:<br/>
 ## 13 - Topic Models
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### LDA and Beyond
-***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/) 
+***Slides***: [**Running R in the Cloud**](https://cbail.github.io/Running_R_in_the%20Cloud.html#/) 
 
 ***Required reading***:
 <br/>
-- Blei, David M. (2012). [Probabilistic Topic Models](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+- Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
 <br/><br/>
 
 ***Additional reading***:
