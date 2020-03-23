@@ -378,7 +378,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
-<i>Assignment:</i><br/><br/>
+<i>Assignment:</i><br/>
 <code>Lab 8 Exercises - Intro to Text Analysis</code> (<a href = "">.Rmd</a>) (<a href = "">.html</a>)<br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
@@ -387,7 +387,7 @@ For these excercises, you will need the following datasets:<br/>
 
 <i>Optional resources:</i><br/>
 <ul>
-  <li><a href = "https://www.tidytextmining.com/"><b>Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
+  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
   <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><i>stringr</i> Cheet Sheet</a></b></li>
   <li><b><a href = "https://quanteda.io/"><i>quanteda</i> package</a></b></li><br/>
 </ul>
