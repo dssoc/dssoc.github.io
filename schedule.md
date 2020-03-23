@@ -375,9 +375,24 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">March 19</font></i></b>
 #### Intro to text data (Lab)
 <div class="callout callout--info">
-<code>assignment pending</code>
+<i>Required reading:</i> <br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
+<i>Assignment:</i><br/><br/>
+<code>Lab 8 Exercises - Intro to Text Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
+
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+<br/>
+
+<i>Optional resources:</i><br/>
+<ul>
+  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach, by Julia Silge and David Robinson</a></b></li><br/>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> `stringr` Cheet Sheet</a></b></li><br/>
+  <li><b><a href = "https://quanteda.io/">`quanteda` package</a></b></li><br/>
+</ul>
 </div>
-<br/><br/><br/><br/>
+<br/><br/><br/>
 
 
 ## 12 - Sentiment analysis
@@ -385,7 +400,7 @@ For these excercises, you will need the following datasets:<br/>
 #### Sentiment analysis
 ***Required reading***:
 <br/>
-- Kramer et al. 2014. Experimental evidence of massive-scale emotional contagion through social networks Proceedings of the National Academy of Sciences
+- Kramer et al.(2014). [Experimental evidence of massive-scale emotional contagion through social networks](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
 <br/><br/>
 
 ***Additional reading***:
