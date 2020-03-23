@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Resource/Slides:</i><br/>
 - <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html">*caret* Package</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html"><i>caret</i> Package</a><br/>
 - <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
 <br/><br/>
 
@@ -387,9 +387,9 @@ For these excercises, you will need the following datasets:<br/>
 
 <i>Optional resources:</i><br/>
 <ul>
-  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach, by Julia Silge and David Robinson</a></b></li>
-  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> *stringr* Cheet Sheet</a></b></li>
-  <li><b><a href = "https://quanteda.io/">*quanteda* package</a></b></li><br/>
+  <li><a href = "https://www.tidytextmining.com/"><b>Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><i>stringr</i> Cheet Sheet</a></b></li>
+  <li><b><a href = "https://quanteda.io/"><i>quanteda</i> package</a></b></li><br/>
 </ul>
 </div>
 <br/><br/><br/>
