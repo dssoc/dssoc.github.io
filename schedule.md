@@ -401,6 +401,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 <br/>
 - Kramer et al.(2014). [Experimental evidence of massive-scale emotional contagion through social networks](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
+- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in **Text Mining with R**.
 <br/><br/>
 
 ***Additional reading***:
@@ -421,7 +422,7 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Required reading***:
 <br/>
-- Blei, David M. 2012. Probabilistic Topic Models. Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+- Blei, David M. (2012). [Probabilistic Topic Models](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
 <br/><br/>
 
 ***Additional reading***:
