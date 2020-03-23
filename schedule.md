@@ -267,7 +267,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 <i>Optional resources:</i><br/>
 <ul>
-  <li><b><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></b></li>
+  <li><code><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></code></li>
   <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Resource/Slides:</i><br/>
 - <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html"><i>caret</i> Package</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html"><code>caret</code> Package</a><br/>
 - <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
 <br/><br/>
 
@@ -379,7 +379,7 @@ For these excercises, you will need the following datasets:<br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
 <i>Assignment:</i><br/>
-<code>Lab 8 Exercises - Intro to Text Analysis</code> (<a href = "">.Rmd</a>) (<a href = "">.html</a>)<br/><br/>
+<code>Lab 8 Exercises - Intro to Text Analysis</code><br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
@@ -388,8 +388,8 @@ For these excercises, you will need the following datasets:<br/>
 <i>Optional resources:</i><br/>
 <ul>
   <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
-  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><i>stringr</i> Cheet Sheet</a></b></li>
-  <li><b><a href = "https://quanteda.io/"><i>quanteda</i> package</a></b></li><br/>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
+  <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
 </ul>
 </div>
 <br/><br/><br/>
