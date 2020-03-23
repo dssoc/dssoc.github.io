@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Resource/Slides:</i><br/>
 - <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html">`caret` Package</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html">*caret* Package</a><br/>
 - <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
 <br/><br/>
 
@@ -379,7 +379,7 @@ For these excercises, you will need the following datasets:<br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
 <i>Assignment:</i><br/><br/>
-<code>Lab 8 Exercises - Intro to Text Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
+<code>Lab 8 Exercises - Intro to Text Analysis</code> (<a href = "">.Rmd</a>) (<a href = "">.html</a>)<br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
@@ -388,8 +388,8 @@ For these excercises, you will need the following datasets:<br/>
 <i>Optional resources:</i><br/>
 <ul>
   <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach, by Julia Silge and David Robinson</a></b></li>
-  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> `stringr` Cheet Sheet</a></b></li>
-  <li><b><a href = "https://quanteda.io/">`quanteda` package</a></b></li><br/>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"> *stringr* Cheet Sheet</a></b></li>
+  <li><b><a href = "https://quanteda.io/">*quanteda* package</a></b></li><br/>
 </ul>
 </div>
 <br/><br/><br/>
