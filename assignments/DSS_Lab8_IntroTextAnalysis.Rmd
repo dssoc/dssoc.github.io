@@ -1,0 +1,85 @@
+---
+title: "DS&S Lab 8 - Intro to Text Analysis"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Given the covid-19 pandemic, this lab is optional. If you would like to complete this assignment as a make-up for previous grades, please let the TA know. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+**Some useful resources for this lab include:** 
+- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/), by Julia Silge and David Robinson
+- R for Data Science: [Strings](https://r4ds.had.co.nz/strings.html), chapter 14
+- the [`stringr` package](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html) in R, and a [cheat sheet](https://github.com/rstudio/cheatsheets/blob/master/strings.pdf)
+- the [`quanteda` package](https://quanteda.io/) in R
+<br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+(1) `nominees`: 'grammy_nominees_20102020.Rdata' is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(2) `artist_meta`: 'artist_meta.Rdata' is a table of Grammy nominee names and some of their metadata.
+
+Load the datasets:
+```{r, message = FALSE}
+library(tidyverse)
+library(spotifyr)
+library(rtweet)
+
+load('grammy_nominees_20102020.Rdata')
+load('artist_meta.Rdata')
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### **Exercise 1**: In your own words, describe regular expressions and how they might help in text analysis.
+
+<br/><br/>
+
+#### **Exercise 2**: Using regular expressions, code the equivalents of ?, +, and * in {m,n} form. 
+
+<br/><br/>
+
+#### **Exercise 3**: In manipulating strings, what is "an escape" and how would you use it?
+
+<br/><br/>
+
+#### **Exercise 4**: Solve one of the beginner regex crossword puzzles (https://regexcrossword.com/challenges/beginner/puzzles/1). When you have finished, provide your answers in code below:
+
+<br/><br/>
+
+#### **Exercise 5**: Using the `artist_meta` table, filter to include only artists whose first name begins with a letter in the first half of the alphabet.
+
+<br/><br/>
+
+#### **Exercise 6**: Investigate the genre variable of the `artist_meta` table, and list all genres that include the word "pop".
+
+<br/><br/>
+
+
+#### **Exercise 7**: Using the `nominees` table, write a regular expression that finds all song names comprised of at least one digit/number. 
+
+<br/><br/>
+
+
+#### **Exercise 8**: What proportion of unique album names in the `nominees` table start with a vowel?
+
+<br/><br/>
+
+
+#### **Exercise 9**: What is the most common word throughout the `record_name`, `album_name`, and `song_name` of the `nominees` table?
+
+<br/><br/>
+
+
+#### **Exercise 10**: What is the record name with the most words?
+
+
+<br/>
+
