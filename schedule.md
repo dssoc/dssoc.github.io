@@ -378,7 +378,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
-<i>Assignment:<br/>
+<i>Assignment</i>:<br/>
 <code>Lab 8 Exercises - Intro to text data</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab8_IntroTextAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab8_IntroTextAnalysis.html">.html</a>)
 <br/><br/>
 
