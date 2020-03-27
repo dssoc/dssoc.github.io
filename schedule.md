@@ -361,6 +361,10 @@ For these excercises, you will need the following datasets:<br/>
 ## 11 - Text analysis
 <b><i><font color="#E84E4E">March 17</font></i></b>
 #### Words to Numbers
+***Slides***: [**Basic Text Analysis**](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic_Text_Analysis.html#/)<br/>
+***Annotated Code***: [html](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)<br/><br/>
+
+
 ***Required reading***:
 <br/>
 - James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
@@ -400,13 +404,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 12 - Sentiment analysis
 <b><i><font color="#E84E4E">March 24</font></i></b>
 #### Sentiment analysis
+***Slides***: [**Dictionary-based Methods**](https://cbail.github.io/ids704/dictionary-methods/Rpres/Dictionary%20Based%20Analysis.html)<br/>
+***Annotated Code***: [html](https://cbail.github.io/ids704/dictionary-methods/rmarkdown/Dictionary-Based_Text_Analysis.html)<br/><br/>
+
 ***Required reading***:
 <br/>
 - Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
 - Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-<br/><br/>
-
-***Additional reading***:
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">March 26</font></i></b>
@@ -420,11 +424,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 13 - Topic Models
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### LDA and Beyond
-***Slides***: [**Running R in the Cloud**](https://cbail.github.io/Running_R_in_the%20Cloud.html#/) 
+***Slides***: [**Running R in the Cloud**](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [**Topic Modeling**](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
+***Annotated Code***: [html](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html)<br/><br/>
 
 ***Required reading***:
 <br/>
 - Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+- Patrick van Kessel (Pew Research Center, 2018). [**An intro to topic models for text analysis**](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb).
 <br/><br/>
 
 ***Additional reading***:
