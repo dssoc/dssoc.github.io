@@ -416,7 +416,24 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">March 26</font></i></b>
 #### Word counts and Dictionaries (Lab)
 <div class="callout callout--info">
-<code>assignment pending</code>
+<i>Required reading:</i> <br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
+<i>Assignment</i>:<br/>
+<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
+<br/><br/>
+
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+<br/><br/>
+
+
+<i>Optional resources:</i><br/>
+<ul>
+  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
+  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
+  <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
+</ul>
 </div>
 <br/><br/><br/><br/>
 
