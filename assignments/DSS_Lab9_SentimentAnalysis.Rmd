@@ -1,0 +1,137 @@
+---
+title: "DS&S Lab 9 - Sentiment Analysis"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+Given the covid-19 pandemic, this lab is optional. If you would like to complete this assignment as a make-up for previous grades, please let the TA know. As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+**Some useful resources for this lab include:** <br/>
+- [Text Mining with R: A Tidy Approach](https://www.tidytextmining.com/), by Julia Silge and David Robinson <br/>
+- R for Data Science: [Strings](https://r4ds.had.co.nz/strings.html), chapter 14 <br/>
+- the [`stringr` package](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html) in R, and a [cheat sheet](https://github.com/rstudio/cheatsheets/blob/master/strings.pdf) <br/>
+- the [`quanteda` package](https://quanteda.io/) in R <br/>
+<br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+(1) `artist_meta`: 'artist_meta.Rdata' is a table of Grammy nominee names and some of their metadata.
+<br/><br/>
+
+### Exercises
+<br/>
+Load the datasets:
+```{r, message = FALSE}
+library(tidyverse)
+library(tidytext)
+library(spotifyr)
+library(rtweet)
+
+load('artist_meta.Rdata')
+```
+<br/><br/>
+
+#### **Exercise 1**: In text analysis, what is a "tokenization"? What is "stemming"?
+
+
+<br/><br/>
+
+#### **Exercise 2**: Below, we provide code to create a dataframe that contains the most recent Tweets from the three remaining candidates for US President in the 2020 election (as of March 31, 2020): Donald Trump, Joe Biden, and Bernie Sanders. Using the Twitter API credentials that you gained from previous homework assignments, execute this code. NOTE: remember to remove your credentials before submitting the assignment.
+<br/>
+```{r}
+library(rtweet)
+candidates <- c('BernieSanders', 'JoeBiden', 'realDonaldTrump')
+
+## store api keys (these are fake example values; replace with your own keys)
+api_key <- "<your api key here>"
+api_secret_key <- "<your api secret here>"
+access_token <- "<your access token here>"
+access_token_secret <- "<you access toke secret here>"
+
+## authenticate via web browser
+token <- create_token(
+  app = "<your app name>",
+  consumer_key = api_key,
+  consumer_secret = api_secret_key,
+  access_token = access_token,
+  access_secret = access_token_secret)
+
+## get timelines
+candidate_timelines_100 <- get_timelines(
+  candidates,
+  n = 100
+)
+```
+<br/><br/>
+
+
+#### **Exercise 3**: Calculate the frequency for each word in the 300 tweets that you just collected. Be sure to remove stop words, as well as other unmeaningful words (e.g. https). You may want to consider stemming too.
+```{r}
+
+```
+
+<br/><br/>
+
+#### **Exercise 4**: Make a visual to desribe the frequency of the top 50 words found in Exercise 3.
+```{r}
+
+```
+
+<br/><br/>
+
+#### **Exercise 5**: Now, select a set of four terms and subset the original dataset of tweets to include only tweets containing those words.
+```{r}
+
+```
+
+<br/><br/>
+
+#### **Exercise 6**: Apply the sentiment dictionary of your choice (e.g. "bing", "afinn", etc) to your new subset of tweets from Exercise 5. What are the five most frequent words used in your subset of tweets, and what are their sentiments? Does this make sense to you? Why or why not?
+```{r}
+
+```
+
+<br/><br/>
+
+#### **Exercise 7**: Make a visual to plot the degree of positive and negative sentiment by candidate for your subset of tweets. Which candidate uses the most postitive words? Which candidate uses the most negative? What might be a problem with only calculating/visualizing absolute counts?
+
+```{r}
+
+```
+
+<br/><br/>
+
+
+#### **Exercise 8**: Let's turn to using the Grammy nominee data. In the code below, we show you how to retrieve texts for the Wikipedia article associated with each nominee. We do so using the `htm2txt` package, which interfaces with the Wikipedia API. Execute this code, which takes a few minutes to run.
+```{r}
+artist_meta$wikipedia_text <- ''
+
+library(htm2txt)
+for (a in 1:nrow(artist_meta)){
+  wiki.text <- gsub("[\r\n]|•", "", gettxt(artist_meta$wikipedia_link[a]))
+  artist_meta$wikipedia_text[a] <- wiki.text
+}
+
+artist_meta$wikipedia_text[10]
+```
+
+<br/><br/>
+
+
+#### **Exercise 9**: Conduct sentiment analysis on the Wikipedia page texts that you just collected (note, they are now in a column called `wikipedia_text`). Which arist has the most positive words in their Wikipedia page? Which artist has the most negative? Provide some evidence for this by listing words or sentences that demonstrate the levels of positivity/negativity for those artists.
+```{r}
+
+```
+<br/><br/>
+
+
+#### **Exercise 10**: Given what you see in the results of Exercise 9, how would you describe your findings to a general audience? What caveats to the data or analysis would you present? What further inquiry or analysis would you advise, assumning that the audience would like to understand why artists have different levels of positivity/negativity in their Wikipedia pages?
+
+<br/>
+
