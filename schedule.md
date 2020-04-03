@@ -441,20 +441,18 @@ For these excercises, you will need the following datasets:<br/>
 ## 13 - Topic Models
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### LDA and Beyond
-***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [**Topic Modeling**](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
+***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [Topic Modeling](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
 ***Annotated Code***: [html](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html)<br/><br/>
 
 ***Required reading***:
 <br/>
 - Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
 - Patrick van Kessel (Pew Research Center, 2018). [**An intro to topic models for text analysis**](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb).
-<br/><br/>
 
-***Additional reading***:
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 12</font></i></b>
-#### Class Cancelled
+#### Final Project(s)
 <br/><br/><br/><br/>
 
 
@@ -464,7 +462,22 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
-<code>assignment pending</code>
+<i>Required reading:</i> <br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
+<i>Assignment</i>:<br/>
+<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "">.Rmd</a>) (<a href = "">.html</a>)
+<br/><br/>
+
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
+<br/><br/>
+
+
+<i>Optional resources:</i><br/>
+<ul>
+<li><b><a href = "https://www.tidytextmining.com/topicmodeling.html">Text Mining with R: A Tidy Approach, chapter 6: Topic Modeling</a></b> by Julia Silge and David Robinson</li>
+</ul>
 </div>
 <br/><br/><br/><br/>
 
