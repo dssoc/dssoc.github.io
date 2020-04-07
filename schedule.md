@@ -464,7 +464,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li><b><a href = "https://www.tidytextmining.com/topicmodeling.html">Text Mining with R: A Tidy Approach, chapter 6: Topic Modeling</a></b> by Julia Silge and David Robinson</li><br/>
+<li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li><br/>
 
 <i>Assignment</i>:<br/>
 <code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
@@ -473,6 +473,7 @@ For these excercises, you will need the following datasets:<br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
 
+</div>
 <br/><br/><br/><br/>
 
 
