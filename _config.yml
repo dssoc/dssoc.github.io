@@ -18,9 +18,9 @@ doks:
     footer:
         content:
             logo:
-                text: Data Science & Society
+                text: Data Science & Society <br> background image by W.E.B. Du Bois
                 image:
-            copyright: Copyright &copy; 2017. - Project name <br>All rights reserved.
+            copyright: Copyright &copy; 2017 <br>All rights reserved.
         social_list:
             - network_name: twitter
               profile_url: '#'
