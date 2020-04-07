@@ -448,7 +448,6 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 - Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
 - Patrick van Kessel (Pew Research Center, 2018). [**An intro to topic models for text analysis**](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb).
-
 <br/><br/><br/>
 
 <b><i><font color="#E84E4E">April 12</font></i></b>
@@ -464,7 +463,7 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li><br/>
+<li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li></ul><br/>
 
 <i>Assignment</i>:<br/>
 <code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
