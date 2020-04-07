@@ -20,7 +20,7 @@ doks:
             logo:
                 text: Data Science & Society 
                 image:
-            copyright: Copyright &copy; 2017 <br>All rights reserved. <br> website background by <a href = "https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois </a>
+            copyright: Copyright &copy; 2017, All rights reserved. <br> website background by <a href = "https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois </a>
         social_list:
             - network_name: twitter
               profile_url: '#'
