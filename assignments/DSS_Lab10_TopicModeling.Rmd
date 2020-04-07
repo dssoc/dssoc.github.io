@@ -1,0 +1,102 @@
+---
+title: "DS&S Lab 10 - Topic Modeling"
+output: html_document
+---
+
+## STUDENT! ADD YOUR NAME HERE!
+
+This lab is optional. If you would like to complete this assignment as a make-up for previous grades, please let the TA know. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
+
+Submit your .Rmd file by email to: dsandsociety@gmail.com
+<br/><br/>
+
+**Some useful resources for this lab include:** <br/>
+- Text Mining with R: A Tidy Approach, [chapter 6: Topic Modeling](https://www.tidytextmining.com/topicmodeling.html), by Julia Silge and David Robinson <br/>
+- R for Data Science: [Strings](https://r4ds.had.co.nz/strings.html), chapter 14 <br/>
+- the [`stringr` package](https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html) in R, and a [cheat sheet](https://github.com/rstudio/cheatsheets/blob/master/strings.pdf) <br/>
+- the [`quanteda` package](https://quanteda.io/) in R
+<br/>
+
+### Setup
+
+The data that you will be using for this lab can be downloaded from the course website: 
+
+(1) `artist_meta_wWikitext`: 'artist_meta_wWikitext.Rdata' is a table of Grammy nominee names and some of their metadata, along with the text extracted from their Wikipedia pages on April 1, 2020.
+
+Load the datasets:
+```{r, message = FALSE}
+library(tidyverse)
+library(tidytext)
+library(quanteda)
+library(stm)
+
+load('artist_meta_wWikitext.Rdata')
+# make this into a tidy tibble
+tidy_nominees <- tidy(as.matrix(artist_meta_wWikitext))
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+#### **Exercise 1**: In your own words, describe what a topic model is and how it can be useful to data science.
+<br/><br/>
+
+
+#### **Exercise 2**: For the remainder of the exercises, we will produce a topic model using the text of Wikipedia pages for Grammy nominated artists betwen 2010-2020. As biographical texts, what types of topics do you expect to uncover from these texts, and why? 
+<br/><br/>
+
+
+#### **Exercise 3**: Pre-process the texts according to your preference. This may include removing punctuation, numbers, and stopwords, stemming, etc. 
+
+If you are using the `stm` package, you would use the `textProcessor` command. If you would also like to remove very common/uncommon words, you can use the `prepDocuments` command and manipulate the `upper.thresh` and `lower.thresh` parameters.*The texts can be found in the `wikipedia_text` column of the `artist_meta_wWikitext` table.*
+<br/>
+```{r}
+# this is completely option code that you can use to remove the artists' names from the text:
+# tidy_nominees$wikipedia_text <- str_remove_all(tidy_nominees$wikipedia_text, str_c(tidy_nominees$artist, collapse="|"))
+```
+<br/><br/>
+
+
+#### **Exercise 4**: How do you think your choices in pre-processing might impact the results of the topic model?
+<br/><br/>
+
+
+#### **Exercise 5**: Create a LDA topic model using your pre-processed texts.
+```{r}
+# your answer here
+```
+<br/><br/>
+
+
+#### **Exercise 6**: Visualize the top ten words for topic in your model. 
+For this, you may want to rely on the `tidytext` package, which provides a method for extracting the per-topic-per-word probabilities (called β "beta").
+
+```{r}
+# your answer here
+```
+<br/><br/>
+
+
+#### **Exercise 7**: Based on the top ten words, do the topics uncovered make sense to you? What role does your prior knowledge of the music industry, America, these particular artists, etc. play in your interpretation of the topics? If the topics don't make sense, what is your intuition as to how you might improve the model (e.g. adjust pre-processing, adjust modeling, etc)?
+<br/><br/>
+
+
+#### **Exercise 8**: Choose a different number of topics, and rerun your LDA. How do your topics change? Do you feel this made the model better or worse?
+
+```{r}
+# your answer here
+```
+<br/><br/>
+
+
+#### **Exercise 9**: Without executing it, describe the additional benefits of a *structural* topic model. If you were to execute a strucural topic model using the Grammy nominees data, what additional features/variables might you use as metadata in the model? Why?
+<br/><br/>
+
+
+#### **Exercise 10**:  What are some of the limitations of topic models, and what role do researchers play in their outcomes? Also describe what would you expect to see reported in an academic paper using a topic model. For example, what would you, as a reader, need to know in order to assess how trustworthy a topic model and its interpretation might be?
+
+In answering these questions, you may consider such things as (a) how data is collected and pre-processed, (b) what parameters are set in the modeling, and (c) how cultural undrestanding of the origins of the texts may influence topic interpretations.
+
+<br/>
+
