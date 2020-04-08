@@ -33,11 +33,10 @@ micro_nav: true
 
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
-- David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+- David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf).
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
-- Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 - Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), *The ANNALS of the American Academy of Political and Social Science*.
 <br/><br/>
 
@@ -45,7 +44,7 @@ micro_nav: true
 
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
-- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
+- Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 <br/><br/>
 
 
@@ -78,10 +77,11 @@ American Mathematical Society Feature Column.
 <br/><br/>
 
 
-## APIs
+## APIs & Digital Trace Data
 - Beck Williams. [**Intro to APIs**](https://medium.com/@rwilliams_bv/apis-d389aa68104f).
 - Xavier Adam. [**An Illustrated Introduction to APIs**](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9).
 - Aramaki et al. [**Twitter catches the flu: detecting influenza epidemics using Twitter**](https://dl.acm.org/doi/10.5555/2145432.2145600).
+- Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 
 
 ## Text analysis
