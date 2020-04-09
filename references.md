@@ -50,12 +50,12 @@ micro_nav: true
 
 ## Data Visualization
 
-- Kieran Healy. [Data Visualization: A Practical Introduction](http://socviz.co/), Princeton: Princeton University Press, 2019.
-- Claus O. Wilke. [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/), O'Reilly.
-- Whitney Battle-Baptiste & Britt Rusert. [W.E.B. Du Bois's Data Portraits - Visualizing Black America](https://www.papress.com/html/product.details.dna?isbn=9781616897062), Princeton Architectural Press.
-- [The R Graph Gallery](https://www.r-graph-gallery.com/).
-- Nathan Yau. [Sometimes the y-axis doesn't start at zero, and it's fine](https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/), Vox.
--  [What would feminist data visualization look like?](https://civic.mit.edu/2015/12/01/feminist-data-visualization/), MIT Civic Media Lab by kanarinka.
+- Kieran Healy. [**Data Visualization: A Practical Introduction**](http://socviz.co/), Princeton: Princeton University Press, 2019.
+- Claus O. Wilke. [**Fundamentals of Data Visualization**](https://serialmentor.com/dataviz/), O'Reilly.
+- Whitney Battle-Baptiste & Britt Rusert. [**W.E.B. Du Bois's Data Portraits - Visualizing Black America**](https://www.papress.com/html/product.details.dna?isbn=9781616897062), Princeton Architectural Press.
+- [**The R Graph Gallery**](https://www.r-graph-gallery.com/).
+- Nathan Yau. [**Sometimes the y-axis doesn't start at zero, and it's fine**](https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/), Vox.
+-  [**What would feminist data visualization look like?**](https://civic.mit.edu/2015/12/01/feminist-data-visualization/), MIT Civic Media Lab by kanarinka.
 <br/><br/>
 
 ## Social Networks
@@ -85,8 +85,18 @@ American Mathematical Society Feature Column.
 
 
 ## Text analysis
+#### Academic papers
 - James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
 - Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
 - Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
 - Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
+
+#### Coding tutorials
+- Garrett Grolemund & Hadley Wickham (2017). **R for Data Science**, [ch 14: Strings](https://r4ds.had.co.nz/strings.html)
+- Julia Silge and David Robinson (2020). **Text Mining with R: A Tidy Approach**, including chapters on [Topic Models]("https://www.tidytextmining.com/topicmodeling.html), and [Sentiment analysis](https://www.tidytextmining.com/sentiment.html)).
+
+#### Topic Modeling
+- Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
+- Patrick van Kessel (Pew Research Center, 2018). [**An intro to topic models for text analysis**](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb).
+
 
