@@ -74,7 +74,7 @@ micro_nav: true
 - Mark Granovetter (1973). [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). *American Journal of Sociology*, 78(6): 1360-1380.
 - Duncan Watts (2003). [**Small Worlds: The Dynamics of Networks between Order and Randomness**], Chapter 1. *Princeton University Press*, pp3-8.
 - Eszter Hargittai (2015). [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), *The ANNALS of the American Academy of Political and Social Science*.
-<br/>
+<br/><br/>
 
 <i><font color="#E84E4E">Coding tutorials</font></i>
 - [tidygraph](https://www.data-imaginist.com/2017/introducing-tidygraph/) package
