@@ -53,7 +53,7 @@ micro_nav: true
 -  [**What would feminist data visualization look like?**](https://civic.mit.edu/2015/12/01/feminist-data-visualization/), *MIT Civic Media Lab* by kanarinka.
 <br/>
 
-#### Coding tutorials
+#### `Coding tutorials`
 - [**The R Graph Gallery**](https://www.r-graph-gallery.com/).
 - Kieran Healy. [**Data Visualization: A Practical Introduction**](http://socviz.co/), Princeton: *Princeton University Press*, 2019.
 - Claus O. Wilke. [**Fundamentals of Data Visualization**](https://serialmentor.com/dataviz/), *O'Reilly*.
@@ -75,8 +75,8 @@ micro_nav: true
 <br/>
 
 #### `Coding tutorials`
-- [`tidygraph`](https://www.data-imaginist.com/2017/introducing-tidygraph/)
-- Jesse Sadler (2017). [Introduction to Network Analysis with R Creating static and interactive network graphs](https://www.jessesadler.com/post/network-analysis-with-r/)
+- [tidygraph](https://www.data-imaginist.com/2017/introducing-tidygraph/) package
+- Jesse Sadler (2017). [**Introduction to Network Analysis with R Creating static and interactive network graphs**](https://www.jessesadler.com/post/network-analysis-with-r/)
 <br/><br/>
 
 
@@ -94,7 +94,7 @@ micro_nav: true
 - Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
 - Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
 
-#### Coding tutorials
+#### `Coding tutorials`
 - Garrett Grolemund & Hadley Wickham (2017). **R for Data Science**, [ch 14: Strings](https://r4ds.had.co.nz/strings.html)
 - Julia Silge and David Robinson (2020). **Text Mining with R: A Tidy Approach**, including chapters on [Topic Models]("https://www.tidytextmining.com/topicmodeling.html), and [Sentiment analysis](https://www.tidytextmining.com/sentiment.html)).
 
