@@ -31,13 +31,12 @@ micro_nav: true
 
 ## What is Data Science?
 <i><font color="#E84E4E">Readings</font></i>
-- Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
-- David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf).
-- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
-- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
-- Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
-- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
-- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), *The ANNALS of the American Academy of Political and Social Science*.
+- Matthew Salganik (2017). **Bit by Bit: Social Research in the Digital Age**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/), Princeton, NJ: *Princeton University Press*.
+- David Donoho (2015). [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf).
+- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... (2009)[**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*, 323(5915): 721-723.
+- Duncan Watts (2017). [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature Human Behavior*, 0015.
+- Sendhil Mullainathan (2019). [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
+- Eszter Hargittai (2015). [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), *The ANNALS of the American Academy of Political and Social Science*.
 <br/><br/>
 
 ## Research Ethics
