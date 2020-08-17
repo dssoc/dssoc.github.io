@@ -9,9 +9,9 @@ description:
 
 buttons:
     - content:
-      url: 'https://github.com/cbail'
+      url: 'https://twitter.com/chris_bail'
       external_url: true
-      icon: github
+      icon: twitter
     - content:
       url: 'https://dssoc-s20.slack.com'
       external_url: true
