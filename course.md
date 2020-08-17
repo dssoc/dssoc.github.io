@@ -42,59 +42,55 @@ This course requires no prior knowledge of computer programming or social scienc
 
 
 ***Required Readings***
-
 We will draw heavily on two excellent books, both of which are freely available online thanks to the generosity of the authors. If you can afford to purchase a hard copy to show your appreciation for their hard work, please consider it.
 
-- **Bit by Bit: Social Research in the Digital Age**. Matthew J Salganik (2017), *Princeton University Press*: [https://www.bitbybitbook.com/en/1st-ed/preface/](https://www.bitbybitbook.com/en/1st-ed/preface/)
-- **R for Data Science**. Garrett Grolemund & Hadley Wickham, *O'Reilly*: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
-<br/><br/>
+- [**Bit by Bit: Social Research in the Digital Age**]((https://www.bitbybitbook.com/en/1st-ed/preface/)). Matthew J Salganik (2017), *Princeton University Press*
+- [**R for Data Science**](http://r4ds.had.co.nz/). Garrett Grolemund & Hadley Wickham, *O'Reilly*: )
+<br/>
 
 ***R & RStudio***
-<br/>
 In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
 <br/>
 
 ***Slack***
-<br/>
 We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already.
 
 Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). Part of your participation grade-described in additional detail below- will rely on your Slack participation. 
-<br/><br/>
+<br/>
 
 ***Stack Overflow***
-<br/>
 The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
-<br/><br/>
+<br/>
 
 
 ***Twitter/Blogs***
 <br/>
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people [I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
-<br/><br/><br/>
+<br/>
 
 
 ### FORMAL REQUIREMENTS
 
 This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science and an original group research project that you will create in small teams. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
-<br/><br/>
+<br/>
 
 ***Weekly Readings***
 <br/>
 You are responsible for understanding the readings. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion classes will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice.
-<br/><br/>
+<br/>
 
 ***Weekly Lab Assignments***
 <br/>
 Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
 
 Submit all homework assignments to: dsandsociety@gmail.com
-<br/><br/>
+<br/>
 
 
 ***Participation***
 <br/>
 Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. If you find it difficult to make thoughtful comments about the readings during class, for example, you can contribute to discussions after class on Slack. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape your group research projects (described below). On Slack, you will organize your group and further develop the research project, which is another reason why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
-<br/><br/>
+<br/>
 
 ***Group Project***
 <br/>
@@ -117,7 +113,7 @@ You will receive two grades for your group project: the first (which counts for 
 > B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~ 2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
 
 > C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
-<br/><br/>
+<br/>
 
 ***How Your Grade Will be Calculated***
 <br/>
@@ -125,12 +121,12 @@ You will receive two grades for your group project: the first (which counts for 
 - Lab exercises 25%
 - Group Project (My Assessment)	25%
 - Group Project (Median Peer Assessment)	25%
-<br/><br/>
+<br/>
 
 ***Surveys***
 <br/>
 I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
-<br/><br/><br/>
+<br/>
 
 
 ### COURSE POLICIES
@@ -138,17 +134,17 @@ I may conduct anonymous surveys of your experience in this class. I urge you to 
 ***Academic Integrity***
 <br/>
 Cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
-<br/><br/>
+<br/>
 
 ***Classroom Behavior***
 <br/>
 Uncivil behavior such as engaging in personal conversations during class time, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your participation grade.
-<br/><br/>
+<br/>
 
 ***Extra-Credit Policy***
 <br/>
 There will be no extra credit or make-up assignments. 
-<br/><br/>
+<br/>
 
 ***Office Hours***
 <br/>
