@@ -24,19 +24,21 @@ page_nav:
 ## 1 - How can Data Science Help Society?
 <b><i><font color="#E84E4E">August 17- August 23</font></i></b>
 
-***Video Lecture***: [Click Here](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/)  
+***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)  
 
 ***Required Reading***:
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
 
-***Recommended Reading***:
+***If You Want to Learn More***:
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/>
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - Matthew Salganik. **Bit by Bit**, (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
+- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
+<br/><br/><br/><br/>
 
 #### Lab: Setting up RStudio (ungraded)
 <div class="callout callout--info">
@@ -68,7 +70,7 @@ page_nav:
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
-***Video Lecture***: [Click Here](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 <br/><br/>
 
 ***Required Reading***:
@@ -110,22 +112,20 @@ page_nav:
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
 #### Is Social Media Increasing Polarization?
 
-***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
+***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 <br/><br/>
 
 
-***Required reading***:
+***Required Reading***:
 <br/>
 - John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
-- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 <br/><br/>
 
-***Additional reading***:
+***Recommended Reading***:
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
-<br/><br/><br/><br/>
+<br/><br/>
 
-
-#### Data Wrangling, Part 2 (Lab)
+#### Lab: Data Wrangling, Part 2
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -149,27 +149,23 @@ For these excercises, you will need the following datasets:<br/>
 
 ## 4 - Social Media and Political Polarization (Part II)
 
-
-
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
-#### Social Media, Filter Bubbles, and Political Polarization
 
-***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
+***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 <br/><br/>
 
 
 ***Required reading***:
 <br/>
-- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 <br/><br/>
 
 ***Additional reading***:
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
-<br/><br/><br/><br/>
+<br/><br/>
 
 
-#### Basic ggplot (Lab)
+#### Lab: Visualization Basics with ggplot 
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -196,9 +192,9 @@ For these excercises, you will need the following datasets:<br/>
 ## 5 - Social Networks (Part 1)
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
-#### What is a Social Network?
 
-***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
+
+***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 <br/><br/>
 
 ***Required reading***:
@@ -206,16 +202,15 @@ For these excercises, you will need the following datasets:<br/>
 - Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 <br/><br/>
 
-***Additional reading***:
+***Recommended reading***:
 - Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 - Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 - David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
-<br/><br/><br/><br/>
+<br/><br/>
 
 
-#### Pipes, Functions, and Vectors (Lab)
+#### Lab: Programming Basics (Part I)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -239,25 +234,22 @@ For these excercises, you will need the following datasets:<br/>
 ## 6 - Social Networks (Part II)
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
-#### Social Network basics
-***Code***: Intro to Social Network Analysis [Rmd](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.Rmd), [html](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.html)
-<br/><br/>
+***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 
 ***Required reading***:
 <br/>
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
-- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
-<br/><br/>
 
-***Additional reading***:
+
+***Recommended reading***:
 - Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
 - James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
-- Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
-<br/><br/><br/><br/>
+- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
+- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
+<br/><br/>
 
 <b><i><font color="#E84E4E">February 20</font></i></b>
 #### Basics of Social Networks (Lab)
@@ -388,6 +380,7 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Required reading***:
 <br/>
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 - Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
 - Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 <br/><br/><br/>
