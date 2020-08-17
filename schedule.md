@@ -34,7 +34,6 @@ page_nav:
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
-<br/><br/>
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - Matthew Salganik. **Bit by Bit**, (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
