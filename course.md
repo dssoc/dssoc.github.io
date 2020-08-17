@@ -51,7 +51,7 @@ In addition to viewing the lectures each week, you will be required to sign up f
 <br/>
 We will draw heavily on two excellent books, both of which are freely available online thanks to the generosity of the authors. If you can afford to purchase a hard copy to show your appreciation for their hard work, please consider it.
 
-- [**Bit by Bit: Social Research in the Digital Age**]((https://www.bitbybitbook.com/en/1st-ed/preface/)). Matthew J Salganik (2017), *Princeton University Press*
+- [**Bit by Bit: Social Research in the Digital Age**](https://www.bitbybitbook.com/en/1st-ed/preface/). Matthew J Salganik (2017), *Princeton University Press*
 - [**R for Data Science**](http://r4ds.had.co.nz/). Garrett Grolemund & Hadley Wickham, *O'Reilly*: )
 <br/>
 
