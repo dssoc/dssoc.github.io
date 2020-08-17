@@ -88,11 +88,6 @@ page_nav:
 <ul>
 <li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
 </ul></li></ul>
-
-<i>Resources:</i><br/>
-<ul>
-  <li><a href = "https://rstudio.cloud/learn/primers/1.2">Programming basics</a></li>
-</ul>
 </div>
 <br/>
 
