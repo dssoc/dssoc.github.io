@@ -59,7 +59,7 @@ page_nav:
 </div>
 
 
-## 2 - Is it Ethical?
+## 2 - Ethics
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
