@@ -89,11 +89,11 @@ You are responsible for understanding the readings. Make use of your fellow stud
 
 ***Weekly Lab Assignments***
 <br/>
-_By midnight on Sunday of each week_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
+_By midnight on Saturday of each week_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
 
-Labs will comprise 50% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+Labs will comprise 50% of your final grade. Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfull completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments).
 
-Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
+Please Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
 <br/>
 
 ***Weekly Meeting with Dr. Bail***
