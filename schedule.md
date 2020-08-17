@@ -132,7 +132,7 @@ For these excercises, you will need the following datasets:<br/>
 </ul>
 
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 4 - Experimenting on Echo Chambers
@@ -167,7 +167,7 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
 </ul>
 </div>
-<br/><br/><br/>
+<br/>
 
 
 
@@ -203,7 +203,7 @@ For these excercises, you will need the following datasets:<br/>
 </ul>
 
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 6 - Social Networks (Part II)
@@ -236,7 +236,7 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 7 - Health
@@ -265,7 +265,7 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 8 - Algorithms and Discrimination
@@ -278,7 +278,7 @@ For these excercises, you will need the following datasets:<br/>
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
 - Cathy O'Neil. [**Arms Race - Going to College**](https://github.com/dssoc/dssoc.github.io/raw/master/docs/WeaponsofMathDestruction_Chapter3.pdf), *Weapons of Math Destruction*.
-<br/><br/><br/><br/>
+<br/><br/>
 
 
 ## 9 - Culture and Networks
@@ -318,7 +318,7 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
 </ul>
 </div>
-<br/><br/><br/>
+<br/>
 
 
 ## 11 - Privacy
@@ -360,9 +360,7 @@ For these excercises, you will need the following datasets:<br/>
 
 </ul>
 </div>
-<br/><br/><br/><br/>
-
-
+<br/><br/>
 
 
 
@@ -371,7 +369,6 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">November 2-8</font></i></b>
 
 ***Work on Final Project Proposals (due November 9th)***
-
 
 
 
@@ -398,7 +395,7 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
 
 </div>
-<br/><br/><br/><br/>
+<br/>
 
 
 
