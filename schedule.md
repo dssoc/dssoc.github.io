@@ -101,7 +101,7 @@ page_nav:
 <br/>
 
 
-## 3 - Is Social Media Increasing Polarization?
+## 3 - Social Media & Polarization
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
 
