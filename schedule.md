@@ -89,7 +89,6 @@ page_nav:
 <li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
 </ul></li></ul>
 </div>
-<br/>
 
 
 ## 3 - Social Media & Polarization
@@ -123,9 +122,7 @@ For these excercises, you will need the following datasets:<br/>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
 </ul>
-
 </div>
-<br/>
 
 
 ## 4 - Breaking Echo Chambers
@@ -160,7 +157,6 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
 </ul>
 </div>
-<br/>
 
 
 
@@ -194,9 +190,8 @@ For these excercises, you will need the following datasets:<br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
 </ul>
-
 </div>
-<br/>
+
 
 
 ## 6 - The Shape of Networks
@@ -229,7 +224,6 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
-<br/>
 
 
 ## 7 - Better Public Health
@@ -258,7 +252,6 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 </div>
-<br/>
 
 
 ## 8 - Algorithms and Discrimination
@@ -271,7 +264,6 @@ For these excercises, you will need the following datasets:<br/>
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
 - Cathy O'Neil. [**Arms Race - Going to College**](https://github.com/dssoc/dssoc.github.io/raw/master/docs/WeaponsofMathDestruction_Chapter3.pdf), *Weapons of Math Destruction*.
-<br/><br/>
 
 
 ## 9 - Culture and Networks
@@ -310,7 +302,6 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
 </ul>
 </div>
-<br/>
 
 
 ## 11 - Privacy
@@ -349,7 +340,6 @@ For these excercises, you will need the following datasets:<br/>
   <br/>
 </ul>
 </div>
-<br/>
 
 
 
@@ -370,7 +360,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 
-#### Your First Topic Model (Lab)
+#### Lab: Your First Topic Model
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -384,7 +374,6 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
 
 </div>
-<br/>
 
 
 
@@ -392,11 +381,6 @@ For these excercises, you will need the following datasets:<br/>
 
 <b><i><font color="#E84E4E">November 16-20</font></i></b>
 
-***Required reading***:
-<br/>
-
-***Additional reading***:
-<br/><br/><br/><br/>
 
 
 
