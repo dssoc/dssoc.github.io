@@ -115,6 +115,7 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a><br/>
+<br/>
 <i>Optional resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
@@ -133,7 +134,7 @@ For these excercises, you will need the following datasets:<br/>
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 
 ***Additional reading***:
-- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
+- Qi Yang et al. [**Mitigating the Backfire Effect**](https://arxiv.org/abs/2008.00049), ArXiv.org.
 
 #### Lab: Visualization Basics with ggplot 
 <div class="callout callout--info">
