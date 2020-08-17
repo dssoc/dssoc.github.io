@@ -37,7 +37,6 @@ page_nav:
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - Matthew Salganik. **Bit by Bit**, (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
-<br/><br/><br/><br/>
 
 #### Lab: Setting up RStudio (ungraded)
 <div class="callout callout--info">
