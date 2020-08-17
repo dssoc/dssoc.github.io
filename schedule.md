@@ -210,8 +210,12 @@ For these excercises, you will need the following datasets:<br/>
 - Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
 - Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 
-#### Lab: COMING SOON! Programming (Part II)
+#### Lab: Programming (Part II)
 <div class="callout callout--info">
+    
+<i>Required reading:</i> <br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 5 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
@@ -244,6 +248,12 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Working with APIs (Lab)
 <div class="callout callout--info">
+<i>Required reading:</i> <br/>
+<ul>
+<li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li></ul><br/>
+<li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li></ul><br/>
+<li>Setup for `spotifyr` <a href = "https://github.com/charlie86/spotifyr"></a></li></ul><br/>
+<br/><br/>   
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
 <code>Lab 6 Exercises - Application Programming Intefaces</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
