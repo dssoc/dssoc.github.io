@@ -22,7 +22,7 @@ micro_nav: true
 <i>Professor of Sociology & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
-<br/><br/>
+<br/>
 
 <strong>Devin Cornell </strong>
 <i>Teaching Assistant/PhD Candidate, Sociology</i> <br/>
