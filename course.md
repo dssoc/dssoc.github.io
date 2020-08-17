@@ -24,7 +24,7 @@ christopher.bail@duke.edu <br/>
 <br/>
 
 <strong>Devin Cornell </strong>
-<i>Teaching Assistant/PhD Candidate, Sociology</i> <br/>
+<i>Teaching Assistant/PhD Candidate, Sociology Department</i> <br/>
 devin.cornell@duke.edu <br/>
 Office Hours: TBD 
 </div>
@@ -64,7 +64,7 @@ In this class, we will use the R, a free programming language that I will teach 
 <br/>
 We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already.
 
-Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). Part of your participation grade-described in additional detail below- will rely on your Slack participation. 
+Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). 
 <br/>
 
 ***Stack Overflow***
@@ -76,7 +76,6 @@ The field of computational social science is going so rapidly that none of the r
 <br/>
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people [I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
 <br/>
-
 
 ### FORMAL REQUIREMENTS
 
@@ -90,27 +89,23 @@ You are responsible for understanding the readings. Make use of your fellow stud
 
 ***Weekly Lab Assignments***
 <br/>
-By **midnight on Sunday of each week**, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
+_By midnight on Sunday of each week_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
 
-Labs will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+Labs will comprise 50% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
 
 Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
 <br/>
 
 ***Weekly Meeting with Dr. Bail***
 <br/>
-Each week, you will be required to meet with me for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. **You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting**
+Each week, you will be required to meet with me for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. _You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting_
 
-***Participation***
-<br/>
-Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. If you find it difficult to make thoughtful comments about the readings during class, for example, you can contribute to discussions after class on Slack. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape your group research projects (described below). On Slack, you will organize your group and further develop the research project, which is another reason why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
-<br/>
 
-***Group Project***
+***Final Project***
 <br/>
-Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think about ways to get you engaged in the classroom. My own view is that we cannot simply ask you to think through hypothetical situations or puzzles: we should all learn together by doing actual research together that could change the world. This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. And if we get lucky, maybe your research will be good enough to share with the world (either in a blog post or perhaps even a full-blown piece of scholarly research in an academic journal). At the end of each week of class, I will assign teams of students to work on different parts of the group research project.
+Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think of how you can get more engaged, and in my experience the best way for you to do this is to try doing some research yourself.  This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. 
 
-You will receive two grades for your group project: the first (which counts for 25% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
+_Grading Rubric for your Final Project_
 
 > A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
 
@@ -131,29 +126,25 @@ You will receive two grades for your group project: the first (which counts for 
 
 ***How Your Grade Will be Calculated***
 <br/>
-- Participation	25%
-- Lab exercises 25%
-- Group Project (My Assessment)	25%
-- Group Project (Median Peer Assessment)	25%
+- Lab exercises 50%
+- Final Project	50%
 <br/>
 
-***Surveys***
-<br/>
-I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
-<br/>
 
 
 ### COURSE POLICIES
 
 ***Academic Integrity***
 <br/>
-Cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
 <br/>
 
-***Classroom Behavior***
+
+***Surveys***
 <br/>
-Uncivil behavior such as engaging in personal conversations during class time, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your participation grade.
+I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
 <br/>
+
 
 ***Extra-Credit Policy***
 <br/>
@@ -162,4 +153,4 @@ There will be no extra credit or make-up assignments.
 
 ***Office Hours***
 <br/>
-If you have any questions about this class, please visit me during the office hours listed above. 
+Because of our virtual format-- and weekly one-on-one meetings, I am not holding regular office hours- however, I am very happy to find time to meet with you on an ad hoc basis if you wish to go above and beyond what we discuss in our weekly meetings.
