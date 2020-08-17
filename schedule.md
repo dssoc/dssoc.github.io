@@ -63,24 +63,22 @@ page_nav:
 
 
 
-## 2 - Research Ethics
+## 2 - Is it Ethical?
 
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
-#### Able is not always ethical
 
-***Slides***: [Ethics and Digital Trace Data](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+***Video Lecture***: [Click Here](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
 <br/><br/>
 
-***Required reading***:
+***Required Reading***:
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 <br/><br/>
 
-***Additional reading***:
+***Recommended Reading***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
-<br/><br/><br/><br/>
-
+<br/><br/>
 
 #### Data Wrangling, Part 1 (Lab)
 <div class="callout callout--info">
