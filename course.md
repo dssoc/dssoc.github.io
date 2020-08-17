@@ -34,7 +34,6 @@ Office Hours: TBD <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWt
 ### COURSE DESCRIPTION
 
 The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
-<br/><br/>
 
 
 ### COURSE GOALS
@@ -53,7 +52,7 @@ We will draw heavily on two excellent books, both of which are freely available 
 ***R & RStudio***
 <br/>
 In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
-<br/><br/>
+<br/>
 
 ***Slack***
 <br/>
