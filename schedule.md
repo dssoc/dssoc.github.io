@@ -115,7 +115,7 @@ page_nav:
 
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
-#### Social Media, Filter Bubbles, and Political Polarization
+#### Is Social Media Increasing Polarization?
 
 ***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
 <br/><br/>
@@ -158,11 +158,23 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
+<b><i><font color="#E84E4E">September 7-13</font></i></b>
+#### Social Media, Filter Bubbles, and Political Polarization
+
+***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
+<br/><br/>
 
 
+***Required reading***:
+<br/>
+- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
+- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
+<br/><br/>
 
+***Additional reading***:
+- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
+<br/><br/><br/><br/>
 
-<b><i><font color="#E84E4E">February 13</font></i></b>
 
 #### Basic ggplot (Lab)
 <div class="callout callout--info">
@@ -188,10 +200,9 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
+## 5 - Social Networks (Part 1)
 
-
-## 5 - Intro to Social Networks
-<b><i><font color="#E84E4E">February 11</font></i></b>
+<b><i><font color="#E84E4E">September 14-20</font></i></b>
 #### What is a Social Network?
 
 ***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
@@ -211,7 +222,6 @@ American Mathematical Society Feature Column.
 <br/><br/><br/><br/>
 
 
-<b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
@@ -233,8 +243,9 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 6 - Social networks, concepts and data
-<b><i><font color="#E84E4E">February 18</font></i></b>
+## 6 - Social Networks (Part II)
+<b><i><font color="#E84E4E">September 21-27</font></i></b>
+
 #### Social Network basics
 ***Code***: Intro to Social Network Analysis [Rmd](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.Rmd), [html](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.html)
 <br/><br/>
@@ -275,8 +286,8 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 7 - Application Programming Interfaces
-<b><i><font color="#E84E4E">February 25</font></i></b>
+## 7 - Health
+<b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 #### When they want to give you data...
 ***Slides***: [APIs](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
 
@@ -298,7 +309,6 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-<b><i><font color="#E84E4E">February 27</font></i></b>
 #### Working with APIs (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
@@ -312,8 +322,8 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 8 - Algorithms & ML
-<b><i><font color="#E84E4E">March 3</font></i></b>
+## 8 - Algorithms and Discrimination
+<b><i><font color="#E84E4E">October 5-11</font></i></b>
 #### Intro to Algorithms and Machine Learning
 
 ***Required reading***:
@@ -326,39 +336,16 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-<b><i><font color="#E84E4E">March 5</font></i></b>
-#### Algorithms & ML (lab)
-<div class="callout callout--info">
-<i>Resource/Slides:</i><br/>
-- <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html"><code>caret</code> Package</a><br/>
-- <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
-<br/><br/>
 
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
-<code>Lab 7 Exercises - Machine Learning</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.html">.html</a>)
-<br/><br/>
-
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/spotify_relatedArtists.Rdata">spotify_relatedArtists.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
-</div>
-<br/><br/><br/><br/>
-
-
-
-
-## 9 - SPRING RECESS
-<b><i><font color="#E84E4E">March 10 & 12</font></i></b>
+## 9 - Culture and Networks
+<b><i><font color="#E84E4E">October 12-18</font></i></b>
 #### No Classes
 <br/><br/><br/><br/>
 
 
-## 10 - Text analysis
-<b><i><font color="#E84E4E">March 17</font></i></b>
+
+## 10 - Misinformation and Trolling
+<b><i><font color="#E84E4E">October 19-25</font></i></b>
 #### Words to Numbers
 ***Slides***: [Basic Text Analysis](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic_Text_Analysis.html#/)<br/>
 ***Annotated Code***: [html](https://cbail.github.io/ids704/basic-text-analysis/rmarkdown/Basic_Text_Analysis_in_R.html)<br/><br/>
@@ -400,8 +387,8 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 11 - Sentiment analysis
-<b><i><font color="#E84E4E">March 24</font></i></b>
+## 11 - Privacy
+<b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 #### Sentiment analysis
 ***Slides***: [Dictionary-based Methods](https://cbail.github.io/ids704/dictionary-methods/Rpres/Dictionary%20Based%20Analysis.html)<br/>
 ***Annotated Code***: [html](https://cbail.github.io/ids704/dictionary-methods/rmarkdown/Dictionary-Based_Text_Analysis.html)<br/><br/>
@@ -437,8 +424,8 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 12 - Topic Models
-<b><i><font color="#E84E4E">March 31</font></i></b>
+## 12 - Election Week (No Lectures/Lab; Final Project Proposal Due)
+<b><i><font color="#E84E4E">November 2-8</font></i></b>
 #### LDA and Beyond
 ***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [Topic Modeling](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
 ***Annotated Code***: [html](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html)<br/><br/>
@@ -456,8 +443,8 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 13 - Topic Models, cont'd
-<b><i><font color="#E84E4E">April 7</font></i></b>
+## 13 - Protest and Censorship
+<b><i><font color="#E84E4E">November 9-15</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
@@ -475,8 +462,11 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-<b><i><font color="#E84E4E">April 9</font></i></b>
-#### the Future of Data Science
+
+#### 14 - Final Presentations
+
+<b><i><font color="#E84E4E">November 16-20</font></i></b>
+
 ***Required reading***:
 <br/>
 
@@ -484,20 +474,36 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 14 - Final Project(s)
-<b><i><font color="#E84E4E">April 14</font></i></b>
-#### Remote project time
+
+
+
+
+
+
+
+
+
+<b><i><font color="#E84E4E">March 5</font></i></b>
+#### Algorithms & ML (lab)
+<div class="callout callout--info">
+<i>Resource/Slides:</i><br/>
+- <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
+- <a href = "https://topepo.github.io/caret/index.html"><code>caret</code> Package</a><br/>
+- <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
+<br/><br/>
+
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
+<code>Lab 7 Exercises - Machine Learning</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.html">.html</a>)
+<br/><br/>
+
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/spotify_relatedArtists.Rdata">spotify_relatedArtists.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+</div>
 <br/><br/><br/><br/>
-
-<b><i><font color="#E84E4E">April 16</font></i></b>
-#### FINAL PRESENTATIONS, Part 1
-<br/><br/><br/><br/>
-
-
-## 16 - Final Presentations
-<b><i><font color="#E84E4E">April 21</font></i></b>
-#### FINAL PRESENTATIONS, Part 2
-
 
 
 
