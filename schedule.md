@@ -37,7 +37,7 @@ page_nav:
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/>
 
-#### R and RStudio (Lab)
+#### Lab: Setting up RStudio
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
@@ -65,7 +65,6 @@ page_nav:
 
 ## 2 - Is it Ethical?
 
-
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
 ***Video Lecture***: [Click Here](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
@@ -80,7 +79,7 @@ page_nav:
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 <br/><br/>
 
-#### Data Wrangling, Part 1 (Lab)
+#### Lab: Data Wrangling, Part 1 
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
 <ul>
