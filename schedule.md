@@ -282,27 +282,41 @@ For these excercises, you will need the following datasets:<br/>
 ***Supplemental Materials***:
 - Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
 
-#### Lab: Working with APIs, Part 2 (Coming Soon!)
+#### Lab: Working with APIs, Part II (Coming Soon!)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 </div>
 
+
+
 ## 9 - Culture and Networks
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
 
+#### Lab: Social Network Analysis (Coming Soon!)
+<div class="callout callout--info">
+<i>Required reading:</i> <br/>
+</div>
+
+
+
 ## 10 - Misinformation and Trolling
 <b><i><font color="#E84E4E">October 19-25</font></i></b>
+
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
-- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
+Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
-- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
-- Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
-- Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
+Andrew Guess et al. **[Less than you think: Prevalence and predictors of fake news dissemination on Facebook**](https://advances.sciencemag.org/content/5/1/eaau4586)
+Chris Bail et al. [**Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users**](https://www.pnas.org/content/early/2019/11/20/1906420116)
 
-#### Intro to text data (Lab)
+***Supplemental Materials***:
+- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
+- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
+
+
+#### Lab: Intro to text data
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -321,23 +335,25 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
   <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
   <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
+  <li><b><a href = "https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200">Text as Data: The Promises and Pitfalls of Automated Content Analysis, Justin Grimmer and Brandon Stewart</li>
+
 </ul>
 </div>
 
 
 ## 11 - Privacy
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
-#### Sentiment analysis
+
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-- Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
-- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
+
 
 ***Supplemental Materials***:
-<br/>
 
+
+- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 
 
 #### Lab: Word counts and Dictionaries
