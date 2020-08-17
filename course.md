@@ -38,9 +38,11 @@ The past decade has witnessed an explosion of data produced by websites such as 
 This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also aquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
 
 
-### OVERVIEW OF ASYNCHRONOUS CLASS FORMAT
+### OVERVIEW OF CLASS FORMAT
 
-Due to the COVID-19 pandemic, this class will unfortunately be held entirely online. Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
+**Due to the COVID-19 pandemic, this class will unfortunately be held entirely online**. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
+
+Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
 
 In addition to viewing the lectures each week, you will be required to sign up for a weekly 15 minute one-on-one meeting with me via Zoom to discuss a topic of your choice from either the readings or the lab. My decision to meet with you individually instead of in groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for conventional conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you achieve all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester. I am also hoping that weekly one-on-one time with me will off set some of the disappointment that we all feel about not being on campus and learning together in a normal setting.
 
@@ -88,14 +90,16 @@ You are responsible for understanding the readings. Make use of your fellow stud
 
 ***Weekly Lab Assignments***
 <br/>
-Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Sunday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+By **midnight on Sunday of each week**, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
+
+Labs will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
 
 Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
 <br/>
 
 ***Weekly Meeting with Dr. Bail***
 <br/>
-
+Each week, you will be required to meet with me for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. **You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting**
 
 ***Participation***
 <br/>
