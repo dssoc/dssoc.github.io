@@ -292,11 +292,15 @@ For these excercises, you will need the following datasets:<br/>
 ## 9 - Culture and Networks
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
 
+***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+
+***Required reading***:
+Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider)
+
 #### Lab: Social Network Analysis (Coming Soon!)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 </div>
-
 
 
 ## 10 - Misinformation and Trolling
