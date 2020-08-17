@@ -70,7 +70,7 @@ page_nav:
 ***Required Reading***:
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 
-***Recommended Reading***:
+***Supplemental Reading***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 
@@ -88,7 +88,6 @@ page_nav:
 <ul>
 <li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
 </ul></li></ul>
-<br/>
 
 <i>Resources:</i><br/>
 <ul>
