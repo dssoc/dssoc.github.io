@@ -21,7 +21,7 @@ page_nav:
 ---
 
 
-## 1 - How can Data Science Help Society?
+## 1 - Introduction
 <b><i><font color="#E84E4E">August 17- August 23</font></i></b>
 
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)  
@@ -49,7 +49,6 @@ page_nav:
 <ul>
 <li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
 </ul></li></ul>
-<br/>
 
 <i>Resources:</i><br/>
 <ul>
