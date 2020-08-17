@@ -335,9 +335,8 @@ For these excercises, you will need the following datasets:<br/>
 <ul>
   <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
   <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
-  <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
+  <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li>
   <li><b><a href = "https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200">Text as Data: The Promises and Pitfalls of Automated Content Analysis, Justin Grimmer and Brandon Stewart</li>
-
 </ul>
 </div>
 
