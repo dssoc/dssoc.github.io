@@ -414,42 +414,13 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-#### 14 - Final Presentations
+## 14 - Final Presentations
 
 <b><i><font color="#E84E4E">November 16-20</font></i></b>
 
 
 
 
-
-
-
-
-
-
-
-
-<b><i><font color="#E84E4E">March 5</font></i></b>
-#### Algorithms & ML (lab)
-<div class="callout callout--info">
-<i>Resource/Slides:</i><br/>
-- <a href = "http://www.r2d3.us/visual-intro-to-machine-learning-part-1/">Visual intro to ML</a><br/>
-- <a href = "https://topepo.github.io/caret/index.html"><code>caret</code> Package</a><br/>
-- <a href = "https://bookdown.org/max/FES/review-predictive-modeling-process.html">A review of predictive modeling processes</a>
-<br/><br/>
-
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
-<code>Lab 7 Exercises - Machine Learning</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab7_ML.html">.html</a>)
-<br/><br/>
-
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/spotify_relatedArtists.Rdata">spotify_relatedArtists.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
-</div>
-<br/><br/><br/><br/>
 
 
 
