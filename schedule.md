@@ -22,7 +22,7 @@ page_nav:
 
 
 ## 1 - Introduction
-<b><i><font color="#E84E4E">August 17- August 23</font></i></b>
+<b><i><font color="#E84E4E">August 17-23</font></i></b>
 
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)  
 
@@ -165,6 +165,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
+
 ***Required reading***:
 - Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
