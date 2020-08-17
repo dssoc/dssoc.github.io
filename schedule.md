@@ -312,12 +312,9 @@ Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural an
 Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
-Andrew Guess et al. **[Less than you think: Prevalence and predictors of fake news dissemination on Facebook**](https://advances.sciencemag.org/content/5/1/eaau4586)
+Andrew Guess et al. [**Less than you think: Prevalence and predictors of fake news dissemination on Facebook**](https://advances.sciencemag.org/content/5/1/eaau4586)
 Chris Bail et al. [**Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users**](https://www.pnas.org/content/early/2019/11/20/1906420116)
 
-***Supplemental Materials***:
-- James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
-- Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
 
 
 #### Lab: Intro to text data
