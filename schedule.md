@@ -126,7 +126,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 
 
-## 4 - Experimenting on Echo Chambers
+## 4 - Breaking Echo Chambers
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
@@ -162,7 +162,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 5 - Social Networks (Part 1)
+## 5 - What is a Social Network?
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
@@ -197,7 +197,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 
 
-## 6 - Social Networks (Part II)
+## 6 - The Shape of Networks
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
@@ -230,7 +230,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/>
 
 
-## 7 - Health
+## 7 - Better Public Health
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
