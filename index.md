@@ -5,7 +5,7 @@ keywords:
 
 # Hero section
 title: Data Science & Society
-description: Resources and instruction for Sociol 367S at Duke University
+description: 
 
 buttons:
     - content:
