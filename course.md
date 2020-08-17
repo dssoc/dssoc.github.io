@@ -16,7 +16,6 @@ micro_nav: true
 
 ### INSTRUCTORS
 
-
 <div class="callout callout--info">
 <p><strong>Chris Bail</strong></p>
 <i>Professor of Sociology & Public Policy</i> <br/>
@@ -27,8 +26,8 @@ christopher.bail@duke.edu <br/>
 <strong>Devin Cornell </strong>
 <i>Teaching Assistant/PhD Candidate, Sociology</i> <br/>
 devin.cornell@duke.edu <br/>
-Office Hours: TBD <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
-</div>
+Office Hours: TBD 
+<div>
 
 ### COURSE DESCRIPTION
 
