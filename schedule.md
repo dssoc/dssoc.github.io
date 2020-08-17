@@ -27,7 +27,7 @@ page_nav:
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)  
 
 ***Required Reading***:
-- Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
+- Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
 
 ***Supplemental Reading***:
