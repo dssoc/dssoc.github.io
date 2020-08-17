@@ -27,7 +27,7 @@ christopher.bail@duke.edu <br/>
 <i>Teaching Assistant/PhD Candidate, Sociology</i> <br/>
 devin.cornell@duke.edu <br/>
 Office Hours: TBD 
-<div>
+</div>
 
 ### COURSE DESCRIPTION
 
