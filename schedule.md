@@ -279,7 +279,7 @@ For these excercises, you will need the following datasets:<br/>
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
 
 ***Supplemental Materials***:
-Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo)
+- Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
 
 #### Lab: Working with APIs, Part 2 (Coming Soon!)
 <div class="callout callout--info">
