@@ -277,7 +277,6 @@ For these excercises, you will need the following datasets:<br/>
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
-- Cathy O'Neil. [**Arms Race - Going to College**](https://github.com/dssoc/dssoc.github.io/raw/master/docs/WeaponsofMathDestruction_Chapter3.pdf), *Weapons of Math Destruction*.
 
 
 ## 9 - Culture and Networks
