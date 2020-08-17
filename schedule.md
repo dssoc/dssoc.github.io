@@ -22,9 +22,8 @@ page_nav:
 
 
 ## 1 - How can Data Science Help Society?
-<b><i><font color="#E84E4E">January 14 </font></i></b>
+<b><i><font color="#E84E4E">August 17- August 21</font></i></b>
 
-<b><i><font color="#E84E4E">January 16</font></i></b>
 #### Social Research in the Digital Age
 
 ***Slides***: [What is Digital Trace Data?](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/)  (see also [slides with notes](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/rmarkdown/Strengths_and_Weaknesses.html))
@@ -69,7 +68,7 @@ page_nav:
 
 
 
-## 3 - Research Ethics
+## 2 - Research Ethics
 <b><i><font color="#E84E4E">January 21</font></i></b>
 #### Data Wrangling, Part 1 (Lab)
 <div class="callout callout--info">
@@ -110,7 +109,7 @@ page_nav:
 <br/><br/><br/><br/>
 
 
-## 4 - Social Media & Political Polarization
+## 3 - Social Media & Political Polarization
 <b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
@@ -151,7 +150,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 5 - Basics of Programming
+## 4 - Basics of Programming
 <b><i><font color="#E84E4E">February 4</font></i></b>
 #### Pipes, Functions, and Vectors (Lab)
 <div class="callout callout--info">
@@ -185,7 +184,7 @@ This will be an open class discussion with our TA, [Taylor Brown](http://www.tay
 
 
 
-## 6 - Intro to Social Networks
+## 5 - Intro to Social Networks
 <b><i><font color="#E84E4E">February 11</font></i></b>
 #### What is a Social Network?
 
@@ -231,7 +230,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 7 - Social networks, concepts and data
+## 6 - Social networks, concepts and data
 <b><i><font color="#E84E4E">February 18</font></i></b>
 #### Social Network basics
 ***Code***: Intro to Social Network Analysis [Rmd](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.Rmd), [html](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/docs/Intro_Networks/Intro_to_Network_Analysis_in_R.html)
@@ -273,7 +272,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 8 - Application Programming Interfaces
+## 7 - Application Programming Interfaces
 <b><i><font color="#E84E4E">February 25</font></i></b>
 #### When they want to give you data...
 ***Slides***: [APIs](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
@@ -310,7 +309,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 9 - Algorithms & ML
+## 8 - Algorithms & ML
 <b><i><font color="#E84E4E">March 3</font></i></b>
 #### Intro to Algorithms and Machine Learning
 
@@ -349,13 +348,13 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 10 - SPRING RECESS
+## 9 - SPRING RECESS
 <b><i><font color="#E84E4E">March 10 & 12</font></i></b>
 #### No Classes
 <br/><br/><br/><br/>
 
 
-## 11 - Text analysis
+## 10 - Text analysis
 <b><i><font color="#E84E4E">March 17</font></i></b>
 #### Words to Numbers
 ***Slides***: [Basic Text Analysis](https://cbail.github.io/ids704/basic-text-analysis/Rpres/Basic_Text_Analysis.html#/)<br/>
@@ -398,7 +397,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 12 - Sentiment analysis
+## 11 - Sentiment analysis
 <b><i><font color="#E84E4E">March 24</font></i></b>
 #### Sentiment analysis
 ***Slides***: [Dictionary-based Methods](https://cbail.github.io/ids704/dictionary-methods/Rpres/Dictionary%20Based%20Analysis.html)<br/>
@@ -435,7 +434,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 13 - Topic Models
+## 12 - Topic Models
 <b><i><font color="#E84E4E">March 31</font></i></b>
 #### LDA and Beyond
 ***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [Topic Modeling](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
@@ -454,7 +453,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 14 - Topic Models, cont'd
+## 13 - Topic Models, cont'd
 <b><i><font color="#E84E4E">April 7</font></i></b>
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
@@ -482,7 +481,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/><br/>
 
 
-## 15 - Final Project(s)
+## 14 - Final Project(s)
 <b><i><font color="#E84E4E">April 14</font></i></b>
 #### Remote project time
 <br/><br/><br/><br/>
