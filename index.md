@@ -9,13 +9,14 @@ description:
 
 buttons:
     - content:
-      url: 'https://twitter.com/chris_bail'
-      external_url: true
-      icon: twitter
-    - content:
       url: 'https://dssoc-s20.slack.com'
       external_url: true
       icon: slack
+    - content:
+      url: 'https://twitter.com/chris_bail'
+      external_url: true
+      icon: twitter
+
 
 # Author box
 author: 
