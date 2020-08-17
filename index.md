@@ -25,6 +25,7 @@ buttons:
 # Author box
 author: 
     title: Chris Bail
+    title_url: ''
     description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> https://www.chrisbail.net/ 
 
 
