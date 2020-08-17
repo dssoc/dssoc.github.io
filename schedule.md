@@ -24,20 +24,16 @@ page_nav:
 ## 1 - How can Data Science Help Society?
 <b><i><font color="#E84E4E">August 17- August 23</font></i></b>
 
-#### Social Research in the Digital Age
+***Video Lecture***: [Click Here](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/)  
 
-***Slides***: [What is Digital Trace Data?](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/Social%20Research%20in%20the%20Digital%20Age.html#/)  (see also [slides with notes](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Social%20Research%20in%20the%20Digital%20Age/rmarkdown/Strengths_and_Weaknesses.html))
-<br/><br/>
-
-***Required reading***:
+***Required Reading***:
 - Matthew Salganik. **Bit by Bit**, (1) [Introduction](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [Observing Behavior](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/), and (3) [Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 - David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral.... [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 <br/><br/>
 
-***Additional reading***:
+***Recommended Reading reading***:
 - Duncan Watts. [**Should social science be more solution-oriented?**](https://www.nature.com/articles/s41562-016-0015), *Nature*.
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-- David Lazer, Alex (Sandy) Pentland, Lada Adamic, Sinan Aral .... [**Computational Social Science**](https://science.sciencemag.org/content/323/5915/721), *Science*.
 - Joshua Blumenstock, Gabriel Cadamuro, & Robert On. [**Predicting Poverty and Wealth from Mobile Phone Data**](https://science.sciencemag.org/content/350/6264/1073), *Science*.
 <br/><br/><br/><br/>
 
