@@ -29,8 +29,7 @@ page_nav:
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
-
-***Supplemental Reading***:
+***Supplemental Materials***:
 - David Lazer et al. [**Life in the network: the coming age of computational social science**](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
 - David Donoho. [**50 Years of Data Science**](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - Eszter Hargittai. [**Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites**](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
@@ -69,7 +68,7 @@ page_nav:
 ***Required Reading***:
 - Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 
-***Supplemental Reading***:
+***Supplemental Materials***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 
@@ -100,8 +99,7 @@ page_nav:
 - John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
 - Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130), Science.
 
-
-***Supplemental Reading***:
+***Supplemental Materials***:
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 
 #### Lab: Data Wrangling, Part 2
@@ -133,7 +131,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 
-***Additional reading***:
+***Supplemental Materials***:
 - Qi Yang et al. [**Mitigating the Backfire Effect**](https://arxiv.org/abs/2008.00049), ArXiv.org.
 
 #### Lab: Visualization Basics with ggplot 
@@ -169,7 +167,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 - Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
-***Recommended reading***:
+***Supplemental Materials***:
 - Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 - Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
 - David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
@@ -202,7 +200,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
 
-***Recommended reading***:
+***Supplemental Materials***:
 - Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
 - Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
@@ -238,7 +236,7 @@ For these excercises, you will need the following datasets:<br/>
 - [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
 - [Setup for `spotifyr`](https://github.com/charlie86/spotifyr)
 
-***Additional reading***:
+***Supplemental Materials***:
 - [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
 - [`rtweet`](https://rtweet.info/) is an R wrapper for the Twitter API
 
@@ -276,7 +274,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 - James Evans & Pedro Aceves. [**Machine Translation: Mining Text for Social Theory**](https://www.annualreviews.org/doi/abs/10.1146/annurev-soc-081715-074206). Annual Review of Sociology.
 
-***Additional reading***:
+***Supplemental Materials***:
 - Justin Grimmer & Brandon Stewart. [**Text as Data: The Promises and Pitfalls of Automated Content Analysis**](https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200), Political Analysis.
 - Bo Pang, Lillian Lee, & Shivakumar Vaithyanathan. [**Thumbs up: Sentiment Classification using Machine Learning Techniques**](https://www.aclweb.org/anthology/W02-1011/).
 - Kathleen Carley. [**Extracting Culture Through Textual Analysis**](https://www.sciencedirect.com/science/article/abs/pii/0304422X94900116). Poetics, 22:291-312.
@@ -314,7 +312,7 @@ For these excercises, you will need the following datasets:<br/>
 - Kramer et al.(2014). [**Experimental evidence of massive-scale emotional contagion through social networks**](https://www.pnas.org/content/111/24/8788). Proceedings of the National Academy of Sciences, 111:24, pp.8788-8790.
 - Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 
-***If you want to learn more***:
+***Supplemental Materials***:
 <br/>
 
 
