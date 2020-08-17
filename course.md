@@ -39,11 +39,13 @@ The past decade has witnessed an explosion of data produced by websites such as 
 
 ### COURSE GOALS
 
-This course requires no prior knowledge of computer programming or social science. Students will obtain basic skills that will enable them to automate collection of data from social media sites and analyzing them to answer pressing questions about data science and society using tools such as social network analysis and text analysis. 
+This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also aquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
 
 
 ***Required Readings***
-<br/>
+
+We will draw heavily on two excellent books, both of which are freely available online thanks to the generosity of the authors. If you can afford to purchase a hard copy to show your appreciation for their hard work, please consider it.
+
 - **Bit by Bit: Social Research in the Digital Age**. Matthew J Salganik (2017), *Princeton University Press*: [https://www.bitbybitbook.com/en/1st-ed/preface/](https://www.bitbybitbook.com/en/1st-ed/preface/)
 - **R for Data Science**. Garrett Grolemund & Hadley Wickham, *O'Reilly*: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
 <br/><br/>
