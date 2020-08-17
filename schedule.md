@@ -38,6 +38,8 @@ page_nav:
 
 #### Lab: Setting up RStudio (ungraded)
 <div class="callout callout--info">
+    
+<i>Video Lecture: Coming Soon!</i> <br/>
 <i>Assignment:</i> <br/>
 <ul>
 <li>Install <a href = "https://cloud.r-project.org/">R</a> and <a href = "https://www.rstudio.com/">R Studio</a> on your laptop with <a href = "https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html"> this tutorial</a></li>
