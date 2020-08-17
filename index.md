@@ -21,6 +21,7 @@ buttons:
 author: 
     title: Chris Bail
     title_url: 'https://www.chrisbail.net/'
+    external_url: true
     description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> https://www.chrisbail.net/ 
 
 
