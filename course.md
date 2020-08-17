@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
+description: Duke University, Sociology 367S  
 
 
 # Micro navigation
@@ -14,46 +14,30 @@ micro_nav: true
 
 ---
 
-### COVID-19 ANNOUNCEMENT
+<div class="callout callout--info">
+<p><strong>Chris Bail</strong></p>
+<i>Professor of Sociology & Public Policy</i> <br/>
+christopher.bail@duke.edu <br/>
+<a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
+<br/><br/>
 
-The worldwide spread of COVID-19 has impacted all of us. Many of us are dealing with unprecedented challenges that have stretched us to our limits. I am working hard to adapt our class to these challenging circumstances but will need to ask for your patience as I continue to assess how to best serve everyone's needs in a rapidly changing environment. Below is my first effort to outline a path forward for us, but I am very open to feedback from you and may make additional changes in accordance with your needs or requests.
-
-***Remote Learning***
-
-Thank you all for completing the anonymous survey I distributed about your current situation. This has been enormously helpful as I try to chart the best path forward for our class. Unfortunately, this survey revealed that some people in our class do not have regular access to high quality internet right now, which means at least some people will not be able to participate in classes in real time. To accommodate these people, I am going to teach using YouTube live, which not only streams live video content but also immediately archives live streams. A major downside of YouTube live is that it does not allow you to talk to me. To facilitate live interaction and to allow you to participate in the class, I have decided that the best option is for us to all log onto slack during the class. This way, you may ask me questions and interact with each other in our #general channel. We will hold class at our regularly scheduled times. For those of you who are not able to join live, I will be very happy to answer any questions you have by slack at a later point in time.  
-
-***Course Requirements***
-
-As you may have heard by now, Duke University has decided to make all classes graded as "Satisfactory" or "Unsatisfactory" unless you request a letter grade. You will receive a "Satisfactory" grade as long as you achieve more than a 70 (or C-) in our class. In general, I hope this decision will give you the flexibility you need to achieve at a high level in our class. Our move to remote learning does pose significant challenges to the main course requirement in our class: our group projects. When we meet on Tuesday, I am going to discuss a path forward for this course requirement, which will likely involve reassessing what is possible via remoate interaction. I am also hoping that we can try to find some positive energy, however, and perhaps do some work together that might help societal response to COVID-19. For now, we will proceed with our original grading plan for the group project (see grade calculations below). We will also continue with weekly labs, but I am going to make these optional for the rest of the semester. If you do not complete any additional labs, your grade for the semester will be the average grade you have received on the labs before spring break.
-
-***Other Forms of Support***
-
-If you require support- whether it is health care, mental health care, or financial support- Duke has created a single website where updates are being posted about the university's response and other resources that are available to you as a member of the Duke community, I urge you to visit https://coronavirus.duke.edu/ regularly to take advantage of the information posted there each day.
+<strong>TA: Devin Cornell </strong>
+<i>PhD Candidate, Sociology</i> <br/>
+devin.cornell@duke.edu <br/>
+Office Hours: TBD <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
+</div>
 
 
 ### COURSE DESCRIPTION
 
-The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 <br/><br/>
 
-<div class="callout callout--info">
-<p><strong>Professor Christopher A. Bail</strong></p>
-<i>Sociology, Public Policy, and Data Science</i> <br/>
-254 Soc Psych Hall <br/>
-christopher.bail@duke.edu <br/>
-<a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: T, 12-1:15pm 
-<br/><br/>
-
-<strong>TA: Taylor W. Brown </strong>
-<i>PhD Candidate, Sociology</i> <br/>
-taylor.w.brown@duke.edu <br/>
-Office Hours: M & W, 2-3pm <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
-</div>
 
 ### COURSE GOALS
 
-This course requires no prior knowledge of computer programming or social science. Students will obtain basic skills that will enable them to automate collection of data about cultural globalization from social media sites, classify these highly unstructured data into discrete variables that can be analyzed using conventional social science models, and analyze them using a combination of techniques that includes screen-scraping, natural language processing and machine learning. We will also discuss the complex ethical and legal issues that arise when working with these novel sources of data. In order to obtain these skills, we will perform a group research project together.
+This course requires no prior knowledge of computer programming or social science. Students will obtain basic skills that will enable them to automate collection of data from social media sites and analyzing them to answer pressing questions about data science and society using tools such as social network analysis and text analysis. 
+
 
 ***Required Readings***
 <br/>
