@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S  
+description: Duke University, Sociology 367S <br/> Fall 2020 (Online)  
 
 
 # Micro navigation
@@ -52,12 +52,14 @@ We will draw heavily on two excellent books, both of which are freely available 
 
 ***R & RStudio***
 <br/>
-In this class, we will use the [R](https://cran.r-project.org/) software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
+In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
 <br/><br/>
 
 ***Slack***
 <br/>
-We will be using [Slack](https://slack.com/help/articles/218080037-Getting-started-for-new-members) to communicate and organize group projects in this class. Please download the app to your desktop and sign-in to [this workplace](https://join.slack.com/t/dssoc-s20/shared_invite/enQtODY3OTU3NjYyODY2LTZmZmMzOGVjZTgzZWU4ZjdjMDAxNTM1YjFjMjRhN2YwODkwZjY3MTYwOWU2NDg3Y2NkOTQyMGEwZjEzNzk5MDg). You can learn more about how Slack works [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). As a reminder, part of your participation grade will rely on your Slack participation. 
+We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily-- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other).
+
+Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). Part of your participation grade-described in additional detail below- will rely on your Slack participation. 
 <br/><br/>
 
 ***Stack Overflow***
