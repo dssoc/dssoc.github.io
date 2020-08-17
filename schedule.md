@@ -66,7 +66,7 @@ page_nav:
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 
 ***Required Reading***:
-- Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
+- Matthew Salganik. [**Bit by Bit: Ethics**](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 
 ***Supplemental Materials***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
