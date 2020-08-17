@@ -35,12 +35,12 @@ micro_nav: false
 # Grid navigation
 grid_navigation:
     - title: Course Description
-      excerpt: Sociol 367S
+      excerpt: Sociology 367S
       cta:
       url: '/course'
       
     - title: Schedule
-      excerpt: Winter 2020
+      excerpt: Fall 2020
       cta: 
       url: '/schedule'
       
