@@ -244,7 +244,7 @@ For these excercises, you will need the following datasets:<br/>
 - Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
 
 
-#### Working with APIs (Lab)
+#### Lab: Working with APIs, Part I
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -278,6 +278,32 @@ For these excercises, you will need the following datasets:<br/>
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
 
+***Supplemental Materials***:
+Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo)
+
+#### Lab: Working with APIs, Part 2
+<div class="callout callout--info">
+<i>Required reading:</i> <br/>
+<ul>
+<li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
+<li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li>
+<li>Setup for spotifyr <a href = "https://github.com/charlie86/spotifyr"></a></li>
+<li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul>
+<br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
+<code>Lab 6 Exercises - Application Programming Intefaces</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
+<ul>
+  <li><a href = "https://www.rcharlie.com/spotifyr/"> R wrapper for the Spotify API</a></li>
+  <li><a href = "https://rtweet.info/"> R wrapper for the Twitter API,</a></li>
+</ul>
+</div>
 
 ## 9 - Culture and Networks
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
