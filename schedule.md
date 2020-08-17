@@ -242,8 +242,8 @@ For these excercises, you will need the following datasets:<br/>
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
 ***Supplemental Materials***:
-- [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
-- [`rtweet`](https://rtweet.info/) is an R wrapper for the Twitter API
+- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+
 
 #### Working with APIs (Lab)
 <div class="callout callout--info">
