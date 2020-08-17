@@ -101,12 +101,12 @@ page_nav:
 - Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130), Science.
 
 
-***Recommended Reading***:
+***Supplemental Reading***:
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 
 #### Lab: Data Wrangling, Part 2
 <div class="callout callout--info">
-<i>Required reading:</i> <br/>
+<i>Required reading:</i> 
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Sunday<br/>
