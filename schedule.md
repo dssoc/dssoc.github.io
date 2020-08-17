@@ -249,9 +249,9 @@ For these excercises, you will need the following datasets:<br/>
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
-<li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li></ul><br/>
-<li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li></ul><br/>
-<li>Setup for `spotifyr` <a href = "https://github.com/charlie86/spotifyr"></a></li></ul><br/>
+<li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
+<li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li><br/>
+<li>Setup for `spotifyr` <a href = "https://github.com/charlie86/spotifyr"></a></li><br/>
 <li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul><br/>
 <br/><br/>   
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
