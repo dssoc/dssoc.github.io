@@ -251,8 +251,7 @@ For these excercises, you will need the following datasets:<br/>
 - Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 <br/><br/>
 
-<b><i><font color="#E84E4E">February 20</font></i></b>
-#### Basics of Social Networks (Lab)
+#### Lab: COMING SOON! Programming (Part II)
 <div class="callout callout--info">
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 5 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
@@ -273,10 +272,9 @@ For these excercises, you will need the following datasets:<br/>
 
 ## 7 - Health
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
-#### When they want to give you data...
-***Slides***: [APIs](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
 
-***Annotated Code***: [html](https://compsocialscience.github.io/summer-institute/2019/materials/day2-digital-trace-data/apis/rmarkdown/Application_Programming_interfaces.html)
+***Video Lecture***: [Coming Soon!](https://cbail.github.io/ids704/apis/Rpres/APIs.html#/) 
+
 
 ***Required reading***:
 <br/>
