@@ -30,18 +30,24 @@ devin.cornell@duke.edu <br/>
 Office Hours: TBD <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
 </div>
 
-
 ### COURSE DESCRIPTION
 
 The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
-
 
 ### COURSE GOALS
 
 This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also aquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
 
 
+### OVERVIEW OF ASYNCHRONOUS CLASS FORMAT
+
+Due to the COVID-19 pandemic, this class will unfortunately be held entirely online. Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
+
+In addition to viewing the lectures each week, you will be required to sign up for a weekly 15 minute one-on-one meeting with me via Zoom to discuss a topic of your choice from either the readings or the lab. My decision to meet with you individually instead of in groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for conventional conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you achieve all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester. I am also hoping that weekly one-on-one time with me will off set some of the disappointment that we all feel about not being on campus and learning together in a normal setting.
+
+
 ***Required Readings***
+<br/>
 We will draw heavily on two excellent books, both of which are freely available online thanks to the generosity of the authors. If you can afford to purchase a hard copy to show your appreciation for their hard work, please consider it.
 
 - [**Bit by Bit: Social Research in the Digital Age**]((https://www.bitbybitbook.com/en/1st-ed/preface/)). Matthew J Salganik (2017), *Princeton University Press*
@@ -49,19 +55,21 @@ We will draw heavily on two excellent books, both of which are freely available 
 <br/>
 
 ***R & RStudio***
+<br/>
 In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
 <br/>
 
 ***Slack***
+<br/>
 We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already.
 
 Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). Part of your participation grade-described in additional detail below- will rely on your Slack participation. 
 <br/>
 
 ***Stack Overflow***
+<br/>
 The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
 <br/>
-
 
 ***Twitter/Blogs***
 <br/>
@@ -81,15 +89,18 @@ You are responsible for understanding the readings. Make use of your fellow stud
 
 ***Weekly Lab Assignments***
 <br/>
-Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Sunday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
 
-Submit all homework assignments to: dsandsociety@gmail.com
+Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
+<br/>
+
+***Weekly Meeting with Dr. Bail***
 <br/>
 
 
 ***Participation***
 <br/>
-Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. If you find it difficult to make thoughtful comments about the readings during class, for example, you can contribute to discussions after class on Slack. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape your group research projects (described below). On Slack, you will organize your group and further develop the research project, which is another reason why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
+Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. If you find it difficult to make thoughtful comments about the readings during class, for example, you can contribute to discussions after class on Slack. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape your group research projects (described below). On Slack, you will organize your group and further develop the research project, which is another reason why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
 <br/>
 
 ***Group Project***
