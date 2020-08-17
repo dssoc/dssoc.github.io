@@ -100,6 +100,7 @@ page_nav:
 - Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130), Science.
 
 ***Supplemental Materials***:
+- Eli Pariser [**Beware Online Filter Bubbles**](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 
 #### Lab: Data Wrangling, Part 2
@@ -165,9 +166,10 @@ For these excercises, you will need the following datasets:<br/>
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 
 ***Required reading***:
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
+- Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
 ***Supplemental Materials***:
+- Nicholas Christakis [**The Hidden Influence of Social Networks**](https://www.ted.com/talks/nicholas_christakis_the_hidden_influence_of_social_networks?language=en)
 - Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 - Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
 - David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
