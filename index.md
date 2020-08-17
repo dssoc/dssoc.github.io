@@ -13,6 +13,10 @@ buttons:
       external_url: true
       icon: slack
     - content:
+      url: 'https://youtube.com'
+      external_url: true
+      icon: youtube      
+    - content:
       url: 'https://twitter.com/chris_bail'
       external_url: true
       icon: twitter
