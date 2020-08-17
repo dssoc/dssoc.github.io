@@ -104,11 +104,9 @@ page_nav:
 <br/>
 
 
-## 3 - Social Media & Political Polarization (Part I)
-
+## 3 - Is Social Media Increasing Polarization?
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
-#### Is Social Media Increasing Polarization?
 
 ***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
 <br/><br/>
@@ -145,7 +143,7 @@ For these excercises, you will need the following datasets:<br/>
 <br/><br/><br/>
 
 
-## 4 - Social Media and Political Polarization (Part II)
+## 4 - Experimenting on Echo Chambers
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
