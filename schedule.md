@@ -382,8 +382,12 @@ For these excercises, you will need the following datasets:<br/>
 - Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 <br/><br/><br/>
 
-<b><i><font color="#E84E4E">March 26</font></i></b>
-#### Word counts and Dictionaries (Lab)
+***If you want to learn more***:
+<br/>
+
+
+
+#### Lab: Word counts and Dictionaries
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
@@ -402,32 +406,32 @@ For these excercises, you will need the following datasets:<br/>
   <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
   <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
   <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li><br/>
+  <li><b><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"><code>Intro to topic modeling</a></b></li><br/>
+  <li><b><a href = "http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf/"><code>background paper on topic modeling</code> package</a></b></li><br/>
+
 </ul>
 </div>
 <br/><br/><br/><br/>
 
 
-## 12 - Election Week (No Lectures/Lab; Final Project Proposal Due)
+
+
+
+
+## 12 - Election Week (No Lectures/Lab)
 <b><i><font color="#E84E4E">November 2-8</font></i></b>
-#### LDA and Beyond
-***Slides***: [Running R in the Cloud](https://cbail.github.io/Running_R_in_the%20Cloud.html#/), [Topic Modeling](https://cbail.github.io/ids704/topic-modeling/Rpres/Topic%20Modeling.html#/)<br/>
-***Annotated Code***: [html](https://cbail.github.io/ids704/topic-modeling/Topic_Modeling.html)<br/><br/>
 
-***Required reading***:
-<br/>
-- Blei, David M. (2012). [**Probabilistic Topic Models**](http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf). Communications of the ACM (Note: this is a challenging article, so don’t worry if you are not able to understand every last part).
-- Patrick van Kessel (Pew Research Center, 2018). [**An intro to topic models for text analysis**](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb).
-<br/><br/><br/>
+***Work on Final Project Proposals (due November 9th)***
 
-<b><i><font color="#E84E4E">April 12</font></i></b>
-#### Final Project(s)
-<br/><br/><br/><br/>
+
+
 
 
 
 
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
+
 #### Your First Topic Model (Lab)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
