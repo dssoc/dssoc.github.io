@@ -342,7 +342,7 @@ For these excercises, you will need the following datasets:<br/>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
 <i>Assignment</i>:<br/>
 <code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
-
+<br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
 
