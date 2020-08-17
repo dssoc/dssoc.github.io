@@ -236,11 +236,8 @@ For these excercises, you will need the following datasets:<br/>
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
-- [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
-- [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
-- [Twitter catches the flu: detecting influenza epidemics using Twitter](https://dl.acm.org/doi/10.5555/2145432.2145600), by Aramaki et al.
-- [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
-- [Setup for `spotifyr`](https://github.com/charlie86/spotifyr)
+- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
+- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
 ***Supplemental Materials***:
 - [`spotifyr`](https://www.rcharlie.com/spotifyr/) is an R wrapper for the Spotify API
@@ -253,6 +250,7 @@ For these excercises, you will need the following datasets:<br/>
 <li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li></ul><br/>
 <li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li></ul><br/>
 <li>Setup for `spotifyr` <a href = "https://github.com/charlie86/spotifyr"></a></li></ul><br/>
+<li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul><br/>
 <br/><br/>   
 <i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
 <code>Lab 6 Exercises - Application Programming Intefaces</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.html">.html</a>)<br/><br/>
@@ -262,7 +260,13 @@ For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 </div>
-
+<br/><br/>
+<i>Optional resources:</i><br/>
+<ul>
+  <li><a href = "https://www.rcharlie.com/spotifyr/"> R wrapper for the Spotify API</a></li>
+  <li><a href = "https://rtweet.info/"> R wrapper for the Twitter API,</a></li>
+</ul>
+</div>
 
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
