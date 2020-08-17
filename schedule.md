@@ -77,7 +77,7 @@ page_nav:
 
 #### Lab: Data Wrangling, Part 1 
 <div class="callout callout--info">
-<i>Assignment:</i> <br/>
+<i>Assignment (Due by 11:59PM 8/29):</i> <br/>
 <ul>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
@@ -111,7 +111,7 @@ page_nav:
 <i>Required reading:</i> 
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Sunday<br/>
+<i>Assignment (Due by 11:59PM 10/5):</i><br/> Submit your .Rmd for the following exercises by midnight on Sunday<br/>
 <code>Lab 2 Exercises - Data Wrangling Part 2</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
@@ -143,7 +143,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li></ul><br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<i>Assignment (Due by 11:59PM 10/12):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
@@ -182,7 +182,7 @@ American Mathematical Society Feature Column.
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<i>Assignment (Due by 11:59PM 10/19):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
@@ -218,7 +218,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<i>Assignmen (Due by 11:59PM 10/26)t:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 5 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_candidates_flw_am.Rdata</a><br/>
@@ -254,7 +254,7 @@ For these excercises, you will need the following datasets:<br/>
 <li>Setup for spotifyr <a href = "https://github.com/charlie86/spotifyr"></a></li>
 <li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul>
 <br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
+<i>Assignment (Due by 11:59PM 11/3):</i><br/> Submit your .Rmd for the following exercises by midnight on Monday<br/>
 <code>Lab 6 Exercises - Application Programming Intefaces</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab6_APIs.html">.html</a>)<br/><br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
