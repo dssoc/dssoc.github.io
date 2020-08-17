@@ -22,7 +22,7 @@ page_nav:
 
 
 ## 1 - How can Data Science Help Society?
-<b><i><font color="#E84E4E">August 17- August 21</font></i></b>
+<b><i><font color="#E84E4E">August 17- August 23</font></i></b>
 
 #### Social Research in the Digital Age
 
@@ -69,7 +69,24 @@ page_nav:
 
 
 ## 2 - Research Ethics
-<b><i><font color="#E84E4E">January 21</font></i></b>
+
+
+<b><i><font color="#E84E4E">August 24-30</font></i></b>
+#### Able is not always ethical
+
+***Slides***: [Ethics and Digital Trace Data](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+<br/><br/>
+
+***Required reading***:
+- Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
+<br/><br/>
+
+***Additional reading***:
+- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
+- Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
+<br/><br/><br/><br/>
+
+
 #### Data Wrangling, Part 1 (Lab)
 <div class="callout callout--info">
 <i>Assignment:</i> <br/>
@@ -93,24 +110,28 @@ page_nav:
 </div>
 <br/>
 
-<b><i><font color="#E84E4E">January 23</font></i></b>
-#### Able is not always ethical
 
-***Slides***: [Ethics and Digital Trace Data](https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/slides_and_code/Ethics/ethics.html#/) 
+## 3 - Social Media & Political Polarization (Part I)
+
+
+<b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
+#### Social Media, Filter Bubbles, and Political Polarization
+
+***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
 <br/><br/>
 
+
 ***Required reading***:
-- Matthew Salganik. **Bit by Bit**, [Ethics](https://www.bitbybitbook.com/en/1st-ed/ethics/).
+<br/>
+- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
+- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 <br/><br/>
 
 ***Additional reading***:
-- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
-- Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
+- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 <br/><br/><br/><br/>
 
 
-## 3 - Social Media & Political Polarization
-<b><i><font color="#E84E4E">January 28</font></i></b>
 #### Data Wrangling, Part 2 (Lab)
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
@@ -132,77 +153,13 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 <br/><br/><br/>
 
-<b><i><font color="#E84E4E">January 30</font></i></b>
-#### Social Media, Filter Bubbles, and Political Polarization
 
-***Slides***: [The Backfire Effect?](https://htmlpreview.github.io/?https://cbail.github.io/Polarization_Talk#/) 
-<br/><br/>
-
-
-***Required reading***:
-<br/>
-- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
-- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
-<br/><br/>
-
-***Additional reading***:
-- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
-<br/><br/><br/><br/>
-
-
-## 4 - Basics of Programming
-<b><i><font color="#E84E4E">February 4</font></i></b>
-#### Pipes, Functions, and Vectors (Lab)
-<div class="callout callout--info">
-<i>Required reading:</i> <br/>
-<ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
-<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
-<code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
-<br/>
-<i>Optional resources:</i><br/>
-<ul>
-  <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
-</ul>
-
-</div>
-<br/><br/><br/>
+## 4 - Social Media and Political Polarization (Part II)
 
 
 
 
 
-<b><i><font color="#E84E4E">February 6</font></i></b>
-### Data Science in the Wild
-<br/>
-
-This will be an open class discussion with our TA, [Taylor Brown](http://www.taylorwhittenbrown.com/). Taylor is a PhD Candidate in the Duke sociology department. She has experience working at several companies--including Facebook--as a data scientist, and is finishing her dissertation using many of the methods we cover in class. There will be some snacks, and Taylor will give a bit of background on her experience before opening up to Q&A. Taylor will also be happy to brainstorm and iterate on possible group projects for the course. 
-<br/><br/><br/><br/>
-
-
-
-## 5 - Intro to Social Networks
-<b><i><font color="#E84E4E">February 11</font></i></b>
-#### What is a Social Network?
-
-***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
-<br/><br/>
-
-***Required reading***:
-<br/>
-- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
-<br/><br/>
-
-***Additional reading***:
-- Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
-- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-- David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
-American Mathematical Society Feature Column.
-<br/><br/><br/><br/>
 
 
 <b><i><font color="#E84E4E">February 13</font></i></b>
@@ -228,6 +185,52 @@ For these excercises, you will need the following datasets:<br/>
 </ul>
 </div>
 <br/><br/><br/>
+
+
+
+
+
+## 5 - Intro to Social Networks
+<b><i><font color="#E84E4E">February 11</font></i></b>
+#### What is a Social Network?
+
+***Slides***: [Social Network Analysis](https://docs.google.com/presentation/d/18Jjq70XnotcSqQwj8hfq12xfIPCSvO8BhVsh71ZvOno/edit#slide=id.p1) 
+<br/><br/>
+
+***Required reading***:
+<br/>
+- Nicholas Cristakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
+<br/><br/>
+
+***Additional reading***:
+- Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
+- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+- David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
+American Mathematical Society Feature Column.
+<br/><br/><br/><br/>
+
+
+<b><i><font color="#E84E4E">February 4</font></i></b>
+#### Pipes, Functions, and Vectors (Lab)
+<div class="callout callout--info">
+<i>Required reading:</i> <br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
+<i>Assignment:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
+For these excercises, you will need the following datasets:<br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+<br/>
+<i>Optional resources:</i><br/>
+<ul>
+  <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
+</ul>
+
+</div>
+<br/><br/><br/>
+
 
 
 ## 6 - Social networks, concepts and data
