@@ -14,6 +14,9 @@ micro_nav: true
 
 ---
 
+### INSTRUCTORS
+
+
 <div class="callout callout--info">
 <p><strong>Chris Bail</strong></p>
 <i>Professor of Sociology & Public Policy</i> <br/>
