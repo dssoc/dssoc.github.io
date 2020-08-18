@@ -132,17 +132,20 @@ E) a detailed description of the results of your analysis, and an interpretation
 
 ### COURSE POLICIES
 
-***Academic Integrity***
+***Mental Health***
 <br/>
-Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+These are exceptionally challenging times to be a college student for many different reasons. I want to support you as much as possible through this challenging time to learn as much as possible during this unusual semester. Mental health issues pervasive right now because of the many different pressures on us all. Unfortunately, I am not qualified to provide mental health support, and therefore I want to provide you with resources to get the help you need. [Duke Reach](https://studentaffairs.duke.edu/dukereach1) provides a first step to identify your needs and help you find solutions, but if you are facing a medical emergency situation (for your mental or physical health), I urge you to consult with your primary care provider or dial "911."
 <br/>
-
 
 ***Surveys***
 <br/>
 I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
 <br/>
 
+***Academic Integrity***
+<br/>
+Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+<br/>
 
 ***Extra-Credit Policy***
 <br/>
