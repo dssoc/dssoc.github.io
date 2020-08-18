@@ -47,6 +47,13 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
 <i>Video Lecture: Coming Soon!</i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/FmSR-TEXYR8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <br/>
 <i>Assignment:</i> <br/>
 <ul>
