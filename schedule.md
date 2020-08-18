@@ -24,7 +24,7 @@ page_nav:
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
 
-***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)  
+***Video Lecture***: [Can Data Science Help us Fight COVID-19?](https://youtu.be/3v3hLvPLxcs)  
 
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
