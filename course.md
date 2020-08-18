@@ -23,7 +23,7 @@ christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
 <br/>
 
-Teaching Assistant: Devin Cornell 
+Teaching Assistant: Devin Cornell<br/> 
 <i>PhD Candidate, Sociology Department</i> <br/>
 devin.cornell@duke.edu <br/>
 Office Hours: TBD 
