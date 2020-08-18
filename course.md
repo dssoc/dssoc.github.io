@@ -109,7 +109,7 @@ Numerous studies arrive at the same conclusion: students learn more when they ar
 
 Your goal for your final project is to a) ask a research question relevant to one of the topics we cover in social science (e.g. misinformation, algorithms and discrimination, or public health); b) explain why this topic is important (to social science and/or the world); c) develop at least one hypothesis to answer this question; d) collect data that allows you to test this hypothesis; and e) describes whether or not your hypothesis was confirmed, and what implications this should have for people who want to do future research on your topic. 
 
-_Whether you find support for your hypothesis will not effect your grade_, instead, you will be evaluated based upon a) the quality of the research question you ask and the hypotheses you develop; and, b) the quality of the data collection and analysis. If your analysis does not support your hypothesis-- and your hypothesis is a well-founded one-- then I consider this to be an important finding. In fact, I have published research that does not confirm my hypotheses as well (For example, see [here](https://www.pnas.org/content/117/1/243)). 
+_Whether you find support for your hypothesis will not effect your grade_. Instead, you will be evaluated based upon a) the quality of the research question you ask and the hypotheses you develop; and, b) the quality of the data collection and analysis. If your analysis does not support your hypothesis-- and your hypothesis is a well-founded one-- then I consider this to be an important finding. In fact, I have published research that does not confirm my hypotheses as well (For example, see [here](https://www.pnas.org/content/117/1/243)). 
 
 If you have questions about your grade for the final project at any time we can discuss them during our one-on-one meetings- the earlier you begin thinking about and developing your project, the more quickly and efficiently I can give you feedback to help you achieve the grade you desire.
 
@@ -121,14 +121,13 @@ C) a detailed explanation of how you collected the data to test your hypotheses)
 D) a description of the analysis techniques you used to analyze your data
 E) a detailed description of the results of your analysis, and an interpretation of what they mean for past and future research on your subkect
 
+My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned.
 
 ***How Your Grade Will be Calculated***
 <br/>
 - Lab exercises 50%
 - Final Project	50%
 <br/>
-
-
 
 ### COURSE POLICIES
 
