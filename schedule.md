@@ -26,6 +26,13 @@ page_nav:
 
 ***Video Lecture***: [**Can Data Science Help us Fight COVID-19?**](https://www.youtube.com/embed/FmSR-TEXYR8)  
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/FmSR-TEXYR8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
