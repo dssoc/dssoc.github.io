@@ -100,29 +100,27 @@ Please Submit all homework assignments to our TA (Devin Cornell) via direct mess
 <br/>
 Each week, you will be required to meet with me for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. _You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting_
 
+To sign up for a weekly meeting time, please put your name in [this Google sheet](https://docs.google.com/spreadsheets/d/1WaV7LTsrWaL9NyX0MLJUwhyzX2XkiLLHwSER2pWhHYE/edit?usp=sharing)
+
 
 ***Final Project***
 <br/>
 Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think of how you can get more engaged, and in my experience the best way for you to do this is to try doing some research yourself.  This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. 
 
-_Grading Rubric for your Final Project_
+Your goal for your final project is to a) ask a research question relevant to one of the topics we cover in social science (e.g. misinformation, algorithms and discrimination, or public health); b) explain why this topic is important (to social science and/or the world); c) develop at least one hypothesis to answer this question; d) collect data that allows you to test this hypothesis; and e) describes whether or not your hypothesis was confirmed, and what implications this should have for people who want to do future research on your topic. 
 
-> A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
+_Whether you find support for your hypothesis will not effect your grade_, instead, you will be evaluated based upon a) the quality of the research question you ask and the hypotheses you develop; and, b) the quality of the data collection and analysis. If your analysis does not support your hypothesis-- and your hypothesis is a well-founded one-- then I consider this to be an important finding. In fact, I have published research that does not confirm my hypotheses as well (For example, see [here](https://www.pnas.org/content/117/1/243)). 
 
-> A+ Student contributes to group research project at an extremely high level. This includes dedicating a large amount of hours (~ 12 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+If you have questions about your grade for the final project at any time we can discuss them during our one-on-one meetings- the earlier you begin thinking about and developing your project, the more quickly and efficiently I can give you feedback to help you achieve the grade you desire.
 
-> A Student contributes to group research project at a very high level. This includes dedicating a large amount of hours (~ 6 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript. 
+You final project should be presented as a webpage created via an R markdown file that includes a) at least 2,500 words; b) at least two images that describe your results; and c) a bibliography. The written component should include:
 
-> A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~ 4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+A) an introduction in which you ask the research questiona and explain why it is important;
+B) a section where you define key concepts in your study and present hypotheses to answer your research question
+C) a detailed explanation of how you collected the data to test your hypotheses);
+D) a description of the analysis techniques you used to analyze your data
+E) a detailed description of the results of your analysis, and an interpretation of what they mean for past and future research on your subkect
 
-> B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~ 4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
-
-> B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~ 2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
-
-> B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~ 2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
-
-> C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
-<br/>
 
 ***How Your Grade Will be Calculated***
 <br/>
