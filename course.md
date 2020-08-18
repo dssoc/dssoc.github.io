@@ -14,7 +14,7 @@ micro_nav: true
 
 ---
 
-### INSTRUCTORS
+### INSTRUCTOR
 
 <div class="callout callout--info">
 <p><strong>Chris Bail</strong></p>
@@ -23,8 +23,8 @@ christopher.bail@duke.edu <br/>
 <a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
 <br/>
 
-<strong>Devin Cornell </strong>
-<i>Teaching Assistant/PhD Candidate, Sociology Department</i> <br/>
+Teaching Assistant: Devin Cornell 
+<i>PhD Candidate, Sociology Department</i> <br/>
 devin.cornell@duke.edu <br/>
 Office Hours: TBD 
 </div>
@@ -40,7 +40,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ### OVERVIEW OF CLASS FORMAT
 
-Due to the COVID-19 pandemic, this class will unfortunately be held entirely online. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
+Due to the COVID-19 pandemic, this class will be held entirely online. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
 
 Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
 
