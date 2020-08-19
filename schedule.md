@@ -54,6 +54,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i>Assignment (Due by 11:59PM 8/22):</i> <br/>
+
 </div>
 
 
