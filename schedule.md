@@ -61,7 +61,7 @@ allowfullscreen></iframe>
 <li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
 <ul>
 <li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
-</ul></li>
+</ul>
 
 <i>Resources:</i><br/>
 <ul>
