@@ -76,17 +76,18 @@ allowfullscreen></iframe>
 
 #### Lab: Data Wrangling, Part 1 
 <div class="callout callout--info">
-<i>Assignment (Due by 11:59PM 8/29):</i> <br/>
+    
+<i><b>Video Lecture: Coming soon!</b></i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<i>Assignment (<b>Due by 11:59PM 8/29:</b>)</i> <br/>
 <ul>
-<li>Work through the following chapters of <a href = "http://r4ds.had.co.nz/">R for Data Science</a>: 
-<ul>
-<li><a href = "https://r4ds.had.co.nz/workflow-basics.html">Workflow: Basics</a></li>
-<li><a href = "https://r4ds.had.co.nz/transform.html">Data Transformation</a></li>
-<li><a href = "https://r4ds.had.co.nz/workflow-scripts.html">Workflow: Scripts</a></li>
-</ul></li>
-<li>Complete and submit the following exercises by midnight on Friday:
-<ul>
-<li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
+<li>Coming Soon!</li>
 </ul>
 </div>
 
