@@ -56,7 +56,7 @@ allowfullscreen></iframe>
 
 <i>Assignment (<b>Due by 11:59PM 8/22:</b>)</i> <br/>
 <ul>
-<li>Install R and R Studio 
+<li>Install R and R Studio</li>
 </ul>
 </div>
 
