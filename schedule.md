@@ -103,8 +103,8 @@ allowfullscreen></iframe>
 - Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130), Science.
 
 ***Supplemental Materials***:
-- Eli Pariser [**Beware Online Filter Bubbles**](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
-- Pablo Barbera & Zachary C. Steinert-Threlkeld [**How to Use Social Media Data for Political Science Research**](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
+- Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
+- Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 
 #### Lab: Data Wrangling, Part 2
 <div class="callout callout--info">
@@ -136,7 +136,7 @@ For these excercises, you will need the following datasets:<br/>
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
 
 ***Supplemental Materials***:
-- Qi Yang et al. [**Mitigating the Backfire Effect**](https://arxiv.org/abs/2008.00049), ArXiv.org.
+- Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049), ArXiv.org.
 
 #### Lab: Visualization Basics with ggplot 
 <div class="callout callout--info">
@@ -171,10 +171,10 @@ For these excercises, you will need the following datasets:<br/>
 - Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
 ***Supplemental Materials***:
-- Nicholas Christakis [**The Hidden Influence of Social Networks**](https://www.ted.com/talks/nicholas_christakis_the_hidden_influence_of_social_networks?language=en)
-- Stanley Milgram. [**The small world problem**](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
-- Duncan Watts. [**How small is the world, really?**](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
-- David Austin. [**How Google Finds Your Needle in the Web's Haystack**](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
+- Nicholas Christakis [The Hidden Influence of Social Networks](https://www.ted.com/talks/nicholas_christakis_the_hidden_influence_of_social_networks?language=en)
+- Stanley Milgram. [The small world problem](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
+- Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
+- David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
 
 #### Lab: Programming Basics (Part I)
@@ -205,12 +205,12 @@ For these excercises, you will need the following datasets:<br/>
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
 
 ***Supplemental Materials***:
-- Duncan Watts. [**Small Worlds**], Chapter 1. Princeton University Press: 3-8.
-- Don Merten. [**The meaning of meanness: Popularity, competition, and conflict among junior high school girls**](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
-- Lynn Michell & Amanda Amos. [**Girls, pecking order and smoking**](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
-- James Coleman. [**Social Capital in the Creation of Human Capital**](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
-- Mark Granovetter. [**The Strength of Weak Ties**](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Penelope Eckert. **The corporate structure of the school** in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
+- Duncan Watts. [Small Worlds], Chapter 1. Princeton University Press: 3-8.
+- Don Merten. [The meaning of meanness: Popularity, competition, and conflict among junior high school girls](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
+- Lynn Michell & Amanda Amos. [Girls, pecking order and smoking](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
+- James Coleman. [Social Capital in the Creation of Human Capital](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
+- Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
+- Penelope Eckert. The corporate structure of the school in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 
 #### Lab: Programming (Part II)
 <div class="callout callout--info">
@@ -312,8 +312,8 @@ Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural an
 Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
-Andrew Guess et al. [**Less than you think: Prevalence and predictors of fake news dissemination on Facebook**](https://advances.sciencemag.org/content/5/1/eaau4586)
-Chris Bail et al. [**Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users**](https://www.pnas.org/content/early/2019/11/20/1906420116)
+Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586)
+Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116)
 
 
 
@@ -352,8 +352,7 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Supplemental Materials***:
 
-
-- Julia Silge and David Robinson (2020). [**Sentiment analysis with tidy data**](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
+- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 
 
 #### Lab: Word counts and Dictionaries
