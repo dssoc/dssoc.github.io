@@ -70,7 +70,7 @@ allowfullscreen></iframe>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
   <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a></li>
-</ul>
+</ul></li></ul>
 </div>
 
 
