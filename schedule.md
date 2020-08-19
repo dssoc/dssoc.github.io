@@ -46,7 +46,7 @@ allowfullscreen></iframe>
 #### Lab: Setting up RStudio (ungraded)
 <div class="callout callout--info">
     
-<i>Video Lecture: **Getting Started**!</i> 
+<i>Video Lecture: <b>Getting Started</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/oFv25YAWSNc" 
