@@ -62,15 +62,6 @@ allowfullscreen></iframe>
 <ul>
 <li><a href = "https://r4ds.had.co.nz/introduction.html">Introduction</a></li>
 </ul>
-
-<br/><br/>
-<i>Optional resources:</i><br/>
-<ul>
-  <li><a href = "https://htmlpreview.github.io/?https://github.com/cbail/comp_soc_undergrad/blob/master/Installing_R/Installing-R-Tutorial.html">Installing R (Mac / PC)</a></li>
-  <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
-  <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
-  <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a>
-</ul>
 </div>
 
 
