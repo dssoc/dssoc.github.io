@@ -69,7 +69,8 @@ allowfullscreen></iframe>
   <li><a href = "http://r-pkgs.had.co.nz/intro.html">What are 'packages' in R?</a></li>
   <li><a href = "https://rstudio.com/resources/cheatsheets/">RStudio cheatsheets</a></li>
   <li><a href = "https://style.tidyverse.org/">R Style Guide</a> </li>
-  <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a></li>
+  <li><a href = "https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">R vs Python for data analysis</a>
+</li>
 </ul>
 </div>
 
@@ -100,7 +101,7 @@ allowfullscreen></iframe>
 <li>Complete and submit the following exercises by midnight on Friday:
 <ul>
 <li><a href = "https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab1_DataWrangling1.Rmd">Lab 1 Exercises - Data Wrangling Part 1</a></li>
-</ul></li></ul>
+</ul>
 </div>
 
 
