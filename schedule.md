@@ -259,6 +259,13 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Lab: Working with APIs, Part I
 <div class="callout callout--info">
+    
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/LTC8laBJGP0" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
@@ -296,6 +303,13 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Lab: Working with APIs, Part II (Coming Soon!)
 <div class="callout callout--info">
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/LTC8laBJGP0" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <i>Required reading:</i> <br/>
 </div>
 
