@@ -165,7 +165,13 @@ For these excercises, you will need the following datasets:<br/>
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
-***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
+***Video Lecture: The Hidden Influence of Social Networks (Nicholas Christakis)*** 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/1UoI6YRKo2I" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
 - Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
