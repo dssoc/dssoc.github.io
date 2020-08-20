@@ -65,7 +65,14 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
-***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
+***Video Lecture: Ethics at the Frontier of Computational Social Science***:
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/vwleR-9-788" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 
 ***Required Reading***:
 - Matthew Salganik. [**Bit by Bit: Ethics**](https://www.bitbybitbook.com/en/1st-ed/ethics/).
