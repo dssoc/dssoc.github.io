@@ -82,13 +82,13 @@ allowfullscreen></iframe>
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
 - Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be)
 
-#### Lab: Data Wrangling, Part 1 
+#### Lab: R Basics 
 <div class="callout callout--info">
     
 <i><b>Video Lecture: Coming soon!</b></i> 
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/" 
+src="https://www.youtube.com/embed/wBKiNV_ieb4" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
