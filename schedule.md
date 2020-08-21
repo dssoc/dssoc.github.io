@@ -351,6 +351,13 @@ Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's
 
 #### Lab: Intro to text data
 <div class="callout callout--info">
+    
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/TAlO-5NJB7I" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
@@ -389,6 +396,15 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Lab: Word counts and Dictionaries
 <div class="callout callout--info">
+    
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/wSIi2ZRKjaE" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+    
+
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
@@ -430,7 +446,14 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Lab: Your First Topic Model
 <div class="callout callout--info">
-<i>Required reading:</i> <br/>
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<i>Required reading:</i> <br/>   
 <ul>
 <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li></ul><br/>
 
