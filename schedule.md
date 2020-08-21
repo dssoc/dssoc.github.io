@@ -120,7 +120,7 @@ allowfullscreen></iframe>
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
 
-#### Lab: Data Wrangling, Part 2
+#### Lab: Data Wrangling
 <div class="callout callout--info">
 <i>Required reading:</i> 
 <ul>
@@ -153,7 +153,7 @@ For these excercises, you will need the following datasets:<br/>
 - Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049), ArXiv.org.
 - Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU)
 
-#### Lab: Visualization Basics with ggplot 
+#### Lab: Visualization  
 <div class="callout callout--info">
 <i>Required reading:</i> <br/>
 <ul>
