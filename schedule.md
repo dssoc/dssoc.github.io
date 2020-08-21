@@ -80,6 +80,7 @@ allowfullscreen></iframe>
 ***Supplemental Materials***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [**Emotional Contagion**](https://www.pnas.org/content/111/24/8788), PNAS.
 - Robinson Meyer. [**Everything We Know About Facebook's Secret Mood Manipulation Experiment**](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
+- Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be)
 
 #### Lab: Data Wrangling, Part 1 
 <div class="callout callout--info">
@@ -150,6 +151,7 @@ For these excercises, you will need the following datasets:<br/>
 
 ***Supplemental Materials***:
 - Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049), ArXiv.org.
+- Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU)
 
 #### Lab: Visualization Basics with ggplot 
 <div class="callout callout--info">
@@ -392,7 +394,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Supplemental Materials***:
 
 - Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-
+- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
 
 #### Lab: Word counts and Dictionaries
 <div class="callout callout--info">
