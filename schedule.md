@@ -103,7 +103,13 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
 
-***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
+***Video Lecture: Do our Platforms Drive us Apart?***
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/sfL8PfXV2RY" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required Reading***:
 - John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
