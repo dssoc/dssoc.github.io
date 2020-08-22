@@ -95,7 +95,7 @@ allowfullscreen></iframe>
 
 
 
-<i><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">Lab #1</a> (<b>Due by 11:59PM 8/29:</b>)</i> <br/>
+<i><b><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
 <ul>
 <li></li>
 </ul>
