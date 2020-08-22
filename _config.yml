@@ -13,19 +13,19 @@ doks:
               item_url: '/course'
             - item_name: Schedule
               item_url: '/schedule'
-            - item_name: References
+            - item_name: Resources
               item_url: '/references'
     footer:
         content:
             logo:
                 text: Data Science & Society 
                 image:
-            copyright: Copyright &copy; 2017, All rights reserved. <br> website background by <a href = "https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois </a>
+            copyright: Copyright &copy; 2020, All rights reserved. <br> website background by <a href = "https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois </a>
         social_list:
             - network_name: twitter
-              profile_url: '#'
+              profile_url: 'https://twitter.com/chris_bail'
             - network_name: youtube
-              profile_url: '#'
+              profile_url: 'https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg'
 
 
 # SASS settings

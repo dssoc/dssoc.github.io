@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociol 367S  <br/> T/Th, 3:05p - 4:20p <br/> Social Sciences 105
+description: Duke University, Sociology 367S <br/> Fall 2020 (Online)  
 
 
 # Micro navigation
@@ -14,152 +14,143 @@ micro_nav: true
 
 ---
 
-### COVID-19 ANNOUNCEMENT
+### INSTRUCTOR
 
-The worldwide spread of COVID-19 has impacted all of us. Many of us are dealing with unprecedented challenges that have stretched us to our limits. I am working hard to adapt our class to these challenging circumstances but will need to ask for your patience as I continue to assess how to best serve everyone's needs in a rapidly changing environment. Below is my first effort to outline a path forward for us, but I am very open to feedback from you and may make additional changes in accordance with your needs or requests.
+<div class="callout callout--info">
+<p><strong>Chris Bail</strong></p>
+<i>Professor of Sociology & Public Policy</i> <br/>
+christopher.bail@duke.edu <br/>
+<a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
+<br/>
 
-***Remote Learning***
-
-Thank you all for completing the anonymous survey I distributed about your current situation. This has been enormously helpful as I try to chart the best path forward for our class. Unfortunately, this survey revealed that some people in our class do not have regular access to high quality internet right now, which means at least some people will not be able to participate in classes in real time. To accommodate these people, I am going to teach using YouTube live, which not only streams live video content but also immediately archives live streams. A major downside of YouTube live is that it does not allow you to talk to me. To facilitate live interaction and to allow you to participate in the class, I have decided that the best option is for us to all log onto slack during the class. This way, you may ask me questions and interact with each other in our #general channel. We will hold class at our regularly scheduled times. For those of you who are not able to join live, I will be very happy to answer any questions you have by slack at a later point in time.  
-
-***Course Requirements***
-
-As you may have heard by now, Duke University has decided to make all classes graded as "Satisfactory" or "Unsatisfactory" unless you request a letter grade. You will receive a "Satisfactory" grade as long as you achieve more than a 70 (or C-) in our class. In general, I hope this decision will give you the flexibility you need to achieve at a high level in our class. Our move to remote learning does pose significant challenges to the main course requirement in our class: our group projects. When we meet on Tuesday, I am going to discuss a path forward for this course requirement, which will likely involve reassessing what is possible via remoate interaction. I am also hoping that we can try to find some positive energy, however, and perhaps do some work together that might help societal response to COVID-19. For now, we will proceed with our original grading plan for the group project (see grade calculations below). We will also continue with weekly labs, but I am going to make these optional for the rest of the semester. If you do not complete any additional labs, your grade for the semester will be the average grade you have received on the labs before spring break.
-
-***Other Forms of Support***
-
-If you require support- whether it is health care, mental health care, or financial support- Duke has created a single website where updates are being posted about the university's response and other resources that are available to you as a member of the Duke community, I urge you to visit https://coronavirus.duke.edu/ regularly to take advantage of the information posted there each day.
-
+Teaching Assistant: Devin Cornell<br/> 
+<i>PhD Candidate, Sociology Department</i> <br/>
+devin.cornell@duke.edu <br/>
+Office Hours: TBD 
+</div>
 
 ### COURSE DESCRIPTION
 
-The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of data science (and it’s cousin, computational social science), which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
-<br/><br/>
-
-<div class="callout callout--info">
-<p><strong>Professor Christopher A. Bail</strong></p>
-<i>Sociology, Public Policy, and Data Science</i> <br/>
-254 Soc Psych Hall <br/>
-christopher.bail@duke.edu <br/>
-<a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: T, 12-1:15pm 
-<br/><br/>
-
-<strong>TA: Taylor W. Brown </strong>
-<i>PhD Candidate, Sociology</i> <br/>
-taylor.w.brown@duke.edu <br/>
-Office Hours: M & W, 2-3pm <a href="https://docs.google.com/spreadsheets/d/1Gzaz9lNDfkUWttSWSovtSvjAM__qynO1CGn4bjerGBs/edit?usp=sharing">by appointment</a>
-</div>
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 
 ### COURSE GOALS
 
-This course requires no prior knowledge of computer programming or social science. Students will obtain basic skills that will enable them to automate collection of data about cultural globalization from social media sites, classify these highly unstructured data into discrete variables that can be analyzed using conventional social science models, and analyze them using a combination of techniques that includes screen-scraping, natural language processing and machine learning. We will also discuss the complex ethical and legal issues that arise when working with these novel sources of data. In order to obtain these skills, we will perform a group research project together.
+This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also aquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
+
+
+### OVERVIEW OF CLASS FORMAT
+
+Due to the COVID-19 pandemic, this class will be held entirely online. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
+
+Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
+
+In addition to viewing the lectures each week, you will be required to sign up for a weekly 15 minute one-on-one meeting with me via Zoom to discuss a topic of your choice from either the readings or the lab. My decision to meet with you individually instead of in groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for conventional group conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you achieve all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester. I am also hoping that weekly one-on-one time with me will off set some of the disappointment that we all feel about not being on campus and learning together in a normal setting.
+
 
 ***Required Readings***
 <br/>
-- **Bit by Bit: Social Research in the Digital Age**. Matthew J Salganik (2017), *Princeton University Press*: [https://www.bitbybitbook.com/en/1st-ed/preface/](https://www.bitbybitbook.com/en/1st-ed/preface/)
-- **R for Data Science**. Garrett Grolemund & Hadley Wickham, *O'Reilly*: [http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
-<br/><br/>
+We will draw heavily on two excellent books, both of which are freely available online thanks to the generosity of the authors. If you can afford to purchase a hard copy to show your appreciation for their hard work, please consider it.
+
+- [**Bit by Bit: Social Research in the Digital Age**](https://www.bitbybitbook.com/en/1st-ed/preface/). Matthew J Salganik (2017), *Princeton University Press*
+- [**R for Data Science**](http://r4ds.had.co.nz/). Garrett Grolemund & Hadley Wickham, *O'Reilly*: )
+<br/>
 
 ***R & RStudio***
 <br/>
-In this class, we will use the [R](https://cran.r-project.org/) software, which is free and open-source. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. R and RStudio are both supported by a vibrant community of individuals who have created a treasure-trove of learning resources online. Here is a link to some very helpful beginner tutorials, and this link also includes some intermediate and advanced tutorials if you really want to challenge yourself.
-<br/><br/>
+In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
+<br/>
 
 ***Slack***
 <br/>
-We will be using [Slack](https://slack.com/help/articles/218080037-Getting-started-for-new-members) to communicate and organize group projects in this class. Please download the app to your desktop and sign-in to [this workplace](https://join.slack.com/t/dssoc-s20/shared_invite/enQtODY3OTU3NjYyODY2LTZmZmMzOGVjZTgzZWU4ZjdjMDAxNTM1YjFjMjRhN2YwODkwZjY3MTYwOWU2NDg3Y2NkOTQyMGEwZjEzNzk5MDg). You can learn more about how Slack works [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). As a reminder, part of your participation grade will rely on your Slack participation. 
-<br/><br/>
+We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already.
+
+Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/dssfall2020workspace/shared_invite/zt-go2w5loi-H1I~Ed4pDx6ieCJwXiSEcQ). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). 
+<br/>
 
 ***Stack Overflow***
 <br/>
 The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
-<br/><br/>
-
+<br/>
 
 ***Twitter/Blogs***
 <br/>
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people [I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
-<br/><br/><br/>
-
+<br/>
 
 ### FORMAL REQUIREMENTS
 
 This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science and an original group research project that you will create in small teams. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
-<br/><br/>
+<br/>
 
 ***Weekly Readings***
 <br/>
 You are responsible for understanding the readings. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion classes will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice.
-<br/><br/>
+<br/>
 
 ***Weekly Lab Assignments***
 <br/>
-Prior to each non-lab or "discussion" class, you will be required to complete the assigned reading. By **midnight on Friday of each week**, you will be required to complete and submit the assigned lab exercises. Exercises will comprise 25% of your final grade. Students are permitted to miss one lab assignment without penalty. The remaining 8 assignments will be worth 3% each (you get one 1% free). Assignments will be graded according to your attempt to complete them: 1% for attempting the majority of exercises, 2% for attempting all exercises, 3% for attempting *and* annotating all exercises.
+_By midnight on Saturday of each week_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
 
-Submit all homework assignments to: dsandsociety@gmail.com
-<br/><br/>
+Labs will comprise 50% of your final grade. Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfull completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments).
 
-
-***Participation***
+Please Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
 <br/>
-Attendance is mandatory at every class, though all students are allowed one excused absence over the course of the semester. Your participation grade will be calculated on a continuous scale from 0 to 100 in order to reflect the quality of your contribution to classroom and Slack discussions. If you find it difficult to make thoughtful comments about the readings during class, for example, you can contribute to discussions after class on Slack. As the table below shows, participation will count for 25% of your grade. Once again, classroom discussions are not intended to clarify key concepts, instead, we will be discussing the pros and cons of each authors’ arguments, or extensions thereof. Most importantly, we will discuss whether or how the readings should shape your group research projects (described below). On Slack, you will organize your group and further develop the research project, which is another reason why your participation there is also counted toward your grade. In other words, your participation grade assesses the extent to which you have thoughtfully engaged with the reading material and contributed to your group’s research project. For some of you, the idea of being graded for participation will be new—if you ever have questions about how to achieve a good participation grade (or if you want to know your current participation grade), please contact me via email at the address above.
-<br/><br/>
 
-***Group Project***
+***Weekly Meeting with Dr. Bail***
 <br/>
-Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think about ways to get you engaged in the classroom. My own view is that we cannot simply ask you to think through hypothetical situations or puzzles: we should all learn together by doing actual research together that could change the world. This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. And if we get lucky, maybe your research will be good enough to share with the world (either in a blog post or perhaps even a full-blown piece of scholarly research in an academic journal). At the end of each week of class, I will assign teams of students to work on different parts of the group research project.
+Each week, you will be required to meet with me for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. _You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting_
 
-You will receive two grades for your group project: the first (which counts for 25% of your course grade), comes from me, and the second (which counts for 25% of your grade) comes from your classmates. Here are the guidelines for grading, which are designed in line with widespread grade inflation at most U.S. universities:
+To sign up for a weekly meeting time, please put your name in [this Google sheet](https://docs.google.com/spreadsheets/d/1WaV7LTsrWaL9NyX0MLJUwhyzX2XkiLLHwSER2pWhHYE/edit?usp=sharing)
 
-> A+ Student contributes to group research project in a truly exceptional manner. This includes dedicating a very large amount of hours outside of class (>6 hrs/week) to help us design and execute our research, collect and analyze data, and write-up the results in our final co-authored blog post or manuscript. This student goes beyond doing what they are told by others and independently identifies work that needs to be done to the benefit of everyone in the group. The student also helps others learn and helps the instructor think about ways to improve the class for future cohorts.
 
-> A+ Student contributes to group research project at an extremely high level. This includes dedicating a large amount of hours (~ 12 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+***Final Project***
+<br/>
+Numerous studies arrive at the same conclusion: students learn more when they are actively engaged in activities in class (even if they sometimes think they learn less through such activities). The challenge, then, is for us all to think of how you can get more engaged, and in my experience the best way for you to do this is to try doing some research yourself.  This may sound like a lofty goal, but my bet is that we will learn much more while failing to achieve an ambitious goal than if we do not try. 
 
-> A Student contributes to group research project at a very high level. This includes dedicating a large amount of hours (~ 6 hrs/week) outside of class time to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript. 
+Your goal for your final project is to a) ask a research question relevant to one of the topics we cover in social science (e.g. misinformation, algorithms and discrimination, or public health); b) explain why this topic is important (to social science and/or the world); c) develop at least one hypothesis to answer this question; d) collect data that allows you to test this hypothesis; and e) describes whether or not your hypothesis was confirmed, and what implications this should have for people who want to do future research on your topic. 
 
-> A- Student contributes to group research project at a high level. This includes dedicating many hours outside of class time (~ 4-6 hrs/week) to help to design and execute the research, collect and analyzing data, and write-up the results in our final co-authored blog post or manuscript.
+_Whether you find support for your hypothesis will not effect your grade_. Instead, you will be evaluated based upon a) the quality of the research question you ask and the hypotheses you develop; and, b) the quality of the data collection and analysis. If your analysis does not support your hypothesis-- and your hypothesis is a well-founded one-- then I consider this to be an important finding. In fact, I have published research that does not confirm my hypotheses as well (For example, see [here](https://www.pnas.org/content/117/1/243)). 
 
-> B+ Student makes a substantial contribution to the group project. This includes dedicating substantial hours outside of class time (~ 4 hrs/week) toward data collection and analysis and writing up our results in our final co-authored blog post or manuscript.
+If you have questions about your grade for the final project at any time we can discuss them during our one-on-one meetings- the earlier you begin thinking about and developing your project, the more quickly and efficiently I can give you feedback to help you achieve the grade you desire.
 
-> B Student makes a contribution to the group project. This includes dedicating some hours outside of class time (~ 2-4 hrs/week) toward data collection or analysis and writing up our results in our final co-authored blog post or manuscript.
+You final project should be presented as a webpage created via an R markdown file that includes a) at least 2,500 words; b) at least two images that describe your results; and c) a bibliography. The written component should include:
 
-> B- Student makes a minor contribution to the group project and contributes only a small amount of time outside of class (~ 2 hrs/week) to collect data, analyze data, or write up the results in our final co-authored blog post or manuscript.
+A) an introduction in which you ask the research questiona and explain why it is important;
+B) a section where you define key concepts in your study and present hypotheses to answer your research question
+C) a detailed explanation of how you collected the data to test your hypotheses);
+D) a description of the analysis techniques you used to analyze your data
+E) a detailed description of the results of your analysis, and an interpretation of what they mean for past and future research on your subkect
 
-> C or below Student does not make an impactful contribution to the group project. Grades below C should be reserved for students who willfully ignored the group, or impeded its progress by acting in an uncivil or unserious manner.
-<br/><br/>
+My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned.
 
 ***How Your Grade Will be Calculated***
 <br/>
-- Participation	25%
-- Lab exercises 25%
-- Group Project (My Assessment)	25%
-- Group Project (Median Peer Assessment)	25%
-<br/><br/>
+- Lab exercises 50%
+- Final Project	50%
+<br/>
+
+### COURSE POLICIES
+
+***Mental Health***
+<br/>
+These are exceptionally challenging times to be a college student for many different reasons. I want to support you as much as possible through this challenging time to learn as much as possible during this unusual semester. Mental health issues pervasive right now because of the many different pressures on us all. Unfortunately, I am not qualified to provide mental health support, and therefore I want to provide you with resources to get the help you need. [Duke Reach](https://studentaffairs.duke.edu/dukereach1) provides a first step to identify your needs and help you find solutions, but if you are facing a medical emergency situation (for your mental or physical health), I urge you to consult with your primary care provider or dial "911."
+<br/>
 
 ***Surveys***
 <br/>
 I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
-<br/><br/><br/>
-
-
-### COURSE POLICIES
+<br/>
 
 ***Academic Integrity***
 <br/>
-Cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
-<br/><br/>
-
-***Classroom Behavior***
+Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
 <br/>
-Uncivil behavior such as engaging in personal conversations during class time, browsing internet sites not relevant to classroom discussions, and cell phone usage will negatively affect your participation grade.
-<br/><br/>
 
 ***Extra-Credit Policy***
 <br/>
 There will be no extra credit or make-up assignments. 
-<br/><br/>
+<br/>
 
 ***Office Hours***
 <br/>
-If you have any questions about this class, please visit me during the office hours listed above. 
+Because of our virtual format-- and weekly one-on-one meetings, I am not holding regular office hours- however, I am very happy to find time to meet with you on an ad hoc basis if you wish to go above and beyond what we discuss in our weekly meetings.
