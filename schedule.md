@@ -93,11 +93,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-
-
 <i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
 <ul>
-<li>Another useful resource</li>
+    <li>Optional resource: <a href="https://r4ds.had.co.nz/">R for Data Science</a></li>
 </ul>
 </div>
 
