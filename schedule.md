@@ -93,9 +93,11 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i>Assignment (<b>Due by 11:59PM 8/29:</b>)</i> <br/>
+
+
+<i><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">Lab #1</a> (<b>Due by 11:59PM 8/29:</b>)</i> <br/>
 <ul>
-<li>Coming Soon!</li>
+<li></li>
 </ul>
 </div>
 
