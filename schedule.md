@@ -85,7 +85,7 @@ allowfullscreen></iframe>
 #### Lab: R Basics 
 <div class="callout callout--info">
     
-<i><b>Video Lecture: Coming soon!</b></i> 
+<i><b>Video Lecture</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wBKiNV_ieb4" 
