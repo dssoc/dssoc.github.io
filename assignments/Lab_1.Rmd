@@ -31,7 +31,7 @@ My_Var1able
 Vector_Saurus_Rex<-c("R","is","great")
 ```
 <br>
-**4. Write code that identifies the largest number in this vector (hint: you'll have to research some new functions in r to do this).**
+**4. Write code that identifies the largest number in this vector (hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus).**
 
 ```{r}
 Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
