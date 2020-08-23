@@ -300,7 +300,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+***Video Lecture: How I'm fighting bias in algorithms (Joy Buolamwini)***
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/UG_X_7g63rY" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
