@@ -242,7 +242,7 @@ For these excercises, you will need the following datasets:<br/>
 - Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
 - Penelope Eckert. The corporate structure of the school in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 
-#### Lab: Programming (Part II)
+#### Lab: Coding Social Networks
 <div class="callout callout--info">
     
 <i>Required reading:</i> <br/>
