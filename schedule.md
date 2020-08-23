@@ -325,7 +325,7 @@ allowfullscreen></iframe>
 ***Supplemental Materials***:
 - Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
 
-#### Lab: Working with APIs, Part II (Coming Soon!)
+#### Lab: Working with APIs, Part II 
 <div class="callout callout--info">
 
 <iframe width="560" height="315"
@@ -346,25 +346,6 @@ allowfullscreen></iframe>
 
 ***Required reading***:
 Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider)
-
-#### Lab: Social Network Analysis (Coming Soon!)
-<div class="callout callout--info">
-<i>Required reading:</i> <br/>
-</div>
-
-
-## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">October 19-25</font></i></b>
-
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
-
-***Required reading***:
-Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
-
-***Supplemental Materials***:
-Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586)
-Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116)
-
 
 
 #### Lab: Intro to text data
@@ -398,19 +379,19 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
-## 11 - Privacy
-<b><i><font color="#E84E4E">October 26-November 1</font></i></b>
+
+## 10 - Misinformation and Trolling
+<b><i><font color="#E84E4E">October 19-25</font></i></b>
 
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-
+Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
+Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586)
+Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116)
 
-- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
 
 #### Lab: Word counts and Dictionaries
 <div class="callout callout--info">
@@ -421,8 +402,6 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
-
-
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
@@ -444,28 +423,20 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
+## 11 - Privacy
+<b><i><font color="#E84E4E">October 26-November 1</font></i></b>
+
+***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+
+***Required reading***:
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 
 
-## 12 - Election Week (No Lectures/Lab)
-<b><i><font color="#E84E4E">November 2-8</font></i></b>
+***Supplemental Materials***:
 
-***Work on Final Project Proposals (due November 9th)***
+- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
+- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
 
-
-
-
-
-
-## 13 - Protest and Censorship
-<b><i><font color="#E84E4E">November 9-15</font></i></b>
-
-***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 
 
 #### Lab: Your First Topic Model
@@ -490,6 +461,33 @@ For these excercises, you will need the following datasets:<br/>
 
 </div>
 
+
+
+## 12 - Election Week (No Lectures/Lab)
+<b><i><font color="#E84E4E">November 2-8</font></i></b>
+
+***Work on Final Project Proposals (due November 9th)***
+
+
+
+
+
+
+## 13 - Protest and Censorship
+<b><i><font color="#E84E4E">November 9-15</font></i></b>
+
+***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+#### Lab: Communicating Your Research
+<div class="callout callout--info">
+
+</div>
 
 
 ## 14 - Final Presentations
