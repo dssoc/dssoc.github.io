@@ -85,7 +85,7 @@ allowfullscreen></iframe>
 #### Lab: R Basics 
 <div class="callout callout--info">
     
-<i><b>Video Lecture</b></i> 
+<i><b>Video Lecture: R Basics</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wBKiNV_ieb4" 
@@ -123,6 +123,15 @@ allowfullscreen></iframe>
 
 #### Lab: Data Wrangling
 <div class="callout callout--info">
+    
+<i><b>Video Lecture: Data "Wrangling"</b></i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/IJfOOWqoKkI" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <i>Required reading:</i> 
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
