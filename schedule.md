@@ -444,7 +444,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 
 #### Lab: Your First Topic Model
