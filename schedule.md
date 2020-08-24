@@ -165,7 +165,14 @@ For these excercises, you will need the following datasets:<br/>
 
 #### Lab: Visualization  
 <div class="callout callout--info">
-<i>Required reading:</i> <br/>
+    
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/IJfOOWqoKkI" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<i>Optional reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li></ul><br/>
 <i>Assignment (Due by 11:59PM 10/12):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
