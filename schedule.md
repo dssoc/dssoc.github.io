@@ -24,7 +24,7 @@ page_nav:
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
 
-***Video Lecture***: [**Can Data Science Help us Fight COVID-19?**](https://www.youtube.com/embed/FmSR-TEXYR8)  
+***Video Lecture***: [**Can Data Science Help us Fight COVID-19?**]
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/FmSR-TEXYR8" 
@@ -154,7 +154,14 @@ For these excercises, you will need the following datasets:<br/>
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
-***Video Lecture***: [Coming Soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg) 
+***Video Lecture***: [**Breaking the Echo Chamber**]
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/nwRm_ssTarE" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 
 ***Required reading***:
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
