@@ -138,9 +138,10 @@ allowfullscreen></iframe>
 <ul>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset</a></li>
 </ul>
+
 <i>Optional resources:</i><br/>
 <ul>
-  <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)/a></li>
+  <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)</a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
 </ul>
