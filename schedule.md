@@ -225,6 +225,15 @@ American Mathematical Society Feature Column.
 
 #### Lab: Programming Basics (Part I)
 <div class="callout callout--info">
+    
+<i><b>Video Lecture: Programming</b></i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/voLDisIMHMM" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
