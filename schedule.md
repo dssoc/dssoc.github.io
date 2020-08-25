@@ -132,22 +132,15 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+
 <i>Materials from Video:</i><br/>
 <ul>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset</a></li>
 </ul>
-<i>Required reading:</i> 
-<ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
-<i>Assignment (Due by 11:59PM 10/5):</i><br/> Submit your .Rmd for the following exercises by midnight on Sunday<br/>
-<code>Lab 2 Exercises - Data Wrangling Part 2</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">.html</a>)<br/><br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a><br/>
-<br/><br/>
 <i>Optional resources:</i><br/>
 <ul>
+  <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)/a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
   <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
 </ul>
