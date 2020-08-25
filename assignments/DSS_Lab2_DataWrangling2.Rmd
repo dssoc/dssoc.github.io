@@ -1,34 +1,29 @@
 ---
-title: "DS&S Lab 2 - Data Wrangling Part 2"
+title: "Lab #2"
+author: "Data Science and Society (Sociology 367)"
+date: ""
 output: html_document
 ---
 
-## STUDENT! ADD YOUR NAME HERE!
-
-Lab assignments are due by midnight on Friday of each week. *However, because this lab was posted late, you will have an deadline extention until midnight on Sunday.* As a reminder, you are permitted to miss one lab assignment without penalty. Assignments will be graded according to completion: 1 point for attempting the majority of exercises, 2 points for attempting all exercises, 3 points for attempting *and* annotating all exercises.
-
-Submit your .Rmd file by email to: dsandsociety@gmail.com
-<br/><br/>
 
 ### Setup
 
-The tables that you will be drawing on for this lab can be downloaded from the course website: 
+To complete this lab, you'll need the following datasets that describe Grammy-award winning musicians : 
 
-(1) `nominees`: 'grammy_nominees_20102020.Rdata' is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
-(2) `winners`: 'grammy_winners_20102020.Rdata' is a table of Grammy winners for the above listed categories, from 2010 to 2020.
-(2) `artist_wiki`: 'artist_wikipedias.Rdata' is a table of Grammy nominee names and their wikipedia pages. 
+(1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
+(2) `artist_wiki`: [artist_wikipedias.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
 
-In future assignments, we will use these tables to work with the Spotify API. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: https://r4ds.had.co.nz/wrangle-intro.html
+In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: https://r4ds.had.co.nz/wrangle-intro.html
 
 ```{r}
 # Load the datasets & packages
 ```
-<br/><br/>
 
 ### Exercises
 <br/>
 
-#### Exercise 1: Often, before working with new datasets or after performing a maniupuation, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the `nominees` table. 
+#### Exercise 1: Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the `nominees` table. 
 ```{r}
 # your answer here
 ```
