@@ -12,7 +12,7 @@ To complete this lab, you'll need the following datasets that describe Grammy-aw
 
 (1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
 (2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
-(2) `artist_wiki`: [artist_wikipedias.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
+(2) `artist_wiki`: [artist_wikipedia.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
 
 In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: https://r4ds.had.co.nz/wrangle-intro.html
 
