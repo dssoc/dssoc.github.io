@@ -245,7 +245,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators_Data File</a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
 </ul>
 
 <i>Required reading:</i> <br/>
