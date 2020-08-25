@@ -132,6 +132,10 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset</a></li>
+</ul>
 <i>Required reading:</i> 
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">Wrangle (chapters 9 - 13)</a></li></ul><br/>
@@ -180,6 +184,11 @@ src="https://www.youtube.com/embed/7mY5KDmimp0"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/apple_mobility_data.csv">Download Apple Mobility .csv File</a></li>
+</ul>
 
 <i>Optional reading:</i> <br/>
 <ul>
@@ -233,6 +242,11 @@ src="https://www.youtube.com/embed/voLDisIMHMM"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators_Data File</a></li>
+</ul>
 
 <i>Required reading:</i> <br/>
 <ul>
