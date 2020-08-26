@@ -263,7 +263,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 6 - Social Networks & the Economy
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
-***Video Lecture: How to find a job and succeed once you get one*** 
+***Video Lecture: How to find a job (and Succeed Once you Get One)*** 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/iccqSLna9YU" 
