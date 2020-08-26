@@ -206,7 +206,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 5 - What is a Social Network?
+## 5 -Social Networks and Health
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
@@ -260,19 +260,22 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 6 - The Shape of Networks
+## 6 - Social Networks & the Economy
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+***Video Lecture: How to find a job and succeed once you get one*** 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/iccqSLna9YU" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
 
 ***Supplemental Materials***:
-- Duncan Watts. [Small Worlds], Chapter 1. Princeton University Press: 3-8.
 - Don Merten. [The meaning of meanness: Popularity, competition, and conflict among junior high school girls](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
-- Lynn Michell & Amanda Amos. [Girls, pecking order and smoking](https://www.ncbi.nlm.nih.gov/pubmed/9194247), Social Science & Medicine, 44(12).
-- James Coleman. [Social Capital in the Creation of Human Capital](https://www.jstor.org/stable/2780243?seq=1). The American Journal of Sociology 94, Supplement: Organizations and Institutions: Sociological and Economic Approaches to the Analysis of Social Structure: S95- S120.
 - Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
 - Penelope Eckert. The corporate structure of the school in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
 
