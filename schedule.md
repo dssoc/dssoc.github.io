@@ -293,7 +293,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Profiles.Rdata">Senator Profiles Dataset</a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata">Senator Profiles Dataset</a></li>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senate_Networks.Rdata">Senate Networks</a></li>
 </ul>
 
