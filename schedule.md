@@ -291,6 +291,13 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Profiles.Rdata">Senator Profiles Dataset</a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senate_Networks.Rdata">Senate Networks</a></li>
+</ul>
+
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
