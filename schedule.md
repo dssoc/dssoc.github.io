@@ -153,7 +153,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
-***Video Lecture***: [**Breaking the Echo Chamber**]
+***Video Lecture***: Breaking the Echo Chamber**
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/nwRm_ssTarE" 
