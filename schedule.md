@@ -206,7 +206,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 5 -Social Networks and Health
+## 5 - Social Networks and Health
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
