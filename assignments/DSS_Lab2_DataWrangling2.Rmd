@@ -1,9 +1,9 @@
 ---
-title: "Lab #2"
-author: "Data Science and Society (Sociology 367)"
-date: ""
+title: "DS&S Lab Exercise 2 - Data Wrangling Part 2"
 output: html_document
 ---
+
+## STUDENT! ADD YOUR NAME HERE!
 
 
 ### Setup
