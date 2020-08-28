@@ -135,16 +135,14 @@ allowfullscreen></iframe>
 
 <i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
 
-<i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset</a></li>
-</ul>
-
-<i>Optional resources:</i><br/>
-<ul>
-  <li><a href = "https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)</a></li>
-  <li><a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
-  <li><a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset (From Video)</a></li>
+  
+  
+  <li>Optional resource: <a href = "https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)</a></li>
+  <li>Optional resource: <a href = "https://rstudio.cloud/learn/primers/2">More <code>dplyr</code> examples</a></li>
+  <li>Optional resource: <a href = "https://rstudio.cloud/learn/primers/4">More help for <code>tidy</code></a></li>
+  
 </ul>
 </div>
 
