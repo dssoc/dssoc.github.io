@@ -1,84 +1,95 @@
 ---
-title: "Lab #2"
+title: "Lab #2: Data Wrangling Part 2"
 author: "Data Science and Society (Sociology 367)"
 date: ""
 output: html_document
 ---
 
-## STUDENT! ADD YOUR NAME HERE!
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
+In this lab, we will practice working with several datasets to become comfortable with R. To submit your answer, you'll need to edit this markdown document (you can copy and paste the text form [this link](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/DSS_Lab2_DataWrangling2.Rmd) into a new `.Rmd` file or write a new one from scratch. If you copy and paste, Rremember to change the "author" field above to your name. After you've edited it, save it and then send it to your TA via direct message on Slack.
 
-### Setup
+#### Optional resources:
+- [R for Data Science (Chapters 9-13)](https://r4ds.had.co.nz/wrangle-intro.html)
+- [More dplyr examples](https://rstudio.cloud/learn/primers/2)
+- [More help for tidy](https://rstudio.cloud/learn/primers/4)
 
-To complete this lab, you'll need the following datasets that describe Grammy-award winning musicians : 
+### Required Datasets
+
+To complete this lab, you'll need the following datasets that describe Grammy-award winning musicians: 
 
 (1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
 (2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
 (2) `artist_wiki`: [artist_wikipedia.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
 
 In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: https://r4ds.had.co.nz/wrangle-intro.html
+<br>
+
+**Load the datasets described above. Hint: see the `load()` function.**
 
 ```{r}
 # Load the datasets & packages
 ```
+<br/>
 
 ### Exercises
-<br/>
 
-#### Exercise 1: Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the `nominees` table. 
-```{r}
-# your answer here
-```
-<br/>
-
-#### Exercise 2: Sometimes the table is quite large, or you are only interested in a portion of it. Show how you would view only the `performer1` and `year` columns of the `nominees` table.
-```{r}
-# your answer here
-```
-<br/>
-
-
-#### Exercise 3: The `winners` table has a single, key variable (`year`) with awards listed in separate columns. If instead we wanted the key variables to be `year` *and* `award`, how might we employ the `pivot_longer()` command? Save your answer as a new table, `winners_long`.
+**1. Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the `nominees` table.**
 
 ```{r}
 # your answer here
 ```
 <br/>
 
-
-#### Exercise 4: You may have noticed that some winners include multiple artists in this new `winners_long` table. For instance, the winner for Record of the Year in 2016 was "Mark Ronson, Burno Mars". If you wanted each performer to be listed in a separate column, as they are in the `nominees` table. How would you do this? (Hint: you may want to use the `separate()` command)
-```{r}
-# your answer here
-```
-<br/>
-
-#### Exercise 5: In data science, the norm is for `NA` to indicate a missing value, and 0/1 to indicate False/True. Given this, fill in all `NA` values with 0 for the following columns of the `nominees` table: record_oty, album_oty, song_oty, new_artist_oty.
-```{r}
-# your answer here
-```
-<br/>
-
-#### Exercise 6: Now, using the `nominees` table, generate a new table that has only two colums--one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table `nominee_nominations`. As a tip, if you use the `group_by()` command to make you new table, you will likely also want to use the `ungroup()` command. The reason for this is that grouped objects can make future analyses tricky. After you `ungroup()`, use the `distinct()` command to remove duplicate rows.
+**2. Sometimes the table is quite large, or you are only interested in a portion of it. Show how you would view only the `performer1` and `year` columns of the `nominees` table.**
 
 ```{r}
 # your answer here
 ```
 <br/>
 
-#### Exercise 7: Add the wikipedia link for each performer to the the `nominee_nominations` table:
+**3. The `winners` table has a single, key variable (`year`) with awards listed in separate columns. If instead we wanted the key variables to be `year` *and* `award`, how might we employ the `pivot_longer()` command? Save your answer as a new table, `winners_long`.**
+
+
 ```{r}
 # your answer here
 ```
 <br/>
 
+**4. You may have noticed that some winners include multiple artists in this new `winners_long` table. For instance, the winner for Record of the Year in 2016 was "Mark Ronson, Burno Mars". If you wanted each performer to be listed in a separate column, as they are in the `nominees` table. How would you do this? (Hint: you may want to use the `separate()` command)**
 
-#### Exercise 8: List only the 5 most nominated performers.
 ```{r}
 # your answer here
 ```
 <br/>
 
-#### Exercise 9: Below, I define for you two vectors summarizing the presidential candidates who participated in the first and seventh democratic debates. Run this code to create the vectors yourself.
+**5. In data science, the norm is for `NA` to indicate a missing value, and 0/1 to indicate False/True. Given this, fill in all `NA` values with 0 for the following columns of the `nominees` table: record_oty, album_oty, song_oty, new_artist_oty.**
+```{r}
+# your answer here
+```
+<br/>
+
+**6. Now, using the `nominees` table, generate a new table that has only two colums--one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table `nominee_nominations`. As a tip, if you use the `group_by()` command to make you new table, you will likely also want to use the `ungroup()` command. The reason for this is that grouped objects can make future analyses tricky. After you `ungroup()`, use the `distinct()` command to remove duplicate rows.**
+```{r}
+# your answer here
+```
+<br/>
+
+**7. Add the wikipedia link for each performer to the the `nominee_nominations` table:**
+```{r}
+# your answer here
+```
+<br/>
+
+**8. List only the 5 most nominated performers.**
+```{r}
+# your answer here
+```
+<br/>
+
+**9. Below, I define for you two vectors summarizing the presidential candidates who participated in the first and seventh democratic debates. Run this code to create the vectors yourself.**
 ```{r}
 first_debate <- c('Michael Bennet','Joe Biden','Pete Buttigieg','
                   John Delaney','Tulsi Gabbard','Amy Klobuchar',
@@ -95,13 +106,13 @@ seventh_debate <- c('Joe Biden','Pete Buttigieg','Amy Klobuchar',
 ```
 <br/>
 
-Now, write code to print only the candidates who participated in both debates:
+**10. Now, write code to print only the candidates who participated in both debates:**
 ```{r}
 # your answer here
 ```
 <br/>
 
-#### Exercise 10: Write code to print any candidates that only participated in the seventh debate:
+**11. Write code to print any candidates that only participated in the seventh debate:**
 ```{r}
 # your answer here
 ```
