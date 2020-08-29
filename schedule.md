@@ -326,7 +326,7 @@ For these excercises, you will need the following datasets:<br/>
 - Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
 
 
-#### Lab: Working with APIs, Part I
+#### Lab: Working with APIs
 <div class="callout callout--info">
     
 <iframe width="560" height="315"
@@ -376,11 +376,11 @@ allowfullscreen></iframe>
 ***Supplemental Materials***:
 - Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
 
-#### Lab: Working with APIs, Part II 
+#### Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/LTC8laBJGP0" 
+src="https://www.youtube.com/embed/y4B3JVicRxY" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
