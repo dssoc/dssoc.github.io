@@ -1,5 +1,5 @@
 ---
-title: "Lab #2: Basics of Programming"
+title: "Lab #3: Basics of Programming"
 author: "Data Science and Society (Sociology 367)"
 date: ""
 output: html_document
