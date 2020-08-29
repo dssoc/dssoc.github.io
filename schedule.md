@@ -247,16 +247,22 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
+
+<br/>
+
 <i>Materials from Video:</i><br/>
 <ul>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
 </ul>
 
-<i>Required reading:</i> <br/>
+<!--<i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
-<i>Assignment (Due by 11:59PM 10/19):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>-->
+
+<!--<i>Assignment (Due by 11:59PM 10/19):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
+
 For these excercises, you will need the following datasets:<br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
 - <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
@@ -264,7 +270,7 @@ For these excercises, you will need the following datasets:<br/>
 <i>Optional resources:</i><br/>
 <ul>
   <li><a href = "https://rstudio.cloud/learn/primers/6">More on functions</a></li>
-</ul>
+</ul>-->
 </div>
 
 
