@@ -107,13 +107,13 @@ seventh_debate <- c('Joe Biden','Pete Buttigieg','Amy Klobuchar',
 ```
 <br/>
 
-**10. Now, write code to print only the candidates who participated in both debates:**
+**Now, write code to print only the candidates who participated in both debates:**
 ```{r}
 # your answer here
 ```
 <br/>
 
-**11. Write code to print any candidates that only participated in the seventh debate:**
+**10. Write code to print any candidates that only participated in the seventh debate:**
 ```{r}
 # your answer here
 ```
