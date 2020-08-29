@@ -319,17 +319,22 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
-## 7 - Better Public Health
+## 7 - Data Science and Privacy
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+
+***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/hIXhnWUmMvw" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
-- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
-- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 
-***Supplemental Materials***:
-- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+
 
 
 #### Lab: Working with APIs
@@ -483,15 +488,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 11 - Privacy
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 
-***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/hIXhnWUmMvw" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
 ***Required reading***:
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
+- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
+
+***Supplemental Materials***:
+- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+
 
 
 ***Supplemental Materials***:
