@@ -1,0 +1,113 @@
+---
+title: "Lab #4: Basics of Programming"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_4.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.
+
+
+### Required Datasets
+
+The tables that you will be drawing on for this lab can be downloaded from the course website: 
+
+(1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
+
+
+The exercises in this lab correspond with R for Data Science, [chapters 17 - 21](https://r4ds.had.co.nz/program-intro.html):
+
+
+Load the libraries and datasets:
+```{r}
+#library(tidyverse)
+#load('nominees_20102020.Rdata')
+#load('winners_20102020.Rdata')
+```
+<br/><br/>
+
+### Exercises
+<br/>
+
+**1. In your own words, describe what Boolean operators are, and provide one example of how you might use them in a data science project.**
+```{r}
+# your answer here
+```
+<br/>
+
+**2. In your own words, describe what a function is, and provide one example of how you might use it in a data science project.**
+```{r}
+# your answer here
+```
+<br/>
+
+**3. Most of the time, packages in R contain many useful functions/commands. If you didn't know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code?**
+```{r}
+# your answer here
+```
+<br/>
+
+**4. Write a function that takes a character vector as data and returns the first letter in each element. To show that it works, test it on the character vector below.**
+```{r}
+sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
+# your answer here
+```
+<br/>
+
+**5. In your reading, you learned about function arguments. Using the `winners` table, write a function that takes year (numeric) as an argument and returns the name of all winners for that year. It's alright if the function simply returns the row for that year in the `winners` table, but you can also print each winner name if you'd like.**
+```{r}
+# your answer here
+```
+<br/>
+
+**6. Sometimes we would like to execute different commands or calculations depending on the structure of our data. You learned about this in the *conditional execution* section of your reading. Expand your function from Exercise 5 to return "Date not available" if a year is supplied to the function but is not in the dataset.**
+```{r}
+# your answer here
+```
+<br/>
+
+
+**7. Now, using the `nominees` table, write code to calculate the percent of nominations that have only one performer. For this, you might want to consider using the `is.na()` function that you learned about in your reading.**
+```{r}
+# your answer here
+```
+<br/>
+
+**8. As in the previous lab, below I define two vectors summarizing the presidential candidates who participated in the first and seventh democratic debates. Run this code to create the vectors yourself.**
+```{r}
+first_debate <- c('Michael Bennet','Joe Biden','Pete Buttigieg','John Delaney',
+                  'Tulsi Gabbard','Amy Klobuchar',
+                  'Bernie Sanders', 'Elizabeth Warren', 'Andrew Yang', 
+                  'Cory Booker', 'Marianne Williamson',
+                  'Julian Castro', 'Kamala Harris', 'Beto ORourke', 
+                  'Tim Ryan', 'Bill de Blasio', 
+                  'Kirsten Gillibrand', 'Jay Inslee', 
+                  'John Hickenlooper', 'Eric Swalwell')
+
+seventh_debate <- c('Joe Biden','Pete Buttigieg','Amy Klobuchar',
+                    'Bernie Sanders', 'Elizabeth Warren', 
+                    'Tom Steyer')
+```
+
+**Iterate over the candidates in the first debate, and print "[name of candidate] dropped out" if they do not appear in the seventh debate.**
+```{r}
+# your answer here
+```
+<br/>
+
+**9. Change one element or step in your answer to Exercise 8 to provide an alternative way of completing the exercise. For instance, if you did not use a for loop in your first attempt, perhaps use one now. If you did use a for loop in your first attempt, perhaps consider using `paste()` and `setdiff()` instead.**
+```{r}
+# your answer here
+```
+<br/>
+
+**10. Perform a transformation of your choice on one of the datasets provided for this Lab. Annotate your code to describe what your transformation does to someone who might later read your code (e.g. the TA ;) As a reminder, you should be at least modestly annotating all of your Lab answers.**
+```{r}
+# your answer here
+```
+
