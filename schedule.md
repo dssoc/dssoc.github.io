@@ -371,10 +371,10 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
 
-***Video Lecture: How I'm fighting bias in algorithms (Joy Buolamwini)***
+***Video Lecture: Challenging the Algorithms of Oppression (Safiya Noble)***
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/UG_X_7g63rY" 
+src="https://www.youtube.com/embed/iRVZozEEWlE" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
