@@ -319,17 +319,22 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
-## 7 - Better Public Health
+## 7 - Data Science and Privacy
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+
+***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/hIXhnWUmMvw" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
-- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
-- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 
-***Supplemental Materials***:
-- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+
 
 
 #### Lab: Working with APIs
@@ -366,10 +371,10 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
 
-***Video Lecture: How I'm fighting bias in algorithms (Joy Buolamwini)***
+***Video Lecture: Challenging the Algorithms of Oppression (Safiya Noble)***
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/UG_X_7g63rY" 
+src="https://www.youtube.com/embed/iRVZozEEWlE" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
@@ -480,18 +485,20 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
-## 11 - Privacy
+## 11 - Protest and Censorship
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 
-***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
+***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/hIXhnWUmMvw" 
+src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-***Required reading***:
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
+
+***Required Reading***
+
+Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract), Science
 
 
 ***Supplemental Materials***:
@@ -535,16 +542,18 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 13 - Protest and Censorship
+## 13 - Covid-19
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
 
-***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
+***Required reading***:
+- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
+- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+***Supplemental Materials***:
+- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+
+
+
 
 #### Lab: Communicating Your Research
 <div class="callout callout--info">
