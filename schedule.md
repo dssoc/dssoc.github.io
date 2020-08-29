@@ -200,14 +200,15 @@ allowfullscreen></iframe>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
 </ul><br/>
 
-**Optional Resources:**
 
-- [Data Visualization: A Practical Introduction](http://socviz.co/), Kieran Healy. (Princeton: Princeton University Press, 2019)
-- [RStudio Cloud intro](https://rstudio.cloud/learn/primers/3)
-- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
-- [The R Graph Gallery](https://www.r-graph-gallery.com/)
-- [Sometimes the y-axis doesn't start at zero, and it's fine.](https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/)
-- [What would feminist data visualization look like?](https://civic.mit.edu/2015/12/01/feminist-data-visualization/), MIT Civic Media Lab by kanarinka. 
+<i>Optional resources:</i> <br/>
+<ul>
+<li><b><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></b></li>
+<li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+<li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
+<li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
+<li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"><b>Sometimes the y-axis doesn't start at zero, and it's fine.</b></a> Vox.</li>
+</ul>
 
 <!-- MOVED TO MARKDOWN FILE FOR LAB
 <i>Optional resources:</i><br/>
