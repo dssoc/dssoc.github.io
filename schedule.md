@@ -134,7 +134,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab2_DataWrangling2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
 
 
 <i>Materials from Video:</i><br/>
