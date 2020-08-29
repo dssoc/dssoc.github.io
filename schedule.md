@@ -477,8 +477,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 11 - Privacy
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/hIXhnWUmMvw" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 ***Required reading***:
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
 
