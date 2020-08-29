@@ -136,7 +136,7 @@ allowfullscreen></iframe>
 
 <i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
 
-
+<br/>
 <i>Materials from Video:</i><br/>
 
 <ul>
@@ -184,6 +184,12 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 09/12)</i> <br/>
+
+<br/>
+
+
 <i>Materials from Video:</i><br/>
 <ul>
   <li><a download href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/apple_mobility_data.csv">Download Apple Mobility .csv File</a></li>
@@ -191,12 +197,11 @@ allowfullscreen></iframe>
 
 <i>Optional reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li></ul><br/>
-<i>Assignment (Due by 11:59PM 10/12):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
-<code>Lab 4 Exercises - Data Visualization</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab4_DataVisualization.html">.html</a>)<br/><br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
-<br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
+</ul><br/>
+
+
+<!-- MOVED TO MARKDOWN FILE FOR LAB
 <i>Optional resources:</i><br/>
 <ul>
   <li><b><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></b></li>
@@ -205,7 +210,7 @@ For these excercises, you will need the following datasets:<br/>
   <li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
   <li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"><b>Sometimes the y-axis doesn't start at zero, and it's fine.</b></a> Vox.</li>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
-</ul>
+</ul>-->
 </div>
 
 
