@@ -339,7 +339,7 @@ For these excercises, you will need the following datasets:<br/>
 </div>
 
 
-## 7 - Data Science and Privacy
+## 7 - Surveillance and Privacy
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
 
@@ -400,9 +400,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
-- Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
 - Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
+- Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
 
 ***Supplemental Materials***:
 - Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
