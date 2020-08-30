@@ -405,7 +405,7 @@ allowfullscreen></iframe>
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
 
 ***Supplemental Materials***:
-- Safia Noble [Algorithms of Oppression](https://www.youtube.com/watch?v=6KLTpoTpkXo).
+- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
 
 #### Modeling (A Brief Introduction)
 <div class="callout callout--info">
@@ -562,11 +562,10 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 13 - Covid-19
+## 13 - Group Discussion: Covid-19
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
 
 ***Required reading***:
-- David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
 ***Supplemental Materials***:
