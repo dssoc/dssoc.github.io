@@ -245,7 +245,7 @@ allowfullscreen></iframe>
 - David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
 
-#### Lab: Programming Basics (Part I)
+#### Lab: Programming Basics
 <div class="callout callout--info">
     
 <i><b>Video Lecture: Programming</b></i> 
