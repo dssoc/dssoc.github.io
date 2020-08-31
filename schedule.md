@@ -360,7 +360,7 @@ allowfullscreen></iframe>
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/).
 
 ***Optional Materials***:
-
+- Shoshanna Zuboff. [You are Now Remotely Controlled](https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html)
 
 
 #### Lab: Working with APIs
