@@ -195,13 +195,10 @@ allowfullscreen></iframe>
   <li><a download href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/apple_mobility_data.csv">Download Apple Mobility .csv File</a></li>
 </ul>
 
-<i>Optional reading:</i> <br/>
-<ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
-</ul>
 
 <i>Optional resources:</i> <br/>
 <ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
 <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
 <li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
 <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
