@@ -43,7 +43,7 @@ allowfullscreen></iframe>
 - Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
 - Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 
-#### Lab: Setting up RStudio
+#### Lab: Getting Started with RStudio
 <div class="callout callout--info">
     
 <i><b>Getting Started with RStudio</b></i> 
@@ -70,7 +70,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
-***Ethics at the Frontier of Computational Social Science:***
+***Ethics in Computational Social Science:***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/vwleR-9-788" 
