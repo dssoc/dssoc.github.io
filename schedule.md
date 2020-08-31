@@ -198,7 +198,7 @@ allowfullscreen></iframe>
 <i>Optional reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
-</ul><br/>
+</ul>
 
 <i>Optional resources:</i> <br/>
 <ul>
