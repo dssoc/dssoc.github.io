@@ -166,11 +166,11 @@ allowfullscreen></iframe>
 </div>
 
 
-## 4 - Breaking Echo Chambers
+## 4 - The Echo Chamber
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
-***Experimenting on the Echo Chamber***
+***Should we Break our Echo Chambers?***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/nwRm_ssTarE" 
