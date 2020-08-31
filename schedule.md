@@ -577,8 +577,6 @@ For these excercises, you will need the following datasets:<br/>
 #### Lab: Communicating Your Research
 <div class="callout callout--info">
 
-***Video Lecture: Communicating and Collaborating in Computational Social Science***
-
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/K1QdcblKR1M" 
 frameborder="0" 
