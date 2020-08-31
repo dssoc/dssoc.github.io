@@ -43,7 +43,7 @@ allowfullscreen></iframe>
 - Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
 - Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 
-#### Lab: Setting up RStudio (ungraded)
+#### Lab: Setting up RStudio
 <div class="callout callout--info">
     
 <i><b>Getting Started with RStudio</b></i> 
@@ -54,7 +54,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b>Assignment</b>(Due by 11:59PM 8/22:)</i> <br/>
+<i><b>Ungraded Assignment</b>(Due by 11:59PM 8/22:)</i> <br/>
 <ul>
 <li>Install R and R Studio</li>
 </ul>
