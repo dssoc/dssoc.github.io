@@ -37,10 +37,10 @@ allowfullscreen></iframe>
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
 ***Supplemental Materials (If you Want to Learn More)***:
-- David Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/), *Science*.
+- David Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/).
 - David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-- Eszter Hargittai. [Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866), The ANNALS of the American Academy of Political and Social Science.
-- Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073), *Science*.
+- Eszter Hargittai. [Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866).
+- Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
 - Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 
 #### Lab: Setting up RStudio (ungraded)
