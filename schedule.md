@@ -46,7 +46,7 @@ allowfullscreen></iframe>
 #### Lab: Setting up RStudio (ungraded)
 <div class="callout callout--info">
     
-<i><b>Video Lecture: Getting Started with RStudio</b></i> 
+<i><b>Getting Started with RStudio</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/oFv25YAWSNc" 
@@ -85,7 +85,7 @@ allowfullscreen></iframe>
 #### Lab: R Basics 
 <div class="callout callout--info">
     
-<i><b>Video Lecture: R Basics</b></i> 
+<i><b>R Basics</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wBKiNV_ieb4" 
