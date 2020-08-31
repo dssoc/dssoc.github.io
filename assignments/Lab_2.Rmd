@@ -72,7 +72,7 @@ In future assignments, we will use these datasets to collect data from Spotify. 
 ```
 <br/>
 
-**6. Now, using the `nominees` table, generate a new table that has only two colums--one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table `nominee_nominations`. As a tip, if you use the `group_by()` command to make you new table, you will likely also want to use the `ungroup()` command. The reason for this is that grouped objects can make future analyses tricky. After you `ungroup()`, use the `distinct()` command to remove duplicate rows.**
+**6. Now, using the `nominees` table, generate a new table that has only two colums--one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table `nominee_nominations`. As a tip, if you use the `group_by()` command to make you new table, you will likely also want to use the `ungroup()` command. The reason for this is that grouped objects can make future analyses tricky.**
 ```{r}
 # your answer here
 ```
