@@ -20,7 +20,6 @@ page_nav:
         url: '/references'
 ---
 
-
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
 
