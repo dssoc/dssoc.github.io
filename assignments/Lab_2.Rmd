@@ -104,7 +104,7 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 ```
 <br/>
 
-**10. Write code to print any candidates that only participated in the seventh debate:**
+**10. Write code to print the states who had implemented either plicy:**
 ```{r}
 # your answer here
 ```
