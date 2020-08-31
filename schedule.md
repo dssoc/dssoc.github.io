@@ -238,7 +238,6 @@ allowfullscreen></iframe>
 - Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
 
 ***Supplemental Materials***:
-- Stanley Milgram. [The small world problem](http://snap.stanford.edu/class/cs224w-readings/milgram67smallworld.pdf), Psychology Today.
 - Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
 - David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
 American Mathematical Society Feature Column.
