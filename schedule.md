@@ -432,16 +432,24 @@ allowfullscreen></iframe>
 
 
 
-## 9 - Culture and Networks
+## 9 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
 
-#### Video Coming soon!
+#### Using Google to Track Radicalization
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/iRVZozEEWlE" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
 
 ***Required reading***:
--  Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider).
+-  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).
 
 ***Optional Materials***:
-- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
+- Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
+- Kevin Munger. [Tweetment Effects on the Tweeted](https://link.springer.com/article/10.1007/s11109-016-9373-5)
+- Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948)
 
 
 
