@@ -118,7 +118,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
 
-***Do our Platforms Bring us Together or Push us Apart?***
+#### Do our Platforms Push us Apart?
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/sfL8PfXV2RY" 
@@ -169,7 +169,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
-***Should we Break our Echo Chambers?***
+#### Should we Break our Echo Chambers?
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/nwRm_ssTarE" 
@@ -235,7 +235,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
-***The Hidden Influence of Social Networks (Nicholas Christakis)*** 
+#### The Hidden Influence of Social Networks (Nicholas Christakis)
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/1UoI6YRKo2I" 
@@ -292,7 +292,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 6 - Getting a Job
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
-***How to find a job (and Succeed Once you Get One)*** 
+#### How to find a job (and Succeed Once you Get One)
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/iccqSLna9YU" 
@@ -348,7 +348,7 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
 
-***Shoshana Zuboff on Surveillance Capitalism***
+#### Surveillance Capitalism (Shoshana Zuboff)
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/hIXhnWUmMvw" 
@@ -397,7 +397,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
 
-***Challenging the Algorithms of Oppression (Safiya Noble)***
+#### Challenging the Algorithms of Oppression (Safiya Noble)
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/iRVZozEEWlE" 
@@ -430,7 +430,7 @@ allowfullscreen></iframe>
 ## 9 - Culture and Networks
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
 
-***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
+#### Video Coming soon!
 
 ***Required reading***:
 -  Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider).
@@ -475,7 +475,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 10 - Misinformation and Trolling
 <b><i><font color="#E84E4E">October 19-25</font></i></b>
 
-***Did Russia's Social Media Campaign Succeed?***
+#### Did Russia's Social Media Campaign Succeed?
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/J6WI38QvwFI" 
@@ -525,7 +525,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 11 - Protest and Censorship
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 
-***Online Social Change (Zeynep Tufekci)*** 
+#### Online Social Change (Zeynep Tufekci)
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
@@ -571,7 +571,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 12 - Election Week (No Lectures/Lab)
 <b><i><font color="#E84E4E">November 2-8</font></i></b>
 
-***Work on Final Project Proposals (due November 9th)***
+#### Work on Final Project Proposals (due November 9th)
 
 
 
