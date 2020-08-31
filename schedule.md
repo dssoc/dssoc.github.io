@@ -120,7 +120,7 @@ allowfullscreen></iframe>
 
 ***Supplemental Materials***:
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
-- Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf),  The SAGE Handbook of Research Methods in Political Science and International Relations.
+- Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf).
 
 #### Lab: Data Wrangling
 <div class="callout callout--info">
@@ -200,14 +200,12 @@ allowfullscreen></iframe>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
 </ul><br/>
 
-
 <i>Optional resources:</i> <br/>
 <ul>
-<li><b><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></b></li>
-<li>Kieran Healy. <b><a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></b> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
-<li><b><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></b></li>
-<li><a href = "https://www.r-graph-gallery.com/"><b>The R Graph Gallery</b></a></li>
-<li><a href = "https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/"><b>Sometimes the y-axis doesn't start at zero, and it's fine.</b></a> Vox.</li>
+<li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
+<li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+<li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
 </ul>
 
 <!-- MOVED TO MARKDOWN FILE FOR LAB
