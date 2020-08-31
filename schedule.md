@@ -95,9 +95,17 @@ allowfullscreen></iframe>
 
 <i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
 <br/>
+
+<i>Materials from Video:</i><br/>
+
 <ul>
-    <li><a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Coronavirus_Tweets.Rdata">Download Coronavirus Tweets Dataset (From video)</a></li>
-    <li>Optional resource: <a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapter 4)</a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Coronavirus_Tweets.Rdata">Coronavirus Tweets Dataset</a></li>
+</ul>
+
+<i>Optional Resource:</i><br/>
+
+<ul>
+    <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapter 4)</a></li>
 </ul>
 </div>
 
