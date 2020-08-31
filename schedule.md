@@ -183,7 +183,7 @@ allowfullscreen></iframe>
 
 ***Optional Materials***:
 - Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049).
-- Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
+- Chris Bail. [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
 
 #### Lab: Visualization  
 <div class="callout callout--info">
@@ -212,7 +212,7 @@ allowfullscreen></iframe>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
 <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
-<li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a> (Princeton: Princeton University Press, 2019), http://socviz.co/ </li>
+<li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></li>
 <li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
 <li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
 </ul>
@@ -235,7 +235,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
-#### The Hidden Influence of Social Networks (Nicholas Christakis)
+#### The Hidden Influence of Social Networks
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/1UoI6YRKo2I" 
@@ -269,6 +269,12 @@ allowfullscreen></iframe>
 <ul>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
 </ul>
+
+<i>Optional Materials:</i><br/>
+<ul>
+  <li><a href = "https://r4ds.had.co.nz/program-intro.html">R for Data Science (Chapters 17-21)</a></li>
+</ul>
+
 
 <!--<i>Required reading:</i> <br/>
 <ul>
