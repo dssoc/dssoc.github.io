@@ -269,7 +269,7 @@ allowfullscreen></iframe>
   <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
 </ul>
 
-<i>Optional Materials:</i><br/>
+<i>Optional Resources:</i><br/>
 <ul>
   <li><a href = "https://r4ds.had.co.nz/program-intro.html">R for Data Science (Chapters 17-21)</a></li>
 </ul>
