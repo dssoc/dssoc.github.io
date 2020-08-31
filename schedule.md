@@ -82,9 +82,9 @@ allowfullscreen></iframe>
 - Matthew Salganik. [**Bit by Bit: Ethics**](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 
 ***Supplemental Materials***:
-- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788), Proceedings of the National Academy of Sciences.
-- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/), the Atlantic.
-- Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be)
+- Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788).
+- Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/).
+- Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be).
 
 #### Lab: R Basics 
 <div class="callout callout--info">
@@ -127,8 +127,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required Reading***:
-- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble), Science.
-- Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130), Science.
+- John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble).
+- Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130).
 
 ***Supplemental Materials***:
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
@@ -179,11 +179,11 @@ allowfullscreen></iframe>
 
 
 ***Required reading***:
-- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216), Proceedings of the National Academy of Sciences.
+- Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216).
 
 ***Supplemental Materials***:
-- Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049), ArXiv.org.
-- Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU)
+- Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049).
+- Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
 
 #### Lab: Visualization  
 <div class="callout callout--info">
@@ -244,12 +244,11 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
-- Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives**](http://connectedthebook.com/pdf/excerpt.pdf), Chapter One.
+- Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives (Chapter One)**](http://connectedthebook.com/pdf/excerpt.pdf).
 
 ***Supplemental Materials***:
-- Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba) Blog post.
-- David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank), 
-American Mathematical Society Feature Column.
+- Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba).
+- David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank).
 
 #### Lab: Programming Basics
 <div class="callout callout--info">
@@ -290,7 +289,7 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 6 - Social Networks & the Economy
+## 6 - Getting a Job
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
 ***How to find a job (and Succeed Once you Get One)*** 
@@ -302,11 +301,11 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
-- Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
+- Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings (Intro and Chapter One)**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470)
 
 ***Supplemental Materials***:
-- Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Carolyn Bentley. [Introduction to Structural Holes Theory](https://medium.com/@agreenmoment/introduction-to-structural-holes-theory-124c51c3ae31#:~:text=Structural%20holes%20exist%20in%20social,relationships%20(Burt%2C%201992).), Sociology of Education.
+- Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1).
+- Carolyn Bentley. [Introduction to Structural Holes Theory](https://medium.com/@agreenmoment/introduction-to-structural-holes-theory-124c51c3ae31#:~:text=Structural%20holes%20exist%20in%20social,relationships%20(Burt%2C%201992).).
 
 
 #### Lab: Coding Social Networks
@@ -358,9 +357,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
-- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/), Blog post.
-
-
+- Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/).
 
 
 #### Lab: Working with APIs
@@ -406,9 +403,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
-- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html), *New York Times*.
-- Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html), *New York Times*.
-- Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0), *Medium* - towardsdatascience.com.
+- Sendhil Mullainathan. [**Biased Algorithms Are Easier to Fix Than Biased People**](https://www.nytimes.com/2019/12/06/business/algorithm-bias-fix.html).
+- Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html).
+- Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0).
 
 ***Supplemental Materials***:
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
@@ -433,7 +430,7 @@ allowfullscreen></iframe>
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
-Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider)
+Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider).
 
 
 #### Lab: Intro to text data
@@ -484,8 +481,8 @@ allowfullscreen></iframe>
 - Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
-- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586)
-- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116)
+- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
+- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
 
 
 #### Lab: Word counts and Dictionaries
@@ -531,7 +528,7 @@ allowfullscreen></iframe>
 
 ***Required Reading***
 
-Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract), Science
+Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
 
 
 ***Supplemental Materials***:
