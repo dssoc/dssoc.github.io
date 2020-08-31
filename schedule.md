@@ -475,7 +475,7 @@ allowfullscreen></iframe>
 
 
 ***Required reading***:
-Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
+- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Supplemental Materials***:
 - Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586)
