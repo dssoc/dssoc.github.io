@@ -210,10 +210,9 @@ allowfullscreen></iframe>
 
 <i>Optional resources:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/data-visualisation.html">Data Visualization & Graphics for Communication (chapters 3 & 28)</a></li>
-<li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
+<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">R for Data Science (chapters 3 & 28)</a></li>
 <li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></li>
-<li><a href = "https://serialmentor.com/dataviz/">Fundamentals of Data Visualization</a></li>
+<li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
 <li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
 </ul>
 
