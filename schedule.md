@@ -24,7 +24,7 @@ page_nav:
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
 
-***Video Lecture***: **Can Data Science Help us Fight COVID-19?**
+***Can Data Science Help us Fight COVID-19?**
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/FmSR-TEXYR8" 
@@ -65,7 +65,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
-***Video Lecture: Ethics at the Frontier of Computational Social Science***:
+***Ethics at the Frontier of Computational Social Science:***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/vwleR-9-788" 
@@ -106,7 +106,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
 
-***Video Lecture: Do our Platforms Drive us Apart?***
+***Do our Platforms Bring us Together or Push us Apart?***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/sfL8PfXV2RY" 
@@ -157,7 +157,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 7-13</font></i></b>
 
-***Video Lecture: Breaking the Echo Chamber***
+***Experimenting on the Echo Chamber***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/nwRm_ssTarE" 
@@ -228,7 +228,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">September 14-20</font></i></b>
 
-***Video Lecture: The Hidden Influence of Social Networks (Nicholas Christakis)*** 
+***The Hidden Influence of Social Networks (Nicholas Christakis)*** 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/1UoI6YRKo2I" 
@@ -287,7 +287,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 6 - Social Networks & the Economy
 <b><i><font color="#E84E4E">September 21-27</font></i></b>
 
-***Video Lecture: How to find a job (and Succeed Once you Get One)*** 
+***How to find a job (and Succeed Once you Get One)*** 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/iccqSLna9YU" 
@@ -343,7 +343,7 @@ For these excercises, you will need the following datasets:<br/>
 <b><i><font color="#E84E4E">September 28-October 4</font></i></b>
 
 
-***Video Lecture: Shoshana Zuboff on Surveillance Capitalism***
+***Shoshana Zuboff on Surveillance Capitalism***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/hIXhnWUmMvw" 
@@ -391,7 +391,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 5-11</font></i></b>
 
-***Video Lecture: Challenging the Algorithms of Oppression (Safiya Noble)***
+***Challenging the Algorithms of Oppression (Safiya Noble)***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/iRVZozEEWlE" 
@@ -508,7 +508,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 11 - Protest and Censorship
 <b><i><font color="#E84E4E">October 26-November 1</font></i></b>
 
-***Video Lecture: Online Social Change (Zeynep Tufekci)*** 
+***Online Social Change (Zeynep Tufekci)*** 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
