@@ -58,6 +58,11 @@ allowfullscreen></iframe>
 <ul>
 <li>Install R and R Studio</li>
 </ul>
+<i>Optional Resource:</i><br/>
+<ul>
+    <li><a href="https://rstudio-education.github.io/hopr/starting.html">Installing RStudio (Windows/Mac)</a></li>
+</ul>
+
 </div>
 
 
