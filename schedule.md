@@ -24,7 +24,7 @@ page_nav:
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
 
-**Can Data Science Help us Fight COVID-19?**
+***How Can Computational Social Science Help us Fight COVID-19?***
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/FmSR-TEXYR8" 
