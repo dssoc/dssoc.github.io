@@ -69,7 +69,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">August 24-30</font></i></b>
 
-***Ethics in Computational Social Science:***
+#### Ethics in Computational Social Science
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/vwleR-9-788" 
