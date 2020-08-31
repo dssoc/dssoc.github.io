@@ -35,7 +35,7 @@ allowfullscreen></iframe>
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
-***Supplemental Materials (If you Want to Learn More)***:
+***Optional Materials***:
 - David Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/).
 - David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
 - Eszter Hargittai. [Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866).
@@ -53,7 +53,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b>Ungraded Assignment</b>(Due by 11:59PM 8/22:)</i> <br/>
+<i><b>Ungraded Assignment </b>(Due by 11:59PM 8/22:)</i> <br/>
 <ul>
 <li>Install R and R Studio</li>
 </ul>
@@ -81,7 +81,7 @@ allowfullscreen></iframe>
 ***Required Reading***:
 - Matthew Salganik. [**Bit by Bit: Ethics**](https://www.bitbybitbook.com/en/1st-ed/ethics/).
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788).
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/).
 - Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be).
@@ -130,7 +130,7 @@ allowfullscreen></iframe>
 - John Bohannon. [**Is Facebook keeping you in a political bubble?**](https://www.sciencemag.org/news/2015/05/facebook-keeping-you-political-bubble).
 - Eytan Bakshy et al. [**Exposure to ideologically diverse news and opinion on Facebook**](https://science-sciencemag-org.proxy.lib.duke.edu/content/348/6239/1130).
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf).
 
@@ -181,7 +181,7 @@ allowfullscreen></iframe>
 ***Required reading***:
 - Chris Bail, et al. [**Exposure to opposing views on social media can increase political polarization**](https://www.pnas.org/content/115/37/9216).
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049).
 - Chris Bail [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
 
@@ -246,7 +246,7 @@ allowfullscreen></iframe>
 ***Required reading***:
 - Nicholas Christakis & James Fowler. [**Connected: The Surprising Power of Our Social Networks and How they Shape Our Lives (Chapter One)**](http://connectedthebook.com/pdf/excerpt.pdf).
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba).
 - David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank).
 
@@ -303,7 +303,7 @@ allowfullscreen></iframe>
 ***Required reading***:
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings (Intro and Chapter One)**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470)
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1).
 - Carolyn Bentley. [Introduction to Structural Holes Theory](https://medium.com/@agreenmoment/introduction-to-structural-holes-theory-124c51c3ae31#:~:text=Structural%20holes%20exist%20in%20social,relationships%20(Burt%2C%201992).).
 
@@ -359,6 +359,9 @@ allowfullscreen></iframe>
 ***Required reading***:
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/).
 
+***Optional Materials***:
+
+
 
 #### Lab: Working with APIs
 <div class="callout callout--info">
@@ -407,7 +410,7 @@ allowfullscreen></iframe>
 - Alisha Haridasani Gupta. [**Are Algorithms Sexist?**](https://www.nytimes.com/2019/11/15/us/apple-card-goldman-sachs.html).
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0).
 
-***Supplemental Materials***:
+***Optional Materials***:
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
 
 #### Modeling (A Brief Introduction)
@@ -430,7 +433,11 @@ allowfullscreen></iframe>
 ***Video Lecture***: [Coming soon!](https://www.youtube.com/channel/UCqvvYami12pj3SYS2JIvzZg)
 
 ***Required reading***:
-Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider).
+-  Amir Goldberg et al. [Fitting In or Standing Out? The Tradeoffs of Structural and Cultural Embeddedness](https://journals-sagepub-com.proxy.lib.duke.edu/doi/full/10.1177/0003122416671873?utm_source=summon&utm_medium=discovery-provider).
+
+***Optional Materials***:
+- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
+
 
 
 #### Lab: Intro to text data
@@ -480,7 +487,7 @@ allowfullscreen></iframe>
 ***Required reading***:
 - Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
-***Supplemental Materials***:
+***Optional Materials***:
 - Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
 - Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
 
@@ -531,10 +538,9 @@ allowfullscreen></iframe>
 Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
 
 
-***Supplemental Materials***:
+***Optional Materials***:
 
 - Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-- Chris Bail [Video: Making Text Networks](https://www.youtube.com/watch?v=-2dBI2ULcQw)
 
 
 
@@ -578,8 +584,7 @@ For these excercises, you will need the following datasets:<br/>
 ***Required reading***:
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
-***Supplemental Materials***:
-- Deborah Estrin. [Lecture on Mobile Health Technology](https://www.youtube.com/watch?v=KvZxGjL25QQ&list=PL9UNgBC7ODr5-UCbOvOD5bEfDtXp6OwnZ&index=6)
+***Optional Materials***:
 
 
 
