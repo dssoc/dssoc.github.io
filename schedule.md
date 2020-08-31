@@ -296,9 +296,9 @@ allowfullscreen></iframe>
 - Charles Kadushin. [**Making Connections: An Introduction to social network concepts and findings**](https://www.amazon.com/Understanding-Social-Networks-Theories-Concepts/dp/0195379470), Oxford: Oxford University Press pgs. 1-26.
 
 ***Supplemental Materials***:
-- Don Merten. [The meaning of meanness: Popularity, competition, and conflict among junior high school girls](https://www.jstor.org/stable/pdf/2673207.pdf?seq=1), Sociology of Education.
 - Mark Granovetter. [The Strength of Weak Ties](https://www.jstor.org/stable/2776392?seq=1). American Journal of Sociology 78(6): 1360-1380.
-- Penelope Eckert. The corporate structure of the school in [Jocks and Burnouts](https://www.amazon.com/Jocks-Burnouts-Social-Categories-Identity/dp/0807729639). Teacher's College Press.
+- Carolyn Bentley. [Introduction to Structural Holes Theory](https://medium.com/@agreenmoment/introduction-to-structural-holes-theory-124c51c3ae31#:~:text=Structural%20holes%20exist%20in%20social,relationships%20(Burt%2C%201992).), Sociology of Education.
+
 
 #### Lab: Coding Social Networks
 <div class="callout callout--info">
