@@ -465,7 +465,14 @@ For these excercises, you will need the following datasets:<br/>
 ## 10 - Misinformation and Trolling
 <b><i><font color="#E84E4E">October 19-25</font></i></b>
 
-***Did Russia's Social Media Campaign Succeed?***: (https://www.youtube.com/embed/J6WI38QvwFI)
+***Did Russia's Social Media Campaign Succeed?***
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/J6WI38QvwFI" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
 
 ***Required reading***:
 Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
