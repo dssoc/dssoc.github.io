@@ -52,7 +52,7 @@ The data that you will be using for this lab can be downloaded from the course w
 ```
 <br/>
 
-**3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see 28.6 in *R for Data Science* or 8.3 of *Data Visualization a Practical Introduction*.**
+**3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see [28.6 in *R for Data Science*](https://r4ds.had.co.nz/graphics-for-communication.html#themes) or 8.3 of *Data Visualization a Practical Introduction*.**
 ```{r}
 # your answer here
 ```
