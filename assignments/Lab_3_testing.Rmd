@@ -43,6 +43,7 @@ load('data/artist_meta.Rdata')
 **1. Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with any pop genre (e.g. a genre that has the word "pop" in it). The labels for this factor variable should be 'pop' and 'not pop'.**
 ```{r}
 artist_meta <- artist_meta %>% 
+  mutate(popularity=as.numeric(popularity)) %>% 
   mutate(is_pop = as.factor(ifelse(grepl('pop', as.character(genre), fixed=TRUE), 'pop', 'not pop')))
 
 ```
