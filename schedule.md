@@ -435,10 +435,10 @@ allowfullscreen></iframe>
 ## 9 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">October 12-18</font></i></b>
 
-#### Using Google to Track Radicalization
+#### Using Google Search to Track Radicalization
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/iRVZozEEWlE" 
+src="https://www.youtube.com/embed/-XH_cF2S72g" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
