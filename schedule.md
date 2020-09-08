@@ -427,6 +427,13 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Wapo_Opioid_Data.Rdata">Wapo_Opioid_Data.Rdata</a></li>
+</ul>
+
 <i>Required reading:</i> <br/>
 </div>
 
