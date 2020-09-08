@@ -431,7 +431,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Wapo_Opioid_Data.Rdata">Wapo_Opioid_Data.Rdata</a></li>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
 </ul>
 
 <i>Required reading:</i> <br/>
