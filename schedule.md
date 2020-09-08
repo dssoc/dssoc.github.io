@@ -15,9 +15,6 @@ page_nav:
     prev:
         content: Course Description
         url: '/course'
-    next:
-        content: References
-        url: '/references'
 ---
 
 ## 1 - Introduction
