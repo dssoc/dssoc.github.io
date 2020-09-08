@@ -43,9 +43,4 @@ grid_navigation:
       excerpt: Fall 2020
       cta: 
       url: '/schedule'
-      
-    - title: References
-      excerpt: Readings and tutorials
-      cta: 
-      url: '/references'
 ---
