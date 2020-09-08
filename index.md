@@ -24,9 +24,9 @@ buttons:
 
 # Author box
 author: 
-    title: Chris Bail
+    title: <a href="https://www.chrisbail.net/">Chris Bail</a>
     title_url: ''
-    description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> https://www.chrisbail.net/ 
+    description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
 
 
 # Micro navigation
