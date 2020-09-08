@@ -381,7 +381,9 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file (<a href="https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_4.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.</p>
+<p>In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file (<a href="https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_4.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack. Be sure to do the required reading!</p>
+<p><strong>Required reading:</strong> <a href="https://r4ds.had.co.nz/program-intro.html">R for Data Science: Basic Programming (17 -21)</a>.</p>
+<p><strong>Optional reading:</strong> <a href="https://rstudio.cloud/learn/primers/6">More on functions</a>.</p>
 <div id="required-datasets" class="section level3">
 <h3>Required Datasets</h3>
 <p>The tables that you will be drawing on for this lab can be downloaded from the course website:</p>
@@ -421,20 +423,11 @@ summary {
 <p><strong>7. Now, using the <code>nominees</code> table, write code to calculate the percent of nominations that have only one performer. For this, you might want to consider using the <code>is.na()</code> function that you learned about in your reading.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. As in the previous lab, below I define two vectors summarizing the presidential candidates who participated in the first and seventh democratic debates. Run this code to create the vectors yourself.</strong></p>
-<pre class="r"><code>first_debate &lt;- c(&#39;Michael Bennet&#39;,&#39;Joe Biden&#39;,&#39;Pete Buttigieg&#39;,&#39;John Delaney&#39;,
-                  &#39;Tulsi Gabbard&#39;,&#39;Amy Klobuchar&#39;,
-                  &#39;Bernie Sanders&#39;, &#39;Elizabeth Warren&#39;, &#39;Andrew Yang&#39;, 
-                  &#39;Cory Booker&#39;, &#39;Marianne Williamson&#39;,
-                  &#39;Julian Castro&#39;, &#39;Kamala Harris&#39;, &#39;Beto ORourke&#39;, 
-                  &#39;Tim Ryan&#39;, &#39;Bill de Blasio&#39;, 
-                  &#39;Kirsten Gillibrand&#39;, &#39;Jay Inslee&#39;, 
-                  &#39;John Hickenlooper&#39;, &#39;Eric Swalwell&#39;)
+<p><strong>8. As in one of the previous labs, below I define two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>). Run this code to create the vectors yourself.</strong></p>
+<pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
 
-seventh_debate &lt;- c(&#39;Joe Biden&#39;,&#39;Pete Buttigieg&#39;,&#39;Amy Klobuchar&#39;,
-                    &#39;Bernie Sanders&#39;, &#39;Elizabeth Warren&#39;, 
-                    &#39;Tom Steyer&#39;)</code></pre>
-<p><strong>Iterate over the candidates in the first debate, and print “[name of candidate] dropped out” if they do not appear in the seventh debate.</strong></p>
+require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
+<p><strong>Iterate over the states which issued travel restrictions, and print “[state abbreviation] issued travel restrictions but didn’t require masks” if they did not require masks.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>9. Change one element or step in your answer to Exercise 8 to provide an alternative way of completing the exercise. For instance, if you did not use a for loop in your first attempt, perhaps use one now. If you did use a for loop in your first attempt, perhaps consider using <code>paste()</code> and <code>setdiff()</code> instead.</strong></p>
