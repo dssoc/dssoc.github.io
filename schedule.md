@@ -336,7 +336,6 @@ allowfullscreen></iframe>
 <ul>
   <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li>
 </ul>
-<br/>
 
 <i>Optional resources:</i><br/>
 <ul>
