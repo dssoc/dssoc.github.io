@@ -82,23 +82,14 @@ sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 ```
 <br/>
 
-**8. As in the previous lab, below I define two vectors summarizing the presidential candidates who participated in the first and seventh democratic debates. Run this code to create the vectors yourself.**
+**8. As in one of the previous labs, below I define two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)). Run this code to create the vectors yourself.**
 ```{r}
-first_debate <- c('Michael Bennet','Joe Biden','Pete Buttigieg','John Delaney',
-                  'Tulsi Gabbard','Amy Klobuchar',
-                  'Bernie Sanders', 'Elizabeth Warren', 'Andrew Yang', 
-                  'Cory Booker', 'Marianne Williamson',
-                  'Julian Castro', 'Kamala Harris', 'Beto ORourke', 
-                  'Tim Ryan', 'Bill de Blasio', 
-                  'Kirsten Gillibrand', 'Jay Inslee', 
-                  'John Hickenlooper', 'Eric Swalwell')
+travel_restrictions <- c("WA", "OR", "NV", "CA", "NM", "MN", "IL", "OH", "MI", "PA", "VA", "NY", "MA", "VH", "ME", "DE", "MD", "NJ")
 
-seventh_debate <- c('Joe Biden','Pete Buttigieg','Amy Klobuchar',
-                    'Bernie Sanders', 'Elizabeth Warren', 
-                    'Tom Steyer')
+require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "MN", "AR", "LA", "WI", "IL", "AL", "MI", "IN", "OH", "KY", "WV", "NC", "VA", "DC", "DE", "PA", "NY", "VT", "NH", "MA", "RI", "CT", "ME")
 ```
 
-**Iterate over the candidates in the first debate, and print "[name of candidate] dropped out" if they do not appear in the seventh debate.**
+**Iterate over the states which issued travel restrictions, and print "[state abbreviation] issued travel restrictions but didn't require masks" if they did not require masks.**
 ```{r}
 # your answer here
 ```
