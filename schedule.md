@@ -15,9 +15,6 @@ page_nav:
     prev:
         content: Course Description
         url: '/course'
-    next:
-        content: References
-        url: '/references'
 ---
 
 ## 1 - Introduction
@@ -427,6 +424,13 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
+</ul>
+
 <i>Required reading:</i> <br/>
 </div>
 
@@ -610,6 +614,8 @@ src="https://www.youtube.com/embed/K1QdcblKR1M"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
+
+No graded assignment this week-- apply communication or collaboration skills to your final project instead.
 
 </div>
 

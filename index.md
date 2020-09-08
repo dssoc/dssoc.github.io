@@ -9,7 +9,7 @@ description:
 
 buttons:
     - content:
-      url: 'https://DSS_fall_2020.slack.com'
+      url: 'https://dssfall2020workspace.slack.com'
       external_url: true
       icon: slack
     - content:
@@ -24,9 +24,9 @@ buttons:
 
 # Author box
 author: 
-    title: Chris Bail
+    title: <a href="https://www.chrisbail.net/">Chris Bail</a>
     title_url: ''
-    description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> https://www.chrisbail.net/ 
+    description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
 
 
 # Micro navigation
@@ -43,9 +43,4 @@ grid_navigation:
       excerpt: Fall 2020
       cta: 
       url: '/schedule'
-      
-    - title: References
-      excerpt: Readings and tutorials
-      cta: 
-      url: '/references'
 ---
