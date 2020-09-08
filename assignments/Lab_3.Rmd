@@ -101,7 +101,7 @@ The data that you will be using for this lab can be downloaded from the course w
 ```
 <br/>
 
-**11. Provide three social science research questions that you would be interested in exploring for the group project. There are no right answers here. We just want to get a sense of interests.**
+**11. Provide three social science research questions that you would be interested in exploring for your final project. There are no right answers here. We just want to get a sense of interests.**
 ```{r}
 # your answer here
 ```
