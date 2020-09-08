@@ -1,0 +1,39 @@
+---
+title: "Lab #5: Basics of Social Network Analysis"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+
+In this lab, we will practice the fundamentals of social network analysis. Edit the Lab #4 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_5.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack. Be sure to do the required reading!
+
+**Required reading:** [R for Data Science: Basic Programming (17 -21)](https://r4ds.had.co.nz/program-intro.html).
+
+**Optional reading:** [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/).
+
+
+### Required Datasets
+
+The network data that you will be drawing on for this lab can be downloaded from the course website: 
+
+(1) `dnc_canidates_flw_el`: [dnc_canidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+
+(2) `dnc_canidates_flw_am`: [dnc_canidates_flw_am.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
+
+
+**Load the datasets:**
+```{r}
+#library(tidyverse)
+#load('dnc_canidates_flw_el.Rdata')
+#load('dnc_canidates_flw_am.Rdata')
+```
+<br/><br/>
+
+
+
+
+
+
+
+
