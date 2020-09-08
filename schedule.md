@@ -611,6 +611,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+No graded assignment this week-- apply communication or collaboration skills to your final project instead.
+
 </div>
 
 
