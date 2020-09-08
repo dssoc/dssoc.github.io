@@ -321,6 +321,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
+
+<br/>
 
 <i>Materials from Video:</i><br/>
 <ul>
@@ -331,13 +334,10 @@ allowfullscreen></iframe>
 
 <i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>
-<i>Assignmen (Due by 11:59PM 10/26)t:</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
-<code>Lab 5 Exercises - Basics of Social Networks</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab5_SocialNetworks.html">.html</a>)<br/><br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_candidates_flw_am.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a><br/>
+  <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li>
+</ul>
 <br/>
+
 <i>Optional resources:</i><br/>
 <ul>
   <li><code><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></code></li>
