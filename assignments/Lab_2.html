@@ -398,13 +398,42 @@ summary {
 </ol>
 <p>In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: <a href="https://r4ds.had.co.nz/wrangle-intro.html" class="uri">https://r4ds.had.co.nz/wrangle-intro.html</a> <br></p>
 <p><strong>Load the datasets described above. Hint: see the <code>load()</code> function.</strong></p>
-<pre class="r"><code># Load the datasets &amp; packages</code></pre>
+<pre class="r"><code># Load the datasets &amp; packages
+library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages ------------------------------------------------------------------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
+## v tibble  3.0.1     v dplyr   1.0.0
+## v tidyr   1.1.0     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.5.0</code></pre>
+<pre><code>## -- Conflicts ---------------------------------------------------------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>load(&quot;../datasets/grammy_nominees_20102020.Rdata&quot;)
+load(&quot;../datasets/grammy_winners_20102020.Rdata&quot;)
+load(&quot;../datasets/artist_wikipedia.Rdata&quot;)</code></pre>
 <p><br /></p>
 </div>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
 <p><strong>1. Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the <code>nominees</code> table.</strong></p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+winners_long &lt;- winners %&gt;% 
+  pivot_longer(record_oty:new_artist_oty, names_to = &quot;award&quot;, values_to = &quot;performer&quot;)
+print(winners_long)</code></pre>
+<pre><code>## # A tibble: 44 x 3
+##     year award          performer      
+##    &lt;dbl&gt; &lt;chr&gt;          &lt;chr&gt;          
+##  1  2010 record_oty     Kings of Leon  
+##  2  2010 album_oty      Taylor Swift   
+##  3  2010 song_oty       Beyonce        
+##  4  2010 new_artist_oty Zac Brown Band 
+##  5  2011 record_oty     Lady Antebellum
+##  6  2011 album_oty      Arcade Fire    
+##  7  2011 song_oty       Lady Antebellum
+##  8  2011 new_artist_oty Lady Gaga      
+##  9  2012 record_oty     Adele          
+## 10  2012 album_oty      Adele          
+## # ... with 34 more rows</code></pre>
 <p><br /></p>
 <p><strong>2. Sometimes the table is quite large, or you are only interested in a portion of it. Show how you would view only the <code>performer1</code> and <code>year</code> columns of the <code>nominees</code> table.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
@@ -419,7 +448,32 @@ summary {
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. Now, using the <code>nominees</code> table, generate a new table that has only two colums–one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table <code>nominee_nominations</code>. As a tip, if you use the <code>group_by()</code> command to make you new table, you will likely also want to use the <code>ungroup()</code> command. The reason for this is that grouped objects can make future analyses tricky.</strong></p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+nominee_nominations &lt;- nominees %&gt;% 
+  pivot_longer(c(performer1, performer2, performer3, performer4), names_to = &quot;performer_type&quot;, values_to = &quot;performer&quot;) %&gt;% 
+  replace_na(list(record_oty = 0, album_oty = 0, song_oty = 0, new_artist_oty = 0)) %&gt;% 
+  mutate(noms = album_oty + song_oty + new_artist_oty + record_oty) %&gt;%  
+  drop_na(performer) %&gt;% 
+  select(performer, noms) %&gt;% 
+  group_by(performer) %&gt;% 
+  summarize(noms=sum(noms)) %&gt;% 
+  ungroup()</code></pre>
+<pre><code>## `summarise()` ungrouping output (override with `.groups` argument)</code></pre>
+<pre class="r"><code>print(nominee_nominations)</code></pre>
+<pre><code>## # A tibble: 142 x 2
+##    performer       noms
+##    &lt;chr&gt;          &lt;dbl&gt;
+##  1 21 Savage          2
+##  2 Adele              6
+##  3 Alabama Shakes     2
+##  4 Alessia Cara       2
+##  5 Alicia Keys        1
+##  6 Anderson Paak      1
+##  7 Arcade Fire        1
+##  8 Ariana Grande      2
+##  9 B.o.B.             1
+## 10 Bad Bunny          2
+## # ... with 132 more rows</code></pre>
 <p><br /></p>
 <p><strong>7. Add the wikipedia link for each performer to the the <code>nominee_nominations</code> table:</strong></p>
 <pre class="r"><code># your answer here</code></pre>

@@ -32,6 +32,10 @@ In future assignments, we will use these datasets to collect data from Spotify. 
 
 ```{r}
 # Load the datasets & packages
+library(tidyverse)
+load("../datasets/grammy_nominees_20102020.Rdata")
+load("../datasets/grammy_winners_20102020.Rdata")
+load("../datasets/artist_wikipedia.Rdata")
 ```
 <br/>
 
@@ -41,6 +45,9 @@ In future assignments, we will use these datasets to collect data from Spotify. 
 
 ```{r}
 # your answer here
+winners_long <- winners %>% 
+  pivot_longer(record_oty:new_artist_oty, names_to = "award", values_to = "performer")
+print(winners_long)
 ```
 <br/>
 
@@ -75,6 +82,16 @@ In future assignments, we will use these datasets to collect data from Spotify. 
 **6. Now, using the `nominees` table, generate a new table that has only two colums--one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table `nominee_nominations`. As a tip, if you use the `group_by()` command to make you new table, you will likely also want to use the `ungroup()` command. The reason for this is that grouped objects can make future analyses tricky.**
 ```{r}
 # your answer here
+nominee_nominations <- nominees %>% 
+  pivot_longer(c(performer1, performer2, performer3, performer4), names_to = "performer_type", values_to = "performer") %>% 
+  replace_na(list(record_oty = 0, album_oty = 0, song_oty = 0, new_artist_oty = 0)) %>% 
+  mutate(noms = album_oty + song_oty + new_artist_oty + record_oty) %>%  
+  drop_na(performer) %>% 
+  select(performer, noms) %>% 
+  group_by(performer) %>% 
+  summarize(noms=sum(noms)) %>% 
+  ungroup()
+print(nominee_nominations)
 ```
 <br/>
 
