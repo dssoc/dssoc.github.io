@@ -41,6 +41,8 @@ The data that you will be using for this lab can be downloaded from the course w
 <br/>
 
 **1. Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be 'pop' and 'not pop'.**
+
+**Also notice one additional issue with the data that might cause issues later on: the `popularity` column is an integer list of size one. Consider using the `mutate` function with the `is.numeric` function to coerce the data into the type you need (see section 20.4.1 of *R for Data Science* to learn more).**
 ```{r}
 # your answer here
 ```
