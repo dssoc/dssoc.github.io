@@ -201,7 +201,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/apple_mobility_data.csv" download="apple_mobility_data.csv">Download Apple Mobility .csv File</a> (To download, right-click link and choose "save link as".)</li>
+  <li><a href = "/raw/master/datasets/apple_mobility_data.csv"  download>Download Apple Mobility .csv File</a> (To download, right-click link and choose "save link as".)</li>
 </ul>
 
 
