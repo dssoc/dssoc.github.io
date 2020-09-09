@@ -30,8 +30,8 @@ The exercises in this lab correspond with R for Data Science, [chapters 17 - 21]
 Load the libraries and datasets:
 ```{r}
 #library(tidyverse)
-#load('nominees_20102020.Rdata')
-#load('winners_20102020.Rdata')
+#load('grammy_nominees_20102020.Rdata')
+#load('grammy_winners_20102020.Rdata')
 ```
 <br/><br/>
 
