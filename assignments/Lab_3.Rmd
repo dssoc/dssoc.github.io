@@ -34,6 +34,9 @@ The data that you will be using for this lab can be downloaded from the course w
 ```{r}
 #library(tidyverse)
 #load('artist_meta.Rdata')
+library(tidyverse)
+load('../datasets/artist_meta.Rdata')
+print(artist_meta)
 ```
 <br/><br/>
 
@@ -45,36 +48,57 @@ The data that you will be using for this lab can be downloaded from the course w
 **Also notice one additional issue with the data that might cause issues later on: the `popularity` column is an integer list of size one. Consider using the `mutate` function with the `is.numeric` function to coerce the data into the type you need (see section 20.4.1 of *R for Data Science* to learn more).**
 ```{r}
 # your answer here
+artist_meta <- artist_meta %>% 
+  mutate(popularity=as.numeric(popularity)) %>% 
+  mutate(is_pop = as.factor(ifelse(grepl('pop', as.character(genre), fixed=TRUE), 'pop', 'not pop')))
+print(artist_meta)
 ```
 <br/>
 
 **2. Using the `artist_meta` table, make a scatterplot of `followers` vs `popularity`.**
 ```{r}
 # your answer here
+artist_meta %>% ggplot(aes(followers, y=popularity)) + 
+  geom_point()
 ```
 <br/>
 
 **3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see [28.6 in *R for Data Science*](https://r4ds.had.co.nz/graphics-for-communication.html#themes) or 8.3 of *Data Visualization a Practical Introduction*.**
 ```{r}
 # your answer here
+artist_meta %>% ggplot(aes(followers, y=popularity)) + 
+  geom_point() + 
+  labs(x= 'Number of followers', y='Popularity score')
 ```
 <br/>
 
 **4. Now, color your scatter plot points according to whether the artists are associated with a pop genre.**
 ```{r}
 # your answer here
+artist_meta %>% ggplot(aes(followers, y=popularity)) + 
+  geom_point(aes(colour = is_pop)) + 
+  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?')
 ```
 <br/>
 
 **5. Change the colors in the plot created for Exercise 4 to something that you think looks better. Note: for this, you may want to use a `scale_color_manual()` layer in your plot.**
 ```{r}
 # your answer here
+artist_meta %>% ggplot(aes(followers, y=popularity)) + 
+  geom_point(aes(colour = is_pop)) + 
+  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?') + 
+  scale_color_manual(values=c("#999999", "#E69F00"))
 ```
 <br/>
 
 **6. Select *and* implement an appropriate visualization to describe the relationship between `pop` and  `popularity`. Justify your choice of chart (i.e. why did you choose this chart type and not another), and describe how you would improve your chart, given more time.**
 ```{r}
 # your answer here
+artist_meta %>% ggplot(aes(followers, y=popularity)) + 
+  geom_point(aes(colour = is_pop)) + 
+  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?') + 
+  scale_color_manual(values=c("#999999", "#E69F00")) + 
+  geom_smooth(method='glm', formula = y ~ x + x**2)
 ```
 <br/>
 
