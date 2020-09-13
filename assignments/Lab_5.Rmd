@@ -24,9 +24,11 @@ The network data that you will be drawing on for this lab can be downloaded from
 
 **Load the datasets:**
 ```{r}
-#library(tidyverse)
-#load('dnc_canidates_flw_el.Rdata')
-#load('dnc_canidates_flw_am.Rdata')
+library(igraph)
+library(ggraph)
+library(tidyverse)
+load('../datasets/dnc_candidates_flw_am.Rdata')
+load('../datasets/dnc_candidates_flw_el.Rdata')
 ```
 <br/><br/>
 
@@ -49,21 +51,25 @@ The network data that you will be drawing on for this lab can be downloaded from
 ```
 <br/>
 
-**3. Does the `dnc_candidates_flw_am` adjacency matrix contain one- or two-mode network information? What about the `dnc_candidates_flw_am` edgelist?**
+**3. Does the `candidates_flw_am` adjacency matrix contain one- or two-mode network information? What about the `candidates_flw_el` edgelist?**
 ```{r}
 # Yor answer here or in text.
 ```
 <br/>
 
 
-**4. Using the `dnc_candidates_flw_am.Rdata` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).**
+**4. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object using the `igraph` package. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). NOTE: you may need to use `as.matrix` to convert the adjacency dataframe before creating the network. Call this new network `dems_net_adj`.**
 ```{r}
 # Yor answer here or in text.
+g <- graph_from_adjacency_matrix(adjmatrix=as.matrix(candidates_flw_am), weighted=TRUE, mode='undirected')
+edge_attr(g)
+V(g)
+E(g)
 ```
 <br/>
 
 
-**5. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
+**5. Describe *three* different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
 ```{r}
 # Your answer here
 ```
@@ -77,7 +83,7 @@ The network data that you will be drawing on for this lab can be downloaded from
 <br/>
 
 
-**7. Make a visual of your graph object, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.**
+**7. Make a visual of your graph object using `ggraph`, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.**
 ```{r}
 # Yor answer here or in text.
 ```
@@ -91,7 +97,7 @@ The network data that you will be drawing on for this lab can be downloaded from
 <br/>
 
 
-**9. If you did not do so for Exercise 8, demonstrate how you would turn the `dnc_candidates_flw_el` edgelist into a graph object.**
+**9. If you did not do so for Exercise 8, demonstrate how you would turn the `candidates_flw_el` edgelist into a graph object.**
 ```{r}
 # Yor answer here or in text.
 ```
