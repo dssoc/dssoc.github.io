@@ -431,7 +431,7 @@ print(artist_meta)</code></pre>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
 <p><br /></p>
-<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’.</strong></p>
+<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’. Note that any genre that includes the word “pop” should be considered as pop.</strong></p>
 <p><strong>Also notice one additional issue with the data that might cause issues later on: the <code>popularity</code> column is an integer list of size one. Consider using the <code>mutate</code> function with the <code>is.numeric</code> function to coerce the data into the type you need (see section 20.4.1 of <em>R for Data Science</em> to learn more).</strong></p>
 <pre class="r"><code># your answer here
 artist_meta &lt;- artist_meta %&gt;% 

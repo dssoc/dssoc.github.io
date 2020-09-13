@@ -38,7 +38,7 @@ load('../datasets/grammy_winners_20102020.Rdata')
 ### Exercises
 <br/>
 
-**1. In your own words, describe what Boolean operators are, and provide one example of how you might use them in a data science project.**
+**1. In your own words, describe what Boolean operators (also called Logical operators) are, and provide one example of how you might use them in a data science project.**
 ```{r}
 # your answer here
 ```
@@ -56,7 +56,7 @@ load('../datasets/grammy_winners_20102020.Rdata')
 ```
 <br/>
 
-**4. Write a function that takes a character vector as data and returns the first letter in each element. To show that it works, test it on the character vector below.**
+**4. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector `sentence` defined below.**
 ```{r}
 sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 # your answer here
