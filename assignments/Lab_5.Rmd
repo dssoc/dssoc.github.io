@@ -29,11 +29,6 @@ The network data that you will be drawing on for this lab can be downloaded from
 #library(tidyverse)
 #load('../datasets/dnc_candidates_flw_am.Rdata')
 #load('../datasets/dnc_candidates_flw_el.Rdata')
-library(igraph)
-library(ggraph)
-library(tidyverse)
-load('../datasets/dnc_candidates_flw_am.Rdata')
-load('../datasets/dnc_candidates_flw_el.Rdata')
 ```
 <br/><br/>
 
@@ -97,3 +92,6 @@ load('../datasets/dnc_candidates_flw_el.Rdata')
 ```{r}
 # your answer here
 ```
+
+
+
