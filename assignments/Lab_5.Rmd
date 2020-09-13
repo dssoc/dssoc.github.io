@@ -29,6 +29,11 @@ The network data that you will be drawing on for this lab can be downloaded from
 #library(tidyverse)
 #load('../datasets/dnc_candidates_flw_am.Rdata')
 #load('../datasets/dnc_candidates_flw_el.Rdata')
+library(igraph)
+library(ggraph)
+library(tidyverse)
+load('../datasets/dnc_candidates_flw_am.Rdata')
+load('../datasets/dnc_candidates_flw_el.Rdata')
 ```
 <br/><br/>
 
@@ -64,6 +69,9 @@ The network data that you will be drawing on for this lab can be downloaded from
 **5. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).**
 ```{r}
 # Yor answer here or in text.
+g <- graph_from_adjacency_matrix(adjmatrix=as.matrix(candidates_flw_am), weighted=TRUE, mode='undirected')
+g
+edge_attr(g)
 ```
 <br/>
 
@@ -71,6 +79,7 @@ The network data that you will be drawing on for this lab can be downloaded from
 **6. Using the graph object that you created, indicate which candidate has the highest betweenness centrality, taking into account edge weight. If you had to write this finding in a research paper, how would you describe its meaning to a social science audience?**
 ```{r}
 # Yor answer here or in text.
+betweenness(g)
 ```
 <br/>
 
@@ -78,12 +87,20 @@ The network data that you will be drawing on for this lab can be downloaded from
 **7. Make a visual of your graph object using `ggraph`, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.**
 ```{r}
 # Yor answer here or in text.
+E(g)$weights
+ggraph(g, layout='kk') + 
+  geom_node_point() + 
+  geom_edge_link(aes(width=weight, alpha=0.05)) +
+  #geom_edge_density(aes(fill=weight)) + 
+  geom_node_text(aes(label=name))
 ```
 <br/>
 
-**8. Now we turn our attention to two-mode networks. Create an igraph object from the `candidates_flw_el` edgelist, and calculate the degree for each candidate.**
+**8. Now we turn our attention to two-mode networks. Create an igraph object from the `candidates_flw_el` edgelist, and calculate the degree ONLY for each candidate (not their followers).**
 ```{r}
 # Yor answer here or in text.
+g2 <- graph_from_data_frame(candidates_flw_el)
+degree(g2, v=unique(candidates_flw_el$candidate))
 ```
 <br/>
 
