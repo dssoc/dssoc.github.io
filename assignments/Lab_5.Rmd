@@ -17,13 +17,18 @@ In this lab, we will practice the fundamentals of social network analysis. Edit 
 
 The network data that you will be drawing on for this lab can be downloaded from the course website: 
 
-(1) `dnc_canidates_flw_el`: [dnc_canidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+(1) `canidates_flw_el`: [dnc_canidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
 
-(2) `dnc_canidates_flw_am`: [dnc_canidates_flw_am.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
+(2) `canidates_flw_am`: [dnc_canidates_flw_am.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
 
 
 **Load the datasets:**
 ```{r}
+#library(igraph)
+#library(ggraph)
+#library(tidyverse)
+#load('../datasets/dnc_candidates_flw_am.Rdata')
+#load('../datasets/dnc_candidates_flw_el.Rdata')
 library(igraph)
 library(ggraph)
 library(tidyverse)
@@ -31,9 +36,6 @@ load('../datasets/dnc_candidates_flw_am.Rdata')
 load('../datasets/dnc_candidates_flw_el.Rdata')
 ```
 <br/><br/>
-
-
-
 
 ### Exercises
 <br/>
@@ -57,21 +59,16 @@ load('../datasets/dnc_candidates_flw_el.Rdata')
 ```
 <br/>
 
-
-**4. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object using the `igraph` package. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). NOTE: you may need to use `as.matrix` to convert the adjacency dataframe before creating the network. Call this new network `dems_net_adj`.**
+**4. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
 ```{r}
-# Yor answer here or in text.
-g <- graph_from_adjacency_matrix(adjmatrix=as.matrix(candidates_flw_am), weighted=TRUE, mode='undirected')
-edge_attr(g)
-V(g)
-E(g)
+# Your answer here
 ```
 <br/>
 
 
-**5. Describe *three* different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
+**5. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).**
 ```{r}
-# Your answer here
+# Yor answer here or in text.
 ```
 <br/>
 
@@ -89,25 +86,14 @@ E(g)
 ```
 <br/>
 
-
-**8. Using the `dnc_candidates_flw_el` edgelist, calculate the degree for each candidate.**
+**8. Now we turn our attention to two-mode networks. Create an igraph object from the `candidates_flw_el` edgelist, and calculate the degree for each candidate.**
 ```{r}
 # Yor answer here or in text.
 ```
 <br/>
 
 
-**9. If you did not do so for Exercise 8, demonstrate how you would turn the `candidates_flw_el` edgelist into a graph object.**
-```{r}
-# Yor answer here or in text.
-```
-<br/>
-
-
-**10. In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).**
+**9. In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).**
 ```{r}
 # your answer here
 ```
-
-
-
