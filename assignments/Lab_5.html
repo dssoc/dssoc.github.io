@@ -388,13 +388,15 @@ summary {
 <h3>Required Datasets</h3>
 <p>The network data that you will be drawing on for this lab can be downloaded from the course website:</p>
 <ol style="list-style-type: decimal">
-<li><p><code>dnc_canidates_flw_el</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_canidates_flw_el.Rdata</a> is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.</p></li>
-<li><p><code>dnc_canidates_flw_am</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_canidates_flw_am.Rdata</a> is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.</p></li>
+<li><p><code>canidates_flw_el</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_canidates_flw_el.Rdata</a> is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.</p></li>
+<li><p><code>canidates_flw_am</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata">dnc_canidates_flw_am.Rdata</a> is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.</p></li>
 </ol>
 <p><strong>Load the datasets:</strong></p>
-<pre class="r"><code>#library(tidyverse)
-#load(&#39;dnc_canidates_flw_el.Rdata&#39;)
-#load(&#39;dnc_canidates_flw_am.Rdata&#39;)</code></pre>
+<pre class="r"><code>#library(igraph)
+#library(ggraph)
+#library(tidyverse)
+#load(&#39;../datasets/dnc_candidates_flw_am.Rdata&#39;)
+#load(&#39;../datasets/dnc_candidates_flw_el.Rdata&#39;)</code></pre>
 <p><br /><br /></p>
 </div>
 <div id="exercises" class="section level3">
@@ -406,28 +408,25 @@ summary {
 <p><strong>2. You also learned about one- and two-mode networks. Describe the difference.</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
-<p><strong>3. Does the <code>dnc_candidates_flw_am</code> adjacency matrix contain one- or two-mode network information? What about the <code>dnc_candidates_flw_am</code> edgelist?</strong></p>
+<p><strong>3. Does the <code>candidates_flw_am</code> adjacency matrix contain one- or two-mode network information? What about the <code>candidates_flw_el</code> edgelist?</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
-<p><strong>4. Using the <code>dnc_candidates_flw_am.Rdata</code> adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).</strong></p>
-<pre class="r"><code># Yor answer here or in text.</code></pre>
-<p><br /></p>
-<p><strong>5. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.</strong></p>
+<p><strong>4. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>5. Using the <code>candidates_flw_am</code> adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).</strong></p>
+<pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
 <p><strong>6. Using the graph object that you created, indicate which candidate has the highest betweenness centrality, taking into account edge weight. If you had to write this finding in a research paper, how would you describe its meaning to a social science audience?</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
-<p><strong>7. Make a visual of your graph object, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.</strong></p>
+<p><strong>7. Make a visual of your graph object using <code>ggraph</code>, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
-<p><strong>8. Using the <code>dnc_candidates_flw_el</code> edgelist, calculate the degree for each candidate.</strong></p>
+<p><strong>8. Now we turn our attention to two-mode networks. Create an igraph object from the <code>candidates_flw_el</code> edgelist, and calculate the degree for each candidate.</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
-<p><strong>9. If you did not do so for Exercise 8, demonstrate how you would turn the <code>dnc_candidates_flw_el</code> edgelist into a graph object.</strong></p>
-<pre class="r"><code># Yor answer here or in text.</code></pre>
-<p><br /></p>
-<p><strong>10. In last week’s lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).</strong></p>
+<p><strong>9. In last week’s lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 
