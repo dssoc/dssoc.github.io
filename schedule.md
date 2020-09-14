@@ -204,10 +204,13 @@ allowfullscreen></iframe>
   <li><a href = "/datasets/apple_mobility_data.csv"  download>Download Apple Mobility .csv File</a> (You may need to right-click link and choose "save link as".)</li>
 </ul>
 
+<i>Required resources:</i> <br/>
+<ul>
+<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">R for Data Science (chapters 3 & 28)</a></li>
+</ul>
 
 <i>Optional resources:</i> <br/>
 <ul>
-<li><a href = "https://r4ds.had.co.nz/data-visualisation.html">R for Data Science (chapters 3 & 28)</a></li>
 <li>Kieran Healy. <a href = "http://socviz.co/">Data Visualization: A Practical Introduction</a></li>
 <li><a href = "https://rstudio.cloud/learn/primers/3"> RStudio Cloud intro</a></li>
 <li><a href = "https://www.r-graph-gallery.com/">The R Graph Gallery</a></li>
@@ -334,13 +337,16 @@ allowfullscreen></iframe>
 
 <i>Required reading:</i> <br/>
 <ul>
-  <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li>
+  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
+  <li><a href = "https://kateto.net/networks-r-igraph">Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
+Katya Ognyanova</a></li>
 </ul>
+
+
 
 <i>Optional resources:</i><br/>
 <ul>
   <li><code><a href = "https://www.data-imaginist.com/2017/introducing-tidygraph/"> tidygraph</a></code></li>
-  <li><b><a href = "https://www.jessesadler.com/post/network-analysis-with-r/"> Intro to Network Analysis with R,</a></b> by Jesse Sadle</li>
 </ul>
 </div>
 
