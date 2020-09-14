@@ -106,7 +106,7 @@ allowfullscreen></iframe>
 <i>Optional Resource:</i><br/>
 
 <ul>
-    <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapter 4)</a></li>
+    <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapters 4, 5, 10)</a></li>
 </ul>
 </div>
 
