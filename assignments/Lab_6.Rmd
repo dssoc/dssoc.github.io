@@ -29,7 +29,7 @@ We will use the following datasets for the exercises.
 ```{r}
 library(tidyverse)
 library(rtweet)
-#load('../datasets/Senator_Profiles.Rdata')
+load('../datasets/Senator_Profiles.Rdata')
 ```
 <br/><br/>
 
@@ -42,7 +42,7 @@ Follow these two steps to set up your program for exercise.
 If you don't already have one, you will need to create a new account. Instructions for extracting the api key can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html).
 
 #### 2. Store your credentials.
-Copy and paste the text below into a new json file called `api_credentials.json`. From the instructions in Step 1 we can see how to extract the api key, api secret key, access token, and access token secrets - replace the approprate keys for each of these values.
+Copy and paste the json below into a new json file named `api_credentials.json`. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save.
 
 ```
 {
@@ -93,18 +93,87 @@ lim[, 1:4]
 <br/>
 
 
-**3. Use the API to augment `senator_data` with additional data from the Twitter platform. To do this, you will need to request information about each senator (use the `screen_name` column to get their Twitter handles), and then join (see `left_join`) the Twitter data into the existing dataframe (hint: pay attenttion to capitalization). Once you have done that, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the senators, the accounts they follow, or how they relate to one another?**
+**2. Use the API to augment `senator_data` with additional data from the Twitter platform. To do this, you will need to request information about each senator using the API, and then join (see `left_join`) the Twitter data into the existing dataframe to make a new dataframe called `senator_accounts`.**
 ```{r}
 # Your answer here
+users <- lookup_users(senator_data$screen_name)
+senator_accounts <- senator_data %>% left_join(users, by='user_id')
+```
+<br/>
+
+**3. The dataframe we created above will contain information about the Senators' posted status (a pinned Tweet or the last in their timeline), and the users that they mention in those Tweets (see the column `mentions_screen_name`). Calculate the average probability of a Senator mentioning another user in their status by political party affiliation. For instance, you should be able to say "X% of Republicans and Y% of Democrats mention another user in their statuses.**
+```{r}
+# Your answer here
+senator_twitters <- senator
+```
+<br/>
+
+**4. What conclusions can you draw from the previous result? What assumptions are needed to come to these conclusions?**
+
+```
+# Your answer here
+senator_twitters <- senator
+```
+
+**5. Now write a function that takes an arbitrary sequence of Twitter user ids as an argument and returns a dataframe containing their last 10 Tweets, then use this function to make a dataframe consisting of the last 10 tweets from all senators. This should be a dataframe with 990 rows, ten for each senator in our dataset. Store this result in a new dataframe called `tweets` - we will use it for later questions in this lab. Hint: for the function, one approach might be to use a loop to get tweets from one user at a time.**
+```{r}
+# Your answer here
+timelines_get <- function(user_ids) {
+  all_statuses <- data.frame()
+  for (uid in user_ids) {
+    statuses <- get_timeline(uid, n=10)
+    all_statuses <- bind_rows(all_statuses, statuses)
+  }
+  return(all_statuses)
+}
+
+tweets <- timelines_get(senator_twitter$user_id)
 ```
 <br/>
 
 
-**5. Using the `get_related_artists()` command in the `spotifyR` package, create a function that takes the `spotifyID` column in the `artist_meta` dataset and returns an edge list. The edge list should include two columns: one with the Spotify ids of the Grammy-nominated artists, and one with the Spotify ids of the artists they are related to. Each row should represent a tie between one Grammy nominee, and one related artist.**
+**6. Now add information from the `senator_accounts` dataframe into the `tweets` dataframe using a join operation (see `left_join`) based on `user_id`. The resulting Tweet dataframe should still have 990 rows, but include additional columns containing information about the senator that created the Tweet. Use this merged dataset and `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the average number of **
 ```{r}
 # Your answer here
+
+tweets %>%
+  ggplot(aes(x=name, y=value, fill=name)) +
+    geom_violin() +
+    #scale_fill_viridis(discrete = TRUE, alpha=0.6, option="A") +
+    #theme_ipsum() +
+    #theme(
+    #  legend.position="none",
+    #  plot.title = element_text(size=11)
+    #) +
+    ggtitle("Violin chart") +
+    xlab("")
 ```
 <br/>
+
+
+**4. We will now generate some statistics about the tweet data we have extracted from the API. First, compute **
+```{r}
+# Your answer here
+
+tweets %>%
+  ggplot(aes(x=name, y=value, fill=name)) +
+    geom_violin() +
+    #scale_fill_viridis(discrete = TRUE, alpha=0.6, option="A") +
+    #theme_ipsum() +
+    #theme(
+    #  legend.position="none",
+    #  plot.title = element_text(size=11)
+    #) +
+    ggtitle("Violin chart") +
+    xlab("")
+```
+<br/>
+
+
+
+
+
+
 
 **6. Now, make a network visualization of the edge list created in Exercise 5. You may do this however you'd like. Although not necessary, you may consider reformatting your data so that the network visual contains only nodes for the Grammy nominees (i.e. those Spotify ids in the `artist_meta` dataset), with edges weighted by the number of related artists they share in common. You may also consider adding artist names from the `artist_meta` dataset as node attributes in your visualization. Alternatively, you may like to gather more information from the Spotify API and add it as node or edge information in your visualization (e.g. coloring nodes by primary genre that the artist belongs to). Be creative :)**
 ```{r}
