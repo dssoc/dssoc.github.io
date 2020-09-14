@@ -20,10 +20,7 @@ In this lab, we will practice working with application programming interfaces (A
 
 We will use the following datasets for the exercises.
 
-(1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
-(2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
-(3) `artist_meta`: [artist_meta.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their metadata.
-(4) `dnc_candidates_flw_el`: [dnc_candidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+(1) `dnc_candidates_flw_el`: [dnc_candidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
 
 
 **Load the datasets:**
@@ -48,7 +45,16 @@ Instructions for this can be found [here](https://cran.r-project.org/web/package
 
 
 
-
+```
+{
+  "app": "<app name here>",
+	"api_key": "<api key here>",
+	"api_secret_key": "<api_secret_key here",
+	"access_token": "<access token here>",
+	"access_token_secret": "<access token secret here>",
+	"bearer_token": "<unused>"
+}
+```
 
 ### Exercises
 <br/>
