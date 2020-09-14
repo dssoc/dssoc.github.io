@@ -10,12 +10,9 @@ In this lab, we will practice modeling data using R. Edit the Lab #7 markdown fi
 
 **Required reading:** 
 
-* [rtweet R Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
-* [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
-* [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
-* [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+* add some
 
-**Optional reading:** [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/).
+**Optional reading:** 
 
 
 
