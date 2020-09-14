@@ -106,7 +106,7 @@ allowfullscreen></iframe>
 <i>Optional Resource:</i><br/>
 
 <ul>
-    <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapters 4, 5, 10)</a></li>
+    <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapter 4)</a></li>
 </ul>
 </div>
 
@@ -419,9 +419,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i> <br/>
 
-<br/>
 
 <i>Materials from Video:</i><br/>
 <ul>
