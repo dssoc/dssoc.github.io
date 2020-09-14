@@ -41,6 +41,20 @@ We will use the following datasets for the exercises.
 <br/><br/>
 
 
+### API Setup
+
+To get started, you will need to follow these setps:
+
+1. Set up your Twitter API credentials.
+
+(a) set up your Twitter API credentials. I
+
+
+Instructions for this can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html).
+
+
+
+
 
 ### Exercises
 <br/>
@@ -52,8 +66,15 @@ We will use the following datasets for the exercises.
 ```
 <br/>
 
-**2. Follow the steps to set up your Twitter API credentials. Instructions for this can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html). When you have completed the steps, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.**
+**2. Follow the steps to set up your Twitter API credentials. 
+
+When you have completed the steps, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.**
 ```{r, eval = F}
+install.packages("rjson")
+library('rjson')
+
+creds <- fromJSON(file = 'api_credentials.json')
+
 api_key <- "<your key here>"
 api_secret_key <- "<your secret here>"
 access_token <- "<your token here>"
