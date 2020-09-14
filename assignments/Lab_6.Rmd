@@ -30,7 +30,7 @@ We will use the following datasets for the exercises.
 ```{r}
 library(tidyverse)
 library(rtweet)
-load('../datasets/Senator_Profiles.Rdata')
+#load('../datasets/Senator_Profiles.Rdata')
 ```
 <br/><br/>
 
@@ -40,7 +40,7 @@ load('../datasets/Senator_Profiles.Rdata')
 Follow these two steps to set up your program for exercise.
 
 #### 1. Set up your API credentials with Twitter. 
-If you don't already have one, you will need to create a new account. Instructions for extracting the api key can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html).
+If you don't already have one, you will need to create a new account. Instructions for extracting the api key can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html) and in the lab video.
 
 #### 2. Store your credentials.
 Copy and paste the json below into a new json file named `api_credentials.json`. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save.
@@ -58,14 +58,14 @@ Copy and paste the json below into a new json file named `api_credentials.json`.
 
 #### 3. Authenticate your application.
 
-After you have the credentials stored into the json file, run this code to authenticate the application. This simply reads the json data and provides them directly to the `create_token` function of the `rtweet` package. Once you complete this step, you should be able to access Twitter data through the API. See the `rtweet` package documentation to see how to access different types of data.
+After you have the credentials stored into the json file, run this code to authenticate the application (be sure to use the filename corresponding to your actual file). This simply reads the json data and provides them directly to the `create_token` function of the `rtweet` package. Once you complete this step, you should be able to access Twitter data through the API. See the `rtweet` package documentation to see how to access different types of data.
 
 ```{r, eval = F}
 
 # this code will read credentials from the JSON file you created.
 #install.packages("rjson")
 library('rjson')
-creds <- fromJSON(file = 'api_credentials.json')
+creds <- fromJSON(file = 'api_credentials.json') # POINT THIS TO YOUR FILE
 
 # will allow you to authenticate your application
 token <- create_token(
@@ -97,12 +97,10 @@ lim[, 1:4]
 **2. Use the API to augment `senator_data` with additional data from the Twitter platform. To do this, you will need to request information about each senator using the API, and then join (see `left_join`) the Twitter data into the existing dataframe to make a new dataframe called `senator_accounts`.**
 ```{r}
 # Your answer here
-users <- lookup_users(senator_data$screen_name)
-senator_accounts <- senator_data %>% left_join(users, by='user_id')
 ```
 <br/>
 
-**3. The dataframe we created above will contain information about the Senators' posted status (a pinned Tweet or the last in their timeline), and the users that they mention in those Tweets (see the column `mentions_screen_name`). Calculate the average likelihood of a Senator mentioning another user in their status, by political party affiliation. For instance, you should be able to say "X% of Republicans and Y% of Democrats mention another user in their statuses." Hint: you will probably want to use the `is.na` function with `mutate` on the `mentions_screen_name` column to indicate whether the status mentions another user, then `group_by` to generate calculate summary statistics.**
+**3. The dataframe we created above will contain information about the Senators' posted status (a pinned Tweet or the last in their timeline), and the users that they mention in those Tweets (see the column `mentions_screen_name`). Calculate the average likelihood of a Senator mentioning another user in their status, by political party affiliation. For instance, you should be able to say "X% of Republicans and Y% of Democrats mention another user in their statuses." Hint: you will probably want to use the `is.na` function with `mutate` on the `mentions_screen_name` column to indicate whether the status mentions another user, then `group_by` to calculate summary statistics.**
 ```{r}
 # Your answer here
 ```
@@ -111,23 +109,12 @@ senator_accounts <- senator_data %>% left_join(users, by='user_id')
 **4. What conclusions can you draw from the previous result? What assumptions are needed to come to these conclusions?**
 
 ```
-# Your answer here
-senator_twitters <- senator
+# Write your answer here
 ```
 
 **5. Now write a function that takes an arbitrary sequence of Twitter user ids as an argument and returns a dataframe containing their last five Tweets, then use this function to make a dataframe consisting of the last five tweets from all senators. This should be a dataframe with 495 rows, five for each Senator in our dataset. Store this result in a new dataframe called `Tweets` - we will use it for later questions in this lab. Hint: for the function, one approach might be to use a loop to get Tweets from one user at a time, and merge the results into a single dataframe (`bind_rows` may be useful there).**
 ```{r}
 # Your answer here
-timelines_get <- function(user_ids) {
-  all_statuses <- data.frame()
-  for (uid in user_ids) {
-    statuses <- get_timeline(uid, n=5)
-    all_statuses <- bind_rows(all_statuses, statuses)
-  }
-  return(all_statuses)
-}
-
-tweets <- timelines_get(senator_accounts$user_id)
 ```
 <br/>
 
@@ -135,12 +122,6 @@ tweets <- timelines_get(senator_accounts$user_id)
 **6. Now add information from the `senator_accounts` dataframe into the `tweets` dataframe using a join operation (see `left_join`) based on `user_id`. The resulting Tweet dataframe should still have 495 rows, but include additional columns containing information about the senator that created the Tweet. Use this merged dataset and `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the length of Tweet text (see the `display_text_width` column) by the political affiliation of the Senator that produced it.**
 ```{r}
 # Your answer here
-tweets %>%
-  left_join(senator_accounts, by='user_id') %>% 
-  ggplot(aes(x=party, y=display_text_width.x)) +
-    geom_violin() +
-    xlab("Political Party Affiliation") + 
-    ylab("Number of Characters Displayed")
 ```
 <br/>
 
@@ -152,7 +133,7 @@ tweets %>%
 <br/>
 
 
-**8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project.**
+**8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
 ```{r}
 # Your answer here
 ```
