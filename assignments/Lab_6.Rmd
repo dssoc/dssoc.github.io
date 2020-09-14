@@ -8,9 +8,11 @@ output: html_document
 
 In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_6.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
-# TODO NEED TO FILL REQUIRED READING LINKS IN
+**Required reading:** 
 
-**Required reading:** [R for Data Science: Basic Programming (17-21)](https://r4ds.had.co.nz/program-intro.html).
+* [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
+* [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
+* [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
 
 **Optional reading:** [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/).
 
@@ -20,30 +22,27 @@ In this lab, we will practice working with application programming interfaces (A
 
 We will use the following datasets for the exercises.
 
-(1) `dnc_candidates_flw_el`: [dnc_candidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+(1) `senator_data`: [Senator_Profiles.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata) includes information about all senators, including their twitter handles (in the `screen_name` column).
 
 
-**Load the datasets:**
+**Load the datasets and libraries:**
 ```{r}
-# library(tidyverse)
+library(tidyverse)
 library(rtweet)
-# load('dnc_candidates_flw_el.Rdata')
+load('../datasets/Senator_Profiles.Rdata')
 ```
 <br/><br/>
 
 
 ### API Setup
 
-To get started, you will need to follow these setps:
+Follow these two steps to set up your program for exercise.
 
-1. Set up your Twitter API credentials.
+#### 1. Set up your API credentials with Twitter. 
+If you don't already have one, you will need to create a new account. Instructions for extracting the api key can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html).
 
-(a) set up your Twitter API credentials. I
-
-
-Instructions for this can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html).
-
-
+#### 2. Store your credentials.
+Copy and paste the text below into a new json file called `api_credentials.json`. From the instructions in Step 1 we can see how to extract the api key, api secret key, access token, and access token secrets - replace the approprate keys for each of these values.
 
 ```
 {
@@ -56,19 +55,10 @@ Instructions for this can be found [here](https://cran.r-project.org/web/package
 }
 ```
 
-### Exercises
-<br/>
+#### 3. Authenticate your application.
 
-**1. In your own words, describe what an application programming interface is, and what advantage it provides to data scientists/computational social scientists.**
+After you have the credentials stored into the json file, run this code to authenticate the application. This simply reads the json data and provides them directly to the `create_token` function of the `rtweet` package. Once you complete this step, you should be able to access Twitter data through the API. See the `rtweet` package documentation to see how to access different types of data.
 
-```{r}
-# Your answer here
-```
-<br/>
-
-**2. Follow the steps to set up your Twitter API credentials. 
-
-When you have completed the steps, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.**
 ```{r, eval = F}
 
 # this code will read credentials from the JSON file you created.
@@ -84,7 +74,19 @@ token <- create_token(
   access_token = creds$access_token,
   access_secret = creds$access_token_secret)
 ```
+
+
+
+## Exercises
 <br/>
+
+**1. In your own words, describe what an application programming interface is, and what advantage it provides to data scientists/computational social scientists.**
+
+```{r}
+# Your answer here
+```
+<br/>
+
 
 **3. Using the `dnc_canidates_flw_el.Rdata` dataset, and the [`rtweet` package](https://cloud.r-project.org/web/packages/rtweet/rtweet.pdf), create a new dataset that contains additional meta information about all candidates and/or the accounts they follow. Once gathered, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the candidates, the accounts they follow, or how they relate to one another?**
 ```{r}
@@ -92,13 +94,6 @@ token <- create_token(
 ```
 <br/>
 
-**4. Follow [the steps](https://github.com/charlie86/spotifyr) to set up your Spotify API credentials. When you have finished, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.**
-```{r, eval = F}
-Sys.setenv(SPOTIFY_CLIENT_ID = '<your id here>')
-Sys.setenv(SPOTIFY_CLIENT_SECRET = '<your secret here>')
-access_token <- get_spotify_access_token()
-```
-<br/>
 
 **5. Using the `get_related_artists()` command in the `spotifyR` package, create a function that takes the `spotifyID` column in the `artist_meta` dataset and returns an edge list. The edge list should include two columns: one with the Spotify ids of the Grammy-nominated artists, and one with the Spotify ids of the artists they are related to. Each row should represent a tie between one Grammy nominee, and one related artist.**
 ```{r}
