@@ -28,14 +28,8 @@ We will use the following datasets for the exercises.
 
 **Load the datasets:**
 ```{r}
-# setwd("~/Sites/dssoc_labkeys")
 # library(tidyverse)
-# library(spotifyr)
-# library(rtweet)
-# 
-# load('grammy_nominees_20102020.Rdata')
-# load('grammy_winners_20102020.Rdata')
-# load('artist_meta.Rdata')
+library(rtweet)
 # load('dnc_candidates_flw_el.Rdata')
 ```
 <br/><br/>
@@ -70,22 +64,19 @@ Instructions for this can be found [here](https://cran.r-project.org/web/package
 
 When you have completed the steps, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.**
 ```{r, eval = F}
-install.packages("rjson")
-library('rjson')
 
+# this code will read credentials from the JSON file you created.
+#install.packages("rjson")
+library('rjson')
 creds <- fromJSON(file = 'api_credentials.json')
 
-api_key <- "<your key here>"
-api_secret_key <- "<your secret here>"
-access_token <- "<your token here>"
-access_token_secret <- "<your token secret here>"
-## authenticate via web browser
+# will allow you to authenticate your application
 token <- create_token(
-  app = "<your app name here>",
-  consumer_key = api_key,
-  consumer_secret = api_secret_key,
-  access_token = access_token,
-  access_secret = access_token_secret)
+  app = creds$app,
+  consumer_key = creds$api_key,
+  consumer_secret = creds$api_secret_key,
+  access_token = creds$access_token,
+  access_secret = creds$access_token_secret)
 ```
 <br/>
 
