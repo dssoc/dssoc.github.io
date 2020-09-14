@@ -29,7 +29,7 @@ We will use the following datasets for the exercises.
 ```{r}
 library(tidyverse)
 library(rtweet)
-load('../datasets/Senator_Profiles.Rdata')
+#load('../datasets/Senator_Profiles.Rdata')
 ```
 <br/><br/>
 
@@ -73,6 +73,11 @@ token <- create_token(
   consumer_secret = creds$api_secret_key,
   access_token = creds$access_token,
   access_secret = creds$access_token_secret)
+
+# this allows you to check the remaining data
+lim <- rate_limit()
+lim[, 1:4]
+
 ```
 
 
@@ -88,7 +93,7 @@ token <- create_token(
 <br/>
 
 
-**3. Using the `dnc_canidates_flw_el.Rdata` dataset, and the [`rtweet` package](https://cloud.r-project.org/web/packages/rtweet/rtweet.pdf), create a new dataset that contains additional meta information about all candidates and/or the accounts they follow. Once gathered, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the candidates, the accounts they follow, or how they relate to one another?**
+**3. Use the API to augment `senator_data` with additional data from the Twitter platform. To do this, you will need to request information about each senator (use the `screen_name` column to get their Twitter handles), and then join (see `left_join`) the Twitter data into the existing dataframe (hint: pay attenttion to capitalization). Once you have done that, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the senators, the accounts they follow, or how they relate to one another?**
 ```{r}
 # Your answer here
 ```

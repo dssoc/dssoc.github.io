@@ -382,53 +382,86 @@ summary {
 
 
 <p>In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file (<a href="https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_6.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
-<div id="todo-need-to-fill-required-reading-links-in" class="section level1">
-<h1>TODO NEED TO FILL REQUIRED READING LINKS IN</h1>
-<p><strong>Required reading:</strong> <a href="https://r4ds.had.co.nz/program-intro.html">R for Data Science: Basic Programming (17-21)</a>.</p>
+<p><strong>Required reading:</strong></p>
+<ul>
+<li><a href="https://medium.com/@rwilliams_bv/apis-d389aa68104f">Intro to APIs</a>, by Beck Williams</li>
+<li><a href="https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">An Illustrated Introduction to APIs</a>, by Xavier Adam</li>
+<li><a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">Obtaining and using access tokens for Twitter</a></li>
+</ul>
 <p><strong>Optional reading:</strong> <a href="https://www.jessesadler.com/post/network-analysis-with-r/">Intro to Network Analysis with R, by Jesse Sadle</a>.</p>
+<div id="required-datasets" class="section level3">
+<h3>Required Datasets</h3>
+<p>We will use the following datasets for the exercises.</p>
 <ol style="list-style-type: decimal">
-<li><code>nominees</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a> is a table of Grammy nominees from 2010 to 2020 in the categories “Album of the year” (album_oty), “Record of the year” (record_oty), “Song of the year (song_oty), and”Best new artist of the year&quot; (new_artist_oty).</li>
-<li><code>winners</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a> is a table of Grammy winners for the above listed categories, from 2010 to 2020.</li>
-<li><code>artist_meta</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a> is a table of Grammy nominee names and some of their metadata.</li>
-<li><code>dnc_candidates_flw_el</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata">dnc_candidates_flw_el.Rdata</a> is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.</li>
+<li><code>senator_data</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata">Senator_Profiles.Rdata</a> includes information about all senators, including their twitter handles (in the <code>screen_name</code> column).</li>
 </ol>
-<p><strong>Load the datasets:</strong></p>
-<pre class="r"><code># setwd(&quot;~/Sites/dssoc_labkeys&quot;)
-# library(tidyverse)
-# library(spotifyr)
-# library(rtweet)
-# 
-# load(&#39;grammy_nominees_20102020.Rdata&#39;)
-# load(&#39;grammy_winners_20102020.Rdata&#39;)
-# load(&#39;artist_meta.Rdata&#39;)
-# load(&#39;dnc_candidates_flw_el.Rdata&#39;)</code></pre>
+<p><strong>Load the datasets and libraries:</strong></p>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>## -- Attaching packages ---------------------------------------------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
+## v tibble  3.0.1     v dplyr   1.0.0
+## v tidyr   1.1.0     v stringr 1.4.0
+## v readr   1.3.1     v forcats 0.5.0</code></pre>
+<pre><code>## -- Conflicts ------------------------------------------------------------------------------- tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>library(rtweet)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;rtweet&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:purrr&#39;:
+## 
+##     flatten</code></pre>
+<pre class="r"><code>#load(&#39;../datasets/Senator_Profiles.Rdata&#39;)</code></pre>
 <p><br /><br /></p>
-<div id="exercises" class="section level3">
-<h3>Exercises</h3>
+</div>
+<div id="api-setup" class="section level3">
+<h3>API Setup</h3>
+<p>Follow these two steps to set up your program for exercise.</p>
+<div id="set-up-your-api-credentials-with-twitter." class="section level4">
+<h4>1. Set up your API credentials with Twitter.</h4>
+<p>If you don’t already have one, you will need to create a new account. Instructions for extracting the api key can be found <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">here</a>.</p>
+</div>
+<div id="store-your-credentials." class="section level4">
+<h4>2. Store your credentials.</h4>
+<p>Copy and paste the text below into a new json file called <code>api_credentials.json</code>. From the instructions in Step 1 we can see how to extract the api key, api secret key, access token, and access token secrets - replace the approprate keys for each of these values.</p>
+<pre><code>{
+  &quot;app&quot;: &quot;&lt;app name here&gt;&quot;,
+    &quot;api_key&quot;: &quot;&lt;api key here&gt;&quot;,
+    &quot;api_secret_key&quot;: &quot;&lt;api_secret_key here&quot;,
+    &quot;access_token&quot;: &quot;&lt;access token here&gt;&quot;,
+    &quot;access_token_secret&quot;: &quot;&lt;access token secret here&gt;&quot;,
+    &quot;bearer_token&quot;: &quot;&lt;unused&gt;&quot;
+}</code></pre>
+</div>
+<div id="authenticate-your-application." class="section level4">
+<h4>3. Authenticate your application.</h4>
+<p>After you have the credentials stored into the json file, run this code to authenticate the application. This simply reads the json data and provides them directly to the <code>create_token</code> function of the <code>rtweet</code> package. Once you complete this step, you should be able to access Twitter data through the API. See the <code>rtweet</code> package documentation to see how to access different types of data.</p>
+<pre class="r"><code># this code will read credentials from the JSON file you created.
+#install.packages(&quot;rjson&quot;)
+library(&#39;rjson&#39;)
+creds &lt;- fromJSON(file = &#39;api_credentials.json&#39;)
+
+# will allow you to authenticate your application
+token &lt;- create_token(
+  app = creds$app,
+  consumer_key = creds$api_key,
+  consumer_secret = creds$api_secret_key,
+  access_token = creds$access_token,
+  access_secret = creds$access_token_secret)
+
+# this allows you to check the remaining data
+lim &lt;- rate_limit()
+lim[, 1:4]</code></pre>
+</div>
+</div>
+<div id="exercises" class="section level2">
+<h2>Exercises</h2>
 <p><br /></p>
 <p><strong>1. In your own words, describe what an application programming interface is, and what advantage it provides to data scientists/computational social scientists.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. Follow the steps to set up your Twitter API credentials. Instructions for this can be found <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">here</a>. When you have completed the steps, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.</strong></p>
-<pre class="r"><code>api_key &lt;- &quot;&lt;your key here&gt;&quot;
-api_secret_key &lt;- &quot;&lt;your secret here&gt;&quot;
-access_token &lt;- &quot;&lt;your token here&gt;&quot;
-access_token_secret &lt;- &quot;&lt;your token secret here&gt;&quot;
-## authenticate via web browser
-token &lt;- create_token(
-  app = &quot;&lt;your app name here&gt;&quot;,
-  consumer_key = api_key,
-  consumer_secret = api_secret_key,
-  access_token = access_token,
-  access_secret = access_token_secret)</code></pre>
-<p><br /></p>
-<p><strong>3. Using the <code>dnc_canidates_flw_el.Rdata</code> dataset, and the <a href="https://cloud.r-project.org/web/packages/rtweet/rtweet.pdf"><code>rtweet</code> package</a>, create a new dataset that contains additional meta information about all candidates and/or the accounts they follow. Once gathered, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the candidates, the accounts they follow, or how they relate to one another?</strong></p>
+<p><strong>3. Use the API to augment <code>senator_data</code> with additional data from the Twitter platform. To do this, you will need to request information about each senator (use the <code>screen_name</code> column to get their Twitter handles), and then join (see <code>left_join</code>) the Twitter data into the existing dataframe (hint: pay attenttion to capitalization). Once you have done that, describe and demonstrate (e.g. in table or graph) some new insight (e.g. a summary statistic or pattern) that you gain from this new data. What more does it tell you about the senators, the accounts they follow, or how they relate to one another?</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
-<p><br /></p>
-<p><strong>4. Follow <a href="https://github.com/charlie86/spotifyr">the steps</a> to set up your Spotify API credentials. When you have finished, you will enter your credentials below, but BE SURE TO REMOVE THESE BEFORE SUBMITTING YOUR ASSIGNMENT.</strong></p>
-<pre class="r"><code>Sys.setenv(SPOTIFY_CLIENT_ID = &#39;&lt;your id here&gt;&#39;)
-Sys.setenv(SPOTIFY_CLIENT_SECRET = &#39;&lt;your secret here&gt;&#39;)
-access_token &lt;- get_spotify_access_token()</code></pre>
 <p><br /></p>
 <p><strong>5. Using the <code>get_related_artists()</code> command in the <code>spotifyR</code> package, create a function that takes the <code>spotifyID</code> column in the <code>artist_meta</code> dataset and returns an edge list. The edge list should include two columns: one with the Spotify ids of the Grammy-nominated artists, and one with the Spotify ids of the artists they are related to. Each row should represent a tie between one Grammy nominee, and one related artist.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
@@ -441,7 +474,6 @@ access_token &lt;- get_spotify_access_token()</code></pre>
 <p><br /></p>
 <p><strong>8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
-</div>
 </div>
 
 
