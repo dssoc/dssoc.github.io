@@ -105,7 +105,6 @@ senator_accounts <- senator_data %>% left_join(users, by='user_id')
 **3. The dataframe we created above will contain information about the Senators' posted status (a pinned Tweet or the last in their timeline), and the users that they mention in those Tweets (see the column `mentions_screen_name`). Calculate the average likelihood of a Senator mentioning another user in their status, by political party affiliation. For instance, you should be able to say "X% of Republicans and Y% of Democrats mention another user in their statuses." Hint: you will probably want to use the `is.na` function with `mutate` on the `mentions_screen_name` column to indicate whether the status mentions another user, then `group_by` to generate calculate summary statistics.**
 ```{r}
 # Your answer here
-senator_twitters <- senator
 ```
 <br/>
 
@@ -146,30 +145,12 @@ tweets %>%
 <br/>
 
 
-**4. Look through the [`rtweet` package documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting summary statistic about it. Then, comment on that statistic and what conclusions you can draw from it.**
+**7. Look through the [`rtweet` package documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting figure (plot) or summary statistic about it. What conclusions can you draw from the these results?**
 ```{r}
 # Your answer here
 ```
 <br/>
 
-
-
-
-
-
-
-**6. Now, make a network visualization of the edge list created in Exercise 5. You may do this however you'd like. Although not necessary, you may consider reformatting your data so that the network visual contains only nodes for the Grammy nominees (i.e. those Spotify ids in the `artist_meta` dataset), with edges weighted by the number of related artists they share in common. You may also consider adding artist names from the `artist_meta` dataset as node attributes in your visualization. Alternatively, you may like to gather more information from the Spotify API and add it as node or edge information in your visualization (e.g. coloring nodes by primary genre that the artist belongs to). Be creative :)**
-```{r}
-# Your answer here
-```
-<br/>
-
-
-**7. Again using the `spotifyR` package, decide for yourself on some interesting data that can be added to one of the existing Grammy datasets. What new insight (e.g. a summary statistic or pattern) can you gain from this additional data? What more does it tell you about the nominees, the winners, the songs, or how any/all of these entities relate to one another?**
-```{r}
-# Your answer here
-```
-<br/>
 
 **8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project.**
 ```{r}
