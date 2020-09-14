@@ -1,0 +1,82 @@
+---
+title: "Lab #7: Modeling With Statistics"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+
+In this lab, we will practice modeling data using R. Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+
+**Required reading:** 
+
+* [rtweet R Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
+* [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
+* [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
+* [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+
+**Optional reading:** [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/).
+
+
+
+### Required Datasets
+
+We will use the following datasets for the exercises.
+
+(1) `artist_meta`: [artist_meta.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their spotify metadata.
+
+
+**Load the datasets and libraries. NOTE! It might be a good idea to convert the `popularity` column to a "double" type here to make later analyses easier. Do that here using the `mutate` and `as.integer` functions.**
+```{r}
+#library(tidyverse)
+#load('../datasets/artist_meta.Rdata')
+#head(artist_meta)
+```
+<br/><br/>
+
+
+## Exercises
+<br/>
+
+**1. In your own words, describe what statistical modeling means. When is it used? What does it allow data scientists to do?**
+
+```
+# Your answer here
+```
+<br/>
+
+
+**2. What is the correlation and statistical significance (measured by p-value) between an artist's popularity and their number of followers on Spotify? Why would this correlation be less than 1.0? Hint: you may find the `cor.test` function helpful. (Note: be sure you have converted the `popularity` column to numeric, as described above.)**
+
+```{r}
+# Your answer here
+```
+<br/>
+
+
+**3. Generate a new column of logical type called `is_pop` to indicate whether a given artist is categorized in any pop genre (e.g. any genre that includes the word "pop", like "rap pop", etc). Create another column named `is_rap` that indicates whether the artist has been included in any "rap" genre. Make summary statistics indicating how many artists fall into either category.**
+```{r}
+# Your answer here
+```
+
+**4. Compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables? What are the relationships with those two variables and Spotify's popularity metric? Which ones are significant? What does that tell us about Spotify's measure of popularity?**
+```{r}
+# Your answer here
+```
+
+**6. Create a multivariate linear model (see the `lm` function) predicting the Spotify popularity measure from both `is_pop` and `is_rap`. Then create a second model that additionally includes the artist's number of followers as a covariate. What do these models tell us? Why would we create a second model that includes the additional variable?**
+```{r}
+# Your answer here
+```
+
+**7. Are there other unmeasured variables that might act as confounders we could not include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
+```
+# Your answer here
+```
+
+
+**8. How could you use statistical modeling in the final project you have been developing? What inferences could you make from your data?**
+```
+# Your answer here
+```
+
