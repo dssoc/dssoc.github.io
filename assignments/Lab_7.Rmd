@@ -71,20 +71,20 @@ cor.test(artist_meta$followers, as.numeric(artist_meta$is_pop))
 cor.test(artist_meta$followers, as.numeric(artist_meta$is_rap))
 ```
 
-**6. Create a multivariate linear model (see the `lm` function) predicting the Spotify popularity measure from both `is_pop` and `is_rap`. Then create a second model that additionally includes the artist's number of followers as a covariate. What do these models tell us? Why would we create a second model that includes the additional variable?**
+**5. Create a multivariate linear model (see the `lm` function) predicting the Spotify popularity measure from both `is_pop` and `is_rap`. Then create a second model that additionally includes the artist's number of followers as a covariate. What do these models tell us? Why would we create a second model that includes the additional variable?**
 ```{r}
 # Your answer here
 summary(lm(popularity ~ is_pop + is_rap, data=artist_meta))
 summary(lm(popularity ~ is_pop + is_rap + followers, data=artist_meta))
 ```
 
-**7. Are there other unmeasured variables that might act as confounders we could not include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
+**6. Are there other unmeasured variables that might act as confounders we could not include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
 ```
 # Your answer here
 ```
 
 
-**8. How could you use statistical modeling in the final project you have been developing? What inferences could you make from your data?**
+**7. How could you use statistical modeling in the final project you have been developing? What inferences could you make from your data?**
 ```
 # Your answer here
 ```
