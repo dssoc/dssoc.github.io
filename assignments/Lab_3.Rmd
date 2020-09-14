@@ -43,7 +43,7 @@ print(artist_meta)
 ### Exercises
 <br/>
 
-**1. Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be 'pop' and 'not pop'. Note that any genre that includes the word "pop" should be considered as pop.**
+**1. Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be 'pop' and 'not pop'. Note that any genre that includes the word "pop" should be considered as pop. Hint: consider using the `grepl` and `ifelse` functions together, and a type conversion to get a factor variable. See "R for data science" Chapter 15 for more information about factor variables.**
 
 **Also notice one additional issue with the data that might cause issues later on: the `popularity` column is an integer list of size one. Consider using the `mutate` function with the `is.numeric` function to coerce the data into the type you need (see section 20.4.1 of *R for Data Science* to learn more).**
 ```{r}
