@@ -374,6 +374,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
+<br/>
+
 
 <i>Required reading:</i> <br/>
 <ul>
