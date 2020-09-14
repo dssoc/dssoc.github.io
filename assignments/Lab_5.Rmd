@@ -66,7 +66,7 @@ load('../datasets/dnc_candidates_flw_el.Rdata')
 <br/>
 
 
-**5. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common).**
+**5. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Note: you may need to use the `as.matrix` function to the dataframe first if you are having data type problems.**
 ```{r}
 # Yor answer here or in text.
 g <- graph_from_adjacency_matrix(adjmatrix=as.matrix(candidates_flw_am), weighted=TRUE, mode='undirected')
