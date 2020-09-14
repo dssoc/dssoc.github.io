@@ -10,7 +10,8 @@ In this lab, we will practice modeling data using R. Edit the Lab #7 markdown fi
 
 **Required reading:** 
 
-* add some
+* R for Data Science: [Modeling (Chapters 23-25)](https://r4ds.had.co.nz/model-intro.html)
+
 
 **Optional reading:** 
 
@@ -44,7 +45,13 @@ We will use the following datasets for the exercises.
 
 
 **2. What is the correlation and statistical significance (measured by p-value) between an artist's popularity and their number of followers on Spotify? Why would this correlation be less than 1.0? Hint: you may find the `cor.test` function helpful. (Note: be sure you have converted the `popularity` column to numeric, as described above.)**
+```{r}
+# Your answer here
+```
+<br/>
 
+
+**3. Create a scatter plot showing the number of followers on the x-axis and artist popularity on the y-axis. Display a trend line on the plot. Can you draw any rough quantitative information about the relationship between these two variables just from this plot?**
 ```{r}
 # Your answer here
 ```
@@ -55,25 +62,41 @@ We will use the following datasets for the exercises.
 ```{r}
 # Your answer here
 ```
+<br/>
 
 **4. Compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables? What are the relationships with those two variables and Spotify's popularity metric? Which ones are significant? What does that tell us about Spotify's measure of popularity?**
 ```{r}
 # Your answer here
 ```
+<br/>
+
+**5. Use `ggplot` to create [box plots](https://www.r-graph-gallery.com/boxplot.html) or [violin plots](https://www.r-graph-gallery.com/violin.html) showing the popularity by `is_pop` and `is_rap`. What can you say about the data from these plots?**
+```{r}
+# Your answer here
+```
+<br/>
+
+**6. Use `ggplot` to create [box plots](https://www.r-graph-gallery.com/boxplot.html) or [violin plots](https://www.r-graph-gallery.com/violin.html) showing the popularity by `is_pop` and `is_rap`. What can you say about the data from these plots?**
+```{r}
+# Your answer here
+```
+<br/>
 
 **5. Create a multivariate linear model (see the `lm` function) predicting the Spotify popularity measure from both `is_pop` and `is_rap`. Then create a second model that additionally includes the artist's number of followers as a covariate. What do these models tell us? Why would we create a second model that includes the additional variable?**
 ```{r}
 # Your answer here
 ```
+<br/>
+
 
 **6. Are there other unmeasured variables that might act as confounders we could not include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
 ```
 # Your answer here
 ```
-
+<br/>
 
 **7. How could you use statistical modeling in the final project you have been developing? What inferences could you make from your data?**
 ```
 # Your answer here
 ```
-
+<br/>
