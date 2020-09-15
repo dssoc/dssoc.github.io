@@ -41,21 +41,21 @@ The network data that you will be drawing on for this lab can be downloaded from
 ### Exercises
 <br/>
 
-**1. In class you learned that there are several ways to store network data. Describe the difference between an edgelist and an adjacency matrix.**
+**1. Describe what nodes/vertices and links/edges are. What kinds of things in the world might we attempt to model as networks?**
 
-```{r}
+```
 # Yor answer here or in text.
 ```
 <br/>
 
-**2. You also learned about one- and two-mode networks. Describe the difference.**
-```{r}
+**2. What kinds of questions would you be able to answer with networks that you might not be able to answer using analysis techniques we have covered so far?**
+```
 # Yor answer here or in text.
 ```
 <br/>
 
-**3. Does the `candidates_flw_am` adjacency matrix contain one- or two-mode network information? What about the `candidates_flw_el` edgelist?**
-```{r}
+**3. Describe the data in the `candidates_flw_am` adjacency matrix and the `candidates_flw_el` edgelist. How do the two networks differ? Do they represent directed or undirected edges? Do the edges have weights?**
+```
 # Yor answer here or in text.
 ```
 <br/>
