@@ -39,19 +39,19 @@ load('../datasets/grammy_winners_20102020.Rdata')
 <br/>
 
 **1. In your own words, describe what Boolean operators (also called Logical operators) are, and provide one example of how you might use them in a data science project.**
-```{r}
+```
 # your answer here
 ```
 <br/>
 
 **2. In your own words, describe what a function is, and provide one example of how you might use it in a data science project.**
-```{r}
+```
 # your answer here
 ```
 <br/>
 
-**3. Most of the time, packages in R contain many useful functions/commands. If you didn't know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code?**
-```{r}
+**3. Most of the time, packages in R contain many useful functions/commands. If you didn't know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code? Where would you look outside RStudio?**
+```
 # your answer here
 ```
 <br/>
