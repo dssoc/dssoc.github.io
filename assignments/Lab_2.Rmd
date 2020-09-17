@@ -30,7 +30,7 @@ In future assignments, we will use these datasets to collect data from Spotify. 
 
 **Load the datasets described above. Hint: see the `load()` function.**
 
-```{r}
+```{r message=FALSE}
 # Load the datasets & packages
 ```
 <br/>

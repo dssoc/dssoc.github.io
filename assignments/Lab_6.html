@@ -396,22 +396,9 @@ summary {
 <li><code>senator_data</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata">Senator_Profiles.Rdata</a> includes information about all senators, including their twitter handles (in the <code>screen_name</code> column).</li>
 </ol>
 <p><strong>Load the datasets and libraries:</strong></p>
-<pre class="r"><code>library(tidyverse)</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------------- tidyverse 1.3.0 --</code></pre>
-<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
-## v tibble  3.0.1     v dplyr   1.0.0
-## v tidyr   1.1.0     v stringr 1.4.0
-## v readr   1.3.1     v forcats 0.5.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------------- tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>library(rtweet)</code></pre>
-<pre><code>## 
-## Attaching package: &#39;rtweet&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:purrr&#39;:
-## 
-##     flatten</code></pre>
-<pre class="r"><code>#load(&#39;../datasets/Senator_Profiles.Rdata&#39;)</code></pre>
+<pre class="r"><code>library(tidyverse)
+library(rtweet)
+#load(&#39;../datasets/Senator_Profiles.Rdata&#39;)</code></pre>
 <p><br /><br /></p>
 </div>
 <div id="api-setup" class="section level3">
@@ -419,11 +406,11 @@ summary {
 <p>Follow these two steps to set up your program for exercise.</p>
 <div id="set-up-your-api-credentials-with-twitter." class="section level4">
 <h4>1. Set up your API credentials with Twitter.</h4>
-<p>If you don’t already have one, you will need to create a new account. Instructions for extracting the api key can be found <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">here</a> and in the lab video.</p>
+<p>If you don’t already have one, you will need to create a new Twitter account. Next, you need to apply for a developer account and access credentials (api keys) for retreiving data. In <a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/guide">Twitter’s getting started guide</a>, navigate to the section titled “How to get access to the Twitter API.” This will include applying for a developer account, and retreiving the app’s keys and tokens. <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">This tutorial</a> may also be helpful. You’ll use these for the next step.</p>
 </div>
 <div id="store-your-credentials." class="section level4">
 <h4>2. Store your credentials.</h4>
-<p>Copy and paste the json below into a new json file named <code>api_credentials.json</code>. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save.</p>
+<p>Copy and paste the json below into a new json file named <code>api_credentials.json</code>. Note that a json file is just a text file where the filename ends in “.json”, so you can use notepad or text editor to make the new file. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save (in a place you remember).</p>
 <pre><code>{
   &quot;app&quot;: &quot;&lt;app name here&gt;&quot;,
     &quot;api_key&quot;: &quot;&lt;api key here&gt;&quot;,

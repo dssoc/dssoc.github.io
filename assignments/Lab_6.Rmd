@@ -26,7 +26,7 @@ We will use the following datasets for the exercises.
 
 
 **Load the datasets and libraries:**
-```{r}
+```{r message=FALSE}
 library(tidyverse)
 library(rtweet)
 #load('../datasets/Senator_Profiles.Rdata')

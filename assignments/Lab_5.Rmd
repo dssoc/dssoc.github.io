@@ -29,7 +29,7 @@ The network data that you will be drawing on for this lab can be downloaded from
 
 
 **Load the datasets:**
-```{r}
+```{r message=FALSE}
 #library(igraph)
 #library(ggraph)
 #library(tidyverse)

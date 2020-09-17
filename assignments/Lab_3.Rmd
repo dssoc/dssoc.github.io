@@ -31,7 +31,7 @@ The data that you will be using for this lab can be downloaded from the course w
 
 
 **Load the datasets:**
-```{r}
+```{r message=FALSE}
 #library(tidyverse)
 #load('artist_meta.Rdata')
 ```

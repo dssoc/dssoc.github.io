@@ -25,7 +25,7 @@ We will use the following datasets for the exercises.
 
 
 **Load the datasets and libraries. NOTE! It might be a good idea to convert the `popularity` column to a "double" type here to make later analyses easier. Do that here using the `mutate` and `as.integer` functions.**
-```{r}
+```{r message=FALSE}
 #library(tidyverse)
 #load('../datasets/artist_meta.Rdata')
 #head(artist_meta)

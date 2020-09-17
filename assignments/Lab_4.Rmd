@@ -28,7 +28,7 @@ The exercises in this lab correspond with R for Data Science, [chapters 17 - 21]
 
 
 Load the libraries and datasets:
-```{r}
+```{r message=FALSE}
 #library(tidyverse)
 #load('grammy_nominees_20102020.Rdata')
 #load('grammy_winners_20102020.Rdata')
