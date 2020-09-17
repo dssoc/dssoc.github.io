@@ -436,8 +436,7 @@ allowfullscreen></iframe>
 <i>Required reading:</i> <br/>
 <ul>
   <li>R for Data Science: <a href = "https://r4ds.had.co.nz/model-intro.html">Modeling (Chapters 23-25)</a></li>
-<ul>
-
+</ul>
 </div>
 
 
