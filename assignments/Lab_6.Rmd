@@ -10,6 +10,8 @@ In this lab, we will practice working with application programming interfaces (A
 
 **Required reading:** 
 
+
+
 * [rtweet R Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
 * [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
@@ -37,10 +39,11 @@ library(rtweet)
 Follow these two steps to set up your program for exercise.
 
 #### 1. Set up your API credentials with Twitter. 
-If you don't already have one, you will need to create a new account. Instructions for extracting the api key can be found [here](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html) and in the lab video.
+
+If you don't already have one, you will need to create a new Twitter account. Next, you need to apply for a developer account and access credentials (api keys) for retreiving data. In [Twitter's getting started guide](https://developer.twitter.com/en/docs/twitter-api/getting-started/guide), navigate to the section titled "How to get access to the Twitter API." This will include applying for a developer account, and retreiving the app's keys and tokens. [This tutorial](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html) may also be helpful. You'll use these for the next step. 
 
 #### 2. Store your credentials.
-Copy and paste the json below into a new json file named `api_credentials.json`. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save.
+Copy and paste the json below into a new json file named `api_credentials.json`. Note that a json file is just a text file where the filename ends in ".json", so you can use notepad or text editor to make the new file. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save (in a place you remember).
 
 ```
 {
