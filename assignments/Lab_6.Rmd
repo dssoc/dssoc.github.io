@@ -8,9 +8,7 @@ output: html_document
 
 In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_6.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
-**Required reading:** 
-
-
+**Optional reading:** 
 
 * [rtweet R Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
