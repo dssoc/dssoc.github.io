@@ -20,13 +20,13 @@ micro_nav: true
 <p><strong>Chris Bail</strong></p>
 <i>Professor of Sociology & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
-<a href = "www.chrisbail.net">www.chrisbail.net</a><br/>
+<a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
 <br/>
 
-Teaching Assistant: Devin Cornell<br/> 
-<i>PhD Candidate, Sociology Department</i> <br/>
+Teaching Assistant: Devin J. Cornell<br/> 
+<i>PhD Student, Sociology Department</i> <br/>
 devin.cornell@duke.edu <br/>
-Office Hours: TBD 
+Office Hours: Tuesday 12:30-2pm, Thursday 1:30-3pm (link posted on Slack beforehand)
 </div>
 
 ### COURSE DESCRIPTION

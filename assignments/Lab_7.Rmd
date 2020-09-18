@@ -25,11 +25,10 @@ We will use the following datasets for the exercises.
 
 
 **Load the datasets and libraries. NOTE! It might be a good idea to convert the `popularity` column to a "double" type here to make later analyses easier. Do that here using the `mutate` and `as.integer` functions.**
-```{r}
-library(tidyverse)
-load('../datasets/artist_meta.Rdata') 
-artist_meta <- artist_meta %>% mutate(popularity=as.numeric(popularity))
-head(artist_meta)
+```{r message=FALSE}
+#library(tidyverse)
+#load('../datasets/artist_meta.Rdata')
+#head(artist_meta)
 ```
 <br/><br/>
 
@@ -48,7 +47,6 @@ head(artist_meta)
 **2. What is the correlation and statistical significance (measured by p-value) between an artist's popularity and their number of followers on Spotify? Why would this correlation be less than 1.0? Hint: you may find the `cor.test` function helpful. (Note: be sure you have converted the `popularity` column to numeric, as described above.)**
 ```{r}
 # Your answer here
-cor.test(artist_meta$popularity, artist_meta$followers)
 ```
 <br/>
 
@@ -56,12 +54,6 @@ cor.test(artist_meta$popularity, artist_meta$followers)
 **3. Create a scatter plot showing the number of followers on the x-axis and artist popularity on the y-axis. Display a trend line on the plot. Can you draw any rough quantitative information about the relationship between these two variables just from this plot?**
 ```{r}
 # Your answer here
-artist_meta <- artist_meta %>% 
-  mutate(is_pop=grepl('pop', as.character(genre), fixed=TRUE)) %>%
-  mutate(is_rap=grepl('rap', as.character(genre), fixed=TRUE))
-
-artist_meta %>% group_by(is_pop) %>% count()
-artist_meta %>% group_by(is_rap) %>% count()
 ```
 <br/>
 
@@ -69,17 +61,12 @@ artist_meta %>% group_by(is_rap) %>% count()
 **4. Generate a new column of logical type called `is_pop` to indicate whether a given artist is categorized in any pop genre (e.g. any genre that includes the word "pop", like "rap pop", etc). Create another column named `is_rap` that indicates whether the artist has been included in any "rap" genre. Make summary statistics indicating how many artists fall into either category.**
 ```{r}
 # Your answer here
-cor.test(as.numeric(artist_meta$is_pop), as.numeric(artist_meta$is_rap))
-cor.test(artist_meta$followers, as.numeric(artist_meta$is_pop))
-cor.test(artist_meta$followers, as.numeric(artist_meta$is_rap))
 ```
 <br/>
 
 **5. Compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables? What are the relationships with those two variables and Spotify's popularity metric? Which ones are significant? What does that tell us about Spotify's measure of popularity?**
 ```{r}
 # Your answer here
-summary(lm(popularity ~ is_pop + is_rap, data=artist_meta))
-summary(lm(popularity ~ is_pop + is_rap + followers, data=artist_meta))
 ```
 <br/>
 

@@ -19,7 +19,7 @@ Please complete as many of the questions below as you can. If you are not sure h
 <br>
 **1. Load the "Coronavirus_Tweets.Rdata" dataset. Write code that calculates the mean value of the variable "retweet_count" in the code chunk below**
 
-```{r}
+```{r message=FALSE}
 #write your code here
 ```
 <br>

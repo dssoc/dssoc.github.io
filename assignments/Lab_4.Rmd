@@ -28,10 +28,10 @@ The exercises in this lab correspond with R for Data Science, [chapters 17 - 21]
 
 
 Load the libraries and datasets:
-```{r}
-library(tidyverse)
-load('../datasets/grammy_nominees_20102020.Rdata')
-load('../datasets/grammy_winners_20102020.Rdata')
+```{r message=FALSE}
+#library(tidyverse)
+#load('grammy_nominees_20102020.Rdata')
+#load('grammy_winners_20102020.Rdata')
 ```
 <br/><br/>
 
@@ -60,58 +60,18 @@ load('../datasets/grammy_winners_20102020.Rdata')
 ```{r}
 sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 # your answer here
-firsts <- function(sent) {
-  return(map(sent, function(w){substr(w,1,1)}))
-}
-
-#sentence
-t <- firsts(sentence)
-print(t)
-
 ```
 <br/>
 
 **5. In your reading, you learned about function arguments. Using the `winners` table, write a function that takes year (numeric) as an argument and returns the name of all winners for that year. It's alright if the function simply returns the row for that year in the `winners` table, but you can also print each winner name if you'd like.**
 ```{r}
 # your answer here
-winners_get <- function(yr) {
-  cols <- c('record_oty', 'album_oty', 'song_oty', 'new_artist_oty')
-  winnercols <- c('1', '2', '3')
-  all_winners <- winners %>% 
-    filter(year==yr) %>% 
-    pivot_longer(cols, names_to='award', values_to='winners') %>% 
-    separate(winners, ',', into=winnercols) %>% 
-    pivot_longer(winnercols, names_to='order', values_to='name') %>% 
-    mutate(order=as.numeric(order)) %>% 
-    drop_na(name)
-  return(all_winners)
-}
-print(winners_get(2020))
 ```
 <br/>
 
 **6. Sometimes we would like to execute different commands or calculations depending on the structure of our data. You learned about this in the *conditional execution* section of your reading. Expand your function from Exercise 5 to return "Date not available" if a year is supplied to the function but is not in the dataset.**
 ```{r}
 # your answer here
-winners_get_conditional <- function(yr) {
-  if (yr %in% winners$year) {
-    cols <- c('record_oty', 'album_oty', 'song_oty', 'new_artist_oty')
-    winnercols <- c('1', '2', '3')
-    all_winners <- winners %>% 
-      filter(year==yr) %>% 
-      pivot_longer(cols, names_to='award', values_to='winners') %>% 
-      separate(winners, ',', into=winnercols) %>% 
-      pivot_longer(winnercols, names_to='order', values_to='name') %>% 
-      mutate(order=as.numeric(order)) %>% 
-      drop_na(name)
-    return(all_winners)
-  }
-  else {
-    return ('Date not available')
-  }
-}
-print(winners_get_conditional(2000)) # should return string
-print(winners_get_conditional(2020)) # returns correct dataframe
 ```
 <br/>
 
@@ -119,10 +79,6 @@ print(winners_get_conditional(2020)) # returns correct dataframe
 **7. Now, using the `nominees` table, write code to calculate the percent of nominations that have only one performer. For this, you might want to consider using the `is.na()` function that you learned about in your reading.**
 ```{r}
 # your answer here
-noms_solo <- nominees %>% 
-  mutate(is_solo=is.na(performer2) & is.na(performer3)) %>% 
-  mutate(is_solo=as.numeric(is_solo))
-mean(noms_solo$is_solo)
 ```
 <br/>
 
@@ -136,28 +92,17 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 **Iterate over the states which issued travel restrictions, and print "[state abbreviation] issued travel restrictions but didn't require masks" if they did not require masks.**
 ```{r}
 # your answer here
-for (st in travel_restrictions) {
-  if (st %in% require_masks) {
-    print(cat(st, 'issued travel restrictions but didn\'t require masks'))
-  }
-}
 ```
 <br/>
 
 **9. Change one element or step in your answer to Exercise 8 to provide an alternative way of completing the exercise. For instance, if you did not use a for loop in your first attempt, perhaps use one now. If you did use a for loop in your first attempt, perhaps consider using `paste()` and `setdiff()` instead.**
 ```{r}
+# your answer here
 ```
 <br/>
 
 **10. Perform a transformation of your choice on one of the datasets provided for this Lab. Annotate your code to describe what your transformation does to someone who might later read your code (e.g. the TA ;) As a reminder, you should be at least modestly annotating all of your Lab answers.**
 ```{r}
 # your answer here
-winners %>% 
-  filter(year>2015) %>% # keepign only winners after 2015
-  select(record_oty, year) %>% # only keep two columns
-  separate(record_oty, ',', into=c('1','2','3')) %>%  # separate out artist order
-  pivot_longer(c('1','2','3'), names_to='order', values_to='artist') %>% # convert artist order to rows
-  drop_na(artist) # remove blank rows
-  
 ```
 
