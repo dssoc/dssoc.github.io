@@ -82,7 +82,7 @@ sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 a <- nominees %>% 
   mutate(nn=is.na(performer2)) %>% 
   group_by(nn) %>% 
-  summarise(a=)
+  count()
 ```
 <br/>
 
