@@ -155,3 +155,7 @@ tweets %>%
 # Your answer here
 ```
 
+**9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
+```{r}
+# Your answer here
+```
