@@ -18,6 +18,10 @@ Katya Ognyanova](https://kateto.net/networks-r-igraph)
 
 **Optional reading:** 
 
+* [Official documentation for `igraph` package](https://igraph.org/r/doc/)
+* [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
+* [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
+
 
 ### Required Datasets
 
@@ -67,7 +71,7 @@ The network data that you will be drawing on for this lab can be downloaded from
 <br/>
 
 
-**5. Using the `candidates_flw_am` adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Note: you may need to use the `as.matrix` function to the dataframe first if you are having data type problems.**
+**5. Using the `candidates_flw_am` *adjacency matrix*, create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Hints: (1) you may need to use the `as.matrix` function to the dataframe before converting to igraph if you are having problems with data types; (2) you may need to look through `igraph`'s official documentation (see link under "optional reading" above) to decide which function will convert adjacency matrices to igraph objects.**
 ```{r}
 # Yor answer here or in text.
 ```
