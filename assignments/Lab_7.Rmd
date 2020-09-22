@@ -89,7 +89,7 @@ We will use the following datasets for the exercises.
 ```
 <br/>
 
-**9. How could you use statistical modeling in the final project you have been developing? What inferences could you make from your data?**
+**9. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?**
 ```
 # Your answer here
 ```

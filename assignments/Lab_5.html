@@ -389,6 +389,11 @@ summary {
 </ul>
 <p><a href="https://r4ds.had.co.nz/program-intro.html">R for Data Science: Basic Programming (17-21)</a>.</p>
 <p><strong>Optional reading:</strong></p>
+<ul>
+<li><a href="https://igraph.org/r/doc/">Official documentation for <code>igraph</code> package</a></li>
+<li><a href="https://cran.r-project.org/web/packages/ggraph/ggraph.pdf">Official documentation for <code>ggraph</code> package</a></li>
+<li><a href="https://www.data-imaginist.com/2017/ggraph-introduction-layouts/">Introduction to <code>ggraph</code> layouts</a></li>
+</ul>
 <div id="required-datasets" class="section level3">
 <h3>Required Datasets</h3>
 <p>The network data that you will be drawing on for this lab can be downloaded from the course website:</p>
@@ -419,7 +424,7 @@ summary {
 <p><strong>4. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. Using the <code>candidates_flw_am</code> adjacency matrix (a data frame), create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Note: you may need to use the <code>as.matrix</code> function to the dataframe first if you are having data type problems.</strong></p>
+<p><strong>5. Using the <code>candidates_flw_am</code> <em>adjacency matrix</em>, create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Hints: (1) you may need to use the <code>as.matrix</code> function to the dataframe before converting to igraph if you are having problems with data types; (2) you may need to look through <code>igraph</code>’s official documentation (see link under “optional reading” above) to decide which function will convert adjacency matrices to igraph objects.</strong></p>
 <pre class="r"><code># Yor answer here or in text.</code></pre>
 <p><br /></p>
 <p><strong>6. Using the graph object that you created, indicate which candidate has the highest betweenness centrality, taking into account edge weight. If you had to write this finding in a research paper, how would you describe its meaning to a social science audience?</strong></p>
