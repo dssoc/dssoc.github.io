@@ -6,7 +6,7 @@ output: html_document
 ---
 
 
-In this lab, we will practice modeling data using R. Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice making statistical models of data using R. Throughout the lab we'll be using these models to understand how Spotify calculates their "popularity" scores assigned to each artist. Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 
