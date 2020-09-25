@@ -10,7 +10,7 @@ In this lab, we will practice working with application programming interfaces (A
 
 **Optional reading:** 
 
-* [rtweet R Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
+* [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
 * [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
 * [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
@@ -93,7 +93,7 @@ lim[, 1:4]
 <br/>
 
 
-**2. Use the API to augment `senator_data` with additional data from the Twitter platform. To do this, you will need to request information about each senator using the API, and then join (see `left_join`) the Twitter data into the existing dataframe to make a new dataframe called `senator_accounts`.**
+**2. Use the API to augment `senator_data` with additional data from the Twitter platform. Refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function you will need to use. To do this, you will need to request information about each senator using the API, and then join (see `left_join`) the Twitter data into the existing dataframe to make a new dataframe called `senator_accounts`.**
 ```{r}
 # Your answer here
 users <- lookup_users(senator_data$screen_name)
