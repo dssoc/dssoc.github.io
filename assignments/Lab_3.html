@@ -401,16 +401,8 @@ summary {
 <p><strong>Load the datasets:</strong></p>
 <pre class="r"><code>#library(tidyverse)
 #load(&#39;artist_meta.Rdata&#39;)
-library(tidyverse)</code></pre>
-<pre><code>## -- Attaching packages ------------------------------------------------------------------------------------------------- tidyverse 1.3.0 --</code></pre>
-<pre><code>## v ggplot2 3.3.2     v purrr   0.3.4
-## v tibble  3.0.1     v dplyr   1.0.0
-## v tidyr   1.1.0     v stringr 1.4.0
-## v readr   1.3.1     v forcats 0.5.0</code></pre>
-<pre><code>## -- Conflicts ---------------------------------------------------------------------------------------------------- tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()</code></pre>
-<pre class="r"><code>load(&#39;../datasets/artist_meta.Rdata&#39;)
+library(tidyverse)
+load(&#39;../datasets/artist_meta.Rdata&#39;)
 print(artist_meta)</code></pre>
 <pre><code>## # A tibble: 141 x 6
 ##    artist   wikipedia_link       spotifyID   followers popularity genre         
@@ -431,7 +423,7 @@ print(artist_meta)</code></pre>
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
 <p><br /></p>
-<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’. Note that any genre that includes the word “pop” should be considered as pop.</strong></p>
+<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’. Note that any genre that includes the word “pop” should be considered as pop. Hint: consider using the <code>grepl</code> and <code>ifelse</code> functions together, and a type conversion to get a factor variable. See “R for data science” Chapter 15 for more information about factor variables.</strong></p>
 <p><strong>Also notice one additional issue with the data that might cause issues later on: the <code>popularity</code> column is an integer list of size one. Consider using the <code>mutate</code> function with the <code>is.numeric</code> function to coerce the data into the type you need (see section 20.4.1 of <em>R for Data Science</em> to learn more).</strong></p>
 <pre class="r"><code># your answer here
 artist_meta &lt;- artist_meta %&gt;% 
