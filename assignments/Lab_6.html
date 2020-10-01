@@ -396,8 +396,8 @@ summary {
 <li><code>senator_data</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata">Senator_Profiles.Rdata</a> includes information about all senators, including their twitter handles (in the <code>screen_name</code> column).</li>
 </ol>
 <p><strong>Load the datasets and libraries:</strong></p>
-<pre class="r"><code>library(tidyverse)
-library(rtweet)
+<pre class="r"><code>#library(tidyverse)
+#library(rtweet)
 #load(&#39;../datasets/Senator_Profiles.Rdata&#39;)</code></pre>
 <p><br /><br /></p>
 </div>
@@ -447,7 +447,7 @@ lim[, 1:4]</code></pre>
 <p><strong>1. In your own words, describe what an application programming interface is, and why it is useful to data scientists/computational social scientists.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. Data science projects often require you to merge data from different sources. In this case, we already have <code>sentator_data</code> which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of “friends” they have and the number of statuses they have posted on Twitter. Use the API to augment <code>senator_data</code> with this additional data from the Twitter platform. You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use. After you request the data from the api, join (see <code>left_join</code>) the Twitter data into <code>the existing dataframe</code>senator_data<code>to make a new dataframe called</code>senator_accounts`.</strong></p>
+<p><strong>2. Data science projects often require you to merge data from different sources. In this case, we already have <code>sentator_data</code> which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of “friends” they have and the number of statuses they have posted on Twitter. Use the API to augment <code>senator_data</code> with this additional data from the Twitter platform. You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use. After you request the data from the api, join (see <code>left_join</code>) the Twitter data into <code>the existing dataframe</code>senator_data<code>to make a new dataframe called</code>senator_accounts`. NOTE: we don’t need to get the list followers or Tweets - we just need the <em>number</em> of friends and tweets.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form &quot;Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?</strong></p>
