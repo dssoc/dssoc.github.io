@@ -53,15 +53,18 @@ Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing
 
 ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus https://t.co/mo5bPUgGgC"
 
+# your solution here
 url_re <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
 ht_re <- "#\\w*[a-zA-Z]\\w*"
 
 str_view_all(ex, url_re)
 str_view_all(ex, ht_re)
+
 ```
 **2. Add two new columns to the `covid_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
 Hint: be sure to read the stringr documentation.
 ```{r}
+# your solution here
 covid_tweets <- covid_tweets %>% 
   mutate(n_link=(str_count(tweet_text, url_re))) %>% 
   mutate(n_ht=(str_count(tweet_text, ht_re)))
@@ -77,6 +80,7 @@ summary(m2)
 **3. Using stringr and dplyr, produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used.**
 Hints: (1) you may want to check out the `unnest` function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization.
 ```{r}
+# your solution here
 covid_tweets %>% 
   mutate(ht=str_extract_all(tweet_text, ht_re)) %>% 
   unnest(ht) %>%
@@ -89,6 +93,7 @@ covid_tweets %>%
 
 **4. Create a new column in `covid_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
+# your solution here
 covid_tweets <- covid_tweets %>% 
   mutate(cleaned=gsub(url_re, "", tweet_text)) %>% 
   mutate(cleaned=gsub(ht_re, "", cleaned))
@@ -100,6 +105,7 @@ covid_tweets %>% select(cleaned)
 **5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
+# your solution here
 topwords <- covid_tweets %>% 
   filter(language=='en') %>% 
   unnest_tokens('word', cleaned) %>% 
@@ -114,6 +120,7 @@ topwords %>% anti_join(stop_words)
 
 **6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.**
 ```{r}
+# your solution here
 dtm <- covid_tweets %>% 
   filter(language=='en') %>% 
   unnest_tokens('word', cleaned) %>% 
