@@ -25,8 +25,8 @@ We will use the following datasets for the exercises.
 
 **Load the datasets and libraries:**
 ```{r message=FALSE}
-library(tidyverse)
-library(rtweet)
+#library(tidyverse)
+#library(rtweet)
 #load('../datasets/Senator_Profiles.Rdata')
 load('../datasets/Senator_Profiles.Rdata')
 ```
@@ -93,7 +93,7 @@ lim[, 1:4]
 <br/>
 
 
-**2. Data science projects often require you to merge data from different sources. In this case, we already have `sentator_data` which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of "friends" they have and the number of statuses they have posted on Twitter. Use the API to augment `senator_data` with this additional data from the Twitter platform. You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. After you request the data from the api, join (see `left_join`) the Twitter data into `the existing dataframe`senator_data` to make a new dataframe called `senator_accounts`.**
+**2. Data science projects often require you to merge data from different sources. In this case, we already have `sentator_data` which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of "friends" they have and the number of statuses they have posted on Twitter. Use the API to augment `senator_data` with this additional data from the Twitter platform. You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. After you request the data from the api, join (see `left_join`) the Twitter data into `the existing dataframe`senator_data` to make a new dataframe called `senator_accounts`. NOTE: we don't need to get the list followers or Tweets - we just need the *number* of friends and tweets.**
 ```{r}
 # Your answer here
 users <- lookup_users(senator_data$screen_name)

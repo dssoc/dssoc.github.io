@@ -83,7 +83,7 @@ We will use the following datasets for the exercises.
 <br/>
 
 
-**8. Are there other unmeasured variables that might act as confounders we could not include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
+**8. Are there other unmeasured variables that might be confounding your models that we were not able to include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
 ```
 # Your answer here
 ```
@@ -94,3 +94,9 @@ We will use the following datasets for the exercises.
 # Your answer here
 ```
 <br/>
+
+
+**10. Describe one or two existing datasets that you would like to use for the project you've been developing last week. Will you be able to download the data from somewhere, or can you use an API? Will you be making statistical models, analyzing networks, doing text analysis, or creating visualizations? See the ["Final Project " section in the course description page on the website](https://dssoc.github.io/course/).**
+```
+# Your answer here
+```
