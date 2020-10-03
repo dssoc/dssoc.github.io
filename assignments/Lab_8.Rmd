@@ -5,17 +5,20 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice making statistical models of data using R. Throughout the lab we'll be using these models to understand how Spotify calculates their "popularity" scores assigned to each artist. Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_8.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 
-* R for Data Science: [Modeling (Chapter 14)](https://r4ds.had.co.nz/strings.html)
+* R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
 
 
 **Optional reading:** 
 
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
+* [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
 * Test and develop regex expressions on [regexr.com](https://regexr.com/)
+* [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
+
 
 
 
@@ -23,10 +26,10 @@ In this lab, we will practice making statistical models of data using R. Through
 
 We will use the following datasets for the exercises.
 
-(1) `artist_meta`: [artist_meta.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their spotify metadata.
+(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
 
 
-**Load the datasets and libraries. NOTE! It might be a good idea to convert the `popularity` column to a "double" type here to make later analyses easier. Do that here using the `mutate` and `as.integer` functions.**
+**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
 ```{r message=FALSE}
 library(tidyverse)
 library(stringr)
