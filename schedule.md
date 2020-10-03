@@ -469,16 +469,14 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i> <br/>
+<br/>
+
+
 <i>Required reading:</i> <br/>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
-<i>Assignment</i>:<br/>
-<code>Lab 8 Exercises - Intro to text data</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab8_IntroTextAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab8_IntroTextAnalysis.html">.html</a>)
-<br/><br/>
 
-For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/><br/>
 
 
 <i>Optional resources:</i><br/>
