@@ -26,11 +26,13 @@ We will use the following datasets for the exercises.
 
 **Load the datasets and libraries. NOTE! It might be a good idea to convert the `popularity` column to a "double" type here to make later analyses easier. Do that here using the `mutate` and `as.integer` functions.**
 ```{r message=FALSE}
-#library(tidyverse)
-#load('../datasets/artist_meta.Rdata')
-#head(artist_meta)
+library(tidyverse)
+library(MASS)
+load(url('https://dssoc.github.io/datasets/artist_meta.Rdata'))
+artist_meta <- artist_meta %>% mutate(popularity=as.integer(popularity))
+head(artist_meta)
 ```
-<br/><br/>
+<br/>
 
 
 ## Exercises
@@ -61,12 +63,26 @@ We will use the following datasets for the exercises.
 **4. Generate a new column of logical type called `is_pop` to indicate whether a given artist is categorized in any pop genre (e.g. any genre that includes the word "pop", like "rap pop", etc). Create another column named `is_rap` that indicates whether the artist has been included in any "rap" genre. Make summary statistics indicating how many artists fall into either category.**
 ```{r}
 # Your answer here
+artist_meta <- artist_meta %>% 
+  mutate(is_pop=grepl('pop', genre)) %>% 
+  mutate(is_rap=grepl('rap', genre))
+
+artist_meta %>% group_by(is_pop) %>% count()
+artist_meta %>% group_by(is_rap) %>% count()
+
 ```
 <br/>
 
 **5. Compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables? What are the relationships with those two variables and Spotify's popularity metric? Which ones are significant? What does that tell us about Spotify's measure of popularity?**
 ```{r}
 # Your answer here
+artist_meta <- artist_meta %>% 
+  mutate(is_popn=as.numeric(is_pop), is_rapn=as.numeric(is_rap))
+
+chisq.test(table(artist_meta$is_pop, artist_meta$is_rap))
+cor.test(artist_meta$is_popn, artist_meta$is_rapn)
+cor.test(artist_meta$is_popn, artist_meta$popularity)
+cor.test(artist_meta$is_rapn, artist_meta$popularity)
 ```
 <br/>
 
