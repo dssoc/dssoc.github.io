@@ -55,12 +55,14 @@ ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to ta
 
 # your solution here
 ```
+<br/>
+
 **2. Add two new columns to the `covid_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
 Hint: be sure to read the stringr documentation.
 ```{r}
 # your solution here
 ```
-
+<br/>
 
 
 **3. Using stringr and dplyr, produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used.**
@@ -68,13 +70,13 @@ Hints: (1) you may want to check out the `unnest` function; (2) for reference, t
 ```{r}
 # your solution here
 ```
-
+<br/>
 
 **4. Create a new column in `covid_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
 # your solution here
 ```
-
+<br/>
 
 
 **5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
@@ -89,12 +91,13 @@ Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
 # your solution here
 ```
-
+<br/>
 
 **7. How could you potentially use text analysis in the final project you have been working on? (You don't necessarily need to do it for the project, just think hypothetically).**
 ```
 response
 ```
+<br/>
 
 **8. Last week you proposed some datasets that you might be able to use for our final projects in the class. If you haven't yet, try to download or otherwise get access to the dataset so you can start playing with it. Either way, what did you find? Did your data have the information you needed after all? Was it as easy to access as you expected? Even if you're not able to get all the data by now, write something about your plan for getting access to the data.**
 ```

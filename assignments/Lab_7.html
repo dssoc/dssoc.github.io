@@ -391,13 +391,24 @@ summary {
 <h3>Required Datasets</h3>
 <p>We will use the following datasets for the exercises.</p>
 <ol style="list-style-type: decimal">
-<li><code>artist_meta</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a> is a table of Grammy nominee names and some of their spotify metadata.</li>
+<li><code>artist_meta</code>:` table of Grammy nominee names and some of their spotify metadata.</li>
 </ol>
 <p><strong>Load the datasets and libraries. NOTE! It might be a good idea to convert the <code>popularity</code> column to a “double” type here to make later analyses easier. Do that here using the <code>mutate</code> and <code>as.integer</code> functions.</strong></p>
-<pre class="r"><code>#library(tidyverse)
-#load(&#39;../datasets/artist_meta.Rdata&#39;)
-#head(artist_meta)</code></pre>
-<p><br /><br /></p>
+<pre class="r"><code>library(tidyverse)
+library(MASS)
+load(url(&#39;https://dssoc.github.io/datasets/artist_meta.Rdata&#39;))
+artist_meta &lt;- artist_meta %&gt;% mutate(popularity=as.integer(popularity))
+head(artist_meta)</code></pre>
+<pre><code>## # A tibble: 6 x 6
+##   artist   wikipedia_link       spotifyID   followers popularity genre          
+##   &lt;chr&gt;    &lt;chr&gt;                &lt;chr&gt;           &lt;int&gt;      &lt;int&gt; &lt;chr&gt;          
+## 1 Bon Iver https://en.wikipedi~ 4LEiUm1SRb~   2546477         79 chamber pop,ea~
+## 2 Billie ~ https://en.wikipedi~ 6qqNVTkY8u~  20409690         99 electropop,pop 
+## 3 Ariana ~ https://en.wikipedi~ 66CXWjxzNU~  42023952         95 dance pop,pop,~
+## 4 H.E.R.   https://en.wikipedi~ 3Y7RZ31TRP~   2150235         83 alternative r&amp;~
+## 5 Khalid   https://en.wikipedi~ 6LuN9FCkKO~  10408465         96 alternative r&amp;~
+## 6 Lil Nas~ https://en.wikipedi~ 7jVv8c5Fj3~   2456187         86 country rap,lg~</code></pre>
+<p><br /></p>
 </div>
 <div id="exercises" class="section level2">
 <h2>Exercises</h2>
