@@ -426,11 +426,74 @@ head(artist_meta)</code></pre>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>4. Generate a new column of logical type called <code>is_pop</code> to indicate whether a given artist is categorized in any pop genre (e.g. any genre that includes the word “pop”, like “rap pop”, etc). Create another column named <code>is_rap</code> that indicates whether the artist has been included in any “rap” genre. Make summary statistics indicating how many artists fall into either category.</strong></p>
-<pre class="r"><code># Your answer here</code></pre>
+<pre class="r"><code># Your answer here
+artist_meta &lt;- artist_meta %&gt;% 
+  mutate(is_pop=grepl(&#39;pop&#39;, genre)) %&gt;% 
+  mutate(is_rap=grepl(&#39;rap&#39;, genre))
+
+artist_meta %&gt;% group_by(is_pop) %&gt;% count()</code></pre>
+<pre><code>## # A tibble: 2 x 2
+## # Groups:   is_pop [2]
+##   is_pop     n
+##   &lt;lgl&gt;  &lt;int&gt;
+## 1 FALSE     44
+## 2 TRUE      97</code></pre>
+<pre class="r"><code>artist_meta %&gt;% group_by(is_rap) %&gt;% count()</code></pre>
+<pre><code>## # A tibble: 2 x 2
+## # Groups:   is_rap [2]
+##   is_rap     n
+##   &lt;lgl&gt;  &lt;int&gt;
+## 1 FALSE    110
+## 2 TRUE      31</code></pre>
 <p><br /></p>
 <p><strong>5. First compute a measure of the relationship (you may use correlations or chi-squared tests here) between the <code>is_pop</code> and <code>is_rap</code> variables. Then compute the relationships with each of those two variables and Spotify’s popularity metric. Which relationships are statistically significant? What does that tell us about Spotify’s measure of popularity?</strong></p>
 <p>Note: you should end up with three models - one for each pairwise similarity test.</p>
-<pre class="r"><code># Your answer here</code></pre>
+<pre class="r"><code># Your answer here
+artist_meta &lt;- artist_meta %&gt;% 
+  mutate(is_popn=as.numeric(is_pop), is_rapn=as.numeric(is_rap))
+
+chisq.test(table(artist_meta$is_pop, artist_meta$is_rap))</code></pre>
+<pre><code>## 
+##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
+## 
+## data:  table(artist_meta$is_pop, artist_meta$is_rap)
+## X-squared = 0.91013, df = 1, p-value = 0.3401</code></pre>
+<pre class="r"><code>cor.test(artist_meta$is_popn, artist_meta$is_rapn)</code></pre>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  artist_meta$is_popn and artist_meta$is_rapn
+## t = 1.1708, df = 139, p-value = 0.2437
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  -0.06759478  0.25988812
+## sample estimates:
+##        cor 
+## 0.09882162</code></pre>
+<pre class="r"><code>cor.test(artist_meta$is_popn, artist_meta$popularity)</code></pre>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  artist_meta$is_popn and artist_meta$popularity
+## t = 2.435, df = 139, p-value = 0.01616
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.03823518 0.35568767
+## sample estimates:
+##       cor 
+## 0.2022688</code></pre>
+<pre class="r"><code>cor.test(artist_meta$is_rapn, artist_meta$popularity)</code></pre>
+<pre><code>## 
+##  Pearson&#39;s product-moment correlation
+## 
+## data:  artist_meta$is_rapn and artist_meta$popularity
+## t = 3.6621, df = 139, p-value = 0.0003547
+## alternative hypothesis: true correlation is not equal to 0
+## 95 percent confidence interval:
+##  0.138093 0.440352
+## sample estimates:
+##       cor 
+## 0.2966334</code></pre>
 <p><br /></p>
 <p><strong>6. Use <code>ggplot</code> to create <a href="https://www.r-graph-gallery.com/boxplot.html">box plots</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plots</a> showing the popularity by <code>is_pop</code> and <code>is_rap</code>. What can you say about the data from these plots?</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
