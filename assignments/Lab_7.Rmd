@@ -5,8 +5,9 @@ date: ""
 output: html_document
 ---
 
+In this lab, we will practice making statistical models of data using R. Throughout the lab we'll be using these models to understand how Spotify calculates their "popularity" scores assigned to each artist. This is a synthetic score that spotify assigns to each song based on some features of user data. We start on the premise that Spotify may consider some of the features in our dataset when creating the score.
 
-In this lab, we will practice making statistical models of data using R. Throughout the lab we'll be using these models to understand how Spotify calculates their "popularity" scores assigned to each artist. Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+Edit the Lab #7 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_7.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 
@@ -46,7 +47,11 @@ head(artist_meta)
 <br/>
 
 
-**2. What is the correlation and statistical significance (measured by p-value) between an artist's popularity and their number of followers on Spotify? Why would this correlation be less than 1.0? Hint: you may find the `cor.test` function helpful. (Note: be sure you have converted the `popularity` column to numeric, as described above.)**
+**2. What is the correlation and statistical significance (measured by p-value) between an artist's popularity and their number of followers on Spotify? Why would this correlation be less than 1.0?**
+
+Note: be sure you have converted the `popularity` column to numeric, as described above.
+
+Hint: you may find the `cor.test` function helpful.
 ```{r}
 # Your answer here
 ```
@@ -66,7 +71,9 @@ head(artist_meta)
 ```
 <br/>
 
-**5. Compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables? What are the relationships with those two variables and Spotify's popularity metric? Which ones are significant? What does that tell us about Spotify's measure of popularity?**
+**5. First compute a measure of the relationship (you may use correlations or chi-squared tests here) between the `is_pop` and `is_rap` variables. Then compute the relationships with each of those two variables and Spotify's popularity metric. Which relationships are statistically significant? What does that tell us about Spotify's measure of popularity?**
+
+Note: you should end up with three models - one for each pairwise similarity test.
 ```{r}
 # Your answer here
 ```
@@ -85,7 +92,11 @@ head(artist_meta)
 <br/>
 
 
-**8. Are there other unmeasured variables that might be confounding your models that we were not able to include in the model? For instance, perhaps our measurement pop genre categorization actually captures some other aspect of the song that Spotify uses to generate the measure of popularity. Name *two*.**
+**8. Name *two* unobserved but possibly important variables that we could not include in our model because we don't have them in our dataset. Do any of our observed variables act as confounders for the unobserved variables? As in, might there be other features that Spotify uses to generate the popularity measure that we cannot see here, but nevertheless are represented in the model indirectly?**
+
+Hint: you may need to do research about unobserved and confounding variables to answer this question.
+
+Note: these types of questions are critical to consider when assessing our data science models. Be sure to think about them when you examine the results of your data science project.
 ```
 # Your answer here
 ```
