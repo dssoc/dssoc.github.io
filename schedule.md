@@ -100,7 +100,7 @@ allowfullscreen></iframe>
 <i>Materials from Video:</i><br/>
 
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Coronavirus_Tweets.Rdata">Coronavirus Tweets Dataset</a></li>
+  <li><a href = "/datasets/Coronavirus_Tweets.Rdata">Coronavirus Tweets Dataset</a></li>
 </ul>
 
 <i>Optional Resource:</i><br/>
@@ -149,7 +149,7 @@ allowfullscreen></iframe>
 <i>Materials from Video:</i><br/>
 
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset (From Video)</a></li>
+  <li><a href = "/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset (From Video)</a></li>
 </ul>
 
 <i>Optional resources:</i><br/>
@@ -266,7 +266,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
+  <li><a href = "/datasets/Senators_Data.Rdata">Download Senators Dataset</a></li>
 </ul>
 
 <i>Optional Resources:</i><br/>
@@ -283,8 +283,8 @@ allowfullscreen></iframe>
 <code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
+- <a href = "/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a><br/>
+- <a href = "/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a><br/>
 <br/>
 <i>Optional resources:</i><br/>
 <ul>
@@ -330,8 +330,8 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata">Senator Profiles Dataset</a></li>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senate_Networks.Rdata">Senate Networks</a></li>
+  <li><a href = "/datasets/Senator_Profiles.Rdata">Senator Profiles Dataset</a></li>
+  <li><a href = "/datasets/Senate_Networks.Rdata">Senate Networks</a></li>
 </ul>
 
 
@@ -428,7 +428,7 @@ allowfullscreen></iframe>
 
 <i>Materials from Video:</i><br/>
 <ul>
-  <li><a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
+  <li><a href = "/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
 </ul>
 
 <i>Required reading:</i> <br/>
@@ -526,7 +526,7 @@ allowfullscreen></iframe>
 <code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
 <br/>
 For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+- <a href = "/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
 
 <i>Optional resources:</i><br/>
 <ul>
@@ -580,7 +580,7 @@ allowfullscreen></iframe>
 <br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
-- <a href = "https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
+- <a href = "/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
 
 </div>
 
