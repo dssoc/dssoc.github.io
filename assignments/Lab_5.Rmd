@@ -6,7 +6,7 @@ output: html_document
 ---
 
 
-In this lab, we will practice the fundamentals of social network analysis. Edit the Lab #5 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_5.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice the fundamentals of social network analysis. Edit the Lab #5 markdown file ([link to file](/assignments/Lab_5.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required readings:** 
 
@@ -27,9 +27,9 @@ Katya Ognyanova](https://kateto.net/networks-r-igraph)
 
 The network data that you will be drawing on for this lab can be downloaded from the course website: 
 
-(1) `canidates_flw_el`: [dnc_canidates_flw_el.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
+(1) `canidates_flw_el`: [dnc_canidates_flw_el.Rdata](/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
 
-(2) `canidates_flw_am`: [dnc_canidates_flw_am.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
+(2) `canidates_flw_am`: [dnc_canidates_flw_am.Rdata](/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
 
 
 **Load the datasets:**

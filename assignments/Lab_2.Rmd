@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this lab, we will practice working with several datasets to become comfortable with R. To submit your answer, you'll need to edit this markdown document (you can copy and paste the text form [this link](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_2.Rmd) into a new `.Rmd` file or write a new one from scratch. If you copy and paste, Rremember to change the "author" field above to your name. After you've edited it, save it and then send it to your TA via direct message on Slack.
+In this lab, we will practice working with several datasets to become comfortable with R. To submit your answer, you'll need to edit this markdown document (you can copy and paste the text form [this link](/assignments/Lab_2.Rmd) into a new `.Rmd` file or write a new one from scratch. If you copy and paste, Rremember to change the "author" field above to your name. After you've edited it, save it and then send it to your TA via direct message on Slack.
 
 **Optional resources:**
 
@@ -21,9 +21,9 @@ In this lab, we will practice working with several datasets to become comfortabl
 
 To complete this lab, you'll need the following datasets that describe Grammy-award winning musicians: 
 
-(1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
-(2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
-(2) `artist_wiki`: [artist_wikipedia.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
+(1) `nominees`: [grammy_nominees_20102020.Rdata](/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(2) `winners`: [grammy_winners_20102020.Rdata](/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
+(2) `artist_wiki`: [artist_wikipedia.Rdata](/datasets/artist_wikipedia.Rdata) is a table of Grammy nominee names and their wikipedia pages. 
 
 In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: https://r4ds.had.co.nz/wrangle-intro.html
 <br>

@@ -5,7 +5,7 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_8.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file ([link to file](/assignments/Lab_8.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 

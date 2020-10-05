@@ -6,7 +6,7 @@ output: html_document
 ---
 
 
-In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_6.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file ([link to file](/assignments/Lab_6.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Optional reading:** 
 
@@ -20,7 +20,7 @@ In this lab, we will practice working with application programming interfaces (A
 
 We will use the following datasets for the exercises.
 
-(1) `senator_data`: [Senator_Profiles.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/Senator_Profiles.Rdata) includes information about all senators, including their twitter handles (in the `screen_name` column).
+(1) `senator_data`: [Senator_Profiles.Rdata](/datasets/Senator_Profiles.Rdata) includes information about all senators, including their twitter handles (in the `screen_name` column).
 
 
 **Load the datasets and libraries:**
