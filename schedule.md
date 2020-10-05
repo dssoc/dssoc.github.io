@@ -94,7 +94,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
+<i><b><a href = "/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
 <br/>
 
 <i>Materials from Video:</i><br/>
