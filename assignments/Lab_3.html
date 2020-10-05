@@ -381,7 +381,7 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice visualizing data. Edit the Lab #3 markdown file (<a href="https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_3.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.</p>
+<p>In this lab, we will practice visualizing data. Edit the Lab #3 markdown file (<a href="/assignments/Lab_3.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.</p>
 <p>The exercises in this lab correspond with <em>R for Data Science</em> (Wickham), <a href="https://r4ds.had.co.nz/data-visualisation.html">chapters 3 and 28</a>, and <em>Data Visualization a Practical Introduction</em> (Healy), <a href="http://socviz.co/lookatdata.html">chapter 1</a>.</p>
 <p><strong>Optional Resources:</strong></p>
 <ul>
@@ -396,7 +396,7 @@ summary {
 <h3>Required Dataset</h3>
 <p>The data that you will be using for this lab can be downloaded from the course website:</p>
 <ul>
-<li><code>artist_meta</code>: <a href="https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata">artist_meta.Rdata</a> is a table of Grammy nominee names and some of their metadata.</li>
+<li><code>artist_meta</code>: <a href="/datasets/artist_meta.Rdata">artist_meta.Rdata</a> is a table of Grammy nominee names and some of their metadata.</li>
 </ul>
 <p><strong>Load the datasets:</strong></p>
 <pre class="r"><code>#library(tidyverse)
@@ -406,7 +406,7 @@ summary {
 <div id="exercises" class="section level3">
 <h3>Exercises</h3>
 <p><br /></p>
-<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’. Note that any genre that includes the word “pop” should be considered as pop.</strong></p>
+<p><strong>1. Using the <code>artist_meta</code> table, create a new factor variable (<code>is_pop</code>) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be ‘pop’ and ‘not pop’. Note that any genre that includes the word “pop” should be considered as pop. Hint: consider using the <code>grepl</code> and <code>ifelse</code> functions together, and a type conversion to get a factor variable. See “R for data science” Chapter 15 for more information about factor variables.</strong></p>
 <p><strong>Also notice one additional issue with the data that might cause issues later on: the <code>popularity</code> column is an integer list of size one. Consider using the <code>mutate</code> function with the <code>is.numeric</code> function to coerce the data into the type you need (see section 20.4.1 of <em>R for Data Science</em> to learn more).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
