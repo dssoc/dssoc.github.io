@@ -143,7 +143,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+<i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
 
 <br/>
 <i>Materials from Video:</i><br/>
@@ -194,7 +194,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 09/12)</i> <br/>
+<i><b><a href = "/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 09/12)</i> <br/>
 
 <br/>
 
@@ -260,7 +260,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
+<i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
 
 <br/>
 
@@ -324,7 +324,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
+<i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
 
 <br/>
 
@@ -379,7 +379,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
+<i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
 <br/>
 
 
@@ -423,7 +423,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i> <br/>
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i> <br/>
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -469,7 +469,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i> <br/>
+<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i> <br/>
 <br/>
 
 
@@ -523,7 +523,7 @@ allowfullscreen></iframe>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
 <i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
+<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
 <br/>
 For these excercises, you will need the following datasets:<br/>
 - <a href = "/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
@@ -576,7 +576,7 @@ allowfullscreen></iframe>
 <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li></ul><br/>
 
 <i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
+<code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
 <br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
