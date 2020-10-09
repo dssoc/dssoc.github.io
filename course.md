@@ -69,7 +69,7 @@ Please download Slack to your desktop and/or phone and tablet and join [this wor
 
 ***Stack Overflow***
 <br/>
-The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our group research project and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
+The field of computational social science is going so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our final research projects and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
 <br/>
 
 ***Twitter/Blogs***
@@ -79,7 +79,7 @@ Many of the most important advances in computational social science appear first
 
 ### FORMAL REQUIREMENTS
 
-This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science and an original group research project that you will create in small teams. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
+This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science and an original final research project that you will create before the end of the semester. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
 <br/>
 
 ***Weekly Readings***
