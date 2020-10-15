@@ -55,7 +55,7 @@ ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to ta
 
 # your solution here
 url_re <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
-ht_re <- "#\\w*[a-zA-Z]\\w*"
+ht_re <- "#[a-zA-Z0-9_]\\w*"
 
 str_view_all(ex, url_re)
 str_view_all(ex, ht_re)
