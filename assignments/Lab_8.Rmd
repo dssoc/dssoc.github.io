@@ -16,9 +16,8 @@ In this lab, we will practice working with text using stringr, tidytext, and tm 
 
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-* Test and develop regex expressions on [regexr.com](https://regexr.com/)
 * [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
-
+* Test and develop regex expressions on [regexr.com](https://regexr.com/)
 
 
 
@@ -71,7 +70,7 @@ Hint: be sure to read the stringr documentation.
 
 **3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used.**
 
-Hints: (1) you may want to check out the `unnest` function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization.
+Hints: (1) you may want to check out the `unnest` function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization if you specified the regex according to the details I gave in question 1.
 ```{r}
 # your solution here
 ```
