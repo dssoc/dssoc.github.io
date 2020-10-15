@@ -5,7 +5,7 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #9 markdown file ([link to file](/assignments/Lab_9.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with dictionary-based methods for text analysis. Edit the Lab #9 markdown file ([link to file](/assignments/Lab_9.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 
@@ -16,7 +16,6 @@ In this lab, we will practice working with text using stringr, tidytext, and tm 
 
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-* [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
 * Test and develop regex expressions on [regexr.com](https://regexr.com/)
 
 
@@ -80,25 +79,12 @@ your written explanation here
 **5. Create a new column in covid_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
 ```{r}
 # your answer here
-covid_tweets <- covid_tweets %>% 
-  mutate(hr=as.POSIXlt(date)$hour)
-hist(covid_tweets$hr, breaks=seq(0, 24, by=3))
 ```
 
 
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
 ```{r}
 # your answer here
-sent <- get_sentiments("bing")
-
-covid_tweets %>% 
-  select(date, tweet_text, hr) %>% 
-  mutate(daytime=hr>8 & hr<20) %>% 
-  unnest_tokens(word, tweet_text) %>% 
-  inner_join(get_sentiments("bing")) %>% 
-  count(date, daytime, sentiment) %>% 
-  group_by(daytime, sentiment) %>% 
-  summarize(score=mean(n))
 ```
 ```
 Explain why you chose to compute sentiment in this way.
