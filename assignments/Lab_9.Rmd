@@ -79,12 +79,23 @@ your written explanation here
 **5. Create a new column in covid_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
 ```{r}
 # your answer here
+covid_tweets <- covid_tweets %>% 
+  mutate(hr=as.POSIXlt(date)$hour)
+hist(covid_tweets$hr, breaks=seq(0, 24, by=3))
 ```
 
 
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
 ```{r}
 # your answer here
+covid_tweets %>% 
+  select(date, tweet_text, hr) %>% 
+  mutate(daytime=hr>8 & hr<20) %>% 
+  unnest_tokens(word, tweet_text) %>% 
+  inner_join(get_sentiments("bing")) %>% 
+  count(date, daytime, sentiment) %>% 
+  group_by(daytime, sentiment) %>% 
+  summarize(score=mean(n))
 ```
 ```
 Explain why you chose to compute sentiment in this way.
