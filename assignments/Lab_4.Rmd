@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_4.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack. Be sure to do the required reading!
+In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file ([link to file](/assignments/Lab_4.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack. Be sure to do the required reading!
 
 **Required reading:** [R for Data Science: Basic Programming (17 -21)](https://r4ds.had.co.nz/program-intro.html).
 
@@ -20,8 +20,8 @@ In this lab, we will practice the fundamentals of programming. Edit the Lab #4 m
 
 The tables that you will be drawing on for this lab can be downloaded from the course website: 
 
-(1) `nominees`: [grammy_nominees_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
-(2) `winners`: [grammy_winners_20102020.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
+(1) `nominees`: [grammy_nominees_20102020.Rdata](/datasets/grammy_nominees_20102020.Rdata) is a table of Grammy nominees from 2010 to 2020 in the categories "Album of the year" (album_oty), "Record of the year" (record_oty), "Song of the year (song_oty), and "Best new artist of the year" (new_artist_oty).
+(2) `winners`: [grammy_winners_20102020.Rdata](/datasets/grammy_winners_20102020.Rdata) is a table of Grammy winners for the above listed categories, from 2010 to 2020.
 
 
 The exercises in this lab correspond with R for Data Science, [chapters 17 - 21](https://r4ds.had.co.nz/program-intro.html):

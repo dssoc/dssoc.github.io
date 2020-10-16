@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this lab, we will practice visualizing data. Edit the Lab #3 markdown file ([link to file](https://github.com/dssoc/dssoc.github.io/raw/master/assignments/Lab_3.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.
+In this lab, we will practice visualizing data. Edit the Lab #3 markdown file ([link to file](/assignments/Lab_3.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.
 
 The exercises in this lab correspond with  *R for Data Science* (Wickham), [chapters 3 and 28](https://r4ds.had.co.nz/data-visualisation.html), and *Data Visualization a Practical Introduction* (Healy), [chapter 1](http://socviz.co/lookatdata.html).
 
@@ -27,7 +27,7 @@ The exercises in this lab correspond with  *R for Data Science* (Wickham), [chap
 
 The data that you will be using for this lab can be downloaded from the course website: 
 
-- `artist_meta`: [artist_meta.Rdata](https://github.com/dssoc/dssoc.github.io/raw/master/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their metadata.
+- `artist_meta`: [artist_meta.Rdata](/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their metadata.
 
 
 **Load the datasets:**
