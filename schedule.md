@@ -540,9 +540,6 @@ allowfullscreen></iframe>
 <ul>
   <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
   <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
-  <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
-  <li><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></li>
-  <li><a href = "http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf/"> Background Paper on Topic Modeling</a></li>
 </ul>
 </div>
 
@@ -578,17 +575,33 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i>Required reading:</i> <br/>   
+
+
+<!--<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>-->
+<br/>
+<br/>
+
+<i>Materials from Video:</i><br/>
 <ul>
-<li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
+  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
 </ul>
 
-<i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
-<br/><br/>
+<i>Required reading:</i><br/>
+<ul>
+  <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
+</ul>
 
-For these excercises, you will need the following datasets:<br/>
-- <a href = "/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
+<i>Optional resources:</i><br/>
+<ul>
+
+  <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
+  <li><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></li>
+  <li><a href = "http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf/"> Background Paper on Topic Modeling</a></li>
+  
+  <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
+  <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
+  
+</ul>
 
 </div>
 
