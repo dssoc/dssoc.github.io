@@ -475,7 +475,9 @@ allowfullscreen></iframe>
 
 <i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li>
+</ul>
+<br/>
 
 
 
@@ -519,14 +521,18 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
+<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i> <br/>
+<br/>
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
+</ul>
+
 <i>Required reading:</i> <br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
-<i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
-<br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+  <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li>
+</ul>
 
 <i>Optional resources:</i><br/>
 <ul>
