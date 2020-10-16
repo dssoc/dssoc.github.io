@@ -77,6 +77,8 @@ your written explanation here
 
 
 **5. Create a new column in covid_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+
+Hint: you may need to use `as.POSIXlt` to convert date information.
 ```{r}
 # your answer here
 ```
