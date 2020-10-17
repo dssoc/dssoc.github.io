@@ -589,6 +589,8 @@ allowfullscreen></iframe>
 <i>Required reading:</i><br/>
 <ul>
   <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
+  <li><a href = "https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm Package Vignette</a></li>
+  
 </ul>
 
 <i>Optional resources:</i><br/>
@@ -596,8 +598,6 @@ allowfullscreen></iframe>
 
   <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
   <li><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></li>
-  <li><a href = "http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf/"> Background Paper on Topic Modeling</a></li>
-  
   <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
   <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
   
