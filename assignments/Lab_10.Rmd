@@ -116,35 +116,6 @@ plot_topwords(tm)
 your answer here
 ```
 
-**6. Now say we want to compare the word distributions for two topics in our model. Make a function that accepts a topic model object and two topics (as numbers) to compare. The function should return a plot (output from ggplot) showing words that are much more associated with the first topic than the second. Then call your new function to compare the two topics you described in the previous question. What do you see?**
-
-Hint: you will need to find a way to compare the probabilities for each word between the two topics - consider taking a raw difference or log ratio.
-
-Note: you should be able to re-use this function for later work if you wish.
-```{r}
-# your answer here
-plot_topic_diff <- function(tm, t1, t2) {
-  topwords <- tm %>% tidy(matrix='beta')
-  dists <- topwords %>% 
-    filter(topic==t1) %>% 
-    inner_join(topwords %>% filter(topic==t2), by='term') %>% 
-    mutate(diff=beta.x-beta.y, term=as.factor(term)) %>% 
-    select(term, diff)
-  
-  plot <- dists %>% 
-  top_n(10, diff) %>% 
-  ggplot(aes(weight=diff, y=reorder(term, diff), fill=diff)) +
-  geom_bar()
-  return(plot)
-}
-
-plot_topic_diff(tm, 1, 5)
-
-```
-```
-your answer here
-```
-
 **7. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
 
 Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date.
