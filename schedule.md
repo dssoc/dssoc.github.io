@@ -423,8 +423,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i> <br/>
-<br/>
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i>
+<br/><br/>
 
 <i>Materials from Video:</i><br/>
 <ul>
@@ -469,15 +469,18 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i> <br/>
-<br/>
+<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i>
+<br/><br/>
 
-
-<i>Required reading:</i> <br/>
+<i>Materials from Video:</i><br/>
 <ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
+  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
+</ul>
 
-
+<i>Required reading:</i><br/>
+<ul>
+<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li>
+</ul>
 
 <i>Optional resources:</i><br/>
 <ul>
@@ -519,23 +522,24 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
-<i>Required reading:</i> <br/>
-<ul>
-<li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li></ul><br/>
-<i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Sentiment Analysis</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab9_SentimentAnalysis.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab9_SentimentAnalysis.html">.html</a>)
+<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i>
 <br/>
-For these excercises, you will need the following datasets:<br/>
-- <a href = "/datasets/artist_meta.Rdata">artist_meta.Rdata</a><br/>
+<br/>
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
+</ul>
+
+<i>Required reading:</i><br/>
+<ul>
+  <li>R for Data Science: <a href = "https://r4ds.had.co.nz/strings.html">Strings (chapter 14)</a></li>
+</ul>
 
 <i>Optional resources:</i><br/>
 <ul>
-  <li><b><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a></b>, by Julia Silge and David Robinson</li>
-  <li><b><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></b></li>
-  <li><b><a href = "https://quanteda.io/"><code>quanteda</code> package</a></b></li>
-  <li><b><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></b></li>
-  <li><b><a href = "http://www.cs.columbia.edu/~blei/papers/Blei2012.pdf/"> Background Paper on Topic Modeling</a></b></li>
-  <br/>
+  <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
+  <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
 </ul>
 </div>
 
@@ -571,16 +575,33 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i>Required reading:</i> <br/>   
+
+
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>
+<br/>
+<br/>
+
+<i>Materials from Video:</i><br/>
 <ul>
-<li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li></ul><br/>
+  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
+</ul>
 
-<i>Assignment</i>:<br/>
-<code>Lab 9 Exercises - Intro to Topic Models</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab10_TopicModeling.Rmd">.Rmd</a>) (<a href = "/assignments/DSS_Lab10_TopicModeling.html">.html</a>)
-<br/><br/>
+<i>Required reading:</i><br/>
+<ul>
+  <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
+  <li><a href = "https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm Package Vignette</a></li>
+  
+</ul>
 
-For these excercises, you will need the following datasets:<br/>
-- <a href = "/datasets/artist_meta_wWikitext.Rdata">artist_meta_wWikitext.Rdata</a><br/>
+<i>Optional resources:</i><br/>
+<ul>
+
+  <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
+  <li><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></li>
+  <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
+  <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
+  
+</ul>
 
 </div>
 
