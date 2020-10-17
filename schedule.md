@@ -577,7 +577,7 @@ allowfullscreen></iframe>
 
 
 
-<!--<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>-->
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>
 <br/>
 <br/>
 
