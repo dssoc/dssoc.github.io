@@ -15,7 +15,7 @@ library('WikipediR')
 # last_name, first_name, middle_name, suffix, nickname, full_name, birthday, gender, type, state, district, senate_class, party, url, address, phone, contact_form, rss_url, twitter, facebook, youtube, youtube_id, bioguide_id, thomas_id, opensecrets_id, lis_id, fec_ids, cspan_id, govtrack_id, votesmart_id, ballotpedia_id, washington_post_id, icpsr_id, wikipedia_i, 
 
 
-congress_info <- read.csv("C:\\Users\\Devin\\Downloads\\legislators-current.csv")
+congress_info <- read.csv("C:\\Users\\Devin\\Downloads\\legislators-current.csv", stringsAsFactors = FALSE)
 
 congress <- congress_info %>% 
   select(last_name, full_name, birthday, gender, type, state, party, phone, twitter, 
@@ -25,13 +25,15 @@ congress_ids <- congress_info %>%
   select(bioguide_id, youtube_id, thomas_id, opensecrets_id, lis_id, fec_ids, cspan_id, 
          govtrack_id, votesmart_id, ballotpedia_id, icpsr_id, wikipedia_id)
 
-committees <- read.csv('C:\\Users\\Devin\\Downloads\\committee-membership-current.csv') %>% 
+committees <- read.csv('C:\\Users\\Devin\\Downloads\\committee-membership-current.csv', stringsAsFactors = FALSE) %>% 
   select(!(date:chamber)) %>% 
   select(!(X)) %>% 
   relocate(committee, bioguide, before=name)
 
-congress_wiki <- read.csv('C:\\Users\\Devin\\Downloads\\wikipedia_pages2.csv') %>% 
-  select(bioguide_id,	wikipedia_id,	title,	summary,	references,	categories,	url)
+congress_wiki <- read.csv('C:\\Users\\Devin\\Downloads\\wikipedia_pages2.csv', stringsAsFactors = FALSE) %>% 
+  select(bioguide_id,	wikipedia_id,	title,	content,	references,	categories,	url) %>% 
+  rename(text=content)
+  
 
 
 save(congress, congress_ids, committees, congress_wiki, file='congress.RData')

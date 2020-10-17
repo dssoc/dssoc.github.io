@@ -1,0 +1,253 @@
+---
+title: "Lab #10: Your First Topic Model"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+In this lab, we will practice working with topic modeling algorithms. Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+
+**Required reading:** 
+
+* [stm Package Vignette](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
+
+
+**Optional reading:** 
+
+* [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
+* [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
+* Test and develop regex expressions on [regexr.com](https://regexr.com/)
+
+
+
+### Required Datasets
+
+We will use the following datasets for the exercises.
+
+(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
+
+
+**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
+```{r message=FALSE}
+library(tidytext)
+library(tidyverse)
+library(tidyr)
+library(dplyr)
+library(tm)
+library(stringr)
+library(topicmodels)
+library(ggplot2)
+library(stm)
+
+# THIS SHOULD WORK AS-IS
+load('../congress.RData')
+```
+<br/>
+
+
+
+## Exercises
+<br/>
+
+
+**1. Describe a document-term matrix (DTM) in your own words. Why is this data structure useful for text analysis?**
+```
+your answer here
+```
+
+
+**2. Describe a topic modeling algorithm in your own words. What is the input to a topic modeling algorithm (after parsing the raw text)? What does the actual topic model look like? How do you choose the number of topics? What are the beta parameter estimates?**
+```
+your answer here
+```
+
+**3. Join the columns of `congress` with `congress_wiki` so that you should have congress member information (gender, type, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
+```{r}
+# your answer here
+wiki_info <- congress_wiki %>% left_join(congress)
+dtm <- wiki_info %>% 
+  select(bioguide_id, text) %>% 
+  unnest_tokens('word', 'text') %>% 
+  anti_join(stop_words) %>% 
+  count(bioguide_id, word) %>% 
+  cast_dtm(bioguide_id, word, n)
+```
+
+**4. Construct a topic model with LDA with a specified random seed (see the `control` parameter. This might take a little while to run. You can choose the number of topics.**
+```{r}
+# your answer here
+tm <- LDA(dtm, k=10, control=list(seed=0))
+```
+
+
+**5. Make a function that accepts (takes as an argument) a topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
+```{r}
+# your answer here
+
+plot_topwords <- function(tm) {
+  topwords <- tm %>% 
+    tidy(matrix='beta') %>% 
+    group_by(topic) %>% 
+    top_n(10, beta) %>% 
+    ungroup() %>% 
+    arrange(topic, -beta)
+
+  plot <- topwords %>% ggplot(aes(x=reorder(term, beta), y=beta, fill=(topic))) + 
+                geom_col(show.legend=FALSE) +
+                facet_wrap(~topic, scales='free') +
+                theme(plot.title=element_text(hjust=0.5, size=18)) +
+                xlab("") + ylab("") +
+                theme_minimal() +
+                coord_flip()
+  return(plot)
+}
+
+plot_topwords(tm)
+
+```
+```
+your answer here
+```
+
+**6. Now say we want to compare the word distributions for two topics. Make a function that accepts a topic model object and two topics (as numbers) to compare. The function should return a plot showing words that are much more associated with the first topic than the second. Then call your new function comparing the two topics you described in the previous question. What do you see?**
+
+Hint: you will need to find a way to compare the probabilities for each word between the two topics - consider taking a raw difference or log ratio.
+
+Note: you should be able to re-use this function for later work if you wish.
+```{r}
+# your answer here
+plot_topic_diff <- function(tm, t1, t2) {
+  topwords <- tm %>% tidy(matrix='beta')
+  dists <- topwords %>% 
+    filter(topic==t1) %>% 
+    inner_join(topwords %>% filter(topic==t2), by='term') %>% 
+    mutate(diff=beta.x-beta.y, term=as.factor(term)) %>% 
+    select(term, diff)
+  
+  plot <- dists %>% 
+  top_n(10, diff) %>% 
+  ggplot(aes(weight=diff, y=reorder(term, diff), fill=diff)) +
+  geom_bar()
+  return(plot)
+}
+
+plot_topic_diff(tm, 1, 5)
+
+```
+```
+your answer here
+```
+
+**7. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topic is capturing?**
+
+Hint: you'll need to recal some of the string techniques we've used before to calculate age based on birth date.
+```{r}
+# your answer here
+
+covariates <- wiki_info %>% 
+  select(birthday, gender, party, type) %>% 
+  mutate(type=as.factor(type)) %>% 
+  mutate(birthyear=as.numeric(sapply(strsplit(birthday, '-'), `[`, 1))) %>% 
+  mutate(age=2020-birthyear)
+
+processed <- textProcessor(wiki_info$text, metadata=covariates)
+prep <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+
+
+formula <- ~ gender + party + type + age
+wiki_stm <- stm(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, 
+                K=10, verbose=FALSE)
+plot(wiki_stm)
+
+pred <- estimateEffect(formula = 1:10 ~ gender + party + type + age,
+                       stmobj = wiki_stm, metadata = prep$meta, uncertainty="Global")
+pred
+plot(pred, covariate='party', topics=c(1,2,3), model=wiki_stm, method='difference')
+
+```
+```
+your answer here
+```
+
+**8. Now try using `searchK` to identify the best number of topics for your dataset. Which K is optimal? How did you decide?**
+
+Hint: you should be able to use the same preprocessed and prepared objects in from the previous question.
+```{r}
+# your answer here
+
+k_search <- searchK(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, 
+                K=c(8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30), verbose=FALSE)
+plot(k_search)
+```
+```
+your answer here
+```
+
+**9. Use `selectModel` to generate a number of models and then `plotModels` to visualize performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Keep the optimal model for future questions.**
+
+```{r}
+# your answer here
+models <- selectModel(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, K=22, runs=20,
+                verbose=FALSE)
+
+plotModels(models, legend.position="bottomright")
+
+bestmodel <- models$runout[[1]]
+
+```
+```
+your answer here
+```
+
+
+
+**11. This is the part where we aim to understand how each of the covariates affected the model.**
+
+```{r}
+# your answer here
+pred <- estimateEffect(formula = 1:10 ~ gender + party + type + age,
+                       stmobj = bestmodel, metadata = prep$meta, uncertainty="Global")
+
+summary(pred)
+plot(pred, covariate='party', topics=c(1,2,3), model=bestmodel)
+
+```
+```
+your answer here
+```
+
+
+
+
+
+
+
+
+
+
+
+
+**10. Now we will aim to inspect the topics in our selected model. First, use `labelTopics` to examine all of your topics and identify three or more that you think are particularly interesting. Then use `plotQuote` to show the first `n` characters of each document closely associated with teh topic.**
+
+```{r}
+# your answer here
+labelTopics(bestmodel, c(3, 7, 20))
+
+
+thoughts <- findThoughts(bestmodel, texts=wiki_info$text %>% substr(1,150), topics=4)$docs[[1]]
+plotQuote(thoughts, width=50, main = "Topic 3")
+
+```
+```
+your answer here
+```
+
+
+
+
+
+
+
