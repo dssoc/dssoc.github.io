@@ -44,8 +44,8 @@ library(topicmodels)
 library(ggplot2)
 library(stm)
 
-# THIS SHOULD WORK AS-IS
-load('../congress.RData')
+# THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
+load(url('https://dssoc.github.io/datasets/congress.Rdata'))
 ```
 <br/>
 
