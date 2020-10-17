@@ -5,7 +5,10 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with topic modeling algorithms. Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model.
+
+Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+
 
 **Required reading:** 
 
@@ -62,6 +65,8 @@ your answer here
 ```
 
 **3. Join the columns of `congress` with `congress_wiki` so that you should have congress member information (gender, type, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
+
+Hint: your merged dataframe should have as many rows as the original `congress_wiki` dataframe.
 ```{r}
 # your answer here
 wiki_info <- congress_wiki %>% left_join(congress)
@@ -73,7 +78,7 @@ dtm <- wiki_info %>%
   cast_dtm(bioguide_id, word, n)
 ```
 
-**4. Construct a topic model with LDA with a specified random seed (see the `control` parameter. This might take a little while to run. You can choose the number of topics.**
+**4. Construct a topic model with LDA using a specified random seed (see the `control` parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.**
 ```{r}
 # your answer here
 tm <- LDA(dtm, k=10, control=list(seed=0))
@@ -109,7 +114,7 @@ plot_topwords(tm)
 your answer here
 ```
 
-**6. Now say we want to compare the word distributions for two topics. Make a function that accepts a topic model object and two topics (as numbers) to compare. The function should return a plot showing words that are much more associated with the first topic than the second. Then call your new function comparing the two topics you described in the previous question. What do you see?**
+**6. Now say we want to compare the word distributions for two topics in our model. Make a function that accepts a topic model object and two topics (as numbers) to compare. The function should return a plot (output from ggplot) showing words that are much more associated with the first topic than the second. Then call your new function to compare the two topics you described in the previous question. What do you see?**
 
 Hint: you will need to find a way to compare the probabilities for each word between the two topics - consider taking a raw difference or log ratio.
 
@@ -138,9 +143,11 @@ plot_topic_diff(tm, 1, 5)
 your answer here
 ```
 
-**7. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topic is capturing?**
+**7. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
 
-Hint: you'll need to recal some of the string techniques we've used before to calculate age based on birth date.
+Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date.
+
+Hint: you can use an approximation for age by subtracting the birth year from the current year (2020).
 ```{r}
 # your answer here
 
@@ -178,14 +185,14 @@ Hint: you should be able to use the same preprocessed and prepared objects in fr
 
 k_search <- searchK(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
                 prevalence = formula, 
-                K=c(8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30), verbose=FALSE)
+                K=c(20, 22, 24), verbose=FALSE)
 plot(k_search)
 ```
 ```
 your answer here
 ```
 
-**9. Use `selectModel` to generate a number of models and then `plotModels` to visualize performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Keep the optimal model for future questions.**
+**9. Use `selectModel` to generate a number of models and then `plotModels` to visualize performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Then use `plot` to show an overview of the topics in the model. What does this tell you? Keep the optimal model for future questions.**
 
 ```{r}
 # your answer here
@@ -196,6 +203,7 @@ models <- selectModel(documents=prep$documents, vocab=prep$vocab, data=prep$meta
 plotModels(models, legend.position="bottomright")
 
 bestmodel <- models$runout[[1]]
+plot(bestmodel, type = "summary", xlim = c(0, 0.3))
 
 ```
 ```
@@ -204,16 +212,15 @@ your answer here
 
 
 
-**11. This is the part where we aim to understand how each of the covariates affected the model.**
-
+**11. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
 ```{r}
 # your answer here
-pred <- estimateEffect(formula = 1:10 ~ gender + party + type + age,
+pred <- estimateEffect(formula = 1:22 ~ gender + party + type + age,
                        stmobj = bestmodel, metadata = prep$meta, uncertainty="Global")
-
 summary(pred)
-plot(pred, covariate='party', topics=c(1,2,3), model=bestmodel)
+# interesting topics: 2, 3, 5, 9, 11, 16
 
+plot(pred, covariate='party', topics=c(2, 3, 5, 9, 11, 16), model=bestmodel)
 ```
 ```
 your answer here
@@ -221,24 +228,13 @@ your answer here
 
 
 
-
-
-
-
-
-
-
-
-
-**10. Now we will aim to inspect the topics in our selected model. First, use `labelTopics` to examine all of your topics and identify three or more that you think are particularly interesting. Then use `plotQuote` to show the first `n` characters of each document closely associated with teh topic.**
-
+**10. Now we will inspect the topics in our selected model. First, use `labelTopics` to examine the top words for each topic you identified as interesting in the previous step. Then use `plotQuote` to show the first `n` characters of each document closely associated with the topic. Do you see any interesting patterns?**
 ```{r}
 # your answer here
-labelTopics(bestmodel, c(3, 7, 20))
-
+labelTopics(bestmodel, c(2, 3, 5, 9, 11, 16))
 
 thoughts <- findThoughts(bestmodel, texts=wiki_info$text %>% substr(1,150), topics=4)$docs[[1]]
-plotQuote(thoughts, width=50, main = "Topic 3")
+plotQuote(thoughts, width=50, main = "Topic 16")
 
 ```
 ```
@@ -246,8 +242,10 @@ your answer here
 ```
 
 
-
-
+**11. Examine the statistical models and the content of the topics closely to understand the patterns that are appearing in our data. What is your interpretation of the results. You should be able to draw concrete conclusions such as "republican wikipedia pages are more likely to discuss topic X, which is about ..". Based on the nature of the underlying data, why do you think we observe these results?**
+```
+your answer here
+```
 
 
 
