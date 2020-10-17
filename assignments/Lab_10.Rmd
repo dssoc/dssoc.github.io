@@ -5,7 +5,7 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. **NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the `substr` function to truncate the wikipedia page texts right after loading.
+In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. **NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the `substr` function to truncate the wikipedia page texts right after loading.**
 
 Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
@@ -14,7 +14,6 @@ Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for you
 
 * [IMPORTANT stm Package Vignette](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
 * [stm website](https://www.structuraltopicmodel.com/)
-
 
 
 **Optional reading:** 
