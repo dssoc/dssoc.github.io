@@ -74,11 +74,19 @@ your answer here
 Hint: your merged dataframe should have as many rows as the original `congress_wiki` dataframe.
 ```{r}
 # your answer here
+wiki_info <- congress_wiki %>% left_join(congress)
+dtm <- wiki_info %>% 
+  select(bioguide_id, text) %>% 
+  unnest_tokens('word', 'text') %>% 
+  anti_join(stop_words) %>% 
+  count(bioguide_id, word) %>% 
+  cast_dtm(bioguide_id, word, n)
 ```
 
 **4. Construct a topic model with LDA using a specified random seed (see the `control` parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.**
 ```{r}
 # your answer here
+tm <- LDA(dtm, k=10, control=list(seed=0))
 ```
 
 
@@ -86,6 +94,25 @@ Hint: your merged dataframe should have as many rows as the original `congress_w
 ```{r}
 # your answer here
 
+plot_topwords <- function(tm) {
+  topwords <- tm %>% 
+    tidy(matrix='beta') %>% 
+    group_by(topic) %>% 
+    top_n(10, beta) %>% 
+    ungroup() %>% 
+    arrange(topic, -beta)
+
+  plot <- topwords %>% ggplot(aes(x=reorder(term, beta), y=beta, fill=(topic))) + 
+                geom_col(show.legend=FALSE) +
+                facet_wrap(~topic, scales='free') +
+                theme(plot.title=element_text(hjust=0.5, size=18)) +
+                xlab("") + ylab("") +
+                theme_minimal() +
+                coord_flip()
+  return(plot)
+}
+
+plot_topwords(tm)
 ```
 ```
 your answer here
@@ -96,6 +123,26 @@ your answer here
 Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date. You can use an approximation for age by subtracting the birth year from the current year (2020).
 ```{r}
 # your answer here
+covariates <- wiki_info %>% 
+  select(birthday, gender, party, type) %>% 
+  mutate(type=as.factor(type)) %>% 
+  mutate(birthyear=as.numeric(sapply(strsplit(birthday, '-'), `[`, 1))) %>% 
+  mutate(age=2020-birthyear)
+
+processed <- textProcessor(wiki_info$text, metadata=covariates)
+prep <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+
+
+formula <- ~ gender + party + type + age
+wiki_stm <- stm(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, 
+                K=10, verbose=FALSE)
+plot(wiki_stm)
+
+pred <- estimateEffect(formula = 1:10 ~ gender + party + type + age,
+                       stmobj = wiki_stm, metadata = prep$meta, uncertainty="Global")
+
+plot(pred, covariate='party', topics=c(1,2,3), model=wiki_stm, method='difference')
 ```
 ```
 your answer here
@@ -106,6 +153,10 @@ your answer here
 Hint: you should be able to use the same preprocessed and prepared objects in from the previous question.
 ```{r}
 # your answer here
+k_search <- searchK(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, 
+                K=c(20, 22, 24), verbose=FALSE)
+plot(k_search)
 ```
 ```
 your answer here
@@ -115,6 +166,14 @@ your answer here
 
 ```{r}
 # your answer here
+models <- selectModel(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, K=22, runs=20,
+                verbose=FALSE)
+
+plotModels(models, legend.position="bottomright")
+
+bestmodel <- models$runout[[1]]
+plot(bestmodel, type = "summary", xlim = c(0, 0.3))
 ```
 ```
 your answer here
@@ -125,6 +184,12 @@ your answer here
 **9. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
 ```{r}
 # your answer here
+pred <- estimateEffect(formula = 1:22 ~ gender + party + type + age,
+                       stmobj = bestmodel, metadata = prep$meta, uncertainty="Global")
+summary(pred)
+# interesting topics: 2, 3, 5, 9, 11, 16
+
+plot(pred, covariate='party', topics=c(2, 3, 5, 9, 11, 16), model=bestmodel)
 ```
 ```
 your answer here
@@ -135,6 +200,10 @@ your answer here
 **10. Now we will inspect the topics in our selected model. First, use `labelTopics` to examine the top words for each topic you identified as interesting in the previous step. Then use `plotQuote` to show the first `n` characters of each document closely associated with the topic. Do you see any interesting patterns?**
 ```{r}
 # your answer here
+labelTopics(bestmodel, c(2, 3, 5, 9, 11, 16))
+
+thoughts <- findThoughts(bestmodel, texts=wiki_info$text %>% substr(1,150), topics=4)$docs[[1]]
+plotQuote(thoughts, width=50, main = "Topic 16")
 ```
 ```
 your answer here
