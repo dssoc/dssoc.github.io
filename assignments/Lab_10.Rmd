@@ -12,17 +12,20 @@ Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for you
 
 **Required reading:** 
 
+* Text Mining with R: A Tidy Approach, [chapter 6: Topic Modeling by Julia Silge and David Robinson](https://www.tidytextmining.com/topicmodeling.html)
 * [IMPORTANT stm Package Vignette](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
-* [stm website](https://www.structuraltopicmodel.com/)
+
 
 
 **Optional reading:** 
+
+* [An intro to topic models by Patrick van Kessel](https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb)
 
 * [topicmodels package docs](https://cran.r-project.org/web/packages/topicmodels/topicmodels.pdf)
 * [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-
+* [stm website](https://www.structuraltopicmodel.com/)
 
 ### Required Datasets
 
@@ -45,7 +48,7 @@ library(ggplot2)
 library(stm)
 
 # THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load(url('https://dssoc.github.io/datasets/congress.Rdata'))
+load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
@@ -88,11 +91,9 @@ Hint: your merged dataframe should have as many rows as the original `congress_w
 your answer here
 ```
 
-**7. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
+**6. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
 
-Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date.
-
-Hint: you can use an approximation for age by subtracting the birth year from the current year (2020).
+Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date. You can use an approximation for age by subtracting the birth year from the current year (2020).
 ```{r}
 # your answer here
 ```
@@ -100,7 +101,7 @@ Hint: you can use an approximation for age by subtracting the birth year from th
 your answer here
 ```
 
-**8. Now try using `searchK` to identify the best number of topics for your dataset. Which K is optimal? How did you decide?**
+**7. Now try using `searchK` to identify the best number of topics for your dataset. Which K is optimal? How did you decide?**
 
 Hint: you should be able to use the same preprocessed and prepared objects in from the previous question.
 ```{r}
@@ -110,7 +111,7 @@ Hint: you should be able to use the same preprocessed and prepared objects in fr
 your answer here
 ```
 
-**9. Use `selectModel` to generate a number of models and then `plotModels` to visualize performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Then use `plot` to show an overview of the topics in the model. What does this tell you? Keep the optimal model for future questions.**
+**8. Use `selectModel` to generate a number of models and then `plotModels` to visualize their performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Then use `plot` to show an overview of the topics in the model. What does this tell you? Keep the optimal model for future questions.**
 
 ```{r}
 # your answer here
@@ -121,7 +122,7 @@ your answer here
 
 
 
-**11. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
+**9. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
 ```{r}
 # your answer here
 ```
@@ -145,5 +146,5 @@ your answer here
 your answer here
 ```
 
-
+**Congratulations! This is the last lab for the course. These labs were not easy, but you persisted and I hope you learned a lot in the process. As you probably noticed by now, learning data science is often about trying a bunch of things and doing research on the web to see what others have done. Of course, it also requires a bit of creativity that comes from experience and intuition about your dataset. Be sure you're talking to professor Bail and the TA to make sure you're on the right track for the final project. Good luck!**
 
