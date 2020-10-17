@@ -5,29 +5,32 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model.
+In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. **NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the `substr` function to truncate the wikipedia page texts right after loading.
 
 Edit the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 
 **Required reading:** 
 
-* [stm Package Vignette](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
+* [IMPORTANT stm Package Vignette](https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf)
+* [stm website](https://www.structuraltopicmodel.com/)
+
 
 
 **Optional reading:** 
 
+* [topicmodels package docs](https://cran.r-project.org/web/packages/topicmodels/topicmodels.pdf)
+* [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-* Test and develop regex expressions on [regexr.com](https://regexr.com/)
-
 
 
 ### Required Datasets
 
-We will use the following datasets for the exercises.
+We will use the following datasets for the exercises. Check the load function to see the URL - if you have problems using load, feel free to download the file automatically.
 
-(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
+(1) `congress_wiki`: text of wikipedia articles associated with each member of congress. Not all members of congress have wikipedia pages here.
+(2) `congress`: information about each member of congress.
 
 
 **Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
