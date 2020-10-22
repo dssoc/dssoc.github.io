@@ -57,6 +57,21 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 ). Searching on the internet may also be a good strategy.
 ```{r}
 # your answer here
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+frequent_tokens <- covid_tweets %>%
+  mutate(tweet_text = str_remove(tweet_text, url_pattern)) %>%
+  unnest_tokens("word",tweet_text, token = "tweets") %>% 
+  filter(language == "en") %>% 
+  anti_join(stop_words) %>%
+  count(word) %>%
+  arrange(desc(n)) %>% 
+  head(20)
+
+frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+      ylab("Frequency") +
+      theme_minimal()
 ```
 
 **3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens. What do these scores mean? Give a hypothesis for why these three have the highest values.**
