@@ -620,7 +620,7 @@ allowfullscreen></iframe>
 
 
 
-## 13 - Group Discussion: Covid-19
+## 13 - Open Lab
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
 
 
