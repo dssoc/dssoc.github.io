@@ -119,7 +119,8 @@ A) an introduction in which you ask the research questiona and explain why it is
 B) a section where you define key concepts in your study and present hypotheses to answer your research question
 C) a detailed explanation of how you collected the data to test your hypotheses);
 D) a description of the analysis techniques you used to analyze your data
-E) a detailed description of the results of your analysis, and an interpretation of what they mean for past and future research on your subkect
+E) a detailed description of the results of your analysis, and an interpretation of what they mean for past and future research on your subject.
+***Final presentations will happen Monday, November 16 @ 6-8pm and Wednesday, November 18 @ 3-5pm.***
 
 My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. ***The final paper is DUE on Saturday 11/21 at 5pm EDT.***
 

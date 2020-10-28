@@ -664,7 +664,7 @@ No graded assignment this week-- apply communication or collaboration skills to 
 - Wednesday, November 18 @ 3-5pm
 
 
-***Final paper DUE 11/21 at 5pm EDT***
+***Final paper DUE Saturday 11/21 at 5pm EDT***
 
 
 
