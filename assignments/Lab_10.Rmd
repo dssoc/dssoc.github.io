@@ -215,5 +215,8 @@ your answer here
 your answer here
 ```
 
-**Congratulations! This is the last lab for the course. These labs were not easy, but you persisted and I hope you learned a lot in the process. As you probably noticed by now, learning data science is often about trying a bunch of things and doing research on the web to see what others have done. Of course, it also requires a bit of creativity that comes from experience and intuition about your dataset. Be sure you're talking to professor Bail and the TA to make sure you're on the right track for the final project. Good luck!**
+**12. Before this assignment is due, make a short post about your final project in the `#final-project-workshop` channel in Slack, and give feedback or helpful suggestions to at least one other project posted there. This will be a good way to receive and offer help to your peers!**
+
+
+**Congratulations! This is the last lab for the course. These labs were not easy, but you persisted and I hope you learned a lot in the process. As you probably noticed by now, learning data science is often about trying a bunch of things and doing research on the web to see what others have done. Of course, it also requires a bit of creativity that comes from experience and intuition about your dataset. Be sure to talk to Professor Bail and the TA to make sure you're on the right track for the final project. Good luck!**
 

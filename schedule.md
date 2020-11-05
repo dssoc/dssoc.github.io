@@ -610,6 +610,9 @@ allowfullscreen></iframe>
 ## 12 - Election Week (No Lectures/Lab)
 <b><i><font color="#E84E4E">November 2-8</font></i></b>
 
+
+
+
 #### Work on Final Project Proposals (due November 9th)
 
 
@@ -617,8 +620,18 @@ allowfullscreen></iframe>
 
 
 
-## 13 - Group Discussion: Covid-19
+## 13 - Open Lab
 <b><i><font color="#E84E4E">November 9-15</font></i></b>
+
+
+***Open office hours about final project with Dr. Bail and Devin:***
+- Tues  11/10: 3-4pm
+- Wed   11/11: 4-5pm
+- Thurs 11/12: 4-5pm
+
+*Regularly scheduled TA office hours will also be available.*
+
+
 
 ***Required reading***:
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
@@ -646,7 +659,12 @@ No graded assignment this week-- apply communication or collaboration skills to 
 
 <b><i><font color="#E84E4E">November 16-20</font></i></b>
 
+***Final presentation times:***
+- Monday, November 16 @ 6-8pm
+- Wednesday, November 18 @ 3-5pm
 
+
+***Final paper DUE Saturday 11/21 at 5pm EDT***
 
 
 
