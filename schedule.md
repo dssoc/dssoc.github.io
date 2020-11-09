@@ -613,7 +613,7 @@ allowfullscreen></iframe>
 
 
 
-#### Work on Final Project Proposals (due November 9th)
+
 
 
 
