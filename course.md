@@ -128,7 +128,7 @@ D) a description of the analysis techniques you used to analyze your data;
 E) a detailed description of the results of your analysis with **at least two figures**, and an interpretation of what they mean for past and future research on your subject;
 F) a bibliography.
 
-My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. 
+My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. You can see some previous final project papers at the bottom of this course description website ([link](#final-project-examples)).
 
 
 ***How Your Grade Will be Calculated***
@@ -162,3 +162,16 @@ There will be no extra credit or make-up assignments.
 ***Office Hours***
 <br/>
 Because of our virtual format-- and weekly one-on-one meetings, I am not holding regular office hours- however, I am very happy to find time to meet with you on an ad hoc basis if you wish to go above and beyond what we discuss in our weekly meetings.
+
+
+
+### FINAL PROJECT EXAMPLES
+
+These final projects have been completed by previous students in this course.
+
+
+
+
+
+
+
