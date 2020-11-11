@@ -116,31 +116,25 @@ If you have questions about your grade for the final project at any time we can 
 The final project will consist of two parts: a final presentation and a final paper.
 
 
-**Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. It will also help you become more familiar with your fellow students' work - something that has been a downside to this online format. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. 
+**Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. It will also help you become more familiar with your fellow students' work - something that has been a downside to this online format. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen Monday, November 16 @ 6-8pm and Wednesday, November 18 @ 3-5pm.***
 
 
-**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file. It should be at least 2,500 words and include the following components:
+**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Saturday 11/21 at 5pm EDT.***. It should be at least 2,500 words and include the following components:
 
-A. an introduction in which you ask the research questiona and explain why it is important;
-B. a section where you define key concepts in your study and present hypotheses to answer your research question;
-C. a detailed explanation of how you collected the data to test your hypotheses);
-D. a description of the analysis techniques you used to analyze your data;
-E. a detailed description of the results of your analysis with **at least two figures**, and an interpretation of what they mean for past and future research on your subject;
-F. a bibliography.
-
+A) an introduction in which you ask the research questiona and explain why it is important;
+B) a section where you define key concepts in your study and present hypotheses to answer your research question;
+C) a detailed explanation of how you collected the data to test your hypotheses;
+D) a description of the analysis techniques you used to analyze your data;
+E) a detailed description of the results of your analysis with **at least two figures**, and an interpretation of what they mean for past and future research on your subject;
+F) a bibliography.
 
 My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. 
-
-***Final presentations will happen Monday, November 16 @ 6-8pm and Wednesday, November 18 @ 3-5pm.***
-
-***The final paper is DUE on Saturday 11/21 at 5pm EDT.***
-
 
 
 ***How Your Grade Will be Calculated***
 <br/>
 - Lab exercises 50%
-- Final Project	50%
+- Final Project Paper	50%
 <br/>
 
 ### COURSE POLICIES
