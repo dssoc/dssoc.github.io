@@ -119,7 +119,7 @@ The final project will consist of two parts: a final presentation and a final pa
 **Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. It will also help you become more familiar with your fellow students' work - something that has been a downside to this online format. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen Monday, November 16 @ 6-8pm and Wednesday, November 18 @ 3-5pm.***
 
 
-**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Saturday 11/21 at 5pm EDT***. It should be **at least 2,500 words** and include the following components:
+**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Saturday 11/21 at 5pm EDT***. It should be **at least 2,500 words** and the knitted web page SHOULD NOT include code blocks. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the write-up. The written component should include the following components:
 
 A) an introduction in which you ask the research question and explain why it is important;
 B) a section where you define key concepts in your study and present hypotheses to answer your research question;
@@ -165,7 +165,7 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 
 
 
-### FINAL PROJECT EXAMPLES
+### FINAL PROJECT EXAMPLES (Coming Soon)
 
 These final projects have been completed by previous students in this course.
 
