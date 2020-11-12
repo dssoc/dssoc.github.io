@@ -121,7 +121,7 @@ The final project will consist of two parts: a final presentation and a final pa
 
 **Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Saturday 11/21 at 5pm EDT***. It should be **at least 2,500 words** and include the following components:
 
-A) an introduction in which you ask the research questiona and explain why it is important;
+A) an introduction in which you ask the research question and explain why it is important;
 B) a section where you define key concepts in your study and present hypotheses to answer your research question;
 C) a detailed explanation of how you collected the data to test your hypotheses;
 D) a description of the analysis techniques you used to analyze your data;
