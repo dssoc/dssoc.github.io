@@ -167,7 +167,7 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 
 ### FINAL PROJECT EXAMPLES (Coming Soon)
 
-These final projects have been completed by previous students in this course.
+Will be posted when completed.
 
 
 
