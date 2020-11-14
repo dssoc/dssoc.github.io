@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will be learning the basics of using R and working with real data.
 
-Be sure to do the required readings first. While many of the problems will appear in the lecture or lab videos or the required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
 
 This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_1.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
@@ -22,35 +22,26 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 * [R for Data Science (Chapters 4, 5, 10)](https://r4ds.had.co.nz/workflow-basics.html)
 
 
-**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
 ```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+
 library(tidyverse)
 library(readxl)
 
 load('E:\\data\\congress.RData')
-#congress_info <- read_excel('E:\\data\\legislators-current(1).xlsx')
-
-# THIS SHOULD WORK AS-IS
-#load(url('https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata'))
-#load(url('https://dssoc.github.io/datasets/congress.RData'))
-
-
-#congress_info <- read.csv(url('https://theunitedstates.io/congress-legislators/legislators-historical.csv'), stringsAsFactors = FALSE)
-
-#congress_info <- read.csv(url('https://theunitedstates.io/congress-legislators/legislators-historical.csv'), stringsAsFactors = FALSE)
-
 ```
 <br/>
 
 
+## Questions
 
 <br>
 
 **1. Extract the third element of the vector.**
 
 ```{r}
-# your code here
 Vector_Saurus_Rex<-c("R","is","great")
+# your code here
 ```
 
 
@@ -58,10 +49,10 @@ Vector_Saurus_Rex<-c("R","is","great")
 
 Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
 ```{r}
-# your code here
 Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
+# your code here
 ```
 <br>
 
