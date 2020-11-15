@@ -45,7 +45,7 @@ Vector_Saurus_Rex<-c("R","is","great")
 ```
 
 
-**2. What is the largest number in this vector? How about the average value?**
+**2. Use a function to identify the data type of `Large_Vector`. What is the largest number in this vector? How about the average value?**
 
 Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
 ```{r}
@@ -57,7 +57,7 @@ Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,1231231
 <br>
 
 
-**3. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? You must use R code to generate these values.**
+**3. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? Use a function to show it's data type. You must use R code to generate these values.**
 
 ```{r}
 # your code here
@@ -67,7 +67,7 @@ ncol(congress)
 <br>
 
 
-**4. What is the average age of all congress members?**
+**4. What is the average age of all congress members? What is the data type of the `birthyear` column?**
 
 ```{r eval=FALSE}
 # your code here
@@ -89,7 +89,7 @@ Note: you are allowed to use hard-coded numerical subscripts for this problem. F
 
 **6. Who are the oldest members of congress?**
 
-Note: you may use the browsing features of RStudio to identify the oldest. In the future, you will not be allowed to do this.
+Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.
 ```
 Your answer here
 Feinstein, Grassley, Young
