@@ -19,8 +19,8 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 
 **Required reading:** 
 
-* [R for Data Science (Chapters 4, 5, 10)](https://r4ds.had.co.nz/workflow-basics.html)
-
+* [R for Data Science Chapter 4: Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
+* [R4DS Chapters 26-30: Communicating your analysis](https://r4ds.had.co.nz/communicate-intro.html) (Except Chapter 28 - we will cover visualization later.)
 
 ```{r message=FALSE, echo=FALSE}
 # Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
