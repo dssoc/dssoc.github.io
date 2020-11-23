@@ -22,6 +22,13 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 * [R for Data Science Chapter 4: Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
 * [R4DS Chapters 26-30: Communicating your analysis](https://r4ds.had.co.nz/communicate-intro.html) (Except Chapter 28 - we will cover visualization later.)
 
+
+**Optional resources:**
+
+* [RDocumentation.org]([documentation website](https://www.rdocumentation.org/))
+
+
+
 ```{r message=FALSE, echo=FALSE}
 # Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
 
@@ -37,15 +44,23 @@ load('E:\\data\\congress.RData')
 
 <br>
 
-**1. Extract the third element of the vector.**
 
+
+**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R to look up the `mean` function, and describe each of its arguments and what they do.**
+```
+Write your answer here.
+```
+<br>
+
+
+**2. Extract the third element of the vector.**
 ```{r}
 Vector_Saurus_Rex<-c("R","is","great")
 # your code here
 ```
+<br>
 
-
-**2. Use a function to identify the data type of `Large_Vector`. What is the largest number in this vector? How about the average value?**
+**3. Use a function to identify the data type of `Large_Vector`. What is the largest number in this vector? How about the average value?**
 
 Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
 ```{r}
@@ -57,7 +72,7 @@ Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,1231231
 <br>
 
 
-**3. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? Use a function to show it's data type. You must use R code to generate these values.**
+**4. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? Use a function to show it's data type. You must use R code to generate these values.**
 
 ```{r}
 # your code here
@@ -67,7 +82,7 @@ ncol(congress)
 <br>
 
 
-**4. What is the average age of all congress members? What is the data type of the `birthyear` column?**
+**5. What is the average age of all congress members? What is the data type of the `birthyear` column?**
 
 ```{r eval=FALSE}
 # your code here
@@ -76,7 +91,7 @@ mean(2020 - congress$birthyear)
 <br>
 
 
-**5. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?**
+**6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?**
 
 Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.
 
@@ -87,7 +102,7 @@ Note: you are allowed to use hard-coded numerical subscripts for this problem. F
 ```
 <br>
 
-**6. Who are the oldest members of congress?**
+**7. Who are the oldest members of congress?**
 
 Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.
 ```
