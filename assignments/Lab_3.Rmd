@@ -174,18 +174,27 @@ congress %>%
 
 
 
-**7. Use the existing `birthday` column in the `congress` dataframe to create a line graph showing the total number of politician births for each decade, with separate lines for senate and house members (see the `type` column).**
-
-Note: the existing `birthday` column is already in POSIXct format, but you can also convert it using lubridate. Either is fine.
+**7. Create a bar chart showing the frequency of politician births by month and by weekday. The x-labels should be month names and weekday names, respectively, and appear in chronological order.**
 ```{r}
 # your answer here
-congress %>% 
-  mutate(bday=as_date(birthday)) %>% 
+tmp <- congress %>% 
+  mutate(bdate=as_date(birthday)) %>% 
+  mutate(wday=weekdays(bdate), month=paste0(month(bdate, label=TRUE))) %>% 
+  select(wday, month)
   
-  ggplot(aes(y=reorder(committee,av_age), weight=av_age)) + 
+tmp %>% count(month) %>% 
+  ggplot(aes(x=month, weight=n)) + 
     geom_bar() + 
     theme_minimal() + 
-    ylab('Committee') + xlab('Average age')
+    ylab('# Births') + xlab('Month')
+
+
+tmp %>% count(wday) %>% 
+  ggplot(aes(x=wday, weight=n)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('# Births') + xlab('Day of week')
+
 ```
 ```
 Your answers here:
