@@ -53,7 +53,7 @@ right_join:
 ```
 <br/>
 
-**2. Compute the average age of democrat and republican (ONLY) congress members. Now do the same for M and F genders (this second part should include members of any party).**
+**2. Compute the average ages of democrat and republican congress members. Now do the same for M and F genders (this second part should include members of all parties).**
 ```{r}
 # your answer here
 congress %>% mutate(age=2020-birthyear) %>% 
@@ -69,9 +69,9 @@ congress %>% mutate(age=2020-birthyear) %>%
 ```
 <br/>
 
-**3. Create a dataframe that shows both the total number of social media accounts among democrats and republicans ONLY, as well as the within-politican averages. Which political party has more social media accounts? Which party has a higher average per-politician?**
+**3. Create a dataframe that shows both the total number of social media accounts among democrats and republicans, as well as the within-politican averages. Which political party has more social media accounts? Which party has a higher average per-politician?**
 
-Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within each individual and then within each party, or you could use mutations to get counts for each politican and then average within party.
+Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use mutations to get counts for each politican and then average by party.
 ```{r}
 # your answer here
 congress %>% 
@@ -90,7 +90,7 @@ Your answers here: Which political party has more social media accounts? Which p
 <br/>
 
 
-**4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and then calculate the average number of committees that democrats and republicans belong to. Then calculate the averages by gender (note: this second part should include members of other parties). Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?**
+**4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and calculate the average number of committees that democrats and republicans belong to. Next calculate the averages by gender (note: this second part should include members of other parties). Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?**
 ```{r}
 # your answer here
 tmp <- congress %>% 
@@ -108,7 +108,9 @@ tmp %>% group_by(gender) %>%
   summarise(av=mean(n_comm), n=length(n_comm))
 ```
 ```
-Your answers here: Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?
+Your answers here:
+Do males or females tend to serve on a larger number of committees? 
+Do republicans or democrats tend to serve on a larger number of committees?
 ```
 <br/>
 
@@ -131,7 +133,7 @@ committees %>% group_by(committee) %>%
 <br/>
 
 
-**6. Create a single bar plot that shows the average age of the five oldest AND youngest congressional committees (e.g. committees that have the highest and lowest average age). The bars should be sorted based on average committee ages. Which committees have the oldest and youngest average ages?**
+**6. Create a single bar plot that shows the average age of the committees with the highest and lowest average age. The bars should be sorted based on average committee ages. Which committees have the highest and lowest average ages?**
 ```{r}
 # your answer here
 congress %>% 
@@ -156,7 +158,7 @@ Which committees have the oldest and youngest averages ages?
 
 **7. Create a line graph showing the total number of politician births in each decade since the 1930's, with separate lines for senate and house members (see the `type` column). The labels on your x-axis should look like "1930's", "1940's", and so on, and your legend should show values "Senator" and "Representative" (i.e. not `rep` and `sen`).**
 
-Note: The lines may not be continuous if there were no births in some decades.
+Note: The plotted lines may not be continuous if there were no births in some decades.
 ```{r}
 # your answer here
 congress %>% 
@@ -175,6 +177,8 @@ congress %>%
 
 
 **7. Create a bar chart showing the frequency of politician births by month and by weekday. The x-labels should be month names and weekday names, respectively, and appear in chronological order.**
+
+Note: you can use the `lubridate` package methods to get weekday and month names.
 ```{r}
 # your answer here
 tmp <- congress %>% 
@@ -196,99 +200,11 @@ tmp %>% count(wday) %>%
     ylab('# Births') + xlab('Day of week')
 
 ```
-```
-Your answers here:
-Which committees have the oldest and youngest averages ages?
-```
 <br/>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-**3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see [28.6 in *R for Data Science*](https://r4ds.had.co.nz/graphics-for-communication.html#themes) or 8.3 of *Data Visualization a Practical Introduction*.**
-```{r}
-# your answer here
-```
-<br/>
-
-**4. Now, color your scatter plot points according to whether the artists are associated with a pop genre.**
-```{r}
-# your answer here
-```
-<br/>
-
-**5. Change the colors in the plot created for Exercise 4 to something that you think looks better. Note: for this, you may want to use a `scale_color_manual()` layer in your plot.**
-```{r}
-# your answer here
-```
-<br/>
-
-**6. Select *and* implement an appropriate visualization to describe the relationship between `pop` and  `popularity`. Justify your choice of chart (i.e. why did you choose this chart type and not another), and describe how you would improve your chart, given more time.**
-```{r}
-# your answer here
-```
-<br/>
-
-**7. In your own words, describe why we make data visualizations.**
-```{r}
-# your answer here
-```
-<br/>
-
-
-**8. In your own words, describe at least three qualities of a good data visualization. Many of these were provided in your reading.**
-```{r}
-# your answer here
-```
-<br/>
-
-**9. Link to a data visualization online and describe something that could make it better at conveying the central information or relationship.**
-```{r}
-# your answer here
-```
-<br/>
-
-**10. Compare two chart types from the R Graph Gallery (`https://www.r-graph-gallery.com/index.html`). What kinds of relationships are they used to represent? What kinds of relationships would they be unable to represent? For example, do they represent continuous or categorical variable relationships? Both? Would they be useful at describing a temporal relationship, or relative proportions? These are example questions you might address as you compare and contrast. Often a chart can do many things. Simply show that you have thought deeply about how and when to use different chart types.**
-```{r}
-# your answer here
-```
-<br/>
-
-**11. Provide three social science research questions that you would be interested in exploring for your final project. There are no right answers here. We just want to get a sense of interests.**
+**8. Provide two social science research questions that you would be interested in exploring for your final project. There are no right answers here. We just want to get a sense of interests.**
 ```{r}
 # your answer here
 ```
