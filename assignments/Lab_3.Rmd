@@ -8,51 +8,227 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+In this lab we will practice using the `ggplot2` library to create visualizations of our data. **Our standard for visualizations is that each plot should have axis labels, all labels must be readable, and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.**
 
-In this lab, we will practice visualizing data. Edit the Lab #3 markdown file ([link to file](/assignments/Lab_3.Rmd)) for your submission. Remember to change the "author" field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack.
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
 
-The exercises in this lab correspond with  *R for Data Science* (Wickham), [chapters 3 and 28](https://r4ds.had.co.nz/data-visualisation.html), and *Data Visualization a Practical Introduction* (Healy), [chapter 1](http://socviz.co/lookatdata.html).
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_2.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
-**Optional Resources:**
+**Required reading:** 
 
-- [RStudio Cloud intro](https://rstudio.cloud/learn/primers/3)
-- [Data Visualization: A Practical Introduction](http://socviz.co/), Kieran Healy. (Princeton: Princeton University Press, 2019)
-- [Fundamentals of Data Visualization](https://serialmentor.com/dataviz/)
-- [The R Graph Gallery](https://www.r-graph-gallery.com/)
-- [Sometimes the y-axis doesn't start at zero, and it's fine.](https://flowingdata.com/2015/11/23/sometimes-the-y-axis-doesnt-start-at-zero-and-its-fine/)
-- [What would feminist data visualization look like?](https://civic.mit.edu/2015/12/01/feminist-data-visualization/), MIT Civic Media Lab by kanarinka. 
+* [R for Data Science Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html)
+* [R for Data Science Chapter 13: Relational data](https://r4ds.had.co.nz/relational-data.html)
+* [`join` function documentation](https://dplyr.tidyverse.org/reference/join.html)
 
 
-### Required Dataset
 
-The data that you will be using for this lab can be downloaded from the course website: 
+**Optional resources:**
 
-- `artist_meta`: [artist_meta.Rdata](/datasets/artist_meta.Rdata) is a table of Grammy nominee names and some of their metadata.
+- [R for Data Science (Chapters 9-13)](https://r4ds.had.co.nz/wrangle-intro.html)
+- [More dplyr examples](https://rstudio.cloud/learn/primers/2)
+- [More help for tidy](https://rstudio.cloud/learn/primers/4)
 
 
-**Load the datasets:**
-```{r message=FALSE}
-#library(tidyverse)
-#load('artist_meta.Rdata')
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+
+load('E:\\data\\congress.RData')
 ```
-<br/><br/>
-
-### Exercises
 <br/>
 
-**1. Using the `artist_meta` table, create a new factor variable (`is_pop`) that indicates whether the artist is associated with a pop genre. The labels for this factor variable should be 'pop' and 'not pop'. Note that any genre that includes the word "pop" should be considered as pop. Hint: consider using the `grepl` and `ifelse` functions together, and a type conversion to get a factor variable. See "R for data science" Chapter 15 for more information about factor variables.**
+## Questions
+<br>
 
-**Also notice one additional issue with the data that might cause issues later on: the `popularity` column is an integer list of size one. Consider using the `mutate` function with the `is.numeric` function to coerce the data into the type you need (see section 20.4.1 of *R for Data Science* to learn more).**
+**1. Describe the functionality of each of the following functions:**
+```
+group_py: 
+summarise: 
+inner_join: 
+left_join: 
+right_join: 
+```
+<br/>
+
+**2. Compute the average age of democrat and republican (ONLY) congress members. Now do the same for M and F genders (this second part should include members of any party).**
 ```{r}
 # your answer here
+congress %>% mutate(age=2020-birthyear) %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  group_by(party) %>% 
+  summarise(av_age=mean(age))
+
+congress %>% mutate(age=2020-birthyear) %>% 
+  group_by(gender) %>% 
+  summarise(av_age=mean(age))
+
+
 ```
 <br/>
 
-**2. Using the `artist_meta` table, make a scatterplot of `followers` vs `popularity`.**
+**3. Create a dataframe that shows both the total number of social media accounts among democrats and republicans ONLY, as well as the within-politican averages. Which political party has more social media accounts? Which party has a higher average per-politician?**
+
+Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within each individual and then within each party, or you could use mutations to get counts for each politican and then average within party.
 ```{r}
 # your answer here
+congress %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  select(twitter:youtube, party, bioguide_id) %>% 
+  gather(key=sm_platform, value=sm_username, twitter:youtube) %>% 
+  mutate(valid_acct=!is.na(sm_username)) %>% 
+  group_by(bioguide_id) %>% 
+  summarise(ct=sum(valid_acct), party=first(party)) %>% 
+  group_by(party) %>% summarise(av=mean(ct), ct=sum(ct))
+  
+```
+```
+Your answers here: Which political party has more social media accounts? Which party has a higher average per-politician?
 ```
 <br/>
+
+
+**4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and then calculate the average number of committees that democrats and republicans belong to. Then calculate the averages by gender (note: this second part should include members of other parties). Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?**
+```{r}
+# your answer here
+tmp <- congress %>% 
+  inner_join(committees, by=c('bioguide_id'='bioguide')) %>% 
+  group_by(bioguide_id) %>% 
+  summarise(n_comm=length(bioguide_id), party=first(party.x), gender=first(gender))# %>% 
+  
+
+tmp %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  group_by(party) %>% 
+  summarise(av=mean(n_comm), n=length(n_comm))
+
+tmp %>% group_by(gender) %>% 
+  summarise(av=mean(n_comm), n=length(n_comm))
+```
+```
+Your answers here: Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?
+```
+<br/>
+
+
+
+**5. Create a bar plot showing the number of members that belong to the 10 largest congressional committees (i.e. committees with the largest number of members). The bars should be sorted based on committee sizes.**
+
+Note: Our standard for visualizations is that each plot should have axis labels, all labels must be readable, and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.
+```{r}
+# your answer here
+committees %>% group_by(committee) %>% 
+  count() %>% 
+  arrange(desc(n)) %>% 
+  head(10) %>% 
+  ggplot(aes(y=reorder(committee,n), weight=n)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('Committee') + xlab('Number of members')
+```
+<br/>
+
+
+**6. Create a single bar plot that shows the average age of the five oldest AND youngest congressional committees (e.g. committees that have the highest and lowest average age). The bars should be sorted based on average committee ages. Which committees have the oldest and youngest average ages?**
+```{r}
+# your answer here
+congress %>% 
+  inner_join(committees, by=c('bioguide_id'='bioguide')) %>% 
+  group_by(committee) %>% 
+  summarise(av_age=mean(2020-birthyear)) %>% 
+  arrange(desc(av_age)) %>% 
+  slice(1:5, (n()-4):n()) %>% 
+  ggplot(aes(y=reorder(committee,av_age), weight=av_age)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('Committee') + xlab('Average age')
+```
+```
+Your answers here:
+Which committees have the oldest and youngest averages ages?
+```
+<br/>
+
+
+
+
+**7. Create a line graph showing the total number of politician births in each decade since the 1930's, with separate lines for senate and house members (see the `type` column). The labels on your x-axis should look like "1930's", "1940's", and so on, and your legend should show values "Senator" and "Representative" (i.e. not `rep` and `sen`).**
+
+Note: The lines may not be continuous if there were no births in some decades.
+```{r}
+# your answer here
+congress %>% 
+  mutate(decade=birthyear %/% 10) %>% 
+  group_by(decade) %>% summarise(ct=length(decade), type=first(type)) %>% 
+  mutate(xticks=paste0(decade, '0\'s'), Branch=ifelse(type=='rep', 'Representative', 'Senator')) %>% 
+  ggplot(aes(x=reorder(xticks,decade), y=ct, group=Branch, colour=Branch)) +
+    geom_line() + 
+    theme_minimal() + 
+    ylab('Number of births') + xlab('Decade')
+
+```
+<br/>
+
+
+
+
+**7. Use the existing `birthday` column in the `congress` dataframe to create a line graph showing the total number of politician births for each decade, with separate lines for senate and house members (see the `type` column).**
+
+Note: the existing `birthday` column is already in POSIXct format, but you can also convert it using lubridate. Either is fine.
+```{r}
+# your answer here
+congress %>% 
+  mutate(bday=as_date(birthday)) %>% 
+  
+  ggplot(aes(y=reorder(committee,av_age), weight=av_age)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('Committee') + xlab('Average age')
+```
+```
+Your answers here:
+Which committees have the oldest and youngest averages ages?
+```
+<br/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 **3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see [28.6 in *R for Data Science*](https://r4ds.had.co.nz/graphics-for-communication.html#themes) or 8.3 of *Data Visualization a Practical Introduction*.**
 ```{r}
