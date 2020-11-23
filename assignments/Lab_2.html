@@ -398,12 +398,14 @@ summary {
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>
-<p><strong>1. Describe what the following tidyverse functions do. You may need to look up the official documentation for each of these.</strong></p>
+<p><strong>1. Describe what the following tidyverse functions do. Also describe the pipe operator “%&gt;%”. You may need to look up the official documentation for each of these.</strong></p>
 <pre><code>filter: 
 select: 
 mutate: 
 count: 
-arrange: </code></pre>
+arrange: 
+gather: 
+pip operator (&quot;%&gt;%&quot;): </code></pre>
 <p><br /></p>
 <p><strong>2. Create a new dataframe that includes only senators and the columns <code>gender</code>, <code>birthyear</code>, and <code>party</code>. Then use that new dataframe to compute the number of male and female democrats and republicans (the output should be five rows corresponding to female democrats, male democrats, male independents, female republicans, and male republicans).</strong></p>
 <pre class="r"><code># your answer here
@@ -460,15 +462,32 @@ congress %&gt;%
 ## 3 TRUE   F         81
 ## 4 TRUE   M        270</code></pre>
 <p><br /></p>
-<p><strong>6. Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
+<p><strong>6. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with <code>pivot_longer</code>.</strong></p>
+<p>Note: not every congress member has an account on all three platform, so be sure to filter.</p>
+<p>Note: you may need to look up the documentation for <code>pivot_longer</code>.</p>
+<pre class="r"><code># your answer here
+congress %&gt;% 
+  select(twitter:youtube, party, gender) %&gt;% 
+  gather(key=platform, value=username, twitter:youtube) %&gt;% 
+  filter(!is_null(username)) %&gt;% 
+  count(party)</code></pre>
+<pre><code>## # A tibble: 4 x 2
+##   party           n
+##   &lt;chr&gt;       &lt;int&gt;
+## 1 Democrat      843
+## 2 Independent     6
+## 3 Libertarian     3
+## 4 Republican    756</code></pre>
+<p><br /></p>
+<p><strong>Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
 <pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
 
 require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
 <p><br /></p>
-<p><strong>Now, write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
+<p><strong>7. write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>10. Write code to print the states who had implemented either policy:</strong></p>
+<p><strong>8. Write code to print the states who had implemented either policy:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 

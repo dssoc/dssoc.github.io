@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this lab we will be learning the basics of using R and working with real data.
+In this lab we will practice using the `tidyverse` package.
 
 Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
 
@@ -17,8 +17,7 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 
 **Required reading:** 
 
-* [R for Data Science (Chapter 5)](https://r4ds.had.co.nz/transform.html)
-
+* [R for Data Science Chapter 5: Data transformation](https://r4ds.had.co.nz/transform.html)
 
 **Optional resources:**
 
@@ -40,7 +39,7 @@ load('E:\\data\\congress.RData')
 <br>
 
 
-**1. Describe what the following tidyverse functions do. You may need to look up the official documentation for each of these.**
+**1. Describe what the following tidyverse functions do. Also describe the pipe operator "%>%". You may need to look up the official documentation for each of these.**
 
 ```
 filter: 
@@ -48,6 +47,8 @@ select:
 mutate: 
 count: 
 arrange: 
+gather: 
+pipe operator ("%>%"): 
 ```
 <br/>
 
@@ -61,8 +62,6 @@ tmp %>% count(gender, party)
 <br/>
 
 **3. Identify the oldest and youngest male and female democrat senators.**
-
-
 ```{r}
 # your answer here
 tmp <- congress %>% 
@@ -78,7 +77,6 @@ tmp %>% filter(gender=='F') %>% head(1) %>% select(full_name)
 <br/>
 
 **4. Using `mutate`, create a new variable called `age` which represents the age of each member of congress. How many democratic senators are over 60 years old?**
-
 ```{r}
 # your answer here
 congress %>% 
@@ -97,7 +95,25 @@ congress %>%
 ```
 <br/>
 
-**6. Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)).**
+
+**6. Using `gather`, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with `pivot_longer`.**
+
+Note: not every congress member has an account on all three platform, so be sure to filter.
+
+Note: you may need to look up the documentation for `pivot_longer`.
+```{r}
+# your answer here
+congress %>% 
+  select(twitter:youtube, party, gender) %>% 
+  gather(key=platform, value=username, twitter:youtube) %>% 
+  filter(!is_null(username)) %>% 
+  count(party)
+```
+<br/>
+
+
+
+**Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)).**
 ```{r}
 travel_restrictions <- c("WA", "OR", "NV", "CA", "NM", "MN", "IL", "OH", "MI", "PA", "VA", "NY", "MA", "VH", "ME", "DE", "MD", "NJ")
 
@@ -105,13 +121,13 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 ```
 <br/>
 
-**Now, write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:**
+**7. write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:**
 ```{r}
 # your answer here
 ```
 <br/>
 
-**10. Write code to print the states who had implemented either policy:**
+**8. Write code to print the states who had implemented either policy:**
 ```{r}
 # your answer here
 ```
