@@ -41,7 +41,7 @@ load('E:\\data\\congress.RData')
 <br>
 
 
-**1. In your own words, describe what a function is, and provide one example of how you might use it in a data science project.**
+**1. In your own words, describe what a function is and provide one example of how you might use it in a data science project.**
 ```
 write your answer here
 ```
