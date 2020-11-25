@@ -5,10 +5,20 @@ date: ""
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file ([link to file](/assignments/Lab_6.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab we will be practicing the fundamentals of network analysis. 
 
-**Optional reading:** 
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_5.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+
+**Required reading:** 
+
+
+**Optional resources:**
 
 * [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
@@ -16,23 +26,23 @@ In this lab, we will practice working with application programming interfaces (A
 * [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
 
 
-### Required Datasets
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
 
-We will use the following datasets for the exercises.
+#library(igraph)
+#library(ggraph)
+library(tidyverse)
+library(ggplot2)
+library(rtweet)
 
-(1) `senator_data`: [Senator_Profiles.Rdata](/datasets/Senator_Profiles.Rdata) includes information about all senators, including their twitter handles (in the `screen_name` column).
-
-
-**Load the datasets and libraries:**
-```{r message=FALSE}
-#library(tidyverse)
-#library(rtweet)
-#load('../datasets/Senator_Profiles.Rdata')
+# We will use only senators in this assignment!
+load('E:\\data\\congress.RData')
+congress <- congress %>% filter(type=='sen')
 ```
-<br/><br/>
+<br/>
 
 
-### API Setup
+## API Setup
 
 Follow these two steps to set up your program for exercise.
 
@@ -92,50 +102,64 @@ lim[, 1:4]
 <br/>
 
 
-**2. Data science projects often require you to merge data from different sources. In this case, we already have `sentator_data` which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of "friends" they have and the number of statuses they have posted on Twitter. Use the API to augment `senator_data` with this additional data from the Twitter platform. You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. After you request the data from the api, join (see `left_join`) the Twitter data into `the existing dataframe`senator_data` to make a new dataframe called `senator_accounts`. NOTE: we don't need to get the list followers or Tweets - we just need the *number* of friends and tweets.**
+**2.  Use the Twitter API to augment senator information with the number of friends and the number of statuses they have posted on Twitter.**
+
+Note: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment.
+
+Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets.
+
+Note: for various reasons, not all senators in our dataset have valid Twitter handles - that's okay for the purpose of this assignment.
+
+Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We are looking for ***user** level information.
 ```{r}
 # Your answer here
+users <- lookup_users(congress$twitter)%>% 
+  select(screen_name, friends_count, statuses_count)
+senators <- congress %>% 
+  inner_join(users, by=c('twitter'='screen_name'))
 ```
 <br/>
 
 **3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form "Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?**
 ```{r}
 # Your answer here
+senators %>% group_by(party) %>% summarize(av_friends=mean(friends_count))
+```
+```
+written response here
 ```
 <br/>
 
 **4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the number of statuses that each senator has posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
 ```{r}
 # Write your answer here
+senators %>% ggplot(aes(x=gender, y=friends_count)) + geom_violin()
 ```
 
-**5. Now write a function that takes an arbitrary sequence of Twitter user ids as an argument and returns a dataframe containing their last five Tweets, then use this function to make a dataframe consisting of the last five tweets from all senators. This should be a dataframe with 495 rows, five for each Senator in our dataset. Store this result in a new dataframe called `Tweets` - we will use it for later questions in this lab. Hint: for the function, one approach might be to use a loop to get Tweets from one user at a time, and merge the results into a single dataframe (`bind_rows` may be useful there).**
+**5. Use the Twitter API to retrieve the last 2 Tweets from each senator in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
+```{r}
+# Your answer here
+tweets <- get_timeline(senators$twitter, n=1)
+tweets <- tweets %>% left_join(senators, by=c('screen_name'='twitter'))
+```
+<br/>
+
+
+**6. Look through the [`rtweet` package documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting figure (plot) or summary statistic about it. What conclusions can you draw from the these results?**
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**6. Now add information from the `senator_accounts` dataframe into the `tweets` dataframe using a join operation (see `left_join`) based on `user_id`. The resulting Tweet dataframe should still have 495 rows, but include additional columns containing information about the senator that created the Tweet. Use this merged dataset and `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the length of Tweet text (see the `display_text_width` column) by the political affiliation of the Senator that produced it.**
+**7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
 ```{r}
 # Your answer here
 ```
 <br/>
 
-
-**7. Look through the [`rtweet` package documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting figure (plot) or summary statistic about it. What conclusions can you draw from the these results?**
+**8. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
 ```{r}
 # Your answer here
 ```
 <br/>
-
-
-**8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
-```{r}
-# Your answer here
-```
-
-**9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
-```{r}
-# Your answer here
-```
