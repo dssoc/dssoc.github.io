@@ -5,50 +5,54 @@ date: ""
 output: html_document
 ---
 
-
-In this lab, we will practice the fundamentals of social network analysis. Edit the Lab #5 markdown file ([link to file](/assignments/Lab_5.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
-
-**Required readings:** 
-
-* [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
-* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
-Katya Ognyanova](https://kateto.net/networks-r-igraph)
-
-[R for Data Science: Basic Programming (17-21)](https://r4ds.had.co.nz/program-intro.html).
-
-**Optional reading:** 
-
-* [Official documentation for `igraph` package](https://igraph.org/r/doc/)
-* [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
-* [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
-
-
-### Required Datasets
-
-The network data that you will be drawing on for this lab can be downloaded from the course website: 
-
-(1) `canidates_flw_el`: [dnc_canidates_flw_el.Rdata](/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
-
-(2) `canidates_flw_am`: [dnc_canidates_flw_am.Rdata](/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
-
-
-**Load the datasets:**
-```{r message=FALSE}
-#library(igraph)
-#library(ggraph)
-#library(tidyverse)
-#load('../datasets/dnc_candidates_flw_am.Rdata')
-#load('../datasets/dnc_candidates_flw_el.Rdata')
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
 ```
-<br/><br/>
 
-### Exercises
+In this lab we will be practicing the fundamentals of programming. 
+
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_5.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+
+**Required reading:** 
+
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+
+
+**Optional resources:**
+
+* [R for Data Science Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html)
+
+
+
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+
+library(igraph)
+library(ggraph)
+library(tidyverse)
+library(ggplot2)
+
+load('E:\\data\\congress.RData')
+```
 <br/>
 
-**1. Describe what nodes/vertices and links/edges are. What kinds of things in the world might we attempt to model as networks?**
+## Questions
+<br>
+
+**1. Describe the following concepts:**
 
 ```
-# Yor answer here or in text.
+nodes: 
+edges: 
+vertices:
+links: 
+directed network: 
+undirected network: 
+unweighted network: 
+weighted network: 
+bipartite network: 
 ```
 <br/>
 
