@@ -226,3 +226,9 @@ cent_df %>% ggplot(aes(x=party, y=wdeg)) + geom_violin()
 written explanation here
 ```
 <br/>
+
+**11. In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).**
+```
+# your answer here
+```
+
