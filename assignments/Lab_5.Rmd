@@ -27,8 +27,9 @@ Katya Ognyanova](https://kateto.net/networks-r-igraph)
 
 **Optional resources:**
 
-* [R for Data Science Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html)
-
+* [Official documentation for `igraph` package](https://igraph.org/r/doc/)
+* [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
+* [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
 
 
 ```{r message=FALSE, echo=FALSE}
