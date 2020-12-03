@@ -165,13 +165,24 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 
 
 
-### FINAL PROJECT EXAMPLES (Coming Soon)
+### FINAL PROJECT EXAMPLES
 
-Will be posted when completed.
+***Fall 2020***
 
+[Hospice-related Google Search Volumes and Hospice Utilization](/project_examples/dss_fa2020_hospice_searches_and_utilization_Mihir_Patel.html)
+by Mihir Patel
+<br/>
 
+[The Gender Gap in Professional Networking](/project_examples/dss_fa2020_the_network_gap_mcculloh.html)
+by Charlotte McCulloh
+<br/>
 
+[The Rise of Doomscrolling: How Negative Emotions Drive Engagement with Political Content on Twitter](/project_examples/dss_fa2020_rise_of_doomscrolling_jaiveer_katariya.html)
+by Jaiveer Katariya
+<br/>
 
-
+[An Exceptionally Unified Front?: Convergence on China-related Issues in the U.S. Congress](/project_examples/dss_fa2020_exceptionally_unified_front_Wanying_He.html)
+by Wanying He
+<br/>
 
 
