@@ -173,7 +173,7 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 by Mihir Patel
 <br/>
 
-[The Gender Gap in Professional Networking](/project_examples/dss_fa2020_the_network_gap_mcculloh.html)
+[The Gender Gap in Professional Networking](/project_examples/dss_fa2020_the_network_gap_charlotte_mcculloh.html)
 by Charlotte McCulloh
 <br/>
 
