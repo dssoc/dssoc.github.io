@@ -5,7 +5,11 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file ([link to file](/assignments/Lab_8.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with text using stringr, tidytext, and tm packages. 
+
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_8.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
 **Required reading:** 
 
@@ -21,22 +25,17 @@ In this lab, we will practice working with text using stringr, tidytext, and tm 
 
 
 
-### Required Datasets
 
-We will use the following datasets for the exercises.
-
-(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
-
-
-**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
-```{r message=FALSE}
+```{r message=FALSE, echo=FALSE}
 library(tidyverse)
 library(stringr)
 library(tidytext)
 library(tm)
 
-# THIS SHOULD WORK AS-IS
-load(url('https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata'))
+
+load('E:\\data\\senator_tweets.RData')
+load('E:\\data\\congress.RData')
+
 ```
 <br/>
 
@@ -56,14 +55,29 @@ Hint: be wary of how R specifically interprets regex strings. It might be helpfu
 ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus https://t.co/mo5bPUgGgC"
 
 # your solution here
+url_re <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+ht_re <- "#[a-zA-Z0-9_]\\w*"
+str_view_all(ex, url_re)
+str_view_all(ex, ht_re)
+
 ```
 <br/>
 
-**2. Add two new columns to the `covid_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
+**2. Add two new columns to the `senator_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
 
 Hint: be sure to read the stringr documentation.
 ```{r}
 # your solution here
+senator_tweets <- senator_tweets %>% 
+  mutate(n_link=(str_count(text, url_re))) %>% 
+  mutate(n_ht=(str_count(text, ht_re)))
+m1 <- lm(retweet_count ~ n_link + n_ht, data=senator_tweets)
+m2 <- lm(favorite_count ~ n_link + n_ht, data=senator_tweets)
+summary(m1)
+summary(m2)
+```
+```
+written response here
 ```
 <br/>
 
@@ -73,21 +87,38 @@ Hint: be sure to read the stringr documentation.
 Hints: (1) you may want to check out the `unnest` function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization if you specified the regex according to the details I gave in question 1.
 ```{r}
 # your solution here
+senator_tweets %>% 
+  mutate(ht=str_extract_all(text, ht_re)) %>% 
+  unnest(ht) %>%
+  mutate(ht=str_to_lower(ht)) %>% 
+  group_by(ht) %>% 
+  count() %>% 
+  arrange(desc(n))
 ```
 <br/>
 
-**4. Create a new column in `covid_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
+**4. Create a new column in `senator_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
 # your solution here
+senator_tweets <- senator_tweets %>% 
+  mutate(cleaned=gsub(url_re, "", text)) %>% 
+  mutate(cleaned=gsub(ht_re, "", cleaned))
+senator_tweets %>% select(cleaned)
 ```
 <br/>
 
 
-**5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
+**5. Using tidytext, produce a dataframe showing the ten most common words in the Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
 
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
 # your solution here
+topwords <- senator_tweets %>% 
+  unnest_tokens('word', cleaned) %>% 
+  group_by(word) %>% count() %>% 
+  arrange(desc(n))
+topwords
+topwords %>% anti_join(stop_words)
 ```
 <br/>
 
@@ -95,6 +126,11 @@ Hint: look at the tidytext docs for `unnest_tokens`.
 **6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.**
 ```{r}
 # your solution here
+dtm <- senator_tweets %>% 
+  unnest_tokens('word', cleaned) %>% 
+  count(status_id, word) %>% 
+  cast_dtm(status_id, word, n)
+dtm
 ```
 <br/>
 
