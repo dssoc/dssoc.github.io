@@ -41,8 +41,8 @@ load('E:\\data\\congress.RData')
 
 
 
-## Exercises
-<br/>
+## Questions
+<br>
 
 **1. Create a regular expression which matches a URL in the example string `ex`, and verify that it works using `str_view_all` (described in R for data science [Ch. 14](https://r4ds.had.co.nz/strings.html)). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a "#" symbol followed by any letter, number, or underscore.**
 

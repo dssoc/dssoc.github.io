@@ -1329,9 +1329,9 @@ summary {
 <li>Test and develop regex expressions on <a href="https://regexr.com/">regexr.com</a></li>
 </ul>
 <p><br /></p>
-<div id="exercises" class="section level2">
-<h2>Exercises</h2>
-<p><br /></p>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
 <p><strong>1. Create a regular expression which matches a URL in the example string <code>ex</code>, and verify that it works using <code>str_view_all</code> (described in R for data science <a href="https://r4ds.had.co.nz/strings.html">Ch. 14</a>). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a “#” symbol followed by any letter, number, or underscore.</strong></p>
 <p>Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some research might save you a lot of time.</p>
 <p>Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.</p>
@@ -1343,11 +1343,11 @@ ex &lt;- &quot;BREAKING NEWS - @brumleader urges everyone to do their bit in ord
 url_re &lt;- &quot;http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&amp;+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+&quot;
 ht_re &lt;- &quot;#[a-zA-Z0-9_]\\w*&quot;
 str_view_all(ex, url_re)</code></pre>
-<div id="htmlwidget-91080285d932d4431e20" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-91080285d932d4431e20">{"x":{"html":"<ul>\n  <li>BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\n<span class='match'>https://t.co/3tbc6xcRFP<\/span>\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus <span class='match'>https://t.co/mo5bPUgGgC<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-e2e21d965da4815361ec" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-e2e21d965da4815361ec">{"x":{"html":"<ul>\n  <li>BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\n<span class='match'>https://t.co/3tbc6xcRFP<\/span>\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus <span class='match'>https://t.co/mo5bPUgGgC<\/span><\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script>
 <pre class="r"><code>str_view_all(ex, ht_re)</code></pre>
-<p><div id="htmlwidget-dd54a780d928983ba5b1" style="width:960px;height:100%;" class="str_view html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dd54a780d928983ba5b1">{"x":{"html":"<ul>\n  <li>BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n<span class='match'>#KeepBrumSafe<\/span>\n<span class='match'>#Btogether<\/span>\n<span class='match'>#COVID19<\/span>\n<span class='match'>#Coronavirus<\/span> https://t.co/mo5bPUgGgC<\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script> <br /></p>
+<p><div id="htmlwidget-4786e05140715778b342" style="width:960px;height:100%;" class="str_view html-widget"></div>
+<script type="application/json" data-for="htmlwidget-4786e05140715778b342">{"x":{"html":"<ul>\n  <li>BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n<span class='match'>#KeepBrumSafe<\/span>\n<span class='match'>#Btogether<\/span>\n<span class='match'>#COVID19<\/span>\n<span class='match'>#Coronavirus<\/span> https://t.co/mo5bPUgGgC<\/li>\n<\/ul>"},"evals":[],"jsHooks":[]}</script> <br /></p>
 <p><strong>2. Add two new columns to the <code>senator_tweets</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
 <p>Hint: be sure to read the stringr documentation.</p>
 <pre class="r"><code># your solution here
