@@ -13,7 +13,7 @@ In this lab we will be learning about APIs by working with the Twitter API. This
 
 Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
 
-This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_5.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_6.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
 **Required reading:** 
 
@@ -40,7 +40,7 @@ load('E:\\data\\congress.RData')
 congress <- congress %>% filter(type=='sen')
 
 # load tweet ids to be retreived later
-load('E:\\data\\senate_tweets_500.RData')
+load('E:\\data\\senator_tweets.RData')
 ```
 <br/>
 
@@ -94,8 +94,8 @@ lim[, 1:4]
 
 
 
-## Exercises
-<br/>
+## Questions
+<br>
 
 **1. In your own words, describe what an application programming interface is, and why it is useful to data scientists/computational social scientists.**
 
@@ -154,10 +154,10 @@ tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()
 <br/>
 
 
-**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senate_tweets_500` (which I downloaded from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS)), and generate a histogram showing the number of favorites those Tweets received.**
+**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (which I downloaded from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS)), and generate a histogram showing the number of favorites those Tweets received.**
 ```{r}
 # Your answer here
-idtweets <- lookup_tweets(senate_tweets_500$tweet_ids[1:10])
+idtweets <- lookup_tweets(senator_tweet_ids$tweet_ids[1:10])
 tweets %>% ggplot(aes(favorite_count)) + geom_histogram()
 ```
 <br/>
