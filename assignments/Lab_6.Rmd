@@ -38,6 +38,9 @@ library(rtweet)
 # We will use only senators in this assignment!
 load('E:\\data\\congress.RData')
 congress <- congress %>% filter(type=='sen')
+
+# load tweet ids to be retreived later
+load('E:\\data\\senate_tweets_500.RData')
 ```
 <br/>
 
@@ -136,30 +139,38 @@ written response here
 senators %>% ggplot(aes(x=gender, y=friends_count)) + geom_violin()
 ```
 
-**5. Use the Twitter API to retrieve the last 2 Tweets from each senator in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
+**5. Use the Twitter API to retrieve the last 10 Tweets from the 5 oldest male and female senators in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
 ```{r}
 # Your answer here
-tweets <- get_timeline(senators$twitter, n=1)
+msen <- senators %>% filter(gender=='M') %>% arrange(birthyear) %>% head(2)
+fsen <- senators %>% filter(gender=='F') %>% arrange(birthyear) %>% head(2)
+mfsenators <- rbind(msen, fsen)
+
+tweets <- get_timeline(mfsenators$twitter, n=5)
 tweets <- tweets %>% left_join(senators, by=c('screen_name'='twitter'))
+
+tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()
 ```
 <br/>
 
 
-**6. Look through the [`rtweet` package documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting figure (plot) or summary statistic about it. What conclusions can you draw from the these results?**
+**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senate_tweets_500` (which I downloaded from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS)), and generate a histogram showing the number of favorites those Tweets received.**
 ```{r}
 # Your answer here
+idtweets <- lookup_tweets(senate_tweets_500$tweet_ids[1:10])
+tweets %>% ggplot(aes(favorite_count)) + geom_histogram()
 ```
 <br/>
 
 
 **7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
-```{r}
-# Your answer here
+```
+Written answer here
 ```
 <br/>
 
 **8. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
-```{r}
+```
 # Your answer here
 ```
 <br/>
