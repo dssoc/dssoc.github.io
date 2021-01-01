@@ -86,7 +86,7 @@ Each week you are required to watch one lecture on a substantive topic and one "
 
 ***Weekly Readings***
 <br/>
-You are responsible for understanding the assigned readings each week. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice.
+You are responsible for understanding the assigned readings each week. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice. Each week, we also provide you with a list of "optional readings" in case you want to go deeper into the material that is covered in the assigned readings.
 <br/>
 
 ***Weekly Lab Assignments***
