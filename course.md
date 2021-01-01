@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Fall 2020 (Online)  
+description: Duke University, Sociology 367S <br/> Spring 2021 (Online)  
 
 
 # Micro navigation
@@ -44,7 +44,7 @@ Due to the COVID-19 pandemic, this class will be held entirely online. The forma
 
 Each week, there will be two re-recorded lectures that average 15-20 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
 
-In addition to viewing the lectures each week, you will be required to sign up for a weekly 15 minute one-on-one meeting with me via Zoom to discuss a topic of your choice from either the readings or the lab. My decision to meet with you individually instead of in groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for conventional group conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you achieve all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester. I am also hoping that weekly one-on-one time with me will off set some of the disappointment that we all feel about not being on campus and learning together in a normal setting.
+In addition to viewing the lectures each week, you will be required to sign up for a weekly 15 minute one-on-one meeting with me (Professor Bail) via Zoom to discuss a topic of your choice from either the readings or the lab. My decision to meet with you individually instead of in groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for conventional group conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you succeed on all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester. I am also hoping that weekly one-on-one time with me will off set some of the disappointment that we all feel about not being on campus and learning together in a normal setting.
 
 
 ***Required Readings***
@@ -57,7 +57,7 @@ We will draw heavily on two excellent books, both of which are freely available 
 
 ***R & RStudio***
 <br/>
-In this class, we will use the R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
+In this class, we will use R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
 <br/>
 
 ***Slack***
@@ -79,12 +79,14 @@ Many of the most important advances in computational social science appear first
 
 ### FORMAL REQUIREMENTS
 
-This class alternates between discussions of assigned readings and “labs” where you will learn how to code computational social science and an original final research project that you will create before the end of the semester. You must complete the assigned reading BEFORE each discussion class. However, you will complete lab assignments AFTER each lab class, which are designed to help you practice your skills. Please also note that there is no separate lab meeting outside the regular class hours. Instead every other one of these meetings constitutes a lab.
+***Watch Pre-Recorded Lecture Videos***
+
+Each week you are required to watch one lecture on a substantive topic and one "lab" lecture. The substantive topics cover a range of different issues from public health to discrimination and artificial intelligence; the labs teach you the concrete techniques to perform the types of analysis we read about during the class, and provide you with the tools necessary to complete your final project.
 <br/>
 
 ***Weekly Readings***
 <br/>
-You are responsible for understanding the readings. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Discussion classes will be used for substantive discussion and further exploration of the implications of the course readings, not for grasping basic concepts. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice.
+You are responsible for understanding the assigned readings each week. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice.
 <br/>
 
 ***Weekly Lab Assignments***
@@ -128,7 +130,7 @@ D) a description of the analysis techniques you used to analyze your data;
 E) a detailed description of the results of your analysis with **at least two figures**, and an interpretation of what they mean for past and future research on your subject;
 F) a bibliography.
 
-My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. You can see some previous final project papers at the bottom of this course description website ([link](#final-project-examples)).
+My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. You can see some previous final project papers at the bottom of this course description website ([link](#final-project-examples)). You can see examples of student projects from previous semesters of this course at the links below.
 
 
 ***How Your Grade Will be Calculated***
@@ -173,6 +175,10 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 by Mihir Patel
 <br/>
 
+[An Exceptionally Unified Front?: Convergence on China-related Issues in the U.S. Congress](/project_examples/dss_fa2020_exceptionally_unified_front_Wanying_He.html)
+by Wanying He
+<br/>
+
 [The Gender Gap in Professional Networking](/project_examples/dss_fa2020_the_network_gap_charlotte_mcculloh.html)
 by Charlotte McCulloh
 <br/>
@@ -181,8 +187,6 @@ by Charlotte McCulloh
 by Jaiveer Katariya
 <br/>
 
-[An Exceptionally Unified Front?: Convergence on China-related Issues in the U.S. Congress](/project_examples/dss_fa2020_exceptionally_unified_front_Wanying_He.html)
-by Wanying He
-<br/>
+
 
 
