@@ -21,13 +21,13 @@ page_nav:
 <b><i><font color="#E84E4E">January 21</font></i></b>
 
 
-The entire class will attend a zoom session from 12:30-1 (link available in our Slack workspace)
+Please attend an the entire class zoom session from 12:30-1 (link available in our Slack workspace).
 <br>
 
 ## 2 - Introduction
 <b><i><font color="#E84E4E">January 24-30</font></i></b>
 
-One-on-One Meetings with Dr. Bail
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Can Data Science Help us Fight COVID-19?
 
@@ -74,6 +74,8 @@ allowfullscreen></iframe>
 ## 3 - Ethics
 
 <b><i><font color="#E84E4E">January 31-February 6</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Ethics in Computational Social Science
 
@@ -123,6 +125,8 @@ allowfullscreen></iframe>
 ## 4 - Social Media & Polarization
 
 <b><i><font color="#E84E4E">February 7-February 13</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Do our Platforms Push us Apart?
 
@@ -174,6 +178,8 @@ allowfullscreen></iframe>
 ## 5 - The Echo Chamber
 
 <b><i><font color="#E84E4E">February 14-20</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Should we Break our Echo Chambers?
 
@@ -243,6 +249,8 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">February 21-27</font></i></b>
 
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
+
 #### The Hidden Influence of Social Networks
 
 <iframe width="560" height="315"
@@ -306,6 +314,8 @@ For these excercises, you will need the following datasets:<br/>
 ## 7 - Getting a Job
 <b><i><font color="#E84E4E">February 28-March 6</font></i></b>
 
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+
 #### How to find a job (and Succeed Once you Get One)
 
 <iframe width="560" height="315"
@@ -363,6 +373,7 @@ Katya Ognyanova</a></li>
 ## 8 - Surveillance and Privacy
 <b><i><font color="#E84E4E">March 7-13</font></i></b>
 
+One-on-one meetings cancelled this week for "spring break"
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -406,6 +417,8 @@ allowfullscreen></iframe>
 
 ## 9 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">March 14-20</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
@@ -451,6 +464,8 @@ allowfullscreen></iframe>
 
 ## 10 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 21-27</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Using Google Search to Track Radicalization
 
@@ -506,6 +521,8 @@ allowfullscreen></iframe>
 ## 11 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 28-April 3</font></i></b>
 
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+
 #### Did Russia's Social Media Campaign Succeed?
 
 <iframe width="560" height="315"
@@ -556,6 +573,8 @@ allowfullscreen></iframe>
 
 ## 12 - Protest and Censorship
 <b><i><font color="#E84E4E">April 4- April 10</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time (some meetings this week may need to be rescheduled).
 
 #### Online Social Change (Zeynep Tufekci)
 
@@ -620,7 +639,7 @@ allowfullscreen></iframe>
 ## 13 - Wellness Week 
 <b><i><font color="#E84E4E">April 11-17</font></i></b>
 
-(No Lectures/Lab, or one-on-one meetings, work on final projects)
+No Lectures/Lab or meetings... work on final projects!
 
 
 
@@ -630,7 +649,7 @@ allowfullscreen></iframe>
 ## 14 - Open Lab 
 <b><i><font color="#E84E4E">April 18-24</font></i></b>
 
-(Discuss your final project or any other topic you wish during one-on-one meetings)
+(Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail at your regularly scheduled time)
 
 *Regularly scheduled TA office hours will also be available.*
 
