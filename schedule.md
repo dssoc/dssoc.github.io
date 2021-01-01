@@ -417,6 +417,7 @@ allowfullscreen></iframe>
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0).
 
 ***Optional Materials***:
+- Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a Crisis in AI](https://www.wired.com/story/timnit-gebru-exit-google-exposes-crisis-in-ai/)
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
 
 #### Modeling (A Brief Introduction)
