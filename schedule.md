@@ -550,7 +550,7 @@ allowfullscreen></iframe>
 
 
 ## 12 - Protest and Censorship
-<b><i><font color="#E84E4E">April 4- April 10-</font></i></b>
+<b><i><font color="#E84E4E">April 4- April 10</font></i></b>
 
 #### Online Social Change (Zeynep Tufekci)
 
