@@ -17,9 +17,10 @@ page_nav:
         url: '/course'
 ---
 
-## Orientation
+## 0 - Orientation
 
-#### Please attend the zoom link shared in Slack to attend the first class session on Thursday January 21
+Please attend the zoom link shared in Slack to attend the first class session on Thursday January 21
+<br>
 
 ## 1 - Introduction
 <b><i><font color="#E84E4E">August 17-23</font></i></b>
