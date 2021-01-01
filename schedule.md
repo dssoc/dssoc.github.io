@@ -18,8 +18,10 @@ page_nav:
 ---
 
 ## 1 - Orientation
+<b><i><font color="#E84E4E">January 21</font></i></b>
 
-Please attend the zoom link shared in Slack to attend the first class session on Thursday January 21
+
+The entire class will attend a zoom session from 12:30-1 (link available in our Slack workspace)
 <br>
 
 ## 2 - Introduction
