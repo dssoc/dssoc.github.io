@@ -612,25 +612,20 @@ allowfullscreen></iframe>
 
 
 
-## 13 - Wellness Week (No Lectures/Lab, work on final projects)
+## 13 - Wellness Week 
 <b><i><font color="#E84E4E">April 11-17</font></i></b>
 
+(No Lectures/Lab, or one-on-one meetings, work on final projects)
 
 
 
 
 
 
-
-
-## 14 - Open Lab (Discuss your final project or any other topic you wish!)
+## 14 - Open Lab 
 <b><i><font color="#E84E4E">April 18-24</font></i></b>
 
-
-***Open office hours about final project with Dr. Bail and Devin:***
-- Tues  11/10: 3-4pm
-- Wed   11/11: 4-5pm
-- Thurs 11/12: 4-5pm
+(Discuss your final project or any other topic you wish during one-on-one meetings)
 
 *Regularly scheduled TA office hours will also be available.*
 
