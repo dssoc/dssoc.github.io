@@ -27,6 +27,8 @@ The entire class will attend a zoom session from 12:30-1 (link available in our 
 ## 2 - Introduction
 <b><i><font color="#E84E4E">January 24-30</font></i></b>
 
+One-on-One Meetings with Dr. Bail
+
 #### Can Data Science Help us Fight COVID-19?
 
 <iframe width="560" height="315"
