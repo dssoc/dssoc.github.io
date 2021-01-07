@@ -40,7 +40,7 @@ grid_navigation:
       url: '/course'
       
     - title: Schedule
-      excerpt: Fall 2020
+      excerpt: Spring 2021
       cta: 
       url: '/schedule'
 ---
