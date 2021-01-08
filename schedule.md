@@ -373,7 +373,7 @@ Katya Ognyanova</a></li>
 ## 8 - Surveillance and Privacy
 <b><i><font color="#E84E4E">March 7-13</font></i></b>
 
-One-on-one meetings cancelled this week for "spring break"
+One-on-one meetings cancelled this week for "spring break." If you just can't get enough computational social science, check out this video documentary!
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -383,7 +383,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-***Required reading***:
+***Optional reading***:
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/).
 
 ***Optional Materials***:
