@@ -153,34 +153,43 @@ All students, whether residing on campus or learning remotely, must adhere to th
 
 #### Mental Health and Wellness
 <br/>
-We are living through unprecedented times that are creating tremendous challenges for everyone. If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to you, including ones listed below. Duke encourages all students to access these resources, particularly as we navigate the transition and emotions associated with this time. Duke Student Government has worked with DukeReach and student advocates to create the Fall 2020 “Two-Click Support” Form, and Duke Reach has expanded its drop in hours as well.
+We are living through unprecedented times that are creating tremendous challenges for everyone. If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to you, including the ones listed below. I encourage all students to access these resources, particularly as we navigate the transition and emotions associated with this time.  
+
 <br/>
 [DukeReach](http://studentaffairs.duke.edu/dukereach). Provides comprehensive outreach services to identify and support students in managing all aspects of wellbeing.
 <br/>
+
 [Counseling and Psychological Services (CAPS)](https://studentaffairs.duke.edu/caps). CAPS services include individual,
 group, and couples counseling services, health coaching, psychiatric services, and
 workshops and discussions. They can be reached at (919) 660-1000
 <br/>
+
 [Blue Devils Care](bluedevilscare.duke.edu). A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow.  Managing daily stress and self-care are also important to well-being. 
 <br/>
+
 Duke offers several resources for students to both seek assistance on coursework and improve overall
 wellness, some of which are listed below and described in more detail at [this link](https://studentaffairs.duke.edu/duwell/holistic-wellness)
 <br/>
+
 • The Academic Resource Center: (919) 684-5917, theARC@duke.edu,
 or arc.duke.edu,  
 • DuWell: (919) 681-8421, duwell@studentaffairs.duke.edu,
 or https://studentaffairs.duke.edu/duwell)  
 • WellTrack: https://app.welltrack.com/
 <br/>
+
 #### Accessibility
 <br/>
-In addition to accessibility issues experienced during the typical academic year, I recognize that remote learning may present additional challenges. Students may be experiencing unreliable wi-fi, lack of access to quiet study spaces, varied time-zones, or additional responsibilities while studying at home. If you are experiencing these or other difficulties, please contact me to discuss possible accommodations.
+In addition to accessibility issues experienced during the typical academic year, I recognize that remote learning may present additional challenges. Students may be experiencing unreliable wi-fi, lack of access to quiet study spaces, varied time-zones, or additional responsibilities while studying at home. If you are experiencing these or other difficulties, please contact me to discuss possible accommodations.  
+
 <br/>
 **Technology Accommodations** Students with demonstrated high financial need who may have limited access to
-computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2021 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_cveTE8cXSCEsozX). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2021 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_cveTE8cXSCEsozX). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).  
 <br/>
-**Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.
+
+**Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.  
 <br/>
+
 **Accommodations for Remote Students** If you are unable to attend one of our group meetings, please contact me and we can discuss how to accommodate your needs during this very challenging time.
 <br/>
 
