@@ -142,26 +142,48 @@ My goal is for you to produce something that you can show to future employers, g
 <br/>
 
 ### COURSE POLICIES
-
-***Mental Health***
 <br/>
-These are exceptionally challenging times to be a college student for many different reasons. I want to support you as much as possible through this challenging time to learn as much as possible during this unusual semester. Mental health issues pervasive right now because of the many different pressures on us all. Unfortunately, I am not qualified to provide mental health support, and therefore I want to provide you with resources to get the help you need. [Duke Reach](https://studentaffairs.duke.edu/dukereach1) provides a first step to identify your needs and help you find solutions, but if you are facing a medical emergency situation (for your mental or physical health), I urge you to consult with your primary care provider or dial "911."
+The Duke Compact recognizes our shared responsibility for our collective health and well-being. Please be reminded that by signing your name to this pledge, you have acknowledged that you understand the conditions for being on campus (if you are on campus this semester). These include complying with university, state, and local requirements and acting to protect yourself and those around you. For complete language and updated policies, please visit [this link](https://returnto.duke.edu/compact/.2.)
 <br/>
 
-***Surveys***
+#### Academic Integrity/the DCS
 <br/>
-I may conduct anonymous surveys of your experience in this class. I urge you to take this opportunity to share with me anything you would like about how the course might be improved, or how I might help you learn about sociology more effectively. 
-<br/>
-
-***Academic Integrity***
-<br/>
-Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
+All students, whether residing on campus or learning remotely, must adhere to the Duke Community Standard (DCS): Duke University is a community dedicated to scholarship, leadership, and service and to the principles of honesty, fairness, and accountability. Citizens of this community commit to reflect upon these principles in all academic and non-academic endeavors, and to protect and promote a culture of integrity. Plagiarism, cheating or other violations will be dealt with according to University policy. All student assignments will be processed by plagiarism detection software.
 <br/>
 
-***Extra-Credit Policy***
+#### Mental Health and Wellness
 <br/>
-There will be no extra credit or make-up assignments. 
+We are living through unprecedented times that are creating tremendous challenges for everyone. If your mental health concerns and/or stressful events negatively affect your daily emotional state, academic performance, or ability to participate in your daily activities, many resources are available to you, including ones listed below. Duke encourages all students to access these resources, particularly as we navigate the transition and emotions associated with this time. Duke Student Government has worked with DukeReach and student advocates to create the Fall 2020 “Two-Click Support” Form, and Duke Reach has expanded its drop in hours as well.
 <br/>
+[DukeReach](http://studentaffairs.duke.edu/dukereach). Provides comprehensive outreach services to identify and support students in managing all aspects of wellbeing.
+<br/>
+[Counseling and Psychological Services (CAPS)](https://studentaffairs.duke.edu/caps). CAPS services include individual,
+group, and couples counseling services, health coaching, psychiatric services, and
+workshops and discussions. They can be reached at (919) 660-1000
+<br/>
+[Blue Devils Care](bluedevilscare.duke.edu). A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow.  Managing daily stress and self-care are also important to well-being. 
+<br/>
+Duke offers several resources for students to both seek assistance on coursework and improve overall
+wellness, some of which are listed below and described in more detail at [this link](https://studentaffairs.duke.edu/duwell/holistic-wellness)
+<br/>
+• The Academic Resource Center: (919) 684-5917, theARC@duke.edu,
+or arc.duke.edu,  
+• DuWell: (919) 681-8421, duwell@studentaffairs.duke.edu,
+or https://studentaffairs.duke.edu/duwell)  
+• WellTrack: https://app.welltrack.com/
+<br/>
+#### Accessibility
+<br/>
+In addition to accessibility issues experienced during the typical academic year, I recognize that remote learning may present additional challenges. Students may be experiencing unreliable wi-fi, lack of access to quiet study spaces, varied time-zones, or additional responsibilities while studying at home. If you are experiencing these or other difficulties, please contact me to discuss possible accommodations.
+<br/>
+**Technology Accommodations** Students with demonstrated high financial need who may have limited access to
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2021 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_cveTE8cXSCEsozX). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).
+<br/>
+**Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.
+<br/>
+**Accommodations for Remote Students** If you are unable to attend one of our group meetings, please contact me and we can discuss how to accommodate your needs during this very challenging time.
+<br/>
+
 
 ***Office Hours***
 <br/>
