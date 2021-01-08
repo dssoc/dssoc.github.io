@@ -35,7 +35,7 @@ The past decade has witnessed an explosion of data produced by websites such as 
 
 ### COURSE GOALS
 
-This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also aquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
+This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also acquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
 
 
 ### OVERVIEW OF CLASS FORMAT
