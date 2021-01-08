@@ -9,7 +9,7 @@ description:
 
 buttons:
     - content:
-      url: 'https://dssfall2020workspace.slack.com'
+      url: 'dssspring2021.slack.com'
       external_url: true
       icon: slack
     - content:
