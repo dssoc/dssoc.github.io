@@ -31,9 +31,9 @@ library(tidytext)
 library(tm)
 library(lubridate)
 
-# THIS SHOULD WORK AS-IS
-load('E:\\data\\senator_tweets.RData')
-load('E:\\data\\congress.RData')
+load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+
 ```
 <br/>
 

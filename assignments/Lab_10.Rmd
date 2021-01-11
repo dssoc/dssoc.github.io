@@ -44,8 +44,9 @@ library(ggplot2)
 library(stm)
 
 # THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load('E:\\data\\congress_wiki.RData')
-load('E:\\data\\congress.RData')
+load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+
 
 
 # limits to first 1000 characters

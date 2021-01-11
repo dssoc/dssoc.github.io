@@ -117,7 +117,7 @@ Note: for various reasons, not all senators in our dataset have valid Twitter ha
 Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We are looking for ***user** level information.
 ```{r}
 # Your answer here
-users <- lookup_users(congress$twitter)%>% 
+users <- lookup_users(congress$twitter) %>% 
   select(screen_name, friends_count, statuses_count)
 senators <- congress %>% 
   inner_join(users, by=c('twitter'='screen_name'))
@@ -147,7 +147,7 @@ msen <- senators %>% filter(gender=='M') %>% arrange(birthyear) %>% head(2)
 fsen <- senators %>% filter(gender=='F') %>% arrange(birthyear) %>% head(2)
 mfsenators <- rbind(msen, fsen)
 
-tweets <- get_timeline(mfsenators$twitter, n=5)
+tweets <- get_timeline(mfsenators$twitter, n=2)
 tweets <- tweets %>% left_join(senators, by=c('screen_name'='twitter'))
 
 tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()

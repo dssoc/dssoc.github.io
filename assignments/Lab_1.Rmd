@@ -46,7 +46,7 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 
 
 
-**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R to look up the `mean` function, and describe each of its arguments and what they do.**
+**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R to look up the `mean` function, and describe each of its arguments and what they do in your own words.**
 ```
 Write your answer here.
 ```
@@ -55,7 +55,7 @@ Write your answer here.
 
 **2. Extract the third element of the vector.**
 ```{r}
-Vector_Saurus_Rex<-c("R","is","great")
+random_vector <- c("R","is","great")
 # your code here
 ```
 <br>
@@ -64,7 +64,7 @@ Vector_Saurus_Rex<-c("R","is","great")
 
 Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
 ```{r}
-Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
+some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
 # your code here

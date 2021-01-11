@@ -34,9 +34,7 @@ library(tm)
 
 
 load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
-
 load(url('https://dssoc.github.io/datasets/congress.RData'))
-
 ```
 <br/>
 
