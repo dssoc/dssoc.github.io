@@ -8,51 +8,99 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-<br>
-Please complete as many of the questions below as you can. If you are not sure how to write code to answer them, write comments in each code chunk explaining where you got stuck so that we can give you help you improve and/or give you partial credit. To submit your answer, you'll need to edit this markdown document (you can copy and paste the text form [this link](/assignments/Lab_1.Rmd) into a new `.Rmd` file or write a new one from scratch. If you copy and paste, Rremember to change the "author" field above to your name. After you've edited it, save it and then send it to your TA via direct message on Slack. To learn how to load and edit markdown files in R, I've created [this video tutorial](https://youtu.be/DkqFH0C_CPQ) for you. To complete these exercises, you'll need to download the `Coronavirus_Tweets.Rdata` dataset from [this link.](/datasets/Coronavirus_Tweets.Rdata)
+
+In this lab we will be learning the basics of using R and working with real data.
+
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_1.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+
+
 
 **Required reading:** 
 
-* [R for Data Science (Chapters 4, 5, 10)](https://r4ds.had.co.nz/workflow-basics.html)
+* [R for Data Science Chapter 4: Workflow basics](https://r4ds.had.co.nz/workflow-basics.html)
+* [R4DS Chapters 26-30: Communicating your analysis](https://r4ds.had.co.nz/communicate-intro.html) (Except Chapter 28 - we will cover visualization later.)
 
+
+**Optional resources:**
+
+* [RDocumentation.org]([documentation website](https://www.rdocumentation.org/))
+
+
+
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+
+library(tidyverse)
+library(readxl)
+
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+```
+<br/>
+
+
+## Questions
 
 <br>
-**1. Load the "Coronavirus_Tweets.Rdata" dataset. Write code that calculates the mean value of the variable "retweet_count" in the code chunk below**
 
-```{r message=FALSE}
-#write your code here
+
+
+**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R to look up the `mean` function, and describe each of its arguments and what they do in your own words.**
+```
+Write your answer here.
 ```
 <br>
-**2. Why does the code below create an error message? Re-write the code so that it does not create an error message.**
 
-```{r, eval=FALSE}
-My_Variable<-1
-My_Var1able
-```
-<br>
-**3. Extract the third element of the vector.**
 
+**2. Extract the third element of the vector.**
 ```{r}
-Vector_Saurus_Rex<-c("R","is","great")
+random_vector <- c("R","is","great")
+# your code here
 ```
 <br>
-**4. Write code that identifies the largest number in this vector (hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus).**
 
+**3. Use a function to identify the data type of `Large_Vector`. What is the largest number in this vector? How about the average value?**
+
+Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
 ```{r}
-Large_Vector<-c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
+some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
+# your code here
 ```
 <br>
-**5. Calculate the square root of 2456.**
+
+
+**4. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? Use a function to show it's data type. You must use R code to generate these values.**
+
 ```{r}
-# write your code here
+# your code here
 ```
 <br>
-**6. Which Tweet in the Coronavirus Tweets.Rdata dataset received the most "likes" (or "favorites"? Write code that identifies the tweet and displays the text of the tweet.**
-```{r}
-# write your code here
+
+
+**5. What is the average age of all congress members? What is the data type of the `birthyear` column?**
+
+```{r eval=FALSE}
+# your code here
 ```
 <br>
+
+
+**6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?**
+
+Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.
+
+```{r, eval=FALSE}
+# your code here
+```
 <br>
+
+**7. Who are the oldest members of congress?**
+
+Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.
+```
+Your answer here
+```
 <br>

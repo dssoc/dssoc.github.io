@@ -5,103 +5,155 @@ date: ""
 output: html_document
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-In this lab, we will practice the fundamentals of social network analysis. Edit the Lab #5 markdown file ([link to file](/assignments/Lab_5.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab we will be practicing the fundamentals of network analysis. 
 
-**Required readings:** 
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
 
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_5.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+
+**Required reading:** 
+
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+
+* [`igraph` Tutorial](https://igraph.org/python/doc/tutorial/tutorial.html)
 * [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
 * [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
 Katya Ognyanova](https://kateto.net/networks-r-igraph)
 
-[R for Data Science: Basic Programming (17-21)](https://r4ds.had.co.nz/program-intro.html).
 
-**Optional reading:** 
+**Optional resources:**
 
 * [Official documentation for `igraph` package](https://igraph.org/r/doc/)
 * [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
 * [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
 
 
-### Required Datasets
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
 
-The network data that you will be drawing on for this lab can be downloaded from the course website: 
+library(igraph)
+library(ggraph)
+library(tidyverse)
+library(ggplot2)
 
-(1) `canidates_flw_el`: [dnc_canidates_flw_el.Rdata](/datasets/dnc_candidates_flw_el.Rdata) is an edgelist of the top five DNC cadidates for president (according to delegates won as of February 15, 2020), and the accounts they follow on Twitter.
-
-(2) `canidates_flw_am`: [dnc_canidates_flw_am.Rdata](/datasets/dnc_candidates_flw_am.Rdata) is an adjacency matrix of the top five five DNC cadidates for president (according to delegates won as of February 15, 2020), where ties/edges are the number of accounts they mutually follow on Twitter.  
-
-
-**Load the datasets:**
-```{r message=FALSE}
-#library(igraph)
-#library(ggraph)
-#library(tidyverse)
-#load('../datasets/dnc_candidates_flw_am.Rdata')
-#load('../datasets/dnc_candidates_flw_el.Rdata')
+load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
-<br/><br/>
-
-### Exercises
 <br/>
 
-**1. Describe what nodes/vertices and links/edges are. What kinds of things in the world might we attempt to model as networks?**
+## Questions
+<br>
 
+**1. Describe the following concepts:**
+
+```
+nodes: 
+edges: 
+vertices:
+links: 
+edge list: 
+adjacency matrix: 
+directed network: 
+undirected network: 
+weighted network: 
+unweighted network: 
+bipartite network: 
+```
+<br/>
+
+**2. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
+```
+1. 
+2. 
+3. 
+```
+<br/>
+
+**3. For the following problems, we will be working with the `committees` dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
 ```
 # Yor answer here or in text.
 ```
 <br/>
 
-**2. What kinds of questions would you be able to answer with networks that you might not be able to answer using analysis techniques we have covered so far?**
+**4. Create a network representing links between the five largest senate committees and the senators (not representatives) that compose them, and create a basic ggraph visualization to show this network. This will require you to use the data wrangling skills we've learned in the previous labs with some igraph functions. What do you see? Can we learn anything about congressional committees from this network?**
+
+Hint: you will need to join congress and committee data in order to identify commitees with senate members (all committees are composed of either house or senate members - never both).
+```{r}
+# Your answer here
 ```
-# Yor answer here or in text.
+```
+Written answer here.
 ```
 <br/>
 
-**3. Describe the data in the `candidates_flw_am` adjacency matrix and the `candidates_flw_el` edgelist. How do the two networks differ? Do they represent directed or undirected edges? Do the edges have weights?**
+
+**5. Create a new bipartite network from `committees` that includes all committees and members of congress. Then create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
+
+Hint: you can create a bipartite network by assigning a value to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function.
+```{r}
+# Your answer here.
 ```
-# Yor answer here or in text.
+```
+written answer here
 ```
 <br/>
 
-**4. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
+
+**6. Starting with our bipartite network, we want to compute a network representing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the politican network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**5. Using the `candidates_flw_am` *adjacency matrix*, create a graph (network) object. Make sure to include information about the edge weights (i.e. the number of accounts shared in common). Hints: (1) you may need to use the `as.matrix` function to the dataframe before converting to igraph if you are having problems with data types; (2) you may need to look through `igraph`'s official documentation (see link under "optional reading" above) to decide which function will convert adjacency matrices to igraph objects.**
+**7. Make a visual of of the senator co-membership network where the node colors are based on the gender of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight <= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.**
+
+Hint: see some available layouts [here](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/).
+
+Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
+```{r}
+# Your answer here or in text.
+```
+```
+describe strengths and weaknesses here.
+```
+<br/>
+
+**8. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between strength and all the others. Why are some of the correlations negative?**
+
+Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
 # Yor answer here or in text.
+```
+```
+written explanation here
 ```
 <br/>
 
 
-**6. Using the graph object that you created, indicate which candidate has the highest betweenness centrality, taking into account edge weight. If you had to write this finding in a research paper, how would you describe its meaning to a social science audience?**
-```{r}
-# Yor answer here or in text.
-```
-<br/>
-
-
-**7. Make a visual of your graph object using `ggraph`, with edges scaled by weight (i.e. the number of accounts that the two candidates mutually follow). If you decide to make this graph in Gephi, feel free to submit a separate image of your final visual in addition to your .Rmd file.**
-```{r}
-# Yor answer here or in text.
-```
-<br/>
-
-**8. Now we turn our attention to two-mode networks. Create an igraph object from the `candidates_flw_el` edgelist, and calculate the degree for each candidate.**
-```{r}
-# Yor answer here or in text.
-```
-<br/>
-
-
-**9. In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).**
+**9. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
 ```{r}
 # your answer here
 ```
+```
+written explanation here
+```
+<br/>
 
+**10. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
+```{r}
+# your answer here
+```
+```
+written explanation here
+```
+<br/>
 
+**11. In last week's lab excerices, you were asked to indicate possible research topics that you would be interested in pursuing for your final project. Choose one of your topics and expand on it in more detail (i.e. at least one paragraph).**
+```
+# your answer here
+```
 

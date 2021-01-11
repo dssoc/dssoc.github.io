@@ -381,59 +381,45 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice the fundamentals of programming. Edit the Lab #4 markdown file (<a href="/assignments/Lab_4.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. Send the markdown file (.Rmd) to your TA via direct message on Slack. Be sure to do the required reading!</p>
-<p><strong>Required reading:</strong> <a href="https://r4ds.had.co.nz/program-intro.html">R for Data Science: Basic Programming (17 -21)</a>.</p>
-<p><strong>Optional reading:</strong> <a href="https://rstudio.cloud/learn/primers/6">More on functions</a>.</p>
-<div id="required-datasets" class="section level3">
-<h3>Required Datasets</h3>
-<p>The tables that you will be drawing on for this lab can be downloaded from the course website:</p>
-<ol style="list-style-type: decimal">
-<li><code>nominees</code>: <a href="/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a> is a table of Grammy nominees from 2010 to 2020 in the categories “Album of the year” (album_oty), “Record of the year” (record_oty), “Song of the year (song_oty), and”Best new artist of the year&quot; (new_artist_oty).</li>
-<li><code>winners</code>: <a href="/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a> is a table of Grammy winners for the above listed categories, from 2010 to 2020.</li>
-</ol>
-<p>The exercises in this lab correspond with R for Data Science, <a href="https://r4ds.had.co.nz/program-intro.html">chapters 17 - 21</a>:</p>
-<p>Load the libraries and datasets:</p>
-<pre class="r"><code>#library(tidyverse)
-#load(&#39;grammy_nominees_20102020.Rdata&#39;)
-#load(&#39;grammy_winners_20102020.Rdata&#39;)</code></pre>
-<p><br /><br /></p>
-</div>
-<div id="exercises" class="section level3">
-<h3>Exercises</h3>
+<p>In this lab we will be practicing the fundamentals of programming.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_4.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p><strong>Required reading:</strong></p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/program-intro.html">R4DS Chapters 17-21: Programming</a></li>
+</ul>
+<p><strong>Optional resources:</strong></p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/dates-and-times.html">R for Data Science Chapter 16: Dates and times</a></li>
+</ul>
 <p><br /></p>
-<p><strong>1. In your own words, describe what Boolean operators (also called Logical operators) are, and provide one example of how you might use them in a data science project.</strong></p>
-<pre><code># your answer here</code></pre>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
+<p><strong>1. In your own words, describe what a function is and provide one example of how you might use it in a data science project.</strong></p>
+<pre><code>write your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. In your own words, describe what a function is, and provide one example of how you might use it in a data science project.</strong></p>
-<pre><code># your answer here</code></pre>
+<p><strong>2. Most of the time, packages in R contain many useful functions/commands. If you didn’t know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code? Where would you look outside RStudio?</strong></p>
+<pre><code>write your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Most of the time, packages in R contain many useful functions/commands. If you didn’t know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code? Where would you look outside RStudio?</strong></p>
-<pre><code># your answer here</code></pre>
-<p><br /></p>
-<p><strong>4. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector <code>sentence</code> defined below.</strong></p>
+<p><strong>3. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector <code>sentence</code> defined below.</strong></p>
 <pre class="r"><code>sentence &lt;- c(&#39;you&#39;, &#39;only&#39;, &#39;understand&#39;, &#39;data&#39;, &#39;if&#39;, &#39;data&#39;, &#39;is&#39;, &#39;tidy&#39;)
 # your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. In your reading, you learned about function arguments. Using the <code>winners</code> table, write a function that takes year (numeric) as an argument and returns the name of all winners for that year. It’s alright if the function simply returns the row for that year in the <code>winners</code> table, but you can also print each winner name if you’d like.</strong></p>
+<p><strong>4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the <code>birthyear</code> column of the <code>congress</code> dataframe to create a new <code>age</code> column with <code>mutate</code>.</strong></p>
+<p>Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. Sometimes we would like to execute different commands or calculations depending on the structure of our data. You learned about this in the <em>conditional execution</em> section of your reading. Expand your function from Exercise 5 to return “Date not available” if a year is supplied to the function but is not in the dataset.</strong></p>
+<p><strong>5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of <code>congress</code> called <code>birthmonth</code> using <code>mutate</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>7. Now, using the <code>nominees</code> table, write code to calculate the percent of nominations that have only one performer. For this, you might want to consider using the <code>is.na()</code> function that you learned about in your reading.</strong></p>
+<p><strong>6. Write a function that accepts a dataframe with the columns <code>birthday</code> and <code>full_name</code>, and prints the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a for loop. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (“%&gt;%”) to pass the dataframe directly to the function. Define and call your function like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. As in one of the previous labs, below I define two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>). Run this code to create the vectors yourself.</strong></p>
-<pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
-
-require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
-<p><strong>Iterate over the states which issued travel restrictions, and print “[state abbreviation] issued travel restrictions but didn’t require masks” if they did not require masks.</strong></p>
+<p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>9. Change one element or step in your answer to Exercise 8 to provide an alternative way of completing the exercise. For instance, if you did not use a for loop in your first attempt, perhaps use one now. If you did use a for loop in your first attempt, perhaps consider using <code>paste()</code> and <code>setdiff()</code> instead.</strong></p>
-<pre class="r"><code># your answer here</code></pre>
-<p><br /></p>
-<p><strong>10. Perform a transformation of your choice on one of the datasets provided for this Lab. Annotate your code to describe what your transformation does to someone who might later read your code (e.g. the TA ;) As a reminder, you should be at least modestly annotating all of your Lab answers.</strong></p>
+<p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question. In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 

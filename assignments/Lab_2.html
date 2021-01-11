@@ -381,61 +381,60 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice working with several datasets to become comfortable with R. To submit your answer, you’ll need to edit this markdown document (you can copy and paste the text form <a href="/assignments/Lab_2.Rmd">this link</a> into a new <code>.Rmd</code> file or write a new one from scratch. If you copy and paste, Rremember to change the “author” field above to your name. After you’ve edited it, save it and then send it to your TA via direct message on Slack.</p>
+<p>In this lab we will practice using the <code>tidyverse</code> package.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_2.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p><strong>Required reading:</strong></p>
+<ul>
+<li><a href="https://r4ds.had.co.nz/transform.html">R4DS Chapter 5: Data transformation</a></li>
+<li><a href="https://r4ds.had.co.nz/pipes.html">R4DS Chapter 18: Pipes</a></li>
+<li><a href="https://r4ds.had.co.nz/exploratory-data-analysis.html">R4DS Chapter 7: Exploratory data analysis</a></li>
+</ul>
 <p><strong>Optional resources:</strong></p>
 <ul>
-<li><a href="https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)</a></li>
 <li><a href="https://rstudio.cloud/learn/primers/2">More dplyr examples</a></li>
-<li><a href="https://rstudio.cloud/learn/primers/4">More help for tidy</a></li>
+<li><a href="https://rstudio.cloud/learn/primers/4">More help with tidy</a></li>
+<li><a href="https://r4ds.had.co.nz/wrangle-intro.html">R4DS Chapters 9-16</a></li>
 </ul>
-<div id="required-datasets" class="section level3">
-<h3>Required Datasets</h3>
-<p>To complete this lab, you’ll need the following datasets that describe Grammy-award winning musicians:</p>
-<ol style="list-style-type: decimal">
-<li><code>nominees</code>: <a href="/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a> is a table of Grammy nominees from 2010 to 2020 in the categories “Album of the year” (album_oty), “Record of the year” (record_oty), “Song of the year (song_oty), and”Best new artist of the year&quot; (new_artist_oty).</li>
-<li><code>winners</code>: <a href="/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a> is a table of Grammy winners for the above listed categories, from 2010 to 2020.</li>
-<li><code>artist_wiki</code>: <a href="/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a> is a table of Grammy nominee names and their wikipedia pages.</li>
-</ol>
-<p>In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: <a href="https://r4ds.had.co.nz/wrangle-intro.html" class="uri">https://r4ds.had.co.nz/wrangle-intro.html</a> <br></p>
-<p><strong>Load the datasets described above. Hint: see the <code>load()</code> function.</strong></p>
-<pre class="r"><code># Load the datasets &amp; packages</code></pre>
 <p><br /></p>
-</div>
-<div id="exercises" class="section level3">
-<h3>Exercises</h3>
-<p><strong>1. Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the <code>nominees</code> table.</strong></p>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
+<p><strong>1. Describe what the following tidyverse functions do. Also describe the pipe operator “%&gt;%”. You may need to look up the <a href="https://www.rdocumentation.org/">official documentation</a> for each of these.</strong></p>
+<pre><code>filter: 
+select: 
+mutate: 
+count: 
+arrange: 
+gather: 
+pipe operator (&quot;%&gt;%&quot;): </code></pre>
+<p><br /></p>
+<p><strong>2. Create a new dataframe that includes only senators and the columns <code>gender</code>, <code>birthyear</code>, and <code>party</code>. Then use that new dataframe to compute the number of male and female democrats and republicans (the output should be five rows corresponding to female democrats, male democrats, male independents, female republicans, and male republicans).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. Sometimes the table is quite large, or you are only interested in a portion of it. Show how you would view only the <code>performer1</code> and <code>year</code> columns of the <code>nominees</code> table.</strong></p>
+<p><strong>3. Identify the oldest and youngest male and female democrat senators.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. The <code>winners</code> table has a single, key variable (<code>year</code>) with awards listed in separate columns. If instead we wanted the key variables to be <code>year</code> <em>and</em> <code>award</code>, how might we employ the <code>pivot_longer()</code> command? Save your answer as a new table, <code>winners_long</code>.</strong></p>
+<p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>4. You may have noticed that some winners include multiple artists in this new <code>winners_long</code> table. For instance, the winner for Record of the Year in 2016 was “Mark Ronson, Burno Mars”. If you wanted each performer to be listed in a separate column, as they are in the <code>nominees</code> table. How would you do this? (Hint: you may want to use the <code>separate()</code> command)</strong></p>
+<p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55 (the dataframe should have four rows: number of females over 55, number of males over 55, etc).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. In data science, the norm is for <code>NA</code> to indicate a missing value, and 0/1 to indicate False/True. Given this, fill in all <code>NA</code> values with 0 for the following columns of the <code>nominees</code> table: record_oty, album_oty, song_oty, new_artist_oty.</strong></p>
+<p><strong>6. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with <code>pivot_longer</code>.</strong></p>
+<p>Note: not every congress member has an account on all three platform, so be sure to filter.</p>
+<p>Note: you may need to look up the documentation for <code>pivot_longer</code>.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. Now, using the <code>nominees</code> table, generate a new table that has only two colums–one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table <code>nominee_nominations</code>. As a tip, if you use the <code>group_by()</code> command to make you new table, you will likely also want to use the <code>ungroup()</code> command. The reason for this is that grouped objects can make future analyses tricky.</strong></p>
-<pre class="r"><code># your answer here</code></pre>
-<p><br /></p>
-<p><strong>7. Add the wikipedia link for each performer to the the <code>nominee_nominations</code> table:</strong></p>
-<pre class="r"><code># your answer here</code></pre>
-<p><br /></p>
-<p><strong>8. List only the 5 most nominated performers.</strong></p>
-<pre class="r"><code># your answer here</code></pre>
-<p><br /></p>
-<p><strong>9. Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
+<p><strong>Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
 <pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
 
 require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
 <p><br /></p>
-<p><strong>Now, write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
+<p><strong>7. write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>10. Write code to print the states who had implemented either policy:</strong></p>
+<p><strong>8. Write code to print the states who had implemented either policy:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 

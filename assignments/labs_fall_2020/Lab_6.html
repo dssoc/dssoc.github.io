@@ -12,7 +12,7 @@
 <meta name="author" content="Data Science and Society (Sociology 367)" />
 
 
-<title>Lab #1</title>
+<title>Lab #6: Working with APIs</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -375,56 +375,99 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Lab #1</h1>
+<h1 class="title toc-ignore">Lab #6: Working with APIs</h1>
 <h4 class="author">Data Science and Society (Sociology 367)</h4>
 
 </div>
 
 
-<p>In this lab we will be learning the basics of using R and working with real data.</p>
-<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_1.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
-<p><strong>Required reading:</strong></p>
+<p>In this lab, we will practice working with application programming interfaces (APIs). Edit the Lab #6 markdown file (<a href="/assignments/Lab_6.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
+<p><strong>Optional reading:</strong></p>
 <ul>
-<li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science Chapter 4: Workflow basics</a></li>
-<li><a href="https://r4ds.had.co.nz/communicate-intro.html">R4DS Chapters 26-30: Communicating your analysis</a> (Except Chapter 28 - we will cover visualization later.)</li>
+<li><a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a></li>
+<li><a href="https://medium.com/@rwilliams_bv/apis-d389aa68104f">Intro to APIs</a>, by Beck Williams</li>
+<li><a href="https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">An Illustrated Introduction to APIs</a>, by Xavier Adam</li>
+<li><a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">Obtaining and using access tokens for Twitter</a></li>
 </ul>
-<p><strong>Optional resources:</strong></p>
-<ul>
-<li><a href="%5Bdocumentation%20website%5D(https://www.rdocumentation.org/)">RDocumentation.org</a></li>
-</ul>
+<div id="required-datasets" class="section level3">
+<h3>Required Datasets</h3>
+<p>We will use the following datasets for the exercises.</p>
+<ol style="list-style-type: decimal">
+<li><code>senator_data</code>: <a href="/datasets/Senator_Profiles.Rdata">Senator_Profiles.Rdata</a> includes information about all senators, including their twitter handles (in the <code>screen_name</code> column).</li>
+</ol>
+<p><strong>Load the datasets and libraries:</strong></p>
+<pre class="r"><code>#library(tidyverse)
+#library(rtweet)
+#load(&#39;../datasets/Senator_Profiles.Rdata&#39;)</code></pre>
+<p><br /><br /></p>
+</div>
+<div id="api-setup" class="section level3">
+<h3>API Setup</h3>
+<p>Follow these two steps to set up your program for exercise.</p>
+<div id="set-up-your-api-credentials-with-twitter." class="section level4">
+<h4>1. Set up your API credentials with Twitter.</h4>
+<p>If you don’t already have one, you will need to create a new Twitter account. Next, you need to apply for a developer account and access credentials (api keys) for retreiving data. In <a href="https://developer.twitter.com/en/docs/twitter-api/getting-started/guide">Twitter’s getting started guide</a>, navigate to the section titled “How to get access to the Twitter API.” This will include applying for a developer account, and retreiving the app’s keys and tokens. <a href="https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html">This tutorial</a> may also be helpful. You’ll use these for the next step.</p>
+</div>
+<div id="store-your-credentials." class="section level4">
+<h4>2. Store your credentials.</h4>
+<p>Copy and paste the json below into a new json file named <code>api_credentials.json</code>. Note that a json file is just a text file where the filename ends in “.json”, so you can use notepad or text editor to make the new file. From the instructions in Step 1 we have the api key, api secret key, access token, and access token secrets - replace the approprate values in the json file and save (in a place you remember).</p>
+<pre><code>{
+  &quot;app&quot;: &quot;&lt;app name here&gt;&quot;,
+    &quot;api_key&quot;: &quot;&lt;api key here&gt;&quot;,
+    &quot;api_secret_key&quot;: &quot;&lt;api_secret_key here&quot;,
+    &quot;access_token&quot;: &quot;&lt;access token here&gt;&quot;,
+    &quot;access_token_secret&quot;: &quot;&lt;access token secret here&gt;&quot;,
+    &quot;bearer_token&quot;: &quot;&lt;unused&gt;&quot;
+}</code></pre>
+</div>
+<div id="authenticate-your-application." class="section level4">
+<h4>3. Authenticate your application.</h4>
+<p>After you have the credentials stored into the json file, run this code to authenticate the application (be sure to use the filename corresponding to your actual file). This simply reads the json data and provides them directly to the <code>create_token</code> function of the <code>rtweet</code> package. Once you complete this step, you should be able to access Twitter data through the API. See the <code>rtweet</code> package documentation to see how to access different types of data.</p>
+<pre class="r"><code># this code will read credentials from the JSON file you created.
+#install.packages(&quot;rjson&quot;)
+library(&#39;rjson&#39;)
+creds &lt;- fromJSON(file = &#39;api_credentials.json&#39;) # POINT THIS TO YOUR FILE
+
+# will allow you to authenticate your application
+token &lt;- create_token(
+  app = creds$app,
+  consumer_key = creds$api_key,
+  consumer_secret = creds$api_secret_key,
+  access_token = creds$access_token,
+  access_secret = creds$access_token_secret)
+
+# this allows you to check the remaining data
+lim &lt;- rate_limit()
+lim[, 1:4]</code></pre>
+</div>
+</div>
+<div id="exercises" class="section level2">
+<h2>Exercises</h2>
 <p><br /></p>
-<div id="questions" class="section level2">
-<h2>Questions</h2>
-<p><br></p>
-<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words.</strong></p>
-<pre><code>Write your answer here.</code></pre>
-<p><br></p>
-<p><strong>2. Extract the third element of the vector.</strong></p>
-<pre class="r"><code>random_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>3. Use a function to identify the data type of <code>Large_Vector</code>. What is the largest number in this vector? How about the average value?</strong></p>
-<p>Hint: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
-<pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
-                     1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
-                     14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? Use a function to show it’s data type. You must use R code to generate these values.</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>5. What is the average age of all congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
-<p>Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.</p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>7. Who are the oldest members of congress?</strong></p>
-<p>Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.</p>
-<pre><code>Your answer here</code></pre>
-<p><br></p>
+<p><strong>1. In your own words, describe what an application programming interface is, and why it is useful to data scientists/computational social scientists.</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>2. Data science projects often require you to merge data from different sources. In this case, we already have <code>sentator_data</code> which includes information that has been manually collected, like political party and representative state, but now we want to add additional data about the number of “friends” they have and the number of statuses they have posted on Twitter. Use the API to augment <code>senator_data</code> with this additional data from the Twitter platform. You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use. After you request the data from the api, join (see <code>left_join</code>) the Twitter data into <code>the existing dataframe</code>senator_data<code>to make a new dataframe called</code>senator_accounts`. NOTE: we don’t need to get the list followers or Tweets - we just need the <em>number</em> of friends and tweets.</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form &quot;Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>4. Use <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the number of statuses that each senator has posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).</strong></p>
+<pre class="r"><code># Write your answer here</code></pre>
+<p><strong>5. Now write a function that takes an arbitrary sequence of Twitter user ids as an argument and returns a dataframe containing their last five Tweets, then use this function to make a dataframe consisting of the last five tweets from all senators. This should be a dataframe with 495 rows, five for each Senator in our dataset. Store this result in a new dataframe called <code>Tweets</code> - we will use it for later questions in this lab. Hint: for the function, one approach might be to use a loop to get Tweets from one user at a time, and merge the results into a single dataframe (<code>bind_rows</code> may be useful there).</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>6. Now add information from the <code>senator_accounts</code> dataframe into the <code>tweets</code> dataframe using a join operation (see <code>left_join</code>) based on <code>user_id</code>. The resulting Tweet dataframe should still have 495 rows, but include additional columns containing information about the senator that created the Tweet. Use this merged dataset and <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the length of Tweet text (see the <code>display_text_width</code> column) by the political affiliation of the Senator that produced it.</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>7. Look through the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf"><code>rtweet</code> package documentation</a> to identify one additional set of Twitter data you are interested in. Use the API to extract the data and generate one interesting figure (plot) or summary statistic about it. What conclusions can you draw from the these results?</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><br /></p>
+<p><strong>8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
+<p><strong>9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you’ll be able to test the hypothesis using available data. For example, the hypothesis could be something like “H: when x does y, we see more z.” This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.</strong></p>
+<pre class="r"><code># Your answer here</code></pre>
 </div>
 
 

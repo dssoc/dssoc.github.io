@@ -381,7 +381,9 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file (<a href="/assignments/Lab_8.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
+<p>In this lab, we will practice working with text using stringr, tidytext, and tm packages.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_8.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li>R for Data Science: <a href="https://r4ds.had.co.nz/strings.html">Working with strings (Chapter 14)</a></li>
@@ -390,28 +392,13 @@ summary {
 <ul>
 <li><a href="https://www.rdocumentation.org/packages/stringr/versions/1.4.0">stringr package docs</a></li>
 <li><a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.6">tidytext package docs</a></li>
-<li>Test and develop regex expressions on <a href="https://regexr.com/">regexr.com</a></li>
 <li><a href="https://cran.r-project.org/web/packages/tm/tm.pdf">tm package docs</a></li>
+<li>Test and develop regex expressions on <a href="https://regexr.com/">regexr.com</a></li>
 </ul>
-<div id="required-datasets" class="section level3">
-<h3>Required Datasets</h3>
-<p>We will use the following datasets for the exercises.</p>
-<ol style="list-style-type: decimal">
-<li><code>covid_tweets</code>: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.</li>
-</ol>
-<p><strong>Load the datasets and libraries. You shouldn’t need to change the URL in the <code>load</code> function</strong></p>
-<pre class="r"><code>library(tidyverse)
-library(stringr)
-library(tidytext)
-library(tm)
-
-# THIS SHOULD WORK AS-IS
-load(url(&#39;https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata&#39;))</code></pre>
 <p><br /></p>
-</div>
-<div id="exercises" class="section level2">
-<h2>Exercises</h2>
-<p><br /></p>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
 <p><strong>1. Create a regular expression which matches a URL in the example string <code>ex</code>, and verify that it works using <code>str_view_all</code> (described in R for data science <a href="https://r4ds.had.co.nz/strings.html">Ch. 14</a>). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a “#” symbol followed by any letter, number, or underscore.</strong></p>
 <p>Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some research might save you a lot of time.</p>
 <p>Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.</p>
@@ -421,18 +408,19 @@ ex &lt;- &quot;BREAKING NEWS - @brumleader urges everyone to do their bit in ord
 
 # your solution here</code></pre>
 <p><br /></p>
-<p><strong>2. Add two new columns to the <code>covid_tweets</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
+<p><strong>2. Add two new columns to the <code>senator_tweets</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
 <p>Hint: be sure to read the stringr documentation.</p>
 <pre class="r"><code># your solution here</code></pre>
+<pre><code>written response here</code></pre>
 <p><br /></p>
 <p><strong>3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used.</strong></p>
 <p>Hints: (1) you may want to check out the <code>unnest</code> function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization if you specified the regex according to the details I gave in question 1.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
-<p><strong>4. Create a new column in <code>covid_tweets</code> called <code>cleaned</code> which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.</strong></p>
+<p><strong>4. Create a new column in <code>senator_tweets</code> called <code>cleaned</code> which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.</strong></p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
-<p><strong>5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column <code>cleaned</code>). Then secondly show the most common words excluding stopwords.</strong></p>
+<p><strong>5. Using tidytext, produce a dataframe showing the ten most common words in the Tweets after URLs and hashtags have been removed (use our new column <code>cleaned</code>). Then secondly show the most common words excluding stopwords.</strong></p>
 <p>Hint: look at the tidytext docs for <code>unnest_tokens</code>.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>

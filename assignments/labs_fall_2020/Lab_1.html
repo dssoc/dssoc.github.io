@@ -383,47 +383,46 @@ summary {
 
 <p>In this lab we will be learning the basics of using R and working with real data.</p>
 <p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_1.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_1.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
-<li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science Chapter 4: Workflow basics</a></li>
-<li><a href="https://r4ds.had.co.nz/communicate-intro.html">R4DS Chapters 26-30: Communicating your analysis</a> (Except Chapter 28 - we will cover visualization later.)</li>
-</ul>
-<p><strong>Optional resources:</strong></p>
-<ul>
-<li><a href="%5Bdocumentation%20website%5D(https://www.rdocumentation.org/)">RDocumentation.org</a></li>
+<li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science (Chapters 4, 5, 10)</a></li>
 </ul>
 <p><br /></p>
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>
-<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words.</strong></p>
-<pre><code>Write your answer here.</code></pre>
-<p><br></p>
-<p><strong>2. Extract the third element of the vector.</strong></p>
-<pre class="r"><code>random_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
+<p><strong>1. Extract the third element of the vector.</strong></p>
+<pre class="r"><code>Vector_Saurus_Rex&lt;-c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
 # your code here</code></pre>
-<p><br></p>
-<p><strong>3. Use a function to identify the data type of <code>Large_Vector</code>. What is the largest number in this vector? How about the average value?</strong></p>
+<p><strong>2. What is the largest number in this vector? How about the average value?</strong></p>
 <p>Hint: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
-<pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
+<pre class="r"><code>Large_Vector&lt;-c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
 # your code here</code></pre>
 <p><br></p>
-<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? Use a function to show it’s data type. You must use R code to generate these values.</strong></p>
-<pre class="r"><code># your code here</code></pre>
+<p><strong>3. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? You must use R code to generate these values.</strong></p>
+<pre class="r"><code># your code here
+nrow(congress)</code></pre>
+<pre><code>## [1] 536</code></pre>
+<pre class="r"><code>ncol(congress)</code></pre>
+<pre><code>## [1] 13</code></pre>
 <p><br></p>
-<p><strong>5. What is the average age of all congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
-<pre class="r"><code># your code here</code></pre>
+<p><strong>4. What is the average age of all congress members?</strong></p>
+<pre class="r"><code># your code here
+mean(2020 - congress$birthyear)</code></pre>
 <p><br></p>
-<p><strong>6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
+<p><strong>5. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
 <p>Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.</p>
-<pre class="r"><code># your code here</code></pre>
+<pre class="r"><code># your code here
+(2020-congress$birthyear[1]) - mean(2020-congress$birthyear)
+(2020-congress$birthyear[6]) - mean(2020-congress$birthyear)</code></pre>
 <p><br></p>
-<p><strong>7. Who are the oldest members of congress?</strong></p>
-<p>Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.</p>
-<pre><code>Your answer here</code></pre>
+<p><strong>6. Who are the oldest members of congress?</strong></p>
+<p>Note: you may use the browsing features of RStudio to identify the oldest. In the future, you will not be allowed to do this.</p>
+<pre><code>Your answer here
+Feinstein, Grassley, Young</code></pre>
 <p><br></p>
 </div>
 

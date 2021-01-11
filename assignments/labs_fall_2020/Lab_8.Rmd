@@ -5,11 +5,7 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with text using stringr, tidytext, and tm packages. 
-
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
-
-This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_8.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file ([link to file](/assignments/Lab_8.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
 
 **Required reading:** 
 
@@ -25,23 +21,29 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 
 
 
+### Required Datasets
 
-```{r message=FALSE, echo=FALSE}
+We will use the following datasets for the exercises.
+
+(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
+
+
+**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
+```{r message=FALSE}
 library(tidyverse)
 library(stringr)
 library(tidytext)
 library(tm)
 
-
-load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
-load(url('https://dssoc.github.io/datasets/congress.RData'))
+# THIS SHOULD WORK AS-IS
+load(url('https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata'))
 ```
 <br/>
 
 
 
-## Questions
-<br>
+## Exercises
+<br/>
 
 **1. Create a regular expression which matches a URL in the example string `ex`, and verify that it works using `str_view_all` (described in R for data science [Ch. 14](https://r4ds.had.co.nz/strings.html)). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a "#" symbol followed by any letter, number, or underscore.**
 
@@ -57,14 +59,11 @@ ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to ta
 ```
 <br/>
 
-**2. Add two new columns to the `senator_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
+**2. Add two new columns to the `covid_tweets` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
 
 Hint: be sure to read the stringr documentation.
 ```{r}
 # your solution here
-```
-```
-written response here
 ```
 <br/>
 
@@ -77,14 +76,14 @@ Hints: (1) you may want to check out the `unnest` function; (2) for reference, t
 ```
 <br/>
 
-**4. Create a new column in `senator_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
+**4. Create a new column in `covid_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
 # your solution here
 ```
 <br/>
 
 
-**5. Using tidytext, produce a dataframe showing the ten most common words in the Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
+**5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column `cleaned`). Then secondly show the most common words excluding stopwords.**
 
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}

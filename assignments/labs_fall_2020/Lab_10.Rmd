@@ -7,9 +7,7 @@ output: html_document
 
 In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. **NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the `substr` function to truncate the wikipedia page texts right after loading.**
 
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
-
-This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_10.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab #10 markdown file ([link to file](/assignments/Lab_10.Rmd)) where teh author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. This means they should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
 
 **Required reading:** 
@@ -29,6 +27,12 @@ This file should be submitted in both R Markdown (.Rmd) file and knitted HTML we
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
 * [stm website](https://www.structuraltopicmodel.com/)
 
+### Required Datasets
+
+We will use the following datasets for the exercises. Check the load function to see the URL - if you have problems using load, feel free to download the file automatically.
+
+(1) `congress_wiki`: text of wikipedia articles associated with each member of congress. Not all members of congress have wikipedia pages here.
+(2) `congress`: information about each member of congress.
 
 
 **Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
@@ -44,20 +48,14 @@ library(ggplot2)
 library(stm)
 
 # THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
-
-
-
-# limits to first 1000 characters
-congress_wiki <- congress_wiki %>% mutate(text=substr(text, 1, 1000))
 ```
 <br/>
 
 
 
-## Questions
-<br>
+## Exercises
+<br/>
 
 
 **1. Describe a document-term matrix (DTM) in your own words. Why is this data structure useful for text analysis?**
@@ -87,6 +85,7 @@ Hint: your merged dataframe should have as many rows as the original `congress_w
 **5. Make a function that accepts (takes as an argument) a topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
 ```{r}
 # your answer here
+
 ```
 ```
 your answer here

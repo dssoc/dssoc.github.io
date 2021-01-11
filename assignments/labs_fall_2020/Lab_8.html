@@ -12,7 +12,7 @@
 <meta name="author" content="Data Science and Society (Sociology 367)" />
 
 
-<title>Lab #1</title>
+<title>Lab #8: Basics of Text Analysis</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -375,56 +375,75 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Lab #1</h1>
+<h1 class="title toc-ignore">Lab #8: Basics of Text Analysis</h1>
 <h4 class="author">Data Science and Society (Sociology 367)</h4>
 
 </div>
 
 
-<p>In this lab we will be learning the basics of using R and working with real data.</p>
-<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_1.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p>In this lab, we will practice working with text using stringr, tidytext, and tm packages. Edit the Lab #8 markdown file (<a href="/assignments/Lab_8.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
 <p><strong>Required reading:</strong></p>
 <ul>
-<li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science Chapter 4: Workflow basics</a></li>
-<li><a href="https://r4ds.had.co.nz/communicate-intro.html">R4DS Chapters 26-30: Communicating your analysis</a> (Except Chapter 28 - we will cover visualization later.)</li>
+<li>R for Data Science: <a href="https://r4ds.had.co.nz/strings.html">Working with strings (Chapter 14)</a></li>
 </ul>
-<p><strong>Optional resources:</strong></p>
+<p><strong>Optional reading:</strong></p>
 <ul>
-<li><a href="%5Bdocumentation%20website%5D(https://www.rdocumentation.org/)">RDocumentation.org</a></li>
+<li><a href="https://www.rdocumentation.org/packages/stringr/versions/1.4.0">stringr package docs</a></li>
+<li><a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.6">tidytext package docs</a></li>
+<li>Test and develop regex expressions on <a href="https://regexr.com/">regexr.com</a></li>
+<li><a href="https://cran.r-project.org/web/packages/tm/tm.pdf">tm package docs</a></li>
 </ul>
+<div id="required-datasets" class="section level3">
+<h3>Required Datasets</h3>
+<p>We will use the following datasets for the exercises.</p>
+<ol style="list-style-type: decimal">
+<li><code>covid_tweets</code>: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.</li>
+</ol>
+<p><strong>Load the datasets and libraries. You shouldn’t need to change the URL in the <code>load</code> function</strong></p>
+<pre class="r"><code>library(tidyverse)
+library(stringr)
+library(tidytext)
+library(tm)
+
+# THIS SHOULD WORK AS-IS
+load(url(&#39;https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata&#39;))</code></pre>
 <p><br /></p>
-<div id="questions" class="section level2">
-<h2>Questions</h2>
-<p><br></p>
-<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words.</strong></p>
-<pre><code>Write your answer here.</code></pre>
-<p><br></p>
-<p><strong>2. Extract the third element of the vector.</strong></p>
-<pre class="r"><code>random_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>3. Use a function to identify the data type of <code>Large_Vector</code>. What is the largest number in this vector? How about the average value?</strong></p>
-<p>Hint: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
-<pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
-                     1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
-                     14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? Use a function to show it’s data type. You must use R code to generate these values.</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>5. What is the average age of all congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
-<p>Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.</p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>7. Who are the oldest members of congress?</strong></p>
-<p>Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.</p>
-<pre><code>Your answer here</code></pre>
-<p><br></p>
+</div>
+<div id="exercises" class="section level2">
+<h2>Exercises</h2>
+<p><br /></p>
+<p><strong>1. Create a regular expression which matches a URL in the example string <code>ex</code>, and verify that it works using <code>str_view_all</code> (described in R for data science <a href="https://r4ds.had.co.nz/strings.html">Ch. 14</a>). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a “#” symbol followed by any letter, number, or underscore.</strong></p>
+<p>Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some research might save you a lot of time.</p>
+<p>Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.</p>
+<pre class="r"><code># Your answer here
+
+ex &lt;- &quot;BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus https://t.co/mo5bPUgGgC&quot;
+
+# your solution here</code></pre>
+<p><br /></p>
+<p><strong>2. Add two new columns to the <code>covid_tweets</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
+<p>Hint: be sure to read the stringr documentation.</p>
+<pre class="r"><code># your solution here</code></pre>
+<p><br /></p>
+<p><strong>3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used.</strong></p>
+<p>Hints: (1) you may want to check out the <code>unnest</code> function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization if you specified the regex according to the details I gave in question 1.</p>
+<pre class="r"><code># your solution here</code></pre>
+<p><br /></p>
+<p><strong>4. Create a new column in <code>covid_tweets</code> called <code>cleaned</code> which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.</strong></p>
+<pre class="r"><code># your solution here</code></pre>
+<p><br /></p>
+<p><strong>5. Using tidytext, produce a dataframe showing the ten most common words in English-language Tweets after URLs and hashtags have been removed (use our new column <code>cleaned</code>). Then secondly show the most common words excluding stopwords.</strong></p>
+<p>Hint: look at the tidytext docs for <code>unnest_tokens</code>.</p>
+<pre class="r"><code># your solution here</code></pre>
+<p><br /></p>
+<p><strong>6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.</strong></p>
+<pre class="r"><code># your solution here</code></pre>
+<p><br /></p>
+<p><strong>7. How could you potentially use text analysis in the final project you have been working on? (You don’t necessarily need to do it for the project, just think hypothetically).</strong></p>
+<pre><code>response</code></pre>
+<p><br /></p>
+<p><strong>8. Last week you proposed some datasets that you might be able to use for our final projects in the class. If you haven’t yet, try to download or otherwise get access to the dataset so you can start playing with it. Either way, what did you find? Did your data have the information you needed after all? Was it as easy to access as you expected? Even if you’re not able to get all the data by now, write something about your plan for getting access to the data.</strong></p>
+<pre><code>response</code></pre>
 </div>
 
 

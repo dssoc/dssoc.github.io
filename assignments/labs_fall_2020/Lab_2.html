@@ -12,7 +12,7 @@
 <meta name="author" content="Data Science and Society (Sociology 367)" />
 
 
-<title>Lab #1</title>
+<title>Lab #2: Data Wrangling</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -375,56 +375,68 @@ summary {
 
 
 
-<h1 class="title toc-ignore">Lab #1</h1>
+<h1 class="title toc-ignore">Lab #2: Data Wrangling</h1>
 <h4 class="author">Data Science and Society (Sociology 367)</h4>
 
 </div>
 
 
-<p>In this lab we will be learning the basics of using R and working with real data.</p>
-<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_1.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
-<p><strong>Required reading:</strong></p>
-<ul>
-<li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science Chapter 4: Workflow basics</a></li>
-<li><a href="https://r4ds.had.co.nz/communicate-intro.html">R4DS Chapters 26-30: Communicating your analysis</a> (Except Chapter 28 - we will cover visualization later.)</li>
-</ul>
+<p>In this lab, we will practice working with several datasets to become comfortable with R. To submit your answer, you’ll need to edit this markdown document (you can copy and paste the text form <a href="/assignments/Lab_2.Rmd">this link</a> into a new <code>.Rmd</code> file or write a new one from scratch. If you copy and paste, Rremember to change the “author” field above to your name. After you’ve edited it, save it and then send it to your TA via direct message on Slack.</p>
 <p><strong>Optional resources:</strong></p>
 <ul>
-<li><a href="%5Bdocumentation%20website%5D(https://www.rdocumentation.org/)">RDocumentation.org</a></li>
+<li><a href="https://r4ds.had.co.nz/wrangle-intro.html">R for Data Science (Chapters 9-13)</a></li>
+<li><a href="https://rstudio.cloud/learn/primers/2">More dplyr examples</a></li>
+<li><a href="https://rstudio.cloud/learn/primers/4">More help for tidy</a></li>
 </ul>
+<div id="required-datasets" class="section level3">
+<h3>Required Datasets</h3>
+<p>To complete this lab, you’ll need the following datasets that describe Grammy-award winning musicians:</p>
+<ol style="list-style-type: decimal">
+<li><code>nominees</code>: <a href="/datasets/grammy_nominees_20102020.Rdata">grammy_nominees_20102020.Rdata</a> is a table of Grammy nominees from 2010 to 2020 in the categories “Album of the year” (album_oty), “Record of the year” (record_oty), “Song of the year (song_oty), and”Best new artist of the year&quot; (new_artist_oty).</li>
+<li><code>winners</code>: <a href="/datasets/grammy_winners_20102020.Rdata">grammy_winners_20102020.Rdata</a> is a table of Grammy winners for the above listed categories, from 2010 to 2020.</li>
+<li><code>artist_wiki</code>: <a href="/datasets/artist_wikipedia.Rdata">artist_wikipedia.Rdata</a> is a table of Grammy nominee names and their wikipedia pages.</li>
+</ol>
+<p>In future assignments, we will use these datasets to collect data from Spotify. For now, we will use them in a set of exercises that correlate closely with R for Data Science, chapters 9 - 13: <a href="https://r4ds.had.co.nz/wrangle-intro.html" class="uri">https://r4ds.had.co.nz/wrangle-intro.html</a> <br></p>
+<p><strong>Load the datasets described above. Hint: see the <code>load()</code> function.</strong></p>
+<pre class="r"><code># Load the datasets &amp; packages</code></pre>
 <p><br /></p>
-<div id="questions" class="section level2">
-<h2>Questions</h2>
-<p><br></p>
-<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words.</strong></p>
-<pre><code>Write your answer here.</code></pre>
-<p><br></p>
-<p><strong>2. Extract the third element of the vector.</strong></p>
-<pre class="r"><code>random_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>3. Use a function to identify the data type of <code>Large_Vector</code>. What is the largest number in this vector? How about the average value?</strong></p>
-<p>Hint: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
-<pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
-                     1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
-                     14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
-# your code here</code></pre>
-<p><br></p>
-<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? Use a function to show it’s data type. You must use R code to generate these values.</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>5. What is the average age of all congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
-<p>Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.</p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>7. Who are the oldest members of congress?</strong></p>
-<p>Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.</p>
-<pre><code>Your answer here</code></pre>
-<p><br></p>
+</div>
+<div id="exercises" class="section level3">
+<h3>Exercises</h3>
+<p><strong>1. Often, before working with new datasets or after wrangling them, you will want to take a look at them. Demonstrate at least two ways to view all columns and rows of the <code>nominees</code> table.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>2. Sometimes the table is quite large, or you are only interested in a portion of it. Show how you would view only the <code>performer1</code> and <code>year</code> columns of the <code>nominees</code> table.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>3. The <code>winners</code> table has a single, key variable (<code>year</code>) with awards listed in separate columns. If instead we wanted the key variables to be <code>year</code> <em>and</em> <code>award</code>, how might we employ the <code>pivot_longer()</code> command? Save your answer as a new table, <code>winners_long</code>.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>4. You may have noticed that some winners include multiple artists in this new <code>winners_long</code> table. For instance, the winner for Record of the Year in 2016 was “Mark Ronson, Burno Mars”. If you wanted each performer to be listed in a separate column, as they are in the <code>nominees</code> table. How would you do this? (Hint: you may want to use the <code>separate()</code> command)</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>5. In data science, the norm is for <code>NA</code> to indicate a missing value, and 0/1 to indicate False/True. Given this, fill in all <code>NA</code> values with 0 for the following columns of the <code>nominees</code> table: record_oty, album_oty, song_oty, new_artist_oty.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>6. Now, using the <code>nominees</code> table, generate a new table that has only two colums–one for each unique performer, and one for the count of nominations they recieved since 2010. Call this new table <code>nominee_nominations</code>. As a tip, if you use the <code>group_by()</code> command to make you new table, you will likely also want to use the <code>ungroup()</code> command. The reason for this is that grouped objects can make future analyses tricky.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>7. Add the wikipedia link for each performer to the the <code>nominee_nominations</code> table:</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>8. List only the 5 most nominated performers.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>9. Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
+<pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
+
+require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
+<p><br /></p>
+<p><strong>Now, write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>10. Write code to print the states who had implemented either policy:</strong></p>
+<pre class="r"><code># your answer here</code></pre>
 </div>
 
 

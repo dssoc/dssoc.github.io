@@ -382,7 +382,8 @@ summary {
 
 
 <p>In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the <code>stm</code> package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. <strong>NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the <code>substr</code> function to truncate the wikipedia page texts right after loading.</strong></p>
-<p>Edit the Lab #10 markdown file (<a href="/assignments/Lab_10.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_10.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li>Text Mining with R: A Tidy Approach, <a href="https://www.tidytextmining.com/topicmodeling.html">chapter 6: Topic Modeling by Julia Silge and David Robinson</a></li>
@@ -397,13 +398,6 @@ summary {
 <li><p><a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.6">tidytext package docs</a></p></li>
 <li><p><a href="https://www.structuraltopicmodel.com/">stm website</a></p></li>
 </ul>
-<div id="required-datasets" class="section level3">
-<h3>Required Datasets</h3>
-<p>We will use the following datasets for the exercises. Check the load function to see the URL - if you have problems using load, feel free to download the file automatically.</p>
-<ol style="list-style-type: decimal">
-<li><code>congress_wiki</code>: text of wikipedia articles associated with each member of congress. Not all members of congress have wikipedia pages here.</li>
-<li><code>congress</code>: information about each member of congress.</li>
-</ol>
 <p><strong>Load the datasets and libraries. You shouldn’t need to change the URL in the <code>load</code> function</strong></p>
 <pre class="r"><code>library(tidytext)
 library(tidyverse)
@@ -416,12 +410,17 @@ library(ggplot2)
 library(stm)
 
 # THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load(url(&#39;https://dssoc.github.io/datasets/congress.RData&#39;))</code></pre>
+load(url(&#39;https://dssoc.github.io/datasets/congress_wiki.RData&#39;))
+load(url(&#39;https://dssoc.github.io/datasets/congress.RData&#39;))
+
+
+
+# limits to first 1000 characters
+congress_wiki &lt;- congress_wiki %&gt;% mutate(text=substr(text, 1, 1000))</code></pre>
 <p><br /></p>
-</div>
-<div id="exercises" class="section level2">
-<h2>Exercises</h2>
-<p><br /></p>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
 <p><strong>1. Describe a document-term matrix (DTM) in your own words. Why is this data structure useful for text analysis?</strong></p>
 <pre><code>your answer here</code></pre>
 <p><strong>2. Describe a topic modeling algorithm in your own words. What is the input to a topic modeling algorithm (after parsing the raw text)? What does the actual topic model look like? How do you choose the number of topics? What are the beta parameter estimates?</strong></p>
