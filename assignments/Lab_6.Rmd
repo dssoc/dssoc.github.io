@@ -36,11 +36,12 @@ library(ggplot2)
 library(rtweet)
 
 # We will use only senators in this assignment!
-load('E:\\data\\congress.RData')
+load(url('https://dssoc.github.io/datasets/congress.RData'))
 congress <- congress %>% filter(type=='sen')
 
 # load tweet ids to be retreived later
-load('E:\\data\\senator_tweets.RData')
+load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
+
 ```
 <br/>
 

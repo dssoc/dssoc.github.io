@@ -27,7 +27,7 @@ library(tidyverse)
 library(ggplot2)
 library(modelr) # this one is new!
 
-load('E:\\data\\congress.RData')
+load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
