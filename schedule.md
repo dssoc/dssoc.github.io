@@ -155,8 +155,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-
 <i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+
 
 <br/>
 <i>Materials from Video:</i><br/>
@@ -277,8 +277,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
-
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -343,7 +344,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
+-->
 
 <br/>
 
@@ -399,7 +402,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
+-->
 <br/>
 
 
@@ -446,8 +451,10 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i>
-<br/><br/>
+<!--
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i><br/>
+-->
+<br/>
 
 <i>Materials from Video:</i><br/>
 <ul>
@@ -494,7 +501,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i>
+-->
 <br/><br/>
 
 <i>Materials from Video:</i><br/>
@@ -549,8 +558,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
-<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i>
-<br/>
+<!--
+<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i><br/>
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -605,9 +615,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>
-<br/>
+<!--
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i><br/>
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
