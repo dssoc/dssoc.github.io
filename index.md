@@ -9,7 +9,7 @@ description:
 
 buttons:
     - content:
-      url: 'https://dssfall2020workspace.slack.com'
+      url: 'dssspring2021.slack.com'
       external_url: true
       icon: slack
     - content:
@@ -40,7 +40,7 @@ grid_navigation:
       url: '/course'
       
     - title: Schedule
-      excerpt: Fall 2020
+      excerpt: Spring 2021
       cta: 
       url: '/schedule'
 ---

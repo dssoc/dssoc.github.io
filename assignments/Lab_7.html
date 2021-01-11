@@ -381,136 +381,51 @@ summary {
 </div>
 
 
-<p>In this lab, we will practice making statistical models of data using R. Throughout the lab we’ll be using these models to understand how Spotify calculates their “popularity” scores assigned to each artist. This is a synthetic score that spotify assigns to each song based on some features of user data. We start on the premise that Spotify may consider some of the features in our dataset when creating the score.</p>
-<p>Edit the Lab #7 markdown file (<a href="/assignments/Lab_7.Rmd">link to file</a>) for your submission. Remember to change the “author” field above to your name. <strong>Send the markdown file (.Rmd) to your TA via direct message on Slack.</strong> Be sure to do the required reading!</p>
+<p>In this lab, we will practice making and visualizing statistical models of data using R.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
+<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_7.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li>R for Data Science: <a href="https://r4ds.had.co.nz/model-intro.html">Modeling (Chapters 23-25)</a></li>
 </ul>
 <p><strong>Optional reading:</strong></p>
-<div id="required-datasets" class="section level3">
-<h3>Required Datasets</h3>
-<p>We will use the following datasets for the exercises.</p>
-<ol style="list-style-type: decimal">
-<li><code>artist_meta</code>:` table of Grammy nominee names and some of their spotify metadata.</li>
-</ol>
-<p><strong>Load the datasets and libraries. NOTE! It might be a good idea to convert the <code>popularity</code> column to a “double” type here to make later analyses easier. Do that here using the <code>mutate</code> and <code>as.integer</code> functions.</strong></p>
-<pre class="r"><code>library(tidyverse)
-library(MASS)
-load(url(&#39;https://dssoc.github.io/datasets/artist_meta.Rdata&#39;))
-artist_meta &lt;- artist_meta %&gt;% mutate(popularity=as.integer(popularity))
-head(artist_meta)</code></pre>
-<pre><code>## # A tibble: 6 x 6
-##   artist   wikipedia_link       spotifyID   followers popularity genre          
-##   &lt;chr&gt;    &lt;chr&gt;                &lt;chr&gt;           &lt;int&gt;      &lt;int&gt; &lt;chr&gt;          
-## 1 Bon Iver https://en.wikipedi~ 4LEiUm1SRb~   2546477         79 chamber pop,ea~
-## 2 Billie ~ https://en.wikipedi~ 6qqNVTkY8u~  20409690         99 electropop,pop 
-## 3 Ariana ~ https://en.wikipedi~ 66CXWjxzNU~  42023952         95 dance pop,pop,~
-## 4 H.E.R.   https://en.wikipedi~ 3Y7RZ31TRP~   2150235         83 alternative r&amp;~
-## 5 Khalid   https://en.wikipedi~ 6LuN9FCkKO~  10408465         96 alternative r&amp;~
-## 6 Lil Nas~ https://en.wikipedi~ 7jVv8c5Fj3~   2456187         86 country rap,lg~</code></pre>
 <p><br /></p>
-</div>
-<div id="exercises" class="section level2">
-<h2>Exercises</h2>
-<p><br /></p>
+<div id="questions" class="section level2">
+<h2>Questions</h2>
+<p><br></p>
 <p><strong>1. In your own words, describe what statistical modeling means. When is it used? What does it allow data scientists to do?</strong></p>
 <pre><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. What is the correlation and statistical significance (measured by p-value) between an artist’s popularity and their number of followers on Spotify? Why would this correlation be less than 1.0?</strong></p>
-<p>Note: be sure you have converted the <code>popularity</code> column to numeric, as described above.</p>
-<p>Hint: you may find the <code>cor.test</code> function helpful.</p>
+<p><strong>2. Create three new variables related to our congress dataset: (a) the age of the member, (b) the number of committees they are on, and (c) the percentage of instances where they hold a title in the committees they do hold (i.e. when the <code>title</code> entry in the committee membership dataframe is not empty). You will want to save these new variables for future problems. Then use the <code>summary</code> function to create summary statistics for these new variables.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Create a scatter plot showing the number of followers on the x-axis and artist popularity on the y-axis. Display a trend line on the plot. Can you draw any rough quantitative information about the relationship between these two variables just from this plot?</strong></p>
+<p><strong>3. Create a linear model predicting age from the number of committees that members belong to, then create a scatter plot with a linear trendline. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? </strong></p>
+<p>Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.</p>
 <pre class="r"><code># Your answer here</code></pre>
+<pre><code>written explanation here</code></pre>
 <p><br /></p>
-<p><strong>4. Generate a new column of logical type called <code>is_pop</code> to indicate whether a given artist is categorized in any pop genre (e.g. any genre that includes the word “pop”, like “rap pop”, etc). Create another column named <code>is_rap</code> that indicates whether the artist has been included in any “rap” genre. Make summary statistics indicating how many artists fall into either category.</strong></p>
-<pre class="r"><code># Your answer here
-artist_meta &lt;- artist_meta %&gt;% 
-  mutate(is_pop=grepl(&#39;pop&#39;, genre)) %&gt;% 
-  mutate(is_rap=grepl(&#39;rap&#39;, genre))
-
-artist_meta %&gt;% group_by(is_pop) %&gt;% count()</code></pre>
-<pre><code>## # A tibble: 2 x 2
-## # Groups:   is_pop [2]
-##   is_pop     n
-##   &lt;lgl&gt;  &lt;int&gt;
-## 1 FALSE     44
-## 2 TRUE      97</code></pre>
-<pre class="r"><code>artist_meta %&gt;% group_by(is_rap) %&gt;% count()</code></pre>
-<pre><code>## # A tibble: 2 x 2
-## # Groups:   is_rap [2]
-##   is_rap     n
-##   &lt;lgl&gt;  &lt;int&gt;
-## 1 FALSE    110
-## 2 TRUE      31</code></pre>
-<p><br /></p>
-<p><strong>5. First compute a measure of the relationship (you may use correlations or chi-squared tests here) between the <code>is_pop</code> and <code>is_rap</code> variables. Then compute the relationships with each of those two variables and Spotify’s popularity metric. Which relationships are statistically significant? What does that tell us about Spotify’s measure of popularity?</strong></p>
-<p>Note: you should end up with three models - one for each pairwise similarity test.</p>
-<pre class="r"><code># Your answer here
-artist_meta &lt;- artist_meta %&gt;% 
-  mutate(is_popn=as.numeric(is_pop), is_rapn=as.numeric(is_rap))
-
-chisq.test(table(artist_meta$is_pop, artist_meta$is_rap))</code></pre>
-<pre><code>## 
-##  Pearson&#39;s Chi-squared test with Yates&#39; continuity correction
-## 
-## data:  table(artist_meta$is_pop, artist_meta$is_rap)
-## X-squared = 0.91013, df = 1, p-value = 0.3401</code></pre>
-<pre class="r"><code>cor.test(artist_meta$is_popn, artist_meta$is_rapn)</code></pre>
-<pre><code>## 
-##  Pearson&#39;s product-moment correlation
-## 
-## data:  artist_meta$is_popn and artist_meta$is_rapn
-## t = 1.1708, df = 139, p-value = 0.2437
-## alternative hypothesis: true correlation is not equal to 0
-## 95 percent confidence interval:
-##  -0.06759478  0.25988812
-## sample estimates:
-##        cor 
-## 0.09882162</code></pre>
-<pre class="r"><code>cor.test(artist_meta$is_popn, artist_meta$popularity)</code></pre>
-<pre><code>## 
-##  Pearson&#39;s product-moment correlation
-## 
-## data:  artist_meta$is_popn and artist_meta$popularity
-## t = 2.435, df = 139, p-value = 0.01616
-## alternative hypothesis: true correlation is not equal to 0
-## 95 percent confidence interval:
-##  0.03823518 0.35568767
-## sample estimates:
-##       cor 
-## 0.2022688</code></pre>
-<pre class="r"><code>cor.test(artist_meta$is_rapn, artist_meta$popularity)</code></pre>
-<pre><code>## 
-##  Pearson&#39;s product-moment correlation
-## 
-## data:  artist_meta$is_rapn and artist_meta$popularity
-## t = 3.6621, df = 139, p-value = 0.0003547
-## alternative hypothesis: true correlation is not equal to 0
-## 95 percent confidence interval:
-##  0.138093 0.440352
-## sample estimates:
-##       cor 
-## 0.2966334</code></pre>
-<p><br /></p>
-<p><strong>6. Use <code>ggplot</code> to create <a href="https://www.r-graph-gallery.com/boxplot.html">box plots</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plots</a> showing the popularity by <code>is_pop</code> and <code>is_rap</code>. What can you say about the data from these plots?</strong></p>
+<p><strong>4. Create a bar graph showing the number of committees each member of congress belongs to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be significant differences?</strong></p>
+<p>Hint: you may want to see <code>geom_errorbar</code>.</p>
+<p>Hint: error bars are usually calculated by taking the average plus and minus the standard deviations.</p>
 <pre class="r"><code># Your answer here</code></pre>
+<pre><code>written explanation here</code></pre>
 <p><br /></p>
-<p><strong>7. Create a multivariate linear model (see the <code>lm</code> function) predicting the Spotify popularity measure from both <code>is_pop</code> and <code>is_rap</code>. Then create a second model that additionally includes the artist’s number of followers as a covariate. What do these models tell us? Why would we create a second model that includes the additional variable?</strong></p>
+<p><strong>5. Construct a model predicting the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Which variables might be related to holding a title? Try removing and adding different variables. Do any of these variables appear to act as confounders to one another?</strong></p>
+<p>Note: you may want to save the full model for the next question.</p>
 <pre class="r"><code># Your answer here</code></pre>
+<pre><code>written explanation here</code></pre>
 <p><br /></p>
-<p><strong>8. Name <em>two</em> unobserved but possibly important variables that we could not include in our model because we don’t have them in our dataset. Do any of our observed variables act as confounders for the unobserved variables? As in, might there be other features that Spotify uses to generate the popularity measure that we cannot see here, but nevertheless are represented in the model indirectly?</strong></p>
-<p>Hint: you may need to do research about unobserved and confounding variables to answer this question.</p>
-<p>Note: these types of questions are critical to consider when assessing our data science models. Be sure to think about them when you examine the results of your data science project.</p>
+<p><strong>6. Use the model from the previous question to make a scatter plot that includes prediction lines for BOTH F and M Democrats. That is, your plot should include two prediction lines - one for M and one for F, and the visualization (not the model) should only include democrats. This is important because our original model included information about all the variables, but we mainly want to visualize a single relationship, and how it might differ by gender. How do you interpret this plot?</strong></p>
+<p>Hint: you may need to follow the examples in the R4DS modeling section for this (see required readings) - see the <code>modelr</code> package.</p>
+<pre class="r"><code># Your answer here</code></pre>
 <pre><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>9. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?</strong></p>
+<p><strong>6. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?</strong></p>
 <pre><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>10. Describe one or two existing datasets that you would like to use for the project you’ve been developing last week. Will you be able to download the data from somewhere, or can you use an API? Will you be making statistical models, analyzing networks, doing text analysis, or creating visualizations? See the <a href="https://dssoc.github.io/course/">“Final Project” section in the course description page on the website</a>.</strong></p>
+<p><strong>7 Describe one or two existing datasets that you would like to use for the project you’ve been developing last week. Will you be able to download the data from somewhere, or can you use an API? Will you be making statistical models, analyzing networks, doing text analysis, or creating visualizations? See the <a href="https://dssoc.github.io/course/#formal-requirements">“Final Project” section in the course description page on the website</a>.</strong></p>
 <pre><code># Your answer here</code></pre>
+<p><br /></p>
 </div>
 
 

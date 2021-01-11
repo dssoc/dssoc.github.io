@@ -17,8 +17,17 @@ page_nav:
         url: '/course'
 ---
 
-## 1 - Introduction
-<b><i><font color="#E84E4E">August 17-23</font></i></b>
+## 1 - Orientation
+<b><i><font color="#E84E4E">January 21</font></i></b>
+
+
+Please attend an the entire class zoom session from 12:30-1 (link available in our Slack workspace).
+<br>
+
+## 2 - Introduction
+<b><i><font color="#E84E4E">January 24-30</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Can Data Science Help us Fight COVID-19?
 
@@ -62,9 +71,11 @@ allowfullscreen></iframe>
 </div>
 
 
-## 2 - Ethics
+## 3 - Ethics
 
-<b><i><font color="#E84E4E">August 24-30</font></i></b>
+<b><i><font color="#E84E4E">January 31-February 6</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Ethics in Computational Social Science
 
@@ -111,9 +122,11 @@ allowfullscreen></iframe>
 </div>
 
 
-## 3 - Social Media & Polarization
+## 4 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">August 31 - September 6</font></i></b>
+<b><i><font color="#E84E4E">February 7-February 13</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Do our Platforms Push us Apart?
 
@@ -142,8 +155,8 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-
 <i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+
 
 <br/>
 <i>Materials from Video:</i><br/>
@@ -162,9 +175,11 @@ allowfullscreen></iframe>
 </div>
 
 
-## 4 - The Echo Chamber
+## 5 - The Echo Chamber
 
-<b><i><font color="#E84E4E">September 7-13</font></i></b>
+<b><i><font color="#E84E4E">February 14-20</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Should we Break our Echo Chambers?
 
@@ -230,9 +245,11 @@ allowfullscreen></iframe>
 
 
 
-## 5 - Social Networks and Health
+## 6 - Social Networks and Health
 
-<b><i><font color="#E84E4E">September 14-20</font></i></b>
+<b><i><font color="#E84E4E">February 21-27</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### The Hidden Influence of Social Networks
 
@@ -260,8 +277,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
-
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -294,8 +312,10 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 6 - Getting a Job
-<b><i><font color="#E84E4E">September 21-27</font></i></b>
+## 7 - Getting a Job
+<b><i><font color="#E84E4E">February 28-March 6</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### How to find a job (and Succeed Once you Get One)
 
@@ -324,7 +344,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
+-->
 
 <br/>
 
@@ -351,9 +373,10 @@ Katya Ognyanova</a></li>
 </div>
 
 
-## 7 - Surveillance and Privacy
-<b><i><font color="#E84E4E">September 28-October 4</font></i></b>
+## 8 - Surveillance and Privacy
+<b><i><font color="#E84E4E">March 7-13</font></i></b>
 
+One-on-one meetings cancelled this week for "spring break." If you just can't get enough computational social science, check out this video documentary!
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -363,7 +386,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-***Required reading***:
+***Optional reading***:
 - Kieran Healy. [**Using Metadata to Find Paul Revere**](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/).
 
 ***Optional Materials***:
@@ -379,7 +402,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
+-->
 <br/>
 
 
@@ -395,8 +420,10 @@ allowfullscreen></iframe>
 </ul>
 </div>
 
-## 8 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">October 5-11</font></i></b>
+## 9 - Algorithms and Discrimination
+<b><i><font color="#E84E4E">March 14-20</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
@@ -412,6 +439,7 @@ allowfullscreen></iframe>
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0).
 
 ***Optional Materials***:
+- Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a Crisis in AI](https://www.wired.com/story/timnit-gebru-exit-google-exposes-crisis-in-ai/)
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
 
 #### Modeling (A Brief Introduction)
@@ -423,8 +451,10 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i>
-<br/><br/>
+<!--
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i><br/>
+-->
+<br/>
 
 <i>Materials from Video:</i><br/>
 <ul>
@@ -439,8 +469,10 @@ allowfullscreen></iframe>
 
 
 
-## 9 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">October 12-18</font></i></b>
+## 10 - Hate Speech & Radicalization
+<b><i><font color="#E84E4E">March 21-27</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
 #### Using Google Search to Track Radicalization
 
@@ -469,7 +501,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+<!--
 <i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i>
+-->
 <br/><br/>
 
 <i>Materials from Video:</i><br/>
@@ -493,8 +527,10 @@ allowfullscreen></iframe>
 
 
 
-## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">October 19-25</font></i></b>
+## 11 - Misinformation and Trolling
+<b><i><font color="#E84E4E">March 28-April 3</font></i></b>
+
+Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
 #### Did Russia's Social Media Campaign Succeed?
 
@@ -522,8 +558,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
-<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i>
-<br/>
+<!--
+<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i><br/>
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -544,8 +581,10 @@ allowfullscreen></iframe>
 </div>
 
 
-## 11 - Protest and Censorship
-<b><i><font color="#E84E4E">October 26-November 1</font></i></b>
+## 12 - Protest and Censorship
+<b><i><font color="#E84E4E">April 4- April 10</font></i></b>
+
+Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time (some meetings this week may need to be rescheduled).
 
 #### Online Social Change (Zeynep Tufekci)
 
@@ -576,9 +615,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i>
-<br/>
+<!--
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i><br/>
+-->
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -607,27 +646,20 @@ allowfullscreen></iframe>
 
 
 
-## 12 - Election Week (No Lectures/Lab)
-<b><i><font color="#E84E4E">November 2-8</font></i></b>
+## 13 - Wellness Week 
+<b><i><font color="#E84E4E">April 11-17</font></i></b>
 
-
-
-
-#### Work on Final Project Proposals (due November 9th)
+No Lectures/Lab or meetings... work on final projects!
 
 
 
 
 
 
-## 13 - Open Lab
-<b><i><font color="#E84E4E">November 9-15</font></i></b>
+## 14 - Open Lab 
+<b><i><font color="#E84E4E">April 18-24</font></i></b>
 
-
-***Open office hours about final project with Dr. Bail and Devin:***
-- Tues  11/10: 3-4pm
-- Wed   11/11: 4-5pm
-- Thurs 11/12: 4-5pm
+(Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail at your regularly scheduled time)
 
 *Regularly scheduled TA office hours will also be available.*
 
@@ -655,16 +687,16 @@ No graded assignment this week-- apply communication or collaboration skills to 
 </div>
 
 
-## 14 - Final Presentations
+## 15 - Final Presentations
 
-<b><i><font color="#E84E4E">November 16-20</font></i></b>
+<b><i><font color="#E84E4E">April 25-May 1</font></i></b>
 
 ***Final presentation times:***
-- Monday, November 16 @ 6-8pm
-- Wednesday, November 18 @ 3-5pm
+- Monday, May 26 @ TBD
+- Tuesday, May 27 18 @ TBD
 
 
-***Final paper DUE Saturday 11/21 at 5pm EDT***
+***Final paper DUE Saturday May 1st at 5pm EDT***
 
 
 

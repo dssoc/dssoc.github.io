@@ -14,12 +14,17 @@ library('WikipediR')
 
 # last_name, first_name, middle_name, suffix, nickname, full_name, birthday, gender, type, state, district, senate_class, party, url, address, phone, contact_form, rss_url, twitter, facebook, youtube, youtube_id, bioguide_id, thomas_id, opensecrets_id, lis_id, fec_ids, cspan_id, govtrack_id, votesmart_id, ballotpedia_id, washington_post_id, icpsr_id, wikipedia_i, 
 
+#congress_info <- read.csv("C:\\Users\\Devin\\Downloads\\legislators-current.csv", stringsAsFactors = FALSE)
+#congress_info <- read.csv(url('https://theunitedstates.io/congress-legislators/legislators-historical.csv'), stringsAsFactors = FALSE)
+congress_info <- read_excel('E:\\data\\legislators-current(1).xlsx')
 
-congress_info <- read.csv("C:\\Users\\Devin\\Downloads\\legislators-current.csv", stringsAsFactors = FALSE)
+
 
 congress <- congress_info %>% 
   select(last_name, full_name, birthday, gender, type, state, party, phone, twitter, 
-         facebook, youtube, bioguide_id)
+         facebook, youtube, bioguide_id) %>% 
+  mutate(birthyear=as.numeric(substr(birthday, 1, 4)))
+
 
 congress_ids <- congress_info %>% 
   select(bioguide_id, youtube_id, thomas_id, opensecrets_id, lis_id, fec_ids, cspan_id, 
@@ -36,7 +41,8 @@ congress_wiki <- read.csv('C:\\Users\\Devin\\Downloads\\wikipedia_pages2.csv', s
   
 
 
-save(congress, congress_ids, committees, congress_wiki, file='congress.RData')
+save(congress, congress_ids, committees, file='congress.RData')
+save(congress_wiki, file='congress_wiki.RData')
 write.csv(congress_ids, file='congress_ids.csv')
 write.csv(congress_wiki, file='congress_wiki.csv')
 

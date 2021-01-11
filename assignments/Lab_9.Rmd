@@ -5,7 +5,11 @@ date: ""
 output: html_document
 ---
 
-In this lab, we will practice working with dictionary-based methods for text analysis. Edit the Lab #9 markdown file ([link to file](/assignments/Lab_9.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+In this lab, we will practice working with dictionary-based methods for text analysis.
+
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+
+This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_9.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
 **Required reading:** 
 
@@ -20,38 +24,32 @@ In this lab, we will practice working with dictionary-based methods for text ana
 
 
 
-### Required Datasets
-
-We will use the following datasets for the exercises.
-
-(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
-
-
-**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
-```{r message=FALSE}
+```{r message=FALSE, echo=FALSE}
 library(tidyverse)
 library(stringr)
 library(tidytext)
 library(tm)
+library(lubridate)
 
-# THIS SHOULD WORK AS-IS
-load(url('https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata'))
+load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+
 ```
 <br/>
 
 
 
-## Exercises
-<br/>
+## Questions
+<br>
 
 
 **1. In which scenarios would it be best to consider dictionary-based approaches to text analysis? How does the decision to use dictionary-based approaches shape the research questions you can ask?**
 ```
 # your answer here
 ```
+<br/>
 
-
-**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. "#covid19" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
+**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. "#19thamendment" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
 
 Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for [`unnest_tokens`](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens
 ). Searching on the internet may also be a good strategy.
@@ -73,6 +71,7 @@ frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
       ylab("Frequency") +
       theme_minimal()
 ```
+<br/>
 
 **3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens. What do these scores mean? Give a hypothesis for why these three have the highest values.**
 ```{r}
@@ -81,6 +80,7 @@ frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
 ```
 your written explanation here
 ```
+<br/>
 
 **4. For each of the top-three tf-idf tokens, extract five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the question before?**
 ```{r}
@@ -89,9 +89,9 @@ your written explanation here
 ```
 your written explanation here
 ```
+<br/>
 
-
-**5. Create a new column in covid_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+**5. Create a new column in senator_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
 
 Hint: you may need to use `as.POSIXlt` to convert date information.
 ```{r}
@@ -100,6 +100,7 @@ covid_tweets <- covid_tweets %>%
   mutate(hr=as.POSIXlt(date)$hour)
 hist(covid_tweets$hr, breaks=seq(0, 24, by=3))
 ```
+<br/>
 
 
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
@@ -117,6 +118,8 @@ covid_tweets %>%
 ```
 Explain why you chose to compute sentiment in this way.
 ```
+<br/>
+
 
 **7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?**
 
@@ -127,7 +130,11 @@ Hint: you may want to look at the bing dictionary to see how you should format y
 ```
 Explain what your dictionary is intended to capture and interpret the results.
 ```
+<br/>
 
 **8. Using the data you have collected for your final project, show one preliminary result or statistic from an analysis you ran. If you haven't collected your dataset computationally, try to look anecdotally at the original source (e.g. if Twitter is your dataset, then just look on the Twitter website) and give one observation about the data. Try to make an observation or result based on one of the variables you will use for your final analysis. What do you see? Send your figures and statistics directly to your TA in Slack - don't add them to your script.**
-
+```
+written description here
+```
+<br/>
 

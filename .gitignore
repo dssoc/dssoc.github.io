@@ -1,3 +1,4 @@
-*.Rdata
+#*.Rdata
 *.json
 .Rproj.user
+.Rproj

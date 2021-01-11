@@ -1,0 +1,107 @@
+---
+title: "Lab #9: Dictionary-Based Text Analysis"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+In this lab, we will practice working with dictionary-based methods for text analysis. Edit the Lab #9 markdown file ([link to file](/assignments/Lab_9.Rmd)) for your submission. Remember to change the "author" field above to your name. **Send the markdown file (.Rmd) to your TA via direct message on Slack.** Be sure to do the required reading!
+
+**Required reading:** 
+
+* R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
+
+
+**Optional reading:** 
+
+* [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
+* [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
+* Test and develop regex expressions on [regexr.com](https://regexr.com/)
+
+
+
+### Required Datasets
+
+We will use the following datasets for the exercises.
+
+(1) `covid_tweets`: (load using link below) is a semi-random set of tweets that used the hashtag #coronavirus.
+
+
+**Load the datasets and libraries. You shouldn't need to change the URL in the `load` function**
+```{r message=FALSE}
+library(tidyverse)
+library(stringr)
+library(tidytext)
+library(tm)
+
+# THIS SHOULD WORK AS-IS
+load(url('https://dssoc.github.io/datasets/Coronavirus_Tweets.Rdata'))
+```
+<br/>
+
+
+
+## Exercises
+<br/>
+
+
+**1. In which scenarios would it be best to consider dictionary-based approaches to text analysis? How does the decision to use dictionary-based approaches shape the research questions you can ask?**
+```
+# your answer here
+```
+
+
+**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. "#covid19" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
+
+Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for [`unnest_tokens`](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens
+). Searching on the internet may also be a good strategy.
+```{r}
+# your answer here
+```
+
+**3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens. What do these scores mean? Give a hypothesis for why these three have the highest values.**
+```{r}
+# your answer here
+```
+```
+your written explanation here
+```
+
+**4. For each of the top-three tf-idf tokens, extract five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the question before?**
+```{r}
+# your answer here
+```
+```
+your written explanation here
+```
+
+
+**5. Create a new column in covid_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+
+Hint: you may need to use `as.POSIXlt` to convert date information.
+```{r}
+# your answer here
+```
+
+
+**6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
+```{r}
+# your answer here
+```
+```
+Explain why you chose to compute sentiment in this way.
+```
+
+**7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?**
+
+Hint: you may want to look at the bing dictionary to see how you should format your custom dictionary.
+```{r}
+# your answer here
+```
+```
+Explain what your dictionary is intended to capture and interpret the results.
+```
+
+**8. Using the data you have collected for your final project, show one preliminary result or statistic from an analysis you ran. If you haven't collected your dataset computationally, try to look anecdotally at the original source (e.g. if Twitter is your dataset, then just look on the Twitter website) and give one observation about the data. Try to make an observation or result based on one of the variables you will use for your final analysis. What do you see? Send your figures and statistics directly to your TA in Slack - don't add them to your script.**
+
+
