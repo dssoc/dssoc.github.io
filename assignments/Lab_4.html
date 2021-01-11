@@ -408,77 +408,16 @@ summary {
 <p><br /></p>
 <p><strong>4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the <code>birthyear</code> column of the <code>congress</code> dataframe to create a new <code>age</code> column with <code>mutate</code>.</strong></p>
 <p>Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.</p>
-<pre class="r"><code># your answer here
-age_from_birthyear &lt;- function(birthyear) {
-  return(2020-birthyear)
-}
-congress %&gt;% mutate(age=age_from_birthyear(birthyear)) %&gt;% select(birthyear, age)</code></pre>
-<pre><code>## # A tibble: 536 x 2
-##    birthyear   age
-##        &lt;dbl&gt; &lt;dbl&gt;
-##  1      1952    68
-##  2      1958    62
-##  3      1943    77
-##  4      1947    73
-##  5      1960    60
-##  6      1933    87
-##  7      1960    60
-##  8      1954    66
-##  9      1941    79
-## 10      1950    70
-## # ... with 526 more rows</code></pre>
+<pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of <code>congress</code> called <code>birthmonth</code> using <code>mutate</code>.</strong></p>
-<pre class="r"><code># your answer here
-datestr_to_month &lt;- function(datestrs) {
-  return(weekdays(as_date(datestrs)))
-}
-congress %&gt;% mutate(month=datestr_to_month(birthday)) %&gt;% select(birthday, month)</code></pre>
-<pre><code>## # A tibble: 536 x 2
-##    birthday            month    
-##    &lt;dttm&gt;              &lt;chr&gt;    
-##  1 1952-11-09 00:00:00 Sunday   
-##  2 1958-10-13 00:00:00 Monday   
-##  3 1943-10-05 00:00:00 Tuesday  
-##  4 1947-01-23 00:00:00 Thursday 
-##  5 1960-04-13 00:00:00 Wednesday
-##  6 1933-06-22 00:00:00 Thursday 
-##  7 1960-05-25 00:00:00 Wednesday
-##  8 1954-01-01 00:00:00 Friday   
-##  9 1941-09-08 00:00:00 Monday   
-## 10 1950-04-29 00:00:00 Saturday 
-## # ... with 526 more rows</code></pre>
+<pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. Write a function that accepts a dataframe with the columns <code>birthday</code> and <code>full_name</code>, and prints the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a for loop. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (“%&gt;%”) to pass the dataframe directly to the function. Define and call your function like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
-<pre class="r"><code># your answer here
-print_oldest &lt;- function(df, k=5) {
-  topk &lt;- df %&gt;% filter(type==&#39;sen&#39;) %&gt;% arrange(desc(2020-birthyear))# %&gt;% head(k)
-  for (i in 1:k) {
-    cat(topk$birthyear[i], topk$full_name[i], &#39;\n&#39;)
-  }
-}
-congress %&gt;% print_oldest(3)</code></pre>
-<pre><code>## 1933 Dianne Feinstein 
-## 1933 Chuck Grassley 
-## 1934 James M. Inhofe</code></pre>
+<pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code>.</strong></p>
-<pre class="r"><code># your answer here
-print_oldest &lt;- function(df, k=5) {
-  if (k &gt; 10) {
-    k = 5
-  }
-  topk &lt;- df %&gt;% filter(type==&#39;sen&#39;) %&gt;% arrange(desc(2020-birthyear))
-  for (i in 1:k) {
-    cat(topk$birthyear[i], topk$full_name[i], &#39;\n&#39;)
-  }
-}
-congress %&gt;% print_oldest(100)</code></pre>
-<pre><code>## 1933 Dianne Feinstein 
-## 1933 Chuck Grassley 
-## 1934 James M. Inhofe 
-## 1934 Richard C. Shelby 
-## 1936 Pat Roberts</code></pre>
+<pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question. In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
 <pre class="r"><code># your answer here</code></pre>

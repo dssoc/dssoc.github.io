@@ -46,15 +46,6 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 **2. Create three new variables related to our congress dataset: (a) the age of the member, (b) the number of committees they are on, and (c) the percentage of instances where they hold a title in the committees they do hold (i.e. when the `title` entry in the committee membership dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for these new variables.**
 ```{r}
 # Your answer here
-comm_cts <- committees %>% 
-  group_by(bioguide) %>% 
-  summarise(num_comm=n(), prob_title=mean(title!=''))
-
-cong_comm <- congress %>% 
-  inner_join(comm_cts, by=c('bioguide_id'='bioguide')) %>% 
-  mutate(age=2020-birthyear)
-
-summary(cong_comm %>% select(age, num_comm, prob_title))
 ```
 <br/>
 
@@ -64,12 +55,6 @@ summary(cong_comm %>% select(age, num_comm, prob_title))
 Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.
 ```{r}
 # Your answer here
-summary(lm(num_comm~age, data=cong_comm))
-
-cong_comm %>% ggplot(aes(x=age, y=num_comm)) + 
-  geom_point() + 
-  geom_smooth(method='lm', formula=y~x)
-
 ```
 ```
 written explanation here
@@ -83,13 +68,6 @@ Hint: you may want to see `geom_errorbar`.
 Hint: error bars are usually calculated by taking the average plus and minus the standard deviations.
 ```{r}
 # Your answer here
-tmp <- cong_comm %>% 
-  group_by(gender) %>% 
-  summarise(av=mean(num_comm), std=sd(num_comm))
-
-tmp %>% ggplot() + 
-  geom_bar(aes(x=gender, y=av), stat='identity') + 
-  geom_errorbar(aes(x=gender, ymin=av-std, ymax=av+std))
 ```
 ```
 written explanation here
@@ -103,8 +81,6 @@ written explanation here
 Note: you may want to save the full model for the next question.
 ```{r}
 # Your answer here
-m <- lm(prob_title ~ age + gender + party, data=cong_comm)
-summary(m)
 ```
 ```
 written explanation here
@@ -116,20 +92,6 @@ written explanation here
 Hint: you may need to follow the examples in the R4DS modeling section for this (see required readings) - see the `modelr` package.
 ```{r}
 # Your answer here
-
-grid <- cong_comm %>% 
-  data_grid(age, gender, party) %>% 
-  add_predictions(m) %>% 
-  filter(party=='Democrat')
-
-
-cong_comm %>% 
-  filter(party=='Democrat') %>% 
-  ggplot(aes(age)) + 
-    geom_point(aes(y=prob_title)) +
-    geom_line(aes(y=pred, color='red'), data=grid %>% filter(gender=='F')) +
-    geom_line(aes(y=pred, color='green'), data=grid %>% filter(gender=='M'))
-
 ```
 ```
 # Your answer here

@@ -58,42 +58,24 @@ pipe operator ("%>%"):
 
 ```{r}
 # your answer here
-tmp <- congress %>% filter(type=='sen') %>% select(gender, party, birthyear)
-tmp %>% count(gender, party)
 ```
 <br/>
 
 **3. Identify the oldest and youngest male and female democrat senators.**
 ```{r}
 # your answer here
-tmp <- congress %>% 
-  filter(type=='sen', party=='Democrat') %>% 
-  arrange(birthyear) %>% 
-  select(gender, party, birthyear, full_name)
-  
-tmp %>% filter(gender=='M') %>% head(1) %>% select(full_name)
-tmp %>% filter(gender=='F') %>% head(1) %>% select(full_name)
-
-  
 ```
 <br/>
 
 **4. Using `mutate`, create a new variable called `age` which represents the age of each member of congress. How many democratic senators are over 60 years old?**
 ```{r}
 # your answer here
-congress %>% 
-  mutate(age=2020-birthyear) %>% 
-  filter(age >= 60, party=='Democrat') %>% 
-  count()
 ```
 <br/>
 
 **5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55 (the dataframe should have four rows: number of females over 55, number of males over 55, etc).**
 ```{r}
 # your answer here
-congress %>% 
-  mutate(is_old=(2020-birthyear)>55) %>% 
-  count(is_old, gender)
 ```
 <br/>
 
@@ -105,11 +87,6 @@ Note: not every congress member has an account on all three platform, so be sure
 Note: you may need to look up the documentation for `pivot_longer`.
 ```{r}
 # your answer here
-congress %>% 
-  select(twitter:youtube, party, gender) %>% 
-  gather(key=platform, value=username, twitter:youtube) %>% 
-  filter(!is_null(username)) %>% 
-  count(party)
 ```
 <br/>
 

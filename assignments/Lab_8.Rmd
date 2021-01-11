@@ -54,11 +54,6 @@ Hint: be wary of how R specifically interprets regex strings. It might be helpfu
 ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus https://t.co/mo5bPUgGgC"
 
 # your solution here
-url_re <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
-ht_re <- "#[a-zA-Z0-9_]\\w*"
-str_view_all(ex, url_re)
-str_view_all(ex, ht_re)
-
 ```
 <br/>
 
@@ -67,13 +62,6 @@ str_view_all(ex, ht_re)
 Hint: be sure to read the stringr documentation.
 ```{r}
 # your solution here
-senator_tweets <- senator_tweets %>% 
-  mutate(n_link=(str_count(text, url_re))) %>% 
-  mutate(n_ht=(str_count(text, ht_re)))
-m1 <- lm(retweet_count ~ n_link + n_ht, data=senator_tweets)
-m2 <- lm(favorite_count ~ n_link + n_ht, data=senator_tweets)
-summary(m1)
-summary(m2)
 ```
 ```
 written response here
@@ -86,23 +74,12 @@ written response here
 Hints: (1) you may want to check out the `unnest` function; (2) for reference, there are 55 unique hashtags in the dataset when ignoring capitalization if you specified the regex according to the details I gave in question 1.
 ```{r}
 # your solution here
-senator_tweets %>% 
-  mutate(ht=str_extract_all(text, ht_re)) %>% 
-  unnest(ht) %>%
-  mutate(ht=str_to_lower(ht)) %>% 
-  group_by(ht) %>% 
-  count() %>% 
-  arrange(desc(n))
 ```
 <br/>
 
 **4. Create a new column in `senator_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
 # your solution here
-senator_tweets <- senator_tweets %>% 
-  mutate(cleaned=gsub(url_re, "", text)) %>% 
-  mutate(cleaned=gsub(ht_re, "", cleaned))
-senator_tweets %>% select(cleaned)
 ```
 <br/>
 
@@ -112,12 +89,6 @@ senator_tweets %>% select(cleaned)
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
 # your solution here
-topwords <- senator_tweets %>% 
-  unnest_tokens('word', cleaned) %>% 
-  group_by(word) %>% count() %>% 
-  arrange(desc(n))
-topwords
-topwords %>% anti_join(stop_words)
 ```
 <br/>
 
@@ -125,11 +96,6 @@ topwords %>% anti_join(stop_words)
 **6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.**
 ```{r}
 # your solution here
-dtm <- senator_tweets %>% 
-  unnest_tokens('word', cleaned) %>% 
-  count(status_id, word) %>% 
-  cast_dtm(status_id, word, n)
-dtm
 ```
 <br/>
 

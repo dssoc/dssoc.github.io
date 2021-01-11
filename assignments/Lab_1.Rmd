@@ -76,8 +76,6 @@ some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,123123
 
 ```{r}
 # your code here
-nrow(congress)
-ncol(congress)
 ```
 <br>
 
@@ -86,7 +84,6 @@ ncol(congress)
 
 ```{r eval=FALSE}
 # your code here
-mean(2020 - congress$birthyear)
 ```
 <br>
 
@@ -97,8 +94,6 @@ Note: you are allowed to use hard-coded numerical subscripts for this problem. F
 
 ```{r, eval=FALSE}
 # your code here
-(2020-congress$birthyear[1]) - mean(2020-congress$birthyear)
-(2020-congress$birthyear[6]) - mean(2020-congress$birthyear)
 ```
 <br>
 
@@ -107,6 +102,5 @@ Note: you are allowed to use hard-coded numerical subscripts for this problem. F
 Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.
 ```
 Your answer here
-Feinstein, Grassley, Young
 ```
 <br>

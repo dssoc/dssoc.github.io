@@ -83,30 +83,6 @@ bipartite network:
 Hint: you will need to join congress and committee data in order to identify commitees with senate members (all committees are composed of either house or senate members - never both).
 ```{r}
 # Your answer here
-
-# get only senators
-senators <- congress %>% 
-  filter(type=='sen')
-
-# get top 5 largest committees composed of senators
-senate_comms <- committees %>% 
-  inner_join(senators, by=c('bioguide'='bioguide_id')) %>% 
-  filter(type=='sen')
-
-comm_sel <- senate_comms %>% 
-  count(committee) %>% 
-  arrange(desc(n)) %>% 
-  head(5)
-
-largest_comms <- senate_comms %>% 
-  inner_join(comm_sel, by='committee')
-
-el <- largest_comms %>% select(committee, name)
-g <- graph_from_data_frame(el, directed=TRUE)
-g %>% ggraph() + 
-        geom_node_point() +
-        geom_node_text(aes(label=name)) +
-        geom_edge_link(width=0.5)
 ```
 ```
 Written answer here.
@@ -118,18 +94,7 @@ Written answer here.
 
 Hint: you can create a bipartite network by assigning a value to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function.
 ```{r}
-# Yor answer here.
-
-# create bipartite graph
-tmp_el <- committees %>% select(committee, bioguide)
-h <- graph_from_data_frame(tmp_el, directed=TRUE)
-V(h)$type <- V(h)$name %in% congress$bioguide_id
-is_bipartite(h)
-
-A <- h %>% as_adjacency_matrix()
-p <- graph_from_adjacency_matrix(A)
-is_bipartite(p)
-
+# Your answer here.
 ```
 ```
 written answer here
@@ -139,22 +104,7 @@ written answer here
 
 **6. Starting with our bipartite network, we want to compute a network representing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the politican network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
 ```{r}
-# Yor answer here or in text.
-tmp_el <- committees %>% select(committee, bioguide)
-h <- graph_from_data_frame(tmp_el, directed=TRUE)
-V(h)$type <- V(h)$name %in% congress$bioguide_id
-is_bipartite(h)
-
-proj <- bipartite_projection(h)
-g_comm = proj[[1]] # committee network
-
-# add vertex attributes to politican network
-ind <- as.factor(congress$bioguide_id)
-g_pol = proj[[2]] %>% 
-  set_vertex_attr("party", index = ind, congress$party) %>% 
-  set_vertex_attr("gender", index = ind, congress$gender) %>% 
-  set_vertex_attr("age", index = ind, 2020-congress$birthyear) %>% 
-  set_vertex_attr("full_name", index = ind, congress$full_name)
+# Your answer here
 ```
 <br/>
 
@@ -165,13 +115,7 @@ Hint: see some available layouts [here](https://www.data-imaginist.com/2017/ggra
 
 Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
 ```{r}
-# Yor answer here or in text.
-g_pol %>% 
-  delete.edges(which(E(g_pol)$weight <= 5)) %>% 
-  ggraph(layout='kk') + 
-    geom_edge_link(width=0.5) +
-    geom_node_point(aes(color=gender, size=age)) +
-    geom_node_text(aes(label=full_name))
+# Your answer here or in text.
 ```
 ```
 describe strengths and weaknesses here.
@@ -183,20 +127,6 @@ describe strengths and weaknesses here.
 Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
 # Yor answer here or in text.
-
-cent_df <- data.frame(
-      deg=degree(g_pol), 
-      wdeg=strength(g_pol),
-      eig=eigen_centrality(g_pol)$vector,
-      betw=betweenness(g_pol), 
-      close=closeness(g_pol)
-    )
-cent_df$bioguide_id <- rownames(cent_df)
-cent_df <- cent_df %>% inner_join(congress, by='bioguide_id')
-
-cor(cent_df$wdeg, cent_df$eig)
-cor(cent_df$wdeg, cent_df$betw)
-cor(cent_df$wdeg, cent_df$close)
 ```
 ```
 written explanation here
@@ -207,8 +137,6 @@ written explanation here
 **9. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
 ```{r}
 # your answer here
-cent_df %>% arrange(desc(wdeg)) %>% select(full_name) %>% head(3)
-cent_df %>% arrange(desc(eig)) %>% select(full_name) %>% head(3)
 ```
 ```
 written explanation here
@@ -218,9 +146,6 @@ written explanation here
 **10. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
 ```{r}
 # your answer here
-
-cent_df %>% ggplot(aes(x=gender, y=wdeg)) + geom_violin()
-cent_df %>% ggplot(aes(x=party, y=wdeg)) + geom_violin()
 ```
 ```
 written explanation here

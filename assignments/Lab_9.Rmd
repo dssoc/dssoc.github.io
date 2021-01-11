@@ -55,21 +55,6 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 ). Searching on the internet may also be a good strategy.
 ```{r}
 # your answer here
-url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
-frequent_tokens <- senator_tweets %>%
-  mutate(text = str_remove(text, url_pattern)) %>%
-  unnest_tokens("word", text, token = "tweets") %>% 
-  anti_join(stop_words) %>%
-  count(word) %>%
-  arrange(desc(n)) %>% 
-  head(20)
-
-frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
-  geom_bar(stat = "identity") +
-    xlab("") +
-    ylab("Frequency") +
-    theme_minimal()
-
 ```
 <br/>
 
@@ -96,11 +81,6 @@ your written explanation here
 Hint: you may need to use `as.POSIXlt` to convert date information.
 ```{r}
 # your answer here
-senator_tweets <- senator_tweets %>% 
-  mutate(hr=hour(created_at))
-
-senator_tweets %>% ggplot() + geom_histogram(aes(hr))
-
 ```
 <br/>
 
@@ -108,14 +88,6 @@ senator_tweets %>% ggplot() + geom_histogram(aes(hr))
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
 ```{r}
 # your answer here
-senator_tweets %>% 
-  select(status_id, text, hr) %>% 
-  mutate(daytime=hr>8 & hr<20) %>% 
-  unnest_tokens(word, text) %>% 
-  inner_join(get_sentiments("bing")) %>% 
-  count(status_id, daytime, sentiment) %>% 
-  group_by(daytime, sentiment) %>% 
-  summarize(score=mean(n))
 ```
 ```
 Explain why you chose to compute sentiment in this way.
