@@ -59,10 +59,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b>Ungraded Assignment </b>(Due by 11:59PM 8/22:)</i> <br/>
-<ul>
-<li>Install R and R Studio</li>
-</ul>
+<i><b>Ungraded Assignment:</b> Install R and R Studio</i> <br/>
 <i>Optional Resource:</i><br/>
 <ul>
     <li><a href="https://rstudio-education.github.io/hopr/starting.html">Installing RStudio (Windows/Mac)</a></li>
@@ -105,7 +102,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 8/29)</i> <br/>
+<i><b><a href = "/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 02/06)</i> <br/>
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -155,7 +152,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 9/5)</i> <br/>
+<i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 02/13)</i> <br/>
 
 
 <br/>
@@ -209,7 +206,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 09/12)</i> <br/>
+<i><b><a href = "/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 02/20)</i> <br/>
 
 <br/>
 
@@ -278,7 +275,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <!--
-<i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 09/19)</i> <br/>
+<i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 02/27)</i> <br/>
 -->
 <br/>
 
@@ -345,7 +342,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <!--
-<i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 09/26)</i> <br/>
+<i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 03/06)</i> <br/>
 -->
 
 <br/>
@@ -403,7 +400,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <!--
-<i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 10/03)</i> <br/>
+<i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 03/13)</i> <br/>
 -->
 <br/>
 
@@ -452,7 +449,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <!--
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 10/10)</i><br/>
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 03/20)</i><br/>
 -->
 <br/>
 
@@ -502,7 +499,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 <!--
-<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 10/17)</i>
+<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 03/27)</i>
 -->
 <br/><br/>
 
@@ -559,7 +556,7 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
     
 <!--
-<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 10/24)</i><br/>
+<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 04/03)</i><br/>
 -->
 <br/>
 
@@ -616,7 +613,7 @@ allowfullscreen></iframe>
 
 
 <!--
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 10/31)</i><br/>
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 04/10)</i><br/>
 -->
 <br/>
 
