@@ -274,9 +274,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<!--
+
 <i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 02/27)</i> <br/>
--->
+
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -341,9 +341,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<!--
 <i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 03/06)</i> <br/>
--->
 
 <br/>
 
