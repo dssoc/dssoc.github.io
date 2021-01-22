@@ -114,3 +114,8 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 # your answer here
 ```
 
+**9. Describe two broad topics you might be interested in exploring for your final project. We won't require you to stick with these topics - we just want to see you brainstorming about what you might be interested in.**
+```
+your written response here
+```
+
