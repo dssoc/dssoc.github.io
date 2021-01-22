@@ -8,11 +8,11 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-In this lab we will practice using the `ggplot2` library to create visualizations of our data. **Our standard for visualizations is that each plot should have axis labels, all labels must be readable, and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.**
+In this lab we will practice using the `ggplot2` library to create visualizations of our data. **Our standard for visualizations is that each plot should have axis labels, all labels must be readable to someone unfamiliar with your data (e.g. Female and Male instead of `F` and `M`, Senator and Representative instead of `rep` and `sen`), and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.**
 
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.
 
-This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_3.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file ([download here](/assignments/Lab_3.Rmd)) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
 
 **Required reading:** 
 
@@ -50,15 +50,15 @@ left_join:
 ```
 <br/>
 
-**2. Compute the average ages of democrat and republican congress members. Now do the same for M and F genders (this second part should include members of all parties).**
+**2. Create a bar plot to show the average ages of democrat and republican congress members. Now do the same for M and F genders (this second part should include members of all parties).**
 ```{r}
 # your answer here
 ```
 <br/>
 
-**3. Create a dataframe that shows both the total number of social media accounts among democrats and republicans, as well as the within-politican averages. Which political party has more social media accounts? Which party has a higher average per-politician?**
+**3. Create a bar chart that shows both the total number of social media accounts among democrats and republicans (Twitter, Facebook, YouTube), as well as the average number of accounts per-politician for each party. Which political party has more social media accounts? Which party has a higher per-politician average?**
 
-Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use mutations to get counts for each politican and then average by party.
+Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use `mutate` to get counts for each politican and then average by party. Any other approach is also fine.
 ```{r}
 # your answer here
 ```
@@ -68,14 +68,9 @@ Your answers here: Which political party has more social media accounts? Which p
 <br/>
 
 
-**4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and calculate the average number of committees that democrats and republicans belong to. Next calculate the averages by gender (note: this second part should include members of other parties). Do males or females tend to serve on a larger number of committees? Do republicans or democrats tend to serve on a larger number of committees?**
+**4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and create a plot showing the average number of committees that democrats and republicans belong to. Next create a plot showing the averages by gender (note: this second part should include members of other parties as well).**
 ```{r}
 # your answer here
-```
-```
-Your answers here:
-Do males or females tend to serve on a larger number of committees? 
-Do republicans or democrats tend to serve on a larger number of committees?
 ```
 <br/>
 
@@ -93,10 +88,6 @@ Note: Our standard for visualizations is that each plot should have axis labels,
 **6. Create a single bar plot that shows the average age of the committees with the highest and lowest average age. The bars should be sorted based on average committee ages. Which committees have the highest and lowest average ages?**
 ```{r}
 # your answer here
-```
-```
-Your answers here:
-Which committees have the oldest and youngest averages ages?
 ```
 <br/>
 
