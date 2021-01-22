@@ -381,9 +381,9 @@ summary {
 </div>
 
 
-<p>In this lab we will be practicing the fundamentals of programming.</p>
-<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_4.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p>In this lab we will be practicing the fundamentals of programming in R.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.</p>
+<p>This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_4.Rmd">download here</a>) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li><a href="https://r4ds.had.co.nz/program-intro.html">R4DS Chapters 17-21: Programming</a></li>
@@ -399,7 +399,7 @@ summary {
 <p><strong>1. In your own words, describe what a function is and provide one example of how you might use it in a data science project.</strong></p>
 <pre><code>write your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. Most of the time, packages in R contain many useful functions/commands. If you didn’t know what a certain function did, or how it worked, where within R Studio would you look to learn more / see example code? Where would you look outside RStudio?</strong></p>
+<p><strong>2. Packages in R can contain many useful functions/commands. If you didn’t know what a certain function did, or how it worked, where within RStudio would you look to learn more / see example code? Where would you look outside RStudio?</strong></p>
 <pre><code>write your answer here</code></pre>
 <p><br /></p>
 <p><strong>3. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector <code>sentence</code> defined below.</strong></p>
@@ -413,13 +413,13 @@ summary {
 <p><strong>5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of <code>congress</code> called <code>birthmonth</code> using <code>mutate</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. Write a function that accepts a dataframe with the columns <code>birthday</code> and <code>full_name</code>, and prints the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a for loop. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (“%&gt;%”) to pass the dataframe directly to the function. Define and call your function like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
+<p><strong>6. Write a function that accepts a dataframe with the columns <code>birthday</code> and <code>full_name</code>, and prints the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a “for loop”. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (“%&gt;%”) to pass the dataframe directly to the function. Define your function such that you can use it like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question. In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
+<p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question (but make sure you state it explicitly). In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 
