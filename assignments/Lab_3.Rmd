@@ -114,9 +114,7 @@ Note: you can use the `lubridate` package methods to get weekday and month names
 ```
 <br/>
 
-
-
-**8. Provide two social science research questions that you would be interested in exploring for your final project. There are no right answers here. We just want to get a sense of interests.**
+**8. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?**
 ```{r}
 # your answer here
 ```
