@@ -381,9 +381,9 @@ summary {
 </div>
 
 
-<p>In this lab we will practice using the <code>tidyverse</code> package.</p>
-<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.</p>
-<p>This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_2.Rmd">link to file</a>) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
+<p>In this lab we will practice using methods from the <code>tidyverse</code> package.</p>
+<p>Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.</p>
+<p>This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file (<a href="/assignments/Lab_2.Rmd">download here</a>) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. <strong>Submit to your TA via direct message on Slack by the deadline indicated on the course website.</strong></p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li><a href="https://r4ds.had.co.nz/transform.html">R4DS Chapter 5: Data transformation</a></li>
@@ -412,13 +412,14 @@ pipe operator (&quot;%&gt;%&quot;): </code></pre>
 <p><strong>2. Create a new dataframe that includes only senators and the columns <code>gender</code>, <code>birthyear</code>, and <code>party</code>. Then use that new dataframe to compute the number of male and female democrats and republicans (the output should be five rows corresponding to female democrats, male democrats, male independents, female republicans, and male republicans).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Identify the oldest and youngest male and female democrat senators.</strong></p>
+<p><strong>3. Identify the oldest and youngest male and female democrat senators using only R code.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55 (the dataframe should have four rows: number of females over 55, number of males over 55, etc).</strong></p>
+<p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.</strong></p>
+<p>Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females under 55, number of males under 55.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with <code>pivot_longer</code>.</strong></p>
@@ -431,10 +432,10 @@ pipe operator (&quot;%&gt;%&quot;): </code></pre>
 
 require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
 <p><br /></p>
-<p><strong>7. write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:</strong></p>
+<p><strong>7. write code to print only the states who implemented both travel restrictions and mask requirements:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. Write code to print the states who had implemented either policy:</strong></p>
+<p><strong>8. Write code to print the states who had implemented mask requirements but not travel restrictions:</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 
