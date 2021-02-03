@@ -72,7 +72,13 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 31-February 6</font></i></b>
 
-Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+Please attend the small group discussion section on 12:30-1:30pm Tuesday.
+
+We will discuss the following questions:
+
+1. Should researchers always be required to get the consent of the people they study?
+2. Is there ever a point where the scientific value of research should trump ethical concerns?
+3. Are the old ethical guidelines that Matt Salganik discusses in his book "Bit by bit" sufficient, or do we need new ones for the post-COVID era?
 
 #### Ethics in Computational Social Science
 
