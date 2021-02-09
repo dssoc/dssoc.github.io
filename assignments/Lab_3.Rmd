@@ -59,7 +59,7 @@ left_join:
 ```
 <br/>
 
-**3. Create a bar chart that shows both the total number of social media accounts among democrats and republicans (Twitter, Facebook, YouTube), as well as the average number of accounts per-politician for each party. Which political party has more social media accounts? Which party has a higher per-politician average?**
+**3. Create two bar charts: one that shows the total number of social media accounts among democrats and republicans (Twitter, Facebook, YouTube), and one that shows the average number of accounts per-politician for each party. Which political party has more social media accounts? Which party has a higher per-politician average?**
 
 Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use `mutate` to get counts for each politican and then average by party. Any other approach is also fine.
 ```{r}
@@ -88,7 +88,7 @@ Note: Our standard for visualizations is that each plot should have axis labels,
 <br/>
 
 
-**6. Create a single bar plot that shows the average age of the committees with the highest and lowest average age. The bars should be sorted based on average committee ages. Which committees have the highest and lowest average ages?**
+**6. Create a single bar plot that shows the average age of the committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages. Which committees have the highest and lowest average ages?**
 ```{r}
 # your answer here
 ```
@@ -109,7 +109,7 @@ Note: The plotted lines may not be continuous if there were no births in some de
 
 
 
-**7. Create a bar chart showing the frequency of politician births by month and by weekday. The x-labels should be month names and weekday names, respectively, and appear in chronological order.**
+**8. Create a bar chart showing the frequency of politician births by month and another bar chart showing politician births by weekday. The x-labels should be month names and weekday names, respectively, and appear in chronological order.**
 
 Note: you can use the `lubridate` package methods to get weekday and month names.
 ```{r}
@@ -117,7 +117,7 @@ Note: you can use the `lubridate` package methods to get weekday and month names
 ```
 <br/>
 
-**8. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?**
+**9. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?**
 ```{r}
 # your answer here
 ```
