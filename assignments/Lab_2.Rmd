@@ -27,35 +27,14 @@ This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web
 
 **Optional resources:**
 
-<<<<<<< HEAD
-```{r message=FALSE}
-# Load the datasets & packages
-library(tidyverse)
-load("../datasets/grammy_nominees_20102020.Rdata")
-load("../datasets/grammy_winners_20102020.Rdata")
-load("../datasets/artist_wikipedia.Rdata")
-```
-<br/>
-=======
 * [More dplyr examples](https://rstudio.cloud/learn/primers/2)
 * [More help with tidy](https://rstudio.cloud/learn/primers/4)
 * [R4DS Chapters 9-16](https://r4ds.had.co.nz/wrangle-intro.html)
->>>>>>> master
 
 ```{r message=FALSE, echo=FALSE}
 # Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
-
 library(tidyverse)
-
-<<<<<<< HEAD
-```{r}
-# your answer here
-winners_long <- winners %>% 
-  pivot_longer(record_oty:new_artist_oty, names_to = "award", values_to = "performer")
-print(winners_long)
-=======
 load(url('https://dssoc.github.io/datasets/congress.RData'))
->>>>>>> master
 ```
 <br/>
 
@@ -94,16 +73,6 @@ pipe operator ("%>%"):
 Note: you can approximate age using the formula `age = 2021-birthyear`.
 ```{r}
 # your answer here
-nominee_nominations <- nominees %>% 
-  pivot_longer(c(performer1, performer2, performer3, performer4), names_to = "performer_type", values_to = "performer") %>% 
-  replace_na(list(record_oty = 0, album_oty = 0, song_oty = 0, new_artist_oty = 0)) %>% 
-  mutate(noms = album_oty + song_oty + new_artist_oty + record_oty) %>%  
-  drop_na(performer) %>% 
-  select(performer, noms) %>% 
-  group_by(performer) %>% 
-  summarize(noms=sum(noms)) %>% 
-  ungroup()
-print(nominee_nominations)
 ```
 <br/>
 
@@ -131,7 +100,6 @@ Note: you may need to look up the documentation for `pivot_longer`.
 **Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)).**
 ```{r}
 travel_restrictions <- c("WA", "OR", "NV", "CA", "NM", "MN", "IL", "OH", "MI", "PA", "VA", "NY", "MA", "VH", "ME", "DE", "MD", "NJ")
-
 require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "MN", "AR", "LA", "WI", "IL", "AL", "MI", "IN", "OH", "KY", "WV", "NC", "VA", "DC", "DE", "PA", "NY", "VT", "NH", "MA", "RI", "CT", "ME")
 ```
 <br/>
@@ -151,4 +119,3 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 ```
 your written response here
 ```
-
