@@ -1,0 +1,94 @@
+
+
+=============== WORKSHOP 02/16 ===============
+_____ Room 1 _____
+Pouya Mohammadi
+Yikai Wu
+Kieran Cornman Lele
+Lindsay Nacey Maggioncalda
+
+_____ Room 2 _____
+Christopher James Esposito
+Jeffrey Hwang
+Andrew Beecher Kotz
+Aqib M Mahfuz
+
+_____ Room 3 _____
+Ashabur Rahman
+Tarun Reddy Amasa
+Bao Duy Van
+
+_____ Room 4 _____
+Vikram Aditya Sharma
+Daniel Zhou
+Benjamin John Wallace
+
+=============== WORKSHOP 03/02 ===============
+_____ Room 1 _____
+Vikram Aditya Sharma
+Jeffrey Hwang
+Bao Duy Van
+Lindsay Nacey Maggioncalda
+
+_____ Room 2 _____
+Tarun Reddy Amasa
+Benjamin John Wallace
+Aqib M Mahfuz
+
+_____ Room 3 _____
+Christopher James Esposito
+Yikai Wu
+Pouya Mohammadi
+
+_____ Room 4 _____
+Ashabur Rahman
+Daniel Zhou
+Kieran Cornman Lele
+Andrew Beecher Kotz
+
+=============== WORKSHOP 03/16 ===============
+_____ Room 1 _____
+Tarun Reddy Amasa
+Benjamin John Wallace
+Bao Duy Van
+Lindsay Nacey Maggioncalda
+
+_____ Room 2 _____
+Ashabur Rahman
+Daniel Zhou
+Jeffrey Hwang
+
+_____ Room 3 _____
+Pouya Mohammadi
+Vikram Aditya Sharma
+Aqib M Mahfuz
+
+_____ Room 4 _____
+Christopher James Esposito
+Yikai Wu
+Kieran Cornman Lele
+Andrew Beecher Kotz
+
+=============== WORKSHOP 03/30 ===============
+_____ Room 1 _____
+Pouya Mohammadi
+Daniel Zhou
+Andrew Beecher Kotz
+Lindsay Nacey Maggioncalda
+
+_____ Room 2 _____
+Vikram Aditya Sharma
+Kieran Cornman Lele
+Tarun Reddy Amasa
+Aqib M Mahfuz
+
+_____ Room 3 _____
+Yikai Wu
+Jeffrey Hwang
+Bao Duy Van
+
+_____ Room 4 _____
+Ashabur Rahman
+Christopher James Esposito
+Benjamin John Wallace
+

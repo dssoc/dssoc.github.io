@@ -9,11 +9,14 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-In this lab we will practice using the `tidyverse` package.
+**[Lab #2 Markdown File](/assignments/Lab_2.Rmd)**
 
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop as a data scientist.
+In this lab we will practice using methods from the `tidyverse` package.
 
-This file should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) files, and you should be starting with the Lab markdown file ([link to file](/assignments/Lab_2.Rmd)) where the author name has been replaced with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.
+
+This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file ([download here](/assignments/Lab_2.Rmd)) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+
 
 **Required reading:** 
 
@@ -80,13 +83,15 @@ pipe operator ("%>%"):
 ```
 <br/>
 
-**3. Identify the oldest and youngest male and female democrat senators.**
+**3. Identify the oldest and youngest male and female democrat senators using only R code.**
 ```{r}
 # your answer here
 ```
 <br/>
 
-**4. Using `mutate`, create a new variable called `age` which represents the age of each member of congress. How many democratic senators are over 60 years old?**
+**4. Using `mutate`, create a new variable called `age` which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?**
+
+Note: you can approximate age using the formula `age = 2021-birthyear`.
 ```{r}
 # your answer here
 nominee_nominations <- nominees %>% 
@@ -102,7 +107,9 @@ print(nominee_nominations)
 ```
 <br/>
 
-**5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55 (the dataframe should have four rows: number of females over 55, number of males over 55, etc).**
+**5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.**
+
+Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females under 55, number of males under 55.
 ```{r}
 # your answer here
 ```
@@ -129,14 +136,19 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 ```
 <br/>
 
-**7. write code to print only the states who implemented travel restrictions and then also required citizens to wear masks in public:**
+**7. write code to print only the states who implemented both travel restrictions and mask requirements:**
 ```{r}
 # your answer here
 ```
 <br/>
 
-**8. Write code to print the states who had implemented either policy:**
+**8. Write code to print the states who had implemented mask requirements but not travel restrictions:**
 ```{r}
 # your answer here
+```
+
+**9. Describe two broad topics you might be interested in exploring for your final project. How would you use data science to gain insight about these topics? We won't require you to stick with these topics - we just want to see you brainstorming about what you might be interested in.**
+```
+your written response here
 ```
 
