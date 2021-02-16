@@ -184,6 +184,12 @@ allowfullscreen></iframe>
 
 Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
+We will discuss the following questions:
+
+1. A major limitation of the study we read this week is that it only examined Twitter users-- do you think exposing people to opposing views on Facebook, Instagram, TikTok or other platforms would have a similar effect? Why or Why not? 
+2. The study found that Republicans tend to double-down in their pre-existing views when they are exposed to opposing views more strongly than Democrats - develop some hypotheses about why this might have happened; 
+3. The accounts retweeted by the bots in the study retweeted high profile "opinion leaders" (e.g. elected officials, journalists, etc). Do you think the effects would have been different if they had retweeted non-elite partisans instead?
+
 #### Should we Break our Echo Chambers?
 
 <iframe width="560" height="315"
