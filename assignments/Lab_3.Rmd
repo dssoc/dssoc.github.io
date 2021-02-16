@@ -46,7 +46,7 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 
 **1. Describe the functionality of each of the following functions:**
 ```
-group_py: 
+group_by: 
 summarise: 
 inner_join: 
 left_join: 
