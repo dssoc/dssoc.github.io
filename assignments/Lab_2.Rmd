@@ -59,12 +59,23 @@ pipe operator ("%>%"):
 
 ```{r}
 # your answer here
+congress %>% 
+  select(gender, birthyear, party) %>% 
+  group_by(gender, party) %>% 
+  summarize(n(), mean(birthyear))
+  
 ```
 <br/>
 
 **3. Identify the oldest and youngest male and female democrat senators using only R code.**
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age=2021-birthyear) %>% 
+  arrange(age) %>% 
+  slice(1:2, (n()-1):n()) %>% 
+  select(full_name, age)
+
 ```
 <br/>
 
@@ -73,6 +84,10 @@ pipe operator ("%>%"):
 Note: you can approximate age using the formula `age = 2021-birthyear`.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age=2021-birthyear) %>% 
+  filter(party=='Democrat', type=='sen', age>60) %>% 
+  count()
 ```
 <br/>
 
@@ -81,6 +96,10 @@ Note: you can approximate age using the formula `age = 2021-birthyear`.
 Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females under 55, number of males under 55.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age=2021-birthyear, over55=age>55) %>% 
+  count(gender, over55)
+  
 ```
 <br/>
 
@@ -92,6 +111,7 @@ Note: not every congress member has an account on all three platform, so be sure
 Note: you may need to look up the documentation for `pivot_longer`.
 ```{r}
 # your answer here
+
 ```
 <br/>
 
