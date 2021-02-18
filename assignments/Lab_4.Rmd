@@ -74,7 +74,7 @@ Note: functions used inside mutate accept single columns from the original dataf
 <br/>
 
 
-**5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of `congress` called `birthmonth` using `mutate`.**
+**5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of `congress` representing the weekday of the birth of each politician using `mutate`.**
 ```{r}
 # your answer here
 ```
