@@ -184,6 +184,12 @@ allowfullscreen></iframe>
 
 Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
+We will discuss the following questions:
+
+1. A major limitation of the study we read this week is that it only examined Twitter users-- do you think exposing people to opposing views on Facebook, Instagram, TikTok or other platforms would have a similar effect? Why or Why not? 
+2. The study found that Republicans tend to double-down in their pre-existing views when they are exposed to opposing views more strongly than Democrats - develop some hypotheses about why this might have happened; 
+3. The accounts retweeted by the bots in the study retweeted high profile "opinion leaders" (e.g. elected officials, journalists, etc). Do you think the effects would have been different if they had retweeted non-elite partisans instead?
+
 #### Should we Break our Echo Chambers?
 
 <iframe width="560" height="315"
@@ -199,6 +205,7 @@ allowfullscreen></iframe>
 ***Optional Materials***:
 - Qi Yang et al. [Mitigating the Backfire Effect](https://arxiv.org/abs/2008.00049).
 - Chris Bail. [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
+
 
 #### Lab: Visualization  
 <div class="callout callout--info">
@@ -548,6 +555,8 @@ allowfullscreen></iframe>
 ***Optional Materials***:
 - Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
 - Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
+- [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
+
 
 
 #### Lab: Word counts and Dictionaries
