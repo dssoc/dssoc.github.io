@@ -30,54 +30,11 @@ This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web
 
 
 
-<<<<<<< HEAD
-**Load the datasets:**
-```{r message=FALSE}
-#library(tidyverse)
-#load('artist_meta.Rdata')
-library(tidyverse)
-load('../datasets/artist_meta.Rdata')
-print(artist_meta)
-```
-<br/><br/>
-
-### Exercises
-<br/>
-=======
 ```{r message=FALSE, echo=FALSE}
 # Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
->>>>>>> master
-
 library(tidyverse)
 library(ggplot2)
 library(lubridate)
-
-<<<<<<< HEAD
-**Also notice one additional issue with the data that might cause issues later on: the `popularity` column is an integer list of size one. Consider using the `mutate` function with the `is.numeric` function to coerce the data into the type you need (see section 20.4.1 of *R for Data Science* to learn more).**
-```{r}
-# your answer here
-artist_meta <- artist_meta %>% 
-  mutate(popularity=as.numeric(popularity)) %>% 
-  mutate(is_pop = as.factor(ifelse(grepl('pop', as.character(genre), fixed=TRUE), 'pop', 'not pop')))
-print(artist_meta)
-```
-<br/>
-
-**2. Using the `artist_meta` table, make a scatterplot of `followers` vs `popularity`.**
-```{r}
-# your answer here
-artist_meta %>% ggplot(aes(followers, y=popularity)) + 
-  geom_point()
-```
-<br/>
-
-**3. Change the theme of your scatterplot from Exercise 2, and apply appropriate x- and y-axis labels. Note: for theme information, see [28.6 in *R for Data Science*](https://r4ds.had.co.nz/graphics-for-communication.html#themes) or 8.3 of *Data Visualization a Practical Introduction*.**
-```{r}
-# your answer here
-artist_meta %>% ggplot(aes(followers, y=popularity)) + 
-  geom_point() + 
-  labs(x= 'Number of followers', y='Popularity score')
-=======
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
@@ -91,16 +48,24 @@ group_by:
 summarise: 
 inner_join: 
 left_join: 
->>>>>>> master
 ```
 <br/>
 
 **2. Create a bar plot to show the average ages of democrat and republican congress members. Now do the same for M and F genders (this second part should include members of all parties).**
 ```{r}
 # your answer here
-artist_meta %>% ggplot(aes(followers, y=popularity)) + 
-  geom_point(aes(colour = is_pop)) + 
-  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?')
+congress %>% mutate(age=2020-birthyear) %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  group_by(party) %>% 
+  summarise(av_age=mean(age)) %>% 
+  ggplot(aes(y=av_age, x=party)) +
+    geom_bar(stat='identity')
+
+congress %>% mutate(age=2020-birthyear) %>% 
+  group_by(gender) %>% 
+  summarise(av_age=mean(age)) %>% 
+  ggplot(aes(y=av_age, x=gender)) +
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -109,10 +74,21 @@ artist_meta %>% ggplot(aes(followers, y=popularity)) +
 Note: there are several ways to accomplish this. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use `mutate` to get counts for each politican and then average by party. Any other approach is also fine.
 ```{r}
 # your answer here
-artist_meta %>% ggplot(aes(followers, y=popularity)) + 
-  geom_point(aes(colour = is_pop)) + 
-  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?') + 
-  scale_color_manual(values=c("#999999", "#E69F00"))
+congress %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  select(twitter:youtube, party, bioguide_id) %>% 
+  gather(key=sm_platform, value=sm_username, twitter:youtube) %>% 
+  mutate(valid_acct=!is.na(sm_username)) %>% 
+  group_by(bioguide_id) %>% 
+  summarise(ct=sum(valid_acct), party=first(party)) %>% 
+  group_by(party) %>% summarise(av=mean(ct), ct=sum(ct))
+
+
+# a second way to do it [shrug]
+congress %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  mutate(num_acct=ifelse(is.na(twitter),0,1) + ifelse(is.na(facebook),0,1) + ifelse(is.na(youtube),0,1)) %>% 
+  group_by(party) %>% summarize(av=mean(num_acct), ct=sum(num_acct))
 ```
 ```
 Your answers here: Which political party has more social media accounts? Which party has a higher average per-politician?
@@ -123,11 +99,19 @@ Your answers here: Which political party has more social media accounts? Which p
 **4. Use an inner join to combine the columns of the `committees` dataframe with the columns of `congress`, and create a plot showing the average number of committees that democrats and republicans belong to. Next create a plot showing the averages by gender (note: this second part should include members of other parties as well).**
 ```{r}
 # your answer here
-artist_meta %>% ggplot(aes(followers, y=popularity)) + 
-  geom_point(aes(colour = is_pop)) + 
-  labs(x= 'Number of followers', y='Popularity score', colour='Is a pop genre?') + 
-  scale_color_manual(values=c("#999999", "#E69F00")) + 
-  geom_smooth(method='glm', formula = y ~ x + x**2)
+tmp <- congress %>% 
+  inner_join(committees, by=c('bioguide_id'='bioguide')) %>% 
+  group_by(bioguide_id) %>% 
+  summarise(n_comm=length(bioguide_id), party=first(party.x), gender=first(gender))# %>% 
+  
+tmp %>% 
+  filter(party=='Democrat' | party=='Republican') %>% 
+  group_by(party) %>% 
+  summarise(av=mean(n_comm), n=length(n_comm)) %>% 
+  ggplot(aes(x=party, y=av)) + geom_bar(stat='identity')
+tmp %>% group_by(gender) %>% 
+  summarise(av=mean(n_comm), n=length(n_comm)) %>% 
+  ggplot(aes(x=gender, y=av)) + geom_bar(stat='identity')
 ```
 <br/>
 
@@ -138,6 +122,13 @@ artist_meta %>% ggplot(aes(followers, y=popularity)) +
 Note: Our standard for visualizations is that each plot should have axis labels, all labels must be readable, and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.
 ```{r}
 # your answer here
+committees %>% 
+  count(committee) %>% 
+  arrange(desc(n)) %>% 
+  head(10) %>% 
+  ggplot(aes(x=committee, y=n)) +
+    geom_bar(stat='identity')
+
 ```
 <br/>
 
@@ -145,6 +136,16 @@ Note: Our standard for visualizations is that each plot should have axis labels,
 **6. Create a single bar plot that shows the average age of the committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages. Which committees have the highest and lowest average ages?**
 ```{r}
 # your answer here
+congress %>% 
+  inner_join(committees, by=c('bioguide_id'='bioguide')) %>% 
+  group_by(committee) %>% 
+  summarise(av_age=mean(2020-birthyear)) %>% 
+  arrange(desc(av_age)) %>% 
+  slice(1:5, (n()-4):n()) %>% 
+  ggplot(aes(y=reorder(committee,av_age), weight=av_age)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('Committee') + xlab('Average age')
 ```
 <br/>
 
@@ -156,7 +157,14 @@ Note: Our standard for visualizations is that each plot should have axis labels,
 Note: The plotted lines may not be continuous if there were no births in some decades.
 ```{r}
 # your answer here
-
+congress %>% 
+  mutate(decade=birthyear %/% 10) %>% 
+  group_by(type, decade) %>% summarise(ct=length(decade)) %>% 
+  mutate(xticks=paste0(decade, '0\'s'), Branch=ifelse(type=='rep', 'Representative', 'Senator')) %>% 
+  ggplot(aes(x=reorder(xticks,decade), y=ct, group=Branch, colour=Branch)) +
+    geom_line() + 
+    theme_minimal() + 
+    ylab('Number of births') + xlab('Decade')
 ```
 <br/>
 
@@ -168,6 +176,21 @@ Note: The plotted lines may not be continuous if there were no births in some de
 Note: you can use the `lubridate` package methods to get weekday and month names.
 ```{r}
 # your answer here
+tmp <- congress %>% 
+  mutate(bdate=as_date(birthday)) %>% 
+  mutate(wday=weekdays(bdate), month=paste0(month(bdate, label=TRUE))) %>% 
+  select(wday, month)
+  
+tmp %>% count(month) %>% 
+  ggplot(aes(x=month, weight=n)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('# Births') + xlab('Month')
+tmp %>% count(wday) %>% 
+  ggplot(aes(x=wday, weight=n)) + 
+    geom_bar() + 
+    theme_minimal() + 
+    ylab('# Births') + xlab('Day of week')
 ```
 <br/>
 
