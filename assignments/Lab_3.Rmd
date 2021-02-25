@@ -89,6 +89,15 @@ congress %>%
   filter(party=='Democrat' | party=='Republican') %>% 
   mutate(num_acct=ifelse(is.na(twitter),0,1) + ifelse(is.na(facebook),0,1) + ifelse(is.na(youtube),0,1)) %>% 
   group_by(party) %>% summarize(av=mean(num_acct), ct=sum(num_acct))
+
+congress %>% 
+  #mutate(social_media=as.numeric(!is.na(twitter))+as.numeric(!is.na(facebook))+as.numeric(!is.na(youtube))) %>% 
+  mutate(social_media=ifelse(is.na(twitter),0,1) + ifelse(is.na(facebook),0,1) + ifelse(is.na(youtube),0,1)) %>% 
+  select(party,social_media) %>% 
+  #filter(party==c("Republican","Democrat")) %>% 
+  #filter(party=='Democrat' | party=='Republican') %>% 
+  group_by(party) %>% 
+  summarise(total=sum(social_media))
 ```
 ```
 Your answers here: Which political party has more social media accounts? Which party has a higher average per-politician?
@@ -101,9 +110,10 @@ Your answers here: Which political party has more social media accounts? Which p
 # your answer here
 tmp <- congress %>% 
   inner_join(committees, by=c('bioguide_id'='bioguide')) %>% 
+  #inner_join(committees, by = c("full_name"="name")) %>% 
   group_by(bioguide_id) %>% 
-  summarise(n_comm=length(bioguide_id), party=first(party.x), gender=first(gender))# %>% 
-  
+  summarise(n_comm=length(bioguide_id), party=first(party.x), gender=first(gender))
+
 tmp %>% 
   filter(party=='Democrat' | party=='Republican') %>% 
   group_by(party) %>% 
@@ -112,6 +122,31 @@ tmp %>%
 tmp %>% group_by(gender) %>% 
   summarise(av=mean(n_comm), n=length(n_comm)) %>% 
   ggplot(aes(x=gender, y=av)) + geom_bar(stat='identity')
+
+
+inner_join(committees,congress, by = c("name"="full_name")) %>% 
+  group_by(committee,party.y) %>% 
+  count(name="amnt") %>% 
+  group_by(party.y) %>% 
+  summarise(total=mean(amnt))# %>% 
+  #filter(party.y=="Democrat" | party.y == "Republican") #%>% 
+  #ggplot() +
+  #geom_bar(aes(party.y,total),stat="identity")+
+  #labs(title = "Democrats on more committees on average",x="Party",y="Average committees")
+
+
+combined <- inner_join(committees, congress, by = c("name" = "full_name"))
+
+avg_committees <- combined %>% 
+  filter(party.y == "Democrat" | party.y == "Republican") %>% 
+  group_by(name) %>% 
+  mutate(committee, total_committees = n())
+
+avg_comm2 <- avg_committees %>% 
+  group_by(party.y) %>% 
+  summarise(avg_comts = mean(total_committees))
+
+
 ```
 <br/>
 
