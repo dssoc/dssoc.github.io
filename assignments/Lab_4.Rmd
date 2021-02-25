@@ -70,6 +70,10 @@ sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.
 ```{r}
 # your answer here
+age_from_birthyear <- function(birthyear) {
+  return(2020-birthyear)
+}
+congress %>% mutate(age=age_from_birthyear(birthyear)) %>% select(birthyear, age)
 ```
 <br/>
 
@@ -77,6 +81,10 @@ Note: functions used inside mutate accept single columns from the original dataf
 **5. Write a function that accepts a date string and returns the day of the week it corresponds to, then use it to create a new column of `congress` representing the weekday of the birth of each politician using `mutate`.**
 ```{r}
 # your answer here
+datestr_to_month <- function(datestrs) {
+  return(weekdays(as_date(datestrs)))
+}
+congress %>% mutate(month=datestr_to_month(birthday)) %>% select(birthday, month)
 ```
 <br/>
 
@@ -84,6 +92,13 @@ Note: functions used inside mutate accept single columns from the original dataf
 **6. Write a function that accepts a dataframe with the columns `birthday` and `full_name`, and prints the names and ages of the `k` oldest *representatives* in congress (i.e. not including senators) using a "for loop". In this sense, `k` is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator ("%>%") to pass the dataframe directly to the function. Define your function such that you can use it like this: `congress %>% print_oldest(3)`.**
 ```{r}
 # your answer here
+print_oldest <- function(df, k=5) {
+  topk <- df %>% filter(type=='sen') %>% arrange(desc(2020-birthyear))# %>% head(k)
+  for (i in 1:k) {
+    cat(topk$birthyear[i], topk$full_name[i], '\n')
+  }
+}
+congress %>% print_oldest(3)
 ```
 <br/>
 
@@ -91,6 +106,16 @@ Note: functions used inside mutate accept single columns from the original dataf
 **7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)`.**
 ```{r}
 # your answer here
+print_oldest <- function(df, k=5) {
+  if (k > 10) {
+    k = 5
+  }
+  topk <- df %>% filter(type=='sen') %>% arrange(desc(2020-birthyear))
+  for (i in 1:k) {
+    cat(topk$birthyear[i], topk$full_name[i], '\n')
+  }
+}
+congress %>% print_oldest(100)
 ```
 <br/>
 
