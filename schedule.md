@@ -410,9 +410,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<!--
+
 <i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 03/13)</i> <br/>
--->
+
 <br/>
 
 
@@ -459,9 +459,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<!--
+
 <i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 03/20)</i><br/>
--->
+
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -509,9 +509,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<!--
+
 <i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 03/27)</i>
--->
+
 <br/><br/>
 
 <i>Materials from Video:</i><br/>
@@ -568,9 +568,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
     
-<!--
+
 <i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 04/03)</i><br/>
--->
+
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -625,9 +625,9 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<!--
+
 <i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 04/10)</i><br/>
--->
+
 <br/>
 
 <i>Materials from Video:</i><br/>
