@@ -72,7 +72,7 @@ Copy and paste the json below into a new json file named `api_credentials.json`.
 
 After you have the credentials stored into the json file, run this code to authenticate the application (be sure to use the filename corresponding to your actual file). This simply reads the json data and provides them directly to the `create_token` function of the `rtweet` package. Once you complete this step, you should be able to access Twitter data through the API. See the `rtweet` package documentation to see how to access different types of data.
 
-```{r, eval = F}
+```{r, eval = T}
 
 # this code will read credentials from the JSON file you created.
 #install.packages("rjson")
