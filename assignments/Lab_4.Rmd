@@ -93,12 +93,13 @@ congress %>% mutate(month=datestr_to_month(birthday)) %>% select(birthday, month
 ```{r}
 # your answer here
 print_oldest <- function(df, k=5) {
-  topk <- df %>% filter(type=='sen') %>% arrange(desc(2020-birthyear))# %>% head(k)
+  topk <- df %>% mutate(age=2020-birthyear) %>% 
+    arrange(desc(age)) %>% filter(type=='rep')
   for (i in 1:k) {
-    cat(topk$birthyear[i], topk$full_name[i], '\n')
+    cat(topk$age[i], topk$full_name[i], '\n')
   }
 }
-congress %>% print_oldest(3)
+congress %>% print_oldest(5)
 ```
 <br/>
 
@@ -110,9 +111,10 @@ print_oldest <- function(df, k=5) {
   if (k > 10) {
     k = 5
   }
-  topk <- df %>% filter(type=='sen') %>% arrange(desc(2020-birthyear))
+  topk <- df %>% mutate(age=2020-birthyear) %>% 
+    filter(type=='rep') %>% arrange(desc(age))
   for (i in 1:k) {
-    cat(topk$birthyear[i], topk$full_name[i], '\n')
+    cat(topk$age[i], topk$full_name[i], '\n')
   }
 }
 congress %>% print_oldest(100)
