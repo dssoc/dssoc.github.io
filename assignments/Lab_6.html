@@ -444,16 +444,16 @@ lim[, 1:4]</code></pre>
 <pre><code>## # A tibble: 217 x 4
 ##    query                  limit remaining reset        
 ##    &lt;chr&gt;                  &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;       
-##  1 lists/list                15        15 15.01447 mins
-##  2 lists/memberships         75        75 15.01447 mins
-##  3 lists/subscribers/show    15        15 15.01447 mins
-##  4 lists/members            900       900 15.01447 mins
-##  5 lists/subscriptions       15        15 15.01447 mins
-##  6 lists/show                75        75 15.01447 mins
-##  7 lists/ownerships          15        15 15.01447 mins
-##  8 lists/subscribers        180       180 15.01447 mins
-##  9 lists/members/show        15        15 15.01447 mins
-## 10 lists/statuses           900       900 15.01447 mins
+##  1 lists/list                15        15 15.01218 mins
+##  2 lists/memberships         75        75 15.01218 mins
+##  3 lists/subscribers/show    15        15 15.01218 mins
+##  4 lists/members            900       900 15.01218 mins
+##  5 lists/subscriptions       15        15 15.01218 mins
+##  6 lists/show                75        75 15.01218 mins
+##  7 lists/ownerships          15        15 15.01218 mins
+##  8 lists/subscribers        180       180 15.01218 mins
+##  9 lists/members/show        15        15 15.01218 mins
+## 10 lists/statuses           900       900 15.01218 mins
 ## # ... with 207 more rows</code></pre>
 </div>
 </div>
@@ -465,9 +465,9 @@ lim[, 1:4]</code></pre>
 <p><br /></p>
 <p><strong>2. Use the Twitter API to augment senator information with the number of friends and the number of statuses they have posted on Twitter.</strong></p>
 <p>Note: If you haven’t already, filter the <code>congress</code> dataframe to include only senators (<code>type==&#39;sen&#39;</code>) - we will only use senators for this assignment.</p>
-<p>Note: we don’t need to get the actual lists of followers or Tweets - we just need the <em>number</em> of friends and tweets.</p>
+<p>Note: we don’t need to get the actual lists of followers or Tweets - we just need the <em>number</em> of friends and tweets (i.e. <strong>do not try to use <code>get_friends</code></strong>).</p>
 <p>Note: for various reasons, not all senators in our dataset have valid Twitter handles - that’s okay for the purpose of this assignment.</p>
-<p>Hint: You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use. We are looking for *<strong>user</strong> level information.</p>
+<p>Hint: You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use. We need to lookup *<strong>user</strong> level information.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form &quot;Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?</strong></p>

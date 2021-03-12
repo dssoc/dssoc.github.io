@@ -110,11 +110,11 @@ lim[, 1:4]
 
 Note: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment.
 
-Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets.
+Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets (i.e. **do not try to use `get_friends`**).
 
 Note: for various reasons, not all senators in our dataset have valid Twitter handles - that's okay for the purpose of this assignment.
 
-Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We are looking for ***user** level information.
+Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We need to lookup ***user** level information.
 ```{r}
 # Your answer here
 ```
