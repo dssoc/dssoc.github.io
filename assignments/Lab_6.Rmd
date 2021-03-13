@@ -143,7 +143,9 @@ written response here
 
 **6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and generate a histogram showing the number of favorites those Tweets received.**
 
-Note: I originally downloaded the full set of tweet ids from  [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS), but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you SHOULD not download the data externally.
+Note: I originally downloaded the full set of tweet ids from  [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS), but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you should NOT download the data externally.
+
+Note: these are NOT the same tweet ids as the tweets stored in `senator_tweets`, so you will need to collect them using the api.
 ```{r}
 # Your answer here
 ```

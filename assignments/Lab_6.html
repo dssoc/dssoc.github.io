@@ -442,18 +442,18 @@ token &lt;- create_token(
 lim &lt;- rate_limit()
 lim[, 1:4]</code></pre>
 <pre><code>## # A tibble: 217 x 4
-##    query                  limit remaining reset       
-##    &lt;chr&gt;                  &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;      
-##  1 lists/list                15        15 15.0128 mins
-##  2 lists/memberships         75        75 15.0128 mins
-##  3 lists/subscribers/show    15        15 15.0128 mins
-##  4 lists/members            900       900 15.0128 mins
-##  5 lists/subscriptions       15        15 15.0128 mins
-##  6 lists/show                75        75 15.0128 mins
-##  7 lists/ownerships          15        15 15.0128 mins
-##  8 lists/subscribers        180       180 15.0128 mins
-##  9 lists/members/show        15        15 15.0128 mins
-## 10 lists/statuses           900       900 15.0128 mins
+##    query                  limit remaining reset        
+##    &lt;chr&gt;                  &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;       
+##  1 lists/list                15        15 15.00499 mins
+##  2 lists/memberships         75        75 15.00499 mins
+##  3 lists/subscribers/show    15        15 15.00499 mins
+##  4 lists/members            900       900 15.00499 mins
+##  5 lists/subscriptions       15        15 15.00499 mins
+##  6 lists/show                75        75 15.00499 mins
+##  7 lists/ownerships          15        15 15.00499 mins
+##  8 lists/subscribers        180       180 15.00499 mins
+##  9 lists/members/show        15        15 15.00499 mins
+## 10 lists/statuses           900       900 15.00499 mins
 ## # ... with 207 more rows</code></pre>
 </div>
 </div>
@@ -480,7 +480,8 @@ lim[, 1:4]</code></pre>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in <code>senator_tweet_ids</code> (already loaded at the beginning of this markdown file), and generate a histogram showing the number of favorites those Tweets received.</strong></p>
-<p>Note: I originally downloaded the full set of tweet ids from <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS">this page</a>, but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you SHOULD not download the data externally.</p>
+<p>Note: I originally downloaded the full set of tweet ids from <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS">this page</a>, but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you should NOT download the data externally.</p>
+<p>Note: these are NOT the same tweet ids as the tweets stored in <code>senator_tweets</code>, so you will need to collect them using the api.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.</strong></p>
