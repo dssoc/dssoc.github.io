@@ -117,12 +117,17 @@ Note: for various reasons, not all senators in our dataset have valid Twitter ha
 Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We are looking for ***user** level information.
 ```{r}
 # Your answer here
+users <- lookup_users(congress$twitter) %>% 
+  select(screen_name, friends_count, statuses_count)
+senators <- congress %>% 
+  inner_join(users, by=c('twitter'='screen_name'))
 ```
 <br/>
 
 **3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form "Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?**
 ```{r}
 # Your answer here
+senators %>% group_by(party) %>% summarize(av_friends=mean(friends_count))
 ```
 ```
 written response here
@@ -132,11 +137,18 @@ written response here
 **4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the number of statuses that each senator has posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
 ```{r}
 # Write your answer here
+senators %>% ggplot(aes(x=gender, y=friends_count)) + geom_violin()
 ```
 
 **5. Use the Twitter API to retrieve the last 10 Tweets from the 5 oldest male and female senators in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
 ```{r}
 # Your answer here
+msen <- senators %>% filter(gender=='M') %>% arrange(birthyear) %>% head(2)
+fsen <- senators %>% filter(gender=='F') %>% arrange(birthyear) %>% head(2)
+mfsenators <- rbind(msen, fsen)
+tweets <- get_timeline(mfsenators$twitter, n=2)
+tweets <- tweets %>% left_join(senators, by=c('screen_name'='twitter'))
+tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()
 ```
 <br/>
 
@@ -144,6 +156,8 @@ written response here
 **6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (which I downloaded from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS)), and generate a histogram showing the number of favorites those Tweets received.**
 ```{r}
 # Your answer here
+idtweets <- lookup_tweets(senator_tweet_ids$tweet_ids[1:10])
+tweets %>% ggplot(aes(favorite_count)) + geom_histogram()
 ```
 <br/>
 
