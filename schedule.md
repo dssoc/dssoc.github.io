@@ -436,9 +436,7 @@ Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 We will discuss the following questions:
 
 1. Have you, personally, ever experienced an algorithm recommend something to you that you think might create social inequality? If so, tell the rest of your group about it.
-
 2. In this class, we always encourage you to evaluate issues with evidence or data. Can you think of a way to design a study that could measure whether algorithms create social inequality?
-
 3. Google, Facebook, and many other large companies have created large teams specifically dedicated to creating fairness in Artificial Intelligence. Do you think it's possible for people on those teams to independently audit or evaluate social inequality without some type of bias?
 
 
