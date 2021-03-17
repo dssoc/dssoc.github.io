@@ -76,7 +76,7 @@ written explanation here
 
 
 
-**5. Construct a model predicting the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Which variables might be related to holding a title? Try removing and adding different variables. Do any of these variables appear to act as confounders to one another?**
+**5. Construct a model predicting the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?**
 
 Note: you may want to save the full model for the next question.
 ```{r}
