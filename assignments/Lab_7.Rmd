@@ -61,7 +61,7 @@ written explanation here
 ```
 <br/>
 
-**4. Create a bar graph showing the average number of committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be significant differences?**
+**4. Create a bar graph showing the average number of committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
 
 Hint: you may want to see `geom_errorbar`.
 
