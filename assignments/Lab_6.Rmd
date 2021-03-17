@@ -137,15 +137,18 @@ written response here
 **4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the number of statuses that each senator has posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
 ```{r}
 # Write your answer here
-senators %>% ggplot(aes(x=gender, y=friends_count)) + geom_violin()
+senators %>% ggplot(aes(x=gender, y=statuses_count)) + geom_violin()
 ```
 
 **5. Use the Twitter API to retrieve the last 10 Tweets from the 5 oldest male and female senators in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
 ```{r}
 # Your answer here
+#msen <- senators %>% filter(gender=='M') %>% arrange(birthyear) %>% head(5)
+#fsen <- senators %>% filter(gender=='F') %>% arrange(birthyear) %>% head(5)
 msen <- senators %>% filter(gender=='M') %>% arrange(birthyear) %>% head(2)
 fsen <- senators %>% filter(gender=='F') %>% arrange(birthyear) %>% head(2)
 mfsenators <- rbind(msen, fsen)
+#tweets <- get_timeline(mfsenators$twitter, n=10)
 tweets <- get_timeline(mfsenators$twitter, n=2)
 tweets <- tweets %>% left_join(senators, by=c('screen_name'='twitter'))
 tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()
@@ -161,6 +164,7 @@ Note: these are NOT the same tweet ids as the tweets stored in `senator_tweets`,
 ```{r}
 # Your answer here
 idtweets <- lookup_tweets(senator_tweet_ids$tweet_ids[1:10])
+#idtweets <- lookup_tweets(senator_tweet_ids$tweet_ids)
 tweets %>% ggplot(aes(favorite_count)) + geom_histogram()
 ```
 <br/>
