@@ -61,7 +61,7 @@ written explanation here
 ```
 <br/>
 
-**4. Create a bar graph showing the number of committees each member of congress belongs to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be significant differences?**
+**4. Create a bar graph showing the average number of committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be significant differences?**
 
 Hint: you may want to see `geom_errorbar`.
 
@@ -98,14 +98,14 @@ Hint: you may need to follow the examples in the R4DS modeling section for this 
 ```
 <br/>
 
-**6. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?**
+**7. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?**
 ```
 # Your answer here
 ```
 <br/>
 
 
-**7 Describe one or two existing datasets that you would like to use for the project you've been developing last week. Will you be able to download the data from somewhere, or can you use an API? Will you be making statistical models, analyzing networks, doing text analysis, or creating visualizations? See the ["Final Project " section in the course description page on the website](https://dssoc.github.io/course/#formal-requirements).**
+**8. Describe one or two existing datasets that you would like to use for the project you've been developing last week. Will you be able to download the data from somewhere, or can you use an API? Will you be making statistical models, analyzing networks, doing text analysis, or creating visualizations? See the ["Final Project " section in the course description page on the website](https://dssoc.github.io/course/#formal-requirements).**
 ```
 # Your answer here
 ```
