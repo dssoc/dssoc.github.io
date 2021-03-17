@@ -433,6 +433,14 @@ allowfullscreen></iframe>
 
 Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
+We will discuss the following questions:
+
+1. Have you, personally, ever experienced an algorithm recommend something to you that you think might create social inequality? If so, tell the rest of your group about it.
+2. In this class, we always encourage you to evaluate issues with evidence or data. Can you think of a way to design a study that could measure whether algorithms create social inequality?
+3. Google, Facebook, and many other large companies have created large teams specifically dedicated to creating fairness in Artificial Intelligence. Do you think it's possible for people on those teams to independently audit or evaluate social inequality without some type of bias?
+
+
+
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
 <iframe width="560" height="315"
@@ -447,8 +455,12 @@ allowfullscreen></iframe>
 - Gavin Edwards. [**Machine Learning, An Introduction**](https://towardsdatascience.com/machine-learning-an-introduction-23b84d51e6d0).
 
 ***Optional Materials***:
+- Karen Hao. [How Facebook got addicted to spreading misinformation](https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/)
 - Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a Crisis in AI](https://www.wired.com/story/timnit-gebru-exit-google-exposes-crisis-in-ai/)
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
+
+
+
 
 #### Modeling (A Brief Introduction)
 <div class="callout callout--info">

@@ -110,11 +110,11 @@ lim[, 1:4]
 
 Note: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment.
 
-Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets.
+Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets (i.e. **do not try to use `get_friends`**).
 
 Note: for various reasons, not all senators in our dataset have valid Twitter handles - that's okay for the purpose of this assignment.
 
-Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We are looking for ***user** level information.
+Hint: You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use. We need to lookup ***user** level information.
 ```{r}
 # Your answer here
 users <- lookup_users(congress$twitter) %>% 
@@ -153,7 +153,11 @@ tweets %>% ggplot(aes(x=gender, y=favorite_count)) + geom_violin()
 <br/>
 
 
-**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (which I downloaded from [here](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS)), and generate a histogram showing the number of favorites those Tweets received.**
+**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and generate a histogram showing the number of favorites those Tweets received.**
+
+Note: I originally downloaded the full set of tweet ids from  [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS), but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you should NOT download the data externally.
+
+Note: these are NOT the same tweet ids as the tweets stored in `senator_tweets`, so you will need to collect them using the api.
 ```{r}
 # Your answer here
 idtweets <- lookup_tweets(senator_tweet_ids$tweet_ids[1:10])
