@@ -60,6 +60,8 @@ ht_re <- "#[a-zA-Z0-9_]\\w*"
 str_view_all(ex, url_re)
 str_view_all(ex, ht_re)
 
+
+
 ```
 <br/>
 
@@ -68,12 +70,11 @@ str_view_all(ex, ht_re)
 Hint: be sure to read the stringr documentation.
 ```{r}
 # your solution here
-covid_tweets <- covid_tweets %>% 
-  mutate(n_link=(str_count(tweet_text, url_re))) %>% 
-  mutate(n_ht=(str_count(tweet_text, ht_re)))
-
-m1 <- lm(retweet_count ~ n_link + n_ht, data=covid_tweets)
-m2 <- lm(favorite_count ~ n_link + n_ht, data=covid_tweets)
+senator_tweets <- senator_tweets %>% 
+  mutate(n_link=(str_count(text, url_re))) %>% 
+  mutate(n_ht=(str_count(text, ht_re)))
+m1 <- lm(retweet_count ~ n_link + n_ht, data=senator_tweets)
+m2 <- lm(favorite_count ~ n_link + n_ht, data=senator_tweets)
 summary(m1)
 summary(m2)
 ```
@@ -88,8 +89,8 @@ written response here
 Hint: you may want to check out the `unnest` function (not `unnest_tokens`).
 ```{r}
 # your solution here
-covid_tweets %>% 
-  mutate(ht=str_extract_all(tweet_text, ht_re)) %>% 
+senator_tweets %>% 
+  mutate(ht=str_extract_all(text, ht_re)) %>% 
   unnest(ht) %>%
   mutate(ht=str_to_lower(ht)) %>% 
   group_by(ht) %>% 
@@ -101,10 +102,10 @@ covid_tweets %>%
 **4. Create a new column in `senator_tweets` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 ```{r}
 # your solution here
-covid_tweets <- covid_tweets %>% 
-  mutate(cleaned=gsub(url_re, "", tweet_text)) %>% 
+senator_tweets <- senator_tweets %>% 
+  mutate(cleaned=gsub(url_re, "", text)) %>% 
   mutate(cleaned=gsub(ht_re, "", cleaned))
-covid_tweets %>% select(cleaned)
+senator_tweets %>% select(cleaned)
 ```
 <br/>
 
@@ -114,8 +115,7 @@ covid_tweets %>% select(cleaned)
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
 # your solution here
-topwords <- covid_tweets %>% 
-  filter(language=='en') %>% 
+topwords <- senator_tweets %>% 
   unnest_tokens('word', cleaned) %>% 
   group_by(word) %>% count() %>% 
   arrange(desc(n))
@@ -129,11 +129,10 @@ topwords %>% anti_join(stop_words)
 **6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.**
 ```{r}
 # your solution here
-dtm <- covid_tweets %>% 
-  filter(language=='en') %>% 
+dtm <- senator_tweets %>% 
   unnest_tokens('word', cleaned) %>% 
-  count(date, word) %>% 
-  cast_dtm(date, word, n)
+  count(status_id, word) %>% 
+  cast_dtm(status_id, word, n)
 dtm
 ```
 <br/>
