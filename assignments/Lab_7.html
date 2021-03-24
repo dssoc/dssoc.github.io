@@ -423,7 +423,7 @@ summary(cong_comm %&gt;% select(age, num_comm, prob_title))</code></pre>
 ##  3rd Qu.:68.00   3rd Qu.: 9.000   3rd Qu.:0.2500  
 ##  Max.   :87.00   Max.   :24.000   Max.   :1.0000</code></pre>
 <p><br /></p>
-<p><strong>3. Create a linear model predicting age from the number of committees that members belong to, then create a scatter plot with a linear trendline. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? </strong></p>
+<p><strong>3. Create a linear model predicting the number of committees that members belong to from <code>age</code>, then create a scatter plot with a linear trendline. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? </strong></p>
 <p>Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.</p>
 <pre class="r"><code># Your answer here
 summary(lm(num_comm~age, data=cong_comm))</code></pre>
