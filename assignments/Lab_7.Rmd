@@ -51,7 +51,7 @@ comm_cts <- committees %>%
   summarise(num_comm=n(), prob_title=mean(title!=''))
 cong_comm <- congress %>% 
   inner_join(comm_cts, by=c('bioguide_id'='bioguide')) %>% 
-  mutate(age=2020-birthyear)
+  mutate(age=2021-birthyear)
 summary(cong_comm %>% select(age, num_comm, prob_title))
 ```
 <br/>
@@ -67,7 +67,16 @@ cong_comm %>% ggplot(aes(x=age, y=num_comm)) +
   geom_point() + 
   geom_smooth(method='lm', formula=y~x)
 ```
+
+```{r}
+summary(lm(age~num_comm, data=cong_comm))
+cong_comm %>% ggplot(aes(x=num_comm, y=age)) + 
+  geom_point() + 
+  geom_smooth(method='lm', formula=y~x)
 ```
+
+
+
 written explanation here
 ```
 <br/>
