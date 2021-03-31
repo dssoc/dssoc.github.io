@@ -74,13 +74,21 @@ frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
 **3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens. What do these scores mean? Give a hypothesis for why these three have the highest values.**
 ```{r}
 # your answer here
-senator_tweets %>%
+tmp <- senator_tweets %>%
   select(created_at, text) %>%
-  unnest_tokens(hashtag, text, "tweets") %>%
-  filter(str_detect(hashtag, "^#")) %>%
-  count(hashtag, created_at) %>%
-  bind_tf_idf(hashtag, created_at, n) %>% 
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  count(word, created_at) %>%
+  bind_tf_idf(word, created_at, n) %>% 
   arrange(desc(tf_idf))
+
+tmp
+
+tmp %>% 
+  head(10) %>% 
+  ggplot(aes(x=reorder(word,-tf_idf), y=tf_idf)) + 
+    geom_bar(stat='identity')
 ```
 ```
 your written explanation here
