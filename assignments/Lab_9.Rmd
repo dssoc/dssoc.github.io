@@ -58,7 +58,7 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 ```
 <br/>
 
-**3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens. What do these scores mean? Give a hypothesis for why these three have the highest values.**
+**3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
 ```{r}
 # your answer here
 ```
@@ -67,7 +67,7 @@ your written explanation here
 ```
 <br/>
 
-**4. For each of the top-three tf-idf tokens, extract up to five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the question before?**
+**4. For each of the top-three tf-idf tokens, extract up to five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the previous question?**
 ```{r}
 # your answer here
 ```
