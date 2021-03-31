@@ -552,6 +552,14 @@ allowfullscreen></iframe>
 
 Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
 
+Discussion questions for this week:
+
+1. Have you ever been the target of trolling or a misinformation campaign? Was it successful? Why or why not?
+2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
+3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
+
+
+
 #### Did Russia's Social Media Campaign Succeed?
 
 <iframe width="560" height="315"
