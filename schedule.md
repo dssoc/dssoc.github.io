@@ -722,8 +722,7 @@ No graded assignment this week-- apply communication or collaboration skills to 
 <b><i><font color="#E84E4E">April 25-May 1</font></i></b>
 
 ***Final presentation times:***
-- Monday, May 26 @ TBD
-- Tuesday, May 27 18 @ TBD
+TBD
 
 
 ***Final paper DUE Saturday May 1st at 5pm EDT***
