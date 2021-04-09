@@ -120,7 +120,7 @@ If you have questions about your grade for the final project at any time we can 
 The final project will consist of two parts: a final presentation and a final paper.
 
 
-**Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen on May 26 and 27, times TBD.***
+**Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen on April 26 and 27, times TBD.***
 
 
 **Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Saturday May 1st at 5pm EDT***. It should be **at least 2,500 words** and the knitted web page SHOULD NOT include code blocks. The written component should include the following components:
