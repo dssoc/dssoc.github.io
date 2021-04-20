@@ -61,13 +61,25 @@ frequent_tokens <- senator_tweets %>%
   unnest_tokens("word", text, token = "tweets") %>% 
   anti_join(stop_words) %>%
   count(word) %>%
-  arrange(desc(n)) %>% 
-  head(20)
-frequent_tokens %>% ggplot(aes(x = reorder(word, -n), y=n, fill = word)) +
+  arrange(desc(n))
+  
+frequent_tokens %>% 
+  head(20) %>% 
+  ggplot(aes(y = reorder(word, n), x=n, fill = word)) +
   geom_bar(stat = "identity") +
     xlab("") +
     ylab("Frequency") +
     theme_minimal()
+frequent_tokens %>% 
+  filter(substr(word,1,1)=='#') %>% 
+  head(20) %>% 
+  ggplot(aes(y = reorder(word, n), x=n, fill = word)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Frequency") +
+    theme_minimal()
+#substr(frequent_tokens$word,1,1)
+
 ```
 <br/>
 
@@ -87,7 +99,7 @@ tmp
 
 tmp %>% 
   head(10) %>% 
-  ggplot(aes(x=reorder(word,-tf_idf), y=tf_idf)) + 
+  ggplot(aes(y=reorder(word,tf_idf), x=tf_idf)) + 
     geom_bar(stat='identity')
 ```
 ```
@@ -98,6 +110,10 @@ your written explanation here
 **4. For each of the top-three tf-idf tokens, extract up to five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the previous question?**
 ```{r}
 # your answer here
+senator_tweets %>% 
+  filter(str_detect(text, 'forward')) %>% 
+  arrange(retweet_count) %>% 
+  select(text)
 ```
 ```
 your written explanation here
@@ -110,8 +126,13 @@ Hint: you may need to use `as.POSIXlt` to convert date information.
 ```{r}
 # your answer here
 senator_tweets <- senator_tweets %>% 
-  mutate(hr=hour(created_at))
-senator_tweets %>% ggplot() + geom_histogram(aes(hr))
+  mutate(hr=hour(created_at)) %>% 
+  mutate(is_daytime=ifelse(hr<5 | hr>17, 'night', 'day'))
+
+senator_tweets%>% 
+  count(is_daytime) %>% 
+  ggplot(aes(x=is_daytime, y=n)) + 
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -120,13 +141,14 @@ senator_tweets %>% ggplot() + geom_histogram(aes(hr))
 ```{r}
 # your answer here
 senator_tweets %>% 
-  select(status_id, text, hr) %>% 
-  mutate(daytime=hr>8 & hr<20) %>% 
+  select(status_id, text, hr, is_daytime) %>% 
   unnest_tokens(word, text) %>% 
   inner_join(get_sentiments("bing")) %>% 
-  count(status_id, daytime, sentiment) %>% 
-  group_by(daytime, sentiment) %>% 
-  summarize(score=mean(n))
+  count(status_id, is_daytime, sentiment) %>% 
+  group_by(is_daytime, sentiment) %>% 
+  summarize(score=mean(n)) %>% 
+  ggplot(aes(x=sentiment, y=score, fill=is_daytime)) +
+    geom_bar(stat='identity', position='dodge')
 ```
 ```
 Explain why you chose to compute sentiment in this way.
