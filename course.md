@@ -208,12 +208,17 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 by Mihir Patel
 <br/>
 
-[An Exceptionally Unified Front?: Convergence on China-related Issues in the U.S. Congress](/project_examples/dss_fa2020_exceptionally_unified_front_Wanying_He.html)
-by Wanying He
-<br/>
 
 [The Gender Gap in Professional Networking](/project_examples/dss_fa2020_the_network_gap_charlotte_mcculloh.html)
 by Charlotte McCulloh
+<br/>
+
+[Collective Violence: Mob Formation of Lynchings](/project_examples/ben_wallace.html)
+by Ben Wallace
+<br/>
+
+[An Exceptionally Unified Front?: Convergence on China-related Issues in the U.S. Congress](/project_examples/dss_fa2020_exceptionally_unified_front_Wanying_He.html)
+by Wanying He
 <br/>
 
 [The Rise of Doomscrolling: How Negative Emotions Drive Engagement with Political Content on Twitter](/project_examples/dss_fa2020_rise_of_doomscrolling_jaiveer_katariya.html)
