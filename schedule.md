@@ -18,14 +18,14 @@ page_nav:
 ---
 
 ## 1 - Orientation
-<b><i><font color="#E84E4E">January 21</font></i></b>
+<b><i><font color="#E84E4E">January 5</font></i></b>
 
 
 Please attend an the entire class zoom session from 12:30-1 (link available in our Slack workspace).
 <br>
 
 ## 2 - Introduction
-<b><i><font color="#E84E4E">January 24-30</font></i></b>
+<b><i><font color="#E84E4E">January 10 & 12</font></i></b>
 
 Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
 
