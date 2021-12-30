@@ -55,8 +55,6 @@ allowfullscreen></iframe>
 
 <p><i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i></p>
 
-<br/>
-<hr/>
 <i><b>Video Lecture: Getting Started with RStudio</b></i> 
 
 <iframe width="560" height="315"
@@ -102,7 +100,7 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due by 11:59PM 01/22)</i>
+<i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i>
 <br/>
 <hr/>
     
@@ -156,7 +154,7 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due by 11:59PM Jan 29)</i>
+<i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i>
 <br/>
 <hr/>
 
@@ -219,7 +217,7 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due by 11:59PM Feb 5)</i>
+<i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i>
 <br/>
 <hr/>
 
@@ -290,7 +288,7 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due by 11:59PM Feb 12)</i>
+<i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i>
 <br/>
 <hr/>
     
@@ -360,7 +358,7 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due by 11:59PM Feb 19)</i> 
+<i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i> 
 
 <br/>
 <hr/>
@@ -422,7 +420,7 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due by 11:59PM Feb 26)</i> 
+<i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 26 by 11:59PM)</i> 
 
 <br/>
 <hr/>
@@ -490,7 +488,7 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM Mar 5)</i>
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due on Mar 5 by 11:59PM)</i>
 
 <br/>
 <hr/>
@@ -549,7 +547,7 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due by 11:59PM Mar 19)</i>
+<i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 19 by 11:59PM)</i>
 
 <br/>
 <hr/>
@@ -623,7 +621,7 @@ allowfullscreen></iframe>
 #### Lab #9: Word counts and Dictionaries
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due by 11:59PM Mar 26)</i>
+<i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 26 by 11:59PM)</i>
 <br/>
 <hr/>
 
@@ -681,7 +679,7 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 04/10)</i>
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due on April 12 by 11:59PM)</i>
 <br/>
 <hr/>
 
