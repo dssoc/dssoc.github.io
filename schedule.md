@@ -55,7 +55,7 @@ allowfullscreen></iframe>
 
 <p><i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i></p>
 
-<i><b>Video Lecture: Getting Started with RStudio</b></i> 
+<i><b>Lab Video Lecture: Getting Started with RStudio</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/oFv25YAWSNc" 
@@ -100,11 +100,9 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>
     
-<i><b>Video Lecture: R Basics</b></i> 
+<i><b>Lab Video Lecture: R Basics</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wBKiNV_ieb4" 
@@ -154,12 +152,9 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i></p>
 
-    
-<i><b>Video Lecture: Data "Wrangling"</b></i> 
+<i><b>Lab Video Lecture: Data "Wrangling"</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/IJfOOWqoKkI" 
@@ -217,12 +212,10 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i></p>
 
 
-<i><b>Video Lecture: Data Visualization</b></i> 
+<i><b>Lab Video Lecture: Data Visualization</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/7mY5KDmimp0" 
@@ -288,11 +281,9 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i></p>
     
-<i><b>Video Lecture: Programming</b></i> 
+<i><b>Lab Video Lecture: Programming</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/voLDisIMHMM" 
@@ -358,12 +349,10 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i> 
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i></p>
 
-<br/>
-<hr/>
 
-<i><b>Video Lecture: Coding Networks</b></i> 
+<i><b>Lab Video Lecture: Coding Social Networks</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/Zdtoxa2xYr8" 
@@ -420,13 +409,9 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 26 by 11:59PM)</i> 
-
-<br/>
-<hr/>
-
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 26 by 11:59PM)</i></p>
     
-<i><b>Video Lecture: Working with APIs</b></i> 
+<i><b>Lab Video Lecture: Working with APIs</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/LTC8laBJGP0" 
@@ -488,11 +473,10 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due on Mar 5 by 11:59PM)</i>
+<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 5 by 11:59PM)</i></p>
 
-<br/>
-<hr/>
 
+<i><b>Lab Video Lecture: Modeling</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/y4B3JVicRxY" 
@@ -547,11 +531,10 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 19 by 11:59PM)</i>
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 19 by 11:59PM)</i></p>
 
-<br/>
-<hr/>
 
+<i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/TAlO-5NJB7I" 
@@ -618,14 +601,13 @@ allowfullscreen></iframe>
 
 
 
-#### Lab #9: Word counts and Dictionaries
+#### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
     
-<i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 26 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 26 by 11:59PM)</i></p>
 
-    
+<i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
+
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wSIi2ZRKjaE" 
 frameborder="0" 
@@ -679,11 +661,9 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due on April 12 by 11:59PM)</i>
-<br/>
-<hr/>
+<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 12 by 11:59PM)</i></p>
 
-
+<i><b>Lab Video Lecture: Topic modeling</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
