@@ -20,14 +20,16 @@ page_nav:
 ## 1 - Orientation
 <b><i><font color="#E84E4E">January 5</font></i></b>
 
+Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspace. See Course Description page to see how to join the class Slack channel.
 
-Please attend an the entire class zoom session from 12:30-1 (link available in our Slack workspace).
 <br>
 
-## 2 - Introduction
-<b><i><font color="#E84E4E">January 10 & 12</font></i></b>
+## 2 - Introduction and Ethics A
+<b><i><font color="#E84E4E">January 10-15</font></i></b>
 
-Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
+Regular MW class meetings.
+
+No Lab homework due this week - please make sure you have R and RStudio installed (you can follow the guide below).
 
 #### Can Data Science Help us Fight COVID-19?
 
@@ -48,7 +50,7 @@ allowfullscreen></iframe>
 - Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
 - Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 
-#### Lab: Getting Started with RStudio
+#### Lab 0: Getting Started with RStudio
 <div class="callout callout--info">
     
 <i><b>Getting Started with RStudio</b></i> 
@@ -70,15 +72,11 @@ allowfullscreen></iframe>
 
 ## 3 - Ethics
 
-<b><i><font color="#E84E4E">January 31-February 6</font></i></b>
+<b><i><font color="#E84E4E">Jan 17-22</font></i></b>
 
-Please attend the small group discussion section on 12:30-1:30pm Tuesday.
-
-We will discuss the following questions:
-
-1. Should researchers always be required to get the consent of the people they study?
-2. Is there ever a point where the scientific value of research should trump ethical concerns?
-3. Are the old ethical guidelines that Matt Salganik discusses in his book "Bit by bit" sufficient, or do we need new ones for the post-COVID era?
+Monday, Jan 17: MLK Day - no Class
+Wednesday, Jan 19: Regular class.
+Saturday, Jan 22: Lab 1 homework due.
 
 #### Ethics in Computational Social Science
 
@@ -97,10 +95,13 @@ allowfullscreen></iframe>
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/).
 - Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be).
 
-#### Lab: R Basics 
+#### Lab 1: R Basics 
 <div class="callout callout--info">
     
-<i><b>R Basics</b></i> 
+<i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due by 11:59PM 01/22)</i>
+<br/>
+    
+<i><b>Video Lecture: R Basics</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wBKiNV_ieb4" 
@@ -108,7 +109,7 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_1.html">Lab #1</a></b> (Due by 11:59PM 02/06)</i> <br/>
+
 <br/>
 
 <i>Materials from Video:</i><br/>
@@ -150,6 +151,10 @@ allowfullscreen></iframe>
 #### Lab: Data Wrangling
 <div class="callout callout--info">
     
+<i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due by 11:59PM Jan 29)</i>
+<br/>
+
+    
 <i><b>Video Lecture: Data "Wrangling"</b></i> 
 
 <iframe width="560" height="315"
@@ -158,11 +163,9 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_2.html">Lab #2</a></b> (Due by 11:59PM 02/13)</i> <br/>
-
-
 <br/>
-<i>Materials from Video:</i><br/>
+<i>Materials from Video:</i>
+<br/>
 
 <ul>
   <li><a href = "/datasets/Apple_Mobility_Data.Rdata">Download Apple Mobility Dataset (From Video)</a></li>
@@ -207,8 +210,12 @@ allowfullscreen></iframe>
 - Chris Bail. [Video: Building Apps and Bots for Social Science Research](https://www.youtube.com/watch?v=3wjYcIOpBgU).
 
 
-#### Lab: Visualization  
+#### Lab #3: Data Visualization
 <div class="callout callout--info">
+
+<i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due by 11:59PM Feb 5)</i>
+<br/>
+
 
 <i><b>Video Lecture: Data Visualization</b></i> 
 
@@ -217,9 +224,6 @@ src="https://www.youtube.com/embed/7mY5KDmimp0"
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-
-
-<i><b><a href = "/assignments/Lab_3.html">Lab #3</a></b> (Due by 11:59PM 02/20)</i> <br/>
 
 <br/>
 
@@ -279,6 +283,9 @@ allowfullscreen></iframe>
 #### Lab: Programming Basics
 <div class="callout callout--info">
     
+<i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due by 11:59PM Feb 12)</i>
+<br/>
+    
 <i><b>Video Lecture: Programming</b></i> 
 
 <iframe width="560" height="315"
@@ -288,7 +295,6 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "/assignments/Lab_4.html">Lab #4</a></b> (Due by 11:59PM 02/27)</i> <br/>
 
 <br/>
 
