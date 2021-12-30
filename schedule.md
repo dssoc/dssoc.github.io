@@ -20,7 +20,7 @@ page_nav:
 ## 1 - Orientation
 <b><i><font color="#E84E4E">January 5</font></i></b>
 
-<p>Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspace. See Course Description page to see how to join the class Slack channel.</p>
+Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspace. See Course Description page to see how to join the class Slack channel.
 
 <br>
 
@@ -53,7 +53,7 @@ allowfullscreen></iframe>
 #### Lab #0: Getting Started with RStudio
 <div class="callout callout--info">
 
-<i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i>
+<p><i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i></p>
 
 <br/>
 <hr/>
