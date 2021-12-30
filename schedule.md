@@ -74,10 +74,12 @@ allowfullscreen></iframe>
 
 ## 3 - Ethics
 
-<b><i><font color="#E84E4E">Jan 17-22</font></i></b>
+<b><i><font color="#E84E4E">January 17-22</font></i></b>
 
-Monday, Jan 17: MLK Day - no Class
+Monday, Jan 17: MLK Day - no class
+
 Wednesday, Jan 19: Regular class.
+
 Saturday, Jan 22: Lab #1 homework due.
 
 #### Ethics in Computational Social Science
@@ -129,7 +131,7 @@ allowfullscreen></iframe>
 
 ## 4 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">Jan 24-29</font></i></b>
+<b><i><font color="#E84E4E">January 24-29</font></i></b>
 
 Regular MW class and Lab assignment due.
 
@@ -182,7 +184,7 @@ allowfullscreen></iframe>
 
 ## 5 - The Echo Chamber
 
-<b><i><font color="#E84E4E">Jan 31 - Feb 5</font></i></b>
+<b><i><font color="#E84E4E">January 31 - February 5</font></i></b>
 
 Regular MW class and Lab assignment due.
 
@@ -260,7 +262,7 @@ allowfullscreen></iframe>
 
 ## 6 - Social Networks and Health
 
-<b><i><font color="#E84E4E">Feb 7-12</font></i></b>
+<b><i><font color="#E84E4E">February 7-12</font></i></b>
 
 Regular MW class and Lab assignment due.
 
@@ -438,7 +440,7 @@ allowfullscreen></iframe>
 </div>
 
 ## 9 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">Feb 28 - Mar 4</font></i></b>
+<b><i><font color="#E84E4E">February 28 - March 4</font></i></b>
 
 Regular MW class and Lab assignment due.
 
@@ -602,8 +604,6 @@ allowfullscreen></iframe>
 - Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
 - Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
 - [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
-
-
 
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
