@@ -52,11 +52,12 @@ allowfullscreen></iframe>
 
 #### Lab #0: Getting Started with RStudio
 <div class="callout callout--info">
-<i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Markdown File</a></b> (Ungraded)</i>
+
+<i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i>
 
 <br/>
 <hr/>
-<i><b>Getting Started with RStudio</b></i> 
+<i><b>Video Lecture: Getting Started with RStudio</b></i> 
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/oFv25YAWSNc" 
@@ -98,11 +99,12 @@ allowfullscreen></iframe>
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/).
 - Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be).
 
-#### Lab 1: R Basics 
+#### Lab #1: R Basics 
 <div class="callout callout--info">
     
 <i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due by 11:59PM 01/22)</i>
 <br/>
+<hr/>
     
 <i><b>Video Lecture: R Basics</b></i> 
 
@@ -151,11 +153,12 @@ allowfullscreen></iframe>
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf).
 
-#### Lab: Data Wrangling
+#### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
 <i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due by 11:59PM Jan 29)</i>
 <br/>
+<hr/>
 
     
 <i><b>Video Lecture: Data "Wrangling"</b></i> 
@@ -218,6 +221,7 @@ allowfullscreen></iframe>
 
 <i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due by 11:59PM Feb 5)</i>
 <br/>
+<hr/>
 
 
 <i><b>Video Lecture: Data Visualization</b></i> 
@@ -283,12 +287,11 @@ allowfullscreen></iframe>
 - Duncan Watts. [How small is the world, really?](https://medium.com/@duncanjwatts/how-small-is-the-world-really-736fa21808ba).
 - David Austin. [How Google Finds Your Needle in the Web's Haystack](http://www.ams.org/publicoutreach/feature-column/fcarc-pagerank).
 
-#### Lab: Programming Basics
+#### Lab #4: Programming Basics
 <div class="callout callout--info">
     
 <i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due by 11:59PM Feb 12)</i>
 <br/>
-
 <hr/>
     
 <i><b>Video Lecture: Programming</b></i> 
@@ -354,8 +357,13 @@ allowfullscreen></iframe>
 - Carolyn Bentley. [Introduction to Structural Holes Theory](https://medium.com/@agreenmoment/introduction-to-structural-holes-theory-124c51c3ae31#:~:text=Structural%20holes%20exist%20in%20social,relationships%20(Burt%2C%201992).).
 
 
-#### Lab: Coding Social Networks
+#### Lab #5: Coding Social Networks
 <div class="callout callout--info">
+
+<i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due by 11:59PM Feb 19)</i> 
+
+<br/>
+<hr/>
 
 <i><b>Video Lecture: Coding Networks</b></i> 
 
@@ -365,7 +373,6 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-<i><b><a href = "/assignments/Lab_5.html">Lab #5</a></b> (Due by 11:59PM 03/06)</i> <br/>
 
 <br/>
 
@@ -412,9 +419,17 @@ allowfullscreen></iframe>
 - Shoshanna Zuboff. [You are Now Remotely Controlled](https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html)
 
 
-#### Lab: Working with APIs
+#### Lab #6: Working with APIs
 <div class="callout callout--info">
     
+<i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due by 11:59PM Feb 26)</i> 
+
+<br/>
+<hr/>
+
+    
+<i><b>Video Lecture: Working with APIs</b></i> 
+
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/LTC8laBJGP0" 
 frameborder="0" 
@@ -422,7 +437,6 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "/assignments/Lab_6.html">Lab #6</a></b> (Due by 11:59PM 03/13)</i> <br/>
 
 <br/>
 
@@ -473,8 +487,14 @@ allowfullscreen></iframe>
 
 
 
-#### Modeling (A Brief Introduction)
+#### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
+
+<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM Mar 5)</i>
+
+<br/>
+<hr/>
+
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/y4B3JVicRxY" 
@@ -483,7 +503,6 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "/assignments/Lab_7.html">Lab #7</a></b> (Due by 11:59PM 03/20)</i><br/>
 
 <br/>
 
@@ -498,12 +517,15 @@ allowfullscreen></iframe>
 </ul>
 </div>
 
+## 10 - Spring break
+<b><i><font color="#E84E4E">March 7-12</font></i></b>
 
+No class. Enjoy your break!
 
-## 10 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">March 21-27</font></i></b>
+## 11 - Hate Speech & Radicalization
+<b><i><font color="#E84E4E">March 14-19</font></i></b>
 
-Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
+Regular MW class.
 
 #### Using Google Search to Track Radicalization
 
@@ -523,8 +545,15 @@ allowfullscreen></iframe>
 
 
 
-#### Lab: Intro to text data
+#### Lab #8: Introduction to text analysis
 <div class="callout callout--info">
+    
+    
+<i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due by 11:59PM Mar 19)</i>
+
+<br/>
+<hr/>
+
     
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/TAlO-5NJB7I" 
@@ -533,7 +562,6 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-<i><b><a href = "/assignments/Lab_8.html">Lab #8</a></b> (Due by 11:59PM 03/27)</i>
 
 <br/><br/>
 
@@ -558,10 +586,12 @@ allowfullscreen></iframe>
 
 
 
-## 11 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 28-April 3</font></i></b>
+## 12 - Misinformation and Trolling
+<b><i><font color="#E84E4E">March 21-26</font></i></b>
 
-Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+Regular MW class.
+
+<!--
 
 Discussion questions for this week:
 
@@ -569,7 +599,7 @@ Discussion questions for this week:
 2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
 3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
 
-
+-->
 
 #### Did Russia's Social Media Campaign Succeed?
 
@@ -590,17 +620,19 @@ allowfullscreen></iframe>
 
 
 
-#### Lab: Word counts and Dictionaries
+#### Lab #9: Word counts and Dictionaries
 <div class="callout callout--info">
+    
+<i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due by 11:59PM Mar 26)</i>
+<br/>
+<hr/>
+
     
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/wSIi2ZRKjaE" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-    
-
-<i><b><a href = "/assignments/Lab_9.html">Lab #9</a></b> (Due by 11:59PM 04/03)</i><br/>
 
 <br/>
 
@@ -622,10 +654,10 @@ allowfullscreen></iframe>
 </div>
 
 
-## 12 - Protest and Censorship
-<b><i><font color="#E84E4E">April 4- April 10</font></i></b>
+## 13 - Protest and Censorship
+<b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
-Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time (some meetings this week may need to be rescheduled).
+Regular MW class.
 
 #### Online Social Change (Zeynep Tufekci)
 
@@ -646,18 +678,20 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 
 
 
-#### Lab: Your First Topic Model
+#### Lab #10: Topic Modeling
 <div class="callout callout--info">
+
+<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 04/10)</i>
+<br/>
+<hr/>
+
+
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
-
-
-
-<i><b><a href = "/assignments/Lab_10.html">Lab #10</a></b> (Due by 11:59PM 04/10)</i><br/>
 
 <br/>
 
@@ -687,23 +721,19 @@ allowfullscreen></iframe>
 
 
 
-## 13 - Wellness Week 
+## 14 - Wellness Week 
 <b><i><font color="#E84E4E">April 11-17</font></i></b>
 
-No Lectures/Lab or meetings... work on final projects!
+<p>No class or Labs - take off time for yourself!</p>
+<p>Regular TA office hours will be open.</p>
 
 
+## 15 - Open Lab 
+<b><i><font color="#E84E4E">April 18-20</font></i></b>
 
+<p>Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail.</p>
 
-
-
-## 14 - Open Lab 
-<b><i><font color="#E84E4E">April 18-24</font></i></b>
-
-(Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail at your regularly scheduled time)
-
-*Regularly scheduled TA office hours will also be available.*
-
+<p>Regularly scheduled TA office hours will be available.</p>
 
 
 ***Required reading***:
@@ -717,27 +747,36 @@ No Lectures/Lab or meetings... work on final projects!
 #### Lab: Communicating Your Research
 <div class="callout callout--info">
 
+<p>No graded assignment this week-- apply communication or collaboration skills to your final project instead.</p>
+
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/K1QdcblKR1M" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-No graded assignment this week-- apply communication or collaboration skills to your final project instead.
 
 </div>
 
 
-## 15 - Final Presentations
+## 16 - Final Presentations
 
-<b><i><font color="#E84E4E">April 25-May 1</font></i></b>
+<b><i><font color="#E84E4E">April 18-20</font></i></b>
+
+We will schedule final presentations for this week.
 
 ***Final presentation times:***
-- Monday, April 26 @ 1-3pm
-- Tuesday, April 27 @ 1-3pm
+TBD
 
 
-***Final paper DUE Saturday May 1st at 5pm EDT***
+## 17 - Final Paper
+
+<b><i><font color="#E84E4E">April 25-30</font></i></b>
+
+Finals week - no class or Labs.
+TA office hours TBD.
+
+***Final paper DUE Saturday April 30 at 5pm EDT***
 
 
 
