@@ -13,9 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will practice using the `ggplot2` library to create visualizations of our data. **Our standard for visualizations is that each plot should have axis labels, all labels must be readable to someone unfamiliar with your data (e.g. Female and Male instead of `F` and `M`, Senator and Representative instead of `rep` and `sen`), and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.**
 
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.
-
-This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file ([download here](/assignments/Lab_3.Rmd)) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 

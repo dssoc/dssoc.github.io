@@ -13,9 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will be practicing the fundamentals of programming in R. 
 
-Be sure to do the required readings first. While many of the problems can be solved using approaches from the lecture videos, lab videos, or required readings, you may need to do some searching on the internet to solve some of the problems. This will be a valuable skill to learn as you develop your data science skills.
-
-This lab should be submitted in both R Markdown (.Rmd) file and knitted HTML web page (.html) formats, and you should be starting with the Lab markdown file ([download here](/assignments/Lab_4.Rmd)) after replacing the author name with your own. While the R Markdown file should include all of the code you used to generate your solutions, the Knitted HTML file should ONLY display the solutions to the assignment, and NOT the code you used to solve it. Imagine this is a document you will submit to a supervisor or professor - they should be able to reproduce the code/analysis if needed, but otherwise only need to see the results and your write-up. The TA should be able to run the R Markdown file to directly generate the same exact html file you submitted. **Submit to your TA via direct message on Slack by the deadline indicated on the course website.**
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 
