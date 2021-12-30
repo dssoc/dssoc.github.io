@@ -29,7 +29,7 @@ Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspac
 
 Regular MW class meetings.
 
-No Lab homework due this week - please make sure you have R and RStudio installed (you can follow the guide below).
+No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 
 #### Can Data Science Help us Fight COVID-19?
 
@@ -78,7 +78,7 @@ allowfullscreen></iframe>
 
 Monday, Jan 17: MLK Day - no Class
 Wednesday, Jan 19: Regular class.
-Saturday, Jan 22: Lab 1 homework due.
+Saturday, Jan 22: Lab #1 homework due.
 
 #### Ethics in Computational Social Science
 
@@ -129,9 +129,9 @@ allowfullscreen></iframe>
 
 ## 4 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">February 7-February 13</font></i></b>
+<b><i><font color="#E84E4E">Jan 24-29</font></i></b>
 
-Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
+Regular MW class and Lab assignment due.
 
 #### Do our Platforms Push us Apart?
 
@@ -182,16 +182,17 @@ allowfullscreen></iframe>
 
 ## 5 - The Echo Chamber
 
-<b><i><font color="#E84E4E">February 14-20</font></i></b>
+<b><i><font color="#E84E4E">Jan 31 - Feb 5</font></i></b>
 
-Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+Regular MW class and Lab assignment due.
 
+<!--
 We will discuss the following questions:
 
 1. A major limitation of the study we read this week is that it only examined Twitter users-- do you think exposing people to opposing views on Facebook, Instagram, TikTok or other platforms would have a similar effect? Why or Why not? 
 2. The study found that Republicans tend to double-down in their pre-existing views when they are exposed to opposing views more strongly than Democrats - develop some hypotheses about why this might have happened; 
 3. The accounts retweeted by the bots in the study retweeted high profile "opinion leaders" (e.g. elected officials, journalists, etc). Do you think the effects would have been different if they had retweeted non-elite partisans instead?
-
+-->
 #### Should we Break our Echo Chambers?
 
 <iframe width="560" height="315"
@@ -259,9 +260,9 @@ allowfullscreen></iframe>
 
 ## 6 - Social Networks and Health
 
-<b><i><font color="#E84E4E">February 21-27</font></i></b>
+<b><i><font color="#E84E4E">Feb 7-12</font></i></b>
 
-Please attend your one-on-one meeting with Dr. Bail at your regularly scheduled time.
+Regular MW class and Lab assignment due.
 
 #### The Hidden Influence of Social Networks
 
@@ -326,9 +327,9 @@ For these excercises, you will need the following datasets:<br/>
 
 
 ## 7 - Getting a Job
-<b><i><font color="#E84E4E">February 28-March 6</font></i></b>
+<b><i><font color="#E84E4E">February 14-19</font></i></b>
 
-Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+Regular MW class and Lab assignment due.
 
 #### How to find a job (and Succeed Once you Get One)
 
@@ -387,9 +388,9 @@ Katya Ognyanova</a></li>
 
 
 ## 8 - Surveillance and Privacy
-<b><i><font color="#E84E4E">March 7-13</font></i></b>
+<b><i><font color="#E84E4E">February 21-26</font></i></b>
 
-One-on-one meetings cancelled this week for "spring break." If you just can't get enough computational social science, check out this video documentary!
+Regular MW class and Lab assignment due.
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -437,17 +438,20 @@ allowfullscreen></iframe>
 </div>
 
 ## 9 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">March 14-20</font></i></b>
+<b><i><font color="#E84E4E">Feb 28 - Mar 4</font></i></b>
 
-Please attend your small group Zoom meeting from 12:30-1:30pm Tuesday.
+Regular MW class and Lab assignment due.
 
+Spring Break starts on the evening of March 4, but we will give you until Saturday, March 5 to submit the Lab in case you need more time.
+
+<!--
 We will discuss the following questions:
 
 1. Have you, personally, ever experienced an algorithm recommend something to you that you think might create social inequality? If so, tell the rest of your group about it.
 2. In this class, we always encourage you to evaluate issues with evidence or data. Can you think of a way to design a study that could measure whether algorithms create social inequality?
 3. Google, Facebook, and many other large companies have created large teams specifically dedicated to creating fairness in Artificial Intelligence. Do you think it's possible for people on those teams to independently audit or evaluate social inequality without some type of bias?
 
-
+-->
 
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
@@ -507,7 +511,7 @@ No class. Enjoy your break!
 ## 11 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
-Regular MW class.
+Regular MW class and Lab assignment due.
 
 #### Using Google Search to Track Radicalization
 
@@ -570,7 +574,7 @@ allowfullscreen></iframe>
 ## 12 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
-Regular MW class.
+Regular MW class and Lab assignment due.
 
 <!--
 
@@ -637,7 +641,8 @@ allowfullscreen></iframe>
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
-Regular MW class.
+Regular MW class and Lab assignment due.
+
 
 #### Online Social Change (Zeynep Tufekci)
 
@@ -661,7 +666,7 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 12 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 2 by 11:59PM)</i></p>
 
 <i><b>Lab Video Lecture: Topic modeling</b></i> 
 
@@ -700,14 +705,14 @@ allowfullscreen></iframe>
 
 
 ## 14 - Wellness Week 
-<b><i><font color="#E84E4E">April 11-17</font></i></b>
+<b><i><font color="#E84E4E">April 4-9</font></i></b>
 
 <p>No class or Labs - take off time for yourself!</p>
 <p>Regular TA office hours will be open.</p>
 
 
 ## 15 - Open Lab 
-<b><i><font color="#E84E4E">April 18-20</font></i></b>
+<b><i><font color="#E84E4E">April 11-16</font></i></b>
 
 <p>Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail.</p>
 
@@ -747,7 +752,7 @@ We will schedule final presentations for this week.
 TBD
 
 
-## 17 - Final Paper
+## 17 - Final Paper Due
 
 <b><i><font color="#E84E4E">April 25-30</font></i></b>
 
