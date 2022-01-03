@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Lab Assignments"
+title: "Introduction to Lab Assignments and Data Description"
 author: "Data Science and Society (Sociology 367)"
 output: html_document
 ---
@@ -9,7 +9,7 @@ knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 ```
 
-In this document I'll give detailed instructions for the labs, as well as descriptions for each dataset we will be using.
+In this document I'll first give detailed instructions for the labs and then give descriptions for each dataset we will be using this semester.
 
 
 # Instructions
@@ -24,6 +24,8 @@ This is a list of all Labs and their associated markdown files:
 
 0. [Example R Markdown File (ungraded)](/assignments/Lab_0.html) ([markdown](/assignments/Lab_0.Rmd))
 1. [R Basics](/assignments/Lab_1.html) ([markdown](/assignments/Lab_1.Rmd))
+
+<!--
 2. [Data Visualization](/assignments/Lab_2.html) ([markdown](/assignments/Lab_2.Rmd))
 3. [Data Wrangling](/assignments/Lab_3.html) ([markdown](/assignments/Lab_3.Rmd))
 4. [Programming Basics](/assignments/Lab_4.html) ([markdown](/assignments/Lab_4.Rmd))
@@ -33,7 +35,7 @@ This is a list of all Labs and their associated markdown files:
 8. [Introduction to text analysis](/assignments/Lab_8.html) ([markdown](/assignments/Lab_8.Rmd))
 9. [Word counts and Dictionaries](/assignments/Lab_9.html) ([markdown](/assignments/Lab_9.Rmd))
 10. [Topic Modeling](/assignments/Lab_10.html) ([markdown](/assignments/Lab_10.Rmd))
-
+-->
 
 # Dataset Description
 
@@ -50,6 +52,18 @@ Now I will describe the datasets we will use for the class. We will use a total 
 
 [Download congress.RData](https://dssoc.github.io/datasets/congress.RData)
 
+This dataset contains information about each member of congress that was in-office as of January 11, 2021 and their committee memberships. It was retrieved from the [congress-legislators repository](https://github.com/unitedstates/congress-legislators), a database "maintained through a combination of manual edits by volunteers (from GovTrack, ProPublica, MapLight, FiveThirtyEight, and others) and automated imports from a variety of sources." From this source we use the `legislators-current` and 
+
+
+You can see the January 11, 2021 
+
+that was collected by volunters from sources []()
+
+legislators-current
+
+https://github.com/unitedstates/congress-legislators/tree/5b25a97ca2d93f51a4a06dd87cdb16d4d3052c10
+
+
 You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the `load()` function to that file on your computer, but please use this line so your code is easily reproducible on any computer.
 
 ```{r}
@@ -63,6 +77,8 @@ This dataset consists of three different variables:
 + `congress_ids`: detailed lookup information for each member of congress.
 
 ### `congress` Dataframe
+
+Each row in this dataframe corresponds to a member of congress
 
 ```{r}
 congress %>% head()
