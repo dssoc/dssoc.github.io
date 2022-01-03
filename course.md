@@ -21,6 +21,7 @@ micro_nav: true
 <i>Professor of Sociology & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
+Office Hours: Wednesday 2-3:30pm (links will be posted on Slack beforehand)
 <br/>
 
 Teaching Assistant: Devin J. Cornell<br/> 
@@ -31,7 +32,7 @@ Office Hours: MW 3:30-5pm (links will be posted on Slack beforehand)
 
 ### COURSE DESCRIPTION
 
-The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the nascent inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
+The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
 
 ### COURSE GOALS
 
@@ -40,7 +41,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ### OVERVIEW OF CLASS FORMAT
 
-Due to the COVID-19 pandemic, this class will be held entirely online. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
+Due to ongoing challenges related to the COVID-19 pandemic, at least the first two weeks of our class will be held entirely online. Though we hope to return to the classroom thereafter, we will abide by all college policies related to the pandemic and will not return until instructed to do so. Fortunately, this class has been carefully designed to succeed as a fully online class, as well as an in-person class. Until we return to in class instruction, we will utilize the online class format described in the following paragraphs. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
 
 Each week, there will be two re-recorded lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
 
