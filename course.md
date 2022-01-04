@@ -192,6 +192,13 @@ computers and stable internet may request assistance in the form of loaner lapto
 <br/>
 
 **Accommodations for Remote Students** If you are unable to attend one of our group meetings, please contact me and we can discuss how to accommodate your needs during this very challenging time.
+
+**Religious Accommodations** Students are permitted by university policy to be absent from class to observe a religious holiday. Accordingly, Trinity College of Arts & Sciences and the Pratt School of Engineering have established procedures to be followed by students for notifying their instructors of an absence necessitated by the observance of a religious holiday. Please submit requests forreligious accommodations at the beginning of the semester so that we can work to make suitablearrangements well ahead of time.You can find the policy and relevant notification form here: https://trinity.duke.edu/undergraduate/academic-policies/religious-holidays.
+<br/>
+
+**Pronouns** If you would like to specify the pronoun you prefer, please do so in DukeHub.
+<br/>
+
 <br/>
 
 
