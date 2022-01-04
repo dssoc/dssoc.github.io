@@ -65,9 +65,10 @@ In this class, we will use R, a free programming language that I will teach tou 
 
 ***Slack***
 <br/>
-We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already.
+We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already. 
 
-Please download Slack to your desktop and/or phone and tablet and join [this workplace](https://join.slack.com/t/duke-0pj9423/shared_invite/zt-kldqf8h0-zkV5tfcTfQteKxyGqliC6w). You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). 
+The Slack channel invite will be sent to your email before the first day of class. You can learn more about how to get started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members). 
+
 <br/>
 
 ***Stack Overflow***
