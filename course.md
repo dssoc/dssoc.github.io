@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Spring 2021 (Online)  
+description: Duke University, Sociology 367S <br/> Spring 2022 (Online)  
 
 
 # Micro navigation
@@ -185,7 +185,7 @@ In addition to accessibility issues experienced during the typical academic year
 
 <br/>
 **Technology Accommodations** Students with demonstrated high financial need who may have limited access to
-computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2021 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_cveTE8cXSCEsozX). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).  
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2022 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_24Q2Iv1edXSwt5s). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).
 <br/>
 
 **Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.  
