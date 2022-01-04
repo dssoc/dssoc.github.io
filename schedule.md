@@ -100,8 +100,8 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>-->
-<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 11:59PM)</i></p>-->
     
 <i><b>Lab Video Lecture: R Basics</b></i> 
 
