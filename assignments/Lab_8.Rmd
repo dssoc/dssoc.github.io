@@ -7,7 +7,7 @@ output: html_document
 
 In this lab, we will practice working with text using stringr, tidytext, and tm packages. 
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 

@@ -7,7 +7,7 @@ output: html_document
 
 In this lab, we will practice working with topic modeling algorithms. We will use a dataset of wikipedia pages for each senator, and explore the ways topic modeling can help us learn about the corpus. First we will use the LDA algorithm to practice the basics of topic modeling, then we will use the structural topic modeling algorithm (see the `stm` package) to show how we can use information about each senator (age, gender, political party) in conjunction with our model. **NOTE: if you run into problems where your code takes too long to run or your computer freezes up, use the `substr` function to truncate the wikipedia page texts right after loading.**
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 
 **Required reading:** 

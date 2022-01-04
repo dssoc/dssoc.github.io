@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will be learning about APIs by working with the Twitter API. This lab requires more setup than previous labs because we need to retrieve authorization permissions.
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 

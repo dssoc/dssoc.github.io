@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will practice using the `ggplot2` library to create visualizations of our data. **Our standard for visualizations is that each plot should have axis labels, all labels must be readable to someone unfamiliar with your data (e.g. Female and Male instead of `F` and `M`, Senator and Representative instead of `rep` and `sen`), and we should easily be able to tell what your figure is showing. Failure to do this will result in point deductions.**
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 

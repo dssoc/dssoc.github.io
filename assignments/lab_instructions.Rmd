@@ -1,5 +1,5 @@
 ---
-title: "Introduction to Lab Assignments and Data Description"
+title: "Lab Instructions and Data Descriptions"
 author: "Data Science and Society (Sociology 367)"
 output: html_document
 ---

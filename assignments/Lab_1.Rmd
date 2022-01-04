@@ -11,9 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **[Lab #1 Markdown File](/assignments/Lab_1.Rmd)**
 
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
+
 In this lab we will be learning the basics of using R and working with real data.
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 
 **Required reading:** 
@@ -46,9 +48,9 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 
 
 
-**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R (?function_name) to look up the `mean` function, and describe each of its arguments and what they do in your own words.**
+**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R (?function_name) to look up the `mean` function, and describe each of its arguments and what they do in your own words. You can write comments in a code block by including a "#" character at the beginning of the line.**
 ```
-Write your answer here.
+# Write your answer here.
 ```
 <br>
 

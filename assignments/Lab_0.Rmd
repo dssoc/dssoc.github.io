@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 You can use this example lab file to make sure you can [Knit R Markdown files](https://rmarkdown.rstudio.com/authoring_quick_tour.html) in RStudio. This lab will not be graded, so don't worry about submitting it. Feel free to ask the TA if you are unsure about the submission format.
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/introduction_to_labs.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 **Required reading:** 
 
