@@ -11,6 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **[Lab #2 Markdown File](/assignments/Lab_2.Rmd)**
 
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
+
 In this lab we will practice using methods from the `tidyverse` package.
 
 See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.

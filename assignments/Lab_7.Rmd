@@ -5,6 +5,10 @@ date: ""
 output: html_document
 ---
 
+**[Lab #7 Markdown File](/assignments/Lab_7.Rmd)**
+
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
+
 In this lab, we will practice making and visualizing statistical models of data using R.
 
 See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.

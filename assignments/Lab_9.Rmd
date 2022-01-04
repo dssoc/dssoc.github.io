@@ -5,6 +5,10 @@ date: ""
 output: html_document
 ---
 
+**[Lab #9 Markdown File](/assignments/Lab_9.Rmd)**
+
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
+
 In this lab, we will practice working with dictionary-based methods for text analysis.
 
 See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
