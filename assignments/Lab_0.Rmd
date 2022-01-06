@@ -46,9 +46,10 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 <br>
 
 **1. List the names of each column in the `congress` dataset we loaded above.**
-```
+```{r}
 colnames(congress)
 ```
+
 <br>
 
 **That's it for this example lab! Most labs are about 10 problems long.**
