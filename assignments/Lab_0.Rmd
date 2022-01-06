@@ -1,5 +1,5 @@
 ---
-title: "Lab #0: Example R Markdown File"
+title: "Lab #0: Example Lab"
 author: "Data Science and Society (Sociology 367)"
 date: ""
 output: html_document
@@ -50,3 +50,5 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 colnames(congress)
 ```
 <br>
+
+**That's it for this example lab! Most labs are about 10 problems long.**
