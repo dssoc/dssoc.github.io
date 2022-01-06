@@ -106,7 +106,7 @@ Please Submit all homework assignments to our TA (Devin Cornell) via direct mess
 <br/>
 Every other week, you will be required to meet with Dr. Bail for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. _You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting_
 
-To sign up for a weekly meeting time, please put your name in [this Google sheet](https://docs.google.com/spreadsheets/d/1WaV7LTsrWaL9NyX0MLJUwhyzX2XkiLLHwSER2pWhHYE/edit?usp=sharing)
+To sign up for a weekly meeting time, please put your name in [this Google sheet](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
 
 
 ***Final Project***
