@@ -9,7 +9,9 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-**[Lab #0 Markdown File](/assignments/Lab_0_example_markdown.Rmd)**
+**[Lab #0 Markdown File](/assignments/Lab_0.Rmd)**
+
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
 
 You can use this example lab file to make sure you can [Knit R Markdown files](https://rmarkdown.rstudio.com/authoring_quick_tour.html) in RStudio. This lab will not be graded, so don't worry about submitting it. Feel free to ask the TA if you are unsure about the submission format.
 
@@ -17,7 +19,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
-Any required readings for the labss will be listed here.
+Any required readings for the labs will be listed here.
 
 **Optional resources:**
 
