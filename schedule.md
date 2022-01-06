@@ -27,7 +27,7 @@ Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspac
 ## 2 - Introduction and Ethics A
 <b><i><font color="#E84E4E">January 10-15</font></i></b>
 
-Regular MW class meetings.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 
@@ -76,9 +76,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 17-22</font></i></b>
 
-Monday, Jan 17: MLK Day - no meetings
+Wednesday: small-group discussions with classmates via Zoom.
 
-Saturday, Jan 22: Lab #1 homework due.
+First Lab homework due!
 
 #### Ethics in Computational Social Science
 
@@ -132,7 +132,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 24-29</font></i></b>
 
-Regular MW class and Lab assignment due.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 #### Do our Platforms Push us Apart?
 
@@ -186,15 +186,14 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 31 - February 5</font></i></b>
 
-Regular MW class and Lab assignment due.
+Wednesday: small-group discussions with classmates via Zoom.
 
-<!--
 We will discuss the following questions:
 
 1. A major limitation of the study we read this week is that it only examined Twitter users-- do you think exposing people to opposing views on Facebook, Instagram, TikTok or other platforms would have a similar effect? Why or Why not? 
 2. The study found that Republicans tend to double-down in their pre-existing views when they are exposed to opposing views more strongly than Democrats - develop some hypotheses about why this might have happened; 
 3. The accounts retweeted by the bots in the study retweeted high profile "opinion leaders" (e.g. elected officials, journalists, etc). Do you think the effects would have been different if they had retweeted non-elite partisans instead?
--->
+
 #### Should we Break our Echo Chambers?
 
 <iframe width="560" height="315"
@@ -264,7 +263,8 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">February 7-12</font></i></b>
 
-Regular MW class and Lab assignment due.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+
 
 #### The Hidden Influence of Social Networks
 
@@ -332,7 +332,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 7 - Getting a Job
 <b><i><font color="#E84E4E">February 14-19</font></i></b>
 
-Regular MW class and Lab assignment due.
+Wednesday: small-group discussions with classmates via Zoom.
 
 #### How to find a job (and Succeed Once you Get One)
 
@@ -394,7 +394,7 @@ Katya Ognyanova</a></li>
 ## 8 - Surveillance and Privacy
 <b><i><font color="#E84E4E">February 21-26</font></i></b>
 
-Regular MW class and Lab assignment due.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -445,18 +445,18 @@ allowfullscreen></iframe>
 ## 9 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">February 28 - March 4</font></i></b>
 
-Regular MW class and Lab assignment due.
+Wednesday: small-group discussions with classmates via Zoom.
 
-Spring Break starts on the evening of March 4, but we will give you until Saturday, March 5 to submit the Lab in case you need more time.
 
-<!--
 We will discuss the following questions:
 
 1. Have you, personally, ever experienced an algorithm recommend something to you that you think might create social inequality? If so, tell the rest of your group about it.
 2. In this class, we always encourage you to evaluate issues with evidence or data. Can you think of a way to design a study that could measure whether algorithms create social inequality?
 3. Google, Facebook, and many other large companies have created large teams specifically dedicated to creating fairness in Artificial Intelligence. Do you think it's possible for people on those teams to independently audit or evaluate social inequality without some type of bias?
 
--->
+
+
+**Note**: Spring Break starts on the evening of March 4, but we will give you until Saturday, March 5 to submit the Lab in case you need more time.
 
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
@@ -517,7 +517,8 @@ No class. Enjoy your break!
 ## 11 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
-Regular MW class and Lab assignment due.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+
 
 #### Using Google Search to Track Radicalization
 
@@ -580,9 +581,7 @@ allowfullscreen></iframe>
 ## 12 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
-Regular MW class and Lab assignment due.
-
-<!--
+Wednesday: small-group discussions with classmates via Zoom.
 
 Discussion questions for this week:
 
@@ -590,7 +589,6 @@ Discussion questions for this week:
 2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
 3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
 
--->
 
 #### Did Russia's Social Media Campaign Succeed?
 
@@ -646,7 +644,7 @@ allowfullscreen></iframe>
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
-Regular MW class and Lab assignment due.
+Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 
 #### Online Social Change (Zeynep Tufekci)
