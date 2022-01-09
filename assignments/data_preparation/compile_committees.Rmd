@@ -13,15 +13,18 @@ library(dplyr)
 ```{r}
 fname <- 'committees.xlsx'
 committees <- read_excel(fname, sheet='committees') %>% 
-  select(thomas_id, name, type, jurisdiction, house_committee_id, senate_committee_id)
+  select(thomas_id, name, type, jurisdiction) %>% 
+  mutate(type=as.factor(type))
 
 subcommittees <- read_excel(fname, sheet='subcommittees') %>% 
   #rename(c('sub_thomas_id'='thomas_id')) %>% 
   mutate(thomas_id=paste0(committee_thomas_id, thomas_id)) %>% 
-  select(thomas_id, name)
+  select(thomas_id, committee_thomas_id, name)
 
 committee_memberships <- read_excel(fname, sheet='committee_memberships', col_types='text') %>% 
-  select(committee, name, bioguide, party, rank, title)
+  rename(c("thomas_id"="committee", "bioguide_id"="bioguide")) %>% 
+  mutate(party=as.factor(party), rank=as.integer(rank)) %>% 
+  select(thomas_id, bioguide_id, party, rank, title)
 ```
 
 ```{r}
@@ -31,7 +34,7 @@ committee_memberships %>% head()
 ```
 
 ```{r}
-save(committees, subcommittees, committee_memberships, file='congress_committees.RData')
+save(committees, subcommittees, committee_memberships, file='../../datasets/committees.RData')
 #committees %>% head()
 #subcommittees %>% head()
 #committee_memberships %>% head()

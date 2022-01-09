@@ -1,0 +1,40 @@
+---
+title: "compile_congress.Rmd"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(dplyr)
+library(lubridate)
+```
+
+Load the `legislators-current.csv` file from the [congress-legislators](https://github.com/unitedstates/congress-legislators) project.
+
+```{r}
+legislators_current <- read.csv('legislators-current.csv')
+legislators_current %>% colnames()
+legislators_current %>% head()
+```
+
+Select the proper 
+```{r}
+congress <- legislators_current %>% 
+  mutate(birthdate=ymd(birthday)) %>% 
+  select(bioguide_id, full_name, type, party, state, birthdate, gender) %>% 
+  mutate(type=as.factor(type), party=as.factor(party), gender=as.factor(gender)) %>% 
+  mutate(birthyear=year(birthdate))
+
+congress_contact <- legislators_current %>% 
+  select(bioguide_id, phone, twitter, facebook, youtube, youtube_id, wikipedia_id)
+
+congress_sm %>% head()
+congress %>% head()
+```
+
+Now save the data.
+
+```{r}
+save(congress, congress_contact, file='../../datasets/congress.RData')
+```
+
