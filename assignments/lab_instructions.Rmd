@@ -73,14 +73,16 @@ This dataset consists of two different variables:
 Each row in this dataframe corresponds to a member of congress. type, party, and gender are factor variables and birthdate is a parsed date column.
 
 ```{r}
+congress %>% summary()
 congress %>% head()
 ```
 
-### `congress_ids` Dataframe
+### `congress_contact` Dataframe
 
 This datafrme includes contact information for each member of congress.
 
 ```{r}
+congress_contact %>% summary()
 congress_contact %>% head()
 ```
 
@@ -101,12 +103,14 @@ This dataset was obtained from the `committees-current` and `committee-membershi
 ### committees
 
 ```{r}
+committees %>% summary()
 committees %>% head()
 ```
 
 ### `subcommittees`
 
 ```{r}
+subcommittees %>% summary()
 subcommittees %>% head()
 ```
 
@@ -116,6 +120,7 @@ This dataframe is a little trickier to work with than the other two because it l
 
 The columns are fairly straightforward. `thomas_id` is a unique reference to the committee or subcommittee, and `bioguide_id` is a reference to the member of congress. `party`, `rank`, and `title` give more information about the particular kinds of relationship.
 ```{r}
+committee_memberships %>% summary()
 committee_memberships %>% head()
 ```
 
@@ -149,10 +154,12 @@ I manually collected this dataset using `rtweet`. It includes two variables:
 + `senator_tweets`: example tweets from senators.
 
 ```{r}
+senator_tweet_ids %>% summary()
 senator_tweet_ids %>% head()
 ```
 
 ```{r}
+senator_tweets %>% summary()
 senator_tweets %>% head()
 ```
 
