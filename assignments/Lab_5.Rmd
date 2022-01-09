@@ -56,6 +56,7 @@ nodes:
 edges: 
 vertices:
 links: 
+ties: 
 edge list: 
 adjacency matrix: 
 directed network: 
@@ -74,27 +75,28 @@ bipartite network:
 ```
 <br/>
 
-**3. For the following problems, we will be working with the `committees` dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
+**3. For some of the following problems, we will be working with the `committee_memberships` dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
 ```
 # Yor answer here or in text.
 ```
 <br/>
 
-**4. Create a network representing links between the five largest senate committees and the senators (not representatives) that compose them, and create a basic ggraph visualization to show this network. This will require you to use the data wrangling skills we've learned in the previous labs with some igraph functions. What do you see? Can we learn anything about congressional committees from this network?**
+**4. Create a directed network connecting subcommittees to their parent committees and create a basic ggraph visualization to show this network using `layout = 'dendrogram'`. This particular visualization should not include committee names. What can you tell from the plot, if anything?**
 
-Hint: you will need to join congress and committee data in order to identify commitees with senate members (all committees are composed of either house or senate members - never both).
+HINT: you should only need to use the `subcommittees` dataframe for this problem.
 ```{r}
 # Your answer here
 ```
 ```
-Written answer here.
+Your written responses here.
 ```
-<br/>
 
+**5. Create a bipartite network representing links between members of congress and the subcommittees they are associated with. Keep this graph for future problems.**
 
-**5. Create a new bipartite network from `committees` that includes all committees and members of congress. Then create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
+HINT: you can create a bipartite network by assigning a value to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function. You will have problems later on if your graph is not bipartite.
 
-Hint: you can create a bipartite network by assigning a value to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function.
+HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships.
+
 ```{r}
 # Your answer here.
 ```
@@ -103,15 +105,20 @@ written answer here
 ```
 <br/>
 
+**6. Create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
+```{r}
+# Your answer here
+```
 
-**6. Starting with our bipartite network, we want to compute a network representing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the politican network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
+
+**7. Starting with our bipartite network, we want to compute a network capturing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the congress member network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**7. Make a visual of of the senator co-membership network where the node colors are based on the gender of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight <= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.**
+**8. Make a visual of of the congress co-membership network where the node colors are based on the political party of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight <= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.**
 
 Hint: see some available layouts [here](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/).
 
@@ -124,7 +131,7 @@ describe strengths and weaknesses here.
 ```
 <br/>
 
-**8. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between strength and all the others. Why are some of the correlations negative?**
+**9. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between strength and all the others. Why are some of the correlations negative?**
 
 Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
@@ -136,7 +143,7 @@ written explanation here
 <br/>
 
 
-**9. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
+**10. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
 ```{r}
 # your answer here
 ```
@@ -145,7 +152,7 @@ written explanation here
 ```
 <br/>
 
-**10. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
+**11. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
 ```{r}
 # your answer here
 ```
@@ -154,7 +161,7 @@ written explanation here
 ```
 <br/>
 
-**11. In last week's lab excerice, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
+**12. In last week's lab excerice, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
 
 **What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
 ```

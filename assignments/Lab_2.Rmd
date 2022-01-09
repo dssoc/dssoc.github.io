@@ -53,18 +53,22 @@ mutate:
 count: 
 arrange: 
 gather: 
+pivot_longer: 
 pipe operator ("%>%"): 
 ```
 <br/>
 
-**2. Create a new dataframe that includes only senators and the columns `gender`, `birthyear`, and `party`. Then use that new dataframe to compute the number of male and female democrats and republicans (the output should be five rows corresponding to female democrats, male democrats, male independents, female republicans, and male republicans).**
+**2. How many male and female members are representatives and senators? Your output should appear as a single dataframe with four rows corresponding to female representatives, female senators, male representatives, and male senators.**
+
+NOTE: you can identify representators by `type=="rep"` and senators using `type=="sen"`.
 
 ```{r}
 # your answer here
 ```
 <br/>
 
-**3. Identify the oldest and youngest male and female democrat senators using only R code.**
+**3. Identify the oldest and youngest female senator democrats using only R code.**
+
 ```{r}
 # your answer here
 ```
@@ -72,7 +76,7 @@ pipe operator ("%>%"):
 
 **4. Using `mutate`, create a new variable called `age` which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?**
 
-Note: you can approximate age using the formula `age = 2021-birthyear`.
+Note: you can approximate age using the formula `age = 2022-birthyear`.
 ```{r}
 # your answer here
 ```
@@ -87,11 +91,10 @@ Note: the dataframe should have four rows: number of females over 55, number of 
 <br/>
 
 
-**6. Using `gather`, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with `pivot_longer`.**
+**6. For this problem, use the `congress_contact` dataframe that includes the contact information for each member of congress. Using `gather`, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account username, then compute the total number of valid accounts for each political party. Then accomplish the same task using `pivot_longer`.**
 
-Note: not every congress member has an account on all three platform, so be sure to filter.
+NOTE: the account name will be empty in cases where the member of congress does not have a valid user account.
 
-Note: you may need to look up the documentation for `pivot_longer`.
 ```{r}
 # your answer here
 ```

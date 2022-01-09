@@ -15,7 +15,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 In this lab we will be learning the basics of using R and working with real data.
 
-See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+See the "Instructions" section of the [Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
 
 
 **Required reading:** 
@@ -48,23 +48,29 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 
 
 
-**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R (?function_name) to look up the `mean` function, and describe each of its arguments and what they do in your own words. You can write comments in a code block by including a "#" character at the beginning of the line.**
-```
+**1. Use the [documentation website](https://www.rdocumentation.org/) or the helper functions in R (`?function_name`) to look up the `mean` function, and describe each of its arguments and what they do in your own words. Write your answer in the code block below as a comment.**
+
+NOTE: You can write comments in a code block by including a "#" character at the beginning of the line.
+```{r}
 # Write your answer here.
 ```
 <br>
 
 
 **2. Extract the third element of the vector using numerical indexing.**
+
+NOTE: the first element index starts with 1 in R.
 ```{r}
-random_vector <- c("R","is","great")
+my_vector <- c("R","is","great")
 # your code here
 ```
 <br>
 
-**3. Use R code to identify the data type of `some_vector`. What is the largest number in this vector? How about the mean value? Your results should be generated from the R code - please do not write the numbers into R manually.**
+**3. This question has several parts: (a) Use R code to identify the data type of `some_vector`. (b) What is the largest number in this vector? (c) How about the mean value? (d) Does this vector include the number `54324222`? Your results should be generated from the R code - please do not write the numbers into R manually.**
 
-Hint: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
+HINT: you'll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.
+
+HINT: check out the `%in%` operator.
 ```{r}
 some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
@@ -74,7 +80,7 @@ some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,123123
 <br>
 
 
-**4. Use the `congress` dataframe for the remainder of questions in this assignment. How many rows and columns does the `congress` dataframe have? Use a function to show its data type. You must use R code to generate these values.**
+**4. Use the `congress` dataframe for the remainder of questions in this assignment. (a) How many rows and columns does the `congress` dataframe have? (b) Use a function to show its data type. You must use R code to generate these values.**
 
 ```{r}
 # your code here
@@ -82,27 +88,24 @@ some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,123123
 <br>
 
 
-**5. What is the average age of all congress members? What is the data type of the `birthyear` column?**
+**5. Using the browse features of R or RStudio, write the ages of Sherrod Brown (a member of congress) and Dianne Feinstein.**
 
-```{r eval=FALSE}
+```
+Your written response here.
+Sherrod Brown: 
+Dianne Feinstein: 
+```
+<br>
+
+
+**6. What is the average birthyear of congress members? What is the data type of the `birthyear` column?**
+
+```{r}
 # your code here
 ```
 <br>
 
-
-**6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?**
-
-Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.
-
-```{r, eval=FALSE}
-# your code here
+**7. What are your learning goals for this semester? Not a trick question ;)**
 ```
-<br>
-
-**7. Who are the oldest members of congress?**
-
-Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.
+your written response here
 ```
-Your written answer here
-```
-<br>

@@ -173,7 +173,7 @@ pre code {
 <p><strong><a href="/assignments/Lab_1.Rmd">Lab #1 Markdown File</a></strong></p>
 <p><strong><a href="https://dssoc.github.io/assignments/lab_instructions.html">Lab Instructions</a></strong></p>
 <p>In this lab we will be learning the basics of using R and working with real data.</p>
-<p>See the “Instructions” section of the <a href="https://dssoc.github.io/assignments/lab_instructions.html">Introduction to Lab Assignments</a> page for more information about the labs. That page also gives descriptions for the datasets we will be using.</p>
+<p>See the “Instructions” section of the <a href="https://dssoc.github.io/assignments/lab_instructions.html">Lab Instructions</a> page for more information about the labs. That page also gives descriptions for the datasets we will be using.</p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li><a href="https://r4ds.had.co.nz/workflow-basics.html">R for Data Science Chapter 4: Workflow basics</a></li>
@@ -187,34 +187,36 @@ pre code {
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>
-<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R (?function_name) to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words. You can write comments in a code block by including a “#” character at the beginning of the line.</strong></p>
-<pre><code># Write your answer here.</code></pre>
+<p><strong>1. Use the <a href="https://www.rdocumentation.org/">documentation website</a> or the helper functions in R (<code>?function_name</code>) to look up the <code>mean</code> function, and describe each of its arguments and what they do in your own words. Write your answer in the code block below as a comment.</strong></p>
+<p>NOTE: You can write comments in a code block by including a “#” character at the beginning of the line.</p>
+<pre class="r"><code># Write your answer here.</code></pre>
 <p><br></p>
 <p><strong>2. Extract the third element of the vector using numerical indexing.</strong></p>
-<pre class="r"><code>random_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
+<p>NOTE: the first element index starts with 1 in R.</p>
+<pre class="r"><code>my_vector &lt;- c(&quot;R&quot;,&quot;is&quot;,&quot;great&quot;)
 # your code here</code></pre>
 <p><br></p>
-<p><strong>3. Use R code to identify the data type of <code>some_vector</code>. What is the largest number in this vector? How about the mean value? Your results should be generated from the R code - please do not write the numbers into R manually.</strong></p>
-<p>Hint: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
+<p><strong>3. This question has several parts: (a) Use R code to identify the data type of <code>some_vector</code>. (b) What is the largest number in this vector? (c) How about the mean value? (d) Does this vector include the number <code>54324222</code>? Your results should be generated from the R code - please do not write the numbers into R manually.</strong></p>
+<p>HINT: you’ll have to research some new functions in r to do this- try Google or one of the tutorials linked on the syllabus.</p>
+<p>HINT: check out the <code>%in%</code> operator.</p>
 <pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
 # your code here</code></pre>
 <p><br></p>
-<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. How many rows and columns does the <code>congress</code> dataframe have? Use a function to show its data type. You must use R code to generate these values.</strong></p>
+<p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. (a) How many rows and columns does the <code>congress</code> dataframe have? (b) Use a function to show its data type. You must use R code to generate these values.</strong></p>
 <pre class="r"><code># your code here</code></pre>
 <p><br></p>
-<p><strong>5. What is the average age of all congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
+<p><strong>5. Using the browse features of R or RStudio, write the ages of Sherrod Brown (a member of congress) and Dianne Feinstein.</strong></p>
+<pre><code>Your written response here.
+Sherrod Brown: 
+Dianne Feinstein: </code></pre>
+<p><br></p>
+<p><strong>6. What is the average birthyear of congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
 <pre class="r"><code># your code here</code></pre>
 <p><br></p>
-<p><strong>6. How much older is Sherrod Brown (a member of congress) compared to the average of members of congress? How about Dianne Feinstein?</strong></p>
-<p>Note: you are allowed to use hard-coded numerical subscripts for this problem. For future labs, you will not be allowed to do this.</p>
-<pre class="r"><code># your code here</code></pre>
-<p><br></p>
-<p><strong>7. Who are the oldest members of congress?</strong></p>
-<p>Note: you may use the browsing features of RStudio to identify the oldest members of congress. In the future, you will not be allowed to do this.</p>
-<pre><code>Your written answer here</code></pre>
-<p><br></p>
+<p><strong>7. What are your learning goals for this semester? Not a trick question ;)</strong></p>
+<pre><code>your written response here</code></pre>
 </div>
 
 

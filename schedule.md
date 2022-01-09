@@ -100,8 +100,8 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>-->
-<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 11:59PM)</i></p>-->
     
 <i><b>Lab Video Lecture: R Basics</b></i> 
 
@@ -153,8 +153,8 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i></p>-->
-<p><i><b>Lab #2: Data Wrangling</b> (Due on Jan 29 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #2: Data Wrangling</b> (Due on Jan 29 by 11:59PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data "Wrangling"</b></i> 
 
@@ -214,8 +214,8 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i></p>-->
-<p><i><b>Lab #3: Data Visualization</b> (Due on Feb 5 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #3: Data Visualization</b> (Due on Feb 5 by 11:59PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data Visualization</b></i> 
 
@@ -284,8 +284,8 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i></p>-->
-<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 12 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 12 by 11:59PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Programming</b></i> 
 
@@ -353,8 +353,8 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i></p>-->
-<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 19 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 19 by 11:59PM)</i></p>-->
 
 
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 

@@ -197,25 +197,26 @@ mutate:
 count: 
 arrange: 
 gather: 
+pivot_longer: 
 pipe operator (&quot;%&gt;%&quot;): </code></pre>
 <p><br /></p>
-<p><strong>2. Create a new dataframe that includes only senators and the columns <code>gender</code>, <code>birthyear</code>, and <code>party</code>. Then use that new dataframe to compute the number of male and female democrats and republicans (the output should be five rows corresponding to female democrats, male democrats, male independents, female republicans, and male republicans).</strong></p>
+<p><strong>2. How many male and female members are representatives and senators? Your output should appear as a single dataframe with four rows corresponding to female representatives, female senators, male representatives, and male senators.</strong></p>
+<p>NOTE: you can identify representators by <code>type==&quot;rep&quot;</code> and senators using <code>type==&quot;sen&quot;</code>.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Identify the oldest and youngest male and female democrat senators using only R code.</strong></p>
+<p><strong>3. Identify the oldest and youngest female senator democrats using only R code.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
-<p>Note: you can approximate age using the formula <code>age = 2021-birthyear</code>.</p>
+<p>Note: you can approximate age using the formula <code>age = 2022-birthyear</code>.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.</strong></p>
 <p>Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females under 55, number of males under 55.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account, then compute the total number of accounts for each political party. Then do the same with <code>pivot_longer</code>.</strong></p>
-<p>Note: not every congress member has an account on all three platform, so be sure to filter.</p>
-<p>Note: you may need to look up the documentation for <code>pivot_longer</code>.</p>
+<p><strong>6. For this problem, use the <code>congress_contact</code> dataframe that includes the contact information for each member of congress. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account username, then compute the total number of valid accounts for each political party. Then accomplish the same task using <code>pivot_longer</code>.</strong></p>
+<p>NOTE: the account name will be empty in cases where the member of congress does not have a valid user account.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
