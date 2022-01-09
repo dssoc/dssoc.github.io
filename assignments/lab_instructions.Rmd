@@ -41,7 +41,7 @@ This is a list of all Labs and their associated markdown files:
 10. [Topic Modeling](/assignments/Lab_10.html) ([markdown](/assignments/Lab_10.Rmd))
 -->
 
-# Dataset Description (DRAFT)
+# Dataset Description
 
 Now I will describe the datasets we will use for the class. We will use a total of three different [RData files](https://bookdown.org/ndphillips/YaRrr/rdata-files.html):
 
