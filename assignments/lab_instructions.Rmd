@@ -154,15 +154,9 @@ I manually collected this dataset using `rtweet`. It includes two variables:
 + `senator_tweets`: example tweets from senators.
 
 ```{r}
-senator_tweet_ids %>% summary()
-senator_tweet_ids %>% head()
+#senator_tweet_ids %>% summary()
+#senator_tweet_ids %>% head()
 ```
-
-```{r}
-senator_tweets %>% summary()
-senator_tweets %>% head()
-```
-
 
 
 ## The `congress_wiki.RData` Dataset
@@ -174,6 +168,6 @@ TODO: I will explain this later.
 Use this code to load the dataset:
 
 ```{r}
-load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
+#load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
 ```
 
