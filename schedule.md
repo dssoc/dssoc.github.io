@@ -81,6 +81,13 @@ Wednesday: small-group discussions with classmates via Zoom. See [group assignme
 
 First Lab homework due!
 
+We will discuss the following questions:
+
+1. Should researchers always be required to get the consent of the people they study?
+2. Is there ever a point where the scientific value of research should trump ethical concerns?
+3. Are the old ethical guidelines that Matt Salganik discusses in his book "Bit by bit" sufficient, or do we need new ones for the post-COVID era?
+
+
 #### Ethics in Computational Social Science
 
 <iframe width="560" height="315"
