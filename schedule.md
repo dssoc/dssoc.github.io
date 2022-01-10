@@ -344,6 +344,12 @@ For these excercises, you will need the following datasets:<br/>
 Monday: No meetings.
 Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
 
+We will discuss the following questions:
+
+1. How did you find your last job?
+2. do you know anyone who’s gotten their job from a weak tie?
+3. How could social network analysis help you find a job?
+
 #### How to find a job (and Succeed Once you Get One)
 
 <iframe width="560" height="315"
