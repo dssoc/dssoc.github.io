@@ -6,7 +6,7 @@ if __name__ == '__main__':
     n_groups = 5
     workshop_dates = ['January 19', 'February 2', 'February 16', 'March 2', 'March 23']
     
-    csv_fname = 'Class Roster - 2022 Spring Term - SOCIOL 367S (2968) (1).csv'
+    csv_fname = 'Class Roster - 2022 Spring Term - SOCIOL 367S (2968)_3.csv'
     roster = list(pd.read_csv(csv_fname, index_col=False)['Name'].dropna())
     print(f'{len(roster)} Students assigned to {n_groups} groups on {len(workshop_dates)} days.')
     
