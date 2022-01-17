@@ -27,7 +27,7 @@ Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspac
 ## 2 - Introduction and Ethics A
 <b><i><font color="#E84E4E">January 10-15</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 
@@ -76,12 +76,13 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 17-22</font></i></b>
 
-Monday: No meetings.
-Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday**: No meetings.
 
-First Lab homework due!
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
 
-We will discuss the following questions:
+**Saturday**: Lab due by 11:59PM
+
+Group discussion questions for this week:
 
 1. Should researchers always be required to get the consent of the people they study?
 2. Is there ever a point where the scientific value of research should trump ethical concerns?
@@ -140,7 +141,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 24-29</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+
+**Saturday**: Lab due by 11:59PM
 
 #### Do our Platforms Push us Apart?
 
@@ -194,10 +197,13 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 31 - February 5</font></i></b>
 
-Monday: No meetings.
-Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday**: No meetings.
 
-We will discuss the following questions:
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+
+**Saturday**: Lab due by 11:59PM
+
+Group discussion questions for this week:
 
 1. A major limitation of the study we read this week is that it only examined Twitter users-- do you think exposing people to opposing views on Facebook, Instagram, TikTok or other platforms would have a similar effect? Why or Why not? 
 2. The study found that Republicans tend to double-down in their pre-existing views when they are exposed to opposing views more strongly than Democrats - develop some hypotheses about why this might have happened; 
@@ -272,8 +278,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">February 7-12</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
+**Saturday**: Lab due by 11:59PM
 
 #### The Hidden Influence of Social Networks
 
@@ -341,10 +348,13 @@ For these excercises, you will need the following datasets:<br/>
 ## 7 - Getting a Job
 <b><i><font color="#E84E4E">February 14-19</font></i></b>
 
-Monday: No meetings.
-Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday**: No meetings.
 
-We will discuss the following questions:
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+
+**Saturday**: Lab due by 11:59PM
+
+Group discussion questions for this week:
 
 1. How did you find your last job?
 2. do you know anyone who’s gotten their job from a weak tie?
@@ -410,7 +420,9 @@ Katya Ognyanova</a></li>
 ## 8 - Surveillance and Privacy
 <b><i><font color="#E84E4E">February 21-26</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+
+**Saturday**: Lab due by 11:59PM
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -461,11 +473,13 @@ allowfullscreen></iframe>
 ## 9 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">February 28 - March 4</font></i></b>
 
-Monday: No meetings.
-Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday**: No meetings.
 
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
 
-We will discuss the following questions:
+**Saturday**: Lab due by 11:59PM
+
+Group discussion questions for this week:
 
 1. Have you, personally, ever experienced an algorithm recommend something to you that you think might create social inequality? If so, tell the rest of your group about it.
 2. In this class, we always encourage you to evaluate issues with evidence or data. Can you think of a way to design a study that could measure whether algorithms create social inequality?
@@ -534,8 +548,9 @@ No class. Enjoy your break!
 ## 11 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
+**Saturday**: Lab due by 11:59PM
 
 #### Using Google Search to Track Radicalization
 
@@ -598,8 +613,11 @@ allowfullscreen></iframe>
 ## 12 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
-Monday: No meetings.
-Wednesday: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+
+**Saturday**: Lab due by 11:59PM
 
 Discussion questions for this week:
 
@@ -662,8 +680,9 @@ allowfullscreen></iframe>
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
-Individual meetings with Dr. Bail this week. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
+**Saturday**: Lab due by 11:59PM
 
 #### Online Social Change (Zeynep Tufekci)
 
