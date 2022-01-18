@@ -141,7 +141,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 24-29</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -278,7 +280,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">February 7-12</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -420,7 +424,9 @@ Katya Ognyanova</a></li>
 ## 8 - Surveillance and Privacy
 <b><i><font color="#E84E4E">February 21-26</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -548,7 +554,9 @@ No class. Enjoy your break!
 ## 11 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -680,7 +688,9 @@ allowfullscreen></iframe>
 ## 13 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Saturday**: Lab due by 11:59PM
 
