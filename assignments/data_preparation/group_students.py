@@ -14,7 +14,10 @@ if __name__ == '__main__':
         print(f'{"="*15} WORKSHOP {date} {"="*15}\n')
         groups = [[] for _ in range(n_groups)] # list of lists
 
-        for i, student in enumerate(roster):
+        randomized_roster = list(roster)
+        random.shuffle(randomized_roster)
+        
+        for i, student in enumerate(randomized_roster):
             # parse name of student
             l,f = student.split(',')
             groups[i % n_groups].append(f'{f} {l}'.strip())
@@ -26,6 +29,7 @@ if __name__ == '__main__':
             print('\t' + f'{"-"*5} Group {i+1} {"-"*5}')
             for name in group:
                 print(f'\t{name}')
+            print()
         
         print('\n')
         

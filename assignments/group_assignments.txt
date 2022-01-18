@@ -2,135 +2,160 @@
 =============== WORKSHOP January 19 ===============
 
 	----- Group 1 -----
-	Maya Alexander
-	Selina Chu
-	Brian Li
-	Siying Song
-	----- Group 2 -----
-	Peter Alfonsi
-	Will Hanna
 	Kevin Li
-	Dani Trejo
+	Siying Song
+	Devon Sinha
+	Peter Alfonsi
+
+	----- Group 2 -----
+	Joey Lane
+	Brian Li
+	Will Hanna
+	Sophie Sanda
+
 	----- Group 3 -----
-	Edwin Barnes
+	Maya Alexander
+	Ryan Champaigne
 	Ashil Jhaveri
 	Ellie Roza
-	Eleanore van Marwijk Kooy
+
 	----- Group 4 -----
-	Ryan Champaigne
+	Dani Trejo
+	Selina Chu
 	Gracie Johnson
-	Sophie Sanda
+
 	----- Group 5 -----
+	Edwin Barnes
+	Eleanore van Marwijk Kooy
 	Joe Choo
-	Joey Lane
-	Devon Sinha
+
 
 
 =============== WORKSHOP February 2 ===============
 
 	----- Group 1 -----
 	Maya Alexander
-	Selina Chu
-	Brian Li
-	Siying Song
-	----- Group 2 -----
-	Peter Alfonsi
-	Will Hanna
-	Kevin Li
-	Dani Trejo
-	----- Group 3 -----
-	Edwin Barnes
-	Ashil Jhaveri
-	Ellie Roza
-	Eleanore van Marwijk Kooy
-	----- Group 4 -----
 	Ryan Champaigne
-	Gracie Johnson
-	Sophie Sanda
-	----- Group 5 -----
-	Joe Choo
+	Selina Chu
 	Joey Lane
+
+	----- Group 2 -----
+	Sophie Sanda
+	Edwin Barnes
+	Brian Li
+	Joe Choo
+
+	----- Group 3 -----
+	Dani Trejo
+	Ellie Roza
 	Devon Sinha
+	Eleanore van Marwijk Kooy
+
+	----- Group 4 -----
+	Siying Song
+	Gracie Johnson
+	Kevin Li
+
+	----- Group 5 -----
+	Will Hanna
+	Ashil Jhaveri
+	Peter Alfonsi
+
 
 
 =============== WORKSHOP February 16 ===============
 
 	----- Group 1 -----
-	Maya Alexander
-	Selina Chu
-	Brian Li
-	Siying Song
-	----- Group 2 -----
-	Peter Alfonsi
-	Will Hanna
-	Kevin Li
-	Dani Trejo
-	----- Group 3 -----
-	Edwin Barnes
-	Ashil Jhaveri
-	Ellie Roza
-	Eleanore van Marwijk Kooy
-	----- Group 4 -----
-	Ryan Champaigne
-	Gracie Johnson
-	Sophie Sanda
-	----- Group 5 -----
 	Joe Choo
+	Edwin Barnes
+	Peter Alfonsi
+	Gracie Johnson
+
+	----- Group 2 -----
+	Sophie Sanda
 	Joey Lane
+	Eleanore van Marwijk Kooy
+	Dani Trejo
+
+	----- Group 3 -----
+	Ryan Champaigne
+	Ashil Jhaveri
+	Siying Song
 	Devon Sinha
+
+	----- Group 4 -----
+	Selina Chu
+	Kevin Li
+	Ellie Roza
+
+	----- Group 5 -----
+	Brian Li
+	Will Hanna
+	Maya Alexander
+
 
 
 =============== WORKSHOP March 2 ===============
 
 	----- Group 1 -----
-	Maya Alexander
-	Selina Chu
-	Brian Li
-	Siying Song
-	----- Group 2 -----
-	Peter Alfonsi
-	Will Hanna
-	Kevin Li
-	Dani Trejo
-	----- Group 3 -----
-	Edwin Barnes
-	Ashil Jhaveri
-	Ellie Roza
 	Eleanore van Marwijk Kooy
-	----- Group 4 -----
 	Ryan Champaigne
-	Gracie Johnson
-	Sophie Sanda
-	----- Group 5 -----
+	Siying Song
+	Dani Trejo
+
+	----- Group 2 -----
+	Kevin Li
 	Joe Choo
-	Joey Lane
+	Gracie Johnson
+	Ashil Jhaveri
+
+	----- Group 3 -----
+	Brian Li
+	Selina Chu
 	Devon Sinha
+	Will Hanna
+
+	----- Group 4 -----
+	Sophie Sanda
+	Joey Lane
+	Edwin Barnes
+
+	----- Group 5 -----
+	Maya Alexander
+	Peter Alfonsi
+	Ellie Roza
+
 
 
 =============== WORKSHOP March 23 ===============
 
 	----- Group 1 -----
-	Maya Alexander
 	Selina Chu
-	Brian Li
-	Siying Song
-	----- Group 2 -----
-	Peter Alfonsi
-	Will Hanna
-	Kevin Li
 	Dani Trejo
-	----- Group 3 -----
+	Joe Choo
+	Will Hanna
+
+	----- Group 2 -----
+	Eleanore van Marwijk Kooy
 	Edwin Barnes
+	Sophie Sanda
+	Brian Li
+
+	----- Group 3 -----
+	Maya Alexander
+	Siying Song
+	Gracie Johnson
+	Ryan Champaigne
+
+	----- Group 4 -----
+	Kevin Li
+	Peter Alfonsi
+	Joey Lane
+
+	----- Group 5 -----
+	Devon Sinha
 	Ashil Jhaveri
 	Ellie Roza
-	Eleanore van Marwijk Kooy
-	----- Group 4 -----
-	Ryan Champaigne
-	Gracie Johnson
-	Sophie Sanda
-	----- Group 5 -----
-	Joe Choo
-	Joey Lane
-	Devon Sinha
+
 
 
