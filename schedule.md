@@ -199,9 +199,11 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">January 31 - February 5</font></i></b>
 
-**Monday**: No meetings.
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
 
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -352,9 +354,11 @@ For these excercises, you will need the following datasets:<br/>
 ## 7 - Getting a Job
 <b><i><font color="#E84E4E">February 14-19</font></i></b>
 
-**Monday**: No meetings.
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
 
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -479,9 +483,11 @@ allowfullscreen></iframe>
 ## 9 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">February 28 - March 4</font></i></b>
 
-**Monday**: No meetings.
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
 
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 **Saturday**: Lab due by 11:59PM
 
@@ -621,9 +627,11 @@ allowfullscreen></iframe>
 ## 12 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
-**Monday**: No meetings.
+**Monday** and **Wednesday**: regularly scheduled class @ 3:30-4:45pm.
 
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 **Saturday**: Lab due by 11:59PM
 
