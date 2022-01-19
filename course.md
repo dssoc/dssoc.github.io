@@ -27,7 +27,7 @@ Office Hours: Wednesday 2-3:30pm (links will be posted on Slack beforehand)
 Teaching Assistant: Devin J. Cornell<br/> 
 <i>PhD Student, Sociology Department</i> <br/>
 devin.cornell@duke.edu <br/>
-Office Hours: MW 3:30-5pm (links will be posted on Slack beforehand)
+Office Hours: Wed 2-3:30pm, Thurs 3-4:30pm on Zoom by appointment.
 </div>
 
 ### COURSE DESCRIPTION
