@@ -93,11 +93,11 @@ Note: the dataframe should have four rows: number of females over 55, number of 
 <br/>
 
 
-**6. For this problem, use the `congress_contact` dataframe that includes the contact information for each member of congress. Using `gather`, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account username, then compute the total number of valid accounts for each political party. Then accomplish the same task using `pivot_longer`.**
+**6. For this problem, use the `congress_contact` dataframe that includes the contact information for each member of congress. Using `gather`, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account username (for youtube you can ignore `youtube_id`), and compute the total number of valid accounts across all congress members. Then accomplish the same task using `pivot_longer`.**
 
 HINT: see the link to the `gather` function documentation in the recommended readings to get a better sense of how it works. You can use the example data they show to try it for yourself.
 
-HINT: the account name will be an emptry string in cases where the member of congress does not have a valid user account, so you can filter using the conditional `column_name != ''`. This compares each value in the column called `column_name` to an empty string to determine whether it is a valid account. 
+HINT: the account name will be an empty string in cases where the member of congress does not have a valid user account, so you can filter using the conditional `column_name != ''`. This compares each value in the column called `column_name` to an empty string to determine whether it is a valid account. 
 
 ```{r}
 # your answer here
