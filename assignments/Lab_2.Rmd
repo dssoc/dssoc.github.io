@@ -84,7 +84,7 @@ Note: you can approximate age using the formula `age = 2022-birthyear`.
 
 **5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.**
 
-Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females under 55, number of males under 55.
+Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females 55 and under, number of males 55 and under.
 ```{r}
 # your answer here
 ```
