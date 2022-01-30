@@ -202,8 +202,7 @@ ggplot: </code></pre>
 <p>Note: The plotted lines may not be continuous if there were no births in some decades.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>4. Create a bar chart showing the frequency of politician births and deaths by weekday. For convenience, I have already parsed the <code>birthdate</code> column into a <code>date</code> type, so you’ll just need to extract the day of week using <code>lubridate</code> methods. The plot should make it easy to compare births vs deaths in a given weekday, and the x-labels should be weekday names and appear in chronological order.</strong></p>
-<p>HINT: you should use a grouped bar chart to convey this information. See <a href="https://www.r-graph-gallery.com/48-grouped-barplot-with-ggplot2.html">this example</a>.</p>
+<p><strong>4. Create a bar chart showing the frequency of politician births by weekday. For convenience, I have already parsed the <code>birthdate</code> column into a <code>date</code> type, so you’ll just need to extract the day of week using <code>lubridate</code> methods. The plot should make it easy to compare births across weekdays and the x-labels should be weekday names and appear in chronological order.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>5. Use an inner join to combine the columns of the <code>congress</code> dataframe with the columns of <code>congress_contacts</code>, and show the average number of valid Twitter, Facebook, and YouTube social media accounts among both Democrats and Republicans as a bar chart. Do the same for F and M genders.</strong></p>
@@ -213,6 +212,7 @@ ggplot: </code></pre>
 <p><br /></p>
 <p><strong>6. The remainder of problems in this homework will involve the use of the <code>committees.RData</code> dataset. You should refer to the Lab Instructions page for more information about this dataset. Create a plot showing the average number of subcommittees that F and M genders belong to. Then create a plot showing the total number of subcommittees that members of each political party belong to.</strong></p>
 <p>HINT: as described in the Lab Instructions page, you will need to perform a join between the <code>subcommittees</code> and <code>committee_memberships</code> dataframes to get ONLY subcommittee (and not committee) memberships.</p>
+<pre class="r"><code># your answer here</code></pre>
 <p><strong>7. Create a bar plot showing the number of members that belong to the 5 largest congressional committees (i.e. committees with the largest number of members). The bars should be sorted based on committee sizes.</strong></p>
 <p>NOTE: read the Lab Instructions page for more information about the standards for visualizations in this course.</p>
 <p>HINT: you will need to join the <code>committee</code> and <code>committee_memberships</code> dataframes to get membership counts.</p>

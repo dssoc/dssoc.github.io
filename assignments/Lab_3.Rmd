@@ -70,9 +70,8 @@ Note: The plotted lines may not be continuous if there were no births in some de
 ```
 <br/>
 
-**4. Create a bar chart showing the frequency of politician births and deaths by weekday. For convenience, I have already parsed the `birthdate` column into a `date` type, so you'll just need to extract the day of week using `lubridate` methods. The plot should make it easy to compare births vs deaths in a given weekday, and the x-labels should be weekday names and appear in chronological order.**
+**4. Create a bar chart showing the frequency of politician births by weekday. For convenience, I have already parsed the `birthdate` column into a `date` type, so you'll just need to extract the day of week using `lubridate` methods. The plot should make it easy to compare births across weekdays and the x-labels should be weekday names and appear in chronological order.**
 
-HINT: you should use a grouped bar chart to convey this information. See [this example](https://www.r-graph-gallery.com/48-grouped-barplot-with-ggplot2.html).
 ```{r}
 # your answer here
 ```
@@ -93,8 +92,9 @@ HINT: there are several ways to accomplish the counting of social media accounts
 **6. The remainder of problems in this homework will involve the use of the `committees.RData` dataset. You should refer to the Lab Instructions page for more information about this dataset. Create a plot showing the average number of subcommittees that F and M genders belong to. Then create a plot showing the total number of subcommittees that members of each political party belong to.**
 
 HINT: as described in the Lab Instructions page, you will need to perform a join between the `subcommittees` and `committee_memberships` dataframes to get ONLY subcommittee (and not committee) memberships.
-```{r}
 
+```{r}
+# your answer here
 ```
 
 
