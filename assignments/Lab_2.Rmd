@@ -66,6 +66,8 @@ NOTE: you can identify representators by `type=="rep"` and senators using `type=
 
 ```{r}
 # your answer here
+congress %>% 
+  count(type, gender)
 ```
 <br/>
 
@@ -73,6 +75,9 @@ NOTE: you can identify representators by `type=="rep"` and senators using `type=
 
 ```{r}
 # your answer here
+congress %>% 
+  arrange(gender) %>% 
+  slice(1:1, n():n())
 ```
 <br/>
 
@@ -81,6 +86,9 @@ NOTE: you can identify representators by `type=="rep"` and senators using `type=
 Note: you can approximate age using the formula `age = 2022-birthyear`.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age = 2022-birthyear) %>% 
+  filter(party=='Democrat', age > 60)
 ```
 <br/>
 
@@ -89,6 +97,9 @@ Note: you can approximate age using the formula `age = 2022-birthyear`.
 Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females 55 and under, number of males 55 and under.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age = 2022-birthyear, is_old = age > 55) %>% 
+  count(gender, is_old)
 ```
 <br/>
 
@@ -101,6 +112,15 @@ HINT: the account name will be an empty string in cases where the member of cong
 
 ```{r}
 # your answer here
+congress_contact %>% 
+  gather(key='platform', value='username', twitter:youtube) %>% 
+  filter(username!='') %>% 
+  count(platform)
+
+congress_contact %>% 
+  pivot_longer(twitter:youtube, names_to = "platform", values_to = "username") %>% 
+  filter(username!='') %>% 
+  count(platform)
 ```
 <br/>
 
@@ -117,12 +137,14 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 **7. write code to print only the states who implemented both travel restrictions and mask requirements:**
 ```{r}
 # your answer here
+travel_restrictions %>% union(require_masks)
 ```
 <br/>
 
 **8. Write code to print the states who had implemented mask requirements but not travel restrictions:**
 ```{r}
 # your answer here
+travel_restrictions %>% setdiff(require_masks)
 ```
 
 **9. Describe two broad topics you might be interested in exploring for your final project. How would you use data science to gain insight about these topics? We won't require you to stick with these topics - we just want to see you brainstorming about what you might be interested in.**
