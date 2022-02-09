@@ -80,7 +80,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -145,7 +145,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Do our Platforms Push us Apart?
 
@@ -205,7 +205,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -286,7 +286,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### The Hidden Influence of Social Networks
 
@@ -360,7 +360,7 @@ For these excercises, you will need the following datasets:<br/>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -432,7 +432,7 @@ Katya Ognyanova</a></li>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -489,7 +489,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -564,7 +564,7 @@ No class. Enjoy your break!
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Using Google Search to Track Radicalization
 
@@ -633,7 +633,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Discussion questions for this week:
 
@@ -700,7 +700,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Online Social Change (Zeynep Tufekci)
 
