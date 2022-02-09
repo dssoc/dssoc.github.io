@@ -306,8 +306,8 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 5PM)</i></p>
-<!--<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 12 by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 14 by 5PM)</i></p>
+<!--<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 14 by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Programming</b></i> 
 
@@ -387,8 +387,8 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 5PM)</i></p>
-<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 19 by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 21 by 5PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 21 by 5PM)</i></p>-->
 
 
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 
@@ -452,8 +452,8 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 26 by 5PM)</i></p>-->
-<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 26 by 5PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 28 by 5PM)</i></p>-->
+<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 28 by 5PM)</i></p>
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 
@@ -525,8 +525,8 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 5 by 5PM)</i></p>-->
-<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 5 by 5PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>-->
+<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>
 
 
 <i><b>Lab Video Lecture: Modeling</b></i> 
@@ -588,8 +588,8 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<!--<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 19 by 5PM)</i></p>-->
-<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 19 by 5PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 21 by 5PM)</i></p>-->
+<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 21 by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
@@ -662,8 +662,8 @@ allowfullscreen></iframe>
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 26 by 5PM)</i></p>-->
-<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 26 by 5PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 28 by 5PM)</i></p>-->
+<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 28 by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
 
@@ -724,8 +724,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 2 by 5PM)</i></p>-->
-<p><i><b>Lab #10: Topic Modeling</b> (Due on April 2 by 5PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 4 by 5PM)</i></p>-->
+<p><i><b>Lab #10: Topic Modeling</b> (Due on April 4 by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Topic modeling</b></i> 
 
