@@ -1,0 +1,138 @@
+---
+title: "Lab #4: Basics of Programming"
+author: "Data Science and Society (Sociology 367)"
+date: ""
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+**[Lab #4 Markdown File](/assignments/Lab_4.Rmd)**
+
+**[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
+
+In this lab we will be practicing the fundamentals of programming in R. 
+
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+
+**Required reading:** 
+
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+
+
+**Optional resources:**
+
+* [R for Data Science Chapter 16: Dates and times](https://r4ds.had.co.nz/dates-and-times.html)
+
+
+
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+```
+<br/>
+
+## Questions
+<br>
+
+
+**1. In your own words, describe what a function is and provide one example of how you might use it in a data science project.**
+```
+write your answer here
+```
+<br/>
+
+
+**2. Packages in R can contain many useful functions/commands. If you didn't know what a certain function did, or how it worked, where within RStudio would you look to learn more / see example code? Where would you look outside RStudio?**
+```
+write your answer here
+```
+<br/>
+
+
+**3. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector `sentence` defined below.**
+```{r}
+sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
+# your answer here
+f <- function(v) {
+  return(substr(v,1,1))
+}
+f(sentence)
+```
+<br/>
+
+
+**4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the `birthyear` column of the `congress` dataframe to create a new `age` column with `mutate`.**
+
+Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.
+```{r}
+# your answer here
+calc_age <- function(birthyear) {
+  return(2022-birthyear)
+}
+congress <- congress %>% 
+  mutate(age=calc_age(birthyear))
+```
+<br/>
+
+
+**5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `zip` column with `mutate`.**
+```{r}
+# your answer here
+phone_to_area <- function(phone) {
+  return(substr(phone, 1, 3))
+}
+#congress <- 
+congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  mutate(area_code=phone_to_area(phone)) %>% 
+  select(phone, area_code)
+```
+<br/>
+
+
+**6. Write a function that accepts a dataframe with the columns `birthdate` and `full_name`, and prints (using the `print` function) the names and ages of the `k` oldest *representatives* in congress (i.e. not including senators) using a "for loop". In this sense, `k` is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (`%>%`) to pass the dataframe directly to the function. Define your function such that you can use it like this: `congress %>% print_oldest(3)`.**
+```{r}
+# your answer here
+g <- function(df, k=4) {
+  odf <- df %>% arrange(birthdate)
+  for (i in 1:k) {
+    print(paste(odf[i,'full_name'], 2022-odf[i,'birthyear']))
+  }
+}
+congress %>% g()
+```
+<br/>
+
+
+**7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)` (it should print the first 5 names and ages).**
+```{r}
+# your answer here
+h <- function(df, k=5) {
+  if (k > 5) {
+    k <- 5
+  }
+  odf <- df %>% arrange(birthdate)
+  for (i in 1:k) {
+    print(paste(odf[i,'full_name'], 2022-odf[i,'birthyear']))
+  }
+}
+congress %>% h(2)
+print('---')
+congress %>% h(6)
+```
+<br/>
+
+
+**8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I'd like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can't find a potential data source, feel free to change your question (but make sure you state it explicitly). In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.**
+```{r}
+# your answer here
+```
+
