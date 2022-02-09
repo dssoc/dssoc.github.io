@@ -76,7 +76,8 @@ congress %>%
 ```{r}
 # your answer here
 congress %>% 
-  arrange(gender) %>% 
+  filter(gender=='F', party=='Democrat', type=='sen') %>% 
+  arrange(birthyear) %>% 
   slice(1:1, n():n())
 ```
 <br/>
@@ -88,7 +89,8 @@ Note: you can approximate age using the formula `age = 2022-birthyear`.
 # your answer here
 congress %>% 
   mutate(age = 2022-birthyear) %>% 
-  filter(party=='Democrat', age > 60)
+  filter(party=='Democrat', type=='sen', age > 60) %>% 
+  nrow()
 ```
 <br/>
 
@@ -121,9 +123,13 @@ congress_contact %>%
   pivot_longer(twitter:youtube, names_to = "platform", values_to = "username") %>% 
   filter(username!='') %>% 
   count(platform)
+
+congress_contact %>% 
+  pivot_longer(twitter:youtube, names_to = "platform", values_to = "username") %>% 
+  filter(username!='') %>% 
+  nrow()
 ```
 <br/>
-
 
 
 **Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)).**
@@ -137,7 +143,7 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 **7. write code to print only the states who implemented both travel restrictions and mask requirements:**
 ```{r}
 # your answer here
-travel_restrictions %>% union(require_masks)
+travel_restrictions %>% intersect(require_masks)
 ```
 <br/>
 
