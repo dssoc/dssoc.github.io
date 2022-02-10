@@ -21,7 +21,7 @@ micro_nav: true
 <i>Professor of Sociology & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: Wednesday 2-3:30pm (links will be posted on Slack beforehand)
+Office Hours: Wednesday 2-3:30pm (347 Reuben-Cooke Building or via Zoom, please email beforehand)
 <br/>
 
 Teaching Assistant: Devin J. Cornell<br/> 
