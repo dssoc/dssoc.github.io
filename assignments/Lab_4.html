@@ -196,17 +196,17 @@ pre code {
 <pre class="r"><code>sentence &lt;- c(&#39;you&#39;, &#39;only&#39;, &#39;understand&#39;, &#39;data&#39;, &#39;if&#39;, &#39;data&#39;, &#39;is&#39;, &#39;tidy&#39;)
 # your answer here</code></pre>
 <p><br /></p>
-<p><strong>4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the <code>birthyear</code> column of the <code>congress</code> dataframe to create a new <code>age</code> column with <code>mutate</code>.</strong></p>
-<p>Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.</p>
+<p><strong>4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the <code>birthyear</code> column of the <code>congress</code> dataframe to create a new <code>age</code> column with <code>mutate</code>. Then compute the average age of Male and Female congress members.</strong></p>
+<p>Note: functions used inside mutate accept single columns from the original dataframe and should return a column or vector of the same size. This is a valuable tool for developing your data pipelines.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the <code>phone</code> column of the <code>congress_contact</code> dataframe to create a new <code>zip</code> column with <code>mutate</code>.</strong></p>
+<p><strong>5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the <code>phone</code> column of the <code>congress_contact</code> dataframe to create a new <code>area</code> column with <code>mutate</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. Write a function that accepts a dataframe with the columns <code>birthdate</code> and <code>full_name</code>, and prints (using the <code>print</code> function) the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a “for loop”. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (<code>%&gt;%</code>) to pass the dataframe directly to the function. Define your function such that you can use it like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code> (it should print the first 5 names and ages).</strong></p>
+<p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code> (it should print ONLY the first 5 names and ages).</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question (but make sure you state it explicitly). In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
