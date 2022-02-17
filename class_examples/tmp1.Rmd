@@ -1,0 +1,15 @@
+
+```{r message=FALSE, echo=FALSE}
+# Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
+library(tidyverse)
+library(ggplot2)
+library(lubridate)
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+load(url('https://dssoc.github.io/datasets/committees.RData'))
+```
+
+```{r}
+congress %>%
+  count(gender)
+```
+
