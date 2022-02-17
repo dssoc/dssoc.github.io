@@ -42,6 +42,7 @@ library(ggraph)
 library(tidyverse)
 library(ggplot2)
 
+load(url('https://dssoc.github.io/datasets/committees.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
