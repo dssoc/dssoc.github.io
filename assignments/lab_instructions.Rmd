@@ -195,14 +195,15 @@ Use this code to load the dataset:
 load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
 ```
 
-I manually collected this dataset using `rtweet`. It includes two variables:
+To collect this data, I began with a large list of status ids from [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UIVHQR).
 
-+ `senator_tweet_ids`: ids of tweets that we can download from Twitter.
-+ `senator_tweets`: example tweets from senators.
++ `senator_tweet_ids`: random sample of 500 status ids. You can request the data from Twitter using `rtweet::lookup_tweets`.
++ `senator_tweet_sample`: random sample of 500 tweets from the full dataset collected using `rtweet::lookup_tweets`. Sample is different from `senator_status_ids`.
 
 ```{r}
-#senator_tweet_ids %>% summary()
-#senator_tweet_ids %>% head()
+senator_tweet_ids %>% head()
+senator_tweet_sample %>% summary()
+senator_tweet_sample %>% head()
 ```
 
 

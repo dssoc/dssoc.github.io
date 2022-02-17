@@ -453,13 +453,51 @@ pre code {
 <p><a href="https://dssoc.github.io/datasets/senator_tweets.RData">Download senator_tweets.RData</a></p>
 <p>Use this code to load the dataset:</p>
 <pre class="r"><code>load(url(&#39;https://dssoc.github.io/datasets/senator_tweets.RData&#39;))</code></pre>
-<p>I manually collected this dataset using <code>rtweet</code>. It includes two variables:</p>
+<p>To collect this data, I began with a large list of status ids from <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UIVHQR">this page</a>.</p>
 <ul>
-<li><code>senator_tweet_ids</code>: ids of tweets that we can download from Twitter.</li>
-<li><code>senator_tweets</code>: example tweets from senators.</li>
+<li><code>senator_tweet_ids</code>: random sample of 500 status ids. You can request the data from Twitter using <code>rtweet::lookup_tweets</code>.</li>
+<li><code>senator_tweet_sample</code>: random sample of 500 tweets from the full dataset collected using <code>rtweet::lookup_tweets</code>. Sample is different from <code>senator_status_ids</code>.</li>
 </ul>
-<pre class="r"><code>#senator_tweet_ids %&gt;% summary()
-#senator_tweet_ids %&gt;% head()</code></pre>
+<pre class="r"><code>senator_tweet_ids %&gt;% head()</code></pre>
+<pre><code>## [1] &quot;854445556172812289&quot; &quot;791376840506109952&quot; &quot;608357214835904512&quot;
+## [4] &quot;621005601385148416&quot; &quot;951479956646842368&quot; &quot;595705214264565760&quot;</code></pre>
+<pre class="r"><code>senator_tweet_sample %&gt;% summary()</code></pre>
+<pre><code>##   status_id           user_id          screen_name       
+##  Length:990         Length:990         Length:990        
+##  Class :character   Class :character   Class :character  
+##  Mode  :character   Mode  :character   Mode  :character  
+##                                                          
+##                                                          
+##                                                          
+##                                                          
+##    created_at                   is_quote       is_retweet     
+##  Min.   :2008-09-04 19:05:07   Mode :logical   Mode :logical  
+##  1st Qu.:2015-07-01 01:55:14   FALSE:941       FALSE:830      
+##  Median :2016-11-22 05:01:15   TRUE :49        TRUE :160      
+##  Mean   :2016-06-28 19:24:19                                  
+##  3rd Qu.:2017-11-03 08:37:29                                  
+##  Max.   :2018-12-31 22:15:00                                  
+##                                                               
+##  favorite_count    retweet_count    reply_count 
+##  Min.   :    0.0   Min.   :    0   Min.   : NA  
+##  1st Qu.:    1.0   1st Qu.:    3   1st Qu.: NA  
+##  Median :    7.0   Median :    8   Median : NA  
+##  Mean   :  241.2   Mean   :  128   Mean   :NaN  
+##  3rd Qu.:   55.0   3rd Qu.:   35   3rd Qu.: NA  
+##  Max.   :29597.0   Max.   :10847   Max.   : NA  
+##                                    NA&#39;s   :990</code></pre>
+<pre class="r"><code>senator_tweet_sample %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 9
+##   status_id     user_id     screen_name  created_at          is_quote is_retweet
+##   &lt;chr&gt;         &lt;chr&gt;       &lt;chr&gt;        &lt;dttm&gt;              &lt;lgl&gt;    &lt;lgl&gt;     
+## 1 100407438551… 8166832740… SenJohnKenn… 2018-06-05 18:56:02 FALSE    TRUE      
+## 2 104786755483… 8166832740… SenJohnKenn… 2018-10-04 15:14:28 FALSE    TRUE      
+## 3 705130367318… 202206694   SenJohnBarr… 2016-03-02 20:39:14 FALSE    FALSE     
+## 4 397488749161… 202206694   SenJohnBarr… 2013-11-04 22:21:17 FALSE    FALSE     
+## 5 185730658071… 202206694   SenJohnBarr… 2012-03-30 14:10:14 FALSE    FALSE     
+## 6 106922351601… 202206694   SenJohnBarr… 2018-12-02 13:35:26 FALSE    FALSE     
+## # … with 3 more variables: favorite_count &lt;int&gt;, retweet_count &lt;int&gt;,
+## #   reply_count &lt;int&gt;</code></pre>
 </div>
 <div id="the-congress_wiki.rdata-dataset" class="section level2">
 <h2>The <code>congress_wiki.RData</code> Dataset</h2>
