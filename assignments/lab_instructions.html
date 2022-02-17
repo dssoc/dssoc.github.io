@@ -209,7 +209,7 @@ pre code {
 <h2>The <code>congress.RData</code> Dataset</h2>
 <p><a href="https://dssoc.github.io/datasets/congress.RData">Download congress.RData</a></p>
 <p>This dataset contains information about each member of congress that was in-office as of January 11, 2021 and their committee memberships. It was retrieved from the <code>congress-current.csv</code> file of the <a href="https://github.com/unitedstates/congress-legislators">congress-legislators repository</a>, a database “maintained through a combination of manual edits by volunteers (from GovTrack, ProPublica, MapLight, FiveThirtyEight, and others) and automated imports from a variety of sources.” From this source we use the <code>legislators-current</code> dataset.</p>
-<p>You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the <code>load()</code> function to that file on your computer, but please use this line so your code is easily reproducible on any computer.</p>
+<p>You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the <code>load()</code> function to that file on your computer, but please use this line so your code is easily reproducible on any computer for grading purposes.</p>
 <pre class="r"><code>load(url(&#39;https://dssoc.github.io/datasets/congress.RData&#39;))</code></pre>
 <p>This dataset consists of two different variables:</p>
 <ul>
@@ -249,6 +249,61 @@ pre code {
 ## 4      1947
 ## 5      1960
 ## 6      1933</code></pre>
+<p>Here are some important notes about some of the columns:</p>
+<div id="what-is-bioguide_id" class="section level4">
+<h4>What is <code>bioguide_id</code>?</h4>
+<p>This is a unique identifier for each member of congress. You will want to use this for data merging or other tasks that require unique identifiers because there is always the possibility that two congress members will have the same full name. You can find more information on <a href="https://www.congress.gov/help/field-values/member-bioguide-ids">congress.gov</a>.</p>
+<pre class="r"><code>congress %&gt;% 
+  select(bioguide_id, full_name) %&gt;% 
+  head()</code></pre>
+<pre><code>##   bioguide_id            full_name
+## 1     B000944        Sherrod Brown
+## 2     C000127       Maria Cantwell
+## 3     C000141   Benjamin L. Cardin
+## 4     C000174     Thomas R. Carper
+## 5     C001070 Robert P. Casey, Jr.
+## 6     F000062     Dianne Feinstein</code></pre>
+</div>
+<div id="senators-vs-representatives" class="section level4">
+<h4>Senators VS Representatives</h4>
+<p>In United States politics, members of congress are divided into two groups: senators and representatives. This information is stored in the <code>type</code> column. To get only senators, you can use <code>type == &#39;sen&#39;</code> and to get representatives you can use <code>type == &#39;rep&#39;</code></p>
+<pre class="r"><code>congress %&gt;% 
+  count(type)</code></pre>
+<pre><code>##   type   n
+## 1  rep 439
+## 2  sen 100</code></pre>
+</div>
+<div id="political-parties" class="section level4">
+<h4>Political Parties</h4>
+<p>In United States politics, there are currently three political parties represented in congress: Democrats, Republicans, and Independents. Note that there are far fewer Independents than other members of congress. For some problems, you will be asked to filter out Independents.</p>
+<pre class="r"><code>congress %&gt;% 
+  count(party)</code></pre>
+<pre><code>##         party   n
+## 1    Democrat 273
+## 2 Independent   2
+## 3  Republican 264</code></pre>
+</div>
+<div id="birthdate-and-date-columns" class="section level4">
+<h4>Birthdate and Date Columns</h4>
+<p>For convenience, I have parsed the birthdate data into a <code>date</code> type. You can use the <code>lubridate</code> package to create new variables from a <code>date</code> column. Here I show how to get the name of the month associated with each birthdate.</p>
+<pre class="r"><code>library(lubridate)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     date, intersect, setdiff, union</code></pre>
+<pre class="r"><code>congress %&gt;% 
+  mutate(month=month(birthdate, label=TRUE)) %&gt;% 
+  select(full_name, month) %&gt;% 
+  head()</code></pre>
+<pre><code>##              full_name month
+## 1        Sherrod Brown   Nov
+## 2       Maria Cantwell   Oct
+## 3   Benjamin L. Cardin   Oct
+## 4     Thomas R. Carper   Jan
+## 5 Robert P. Casey, Jr.   Apr
+## 6     Dianne Feinstein   Jun</code></pre>
+</div>
 </div>
 <div id="congress_contact-dataframe" class="section level3">
 <h3><code>congress_contact</code> Dataframe</h3>
@@ -287,7 +342,7 @@ pre code {
 <ul>
 <li><code>committees</code>: a list of committees and descriptions of their jurisdictions. The <code>thomas_id</code> column is a unique reference to that committee.</li>
 <li><code>subcommittees</code>: a list of subcommittees and their parent committee.</li>
-<li><code>committee_membership</code>: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee</li>
+<li><code>committee_membership</code>: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee, not both.</li>
 </ul>
 <div id="committees" class="section level3">
 <h3>committees</h3>
@@ -327,7 +382,7 @@ pre code {
 </div>
 <div id="committee_memberships" class="section level3">
 <h3><code>committee_memberships</code></h3>
-<p>This dataframe is a little trickier to work with than the other two because it links senators to BOTH committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to count the committee membership count of each member of congress, we wouldn’t want to count both committees and subcommittees together. I’ll show how to work with these multiple levels below.</p>
+<p>This dataframe is a little trickier to work with than the other two because it links senators to BOTH full committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to get the number of full committees that congress members belong to, we wouldn’t want to count both committees and subcommittees together. I’ll show how to work with these multiple levels below.</p>
 <p>The columns are fairly straightforward. <code>thomas_id</code> is a unique reference to the committee or subcommittee, and <code>bioguide_id</code> is a reference to the member of congress. <code>party</code>, <code>rank</code>, and <code>title</code> give more information about the particular kinds of relationship.</p>
 <pre class="r"><code>committee_memberships %&gt;% summary()</code></pre>
 <pre><code>##   thomas_id         bioguide_id             party           rank       
@@ -354,7 +409,7 @@ pre code {
 ## 4 SSAF      K000367     majority     4 &lt;NA&gt;    
 ## 5 SSAF      B001267     majority     5 &lt;NA&gt;    
 ## 6 SSAF      G000555     majority     6 &lt;NA&gt;</code></pre>
-<p>If for instance, we wanted to get information about committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe.</p>
+<p>If for instance, we wanted to get information about committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe. This will filter out all rows of <code>committee_memberships</code> that are not associated with a full committee.</p>
 <pre class="r"><code>committees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
@@ -372,7 +427,7 @@ pre code {
 ##  9 HSAG      House Co… house The House Committee… A000370     majo…     5 Vice …
 ## 10 HSAG      House Co… house The House Committee… H001053     mino…     5 &lt;NA&gt;  
 ## # … with 1,383 more rows</code></pre>
-<p>And the same for <code>subcommittees</code>.</p>
+<p>This will filter out all rows of <code>committee_memberships</code> that are not associated with a subcommittee.</p>
 <pre class="r"><code>subcommittees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
@@ -390,6 +445,7 @@ pre code {
 ##  9 HSAG15    HSAG                Conservation… O000171     major…     5 &lt;NA&gt;    
 ## 10 HSAG15    HSAG                Conservation… J000301     minor…     5 &lt;NA&gt;    
 ## # … with 2,606 more rows</code></pre>
+<p>You will likely need to use these code snippets for some assignment problems.</p>
 </div>
 </div>
 <div id="the-senator_tweets.rdata-dataset" class="section level2">
