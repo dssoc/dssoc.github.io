@@ -452,8 +452,8 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 28 by 5PM)</i></p>-->
-<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 28 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 28 by 5PM)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 28 by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 
@@ -525,8 +525,8 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>-->
-<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>
+<!--<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>-->
 
 
 <i><b>Lab Video Lecture: Modeling</b></i> 
@@ -588,8 +588,8 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<!--<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 21 by 5PM)</i></p>-->
-<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 21 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 21 by 5PM)</i></p>
+<!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 21 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
@@ -662,8 +662,8 @@ allowfullscreen></iframe>
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 28 by 5PM)</i></p>-->
-<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 28 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 28 by 5PM)</i></p>
+<!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 28 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
 
