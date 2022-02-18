@@ -22,6 +22,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 * [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
 
 * [`igraph` Tutorial](https://igraph.org/python/doc/tutorial/tutorial.html)
+* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838)
 * [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
 * [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
 Katya Ognyanova](https://kateto.net/networks-r-igraph)
