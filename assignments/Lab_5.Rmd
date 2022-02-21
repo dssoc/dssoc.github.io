@@ -97,7 +97,7 @@ mygraph %>% ggraph(layout = 'dendrogram') +
 
 ```
 ```
-Your written responses here.
+Pretty hard to interpret, so not that useful. We may, at most, be able to estimate the number of edges assocaited with each committee.
 ```
 
 
@@ -117,19 +117,21 @@ g <- graph_from_data_frame(elist)
 V(g)$type <- V(g)$name %in% elist$bioguide_id
 is_bipartite(g)
 ```
-```
-written answer here
-```
 <br/>
+
 
 **6. Create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
 ```{r}
 # Your answer here
 A <- g %>% as_adjacency_matrix()
 p <- graph_from_adjacency_matrix(A)
+dim(A)
 is_bipartite(p)
 ```
-
+```
+Bipartite property was not preserved because adjacency matrix does not inherently contain information about which nodes are associated with which group (congress members or committees). We can see that from the fact that dim(A) is the same as the total number of nodes in the graph here.
+```
+<br/>
 
 **7. Starting with our bipartite network, we want to compute a network capturing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the congress member network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
 ```{r}
@@ -141,6 +143,7 @@ congress_attr <- congress %>%
   filter(bioguide_id %in% V(h)$name) %>% 
   mutate(age=2022-birthyear)
 
+# need to use set_vertex_attr because the order of the nodes in the network and their order in the `congress` dataframe may not be the same
 h <- h %>% set_vertex_attr('full_name', index=congress_attr$bioguide_id, value=congress_attr$full_name)
 h <- h %>% set_vertex_attr('party', index=congress_attr$bioguide_id, value=as.character(congress_attr$party))
 h <- h %>% set_vertex_attr('age', index=congress_attr$bioguide_id, value=congress_attr$age)
@@ -172,11 +175,11 @@ describe strengths and weaknesses here.
 Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
 # Yor answer here or in text.
-centralities <- data.frame(strength=strength(h), eigen=eigen_centrality(h)$value, closeness=closeness(h), betweenness=betweenness(h))
+centralities <- data.frame(strength=strength(h), eigen=eigen_centrality(h)$vector, closeness=closeness(h), betweenness=betweenness(h))
 centralities %>% cor()
 ```
 ```
-written explanation here
+Strength and eigenvector consider edge weights to be the "strength" of a tie (like how close two friends are), whereas closeness and betweenness consider edge weights to be a distance (like distances on a map). Only strength and eigenvector centrality are relevant, because we'd consider congress members to be more closely related if they are on more common committees.
 ```
 <br/>
 
