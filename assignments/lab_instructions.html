@@ -409,42 +409,64 @@ pre code {
 ## 4 SSAF      K000367     majority     4 &lt;NA&gt;    
 ## 5 SSAF      B001267     majority     5 &lt;NA&gt;    
 ## 6 SSAF      G000555     majority     6 &lt;NA&gt;</code></pre>
-<p>If for instance, we wanted to get information about committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe. This will filter out all rows of <code>committee_memberships</code> that are not associated with a full committee.</p>
-<pre class="r"><code>committees %&gt;% 
+<p>If for instance, we wanted to get information about full committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe. This will filter out all rows of <code>committee_memberships</code> that are not associated with a full committee.</p>
+<pre class="r"><code>full_committee_memberships &lt;- committees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
-<pre><code>## # A tibble: 1,393 × 8
-##    thomas_id name      type  jurisdiction         bioguide_id party  rank title 
-##    &lt;chr&gt;     &lt;chr&gt;     &lt;fct&gt; &lt;chr&gt;                &lt;chr&gt;       &lt;fct&gt; &lt;int&gt; &lt;chr&gt; 
-##  1 HSAG      House Co… house The House Committee… S001157     majo…     1 Chair 
-##  2 HSAG      House Co… house The House Committee… T000467     mino…     1 Ranki…
-##  3 HSAG      House Co… house The House Committee… C001059     majo…     2 &lt;NA&gt;  
-##  4 HSAG      House Co… house The House Committee… S001189     mino…     2 &lt;NA&gt;  
-##  5 HSAG      House Co… house The House Committee… M000312     majo…     3 &lt;NA&gt;  
-##  6 HSAG      House Co… house The House Committee… C001087     mino…     3 &lt;NA&gt;  
-##  7 HSAG      House Co… house The House Committee… V000132     majo…     4 &lt;NA&gt;  
-##  8 HSAG      House Co… house The House Committee… D000616     mino…     4 &lt;NA&gt;  
-##  9 HSAG      House Co… house The House Committee… A000370     majo…     5 Vice …
-## 10 HSAG      House Co… house The House Committee… H001053     mino…     5 &lt;NA&gt;  
-## # … with 1,383 more rows</code></pre>
+<pre class="r"><code>full_committee_memberships %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 8
+##   thomas_id name      type  jurisdiction          bioguide_id party  rank title 
+##   &lt;chr&gt;     &lt;chr&gt;     &lt;fct&gt; &lt;chr&gt;                 &lt;chr&gt;       &lt;fct&gt; &lt;int&gt; &lt;chr&gt; 
+## 1 HSAG      House Co… house The House Committee … S001157     majo…     1 Chair 
+## 2 HSAG      House Co… house The House Committee … T000467     mino…     1 Ranki…
+## 3 HSAG      House Co… house The House Committee … C001059     majo…     2 &lt;NA&gt;  
+## 4 HSAG      House Co… house The House Committee … S001189     mino…     2 &lt;NA&gt;  
+## 5 HSAG      House Co… house The House Committee … M000312     majo…     3 &lt;NA&gt;  
+## 6 HSAG      House Co… house The House Committee … C001087     mino…     3 &lt;NA&gt;</code></pre>
+<pre class="r"><code>full_committee_memberships %&gt;% summary()</code></pre>
+<pre><code>##   thomas_id             name               type     jurisdiction      
+##  Length:1393        Length:1393        house :919   Length:1393       
+##  Class :character   Class :character   joint : 59   Class :character  
+##  Mode  :character   Mode  :character   senate:415   Mode  :character  
+##                                                                       
+##                                                                       
+##                                                                       
+##  bioguide_id             party          rank           title          
+##  Length:1393        majority:754   Min.   : 1.000   Length:1393       
+##  Class :character   minority:639   1st Qu.: 4.000   Class :character  
+##  Mode  :character                  Median : 8.000   Mode  :character  
+##                                    Mean   : 9.772                     
+##                                    3rd Qu.:14.000                     
+##                                    Max.   :37.000</code></pre>
 <p>This will filter out all rows of <code>committee_memberships</code> that are not associated with a subcommittee.</p>
-<pre class="r"><code>subcommittees %&gt;% 
+<pre class="r"><code>subcommittee_memberships &lt;- subcommittees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
-<pre><code>## # A tibble: 2,616 × 7
-##    thomas_id committee_thomas_id name          bioguide_id party   rank title   
-##    &lt;chr&gt;     &lt;chr&gt;               &lt;chr&gt;         &lt;chr&gt;       &lt;fct&gt;  &lt;int&gt; &lt;chr&gt;   
-##  1 HSAG15    HSAG                Conservation… S001209     major…     1 Chair   
-##  2 HSAG15    HSAG                Conservation… L000578     minor…     1 Ranking…
-##  3 HSAG15    HSAG                Conservation… V000132     major…     2 &lt;NA&gt;    
-##  4 HSAG15    HSAG                Conservation… D000616     minor…     2 &lt;NA&gt;    
-##  5 HSAG15    HSAG                Conservation… P000597     major…     3 &lt;NA&gt;    
-##  6 HSAG15    HSAG                Conservation… A000372     minor…     3 &lt;NA&gt;    
-##  7 HSAG15    HSAG                Conservation… K000382     major…     4 &lt;NA&gt;    
-##  8 HSAG15    HSAG                Conservation… K000388     minor…     4 &lt;NA&gt;    
-##  9 HSAG15    HSAG                Conservation… O000171     major…     5 &lt;NA&gt;    
-## 10 HSAG15    HSAG                Conservation… J000301     minor…     5 &lt;NA&gt;    
-## # … with 2,606 more rows</code></pre>
+<pre class="r"><code>subcommittee_memberships %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 7
+##   thomas_id committee_thomas_id name           bioguide_id party   rank title   
+##   &lt;chr&gt;     &lt;chr&gt;               &lt;chr&gt;          &lt;chr&gt;       &lt;fct&gt;  &lt;int&gt; &lt;chr&gt;   
+## 1 HSAG15    HSAG                Conservation … S001209     major…     1 Chair   
+## 2 HSAG15    HSAG                Conservation … L000578     minor…     1 Ranking…
+## 3 HSAG15    HSAG                Conservation … V000132     major…     2 &lt;NA&gt;    
+## 4 HSAG15    HSAG                Conservation … D000616     minor…     2 &lt;NA&gt;    
+## 5 HSAG15    HSAG                Conservation … P000597     major…     3 &lt;NA&gt;    
+## 6 HSAG15    HSAG                Conservation … A000372     minor…     3 &lt;NA&gt;</code></pre>
+<pre class="r"><code>subcommittee_memberships %&gt;% summary()</code></pre>
+<pre><code>##   thomas_id         committee_thomas_id     name           bioguide_id       
+##  Length:2616        Length:2616         Length:2616        Length:2616       
+##  Class :character   Class :character    Class :character   Class :character  
+##  Mode  :character   Mode  :character    Mode  :character   Mode  :character  
+##                                                                              
+##                                                                              
+##                                                                              
+##       party           rank           title          
+##  majority:1414   Min.   : 1.000   Length:2616       
+##  minority:1202   1st Qu.: 2.000   Class :character  
+##                  Median : 4.000   Mode  :character  
+##                  Mean   : 4.992                     
+##                  3rd Qu.: 7.000                     
+##                  Max.   :31.000</code></pre>
 <p>You will likely need to use these code snippets for some assignment problems.</p>
 </div>
 </div>
@@ -498,6 +520,11 @@ pre code {
 ## 6 106922351601… 202206694   SenJohnBarr… 2018-12-02 13:35:26 FALSE    FALSE     
 ## # … with 3 more variables: favorite_count &lt;int&gt;, retweet_count &lt;int&gt;,
 ## #   reply_count &lt;int&gt;</code></pre>
+<p>As you can see from this output, the <code>status_id</code>s of the full tweets and just the ids is entirely disjoint. They are sampled from the same full set of <code>status_id</code>s though.</p>
+<pre class="r"><code>senator_tweet_sample$status_id %&gt;% setdiff(senator_tweet_ids) %&gt;% length()</code></pre>
+<pre><code>## [1] 990</code></pre>
+<pre class="r"><code>senator_tweet_ids %&gt;% setdiff(senator_tweet_sample$status_id) %&gt;% length()</code></pre>
+<pre><code>## [1] 500</code></pre>
 </div>
 <div id="the-congress_wiki.rdata-dataset" class="section level2">
 <h2>The <code>congress_wiki.RData</code> Dataset</h2>

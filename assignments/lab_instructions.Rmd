@@ -168,18 +168,24 @@ committee_memberships %>% summary()
 committee_memberships %>% head()
 ```
 
-If for instance, we wanted to get information about committees only, we'd join the `congress` dataframe with the `committees` dataframe. This will filter out all rows of `committee_memberships` that are not associated with a full committee.
+If for instance, we wanted to get information about full committees only, we'd join the `congress` dataframe with the `committees` dataframe. This will filter out all rows of `committee_memberships` that are not associated with a full committee.
 
 ```{r}
-committees %>% 
+full_committee_memberships <- committees %>% 
   inner_join(committee_memberships, on=thomas_id)
+
+full_committee_memberships %>% head()
+full_committee_memberships %>% summary()
 ```
 
 This will filter out all rows of `committee_memberships` that are not associated with a subcommittee.
 
 ```{r}
-subcommittees %>% 
+subcommittee_memberships <- subcommittees %>% 
   inner_join(committee_memberships, on=thomas_id)
+
+subcommittee_memberships %>% head()
+subcommittee_memberships %>% summary()
 ```
 
 You will likely need to use these code snippets for some assignment problems.
@@ -206,6 +212,12 @@ senator_tweet_sample %>% summary()
 senator_tweet_sample %>% head()
 ```
 
+As you can see from this output, the `status_id`s of the full tweets and just the ids is entirely disjoint. They are sampled from the same full set of `status_id`s though.
+
+```{r}
+senator_tweet_sample$status_id %>% setdiff(senator_tweet_ids) %>% length()
+senator_tweet_ids %>% setdiff(senator_tweet_sample$status_id) %>% length()
+```
 
 ## The `congress_wiki.RData` Dataset
 
