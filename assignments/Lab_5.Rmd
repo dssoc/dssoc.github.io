@@ -143,6 +143,7 @@ describe strengths and weaknesses here.
 Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
 # Yor answer here or in text.
+
 ```
 ```
 written explanation here
