@@ -62,12 +62,16 @@ congress %>%
   mutate(age = 2022-birthyear) %>% 
   filter(party %in% c('Democrat', 'Republican')) %>% 
   group_by(party) %>% 
-  summarize(av_age=mean(age))
+  summarize(av_age=mean(age)) %>% 
+  ggplot(aes(x=party, y=av_age)) + 
+    geom_bar(stat='identity')
 
 congress %>% 
   mutate(age = 2022-birthyear) %>% 
   group_by(gender) %>% 
-  summarize(av_age=mean(age))
+  summarize(av_age=mean(age)) %>% 
+  ggplot(aes(x=gender, y=av_age)) + 
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -188,8 +192,9 @@ committees %>%
   mutate(age=2022-birthyear) %>% 
   group_by(thomas_id, name) %>% 
   summarize(av_age=mean(age)) %>% 
+  ungroup() %>% 
   arrange(desc(av_age)) %>% 
-  head(5) %>% 
+  slice(1:5, (n()-5):n()) %>% 
   ggplot(aes(x=reorder(name, av_age), y=av_age)) +
     geom_bar(stat='identity') +
     theme(axis.text.x = element_text(angle = 10, vjust = 0.1, hjust=0.6))
