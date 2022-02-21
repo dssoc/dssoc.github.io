@@ -61,6 +61,10 @@ write your answer here
 ```{r}
 sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 # your answer here
+f <- function(v) {
+  return(substr(v,1,1))
+}
+f(sentence)
 ```
 <br/>
 
@@ -70,6 +74,11 @@ sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.
 ```{r}
 # your answer here
+calc_age <- function(birthyear) {
+  return(2022-birthyear)
+}
+congress <- congress %>% 
+  mutate(age=calc_age(birthyear))
 ```
 <br/>
 
@@ -77,6 +86,15 @@ Note: functions used inside mutate accept single columns from the original dataf
 **5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `zip` column with `mutate`.**
 ```{r}
 # your answer here
+phone_to_area <- function(phone) {
+  return(substr(phone, 1, 3))
+}
+#congress <- 
+congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  mutate(area_code=phone_to_area(phone)) %>% 
+  select(phone, area_code) %>% 
+  head()
 ```
 <br/>
 
@@ -84,6 +102,13 @@ Note: functions used inside mutate accept single columns from the original dataf
 **6. Write a function that accepts a dataframe with the columns `birthdate` and `full_name`, and prints (using the `print` function) the names and ages of the `k` oldest *representatives* in congress (i.e. not including senators) using a "for loop". In this sense, `k` is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (`%>%`) to pass the dataframe directly to the function. Define your function such that you can use it like this: `congress %>% print_oldest(3)`.**
 ```{r}
 # your answer here
+g <- function(df, k=4) {
+  odf <- df %>% arrange(birthdate)
+  for (i in 1:k) {
+    print(paste(odf[i,'full_name'], 2022-odf[i,'birthyear']))
+  }
+}
+congress %>% g()
 ```
 <br/>
 
@@ -91,6 +116,18 @@ Note: functions used inside mutate accept single columns from the original dataf
 **7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)` (it should print the first 5 names and ages).**
 ```{r}
 # your answer here
+h <- function(df, k=5) {
+  if (k > 5) {
+    k <- 5
+  }
+  odf <- df %>% arrange(birthdate)
+  for (i in 1:k) {
+    print(paste(odf[i,'full_name'], 2022-odf[i,'birthyear']))
+  }
+}
+congress %>% h(2)
+print('---')
+congress %>% h(6)
 ```
 <br/>
 
