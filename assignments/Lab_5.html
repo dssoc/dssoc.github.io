@@ -212,15 +212,11 @@ bipartite network: </code></pre>
 3. </code></pre>
 <p><br /></p>
 <p><strong>3. For some of the following problems, we will be working with the <code>committee_memberships</code> dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?</strong></p>
-<<<<<<< HEAD
+<p>HINT: see the Lab Instructions page linked at the top of this assignment for more information about the <code>committees.Rdata</code> dataset.</p>
 <pre><code>Edge list format.
 unweighted: there are no weight values associted with each ege.
 directed: relationships point from congress members to committees and subcommittees.
 bipartite: nodes can be dived into two conceptually different groups: congress members and committees.</code></pre>
-=======
-<p>HINT: see the Lab Instructions page linked at the top of this assignment for more information about the <code>committees.Rdata</code> dataset.</p>
-<pre><code># Yor answer here or in text.</code></pre>
->>>>>>> d1916e8f6efd3164cab55ae0f1d46c3e1461c525
 <p><br /></p>
 <p><strong>4. Create a directed network connecting subcommittees to their parent committees and create a basic ggraph visualization to show this network using <code>layout = &#39;dendrogram&#39;</code>. This particular visualization should not include committee names. What can you tell from the plot, if anything?</strong></p>
 <p>HINT: you should only need to use the <code>subcommittees</code> dataframe for this problem.</p>
@@ -245,7 +241,6 @@ is_bipartite(g)</code></pre>
 <pre><code>## [1] TRUE</code></pre>
 <p><br /></p>
 <p><strong>6. Create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?</strong></p>
-<<<<<<< HEAD
 <pre class="r"><code># Your answer here
 A &lt;- g %&gt;% as_adjacency_matrix()
 p &lt;- graph_from_adjacency_matrix(A)
@@ -268,13 +263,6 @@ congress_attr &lt;- congress %&gt;%
 h &lt;- h %&gt;% set_vertex_attr(&#39;full_name&#39;, index=congress_attr$bioguide_id, value=congress_attr$full_name)
 h &lt;- h %&gt;% set_vertex_attr(&#39;party&#39;, index=congress_attr$bioguide_id, value=as.character(congress_attr$party))
 h &lt;- h %&gt;% set_vertex_attr(&#39;age&#39;, index=congress_attr$bioguide_id, value=congress_attr$age)</code></pre>
-=======
-<pre class="r"><code># Your answer here</code></pre>
-<pre><code>Your written answer here</code></pre>
-<p><br /></p>
-<p><strong>7. Starting with our bipartite network, we want to compute a network capturing the number of common committees each member of congress has with each other. To do this, we can use the <code>bipartite_projection</code> function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indicating the number of common members between each committee. In the congress member network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.</strong></p>
-<pre class="r"><code># Your answer here</code></pre>
->>>>>>> d1916e8f6efd3164cab55ae0f1d46c3e1461c525
 <p><br /></p>
 <p><strong>8. Make a visual of of the congress co-membership network where the node colors are based on the political party of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight &lt;= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.</strong></p>
 <p>Hint: see some available layouts <a href="https://www.data-imaginist.com/2017/ggraph-introduction-layouts/">here</a>.</p>
