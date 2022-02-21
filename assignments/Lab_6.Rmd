@@ -26,6 +26,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
 * [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
 * [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+* [Grouped, stacked and percent stacked barplot in ggplot2](https://www.r-graph-gallery.com/48-grouped-barplot-with-ggplot2.html)
 
 
 ```{r message=FALSE, echo=FALSE}
@@ -108,58 +109,69 @@ lim[, 1:4]
 <br/>
 
 
-**2.  Use the Twitter API to augment senator information with the number of friends and the number of statuses they have posted on Twitter.**
+**2. Use the Twitter API to augment Senator information with the number of followers and and the number of statuses they have posted on Twitter, and create a bar graph showing the average number of followers by political party. Save the joined dataframe for future problems.**
 
 Note: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment. I provided a new variable `senators` where this filter has already been applied.
+NOTE: we don't need to get the actual lists of followers or Tweets - we just need the *number* of followers and tweets (i.e. **do not try to use `get_followers`**). You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use.
 
-Note: we don't need to get the actual lists of followers or Tweets - we just need the *number* of friends and tweets (i.e. **do not try to use `get_friends`**). You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use.
+NOTE: not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in `congress_contact` is actually out of date. For this question, we will request from Twitter all of the valid usernames in our `congress_contact` dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because `congress_contact` only contains the Twitter usernames instead of the unique `user_id` that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts. For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in `congress_contact`.
 
-Note: for various reasons, not all senators in our dataset have valid Twitter handles - we can ignore them for the purpose of this assignment.
+HINT: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment. I provided a new variable `senators` where this filter has already been applied.
 
-```{r}
-# Your answer here
-```
-<br/>
-
-**3. Calculate the average number of friends for each senator by political party. For instance, you should be able to say something of the form "Republicans have an average of X friends and Democrats have an average of Y friends. What conclusions can you draw from this result? What assumptions are needed to come to these conclusions?**
-```{r}
-# Your answer here
-```
-```
-written response here
-```
-<br/>
-
-**4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the number of statuses that each senator has posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
+HINT: you will first need to join the `congress_contact` dataframe to associate congress information with their Twitter handles.
 ```{r}
 # Write your answer here
 ```
+<br/>
 
-**5. Use the Twitter API to retrieve the last 10 Tweets from the 5 oldest male and female senators in our dataset, and merge it with the senator dataframe. Then create a violin or box plot showing the average number of favorites for Tweets by gender of the senator who published them.**
+**4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
+```{r}
+# Write your answer here
+```
+```
+Written response here.
+```
+<br/>
+
+
+**5. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by gender.**
+
+NOTE: see the note in question number 2 about Twitter usernames that have been changed.
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and generate a histogram showing the number of favorites those Tweets received.**
+**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and compute the average number of favorites those Tweets received.**
 
-Note: I originally downloaded the full set of tweet ids from  [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MBOJNS), but I created a subset of 500 Tweets which were loaded at the beginning of this markdown file, so you should NOT download the data externally.
+NOTE: see the Lab Instructions page for more details on this dataset.
 
-Note: these are NOT the same tweet ids as the tweets stored in `senator_tweets`, so you will need to collect them using the api.
+NOTE: these are NOT the same tweet ids as the tweets stored in `senator_tweet_sample`, so you will need to collect them using the api directly. Look for a function that can download status informtion directly from status ids.
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
+**7. Using the tweet data in `senator_tweet_sample`, create a single grouped bar plot that allows us to compare both favorites and retweet counts by gender.**
+
+HINT: See the suggested readings on this assignment for more information about grouped bar charts.
+
+HINT: You will want to average by bioguide_id first so that we have within-person averages, then average by gender. Otherwise the proportion of tweets from each person will make the result misleading.
+```{r}
+# Write your answer here
+```
+<br/>
+
+
+**8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
 ```
 Written answer here
 ```
 <br/>
 
-**8. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
+**9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
 ```
 # Your answer here
 ```

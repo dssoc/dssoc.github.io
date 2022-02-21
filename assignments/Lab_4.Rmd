@@ -69,9 +69,9 @@ f(sentence)
 <br/>
 
 
-**4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the `birthyear` column of the `congress` dataframe to create a new `age` column with `mutate`.**
+**4. Create your own function which accepts a birthyear vector and returns an approximate current age, then use it on the `birthyear` column of the `congress` dataframe to create a new `age` column with `mutate`. Then compute the average age of Male and Female congress members.**
 
-Note: functions used inside mutate accept single columns from the original dataframe and return a column or vector of the same size. This is a valuable tool for developing your workflow.
+Note: functions used inside mutate accept single columns from the original dataframe and should return a column or vector of the same size. This is a valuable tool for developing your data pipelines.
 ```{r}
 # your answer here
 calc_age <- function(birthyear) {
@@ -83,7 +83,7 @@ congress <- congress %>%
 <br/>
 
 
-**5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `zip` column with `mutate`.**
+**5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `area` column with `mutate`.**
 ```{r}
 # your answer here
 phone_to_area <- function(phone) {
@@ -113,7 +113,7 @@ congress %>% g()
 <br/>
 
 
-**7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)` (it should print the first 5 names and ages).**
+**7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)` (it should print ONLY the first 5 names and ages).**
 ```{r}
 # your answer here
 h <- function(df, k=5) {

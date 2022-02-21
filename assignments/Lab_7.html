@@ -177,6 +177,7 @@ pre code {
 <p><strong>Required reading:</strong></p>
 <ul>
 <li>R for Data Science: <a href="https://r4ds.had.co.nz/model-intro.html">Modeling (Chapters 23-25)</a></li>
+<li><a href="https://feliperego.github.io/blog/2015/10/23/Interpreting-Model-Output-In-R">Quick Guide: Interpreting Simple Linear Model Output in R</a></li>
 </ul>
 <p><strong>Optional reading:</strong></p>
 <p><br /></p>
@@ -186,10 +187,10 @@ pre code {
 <p><strong>1. In your own words, describe what statistical modeling means. When is it used? What does it allow data scientists to do?</strong></p>
 <pre><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>2. Create three new variables related to our congress dataset: (a) the age of the member, (b) the number of committees they are on, and (c) the percentage of instances where they hold a title in the committees they belong to (i.e. when the <code>title</code> entry in the committee membership dataframe is not empty). You will want to save these new variables for future problems. Then use the <code>summary</code> function to create summary statistics for these new variables.</strong></p>
+<p><strong>2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of subcommittees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the subcommittees they belong to (i.e. when the <code>title</code> entry in the <code>committee_membership</code> dataframe is not empty). You will want to save these new variables for future problems. Then use the <code>summary</code> function to create summary statistics for (ONLY) these new variables.</strong></p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Create a linear model predicting the number of committees that members belong to from <code>age</code>, then create a scatter plot with a linear trendline. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? </strong></p>
+<p><strong>3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of committees that members belong to from <code>age</code>. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? </strong></p>
 <p>Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <pre><code>written explanation here</code></pre>
@@ -200,15 +201,15 @@ pre code {
 <pre class="r"><code># Your answer here</code></pre>
 <pre><code>written explanation here</code></pre>
 <p><br /></p>
-<p><strong>5. Construct a model predicting the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?</strong></p>
-<p>Note: you may want to save the full model for the next question.</p>
+<p><strong>5. Following section <a href="https://r4ds.had.co.nz/model-building.html#a-more-complicated-model">24.2.2</a> of the R4DS required reading, construct a model using <code>lm</code> or <code>glm</code> to predict the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model <code>summary</code>, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?</strong></p>
+<p>HINT: see required readings for help interpreting regression models.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <pre><code>written explanation here</code></pre>
 <p><br /></p>
-<p><strong>6. Use the model from the previous question to make a scatter plot that includes prediction lines for BOTH F and M Democrats. That is, your plot should include two prediction lines - one for M and one for F, and the visualization (not the model) should only include democrats. This is important because our original model included information about all the variables, but we mainly want to visualize a single relationship, and how it might differ by gender. How do you interpret this plot?</strong></p>
-<p>Hint: you may need to follow the examples in the R4DS modeling section for this (see required readings) - see the <code>modelr</code> package.</p>
+<p><strong>6. Following that same R4DS section, use <code>data_grid</code> to create a dataframe where <code>age</code> and <code>gender</code> vary and political party is held constant, and then use <code>add_predictions</code> to make a new column for predictions based on our model. Using that dataframe, make a plot showing model predictions from age with separate lines for the two genders. How do you interpret this plot?</strong></p>
+<p>HINT: check the arguments for <code>data_grid</code> to specify which variables to vary and which to hold constant. You’ll likely want to use the <code>.model</code> argument.</p>
 <pre class="r"><code># Your answer here</code></pre>
-<pre><code># Your answer here</code></pre>
+<pre><code>Your answer here</code></pre>
 <p><br /></p>
 <p><strong>7. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?</strong></p>
 <pre><code># Your answer here</code></pre>

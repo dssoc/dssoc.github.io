@@ -80,7 +80,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -109,8 +109,8 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 11:59PM)</i></p>
-<!--<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 11:59PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (Due on Jan 22 by 5PM)</i></p>
+<!--<p><i><b>Lab #1: R Basics</b> (Due on Jan 22 by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: R Basics</b></i> 
 
@@ -145,7 +145,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Do our Platforms Push us Apart?
 
@@ -166,8 +166,8 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 11:59PM)</i></p>
-<!--<p><i><b>Lab #2: Data Wrangling</b> (Due on Jan 29 by 11:59PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (Due on Jan 29 by 5PM)</i></p>
+<!--<p><i><b>Lab #2: Data Wrangling</b> (Due on Jan 29 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data "Wrangling"</b></i> 
 
@@ -205,7 +205,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -233,8 +233,8 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 11:59PM)</i></p>
-<!--<p><i><b>Lab #3: Data Visualization</b> (Due on Feb 5 by 11:59PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (Due on Feb 5 by 5PM)</i></p>
+<!--<p><i><b>Lab #3: Data Visualization</b> (Due on Feb 5 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data Visualization</b></i> 
 
@@ -286,7 +286,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### The Hidden Influence of Social Networks
 
@@ -306,8 +306,8 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 12 by 11:59PM)</i></p>
-<!--<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 12 by 11:59PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (Due on Feb 14 by 5PM)</i></p>
+<!--<p><i><b>Lab #4: Programming Basics</b> (Due on Feb 14 by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Programming</b></i> 
 
@@ -336,7 +336,7 @@ allowfullscreen></iframe>
 <ul>
 <li>R for Data Science: <a href = "https://r4ds.had.co.nz/program-intro.html">Basic Programming (17 -21)</a></li></ul><br/>-->
 
-<!--<i>Assignment (Due by 11:59PM 10/19):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
+<!--<i>Assignment (Due by 5PM 10/19):</i><br/> Submit your .Rmd for the following exercises by midnight on Friday<br/>
 <code>Lab 3 Exercises - Basic Programming</code> (<a href = "https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/dssoc/dssoc.github.io/blob/master/assignments/DSS_Lab3_BasicProgramming.Rmd">.Rmd</a>) (<a href = "https://htmlpreview.github.io/?https://raw.githubusercontent.com/dssoc/dssoc.github.io/master/assignments/DSS_Lab3_BasicProgramming.html">.html</a>)<br/><br/>
 
 For these excercises, you will need the following datasets:<br/>
@@ -360,7 +360,7 @@ For these excercises, you will need the following datasets:<br/>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -387,8 +387,8 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 19 by 11:59PM)</i></p>
-<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 19 by 11:59PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due on Feb 21 by 5PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due on Feb 21 by 5PM)</i></p>-->
 
 
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 
@@ -432,7 +432,7 @@ Katya Ognyanova</a></li>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
@@ -452,8 +452,8 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 26 by 11:59PM)</i></p>-->
-<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 26 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (Due on Feb 28 by 5PM)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (Due on Feb 28 by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 
@@ -489,7 +489,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -525,8 +525,8 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 5 by 11:59PM)</i></p>-->
-<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 5 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>
+<!--<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>-->
 
 
 <i><b>Lab Video Lecture: Modeling</b></i> 
@@ -564,7 +564,7 @@ No class. Enjoy your break!
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Using Google Search to Track Radicalization
 
@@ -588,8 +588,8 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<!--<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 19 by 11:59PM)</i></p>-->
-<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 19 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (Due on Mar 21 by 5PM)</i></p>
+<!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (Due on Mar 21 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
@@ -633,7 +633,7 @@ allowfullscreen></iframe>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 Discussion questions for this week:
 
@@ -662,8 +662,8 @@ allowfullscreen></iframe>
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 26 by 11:59PM)</i></p>-->
-<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 26 by 11:59PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (Due on Mar 28 by 5PM)</i></p>
+<!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (Due on Mar 28 by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
 
@@ -700,7 +700,7 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Saturday**: Lab due by 11:59PM
+**Following Monday**: Lab due by 5PM
 
 #### Online Social Change (Zeynep Tufekci)
 
@@ -724,8 +724,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 2 by 11:59PM)</i></p>-->
-<p><i><b>Lab #10: Topic Modeling</b> (Due on April 2 by 11:59PM)</i></p>
+<!--<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (Due on April 4 by 5PM)</i></p>-->
+<p><i><b>Lab #10: Topic Modeling</b> (Due on April 4 by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Topic modeling</b></i> 
 

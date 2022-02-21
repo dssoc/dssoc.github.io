@@ -212,6 +212,7 @@ congress %&gt;%
 ## 3  sen      F  24
 ## 4  sen      M  76</code></pre>
 <p><br /></p>
+<<<<<<< HEAD
 <p><strong>3. Identify the oldest and youngest female senator democrats using only R code.</strong></p>
 <pre class="r"><code># your answer here
 congress %&gt;% 
@@ -230,6 +231,15 @@ congress %&gt;%
   filter(party==&#39;Democrat&#39;, type==&#39;sen&#39;, age &gt; 60) %&gt;% 
   nrow()</code></pre>
 <pre><code>## [1] 32</code></pre>
+=======
+<p><strong>3. Create a dataframe showing the oldest and youngest female senator democrats using only R code.</strong></p>
+<p>HINT: check out the <code>slice()</code> function.</p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
+<p>Note: For this and all future questions this semester, you can approximate age using the formula <code>age = 2022-birthyear</code> (or replace 2022 with the current year).</p>
+<pre class="r"><code># your answer here</code></pre>
+>>>>>>> d1916e8f6efd3164cab55ae0f1d46c3e1461c525
 <p><br /></p>
 <p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.</strong></p>
 <p>Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females 55 and under, number of males 55 and under.</p>

@@ -71,8 +71,9 @@ congress %>%
 ```
 <br/>
 
-**3. Identify the oldest and youngest female senator democrats using only R code.**
+**3. Create a dataframe showing the oldest and youngest female senator democrats using only R code.**
 
+HINT: check out the `slice()` function.
 ```{r}
 # your answer here
 congress %>% 
@@ -84,7 +85,7 @@ congress %>%
 
 **4. Using `mutate`, create a new variable called `age` which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?**
 
-Note: you can approximate age using the formula `age = 2022-birthyear`.
+Note: For this and all future questions this semester, you can approximate age using the formula `age = 2022-birthyear` (or replace 2022 with the current year).
 ```{r}
 # your answer here
 congress %>% 

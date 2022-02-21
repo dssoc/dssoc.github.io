@@ -33,11 +33,11 @@ This is a list of all Labs and their associated markdown files:
 3. [Data Wrangling](/assignments/Lab_3.html) ([markdown](/assignments/Lab_3.Rmd))
 4. [Programming Basics](/assignments/Lab_4.html) ([markdown](/assignments/Lab_4.Rmd))
 5. [Coding Social Networks](/assignments/Lab_5.html) ([markdown](/assignments/Lab_5.Rmd))
-<!--
 6. [Working with APIs](/assignments/Lab_6.html) ([markdown](/assignments/Lab_6.Rmd))
 7. [Modeling (A Brief Introduction)](/assignments/Lab_7.html) ([markdown](/assignments/Lab_7.Rmd))
 8. [Introduction to text analysis](/assignments/Lab_8.html) ([markdown](/assignments/Lab_8.Rmd))
 9. [Word counts and Dictionaries](/assignments/Lab_9.html) ([markdown](/assignments/Lab_9.Rmd))
+<!--
 10. [Topic Modeling](/assignments/Lab_10.html) ([markdown](/assignments/Lab_10.Rmd))
 -->
 
@@ -57,7 +57,7 @@ Now I will describe the datasets we will use for the class. We will use a total 
 
 This dataset contains information about each member of congress that was in-office as of January 11, 2021 and their committee memberships. It was retrieved from the `congress-current.csv` file of the [congress-legislators repository](https://github.com/unitedstates/congress-legislators), a database "maintained through a combination of manual edits by volunteers (from GovTrack, ProPublica, MapLight, FiveThirtyEight, and others) and automated imports from a variety of sources." From this source we use the `legislators-current` dataset.
 
-You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the `load()` function to that file on your computer, but please use this line so your code is easily reproducible on any computer.
+You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the `load()` function to that file on your computer, but please use this line so your code is easily reproducible on any computer for grading purposes.
 
 ```{r}
 load(url('https://dssoc.github.io/datasets/congress.RData'))
@@ -76,6 +76,50 @@ Each row in this dataframe corresponds to a member of congress. type, party, and
 congress %>% summary()
 congress %>% head()
 ```
+Here are some important notes about some of the columns:
+
+
+#### What is `bioguide_id`?
+
+This is a unique identifier for each member of congress. You will want to use this for data merging or other tasks that require unique identifiers because there is always the possibility that two congress members will have the same full name. You can find more information on [congress.gov](https://www.congress.gov/help/field-values/member-bioguide-ids).
+
+```{r}
+congress %>% 
+  select(bioguide_id, full_name) %>% 
+  head()
+```
+
+
+#### Senators VS Representatives
+
+In United States politics, members of congress are divided into two groups: senators and representatives. This information is stored in the `type` column. To get only senators, you can use `type == 'sen'` and to get representatives you can use `type == 'rep'`
+
+```{r}
+congress %>% 
+  count(type)
+```
+
+#### Political Parties
+
+In United States politics, there are currently three political parties represented in congress: Democrats, Republicans, and Independents. Note that there are far fewer Independents than other members of congress. For some problems, you will be asked to filter out Independents.
+
+```{r}
+congress %>% 
+  count(party)
+```
+#### Birthdate and Date Columns
+
+For convenience, I have parsed the birthdate data into a `date` type. You can use the `lubridate` package to create new variables from a `date` column. Here I show how to get the name of the month associated with each birthdate.
+
+```{r}
+library(lubridate)
+congress %>% 
+  mutate(month=month(birthdate, label=TRUE)) %>% 
+  select(full_name, month) %>% 
+  head()
+```
+
+
 
 ### `congress_contact` Dataframe
 
@@ -98,7 +142,7 @@ This dataset was obtained from the `committees-current` and `committee-membershi
 
 + `committees`: a list of committees and descriptions of their jurisdictions. The `thomas_id` column is a unique reference to that committee.
 + `subcommittees`: a list of subcommittees and their parent committee.
-+ `committee_membership`: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee
++ `committee_membership`: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee, not both.
 
 ### committees
 
@@ -116,7 +160,7 @@ subcommittees %>% head()
 
 ### `committee_memberships`
 
-This dataframe is a little trickier to work with than the other two because it links senators to BOTH committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to count the committee membership count of each member of congress, we wouldn't want to count both committees and subcommittees together. I'll show how to work with these multiple levels below.
+This dataframe is a little trickier to work with than the other two because it links senators to BOTH full committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to get the number of full committees that congress members belong to, we wouldn't want to count both committees and subcommittees together. I'll show how to work with these multiple levels below.
 
 The columns are fairly straightforward. `thomas_id` is a unique reference to the committee or subcommittee, and `bioguide_id` is a reference to the member of congress. `party`, `rank`, and `title` give more information about the particular kinds of relationship.
 ```{r}
@@ -124,18 +168,27 @@ committee_memberships %>% summary()
 committee_memberships %>% head()
 ```
 
-If for instance, we wanted to get information about committees only, we'd join the `congress` dataframe with the `committees` dataframe.
+If for instance, we wanted to get information about full committees only, we'd join the `congress` dataframe with the `committees` dataframe. This will filter out all rows of `committee_memberships` that are not associated with a full committee.
 
 ```{r}
-committees %>% 
+full_committee_memberships <- committees %>% 
   inner_join(committee_memberships, on=thomas_id)
+
+full_committee_memberships %>% head()
+full_committee_memberships %>% summary()
 ```
-And the same for `subcommittees`.
+
+This will filter out all rows of `committee_memberships` that are not associated with a subcommittee.
 
 ```{r}
-subcommittees %>% 
+subcommittee_memberships <- subcommittees %>% 
   inner_join(committee_memberships, on=thomas_id)
+
+subcommittee_memberships %>% head()
+subcommittee_memberships %>% summary()
 ```
+
+You will likely need to use these code snippets for some assignment problems.
 
 
 ## The `senator_tweets.RData` Dataset
@@ -148,16 +201,23 @@ Use this code to load the dataset:
 load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
 ```
 
-I manually collected this dataset using `rtweet`. It includes two variables:
+To collect this data, I began with a large list of status ids from [this page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UIVHQR).
 
-+ `senator_tweet_ids`: ids of tweets that we can download from Twitter.
-+ `senator_tweets`: example tweets from senators.
++ `senator_tweet_ids`: random sample of 500 status ids. You can request the data from Twitter using `rtweet::lookup_tweets`.
++ `senator_tweet_sample`: random sample of 500 tweets from the full dataset collected using `rtweet::lookup_tweets`. Sample is different from `senator_status_ids`.
 
 ```{r}
-#senator_tweet_ids %>% summary()
-#senator_tweet_ids %>% head()
+senator_tweet_ids %>% head()
+senator_tweet_sample %>% summary()
+senator_tweet_sample %>% head()
 ```
 
+As you can see from this output, the `status_id`s of the full tweets and just the ids is entirely disjoint. They are sampled from the same full set of `status_id`s though.
+
+```{r}
+senator_tweet_sample$status_id %>% setdiff(senator_tweet_ids) %>% length()
+senator_tweet_ids %>% setdiff(senator_tweet_sample$status_id) %>% length()
+```
 
 ## The `congress_wiki.RData` Dataset
 

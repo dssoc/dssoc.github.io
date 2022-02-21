@@ -187,11 +187,11 @@ pre code {
 <li><a href="/assignments/Lab_2.html">Data Visualization</a> (<a href="/assignments/Lab_2.Rmd">markdown</a>)</li>
 <li><a href="/assignments/Lab_3.html">Data Wrangling</a> (<a href="/assignments/Lab_3.Rmd">markdown</a>)</li>
 <li><a href="/assignments/Lab_4.html">Programming Basics</a> (<a href="/assignments/Lab_4.Rmd">markdown</a>)</li>
-<li><a href="/assignments/Lab_5.html">Coding Social Networks</a> (<a href="/assignments/Lab_5.Rmd">markdown</a>) <!--
-6. [Working with APIs](/assignments/Lab_6.html) ([markdown](/assignments/Lab_6.Rmd))
-7. [Modeling (A Brief Introduction)](/assignments/Lab_7.html) ([markdown](/assignments/Lab_7.Rmd))
-8. [Introduction to text analysis](/assignments/Lab_8.html) ([markdown](/assignments/Lab_8.Rmd))
-9. [Word counts and Dictionaries](/assignments/Lab_9.html) ([markdown](/assignments/Lab_9.Rmd))
+<li><a href="/assignments/Lab_5.html">Coding Social Networks</a> (<a href="/assignments/Lab_5.Rmd">markdown</a>)</li>
+<li><a href="/assignments/Lab_6.html">Working with APIs</a> (<a href="/assignments/Lab_6.Rmd">markdown</a>)</li>
+<li><a href="/assignments/Lab_7.html">Modeling (A Brief Introduction)</a> (<a href="/assignments/Lab_7.Rmd">markdown</a>)</li>
+<li><a href="/assignments/Lab_8.html">Introduction to text analysis</a> (<a href="/assignments/Lab_8.Rmd">markdown</a>)</li>
+<li><a href="/assignments/Lab_9.html">Word counts and Dictionaries</a> (<a href="/assignments/Lab_9.Rmd">markdown</a>) <!--
 10. [Topic Modeling](/assignments/Lab_10.html) ([markdown](/assignments/Lab_10.Rmd))
 --></li>
 </ol>
@@ -209,7 +209,7 @@ pre code {
 <h2>The <code>congress.RData</code> Dataset</h2>
 <p><a href="https://dssoc.github.io/datasets/congress.RData">Download congress.RData</a></p>
 <p>This dataset contains information about each member of congress that was in-office as of January 11, 2021 and their committee memberships. It was retrieved from the <code>congress-current.csv</code> file of the <a href="https://github.com/unitedstates/congress-legislators">congress-legislators repository</a>, a database “maintained through a combination of manual edits by volunteers (from GovTrack, ProPublica, MapLight, FiveThirtyEight, and others) and automated imports from a variety of sources.” From this source we use the <code>legislators-current</code> dataset.</p>
-<p>You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the <code>load()</code> function to that file on your computer, but please use this line so your code is easily reproducible on any computer.</p>
+<p>You will use this line of code to download the Rdata file from the course website and open it directly in RStudio. In theory, you could also download the file and point the <code>load()</code> function to that file on your computer, but please use this line so your code is easily reproducible on any computer for grading purposes.</p>
 <pre class="r"><code>load(url(&#39;https://dssoc.github.io/datasets/congress.RData&#39;))</code></pre>
 <p>This dataset consists of two different variables:</p>
 <ul>
@@ -249,6 +249,61 @@ pre code {
 ## 4      1947
 ## 5      1960
 ## 6      1933</code></pre>
+<p>Here are some important notes about some of the columns:</p>
+<div id="what-is-bioguide_id" class="section level4">
+<h4>What is <code>bioguide_id</code>?</h4>
+<p>This is a unique identifier for each member of congress. You will want to use this for data merging or other tasks that require unique identifiers because there is always the possibility that two congress members will have the same full name. You can find more information on <a href="https://www.congress.gov/help/field-values/member-bioguide-ids">congress.gov</a>.</p>
+<pre class="r"><code>congress %&gt;% 
+  select(bioguide_id, full_name) %&gt;% 
+  head()</code></pre>
+<pre><code>##   bioguide_id            full_name
+## 1     B000944        Sherrod Brown
+## 2     C000127       Maria Cantwell
+## 3     C000141   Benjamin L. Cardin
+## 4     C000174     Thomas R. Carper
+## 5     C001070 Robert P. Casey, Jr.
+## 6     F000062     Dianne Feinstein</code></pre>
+</div>
+<div id="senators-vs-representatives" class="section level4">
+<h4>Senators VS Representatives</h4>
+<p>In United States politics, members of congress are divided into two groups: senators and representatives. This information is stored in the <code>type</code> column. To get only senators, you can use <code>type == &#39;sen&#39;</code> and to get representatives you can use <code>type == &#39;rep&#39;</code></p>
+<pre class="r"><code>congress %&gt;% 
+  count(type)</code></pre>
+<pre><code>##   type   n
+## 1  rep 439
+## 2  sen 100</code></pre>
+</div>
+<div id="political-parties" class="section level4">
+<h4>Political Parties</h4>
+<p>In United States politics, there are currently three political parties represented in congress: Democrats, Republicans, and Independents. Note that there are far fewer Independents than other members of congress. For some problems, you will be asked to filter out Independents.</p>
+<pre class="r"><code>congress %&gt;% 
+  count(party)</code></pre>
+<pre><code>##         party   n
+## 1    Democrat 273
+## 2 Independent   2
+## 3  Republican 264</code></pre>
+</div>
+<div id="birthdate-and-date-columns" class="section level4">
+<h4>Birthdate and Date Columns</h4>
+<p>For convenience, I have parsed the birthdate data into a <code>date</code> type. You can use the <code>lubridate</code> package to create new variables from a <code>date</code> column. Here I show how to get the name of the month associated with each birthdate.</p>
+<pre class="r"><code>library(lubridate)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;lubridate&#39;</code></pre>
+<pre><code>## The following objects are masked from &#39;package:base&#39;:
+## 
+##     date, intersect, setdiff, union</code></pre>
+<pre class="r"><code>congress %&gt;% 
+  mutate(month=month(birthdate, label=TRUE)) %&gt;% 
+  select(full_name, month) %&gt;% 
+  head()</code></pre>
+<pre><code>##              full_name month
+## 1        Sherrod Brown   Nov
+## 2       Maria Cantwell   Oct
+## 3   Benjamin L. Cardin   Oct
+## 4     Thomas R. Carper   Jan
+## 5 Robert P. Casey, Jr.   Apr
+## 6     Dianne Feinstein   Jun</code></pre>
+</div>
 </div>
 <div id="congress_contact-dataframe" class="section level3">
 <h3><code>congress_contact</code> Dataframe</h3>
@@ -287,7 +342,7 @@ pre code {
 <ul>
 <li><code>committees</code>: a list of committees and descriptions of their jurisdictions. The <code>thomas_id</code> column is a unique reference to that committee.</li>
 <li><code>subcommittees</code>: a list of subcommittees and their parent committee.</li>
-<li><code>committee_membership</code>: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee</li>
+<li><code>committee_membership</code>: committee and subcommittee membership for each member of congress. Note that each row corresponds to a membership to either a committee or a subcommittee, not both.</li>
 </ul>
 <div id="committees" class="section level3">
 <h3>committees</h3>
@@ -327,7 +382,7 @@ pre code {
 </div>
 <div id="committee_memberships" class="section level3">
 <h3><code>committee_memberships</code></h3>
-<p>This dataframe is a little trickier to work with than the other two because it links senators to BOTH committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to count the committee membership count of each member of congress, we wouldn’t want to count both committees and subcommittees together. I’ll show how to work with these multiple levels below.</p>
+<p>This dataframe is a little trickier to work with than the other two because it links senators to BOTH full committees and subcommittees. Because subcommittees are already nested within committees, it can present some challenges. For instance, if we want to get the number of full committees that congress members belong to, we wouldn’t want to count both committees and subcommittees together. I’ll show how to work with these multiple levels below.</p>
 <p>The columns are fairly straightforward. <code>thomas_id</code> is a unique reference to the committee or subcommittee, and <code>bioguide_id</code> is a reference to the member of congress. <code>party</code>, <code>rank</code>, and <code>title</code> give more information about the particular kinds of relationship.</p>
 <pre class="r"><code>committee_memberships %&gt;% summary()</code></pre>
 <pre><code>##   thomas_id         bioguide_id             party           rank       
@@ -354,42 +409,65 @@ pre code {
 ## 4 SSAF      K000367     majority     4 &lt;NA&gt;    
 ## 5 SSAF      B001267     majority     5 &lt;NA&gt;    
 ## 6 SSAF      G000555     majority     6 &lt;NA&gt;</code></pre>
-<p>If for instance, we wanted to get information about committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe.</p>
-<pre class="r"><code>committees %&gt;% 
+<p>If for instance, we wanted to get information about full committees only, we’d join the <code>congress</code> dataframe with the <code>committees</code> dataframe. This will filter out all rows of <code>committee_memberships</code> that are not associated with a full committee.</p>
+<pre class="r"><code>full_committee_memberships &lt;- committees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
-<pre><code>## # A tibble: 1,393 × 8
-##    thomas_id name      type  jurisdiction         bioguide_id party  rank title 
-##    &lt;chr&gt;     &lt;chr&gt;     &lt;fct&gt; &lt;chr&gt;                &lt;chr&gt;       &lt;fct&gt; &lt;int&gt; &lt;chr&gt; 
-##  1 HSAG      House Co… house The House Committee… S001157     majo…     1 Chair 
-##  2 HSAG      House Co… house The House Committee… T000467     mino…     1 Ranki…
-##  3 HSAG      House Co… house The House Committee… C001059     majo…     2 &lt;NA&gt;  
-##  4 HSAG      House Co… house The House Committee… S001189     mino…     2 &lt;NA&gt;  
-##  5 HSAG      House Co… house The House Committee… M000312     majo…     3 &lt;NA&gt;  
-##  6 HSAG      House Co… house The House Committee… C001087     mino…     3 &lt;NA&gt;  
-##  7 HSAG      House Co… house The House Committee… V000132     majo…     4 &lt;NA&gt;  
-##  8 HSAG      House Co… house The House Committee… D000616     mino…     4 &lt;NA&gt;  
-##  9 HSAG      House Co… house The House Committee… A000370     majo…     5 Vice …
-## 10 HSAG      House Co… house The House Committee… H001053     mino…     5 &lt;NA&gt;  
-## # … with 1,383 more rows</code></pre>
-<p>And the same for <code>subcommittees</code>.</p>
-<pre class="r"><code>subcommittees %&gt;% 
+<pre class="r"><code>full_committee_memberships %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 8
+##   thomas_id name      type  jurisdiction          bioguide_id party  rank title 
+##   &lt;chr&gt;     &lt;chr&gt;     &lt;fct&gt; &lt;chr&gt;                 &lt;chr&gt;       &lt;fct&gt; &lt;int&gt; &lt;chr&gt; 
+## 1 HSAG      House Co… house The House Committee … S001157     majo…     1 Chair 
+## 2 HSAG      House Co… house The House Committee … T000467     mino…     1 Ranki…
+## 3 HSAG      House Co… house The House Committee … C001059     majo…     2 &lt;NA&gt;  
+## 4 HSAG      House Co… house The House Committee … S001189     mino…     2 &lt;NA&gt;  
+## 5 HSAG      House Co… house The House Committee … M000312     majo…     3 &lt;NA&gt;  
+## 6 HSAG      House Co… house The House Committee … C001087     mino…     3 &lt;NA&gt;</code></pre>
+<pre class="r"><code>full_committee_memberships %&gt;% summary()</code></pre>
+<pre><code>##   thomas_id             name               type     jurisdiction      
+##  Length:1393        Length:1393        house :919   Length:1393       
+##  Class :character   Class :character   joint : 59   Class :character  
+##  Mode  :character   Mode  :character   senate:415   Mode  :character  
+##                                                                       
+##                                                                       
+##                                                                       
+##  bioguide_id             party          rank           title          
+##  Length:1393        majority:754   Min.   : 1.000   Length:1393       
+##  Class :character   minority:639   1st Qu.: 4.000   Class :character  
+##  Mode  :character                  Median : 8.000   Mode  :character  
+##                                    Mean   : 9.772                     
+##                                    3rd Qu.:14.000                     
+##                                    Max.   :37.000</code></pre>
+<p>This will filter out all rows of <code>committee_memberships</code> that are not associated with a subcommittee.</p>
+<pre class="r"><code>subcommittee_memberships &lt;- subcommittees %&gt;% 
   inner_join(committee_memberships, on=thomas_id)</code></pre>
 <pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
-<pre><code>## # A tibble: 2,616 × 7
-##    thomas_id committee_thomas_id name          bioguide_id party   rank title   
-##    &lt;chr&gt;     &lt;chr&gt;               &lt;chr&gt;         &lt;chr&gt;       &lt;fct&gt;  &lt;int&gt; &lt;chr&gt;   
-##  1 HSAG15    HSAG                Conservation… S001209     major…     1 Chair   
-##  2 HSAG15    HSAG                Conservation… L000578     minor…     1 Ranking…
-##  3 HSAG15    HSAG                Conservation… V000132     major…     2 &lt;NA&gt;    
-##  4 HSAG15    HSAG                Conservation… D000616     minor…     2 &lt;NA&gt;    
-##  5 HSAG15    HSAG                Conservation… P000597     major…     3 &lt;NA&gt;    
-##  6 HSAG15    HSAG                Conservation… A000372     minor…     3 &lt;NA&gt;    
-##  7 HSAG15    HSAG                Conservation… K000382     major…     4 &lt;NA&gt;    
-##  8 HSAG15    HSAG                Conservation… K000388     minor…     4 &lt;NA&gt;    
-##  9 HSAG15    HSAG                Conservation… O000171     major…     5 &lt;NA&gt;    
-## 10 HSAG15    HSAG                Conservation… J000301     minor…     5 &lt;NA&gt;    
-## # … with 2,606 more rows</code></pre>
+<pre class="r"><code>subcommittee_memberships %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 7
+##   thomas_id committee_thomas_id name           bioguide_id party   rank title   
+##   &lt;chr&gt;     &lt;chr&gt;               &lt;chr&gt;          &lt;chr&gt;       &lt;fct&gt;  &lt;int&gt; &lt;chr&gt;   
+## 1 HSAG15    HSAG                Conservation … S001209     major…     1 Chair   
+## 2 HSAG15    HSAG                Conservation … L000578     minor…     1 Ranking…
+## 3 HSAG15    HSAG                Conservation … V000132     major…     2 &lt;NA&gt;    
+## 4 HSAG15    HSAG                Conservation … D000616     minor…     2 &lt;NA&gt;    
+## 5 HSAG15    HSAG                Conservation … P000597     major…     3 &lt;NA&gt;    
+## 6 HSAG15    HSAG                Conservation … A000372     minor…     3 &lt;NA&gt;</code></pre>
+<pre class="r"><code>subcommittee_memberships %&gt;% summary()</code></pre>
+<pre><code>##   thomas_id         committee_thomas_id     name           bioguide_id       
+##  Length:2616        Length:2616         Length:2616        Length:2616       
+##  Class :character   Class :character    Class :character   Class :character  
+##  Mode  :character   Mode  :character    Mode  :character   Mode  :character  
+##                                                                              
+##                                                                              
+##                                                                              
+##       party           rank           title          
+##  majority:1414   Min.   : 1.000   Length:2616       
+##  minority:1202   1st Qu.: 2.000   Class :character  
+##                  Median : 4.000   Mode  :character  
+##                  Mean   : 4.992                     
+##                  3rd Qu.: 7.000                     
+##                  Max.   :31.000</code></pre>
+<p>You will likely need to use these code snippets for some assignment problems.</p>
 </div>
 </div>
 <div id="the-senator_tweets.rdata-dataset" class="section level2">
@@ -397,13 +475,56 @@ pre code {
 <p><a href="https://dssoc.github.io/datasets/senator_tweets.RData">Download senator_tweets.RData</a></p>
 <p>Use this code to load the dataset:</p>
 <pre class="r"><code>load(url(&#39;https://dssoc.github.io/datasets/senator_tweets.RData&#39;))</code></pre>
-<p>I manually collected this dataset using <code>rtweet</code>. It includes two variables:</p>
+<p>To collect this data, I began with a large list of status ids from <a href="https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UIVHQR">this page</a>.</p>
 <ul>
-<li><code>senator_tweet_ids</code>: ids of tweets that we can download from Twitter.</li>
-<li><code>senator_tweets</code>: example tweets from senators.</li>
+<li><code>senator_tweet_ids</code>: random sample of 500 status ids. You can request the data from Twitter using <code>rtweet::lookup_tweets</code>.</li>
+<li><code>senator_tweet_sample</code>: random sample of 500 tweets from the full dataset collected using <code>rtweet::lookup_tweets</code>. Sample is different from <code>senator_status_ids</code>.</li>
 </ul>
-<pre class="r"><code>#senator_tweet_ids %&gt;% summary()
-#senator_tweet_ids %&gt;% head()</code></pre>
+<pre class="r"><code>senator_tweet_ids %&gt;% head()</code></pre>
+<pre><code>## [1] &quot;854445556172812289&quot; &quot;791376840506109952&quot; &quot;608357214835904512&quot;
+## [4] &quot;621005601385148416&quot; &quot;951479956646842368&quot; &quot;595705214264565760&quot;</code></pre>
+<pre class="r"><code>senator_tweet_sample %&gt;% summary()</code></pre>
+<pre><code>##   status_id           user_id          screen_name       
+##  Length:990         Length:990         Length:990        
+##  Class :character   Class :character   Class :character  
+##  Mode  :character   Mode  :character   Mode  :character  
+##                                                          
+##                                                          
+##                                                          
+##                                                          
+##    created_at                   is_quote       is_retweet     
+##  Min.   :2008-09-04 19:05:07   Mode :logical   Mode :logical  
+##  1st Qu.:2015-07-01 01:55:14   FALSE:941       FALSE:830      
+##  Median :2016-11-22 05:01:15   TRUE :49        TRUE :160      
+##  Mean   :2016-06-28 19:24:19                                  
+##  3rd Qu.:2017-11-03 08:37:29                                  
+##  Max.   :2018-12-31 22:15:00                                  
+##                                                               
+##  favorite_count    retweet_count    reply_count 
+##  Min.   :    0.0   Min.   :    0   Min.   : NA  
+##  1st Qu.:    1.0   1st Qu.:    3   1st Qu.: NA  
+##  Median :    7.0   Median :    8   Median : NA  
+##  Mean   :  241.2   Mean   :  128   Mean   :NaN  
+##  3rd Qu.:   55.0   3rd Qu.:   35   3rd Qu.: NA  
+##  Max.   :29597.0   Max.   :10847   Max.   : NA  
+##                                    NA&#39;s   :990</code></pre>
+<pre class="r"><code>senator_tweet_sample %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 9
+##   status_id     user_id     screen_name  created_at          is_quote is_retweet
+##   &lt;chr&gt;         &lt;chr&gt;       &lt;chr&gt;        &lt;dttm&gt;              &lt;lgl&gt;    &lt;lgl&gt;     
+## 1 100407438551… 8166832740… SenJohnKenn… 2018-06-05 18:56:02 FALSE    TRUE      
+## 2 104786755483… 8166832740… SenJohnKenn… 2018-10-04 15:14:28 FALSE    TRUE      
+## 3 705130367318… 202206694   SenJohnBarr… 2016-03-02 20:39:14 FALSE    FALSE     
+## 4 397488749161… 202206694   SenJohnBarr… 2013-11-04 22:21:17 FALSE    FALSE     
+## 5 185730658071… 202206694   SenJohnBarr… 2012-03-30 14:10:14 FALSE    FALSE     
+## 6 106922351601… 202206694   SenJohnBarr… 2018-12-02 13:35:26 FALSE    FALSE     
+## # … with 3 more variables: favorite_count &lt;int&gt;, retweet_count &lt;int&gt;,
+## #   reply_count &lt;int&gt;</code></pre>
+<p>As you can see from this output, the <code>status_id</code>s of the full tweets and just the ids is entirely disjoint. They are sampled from the same full set of <code>status_id</code>s though.</p>
+<pre class="r"><code>senator_tweet_sample$status_id %&gt;% setdiff(senator_tweet_ids) %&gt;% length()</code></pre>
+<pre><code>## [1] 990</code></pre>
+<pre class="r"><code>senator_tweet_ids %&gt;% setdiff(senator_tweet_sample$status_id) %&gt;% length()</code></pre>
+<pre><code>## [1] 500</code></pre>
 </div>
 <div id="the-congress_wiki.rdata-dataset" class="section level2">
 <h2>The <code>congress_wiki.RData</code> Dataset</h2>

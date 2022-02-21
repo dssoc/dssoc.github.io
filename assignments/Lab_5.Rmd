@@ -22,6 +22,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 * [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
 
 * [`igraph` Tutorial](https://igraph.org/python/doc/tutorial/tutorial.html)
+* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838)
 * [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
 * [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
 Katya Ognyanova](https://kateto.net/networks-r-igraph)
@@ -42,6 +43,7 @@ library(ggraph)
 library(tidyverse)
 library(ggplot2)
 
+load(url('https://dssoc.github.io/datasets/committees.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
@@ -77,6 +79,8 @@ bipartite network:
 <br/>
 
 **3. For some of the following problems, we will be working with the `committee_memberships` dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
+
+HINT: see the Lab Instructions page linked at the top of this assignment for more information about the `committees.Rdata` dataset.
 ```
 Edge list format.
 unweighted: there are no weight values associted with each ege.
@@ -103,7 +107,7 @@ Pretty hard to interpret, so not that useful. We may, at most, be able to estima
 
 **5. Create a bipartite network representing links between members of congress and the subcommittees they are associated with. Keep this graph for future problems.**
 
-HINT: you can create a bipartite network by assigning a value to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function. You will have problems later on if your graph is not bipartite.
+HINT: you can create a bipartite network by assigning values to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function. You will have problems later on if your graph is not bipartite.
 
 HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships.
 
@@ -170,7 +174,7 @@ describe strengths and weaknesses here.
 ```
 <br/>
 
-**9. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between strength and all the others. Why are some of the correlations negative?**
+**9. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between all of them. Why are some of the correlations negative?**
 
 Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
 ```{r}
@@ -221,7 +225,7 @@ written explanation here
 
 **12. In last week's lab excerice, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
 
-**What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
+HINT: **What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
 ```
 # your answer here
 ```

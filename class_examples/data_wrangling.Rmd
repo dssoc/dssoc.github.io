@@ -1,0 +1,26 @@
+---
+title: "Data Wrangling 01-24-2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(tidyverse)
+load(url('https://dssoc.github.io/datasets/Apple_Mobility_Data.Rdata'))
+```
+
+```{r}
+apple_data %>% colnames()
+apple_data %>% head()
+apple_data$geo_type %>% unique()
+
+
+apple_data %>% 
+  #select(-geo_type, -region, -transportation_type) %>% 
+  gather(key='date', value='ammount', `2020-01-13`:`2020-08-20`) #%>% 
+  #count(ammount) %>% arrange(desc(n))
+```
+
