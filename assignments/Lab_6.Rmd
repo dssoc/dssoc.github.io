@@ -133,7 +133,7 @@ Written response here.
 <br/>
 
 
-**4. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by gender.**
+**4. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by political party.**
 
 NOTE: see the note in question number 2 about Twitter usernames that have been changed.
 ```{r}
