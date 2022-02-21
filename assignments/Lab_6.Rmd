@@ -40,7 +40,7 @@ library(rtweet)
 
 # We will use only senators in this assignment!
 load(url('https://dssoc.github.io/datasets/congress.RData'))
-congress <- congress %>% filter(type=='sen')
+senators <- congress %>% filter(type=='sen')
 
 # load tweet ids to be retreived later
 load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
@@ -115,9 +115,9 @@ NOTE: we don't need to get the actual lists of followers or Tweets - we just nee
 
 NOTE: not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in `congress_contact` is actually out of date. For this question, we will request from Twitter all of the valid usernames in our `congress_contact` dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because `congress_contact` only contains the Twitter usernames instead of the unique `user_id` that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts. For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in `congress_contact`.
 
-HINT: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment.
+HINT: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment. I provided a new variable `senators` where this filter has already been applied.
 
-HINT: you will first need to join the `congress_contact` dataframe with `congress` to associate congress information with their Twitter handles.
+HINT: you will first need to join the `congress_contact` dataframe to associate congress information with their Twitter handles.
 ```{r}
 # Write your answer here
 ```

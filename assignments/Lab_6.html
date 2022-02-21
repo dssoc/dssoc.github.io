@@ -225,16 +225,16 @@ lim[, 1:4]</code></pre>
 <pre><code>## # A tibble: 261 × 4
 ##    query                   limit remaining reset        
 ##    &lt;chr&gt;                   &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;       
-##  1 lists/list                 15        15 15.00096 mins
-##  2 lists/:id/tweets&amp;GET      900       900 15.00096 mins
-##  3 lists/:id/followers&amp;GET   180       180 15.00096 mins
-##  4 lists/memberships          75        75 15.00096 mins
-##  5 lists/:id&amp;DELETE          300       300 15.00096 mins
-##  6 lists/subscriptions        15        15 15.00096 mins
-##  7 lists/members             900       900 15.00096 mins
-##  8 lists/:id&amp;GET              75        75 15.00096 mins
-##  9 lists/subscribers/show     15        15 15.00096 mins
-## 10 lists/:id&amp;PUT             300       300 15.00096 mins
+##  1 lists/list                 15        15 15.00062 mins
+##  2 lists/:id/tweets&amp;GET      900       900 15.00062 mins
+##  3 lists/:id/followers&amp;GET   180       180 15.00062 mins
+##  4 lists/memberships          75        75 15.00062 mins
+##  5 lists/:id&amp;DELETE          300       300 15.00062 mins
+##  6 lists/subscriptions        15        15 15.00062 mins
+##  7 lists/members             900       900 15.00062 mins
+##  8 lists/:id&amp;GET              75        75 15.00062 mins
+##  9 lists/subscribers/show     15        15 15.00062 mins
+## 10 lists/:id&amp;PUT             300       300 15.00062 mins
 ## # … with 251 more rows</code></pre>
 </div>
 </div>
@@ -247,8 +247,8 @@ lim[, 1:4]</code></pre>
 <p><strong>2. Use the Twitter API to augment Senator information with the number of followers and and the number of statuses they have posted on Twitter, and create a bar graph showing the average number of followers by political party. Save the joined dataframe for future problems.</strong></p>
 <p>NOTE: we don’t need to get the actual lists of followers or Tweets - we just need the <em>number</em> of followers and tweets (i.e. <strong>do not try to use <code>get_followers</code></strong>). You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use.</p>
 <p>NOTE: not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in <code>congress_contact</code> is actually out of date. For this question, we will request from Twitter all of the valid usernames in our <code>congress_contact</code> dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because <code>congress_contact</code> only contains the Twitter usernames instead of the unique <code>user_id</code> that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts. For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in <code>congress_contact</code>.</p>
-<p>HINT: If you haven’t already, filter the <code>congress</code> dataframe to include only senators (<code>type==&#39;sen&#39;</code>) - we will only use senators for this assignment.</p>
-<p>HINT: you will first need to join the <code>congress_contact</code> dataframe with <code>congress</code> to associate congress information with their Twitter handles.</p>
+<p>HINT: If you haven’t already, filter the <code>congress</code> dataframe to include only senators (<code>type==&#39;sen&#39;</code>) - we will only use senators for this assignment. I provided a new variable <code>senators</code> where this filter has already been applied.</p>
+<p>HINT: you will first need to join the <code>congress_contact</code> dataframe to associate congress information with their Twitter handles.</p>
 <pre class="r"><code># Write your answer here</code></pre>
 <p><br /></p>
 <p><strong>4. Use <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).</strong></p>
