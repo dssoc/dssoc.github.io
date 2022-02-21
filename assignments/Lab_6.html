@@ -223,18 +223,18 @@ token &lt;- create_token(
 lim &lt;- rate_limit()
 lim[, 1:4]</code></pre>
 <pre><code>## # A tibble: 261 × 4
-##    query                   limit remaining reset        
-##    &lt;chr&gt;                   &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;       
-##  1 lists/list                 15        15 15.00062 mins
-##  2 lists/:id/tweets&amp;GET      900       900 15.00062 mins
-##  3 lists/:id/followers&amp;GET   180       180 15.00062 mins
-##  4 lists/memberships          75        75 15.00062 mins
-##  5 lists/:id&amp;DELETE          300       300 15.00062 mins
-##  6 lists/subscriptions        15        15 15.00062 mins
-##  7 lists/members             900       900 15.00062 mins
-##  8 lists/:id&amp;GET              75        75 15.00062 mins
-##  9 lists/subscribers/show     15        15 15.00062 mins
-## 10 lists/:id&amp;PUT             300       300 15.00062 mins
+##    query                   limit remaining reset       
+##    &lt;chr&gt;                   &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;      
+##  1 lists/list                 15        15 14.9993 mins
+##  2 lists/:id/tweets&amp;GET      900       900 14.9993 mins
+##  3 lists/:id/followers&amp;GET   180       180 14.9993 mins
+##  4 lists/memberships          75        75 14.9993 mins
+##  5 lists/:id&amp;DELETE          300       300 14.9993 mins
+##  6 lists/subscriptions        15        15 14.9993 mins
+##  7 lists/members             900       900 14.9993 mins
+##  8 lists/:id&amp;GET              75        75 14.9993 mins
+##  9 lists/subscribers/show     15        15 14.9993 mins
+## 10 lists/:id&amp;PUT             300       300 14.9993 mins
 ## # … with 251 more rows</code></pre>
 </div>
 </div>
@@ -251,28 +251,28 @@ lim[, 1:4]</code></pre>
 <p>HINT: you will first need to join the <code>congress_contact</code> dataframe to associate congress information with their Twitter handles.</p>
 <pre class="r"><code># Write your answer here</code></pre>
 <p><br /></p>
-<p><strong>4. Use <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).</strong></p>
+<p><strong>3. Use <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).</strong></p>
 <pre class="r"><code># Write your answer here</code></pre>
 <pre><code>Written response here.</code></pre>
 <p><br /></p>
-<p><strong>5. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by gender.</strong></p>
+<p><strong>4. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by gender.</strong></p>
 <p>NOTE: see the note in question number 2 about Twitter usernames that have been changed.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in <code>senator_tweet_ids</code> (already loaded at the beginning of this markdown file), and compute the average number of favorites those Tweets received.</strong></p>
+<p><strong>5. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in <code>senator_tweet_ids</code> (already loaded at the beginning of this markdown file), and compute the average number of favorites those Tweets received.</strong></p>
 <p>NOTE: see the Lab Instructions page for more details on this dataset.</p>
 <p>NOTE: these are NOT the same tweet ids as the tweets stored in <code>senator_tweet_sample</code>, so you will need to collect them using the api directly. Look for a function that can download status informtion directly from status ids.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
-<p><strong>7. Using the tweet data in <code>senator_tweet_sample</code>, create a single grouped bar plot that allows us to compare both favorites and retweet counts by gender.</strong></p>
+<p><strong>6. Using the tweet data in <code>senator_tweet_sample</code>, create a single grouped bar plot that allows us to compare both favorites and retweet counts by gender.</strong></p>
 <p>HINT: See the suggested readings on this assignment for more information about grouped bar charts.</p>
 <p>HINT: You will want to average by bioguide_id first so that we have within-person averages, then average by gender. Otherwise the proportion of tweets from each person will make the result misleading.</p>
 <pre class="r"><code># Write your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.</strong></p>
+<p><strong>7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.</strong></p>
 <pre><code>Written answer here</code></pre>
 <p><br /></p>
-<p><strong>9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you’ll be able to test the hypothesis using available data. For example, the hypothesis could be something like “H: when x does y, we see more z.” This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.</strong></p>
+<p><strong>8. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you’ll be able to test the hypothesis using available data. For example, the hypothesis could be something like “H: when x does y, we see more z.” This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.</strong></p>
 <pre><code># Your answer here</code></pre>
 <p><br /></p>
 </div>
