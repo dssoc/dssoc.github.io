@@ -121,6 +121,20 @@ HINT: If you haven't already, filter the `congress` dataframe to include only se
 HINT: you will first need to join the `congress_contact` dataframe to associate congress information with their Twitter handles.
 ```{r}
 # Write your answer here
+senators_all <- senators %>% 
+  left_join(congress_contact, by='bioguide_id')
+
+# Your answer here
+twitter_users <- lookup_users(senators_all$twitter)
+twitter_users %>% head()
+
+senators_twitter <- twitter_users %>% 
+  select(screen_name, followers_count, statuses_count) %>% 
+  inner_join(senators_all, by=c('screen_name'='twitter'))
+
+senators_twitter %>% 
+  group_by(party) %>% 
+  summarize(av_followers=mean(followers_count))
 ```
 <br/>
 
@@ -139,6 +153,21 @@ Written response here.
 NOTE: see the note in question number 2 about Twitter usernames that have been changed.
 ```{r}
 # Your answer here
+top_senators <- senators_twitter %>% 
+  mutate(age=2020-birthyear) %>% 
+  arrange(desc(age)) %>% 
+  head(10)
+  
+tweets <- get_timelines(top_senators$screen_name, n = 2)
+
+av_fav <- top_senators %>% 
+  select(party, screen_name, full_name) %>% 
+  inner_join(tweets, by=c('screen_name')) %>% 
+  group_by(screen_name) %>% 
+  summarize(av_favorites=mean(favorite_count), party=first(party))
+
+av_fav %>% ggplot(aes(x=party, y=av_favorites)) +
+  geom_violin()
 ```
 <br/>
 
@@ -161,6 +190,16 @@ HINT: See the suggested readings on this assignment for more information about g
 HINT: You will want to average by bioguide_id first so that we have within-person averages, then average by gender. Otherwise the proportion of tweets from each person will make the result misleading.
 ```{r}
 # Write your answer here
+congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  left_join(senator_tweet_sample, by=c('twitter'='screen_name')) %>% 
+  drop_na(status_id) %>% 
+  group_by(bioguide_id, gender) %>% 
+  summarize(av_fav=mean(favorite_count, na.rm=T), av_rt=mean(retweet_count)) %>% 
+  pivot_longer(av_fav:av_rt, names_to='measure', values_to='average') %>% 
+  ggplot(aes(x=measure, y=average, group=gender, fill=gender)) +
+    geom_bar(stat='identity', position='dodge')
+
 ```
 <br/>
 
