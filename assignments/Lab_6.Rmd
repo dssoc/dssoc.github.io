@@ -22,6 +22,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Optional resources:**
 
+* [Applying for a Twitter developer account](https://www.youtube.com/watch?v=LTC8laBJGP0&t=967s)
 * [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
 * [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
