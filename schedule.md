@@ -525,7 +525,7 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 14 by 5PM)</i></p>
 <!--<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>-->
 
 
