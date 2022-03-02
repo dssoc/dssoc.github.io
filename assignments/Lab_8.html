@@ -190,7 +190,7 @@ pre code {
 <h2>Questions</h2>
 <p><br></p>
 <p><strong>1. Create a regular expression which matches a URL in the example string <code>ex</code>, and verify that it works using <code>str_view_all</code> (described in R for data science <a href="https://r4ds.had.co.nz/strings.html">Ch. 14</a>). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a “#” symbol followed by any letter, number, or underscore and ignoring capitalization.</strong></p>
-<p>Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. <a href="https://www.google.com/search?q=r+regex+url">google search</a>) might save you a lot of time.</p>
+<p>Hint: You should not need to learn regex in any detail to complete this problem. These are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. <a href="https://www.google.com/search?q=r+regex+url">google search</a>) might save you a lot of time.</p>
 <p>Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.</p>
 <pre class="r"><code># Your answer here
 
@@ -198,13 +198,13 @@ ex &lt;- &quot;BREAKING NEWS - @brumleader urges everyone to do their bit in ord
 
 # your solution here</code></pre>
 <p><br /></p>
-<p><strong>2. Add two new columns to the <code>senator_tweet_sample</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
-<p>Hint: be sure to read the stringr documentation.</p>
+<p><strong>2. Add two new columns to the <code>senator_tweet_sample</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model using <code>lm</code> to predict <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Show the model summaries. Were either of these predictors statistically significant?</strong></p>
+<p>HINT: see the <code>str_count</code> function.</p>
 <pre class="r"><code># your solution here</code></pre>
 <pre><code>written response here</code></pre>
 <p><br /></p>
 <p><strong>3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used. If there is more than one tied for 5th place, you can ignore them - just choose in 5 total (i.e. you could just use <code>head(5)</code>).</strong></p>
-<p>Hint: you may want to check out the <code>unnest</code> function (not <code>unnest_tokens</code>).</p>
+<p>HINT: try using <code>str_extract_all</code> in conjunction with <code>unnest</code> (not <code>unnest_tokens</code>) to extract the hashtags.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
 <p><strong>4. Create a new column in <code>senator_tweet_sample</code> called <code>cleaned</code> which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.</strong></p>
