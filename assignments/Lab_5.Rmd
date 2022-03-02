@@ -19,17 +19,15 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
+Theoretical:
 * [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
 * [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
 * [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
+* [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
 
-* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838)
-
-bipartite.mapping(g)
-
-* [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
-* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
-* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+Practical:
+* [R igraph Manual Pages](https://igraph.org/r/doc/aaa-igraph-package.html)
+* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838): specifically, the sections "Loading and configuring two-mode data" and "Another way to produce an overlap count in igraph bipartite_projection()".
 
 
 **Optional resources:**
@@ -37,6 +35,11 @@ bipartite.mapping(g)
 * [Official documentation for `igraph` package](https://igraph.org/r/doc/)
 * [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
 * [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
+* [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
+* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+
+
 
 
 ```{r message=FALSE, echo=FALSE}
@@ -88,10 +91,9 @@ HINT: see required reading about centrality measures on Wikipedia to get some id
 **3. Describe the behavior of the following functions, including their outputs and the behavior of each argument/parameter.**
 
 HINT: Note that `E()` and `V()` are both `igraph` functions.
-
-NOTE: pay special attention to the `graph_from_data_frame` function. It will be our primary function for creating new graphs.
 ```
 graph_from_data_frame: 
+graph_from_edgelist: 
 
 E(): 
 V(): 
@@ -118,13 +120,13 @@ bipartite/unipartite?
 <br/>
 
 
-**5. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_data_frame` function. Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
+**5. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_edgelist` function. Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
 
 HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships. You can just use the code on the Lab Instructions document to do this.
 
-HINT: pay special attention to the `graph_from_data_frame` function arguments. Our use here may vary slightly from the example in the lab lecture or video.
+HINT: pay special attention to the `graph_from_edgelist` function arguments. Our use here may vary slightly from the example in the lab lecture or video.
 
-HINT: see the section "Loading and configuring two-mode data" in the "Bipartite/Two-Mode Networks in igraph" required reading for information about how to make bipartite graphs in igraph. One way to create a bipartite graph in igraph is to use the line `V(g)$type <- bipartite_mapping(g)$type`, where `g` is the name of your graph. See from the documentation for `is_bipartite` that `is_bipartite` simply returns true if the `type` node attribute is set.
+HINT: see the section "Loading and configuring two-mode data" in the "Bipartite/Two-Mode Networks in igraph" required reading for information about how to make bipartite graphs in igraph. One way to create a bipartite graph in igraph is to use the line `V(g)$type <- bipartite_mapping(g)$type`, where `g` is the name of your graph. See from the documentation for `is_bipartite` that it simply returns true if the `type` vertex attribute is set.
 ```{r}
 # Your answer here.
 ```
@@ -159,7 +161,7 @@ What can we see from this visualization?
 <br/>
 
 
-**9. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
+**8. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
 ```{r}
 # your answer here
 ```
@@ -169,7 +171,7 @@ What do these results tell us?
 <br/>
 
 
-**11. In last week's lab exercise, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
+**9. In last week's lab exercise, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
 
 HINT: **What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
 ```
