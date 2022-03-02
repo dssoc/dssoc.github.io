@@ -5,7 +5,7 @@ date: ""
 output: html_document
 ---
 
-**[Lab #7 Markdown File](/assignments/Lab_7.Rmd)**
+**[Lab #8 Markdown File](/assignments/Lab_8.Rmd)**
 
 **[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
 
