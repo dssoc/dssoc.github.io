@@ -19,13 +19,17 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
-* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+* [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
+* [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
+* [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
 
-* [`igraph` Tutorial](https://igraph.org/python/doc/tutorial/tutorial.html)
 * [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838)
+
+bipartite.mapping(g)
+
 * [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
-* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
-Katya Ognyanova](https://kateto.net/networks-r-igraph)
+* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
 
 
 **Optional resources:**
@@ -54,7 +58,6 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 **1. Describe the following concepts using the suggested readings or by searching on the web:**
 
 ```
-
 Basic Elements of Networks
   nodes (also called "vertices"): 
   edges (also called "ties" or "links"): 
@@ -64,15 +67,16 @@ Network Representations
   adjacency matrix: 
 
 Types of networks
-  directed network: 
-  undirected network: 
-  weighted network: 
-  unweighted network: 
-  bipartite network: 
+  directed vs undirected network: 
+  weighted vs unweighted network: 
+  bipartite vs unipartite network: 
 ```
 <br/>
 
-**2. Describe three different centrality measures (e.g. betweenness, strength, eigenvector, etc) that can be used to summarize the positions of specific nodes/vertices within a network.**
+
+**2. Using resources in the suggested readings and on the web, describe three different centrality measures that can be used to summarize the positions of specific nodes/vertices within a network: betweenness centrality, strength centrality, and eigenvector centrality. Give an example use case for each of these measures.**
+
+HINT: see required reading about centrality measures on Wikipedia to get some ideas.
 ```
 1. 
 2. 
@@ -80,11 +84,31 @@ Types of networks
 ```
 <br/>
 
-**3. For some of the following problems, we will be working with the `committee_memberships` dataframe. Is this an adjacency matrix or edge list representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
+
+**3. Describe the behavior of the following functions, including their outputs and the behavior of each argument/parameter.**
+
+HINT: Note that `E()` and `V()` are both `igraph` functions.
+
+NOTE: pay special attention to the `graph_from_data_frame` function. It will be our primary function for creating new graphs.
+```
+graph_from_data_frame: 
+
+E(): 
+V(): 
+
+strength: 
+
+bipartite_projection: 
+is_bipartite: 
+bipartite.mapping: 
+```
+<br/>
+
+
+**4. For some of the following problems, we will be working with the `committee_memberships` dataframe which assigns congress members (specifically, their `bioguide_id`) to full committees and subcommittees. Would we consider this as an adjacency matrix or edge list network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
 
 HINT: see the Lab Instructions page linked at the top of this assignment for more information about the `committees.Rdata` dataset.
 ```
-
 Adjacency Matrix or Edge List?
 
 weighted/unweighted?
@@ -94,68 +118,58 @@ bipartite/unipartite?
 <br/>
 
 
-**4. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_data_frame` function (note that you will need to filter out full committee information using the code on the Lab Instructions document). Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
+**5. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_data_frame` function. Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
 
 HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships. You can just use the code on the Lab Instructions document to do this.
 
-HINT: you can create a bipartite network by assigning boolean values to the `type` node attribute - members of one group should be assigned the value `TRUE` and the others should be assigned the value `FALSE`. For example, if your graph is called `g` and you used the `bioguide_id` values as congress member node names, you would use the following code to make the graph bipartite: `V(g)$type <- V(g)$name %in% congress$bioguide_id`. As we covered in the lab lectures, `V(g)` will return all nodes (also called vertices) from the graph `g` and `V(g)$name` will get the node attribute called `name`, a special node property that uniquely identifies each node. Then the expression `V(g)$name %in% congress$bioguide_id` will return a boolean vector assigning either `TRUE` or `FALSE` to each node depending on whether it is in our list of congress member `bioguide_id`s. Try testing each of these expressions to see what is happening with this code snippet.
+HINT: pay special attention to the `graph_from_data_frame` function arguments. Our use here may vary slightly from the example in the lab lecture or video.
 
+HINT: see the section "Loading and configuring two-mode data" in the "Bipartite/Two-Mode Networks in igraph" required reading for information about how to make bipartite graphs in igraph. One way to create a bipartite graph in igraph is to use the line `V(g)$type <- bipartite_mapping(g)$type`, where `g` is the name of your graph. See from the documentation for `is_bipartite` that `is_bipartite` simply returns true if the `type` node attribute is set.
 ```{r}
 # Your answer here.
 ```
 <br/>
 
-**5. Create an adjacency matrix from the previous network and use it to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
-```{r}
-# Your answer here
-```
-```
-Your written answer here
-```
-<br/>
 
-**6. Starting with our bipartite network, we want to compute a network capturing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function. In the congress member network, add gender and age as node properties. We will use this graph for future problems.**
+**6. Starting with our bipartite network, create a network of members of congress with edge weights corresponding to the number of common subcommittees they are on. To do this, we can use the `bipartite_projection` function. Keep this network for future problems and compute the average weight of edges this new network for the solution to this problem.**
 
-HINT: check out the `witch` parameter of `bipartite_projection`. If you set `which=TRUE`, it will return a network of the nodes which were assigned `TRUE` earlier when you set the type attribute.
+HINT: see the section on using `bipartite_projection` in the required reading "Bipartite/Two-Mode Networks in igraph." You can download their data to see how they use it.
+
+HINT: the function `bipartite_projection` produces two separate networks - read the documentation to see the meaning of each, and make sure you're using the network of politicians instead of the network of committees.
+
+HINT: You can get the edge weights of a network using `E(g)$weight`. You can add any number of edge attributes to an igraph network, but the `weight` attribute is a special attribute used by many igraph functions and, in this case, automatically populated by `bipartite_projection` according to the number of common committees the congress members are on.
+
 ```{r}
 # Your answer here
 ```
 <br/>
 
 
-**7. Make a visual of of the congress co-membership network where the node colors are based on the political party of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight <= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.**
+**7. Add gender and age from the `congress` dataframe as vertex attributes in the network created in the previous question, and save this modified graph for future problems. Now create a `ggraph` visualization where node colors are based on gender and node size is based on age. For aesthetic purposes, you may try removing edges that are below a certain weight (weight <= 2 seems reasonable). What do you see from this visualization, if anything?**
 
-Hint: see some available layouts [here](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/).
+HINT: one way to set vertex attributes is to use `V(g)$my_attribute <- something` (assuming `g` is the name of your graph, `my_attribute` is the attribute name you want to set, and `something` is a vector corresponding to values of the attribute to be assigned), but this method assumes that the vector `something` gives node values in the same order of `V(g)` (which you can easily verify by inspecting). To solve this challenge, check out the `index` parameter of the `set_vertex_attr` function.
 
 Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
 ```{r}
 # Your answer here or in text.
 ```
 ```
-describe strengths and weaknesses here.
+What can we see from this visualization?
 ```
 <br/>
 
 
-**8. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
+**9. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
 ```{r}
 # your answer here
 ```
 ```
-written explanation here
+What do these results tell us?
 ```
 <br/>
 
-**9. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
-```{r}
-# your answer here
-```
-```
-written explanation here
-```
-<br/>
 
-**10. In last week's lab excerice, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
+**11. In last week's lab exercise, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
 
 HINT: **What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
 ```
