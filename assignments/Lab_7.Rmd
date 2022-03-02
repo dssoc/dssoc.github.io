@@ -52,9 +52,9 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
 <br/>
 
-**3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of committees that members belong to from `age`. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? **
+**3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of full committees that congress members belong to from `age`. Describe the relationship. What do each of these (the scatter points and the linear trendline) show that you cannot see from the other? **
 
-Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.
+Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable (age in this case) on the x-axis.
 ```{r}
 # Your answer here
 ```
@@ -63,7 +63,7 @@ written explanation here
 ```
 <br/>
 
-**4. Create a bar graph showing the average number of committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
+**4. Create a bar graph showing the average number of full committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
 
 Hint: you may want to see `geom_errorbar`.
 
