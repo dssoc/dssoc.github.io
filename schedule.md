@@ -763,11 +763,12 @@ allowfullscreen></iframe>
 
 
 
-## 14 - Wellness Week 
+## 14 - One-on-one Meetings With Dr. Bail 
 <b><i><font color="#E84E4E">April 4-9</font></i></b>
 
-<p>No class or Labs - take off time for yourself!</p>
-<p>Regular TA office hours will be open.</p>
+[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
+
+Regular TA office hours will be open.
 
 
 ## 15 - Open Lab 
