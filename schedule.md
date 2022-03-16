@@ -806,10 +806,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">April 18-20</font></i></b>
 
-We will schedule final presentations for this week.
-
-***Final presentation times:***
-TBD
+Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 
 ## 17 - Final Paper Due
@@ -817,6 +814,7 @@ TBD
 <b><i><font color="#E84E4E">April 25-30</font></i></b>
 
 Finals week - no class or Labs.
+
 TA office hours TBD.
 
 ***Final paper DUE Saturday April 30 at 5pm EDT***
