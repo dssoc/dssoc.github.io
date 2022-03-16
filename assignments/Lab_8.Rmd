@@ -20,6 +20,8 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Optional reading:** 
 
+* [What are Stop Words?](https://kavita-ganesan.com/what-are-stop-words/)
+* [Help with using `str_extract_all` with `unnest`.](https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe)
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
 * Test and develop regex expressions on [regexr.com](https://regexr.com/)
@@ -74,7 +76,7 @@ written response here
 
 **3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used. If there is more than one tied for 5th place, you can ignore them - just choose in 5 total (i.e. you could just use `head(5)`).**
 
-HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_tokens`) to extract the hashtags.
+HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_tokens`) to extract the hashtags. This [Stack Overflow solution](https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe) may be helpful.
 ```{r}
 # your solution here
 ```
