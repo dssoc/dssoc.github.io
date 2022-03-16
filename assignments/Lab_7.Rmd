@@ -46,7 +46,7 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
 <br/>
 
-**2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of subcommittees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the subcommittees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
+**2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of full committees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the full committees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
 ```{r}
 # Your answer here
 ```
