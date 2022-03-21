@@ -1,40 +1,43 @@
 
 import wikipedia
 import pandas as pd
+import tqdm
 
-cdf = pd.read_csv('congress_ids.csv')
+if __name__ == '__main__':
+
+    cdf = pd.read_csv('raw_data/legislators-current.csv')
+
+    #print(cdf.head())
+
+    newrows = list()
+    for idx,row in tqdm.tqdm(cdf.iterrows()):
+        
+        try:
+            page = wikipedia.page(row['wikipedia_id'])
+
+            newrows.append({
+                'bioguide_id': row['bioguide_id'],
+                'wikipedia_id': row['wikipedia_id'],
+                'summary': page.summary,
+                'text': page.content,
+                #'url': page.url,
+                #'title': page.title,
+                #'references': '\n'.join(page.references),
+                #'categories': '\n'.join(page.categories),
+                
+            })
+            print(f'downloaded {row["wikipedia_id"]}.')
+
+        except wikipedia.exceptions.PageError:
+            print(f'\t\tcouldn\'t find {row["wikipedia_id"]}..')
 
 
+        pd.DataFrame(newrows).to_csv('raw_data/wikipedia_pages.csv')
+        
+    #page = "Sherrod Brown"
+    #summary = wikipedia.summary(page)
+    #full = wikipedia.page(page)
 
-newrows = list()
-for idx,row in cdf.iterrows():
-    
-    try:
-        page = wikipedia.page(row['wikipedia_id'])
+    #print(full.content)
 
-        newrows.append({
-            'bioguide_id': row['bioguide_id'],
-            'wikipedia_id': row['wikipedia_id'],
-            'title': page.title,
-            'summary': page.summary,
-            'content': page.content,
-            'references': '\n'.join(page.references),
-            'categories': '\n'.join(page.categories),
-            'url': page.url,
-        })
-        pd.DataFrame(newrows).to_csv('wikipedia_pages2.csv')
-        print(f'downloaded {row["wikipedia_id"]}.')
-
-    except wikipedia.exceptions.PageError:
-        print(f'\t\tcouldn\'t find {row["wikipedia_id"]}..')
-
-
-
-    
-#page = "Sherrod Brown"
-#summary = wikipedia.summary(page)
-#full = wikipedia.page(page)
-
-#print(full.content)
-
-#print(df.head())
+    #print(df.head())
