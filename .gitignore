@@ -2,3 +2,4 @@
 *.json
 .Rproj.user
 #.Rproj
+datasets/data_preparation/raw_data
