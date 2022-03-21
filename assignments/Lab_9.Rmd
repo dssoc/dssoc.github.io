@@ -15,6 +15,8 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
++ Text Mining with R: [The tidy text format](https://www.tidytextmining.com/tidytext.html)
++ Text Mining with R: [Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf.html)
 * R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
 
 
@@ -75,29 +77,60 @@ frequent_tokens %>%
 ```
 <br/>
 
-**3. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
+**3. 
+
+Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
 ```{r}
 # your answer here
+
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+
+tf_idfs <- senator_tweet_sample %>%
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  count(word, created_at) %>%
+  bind_tf_idf(word, created_at, n) %>% 
+  arrange(desc(tf_idf))
+
+tf_idfs %>% 
+  head(10) %>% 
+  ggplot(aes(y=word, x=tf_idf)) +
+    geom_bar(stat='identity')
 ```
 ```
 your written explanation here
 ```
 <br/>
 
-**4. For each of the top-three tf-idf tokens, extract up to five tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the previous question?**
+**4. For each of the top-three tf-idf tokens, extract the one tweet with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the previous question?**
 ```{r}
 # your answer here
+toppers <- tf_idfs %>% 
+  head(3)
+
+senator_tweet_sample %>% 
+  arrange(retweet_count) %>% 
+  mutate(ct1=str_count(tolower(text), fixed(toppers$word[[1]]))) %>% 
+  mutate(ct2=str_count(tolower(text), fixed(toppers$word[[2]]))) %>% 
+  mutate(ct3=str_count(tolower(text), fixed(toppers$word[[3]]))) %>% 
+  filter((ct1+ct2+ct3) > 0)
 ```
 ```
 your written explanation here
 ```
 <br/>
 
-**5. Create a new column in senator_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+**5. Create a new column in senator_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm, inclusive) vs night.**
 
 Hint: you may need to use `as.POSIXlt` to convert date information.
 ```{r}
 # your answer here
+senator_tweet_sample %>% 
+  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+  count(is_day) %>% 
+  ggplot(aes(x=is_day, y=n)) +
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -105,9 +138,17 @@ Hint: you may need to use `as.POSIXlt` to convert date information.
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
 ```{r}
 # your answer here
+senator_tweet_sample %>%
+  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  inner_join(get_sentiments("bing")) %>% 
+  count(sentiment, is_day)
 ```
 ```
 Explain why you chose to compute sentiment in this way.
+I just used raw counts instead of averages. Feel free to use whatever measure you find to be helpful.
 ```
 <br/>
 
@@ -117,7 +158,18 @@ Explain why you chose to compute sentiment in this way.
 Hint: you may want to look at the bing dictionary to see how you should format your custom dictionary.
 ```{r}
 # your answer here
+custom_sentiment <- data_frame(happy=c('joy', 'exicted', 'happy'), sad=c('sad', 'dissappointed', 'angry')) %>% 
+  pivot_longer(happy:sad, values_to='word', names_to='sentiment')
+
+senator_tweet_sample %>%
+  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  inner_join(custom_sentiment) %>% 
+  count(sentiment, is_day)
 ```
+
 ```
 Explain what your dictionary is intended to capture and interpret the results.
 ```
