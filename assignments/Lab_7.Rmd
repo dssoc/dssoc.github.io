@@ -46,15 +46,15 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
 <br/>
 
-**2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of subcommittees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the subcommittees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
+**2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of full committees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the full committees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
 ```{r}
 # Your answer here
 ```
 <br/>
 
-**3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of committees that members belong to from `age`. Describe the relationship. What do each of these (the model summary and the plot) show that you cannot see from the other? **
+**3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of full committees that congress members belong to from `age`. Describe the relationship. What do each of these (the scatter points and the linear trendline) show that you cannot see from the other? **
 
-Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable on the x-axis.
+Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable (age in this case) on the x-axis.
 ```{r}
 # Your answer here
 ```
@@ -63,7 +63,7 @@ written explanation here
 ```
 <br/>
 
-**4. Create a bar graph showing the average number of committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
+**4. Create a bar graph showing the average number of full committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
 
 Hint: you may want to see `geom_errorbar`.
 
