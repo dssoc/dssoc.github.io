@@ -57,6 +57,21 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 ) - see the `token` parameter. Searching on the internet may also be a good strategy.
 ```{r}
 # your answer here
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+
+frequent_tokens <- senator_tweet_sample %>%
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  count(word) %>%
+  arrange(desc(n)) %>% 
+  head(20)
+
+frequent_tokens %>% 
+  ggplot(aes(y = reorder(word, n), x=n)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Frequency")
 ```
 <br/>
 

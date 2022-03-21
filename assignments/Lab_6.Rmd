@@ -195,8 +195,10 @@ HINT: You will want to average by bioguide_id first so that we have within-perso
 # Write your answer here
 senators_all %>% 
   inner_join(senator_tweet_sample, by=c('twitter'='screen_name')) %>% 
-  group_by(bioguide_id, gender) %>% 
-  summarize(av_fav=mean(favorite_count, na.rm=T), av_rt=mean(retweet_count)) %>% 
+  group_by(bioguide_id) %>% 
+  summarize(av_fav_bio=mean(favorite_count), av_rt_bio=mean(retweet_count), gender=first(gender)) %>% 
+  group_by(gender) %>% 
+  summarize(av_fav=mean(av_fav_bio), av_rt=mean(av_rt_bio)) %>% 
   pivot_longer(av_fav:av_rt, names_to='measure', values_to='average') %>% 
   ggplot(aes(x=measure, y=average, group=gender, fill=gender)) +
     geom_bar(stat='identity', position='dodge')
