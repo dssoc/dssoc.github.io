@@ -22,4 +22,9 @@ NOTE: See Lab Instructions doc for more info about the source and details of the
 1. Download "senators-1.txt" from the [Harvard dataverse page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/UIVHQR).
 2. Run the script "prepare_senator_tweets.R" to generate samples of ids and pull a subset of those Tweets from the Twitter API. The output is "senator_tweets.RData"
 
-## 
+## `senator_wiki.RData`
+
+1. Download "legislators-current.csv" from the [congress-legislators](https://github.com/unitedstates/congress-legislators) repository.
+2. Run "get_wikipedia.py" to download files and store in a csv file "wikipedia_pages.csv"
+3. Run "save_wiki.Rmd" to generate "senator_wiki.Rmd".
+

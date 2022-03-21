@@ -46,12 +46,10 @@ library(ggplot2)
 library(stm)
 
 # THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 
-
-
 # limits to first 1000 characters
+load('~/code/dssoc.github.io/datasets/senator_wiki.RData')
 congress_wiki <- congress_wiki %>% mutate(text=substr(text, 1, 1000))
 ```
 <br/>
@@ -73,9 +71,9 @@ your answer here
 your answer here
 ```
 
-**3. Join the columns of `congress` with `congress_wiki` so that you should have congress member information (gender, type, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
+**3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have congress member information (gender, party, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
 
-Hint: your merged dataframe should have as many rows as the original `congress_wiki` dataframe.
+Hint: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
 ```{r}
 # your answer here
 ```
