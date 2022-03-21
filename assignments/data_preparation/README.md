@@ -26,5 +26,5 @@ NOTE: See Lab Instructions doc for more info about the source and details of the
 
 1. Download "legislators-current.csv" from the [congress-legislators](https://github.com/unitedstates/congress-legislators) repository.
 2. Run "get_wikipedia.py" to download files and store in a csv file "wikipedia_pages.csv"
-3. Run "save_wiki.Rmd" to generate "senator_wiki.Rmd".
+3. Run "save_wiki.Rmd" to generate "senator_wiki.RData".
 
