@@ -190,6 +190,7 @@ pre code {
 <p><strong>2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of full committees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the full committees they belong to (i.e. when the <code>title</code> entry in the <code>committee_membership</code> dataframe is not empty). You will want to save these new variables for future problems. Then use the <code>summary</code> function to create summary statistics for (ONLY) these new variables.</strong></p>
 <pre class="r"><code># Your answer here
 
+######################## If used committees ########################
 committee_info &lt;- committees %&gt;% 
   inner_join(committee_memberships, on=thomas_id) %&gt;% 
   mutate(holds_title=!is.na(title)) %&gt;% 
@@ -208,6 +209,26 @@ m_congress %&gt;% select(num, prop_title, age) %&gt;% summary()</code></pre>
 ##  Mean   :2.618   Mean   :0.08457   Mean   :60.54  
 ##  3rd Qu.:3.000   3rd Qu.:0.00000   3rd Qu.:69.00  
 ##  Max.   :7.000   Max.   :1.00000   Max.   :89.00</code></pre>
+<pre class="r"><code>######################## If used subcommittees ########################
+
+subcommittee_info &lt;- subcommittees %&gt;% 
+  inner_join(committee_memberships, on=thomas_id) %&gt;% 
+  mutate(holds_title=!is.na(title)) %&gt;% 
+  group_by(bioguide_id) %&gt;% 
+  summarize(num=n(), prop_title=mean(holds_title))</code></pre>
+<pre><code>## Joining, by = &quot;thomas_id&quot;</code></pre>
+<pre class="r"><code>s_congress &lt;- congress %&gt;% 
+  mutate(age=2022-birthyear) %&gt;% 
+  inner_join(subcommittee_info, by=&#39;bioguide_id&#39;)
+
+s_congress %&gt;% select(num, prop_title, age) %&gt;% summary()</code></pre>
+<pre><code>##       num           prop_title          age       
+##  Min.   : 1.000   Min.   :0.0000   Min.   :27.00  
+##  1st Qu.: 3.000   1st Qu.:0.0000   1st Qu.:52.00  
+##  Median : 4.000   Median :0.1667   Median :61.00  
+##  Mean   : 5.056   Mean   :0.1737   Mean   :60.35  
+##  3rd Qu.: 6.000   3rd Qu.:0.2500   3rd Qu.:69.00  
+##  Max.   :19.000   Max.   :1.0000   Max.   :89.00</code></pre>
 <p><br /></p>
 <p><strong>3. Create a scatter plot with a linear trendline (must be a straight line) to predict the number of full committees that congress members belong to from <code>age</code>. Describe the relationship. What do each of these (the scatter points and the linear trendline) show that you cannot see from the other? </strong></p>
 <p>Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable (age in this case) on the x-axis.</p>

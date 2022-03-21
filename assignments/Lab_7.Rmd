@@ -50,6 +50,7 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```{r}
 # Your answer here
 
+######################## If used committees ########################
 committee_info <- committees %>% 
   inner_join(committee_memberships, on=thomas_id) %>% 
   mutate(holds_title=!is.na(title)) %>% 
@@ -61,6 +62,21 @@ m_congress <- congress %>%
   inner_join(committee_info, by='bioguide_id')
 
 m_congress %>% select(num, prop_title, age) %>% summary()
+
+
+######################## If used subcommittees ########################
+
+subcommittee_info <- subcommittees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  mutate(holds_title=!is.na(title)) %>% 
+  group_by(bioguide_id) %>% 
+  summarize(num=n(), prop_title=mean(holds_title))
+
+s_congress <- congress %>% 
+  mutate(age=2022-birthyear) %>% 
+  inner_join(subcommittee_info, by='bioguide_id')
+
+s_congress %>% select(num, prop_title, age) %>% summary()
 ```
 <br/>
 
