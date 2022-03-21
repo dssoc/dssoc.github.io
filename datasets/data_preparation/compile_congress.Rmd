@@ -3,6 +3,9 @@ title: "compile_congress.Rmd"
 output: html_document
 ---
 
+Use this file to parse congress-legislators from the 
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 library(dplyr)
@@ -12,12 +15,12 @@ library(lubridate)
 Load the `legislators-current.csv` file from the [congress-legislators](https://github.com/unitedstates/congress-legislators) project.
 
 ```{r}
-legislators_current <- read.csv('legislators-current.csv')
+legislators_current <- read.csv('data/legislators-current.csv')
 legislators_current %>% colnames()
 legislators_current %>% head()
 ```
 
-Select the proper 
+Select the proper columns.
 ```{r}
 congress <- legislators_current %>% 
   mutate(birthdate=ymd(birthday)) %>% 

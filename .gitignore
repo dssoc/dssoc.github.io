@@ -1,4 +1,5 @@
 #*.Rdata
 *.json
 .Rproj.user
-.Rproj
+#.Rproj
+datasets/data_preparation/raw_data

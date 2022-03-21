@@ -45,14 +45,12 @@ library(topicmodels)
 library(ggplot2)
 library(stm)
 
-# THIS SHOULD WORK AS-IS. If not, download the file from your browswer at the same url.
-load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
+
 load(url('https://dssoc.github.io/datasets/congress.RData'))
+load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
 
-
-
-# limits to first 1000 characters
-congress_wiki <- congress_wiki %>% mutate(text=substr(text, 1, 1000))
+# limit to first 1000 characters if it is easier to work with on your computer
+#congress_wiki <- congress_wiki %>% mutate(subtext=substr(text, 1, 1000))
 ```
 <br/>
 
@@ -66,25 +64,27 @@ congress_wiki <- congress_wiki %>% mutate(text=substr(text, 1, 1000))
 ```
 your answer here
 ```
-
+<br>
 
 **2. Describe a topic modeling algorithm in your own words. What is the input to a topic modeling algorithm (after parsing the raw text)? What does the actual topic model look like? How do you choose the number of topics? What are the beta parameter estimates?**
 ```
 your answer here
 ```
+<br>
 
-**3. Join the columns of `congress` with `congress_wiki` so that you should have congress member information (gender, type, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
+**3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have congress member information (gender, party, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
 
-Hint: your merged dataframe should have as many rows as the original `congress_wiki` dataframe.
+Hint: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
 ```{r}
 # your answer here
 ```
+<br>
 
 **4. Construct a topic model with LDA using a specified random seed (see the `control` parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.**
 ```{r}
 # your answer here
 ```
-
+<br>
 
 **5. Make a function that accepts (takes as an argument) a topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
 ```{r}
@@ -93,8 +93,9 @@ Hint: your merged dataframe should have as many rows as the original `congress_w
 ```
 your answer here
 ```
+<br>
 
-**6. Create a structural topic model with the `stm` package using politician gender, political orientation, type (senate/house), and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
+**6. Create a structural topic model with the `stm` package using politician gender, political orientation, and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
 
 Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date. You can use an approximation for age by subtracting the birth year from the current year (2020).
 ```{r}
@@ -103,6 +104,7 @@ Hint: you'll need to recall some of the string techniques we've used before to c
 ```
 your answer here
 ```
+<br>
 
 **7. Now try using `searchK` to identify the best number of topics for your dataset. Which K is optimal? How did you decide?**
 
@@ -113,6 +115,7 @@ Hint: you should be able to use the same preprocessed and prepared objects in fr
 ```
 your answer here
 ```
+<br>
 
 **8. Use `selectModel` to generate a number of models and then `plotModels` to visualize their performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Then use `plot` to show an overview of the topics in the model. What does this tell you? Keep the optimal model for future questions.**
 
@@ -122,7 +125,7 @@ your answer here
 ```
 your answer here
 ```
-
+<br>
 
 
 **9. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
@@ -132,7 +135,7 @@ your answer here
 ```
 your answer here
 ```
-
+<br>
 
 
 **10. Now we will inspect the topics in our selected model. First, use `labelTopics` to examine the top words for each topic you identified as interesting in the previous step. Then use `plotQuote` to show the first `n` characters of each document closely associated with the topic. Do you see any interesting patterns?**
@@ -142,14 +145,16 @@ your answer here
 ```
 your answer here
 ```
-
+<br>
 
 **11. Examine the statistical models and the content of the topics closely to understand the patterns that are appearing in our data. What is your interpretation of the results. You should be able to draw concrete conclusions such as "republican wikipedia pages are more likely to discuss topic X, which is about ..". Based on the nature of the underlying data, why do you think we observe these results?**
 ```
 your answer here
 ```
+<br>
 
 **12. Before this assignment is due, make a short post about your final project in the `#final-project-workshop` channel in Slack, and give feedback or helpful suggestions to at least one other project posted there. This will be a good way to receive and offer help to your peers!**
+<br>
 
 
 **Congratulations! This is the last lab for the course. These labs were not easy, but you persisted and I hope you learned a lot in the process. As you probably noticed by now, learning data science is often about trying a bunch of things and doing research on the web to see what others have done. Of course, it also requires a bit of creativity that comes from experience and intuition about your dataset. Be sure to talk to Professor Bail and the TA to make sure you're on the right track for the final project. Good luck!**

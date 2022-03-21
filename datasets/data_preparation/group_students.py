@@ -1,3 +1,11 @@
+'''
+author: Devin J. Cornell
+date: 03-21-2022
+description: Use this file to randomly assign students to groups.
+'''
+
+
+
 import pandas as pd
 import random
 
