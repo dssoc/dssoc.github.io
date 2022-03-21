@@ -525,7 +525,7 @@ allowfullscreen></iframe>
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 7 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (Due on Mar 14 by 5PM)</i></p>
 <!--<p><i><b>Lab #7: Introduction to modeling</b> (Due on Mar 7 by 5PM)</i></p>-->
 
 
@@ -763,11 +763,12 @@ allowfullscreen></iframe>
 
 
 
-## 14 - Wellness Week 
+## 14 - One-on-one Meetings With Dr. Bail 
 <b><i><font color="#E84E4E">April 4-9</font></i></b>
 
-<p>No class or Labs - take off time for yourself!</p>
-<p>Regular TA office hours will be open.</p>
+[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
+
+Regular TA office hours will be open.
 
 
 ## 15 - Open Lab 
@@ -805,10 +806,7 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">April 18-20</font></i></b>
 
-We will schedule final presentations for this week.
-
-***Final presentation times:***
-TBD
+Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
 
 ## 17 - Final Paper Due
@@ -816,6 +814,7 @@ TBD
 <b><i><font color="#E84E4E">April 25-30</font></i></b>
 
 Finals week - no class or Labs.
+
 TA office hours TBD.
 
 ***Final paper DUE Saturday April 30 at 5pm EDT***

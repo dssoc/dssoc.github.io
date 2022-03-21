@@ -22,6 +22,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Optional resources:**
 
+* [Applying for a Twitter developer account](https://www.youtube.com/watch?v=LTC8laBJGP0&t=967s)
 * [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
 * [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
 * [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
@@ -138,7 +139,7 @@ senators_twitter %>%
 ```
 <br/>
 
-**4. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
+**3. Use `ggplot` to create a [box plot](https://www.r-graph-gallery.com/boxplot.html) or [violin plot](https://www.r-graph-gallery.com/violin.html) showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).**
 ```{r}
 # Write your answer here
 ```
@@ -148,7 +149,7 @@ Written response here.
 <br/>
 
 
-**5. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by political party.**
+**4. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by political party.**
 
 NOTE: see the note in question number 2 about Twitter usernames that have been changed.
 ```{r}
@@ -172,7 +173,7 @@ av_fav %>% ggplot(aes(x=party, y=av_favorites)) +
 <br/>
 
 
-**6. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and compute the average number of favorites those Tweets received.**
+**5. The Twitter API uses different rate limits for different API endpoints. The easiest way to extract a large number of historical Tweets is to use previously collected unique Tweet IDs, which you may be able to find at various sources on the web. For this problem, download the full Tweet text associated with the Tweet IDs in `senator_tweet_ids` (already loaded at the beginning of this markdown file), and compute the average number of favorites those Tweets received.**
 
 NOTE: see the Lab Instructions page for more details on this dataset.
 
@@ -185,7 +186,7 @@ all_tweets$favorite_count %>% mean()
 <br/>
 
 
-**7. Using the tweet data in `senator_tweet_sample`, create a single grouped bar plot that allows us to compare both favorites and retweet counts by gender.**
+**6. Using the tweet data in `senator_tweet_sample`, create a single grouped bar plot that allows us to compare both favorites and retweet counts by gender.**
 
 HINT: See the suggested readings on this assignment for more information about grouped bar charts.
 
@@ -204,13 +205,13 @@ senators_all %>%
 <br/>
 
 
-**8. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
+**7. Identify another API, whether it has an associated R package or not, and describe how you might use the data available from it in a social/data scientific research project, and more specifically in your final project.**
 ```
 Written answer here
 ```
 <br/>
 
-**9. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
+**8. Develop a hypothesis for one of the research questions you described in the previous weeks. You can choose a new topic if you are no longer interested in your old ones, but make sure you'll be able to test the hypothesis using available data. For example, the hypothesis could be something like "H: when x does y, we see more z." This hypothesis is testable if we have empirical data about x, y, and z. Think carefully about what you might and might not be able to measure.**
 ```
 # Your answer here
 ```

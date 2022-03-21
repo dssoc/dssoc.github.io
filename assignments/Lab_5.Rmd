@@ -19,13 +19,17 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
-* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+Theoretical:
 
-* [`igraph` Tutorial](https://igraph.org/python/doc/tutorial/tutorial.html)
-* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838)
-* [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
-* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by 
-Katya Ognyanova](https://kateto.net/networks-r-igraph)
++ [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
++ [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
++ [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
++ [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
+
+Practical:
+
++ [R igraph Manual Pages](https://igraph.org/r/doc/aaa-igraph-package.html)
++ [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838): specifically, the sections "Loading and configuring two-mode data" and "Another way to produce an overlap count in igraph bipartite_projection()".
 
 
 **Optional resources:**
@@ -33,6 +37,11 @@ Katya Ognyanova](https://kateto.net/networks-r-igraph)
 * [Official documentation for `igraph` package](https://igraph.org/r/doc/)
 * [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
 * [Introduction to `ggraph` layouts](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/)
+* [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
+* [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
+* [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
+
+
 
 
 ```{r message=FALSE, echo=FALSE}
@@ -52,25 +61,28 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ## Questions
 <br>
 
-**1. Describe the following concepts:**
+**1. Describe the following concepts using the suggested readings or by searching on the web:**
 
 ```
-nodes: 
-edges: 
-vertices:
-links: 
-ties: 
-edge list: 
-adjacency matrix: 
-directed network: 
-undirected network: 
-weighted network: 
-unweighted network: 
-bipartite network: 
+Basic Elements of Networks
+  nodes (also called "vertices"): 
+  edges (also called "ties" or "links"): 
+
+Network Representations
+  edge list: 
+  adjacency matrix: 
+
+Types of networks
+  directed vs undirected network: 
+  weighted vs unweighted network: 
+  bipartite vs unipartite network: 
 ```
 <br/>
 
-**2. Describe three different metrics (e.g. betweenness centrality, degree, etc) that can be used to summarize networks or specific nodes/vertices within a network.**
+
+**2. Using resources in the suggested readings and on the web, describe three different centrality measures that can be used to summarize the positions of specific nodes/vertices within a network: betweenness centrality, strength centrality, and eigenvector centrality. Give an example use case for each of these measures.**
+
+HINT: see required reading about centrality measures on Wikipedia to get some ideas.
 ```
 1. 
 2. 
@@ -78,66 +90,60 @@ bipartite network:
 ```
 <br/>
 
-**3. For some of the following problems, we will be working with the `committee_memberships` dataframe. What is the format of this network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
+
+**3. Describe the behavior of the following functions, including their outputs and the behavior of each argument/parameter.**
+
+HINT: Note that `E()` and `V()` are both `igraph` functions.
+```
+graph_from_data_frame: 
+graph_from_edgelist: 
+
+E(): 
+V(): 
+
+strength: 
+
+bipartite_projection: 
+is_bipartite: 
+bipartite.mapping: 
+```
+<br/>
+
+
+**4. For some of the following problems, we will be working with the `committee_memberships` dataframe which assigns congress members (specifically, their `bioguide_id`) to full committees and subcommittees. Would we consider this as an adjacency matrix or edge list network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
 
 HINT: see the Lab Instructions page linked at the top of this assignment for more information about the `committees.Rdata` dataset.
 ```
-Edge list format.
-unweighted: there are no weight values associted with each ege.
-directed: relationships point from congress members to committees and subcommittees.
-bipartite: nodes can be dived into two conceptually different groups: congress members and committees.
+Adjacency Matrix or Edge List?
+
+weighted/unweighted?
+directed/undirected?
+bipartite/unipartite?
 ```
 <br/>
 
-**4. Create a directed network connecting subcommittees to their parent committees and create a basic ggraph visualization to show this network using `layout = 'dendrogram'`. This particular visualization should not include committee names. What can you tell from the plot, if anything?**
 
-HINT: you should only need to use the `subcommittees` dataframe for this problem.
-```{r}
-# Your answer here
-mygraph <- graph_from_data_frame(subcommittees %>% select(committee_thomas_id, thomas_id), directed=TRUE)
-mygraph %>% ggraph(layout = 'dendrogram') + 
-    geom_node_point() +
-    geom_edge_link(width=0.5)
+**5. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_edgelist` function. Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
 
-```
-```
-Pretty hard to interpret, so not that useful. We may, at most, be able to estimate the number of edges assocaited with each committee.
-```
+HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships. You can just use the code on the Lab Instructions document to do this.
 
+HINT: pay special attention to the `graph_from_edgelist` function arguments. Our use here may vary slightly from the example in the lab lecture or video.
 
-**5. Create a bipartite network representing links between members of congress and the subcommittees they are associated with. Keep this graph for future problems.**
-
-HINT: you can create a bipartite network by assigning values to the `type` node attribute. You can verify that you have a bipartite network by using the `is_bipartite` function. You will have problems later on if your graph is not bipartite.
-
-HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships.
-
+HINT: see the section "Loading and configuring two-mode data" in the "Bipartite/Two-Mode Networks in igraph" required reading for information about how to make bipartite graphs in igraph. One way to create a bipartite graph in igraph is to use the line `V(g)$type <- bipartite_mapping(g)$type`, where `g` is the name of your graph. See from the documentation for `is_bipartite` that it simply returns true if the `type` vertex attribute is set.
 ```{r}
 # Your answer here.
-elist <- subcommittees %>% 
-  inner_join(committee_memberships, on=thomas_id) %>% 
-  select(bioguide_id, thomas_id)
-
-g <- graph_from_data_frame(elist)
-V(g)$type <- V(g)$name %in% elist$bioguide_id
-is_bipartite(g)
 ```
 <br/>
 
 
-**6. Create an adjacency matrix that you further use to make a new graph. Was the bipartite property preserved in the graph created from the adjacency matrix? Why does igraph work this way?**
-```{r}
-# Your answer here
-A <- g %>% as_adjacency_matrix()
-p <- graph_from_adjacency_matrix(A)
-dim(A)
-is_bipartite(p)
-```
-```
-Bipartite property was not preserved because adjacency matrix does not inherently contain information about which nodes are associated with which group (congress members or committees). We can see that from the fact that dim(A) is the same as the total number of nodes in the graph here.
-```
-<br/>
+**6. Starting with our bipartite network, create a network of members of congress with edge weights corresponding to the number of common subcommittees they are on. To do this, we can use the `bipartite_projection` function. Keep this network for future problems and compute the average weight of edges this new network for the solution to this problem.**
 
-**7. Starting with our bipartite network, we want to compute a network capturing the number of common committees each member of congress has with each other. To do this, we can use the `bipartite_projection` function to create two separate networks: one indicating the number of common committees that each politician serves on, and the other indiciating the number of common members between each committee. In the congress member network, add full names, gender, political party, and age as node properties. We will use this graph for future problems.**
+HINT: see the section on using `bipartite_projection` in the required reading "Bipartite/Two-Mode Networks in igraph." You can download their data to see how they use it.
+
+HINT: the function `bipartite_projection` produces two separate networks - read the documentation to see the meaning of each, and make sure you're using the network of politicians instead of the network of committees.
+
+HINT: You can get the edge weights of a network using `E(g)$weight`. You can add any number of edge attributes to an igraph network, but the `weight` attribute is a special attribute used by many igraph functions and, in this case, automatically populated by `bipartite_projection` according to the number of common committees the congress members are on.
+
 ```{r}
 # Your answer here
 
@@ -156,9 +162,9 @@ h <- h %>% set_vertex_attr('age', index=congress_attr$bioguide_id, value=congres
 <br/>
 
 
-**8. Make a visual of of the congress co-membership network where the node colors are based on the political party of the politican and node size is based on the politician age. For aesthetic purposes, you should try removing edges that are below a certain weight (weight <= 2 seems reasonable). Try two different layouts and discuss their strengths and weaknesses.**
+**7. Add gender and age from the `congress` dataframe as vertex attributes in the network created in the previous question, and save this modified graph for future problems. Now create a `ggraph` visualization where node colors are based on gender and node size is based on age. For aesthetic purposes, you may try removing edges that are below a certain weight (weight <= 2 seems reasonable). What do you see from this visualization, if anything?**
 
-Hint: see some available layouts [here](https://www.data-imaginist.com/2017/ggraph-introduction-layouts/).
+HINT: one way to set vertex attributes is to use `V(g)$my_attribute <- something` (assuming `g` is the name of your graph, `my_attribute` is the attribute name you want to set, and `something` is a vector corresponding to values of the attribute to be assigned), but this method assumes that the vector `something` gives node values in the same order of `V(g)` (which you can easily verify by inspecting). To solve this challenge, check out the `index` parameter of the `set_vertex_attr` function.
 
 Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
 ```{r}
@@ -170,25 +176,12 @@ h %>%
     geom_node_point(aes(color=party, size=age))
 ```
 ```
-describe strengths and weaknesses here.
-```
-<br/>
-
-**9. Calculate the strength (weighted degree), eigenvalue, closeness, and betweenness centrality for each politician in this network, and compute the correlations between all of them. Why are some of the correlations negative?**
-
-Hint: read the documentation for the centrality calculation functions carefully. The important difference is in how the edge weights are interpreted. This is an important consideration when thinking about the types of centrality you want to use for your analysis.
-```{r}
-# Yor answer here or in text.
-centralities <- data.frame(strength=strength(h), eigen=eigen_centrality(h)$vector, closeness=closeness(h), betweenness=betweenness(h))
-centralities %>% cor()
-```
-```
-Strength and eigenvector consider edge weights to be the "strength" of a tie (like how close two friends are), whereas closeness and betweenness consider edge weights to be a distance (like distances on a map). Only strength and eigenvector centrality are relevant, because we'd consider congress members to be more closely related if they are on more common committees.
+What can we see from this visualization?
 ```
 <br/>
 
 
-**10. Add the centrality measures from the previous question to the `congress` dataframe. Which politician has the highest strength (weighted degree) centrality, and how do you interpret this value? How about the highest eigenvector centrality?**
+**8. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
 ```{r}
 
 V(h)$strength <- centralities$strength
@@ -204,26 +197,12 @@ congress_cent %>% arrange(desc(strength)) %>% select(full_name) %>% head(1)
 congress_cent %>% arrange(desc(eigen)) %>% select(full_name) %>% head(1)
 ```
 ```
-written explanation here
+What do these results tell us?
 ```
 <br/>
 
-**11. Create a violin plot showing the average centrality (you choose the measure) for men and women, and then do the same for each political party. What can you conclude from these?**
-```{r}
-# your answer here
-congress_cent %>% 
-  ggplot(aes(x=gender, y=betweenness)) +
-    geom_violin()
-congress_cent %>% 
-  ggplot(aes(x=party, y=betweenness)) +
-    geom_violin()
-```
-```
-written explanation here
-```
-<br/>
 
-**12. In last week's lab excerice, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
+**9. In last week's lab exercise, you were asked to identify several possible datasets you could use for your final project. Now write two specific data science research questions and describe variables in that dataset that could allow you to answer the questions.**
 
 HINT: **What is a good research question?** A good data science research question specifies a relationship between two or more variables that you can measure. The question "why did the chicken cross the road?" is not a good research question because it does not explicitly describe the relationship between any variables. The question "do chickens cross the road more frequently than raccoons?" is good because it specifies a relationship between the type of animal (chickens and raccoons) and the frequency with which the animal crosses the road. Your question should be answerable given the specific variables available in your dataset.
 ```

@@ -5,7 +5,7 @@ date: ""
 output: html_document
 ---
 
-**[Lab #7 Markdown File](/assignments/Lab_7.Rmd)**
+**[Lab #8 Markdown File](/assignments/Lab_8.Rmd)**
 
 **[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
 
@@ -15,15 +15,18 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
-* R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
-
++ R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
++ Text Mining with R: [The tidy text format](https://www.tidytextmining.com/tidytext.html)
 
 **Optional reading:** 
 
+* [What are Stop Words?](https://kavita-ganesan.com/what-are-stop-words/)
+* [Help with using `str_extract_all` with `unnest`.](https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe)
 * [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
 * [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-* [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
 * Test and develop regex expressions on [regexr.com](https://regexr.com/)
+* [tm package docs](https://cran.r-project.org/web/packages/tm/tm.pdf)
+
 
 
 
@@ -47,7 +50,7 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 
 **1. Create a regular expression which matches a URL in the example string `ex`, and verify that it works using `str_view_all` (described in R for data science [Ch. 14](https://r4ds.had.co.nz/strings.html)). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a "#" symbol followed by any letter, number, or underscore and ignoring capitalization.**
 
-Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. [google search](https://www.google.com/search?q=r+regex+url)) might save you a lot of time.
+Hint: You should not need to learn regex in any detail to complete this problem. These are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. [google search](https://www.google.com/search?q=r+regex+url)) might save you a lot of time. 
 
 Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.
 ```{r}
@@ -59,9 +62,9 @@ ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to ta
 ```
 <br/>
 
-**2. Add two new columns to the `senator_tweet_sample` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model predicting `retweet_count` from `n_link` and `n_ht`.  Were either of these predictors statistically significant? Are they significant predictors of `favorite_count`? Be sure to show the model summaries.**
+**2. Add two new columns to the `senator_tweet_sample` dataframe: `n_link` should include the number of URLs in the Tweet text, and `n_ht` should be the number of hashtags. Then, create a linear model using `lm` to predict `retweet_count` from `n_link` and `n_ht`.  Show the model summaries. Were either of these predictors statistically significant?**
 
-Hint: be sure to read the stringr documentation.
+HINT: see the `str_count` function.
 ```{r}
 # your solution here
 ```
@@ -73,13 +76,15 @@ written response here
 
 **3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used. If there is more than one tied for 5th place, you can ignore them - just choose in 5 total (i.e. you could just use `head(5)`).**
 
-Hint: you may want to check out the `unnest` function (not `unnest_tokens`).
+HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_tokens`) to extract the hashtags. This [Stack Overflow solution](https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe) may be helpful.
 ```{r}
 # your solution here
 ```
 <br/>
 
 **4. Create a new column in `senator_tweet_sample` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
+
+HINT: see the `gsub` or `str_replace` functions.
 ```{r}
 # your solution here
 ```
@@ -95,7 +100,7 @@ Hint: look at the tidytext docs for `unnest_tokens`.
 <br/>
 
 
-**6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.**
+**6. Using `tm`, create a document-term matrix from our cleaned text data. We will discuss what to do with a dtm in the next lab.**
 ```{r}
 # your solution here
 ```

@@ -54,7 +54,7 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 **2. Create a bar graph showing the frequencies of the twenty most-used tokens in our `senator_tweet_sample` corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. "#19thamendment" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
 
 Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for [`unnest_tokens`](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens
-). Searching on the internet may also be a good strategy.
+) - see the `token` parameter. Searching on the internet may also be a good strategy.
 ```{r}
 # your answer here
 ```

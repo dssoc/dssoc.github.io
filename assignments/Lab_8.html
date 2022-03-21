@@ -170,27 +170,30 @@ pre code {
 </div>
 
 
-<p><strong><a href="/assignments/Lab_7.Rmd">Lab #7 Markdown File</a></strong></p>
+<p><strong><a href="/assignments/Lab_8.Rmd">Lab #8 Markdown File</a></strong></p>
 <p><strong><a href="https://dssoc.github.io/assignments/lab_instructions.html">Lab Instructions</a></strong></p>
 <p>In this lab, we will practice working with text using stringr, tidytext, and tm packages.</p>
 <p>See the “Instructions” section of the <a href="https://dssoc.github.io/assignments/lab_instructions.html">Introduction to Lab Assignments</a> page for more information about the labs. That page also gives descriptions for the datasets we will be using.</p>
 <p><strong>Required reading:</strong></p>
 <ul>
 <li>R for Data Science: <a href="https://r4ds.had.co.nz/strings.html">Working with strings (Chapter 14)</a></li>
+<li>Text Mining with R: <a href="https://www.tidytextmining.com/tidytext.html">The tidy text format</a></li>
 </ul>
 <p><strong>Optional reading:</strong></p>
 <ul>
+<li><a href="https://kavita-ganesan.com/what-are-stop-words/">What are Stop Words?</a></li>
+<li><a href="https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe">Help with using <code>str_extract_all</code> with <code>unnest</code>.</a></li>
 <li><a href="https://www.rdocumentation.org/packages/stringr/versions/1.4.0">stringr package docs</a></li>
 <li><a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.6">tidytext package docs</a></li>
-<li><a href="https://cran.r-project.org/web/packages/tm/tm.pdf">tm package docs</a></li>
 <li>Test and develop regex expressions on <a href="https://regexr.com/">regexr.com</a></li>
+<li><a href="https://cran.r-project.org/web/packages/tm/tm.pdf">tm package docs</a></li>
 </ul>
 <p><br /></p>
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>
 <p><strong>1. Create a regular expression which matches a URL in the example string <code>ex</code>, and verify that it works using <code>str_view_all</code> (described in R for data science <a href="https://r4ds.had.co.nz/strings.html">Ch. 14</a>). The output should show both URLs highlighted. Now do the same for hashtags - strings that include a “#” symbol followed by any letter, number, or underscore and ignoring capitalization.</strong></p>
-<p>Hint: these are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. <a href="https://www.google.com/search?q=r+regex+url">google search</a>) might save you a lot of time.</p>
+<p>Hint: You should not need to learn regex in any detail to complete this problem. These are common tasks in cleaning and analyzing Tweet/text data, so doing some online research (i.e. <a href="https://www.google.com/search?q=r+regex+url">google search</a>) might save you a lot of time.</p>
 <p>Hint: be wary of how R specifically interprets regex strings. It might be helpful to look for regex strings specifically written for R.</p>
 <pre class="r"><code># Your answer here
 
@@ -198,23 +201,24 @@ ex &lt;- &quot;BREAKING NEWS - @brumleader urges everyone to do their bit in ord
 
 # your solution here</code></pre>
 <p><br /></p>
-<p><strong>2. Add two new columns to the <code>senator_tweet_sample</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model predicting <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Were either of these predictors statistically significant? Are they significant predictors of <code>favorite_count</code>? Be sure to show the model summaries.</strong></p>
-<p>Hint: be sure to read the stringr documentation.</p>
+<p><strong>2. Add two new columns to the <code>senator_tweet_sample</code> dataframe: <code>n_link</code> should include the number of URLs in the Tweet text, and <code>n_ht</code> should be the number of hashtags. Then, create a linear model using <code>lm</code> to predict <code>retweet_count</code> from <code>n_link</code> and <code>n_ht</code>. Show the model summaries. Were either of these predictors statistically significant?</strong></p>
+<p>HINT: see the <code>str_count</code> function.</p>
 <pre class="r"><code># your solution here</code></pre>
 <pre><code>written response here</code></pre>
 <p><br /></p>
 <p><strong>3. Using stringr and dplyr (not tm or tidytext), produce a dataframe consisting of the 5 most used hashtags in our Tweets with the number of times they were used. If there is more than one tied for 5th place, you can ignore them - just choose in 5 total (i.e. you could just use <code>head(5)</code>).</strong></p>
-<p>Hint: you may want to check out the <code>unnest</code> function (not <code>unnest_tokens</code>).</p>
+<p>HINT: try using <code>str_extract_all</code> in conjunction with <code>unnest</code> (not <code>unnest_tokens</code>) to extract the hashtags. This <a href="https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe">Stack Overflow solution</a> may be helpful.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
 <p><strong>4. Create a new column in <code>senator_tweet_sample</code> called <code>cleaned</code> which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.</strong></p>
+<p>HINT: see the <code>gsub</code> or <code>str_replace</code> functions.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
 <p><strong>5. Using tidytext, produce a dataframe showing the ten most common words in the Tweets after URLs and hashtags have been removed (use our new column <code>cleaned</code>). Then secondly show the most common words, excluding stopwords.</strong></p>
 <p>Hint: look at the tidytext docs for <code>unnest_tokens</code>.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
-<p><strong>6. Create a document-term matrix which including english-language Tweets. We will discuss what to do with a dtm in the next lab.</strong></p>
+<p><strong>6. Using <code>tm</code>, create a document-term matrix from our cleaned text data. We will discuss what to do with a dtm in the next lab.</strong></p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
 <p><strong>7. How could you potentially use text analysis in the final project you have been working on? (You don’t necessarily need to do it for the project, just think hypothetically).</strong></p>
