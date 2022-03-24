@@ -16,7 +16,8 @@ sen <- read.csv('raw_data/legislators-current.csv') %>%
 
 senator_wiki <- read_csv('raw_data/wikipedia_pages.csv') %>% 
   select(bioguide_id, wikipedia_id, summary, text) %>% 
-  inner_join(sen, by='bioguide_id')
+  inner_join(sen, by='bioguide_id') %>% 
+  mutate(subtext=substr(text, 1, 5000))
 
 save(senator_wiki, file='../../datasets/senator_wiki.RData')
 senator_wiki %>% head()
