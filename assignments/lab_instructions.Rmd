@@ -49,7 +49,7 @@ Now I will describe the datasets we will use for the class. We will use a total 
 + [`congress.RData`](https://dssoc.github.io/datasets/congress.RData): contains basic information about each member of congress.
 + [`committees.RData`](https://dssoc.github.io/datasets/congress.RData): contains basic information about each member of congress.
 + [`senator_tweets.RData`](https://dssoc.github.io/datasets/senator_tweets.RData): a small sample of Tweets from accounts associated with each senator (a subset of all congress members) in the `congress` dataset.
-+ [`congress_wiki.RData`](https://dssoc.github.io/datasets/congress_wiki.RData): text from wikipedia pages of each member of congress in the `congress` dataset.
++ [`senator_wiki.RData`](https://dssoc.github.io/datasets/senator_wiki.RData): text from wikipedia pages of each Senator in the `congress` dataset with a valid Wikipedia ID.
 
 ## The `congress.RData` Dataset
 
@@ -219,15 +219,34 @@ senator_tweet_sample$status_id %>% setdiff(senator_tweet_ids) %>% length()
 senator_tweet_ids %>% setdiff(senator_tweet_sample$status_id) %>% length()
 ```
 
-## The `congress_wiki.RData` Dataset
+## The `senator_wiki.RData` Dataset
 
-TODO: I will explain this later.
+This dataset includes text from the Wikipedia pages for each of the Senators (not Representatives) in our dataset that aligned with the Wikipedia ids in the [congress-legislators repository](https://github.com/unitedstates/congress-legislators).
 
-[Download congress_wiki.RData](https://dssoc.github.io/datasets/congress_wiki.RData)
+
+[Download senator_wiki.RData](https://dssoc.github.io/datasets/senator_wiki.RData)
 
 Use this code to load the dataset:
 
 ```{r}
-#load(url('https://dssoc.github.io/datasets/congress_wiki.RData'))
+load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
+```
+
+The `summary` and `text` columns were provided directly from Wikipedia, and I created the `subtext` column by truncating the `text` data to exactly 5000 characters.
+
+```{r}
+senator_wiki %>% head()
+senator_wiki %>% summary()
+```
+
+Now I'll show the average lengths for each of the text columns. Notice that all subtext columns have exactly 5000 characters - the column was created by truncating the text column. This truncated version has the added benefit of working well with topic modeling algorithms.
+
+```{r}
+senator_wiki %>% 
+  summarize(
+    summary_av=mean(str_length(summary)), summary_sd=sd(str_length(summary)), 
+    text_av=mean(str_length(text)), text_sd=sd(str_length(text)), 
+    subtext_av=mean(str_length(subtext)), subtext_sd=sd(str_length(subtext))
+  )
 ```
 

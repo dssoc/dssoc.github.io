@@ -203,7 +203,7 @@ pre code {
 <li><a href="https://dssoc.github.io/datasets/congress.RData"><code>congress.RData</code></a>: contains basic information about each member of congress.</li>
 <li><a href="https://dssoc.github.io/datasets/congress.RData"><code>committees.RData</code></a>: contains basic information about each member of congress.</li>
 <li><a href="https://dssoc.github.io/datasets/senator_tweets.RData"><code>senator_tweets.RData</code></a>: a small sample of Tweets from accounts associated with each senator (a subset of all congress members) in the <code>congress</code> dataset.</li>
-<li><a href="https://dssoc.github.io/datasets/congress_wiki.RData"><code>congress_wiki.RData</code></a>: text from wikipedia pages of each member of congress in the <code>congress</code> dataset.</li>
+<li><a href="https://dssoc.github.io/datasets/senator_wiki.RData"><code>senator_wiki.RData</code></a>: text from wikipedia pages of each Senator in the <code>congress</code> dataset with a valid Wikipedia ID.</li>
 </ul>
 <div id="the-congress.rdata-dataset" class="section level2">
 <h2>The <code>congress.RData</code> Dataset</h2>
@@ -481,14 +481,13 @@ pre code {
 <li><code>senator_tweet_sample</code>: random sample of 500 tweets from the full dataset collected using <code>rtweet::lookup_tweets</code>. Sample is different from <code>senator_status_ids</code>.</li>
 </ul>
 <pre class="r"><code>senator_tweet_ids %&gt;% head()</code></pre>
-<pre><code>## [1] &quot;854445556172812289&quot; &quot;791376840506109952&quot; &quot;608357214835904512&quot;
-## [4] &quot;621005601385148416&quot; &quot;951479956646842368&quot; &quot;595705214264565760&quot;</code></pre>
+<pre><code>## [1] &quot;1072617542051618817&quot; &quot;1004868708970491904&quot; &quot;725757591490576384&quot; 
+## [4] &quot;915609208640303105&quot;  &quot;859025969197219840&quot;  &quot;734772157922856960&quot;</code></pre>
 <pre class="r"><code>senator_tweet_sample %&gt;% summary()</code></pre>
 <pre><code>##   status_id           user_id          screen_name       
 ##  Length:990         Length:990         Length:990        
 ##  Class :character   Class :character   Class :character  
 ##  Mode  :character   Mode  :character   Mode  :character  
-##                                                          
 ##                                                          
 ##                                                          
 ##                                                          
@@ -499,39 +498,68 @@ pre code {
 ##  Mean   :2016-06-28 19:24:19                                  
 ##  3rd Qu.:2017-11-03 08:37:29                                  
 ##  Max.   :2018-12-31 22:15:00                                  
-##                                                               
-##  favorite_count    retweet_count    reply_count 
-##  Min.   :    0.0   Min.   :    0   Min.   : NA  
-##  1st Qu.:    1.0   1st Qu.:    3   1st Qu.: NA  
-##  Median :    7.0   Median :    8   Median : NA  
-##  Mean   :  241.2   Mean   :  128   Mean   :NaN  
-##  3rd Qu.:   55.0   3rd Qu.:   35   3rd Qu.: NA  
-##  Max.   :29597.0   Max.   :10847   Max.   : NA  
-##                                    NA&#39;s   :990</code></pre>
+##  favorite_count    retweet_count         text          
+##  Min.   :    0.0   Min.   :    0.0   Length:990        
+##  1st Qu.:    1.0   1st Qu.:    3.0   Class :character  
+##  Median :    7.0   Median :    8.0   Mode  :character  
+##  Mean   :  240.9   Mean   :  127.7                     
+##  3rd Qu.:   55.0   3rd Qu.:   35.0                     
+##  Max.   :29573.0   Max.   :10835.0</code></pre>
 <pre class="r"><code>senator_tweet_sample %&gt;% head()</code></pre>
 <pre><code>## # A tibble: 6 × 9
 ##   status_id     user_id     screen_name  created_at          is_quote is_retweet
 ##   &lt;chr&gt;         &lt;chr&gt;       &lt;chr&gt;        &lt;dttm&gt;              &lt;lgl&gt;    &lt;lgl&gt;     
 ## 1 100407438551… 8166832740… SenJohnKenn… 2018-06-05 18:56:02 FALSE    TRUE      
 ## 2 104786755483… 8166832740… SenJohnKenn… 2018-10-04 15:14:28 FALSE    TRUE      
-## 3 705130367318… 202206694   SenJohnBarr… 2016-03-02 20:39:14 FALSE    FALSE     
-## 4 397488749161… 202206694   SenJohnBarr… 2013-11-04 22:21:17 FALSE    FALSE     
-## 5 185730658071… 202206694   SenJohnBarr… 2012-03-30 14:10:14 FALSE    FALSE     
-## 6 106922351601… 202206694   SenJohnBarr… 2018-12-02 13:35:26 FALSE    FALSE     
+## 3 983905611711… 18137749    ChrisVanHol… 2018-04-11 03:12:32 TRUE     FALSE     
+## 4 192311825147… 18137749    ChrisVanHol… 2012-04-17 18:01:26 FALSE    FALSE     
+## 5 954383700900… 18137749    ChrisVanHol… 2018-01-19 16:03:00 FALSE    FALSE     
+## 6 292297483713… 18137749    ChrisVanHol… 2013-01-18 15:48:45 FALSE    FALSE     
 ## # … with 3 more variables: favorite_count &lt;int&gt;, retweet_count &lt;int&gt;,
-## #   reply_count &lt;int&gt;</code></pre>
+## #   text &lt;chr&gt;</code></pre>
 <p>As you can see from this output, the <code>status_id</code>s of the full tweets and just the ids is entirely disjoint. They are sampled from the same full set of <code>status_id</code>s though.</p>
 <pre class="r"><code>senator_tweet_sample$status_id %&gt;% setdiff(senator_tweet_ids) %&gt;% length()</code></pre>
 <pre><code>## [1] 990</code></pre>
 <pre class="r"><code>senator_tweet_ids %&gt;% setdiff(senator_tweet_sample$status_id) %&gt;% length()</code></pre>
 <pre><code>## [1] 500</code></pre>
 </div>
-<div id="the-congress_wiki.rdata-dataset" class="section level2">
-<h2>The <code>congress_wiki.RData</code> Dataset</h2>
-<p>TODO: I will explain this later.</p>
-<p><a href="https://dssoc.github.io/datasets/congress_wiki.RData">Download congress_wiki.RData</a></p>
+<div id="the-senator_wiki.rdata-dataset" class="section level2">
+<h2>The <code>senator_wiki.RData</code> Dataset</h2>
+<p>This dataset includes text from the Wikipedia pages for each of the Senators (not Representatives) in our dataset that aligned with the Wikipedia ids in the <a href="https://github.com/unitedstates/congress-legislators">congress-legislators repository</a>.</p>
+<p><a href="https://dssoc.github.io/datasets/senator_wiki.RData">Download senator_wiki.RData</a></p>
 <p>Use this code to load the dataset:</p>
-<pre class="r"><code>#load(url(&#39;https://dssoc.github.io/datasets/congress_wiki.RData&#39;))</code></pre>
+<pre class="r"><code>load(url(&#39;https://dssoc.github.io/datasets/senator_wiki.RData&#39;))</code></pre>
+<p>The <code>summary</code> and <code>text</code> columns were provided directly from Wikipedia, and I created the <code>subtext</code> column by truncating the <code>text</code> data to exactly 5000 characters.</p>
+<pre class="r"><code>senator_wiki %&gt;% head()</code></pre>
+<pre><code>## # A tibble: 6 × 5
+##   bioguide_id wikipedia_id     summary           text           subtext         
+##   &lt;chr&gt;       &lt;chr&gt;            &lt;chr&gt;             &lt;chr&gt;          &lt;chr&gt;           
+## 1 B000944     Sherrod Brown    &quot;Sherrod Campbel… &quot;Sherrod Camp… &quot;Sherrod Campbe…
+## 2 C001070     Bob Casey Jr.    &quot;Robert Patrick … &quot;Robert Patri… &quot;Robert Patrick…
+## 3 F000062     Dianne Feinstein &quot;Dianne Goldman … &quot;Dianne Goldm… &quot;Dianne Goldman…
+## 4 K000367     Amy Klobuchar    &quot;Amy Jean Klobuc… &quot;Amy Jean Klo… &quot;Amy Jean Klobu…
+## 5 M000639     Bob Menendez     &quot;Robert Menendez… &quot;Robert Menen… &quot;Robert Menende…
+## 6 S000033     Bernie Sanders   &quot;Bernard  Sander… &quot;Bernard  San… &quot;Bernard  Sande…</code></pre>
+<pre class="r"><code>senator_wiki %&gt;% summary()</code></pre>
+<pre><code>##  bioguide_id        wikipedia_id         summary              text          
+##  Length:59          Length:59          Length:59          Length:59         
+##  Class :character   Class :character   Class :character   Class :character  
+##  Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+##    subtext         
+##  Length:59         
+##  Class :character  
+##  Mode  :character</code></pre>
+<p>Now I’ll show the average lengths for each of the text columns. Notice that all subtext columns have exactly 5000 characters - the column was created by truncating the text column. This truncated version has the added benefit of working well with topic modeling algorithms.</p>
+<pre class="r"><code>senator_wiki %&gt;% 
+  summarize(
+    summary_av=mean(str_length(summary)), summary_sd=sd(str_length(summary)), 
+    text_av=mean(str_length(text)), text_sd=sd(str_length(text)), 
+    subtext_av=mean(str_length(subtext)), subtext_sd=sd(str_length(subtext))
+  )</code></pre>
+<pre><code>## # A tibble: 1 × 6
+##   summary_av summary_sd text_av text_sd subtext_av subtext_sd
+##        &lt;dbl&gt;      &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;
+## 1      1384.       663.  28102.  17498.       5000          0</code></pre>
 </div>
 </div>
 
