@@ -77,9 +77,6 @@ HINT: your merged dataframe should have as many rows as the original `senator_wi
 HINT: check out the `cast_dtm` function if you're using `unnest_tokens`. Recall that we created a DTM as part of Lab 8 as well.
 ```{r}
 # your answer here
-senj <- congress %>% 
-  inner_join(senator_wiki, by='bioguide_id')
-
 ```
 <br>
 
