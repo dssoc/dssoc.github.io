@@ -215,9 +215,7 @@ load(url(&#39;https://dssoc.github.io/datasets/senator_wiki.RData&#39;))</code><
 <p><strong>3. Join the columns of <code>congress</code> with <code>senator_wiki</code> (use <code>inner_join</code>) so that you should have Senator member information (gender, age, etc) associated with every wikipedia page in our dataset, then create a document-term matrix from <code>text</code> or <code>subtext</code> (whichever is easier for you to use) after removing stopwords.</strong></p>
 <p>HINT: your merged dataframe should have as many rows as the original <code>senator_wiki</code> dataframe.</p>
 <p>HINT: check out the <code>cast_dtm</code> function if you’re using <code>unnest_tokens</code>. Recall that we created a DTM as part of Lab 8 as well.</p>
-<pre class="r"><code># your answer here
-senj &lt;- congress %&gt;% 
-  inner_join(senator_wiki, by=&#39;bioguide_id&#39;)</code></pre>
+<pre class="r"><code># your answer here</code></pre>
 <p><br></p>
 <p><strong>4. Construct a topic model with LDA using a specified random seed (see the <code>control</code> parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
