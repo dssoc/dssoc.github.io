@@ -95,7 +95,7 @@ your answer here
 ```
 <br>
 
-**6. Create a structural topic model with the `stm` package using politician gender, political orientation, and (approximate) age as covariates in the model. Then use `plot` with no parameters to show prevalence and top words associated with each topic.**
+**6. Create a structural topic model with the `stm` package using politician gender, political party affiliation, and (approximate) age as covariates in the model. Then use `plot` with no parameters to show prevalence and top words associated with each topic.**
 
 HINT: to create the STM, start with Section 3.1-3.3 of the stm Package Vignette listed in the required readings. You'll use `textProcessor`, `prepDocuments`, and then `stm` to create the STM topic model.
 
@@ -123,7 +123,7 @@ your answer here
 
 **8. Now we will try to understand how each of our covariates (politician age, gender, and political party) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
 
-HINT: to use `labelTopics`, read Section 3.5 of the stm Package Vignette.
+HINT: See the plot in section 3.6 of the stm Package Vignette under the heading "Topical content" on pages 18-19.
 ```{r}
 # your answer here
 ```
