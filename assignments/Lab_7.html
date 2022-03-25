@@ -255,7 +255,7 @@ m_congress %&gt;%
 <pre><code>written explanation here
 Females on slightly more committees, error bars indicate the difference is not statistically significance.</code></pre>
 <p><br /></p>
-<p><strong>5. Following section <a href="https://r4ds.had.co.nz/model-building.html#a-more-complicated-model">24.2.2</a> of the R4DS required reading, construct a model using <code>lm</code> or <code>glm</code> to predict the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model <code>summary</code>, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?</strong></p>
+<p><strong>5. Following section <a href="https://r4ds.had.co.nz/model-building.html#a-more-complicated-model">24.2.2</a> of the R4DS required reading, construct a model using <code>lm</code> or <code>glm</code> to predict the proportion of instances where a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model <code>summary</code>, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?</strong></p>
 <p>HINT: see required readings for help interpreting regression models.</p>
 <pre class="r"><code># Your answer here
 m &lt;- glm(prop_title ~ age + gender + party, data=m_congress)

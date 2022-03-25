@@ -195,6 +195,7 @@ pre code {
 <p><br /></p>
 <p><strong>2. Create a bar graph showing the frequencies of the twenty most-used tokens in our <code>senator_tweet_sample</code> corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. “#19thamendment” should be a single token). Now create a similar plot that ONLY includes the hashtags.</strong></p>
 <p>Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for <a href="https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens"><code>unnest_tokens</code></a> - see the <code>token</code> parameter. Searching on the internet may also be a good strategy.</p>
+<<<<<<< HEAD
 <pre class="r"><code># your answer here
 url_pattern &lt;- &quot;http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&amp;+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+&quot;
 
@@ -311,6 +312,31 @@ custom_sentiment &lt;- data_frame(happy=c(&#39;joy&#39;, &#39;exicted&#39;, &#39
 ##   &lt;chr&gt;     &lt;lgl&gt;  &lt;int&gt;
 ## 1 happy     FALSE     12
 ## 2 happy     TRUE      11</code></pre>
+=======
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>3. For each of the top three most frequent non-stopword tokens, extract up to three tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about how they seem to be used in this context.</strong></p>
+<p>HINT: it might be useful to use <code>str_count</code> here.</p>
+<pre class="r"><code># your answer here</code></pre>
+<pre><code>your written explanation here</code></pre>
+<p><br /></p>
+<p><strong>4. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.</strong></p>
+<pre class="r"><code># your answer here</code></pre>
+<pre><code>your written explanation here</code></pre>
+<p><br /></p>
+<p><strong>5. Create a new column in senator_tweet_sample that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.</strong></p>
+<p>Hint: see the <code>hour</code> function of lubridate.</p>
+<pre class="r"><code># your answer here</code></pre>
+<p><br /></p>
+<p><strong>6. Use the “bing” sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.</strong></p>
+<p>HINT: use <code>get_sentiments(&quot;bing&quot;)</code> to get the Bing dictionary.</p>
+<pre class="r"><code># your answer here</code></pre>
+<pre><code>Explain why you chose to compute sentiment in this way.</code></pre>
+<p><br /></p>
+<p><strong>7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?</strong></p>
+<p>Hint: you may want to look at the bing dictionary (<code>get_sentiments(&quot;bing&quot;)</code>) to see how you should format your custom dictionary.</p>
+<pre class="r"><code># your answer here</code></pre>
+>>>>>>> 29c8cc70007d1d45b6046ac7e786d9c3d42b6022
 <pre><code>Explain what your dictionary is intended to capture and interpret the results.</code></pre>
 <p><br /></p>
 <p><strong>8. Using the data you have collected for your final project, show one preliminary result or statistic from an analysis you ran. If you haven’t collected your dataset computationally, try to look anecdotally at the original source (e.g. if Twitter is your dataset, then just look on the Twitter website) and give one observation about the data. Try to make an observation or result based on one of the variables you will use for your final analysis. What do you see? Send your figures and statistics directly to your TA in Slack - don’t add them to your script.</strong></p>

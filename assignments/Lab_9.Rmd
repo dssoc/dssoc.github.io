@@ -77,9 +77,9 @@ frequent_tokens %>%
 ```
 <br/>
 
-**3. 
+**3. For each of the top three most frequent non-stopword tokens, extract up to three tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about how they seem to be used in this context.**
 
-Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
+HINT: it might be useful to use `str_count` here.
 ```{r}
 # your answer here
 
@@ -103,7 +103,7 @@ your written explanation here
 ```
 <br/>
 
-**4. For each of the top-three tf-idf tokens, extract the one tweet with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about what they mean. Do they fit your hypotheses from the previous question?**
+**4. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
 ```{r}
 # your answer here
 toppers <- tf_idfs %>% 
@@ -121,9 +121,10 @@ your written explanation here
 ```
 <br/>
 
-**5. Create a new column in senator_tweets that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm, inclusive) vs night.**
 
-Hint: you may need to use `as.POSIXlt` to convert date information.
+**5. Create a new column in senator_tweet_sample that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+
+Hint: see the `hour` function of lubridate.
 ```{r}
 # your answer here
 senator_tweet_sample %>% 
@@ -136,6 +137,8 @@ senator_tweet_sample %>%
 
 
 **6. Use the "bing" sentiment dictionary to compare the average sentiment for Tweets published in daytime vs nighttime using a bar plot. You get to choose how you will create these sentiment scores for comparison - explain and justify your decision. Also explain your interpretation of the results.**
+
+HINT: use `get_sentiments("bing")` to get the Bing dictionary.
 ```{r}
 # your answer here
 senator_tweet_sample %>%
@@ -155,7 +158,7 @@ I just used raw counts instead of averages. Feel free to use whatever measure yo
 
 **7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?**
 
-Hint: you may want to look at the bing dictionary to see how you should format your custom dictionary.
+Hint: you may want to look at the bing dictionary (`get_sentiments("bing")`) to see how you should format your custom dictionary.
 ```{r}
 # your answer here
 custom_sentiment <- data_frame(happy=c('joy', 'exicted', 'happy'), sad=c('sad', 'dissappointed', 'angry')) %>% 

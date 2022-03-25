@@ -118,7 +118,7 @@ Females on slightly more committees, error bars indicate the difference is not s
 
 
 
-**5. Following section [24.2.2](https://r4ds.had.co.nz/model-building.html#a-more-complicated-model) of the R4DS required reading, construct a model using `lm` or `glm` to predict the percentage of time that a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model `summary`, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?**
+**5. Following section [24.2.2](https://r4ds.had.co.nz/model-building.html#a-more-complicated-model) of the R4DS required reading, construct a model using `lm` or `glm` to predict the proportion of instances where a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model `summary`, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?**
 
 HINT: see required readings for help interpreting regression models.
 ```{r}

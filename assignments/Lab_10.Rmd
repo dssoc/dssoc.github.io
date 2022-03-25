@@ -49,8 +49,6 @@ library(stm)
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
 
-# limit to first 1000 characters if it is easier to work with on your computer
-#congress_wiki <- congress_wiki %>% mutate(subtext=substr(text, 1, 1000))
 ```
 <br/>
 
@@ -72,11 +70,16 @@ your answer here
 ```
 <br>
 
-**3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have congress member information (gender, party, etc) associated with every wikipedia page in our dataset, then create a document-term matrix after removing stopwords.**
+**3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have Senator member information (gender, age, etc) associated with every wikipedia page in our dataset, then create a document-term matrix from `text` or `subtext` (whichever is easier for you to use) after removing stopwords.**
 
-Hint: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
+HINT: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
+
+HINT: check out the `cast_dtm` function if you're using `unnest_tokens`. Recall that we created a DTM as part of Lab 8 as well.
 ```{r}
 # your answer here
+senj <- congress %>% 
+  inner_join(senator_wiki, by='bioguide_id')
+
 ```
 <br>
 
@@ -86,7 +89,7 @@ Hint: your merged dataframe should have as many rows as the original `senator_wi
 ```
 <br>
 
-**5. Make a function that accepts (takes as an argument) a topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
+**5. Make a function that accepts (takes as an argument) a LDA topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
 ```{r}
 # your answer here
 ```
@@ -95,29 +98,9 @@ your answer here
 ```
 <br>
 
-**6. Create a structural topic model with the `stm` package using politician gender, political orientation, and (approximate) age as covariates in the model. Then use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what the topics are capturing?**
+**6. Create a structural topic model with the `stm` package using politician gender, political orientation, and (approximate) age as covariates in the model. Then use `plot` with no parameters to show prevalence and top words associated with each topic.**
 
-Hint: you'll need to recall some of the string techniques we've used before to calculate age based on birth date. You can use an approximation for age by subtracting the birth year from the current year (2020).
-```{r}
-# your answer here
-```
-```
-your answer here
-```
-<br>
-
-**7. Now try using `searchK` to identify the best number of topics for your dataset. Which K is optimal? How did you decide?**
-
-Hint: you should be able to use the same preprocessed and prepared objects in from the previous question.
-```{r}
-# your answer here
-```
-```
-your answer here
-```
-<br>
-
-**8. Use `selectModel` to generate a number of models and then `plotModels` to visualize their performance. Which model had the best performance, and how can you tell? What do the two dimensions plotted using `plotModels` mean? Then use `plot` to show an overview of the topics in the model. What does this tell you? Keep the optimal model for future questions.**
+HINT: to create the STM, start with Section 3.1-3.3 of the stm Package Vignette listed in the required readings. You'll use `textProcessor`, `prepDocuments`, and then `stm` to create the STM topic model.
 
 ```{r}
 # your answer here
@@ -128,7 +111,10 @@ your answer here
 <br>
 
 
-**9. After identifying the statistically optimal number of topics and choosing the best among models with a given number of topics, we now have a model that we can examine more closely. The first thing we will do is try to understand how each of our covariates (politician age, gender, political party, and type) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
+
+**7. Use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what these topics are capturing?**
+
+HINT: to use `labelTopics`, read Section 3.5 of the stm Package Vignette.
 ```{r}
 # your answer here
 ```
@@ -138,7 +124,9 @@ your answer here
 <br>
 
 
-**10. Now we will inspect the topics in our selected model. First, use `labelTopics` to examine the top words for each topic you identified as interesting in the previous step. Then use `plotQuote` to show the first `n` characters of each document closely associated with the topic. Do you see any interesting patterns?**
+**8. Now we will try to understand how each of our covariates (politician age, gender, and political party) corresponds to each topic. This is done primarily through use of the `estimateEffect` function. Use `estimateEffect` and `summary` to print out models corresponding to each of our topics. Identify several situations where a covariate is predictive of a topic. Then, create a plot showing those effect sizes with confidence intervals using the `plot` function. Make sure the figure is readable. Which topics are the most interesting based on the covariate significance? What do these results tell you?**
+
+HINT: to use `labelTopics`, read Section 3.5 of the stm Package Vignette.
 ```{r}
 # your answer here
 ```
@@ -147,13 +135,8 @@ your answer here
 ```
 <br>
 
-**11. Examine the statistical models and the content of the topics closely to understand the patterns that are appearing in our data. What is your interpretation of the results. You should be able to draw concrete conclusions such as "republican wikipedia pages are more likely to discuss topic X, which is about ..". Based on the nature of the underlying data, why do you think we observe these results?**
-```
-your answer here
-```
-<br>
 
-**12. Before this assignment is due, make a short post about your final project in the `#final-project-workshop` channel in Slack, and give feedback or helpful suggestions to at least one other project posted there. This will be a good way to receive and offer help to your peers!**
+**9. Before this assignment is due, make a short post about your final project in the `#final-project-workshop` channel in Slack, and give feedback or helpful suggestions to at least one other project posted there. This will be a good way to receive and offer help to your peers!**
 <br>
 
 
