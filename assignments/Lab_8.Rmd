@@ -101,6 +101,8 @@ Hint: look at the tidytext docs for `unnest_tokens`.
 
 
 **6. Using `tm`, create a document-term matrix from our cleaned text data. We will discuss what to do with a dtm in the next lab.**
+
+HINT: you might want to check out the `cast_dtm` function.
 ```{r}
 # your solution here
 ```
