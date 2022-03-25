@@ -37,9 +37,7 @@ This is a list of all Labs and their associated markdown files:
 7. [Modeling (A Brief Introduction)](/assignments/Lab_7.html) ([markdown](/assignments/Lab_7.Rmd))
 8. [Introduction to text analysis](/assignments/Lab_8.html) ([markdown](/assignments/Lab_8.Rmd))
 9. [Word counts and Dictionaries](/assignments/Lab_9.html) ([markdown](/assignments/Lab_9.Rmd))
-<!--
 10. [Topic Modeling](/assignments/Lab_10.html) ([markdown](/assignments/Lab_10.Rmd))
--->
 
 # Dataset Description
 
