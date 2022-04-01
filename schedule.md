@@ -774,10 +774,9 @@ Regular TA office hours will be open.
 ## 15 - Open Lab 
 <b><i><font color="#E84E4E">April 11-16</font></i></b>
 
-<p>Discuss your final project or any other topic you wish during one-on-one meetings with Dr. Bail.</p>
+[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
 
-<p>Regularly scheduled TA office hours will be available.</p>
-
+Work on final presentation and paper.
 
 ***Required reading***:
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
