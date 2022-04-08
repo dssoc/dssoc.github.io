@@ -774,7 +774,10 @@ Regular TA office hours will be open.
 ## 15 - Open Lab 
 <b><i><font color="#E84E4E">April 11-16</font></i></b>
 
-[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
+<!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
+
+**Monday** and **Wednesday**: open lab in usual room during regularly scheduled class @ 3:30-4:45pm.
+
 
 Work on final presentation and paper.
 
