@@ -1,0 +1,56 @@
+---
+title: "Topic Modeling Class Examples 03-30-2022"
+author: "Devin J. Cornell"
+date: "3/30/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(tidytext)
+library(tm)
+library(topicmodels)
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
+```
+
+
+
+# Recap: Make a DTM
+Two ways to do it: `tm` and `tidytext`.
+
+#### 1. Use `tm`
+```{r}
+wiki_corpus <- Corpus(VectorSource(as.vector(senator_wiki$subtext)))
+dtm_tm <- DocumentTermMatrix(wiki_corpus)
+```
+
+
+```{r}
+vocab <- senator_wiki %>% 
+  select(subtext) %>% 
+  unnest_tokens('word', subtext) %>%
+  count(word) %>% 
+  anti_join(stop_words) %>% 
+  filter(!str_detect(word, '[0-9]')) %>% 
+  filter(n >= 3) %>% 
+  select(word)
+
+dtm <- senator_wiki %>% 
+  select(bioguide_id, subtext) %>% 
+  unnest_tokens('word', subtext) %>% 
+  count(bioguide_id, word) %>% 
+  inner_join(vocab, by='word') %>% 
+  cast_dtm(bioguide_id, word, n)
+```
+
+
+
+```{r}
+topicmodel <- LDA(dtm, k=10, control=list(seed=0))
+topics <- tidy(topicmodel, matrix = "beta")
+topicmodel
+```
+
+
