@@ -168,7 +168,7 @@ pred <- estimateEffect(formula = 1:10 ~ gender + party + age,
 pred %>% summary()
 
 pred %>% plot(covariate='age', topics=c(1,2,3), model=wiki_stm, method='difference',
-     cov.value1 = "Democrat", cov.value2 = "Republican",)
+     cov.value1 = "Young", cov.value2 = "Old",)
 ```
 ```
 your answer here
