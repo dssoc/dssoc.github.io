@@ -66,10 +66,18 @@ frequent_tokens <- senator_tweet_sample %>%
   unnest_tokens("word", text, token = "tweets") %>% 
   anti_join(stop_words) %>%
   count(word) %>%
-  arrange(desc(n)) %>% 
-  head(20)
+  arrange(desc(n))
 
 frequent_tokens %>% 
+  head(20) %>% 
+  ggplot(aes(y = reorder(word, n), x=n)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Frequency")
+
+frequent_tokens %>% 
+  filter(startsWith(word, "#")) %>% 
+  head(20) %>% 
   ggplot(aes(y = reorder(word, n), x=n)) +
   geom_bar(stat = "identity") +
     xlab("") +
@@ -95,7 +103,7 @@ tf_idfs <- senator_tweet_sample %>%
 
 tf_idfs %>% 
   head(10) %>% 
-  ggplot(aes(y=word, x=tf_idf)) +
+  ggplot(aes(y=reorder(word, tf_idf), x=tf_idf)) +
     geom_bar(stat='identity')
 ```
 ```
@@ -129,8 +137,9 @@ Hint: see the `hour` function of lubridate.
 # your answer here
 senator_tweet_sample %>% 
   mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
-  count(is_day) %>% 
-  ggplot(aes(x=is_day, y=n)) +
+  mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+  count(tod) %>% 
+  ggplot(aes(x=tod, y=n)) +
     geom_bar(stat='identity')
 ```
 <br/>
@@ -141,13 +150,39 @@ senator_tweet_sample %>%
 HINT: use `get_sentiments("bing")` to get the Bing dictionary.
 ```{r}
 # your answer here
-senator_tweet_sample %>%
-  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
-  mutate(text = str_remove(text, url_pattern)) %>%
-  unnest_tokens("word", text, token = "tweets") %>% 
-  anti_join(stop_words) %>%
-  inner_join(get_sentiments("bing")) %>% 
-  count(sentiment, is_day)
+
+daynight_sentiment_summarize <- function(tweets) {
+  
+  # filter and apply dictionary
+  word_sents <- tweets %>%
+    mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+    mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+    mutate(text = str_remove(text, url_pattern)) %>%
+    unnest_tokens("word", text, token = "tweets") %>% 
+    anti_join(stop_words, by='word') %>%
+    filter(!startsWith(word, '@')) %>% 
+    left_join(get_sentiments("bing")) %>% 
+    select(status_id, tod, word, sentiment)
+  
+  # average within status and then within time-of-day
+  sent_summary <- word_sents %>% 
+    group_by(status_id) %>% 
+    summarize(
+      tod=first(tod), 
+      percent_pos=sum(sentiment=='positive', na.rm=T)/n(), 
+      percent_neg=sum(sentiment=='negative', na.rm=T)/n()
+    ) %>% 
+    group_by(tod) %>% 
+    summarize(Positive=mean(percent_pos), Negative=mean(percent_neg)) %>% 
+    pivot_longer(Positive:Negative, names_to='Sentiment', values_to='Average')
+
+  return(sent_summary)
+}
+
+daynight_sentiment_summarize(senator_tweet_sample) %>% 
+  ggplot(aes(x=Average, y=Sentiment, fill=tod)) +
+    geom_bar(stat='identity', position='dodge')
+  
 ```
 ```
 Explain why you chose to compute sentiment in this way.
@@ -164,13 +199,41 @@ Hint: you may want to look at the bing dictionary (`get_sentiments("bing")`) to 
 custom_sentiment <- data_frame(happy=c('joy', 'exicted', 'happy'), sad=c('sad', 'dissappointed', 'angry')) %>% 
   pivot_longer(happy:sad, values_to='word', names_to='sentiment')
 
-senator_tweet_sample %>%
-  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
-  mutate(text = str_remove(text, url_pattern)) %>%
-  unnest_tokens("word", text, token = "tweets") %>% 
-  anti_join(stop_words) %>%
-  inner_join(custom_sentiment) %>% 
-  count(sentiment, is_day)
+
+daynight_custom_summarize <- function(tweets) {
+  
+  # filter and apply dictionary
+  word_sents <- tweets %>%
+    mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+    mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+    mutate(text = str_remove(text, url_pattern)) %>%
+    unnest_tokens("word", text, token = "tweets") %>% 
+    anti_join(stop_words, by='word') %>%
+    filter(!startsWith(word, '@')) %>% 
+    left_join(custom_sentiment, by='word') %>% 
+    select(status_id, tod, word, sentiment)
+  
+  
+  
+  # average within status and then within time-of-day
+  sent_summary <- word_sents %>% 
+    group_by(status_id) %>% 
+    summarize(
+      tod=first(tod), 
+      percent_pos=sum(sentiment=='happy', na.rm=T)/n(), 
+      percent_neg=sum(sentiment=='sad', na.rm=T)/n()
+    ) %>% 
+    group_by(tod) %>% 
+    summarize(Happy=mean(percent_pos), Sad=mean(percent_neg)) %>% 
+    pivot_longer(Happy:Sad, names_to='Sentiment', values_to='Average')
+
+  return(sent_summary)
+}
+
+daynight_custom_summarize(senator_tweet_sample) %>% 
+  ggplot(aes(x=Average, y=Sentiment, fill=tod)) +
+    geom_bar(stat='identity', position='dodge')
+
 ```
 
 ```
