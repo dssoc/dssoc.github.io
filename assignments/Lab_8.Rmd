@@ -59,6 +59,10 @@ Hint: be wary of how R specifically interprets regex strings. It might be helpfu
 ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to tackle the threat posed by rising coronavirus case numbers in city. Full statement here:\n\nhttps://t.co/3tbc6xcRFP\n\n#KeepBrumSafe\n#Btogether\n#COVID19\n#Coronavirus https://t.co/mo5bPUgGgC"
 
 # your solution here
+url_re <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+ht_re <- "#[a-zA-Z0-9_]\\w*"
+str_view_all(ex, url_re)
+str_view_all(ex, ht_re)
 ```
 <br/>
 
@@ -67,6 +71,11 @@ ex <- "BREAKING NEWS - @brumleader urges everyone to do their bit in order to ta
 HINT: see the `str_count` function.
 ```{r}
 # your solution here
+tweets <- senator_tweet_sample %>% 
+  mutate(n_link=(str_count(text, url_re))) %>% 
+  mutate(n_ht=(str_count(text, ht_re)))
+m <- lm(retweet_count ~ n_link + n_ht, data=tweets)
+summary(m)
 ```
 ```
 written response here
@@ -79,6 +88,13 @@ written response here
 HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_tokens`) to extract the hashtags. This [Stack Overflow solution](https://stackoverflow.com/questions/57854124/str-extract-all-returns-a-list-but-i-want-a-column-in-a-dataframe) may be helpful.
 ```{r}
 # your solution here
+tweets %>% 
+  mutate(ht=str_extract_all(text, ht_re)) %>% 
+  unnest(ht) %>%
+  mutate(ht=str_to_lower(ht)) %>% 
+  group_by(ht) %>% 
+  count() %>% 
+  arrange(desc(n))
 ```
 <br/>
 
@@ -87,6 +103,10 @@ HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_toke
 HINT: see the `gsub` or `str_replace` functions.
 ```{r}
 # your solution here
+tweets <- tweets %>% 
+  mutate(cleaned=gsub(url_re, "", text)) %>% 
+  mutate(cleaned=gsub(ht_re, "", cleaned))
+tweets %>% select(cleaned) %>% head(2)
 ```
 <br/>
 
@@ -96,6 +116,12 @@ HINT: see the `gsub` or `str_replace` functions.
 Hint: look at the tidytext docs for `unnest_tokens`.
 ```{r}
 # your solution here
+topwords <- tweets %>% 
+  unnest_tokens('word', cleaned) %>% 
+  group_by(word) %>% count() %>% 
+  arrange(desc(n))
+topwords %>% head()
+topwords %>% anti_join(stop_words) %>% head()
 ```
 <br/>
 
@@ -105,6 +131,11 @@ Hint: look at the tidytext docs for `unnest_tokens`.
 HINT: you might want to check out the `cast_dtm` function.
 ```{r}
 # your solution here
+dtm <- tweets %>% 
+  unnest_tokens('word', cleaned) %>% 
+  count(status_id, word) %>% 
+  cast_dtm(status_id, word, n)
+dtm
 ```
 <br/>
 

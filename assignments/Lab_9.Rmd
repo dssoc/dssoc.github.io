@@ -15,6 +15,8 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
++ Text Mining with R: [The tidy text format](https://www.tidytextmining.com/tidytext.html)
++ Text Mining with R: [Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf.html)
 * R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
 
 
@@ -57,6 +59,29 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 ) - see the `token` parameter. Searching on the internet may also be a good strategy.
 ```{r}
 # your answer here
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+
+frequent_tokens <- senator_tweet_sample %>%
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  count(word) %>%
+  arrange(desc(n))
+
+frequent_tokens %>% 
+  head(20) %>% 
+  ggplot(aes(y = reorder(word, n), x=n)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Frequency")
+
+frequent_tokens %>% 
+  filter(startsWith(word, "#")) %>% 
+  head(20) %>% 
+  ggplot(aes(y = reorder(word, n), x=n)) +
+  geom_bar(stat = "identity") +
+    xlab("") +
+    ylab("Frequency")
 ```
 <br/>
 
@@ -65,6 +90,21 @@ Hint: you can do hashtag preservation in many ways, but you might find an easy s
 HINT: it might be useful to use `str_count` here.
 ```{r}
 # your answer here
+
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+
+tf_idfs <- senator_tweet_sample %>%
+  mutate(text = str_remove(text, url_pattern)) %>%
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>%
+  count(word, created_at) %>%
+  bind_tf_idf(word, created_at, n) %>% 
+  arrange(desc(tf_idf))
+
+tf_idfs %>% 
+  head(10) %>% 
+  ggplot(aes(y=reorder(word, tf_idf), x=tf_idf)) +
+    geom_bar(stat='identity')
 ```
 ```
 your written explanation here
@@ -74,6 +114,15 @@ your written explanation here
 **4. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
 ```{r}
 # your answer here
+toppers <- tf_idfs %>% 
+  head(3)
+
+senator_tweet_sample %>% 
+  arrange(retweet_count) %>% 
+  mutate(ct1=str_count(tolower(text), fixed(toppers$word[[1]]))) %>% 
+  mutate(ct2=str_count(tolower(text), fixed(toppers$word[[2]]))) %>% 
+  mutate(ct3=str_count(tolower(text), fixed(toppers$word[[3]]))) %>% 
+  filter((ct1+ct2+ct3) > 0)
 ```
 ```
 your written explanation here
@@ -86,6 +135,12 @@ your written explanation here
 Hint: see the `hour` function of lubridate.
 ```{r}
 # your answer here
+senator_tweet_sample %>% 
+  mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+  mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+  count(tod) %>% 
+  ggplot(aes(x=tod, y=n)) +
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -95,9 +150,43 @@ Hint: see the `hour` function of lubridate.
 HINT: use `get_sentiments("bing")` to get the Bing dictionary.
 ```{r}
 # your answer here
+
+daynight_sentiment_summarize <- function(tweets) {
+  
+  # filter and apply dictionary
+  word_sents <- tweets %>%
+    mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+    mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+    mutate(text = str_remove(text, url_pattern)) %>%
+    unnest_tokens("word", text, token = "tweets") %>% 
+    anti_join(stop_words, by='word') %>%
+    filter(!startsWith(word, '@')) %>% 
+    left_join(get_sentiments("bing")) %>% 
+    select(status_id, tod, word, sentiment)
+  
+  # average within status and then within time-of-day
+  sent_summary <- word_sents %>% 
+    group_by(status_id) %>% 
+    summarize(
+      tod=first(tod), 
+      percent_pos=sum(sentiment=='positive', na.rm=T)/n(), 
+      percent_neg=sum(sentiment=='negative', na.rm=T)/n()
+    ) %>% 
+    group_by(tod) %>% 
+    summarize(Positive=mean(percent_pos), Negative=mean(percent_neg)) %>% 
+    pivot_longer(Positive:Negative, names_to='Sentiment', values_to='Average')
+
+  return(sent_summary)
+}
+
+daynight_sentiment_summarize(senator_tweet_sample) %>% 
+  ggplot(aes(x=Average, y=Sentiment, fill=tod)) +
+    geom_bar(stat='identity', position='dodge')
+  
 ```
 ```
 Explain why you chose to compute sentiment in this way.
+I just used raw counts instead of averages. Feel free to use whatever measure you find to be helpful.
 ```
 <br/>
 
@@ -107,7 +196,46 @@ Explain why you chose to compute sentiment in this way.
 Hint: you may want to look at the bing dictionary (`get_sentiments("bing")`) to see how you should format your custom dictionary.
 ```{r}
 # your answer here
+custom_sentiment <- data_frame(happy=c('joy', 'exicted', 'happy'), sad=c('sad', 'dissappointed', 'angry')) %>% 
+  pivot_longer(happy:sad, values_to='word', names_to='sentiment')
+
+
+daynight_custom_summarize <- function(tweets) {
+  
+  # filter and apply dictionary
+  word_sents <- tweets %>%
+    mutate(hr=hour(created_at), is_day=(hr >= 5) & (hr <= 17)) %>% 
+    mutate(tod=ifelse(is_day, 'Daytime', 'Nighttime')) %>% 
+    mutate(text = str_remove(text, url_pattern)) %>%
+    unnest_tokens("word", text, token = "tweets") %>% 
+    anti_join(stop_words, by='word') %>%
+    filter(!startsWith(word, '@')) %>% 
+    left_join(custom_sentiment, by='word') %>% 
+    select(status_id, tod, word, sentiment)
+  
+  
+  
+  # average within status and then within time-of-day
+  sent_summary <- word_sents %>% 
+    group_by(status_id) %>% 
+    summarize(
+      tod=first(tod), 
+      percent_pos=sum(sentiment=='happy', na.rm=T)/n(), 
+      percent_neg=sum(sentiment=='sad', na.rm=T)/n()
+    ) %>% 
+    group_by(tod) %>% 
+    summarize(Happy=mean(percent_pos), Sad=mean(percent_neg)) %>% 
+    pivot_longer(Happy:Sad, names_to='Sentiment', values_to='Average')
+
+  return(sent_summary)
+}
+
+daynight_custom_summarize(senator_tweet_sample) %>% 
+  ggplot(aes(x=Average, y=Sentiment, fill=tod)) +
+    geom_bar(stat='identity', position='dodge')
+
 ```
+
 ```
 Explain what your dictionary is intended to capture and interpret the results.
 ```

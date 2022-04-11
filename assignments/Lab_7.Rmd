@@ -49,6 +49,34 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 **2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of full committees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the full committees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
 ```{r}
 # Your answer here
+
+######################## If used committees ########################
+committee_info <- committees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  mutate(holds_title=!is.na(title)) %>% 
+  group_by(bioguide_id) %>% 
+  summarize(num=n(), prop_title=mean(holds_title))
+
+m_congress <- congress %>% 
+  mutate(age=2022-birthyear) %>% 
+  inner_join(committee_info, by='bioguide_id')
+
+m_congress %>% select(num, prop_title, age) %>% summary()
+
+
+######################## If used subcommittees ########################
+
+subcommittee_info <- subcommittees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  mutate(holds_title=!is.na(title)) %>% 
+  group_by(bioguide_id) %>% 
+  summarize(num=n(), prop_title=mean(holds_title))
+
+s_congress <- congress %>% 
+  mutate(age=2022-birthyear) %>% 
+  inner_join(subcommittee_info, by='bioguide_id')
+
+s_congress %>% select(num, prop_title, age) %>% summary()
 ```
 <br/>
 
@@ -57,6 +85,10 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 Note: usually we see the dependent variable (number of committees in this case) on the y-axis and the independent variable (age in this case) on the x-axis.
 ```{r}
 # Your answer here
+m_congress %>% 
+  ggplot(aes(x=age, y=num)) + 
+    geom_smooth(method=lm) + 
+    geom_point()
 ```
 ```
 written explanation here
@@ -70,9 +102,17 @@ Hint: you may want to see `geom_errorbar`.
 Hint: error bars are usually calculated by taking the average plus and minus the standard deviations.
 ```{r}
 # Your answer here
+m_congress %>% 
+  group_by(gender) %>% 
+  summarize(av=mean(num), std=sd(num)) %>% 
+  ggplot(aes(x=gender, y=av)) +
+    geom_bar(stat='identity') +
+    geom_errorbar(aes(x=gender, ymin=av-std, ymax=av+std))
+
 ```
 ```
 written explanation here
+Females on slightly more committees, error bars indicate the difference is not statistically significance.
 ```
 <br/>
 
@@ -83,6 +123,8 @@ written explanation here
 HINT: see required readings for help interpreting regression models.
 ```{r}
 # Your answer here
+m <- glm(prop_title ~ age + gender + party, data=m_congress)
+m %>% summary()
 ```
 ```
 written explanation here
@@ -94,6 +136,11 @@ written explanation here
 HINT: check the arguments for `data_grid` to specify which variables to vary and which to hold constant. You'll likely want to use the `.model` argument.
 ```{r}
 # Your answer here
+m_congress %>% 
+  data_grid(age, gender, .model=m) %>% 
+  add_predictions(m) %>% 
+  ggplot(aes(x=age, y=pred, color=gender)) +
+    geom_line()
 ```
 ```
 Your answer here

@@ -58,6 +58,20 @@ ggplot:
 **2. Create a bar plot to show the average ages of congress members from each political party. Now do the same for M and F genders.**
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age = 2022-birthyear) %>% 
+  filter(party %in% c('Democrat', 'Republican')) %>% 
+  group_by(party) %>% 
+  summarize(av_age=mean(age)) %>% 
+  ggplot(aes(x=party, y=av_age)) + 
+    geom_bar(stat='identity')
+
+congress %>% 
+  mutate(age = 2022-birthyear) %>% 
+  group_by(gender) %>% 
+  summarize(av_age=mean(age)) %>% 
+  ggplot(aes(x=gender, y=av_age)) + 
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -67,6 +81,12 @@ ggplot:
 Note: The plotted lines may not show up in decades where there were no births - that is okay.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(decade=birthyear %/% 10) %>% 
+  count(type, decade) %>% 
+  mutate(dec_name = paste0(decade, '0\'s'), type=if_else(type=='rep', 'Representative', 'Senator')) %>% 
+  ggplot(aes(x=decade, y=n, color=type)) + 
+    geom_line()
 ```
 <br/>
 
@@ -79,6 +99,11 @@ HINT: the final plot should have 14 bars: 7 weekdays by 2 types of congress memb
 HINT: see the Optional Readings for more information about grouped bar charts using `ggplot2`.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(wday=wday(birthdate, label = T), wday_num=wday(birthdate)) %>% 
+  count(wday, wday_num) %>% 
+  ggplot(aes(x=wday, y=n)) +
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -90,6 +115,26 @@ HINT: you will want to join the dataframes based on a column that is common to b
 HINT: there are several ways to accomplish the counting of social media accounts. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use `mutate` to get counts for each politican and then average by party. Any other approach is also fine.
 ```{r}
 # your answer here
+tmp <- congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  pivot_longer(twitter:youtube, names_to='platform', values_to='username') %>% 
+  filter(username != '') 
+
+tmp %>% 
+  count(bioguide_id, party) %>% 
+  group_by(party) %>% 
+  summarize(av=mean(n)) %>% 
+  filter(party != 'Independent') %>% 
+  ggplot(aes(x=party, y=av)) +
+    geom_bar(stat='identity')
+
+tmp %>% 
+  count(bioguide_id, gender) %>% 
+  group_by(gender) %>% 
+  summarize(av=mean(n)) %>% 
+  mutate(gender=if_else(gender=='F', 'Female', 'Male')) %>% 
+  ggplot(aes(x=gender, y=av)) +
+    geom_bar(stat='identity')
 ```
 <br/>
 
@@ -100,6 +145,24 @@ HINT: as described in the Lab Instructions page, you will need to perform a join
 
 ```{r}
 # your answer here
+tmp <- subcommittees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  left_join(congress, by='bioguide_id') %>% 
+  drop_na(gender)
+
+tmp %>% 
+  count(bioguide_id, gender) %>% 
+  group_by(gender) %>% 
+  summarize(av=mean(n)) %>% 
+  ggplot(aes(x=gender, y=av)) +
+    geom_bar(stat='identity')
+
+tmp %>% 
+  count(bioguide_id, party.y) %>% 
+  group_by(party.y) %>% 
+  summarize(av=mean(n)) %>% 
+  ggplot(aes(x=party.y, y=av)) +
+    geom_bar(stat='identity')
 ```
 
 
@@ -110,6 +173,14 @@ NOTE: read the Lab Instructions page for more information about the standards fo
 HINT: See the Lab Instructions page for more info about filtering for full committees only (excluding subcommittees).
 ```{r}
 # your answer here
+committees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  count(thomas_id, name) %>% 
+  arrange(desc(n)) %>% 
+  head(5) %>% 
+  ggplot(aes(x=reorder(name,n), y=n)) + 
+    geom_bar(stat='identity') +
+    theme(axis.text.x = element_text(angle = 10, vjust = 0.2, hjust=0.5))
 ```
 <br/>
 
@@ -120,6 +191,19 @@ This means you will need to join three dataframes: `committee_memberships` for m
 
 ```{r}
 # your answer here
+committees %>% 
+  inner_join(committee_memberships, on=thomas_id) %>% 
+  left_join(congress, by='bioguide_id') %>% 
+  drop_na(gender) %>% 
+  mutate(age=2022-birthyear) %>% 
+  group_by(thomas_id, name) %>% 
+  summarize(av_age=mean(age)) %>% 
+  ungroup() %>% 
+  arrange(desc(av_age)) %>% 
+  slice(1:5, (n()-5):n()) %>% 
+  ggplot(aes(x=reorder(name, av_age), y=av_age)) +
+    geom_bar(stat='identity') +
+    theme(axis.text.x = element_text(angle = 10, vjust = 0.1, hjust=0.6))
 ```
 <br/>
 

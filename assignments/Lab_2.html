@@ -203,8 +203,35 @@ pipe operator (&quot;%&gt;%&quot;): </code></pre>
 <p><br /></p>
 <p><strong>2. How many male and female members are representatives and senators? Your output should appear as a single dataframe with four rows corresponding to female representatives, female senators, male representatives, and male senators.</strong></p>
 <p>NOTE: you can identify representators by <code>type==&quot;rep&quot;</code> and senators using <code>type==&quot;sen&quot;</code>.</p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+congress %&gt;% 
+  count(type, gender)</code></pre>
+<pre><code>##   type gender   n
+## 1  rep      F 123
+## 2  rep      M 316
+## 3  sen      F  24
+## 4  sen      M  76</code></pre>
 <p><br /></p>
+<<<<<<< HEAD
+<p><strong>3. Identify the oldest and youngest female senator democrats using only R code.</strong></p>
+<pre class="r"><code># your answer here
+congress %&gt;% 
+  filter(gender==&#39;F&#39;, party==&#39;Democrat&#39;, type==&#39;sen&#39;) %&gt;% 
+  arrange(birthyear) %&gt;% 
+  slice(1:1, n():n())</code></pre>
+<pre><code>##   bioguide_id        full_name type    party state  birthdate gender birthyear
+## 1     F000062 Dianne Feinstein  sen Democrat    CA 1933-06-22      F      1933
+## 2     S001191   Kyrsten Sinema  sen Democrat    AZ 1976-07-12      F      1976</code></pre>
+<p><br /></p>
+<p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
+<p>Note: you can approximate age using the formula <code>age = 2022-birthyear</code>.</p>
+<pre class="r"><code># your answer here
+congress %&gt;% 
+  mutate(age = 2022-birthyear) %&gt;% 
+  filter(party==&#39;Democrat&#39;, type==&#39;sen&#39;, age &gt; 60) %&gt;% 
+  nrow()</code></pre>
+<pre><code>## [1] 32</code></pre>
+=======
 <p><strong>3. Create a dataframe showing the oldest and youngest female senator democrats using only R code.</strong></p>
 <p>HINT: check out the <code>slice()</code> function.</p>
 <pre class="r"><code># your answer here</code></pre>
@@ -212,15 +239,47 @@ pipe operator (&quot;%&gt;%&quot;): </code></pre>
 <p><strong>4. Using <code>mutate</code>, create a new variable called <code>age</code> which represents the approximate age of each member of congress. How many democratic senators are over 60 years old?</strong></p>
 <p>Note: For this and all future questions this semester, you can approximate age using the formula <code>age = 2022-birthyear</code> (or replace 2022 with the current year).</p>
 <pre class="r"><code># your answer here</code></pre>
+>>>>>>> d1916e8f6efd3164cab55ae0f1d46c3e1461c525
 <p><br /></p>
 <p><strong>5. Create a new column that indicates whether or not the member of congress is more than 55 years old, and create a single dataframe showing the number of male and female members of congress that are over and under 55.</strong></p>
 <p>Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females 55 and under, number of males 55 and under.</p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+congress %&gt;% 
+  mutate(age = 2022-birthyear, is_old = age &gt; 55) %&gt;% 
+  count(gender, is_old)</code></pre>
+<pre><code>##   gender is_old   n
+## 1      F  FALSE  47
+## 2      F   TRUE 100
+## 3      M  FALSE 121
+## 4      M   TRUE 271</code></pre>
 <p><br /></p>
 <p><strong>6. For this problem, use the <code>congress_contact</code> dataframe that includes the contact information for each member of congress. Using <code>gather</code>, create a new dataframe where each row corresponds to a valid twitter, facebook, or youtube social media account username (for youtube you can ignore <code>youtube_id</code>), and compute <em>the total number of valid accounts across all congress members</em>. Then accomplish the same task using <code>pivot_longer</code>.</strong></p>
 <p>HINT: see the link to the <code>gather</code> function documentation in the recommended readings to get a better sense of how it works. You can use the example data they show to try it for yourself.</p>
 <p>HINT: the account name will be an empty string in cases where the member of congress does not have a valid user account, so you can filter using the conditional <code>column_name != &#39;&#39;</code>. This compares each value in the column called <code>column_name</code> to an empty string to determine whether it is a valid account.</p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+congress_contact %&gt;% 
+  gather(key=&#39;platform&#39;, value=&#39;username&#39;, twitter:youtube) %&gt;% 
+  filter(username!=&#39;&#39;) %&gt;% 
+  count(platform)</code></pre>
+<pre><code>##   platform   n
+## 1 facebook 373
+## 2  twitter 521
+## 3  youtube 265</code></pre>
+<pre class="r"><code>congress_contact %&gt;% 
+  pivot_longer(twitter:youtube, names_to = &quot;platform&quot;, values_to = &quot;username&quot;) %&gt;% 
+  filter(username!=&#39;&#39;) %&gt;% 
+  count(platform)</code></pre>
+<pre><code>## # A tibble: 3 × 2
+##   platform     n
+##   &lt;chr&gt;    &lt;int&gt;
+## 1 facebook   373
+## 2 twitter    521
+## 3 youtube    265</code></pre>
+<pre class="r"><code>congress_contact %&gt;% 
+  pivot_longer(twitter:youtube, names_to = &quot;platform&quot;, values_to = &quot;username&quot;) %&gt;% 
+  filter(username!=&#39;&#39;) %&gt;% 
+  nrow()</code></pre>
+<pre><code>## [1] 1159</code></pre>
 <p><br /></p>
 <p><strong>Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel (<a href="https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351">recorded May 20, 2020</a>) and requirements that citizens to wear masks in public (<a href="https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html">recorded August 17, 2020</a>).</strong></p>
 <pre class="r"><code>travel_restrictions &lt;- c(&quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;NM&quot;, &quot;MN&quot;, &quot;IL&quot;, &quot;OH&quot;, &quot;MI&quot;, &quot;PA&quot;, &quot;VA&quot;, &quot;NY&quot;, &quot;MA&quot;, &quot;VH&quot;, &quot;ME&quot;, &quot;DE&quot;, &quot;MD&quot;, &quot;NJ&quot;)
@@ -228,10 +287,14 @@ pipe operator (&quot;%&gt;%&quot;): </code></pre>
 require_masks &lt;- c(&quot;HI&quot;, &quot;WA&quot;, &quot;OR&quot;, &quot;NV&quot;, &quot;CA&quot;, &quot;MT&quot;, &quot;CO&quot;, &quot;NM&quot;, &quot;KS&quot;, &quot;TX&quot;, &quot;MN&quot;, &quot;AR&quot;, &quot;LA&quot;, &quot;WI&quot;, &quot;IL&quot;, &quot;AL&quot;, &quot;MI&quot;, &quot;IN&quot;, &quot;OH&quot;, &quot;KY&quot;, &quot;WV&quot;, &quot;NC&quot;, &quot;VA&quot;, &quot;DC&quot;, &quot;DE&quot;, &quot;PA&quot;, &quot;NY&quot;, &quot;VT&quot;, &quot;NH&quot;, &quot;MA&quot;, &quot;RI&quot;, &quot;CT&quot;, &quot;ME&quot;)</code></pre>
 <p><br /></p>
 <p><strong>7. write code to print only the states who implemented both travel restrictions and mask requirements:</strong></p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+travel_restrictions %&gt;% intersect(require_masks)</code></pre>
+<pre><code>##  [1] &quot;WA&quot; &quot;OR&quot; &quot;NV&quot; &quot;CA&quot; &quot;NM&quot; &quot;MN&quot; &quot;IL&quot; &quot;OH&quot; &quot;MI&quot; &quot;PA&quot; &quot;VA&quot; &quot;NY&quot; &quot;MA&quot; &quot;ME&quot; &quot;DE&quot;</code></pre>
 <p><br /></p>
 <p><strong>8. Write code to print the states who had implemented mask requirements but not travel restrictions:</strong></p>
-<pre class="r"><code># your answer here</code></pre>
+<pre class="r"><code># your answer here
+travel_restrictions %&gt;% setdiff(require_masks)</code></pre>
+<pre><code>## [1] &quot;VH&quot; &quot;MD&quot; &quot;NJ&quot;</code></pre>
 <p><strong>9. Describe two broad topics you might be interested in exploring for your final project. How would you use data science to gain insight about these topics? We won’t require you to stick with these topics - we just want to see you brainstorming about what you might be interested in.</strong></p>
 <pre><code>your written response here</code></pre>
 </div>

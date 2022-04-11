@@ -112,6 +112,7 @@ lim[, 1:4]
 
 **2. Use the Twitter API to augment Senator information with the number of followers and and the number of statuses they have posted on Twitter, and create a bar graph showing the average number of followers by political party. Save the joined dataframe for future problems.**
 
+Note: If you haven't already, filter the `congress` dataframe to include only senators (`type=='sen'`) - we will only use senators for this assignment. I provided a new variable `senators` where this filter has already been applied.
 NOTE: we don't need to get the actual lists of followers or Tweets - we just need the *number* of followers and tweets (i.e. **do not try to use `get_followers`**). You may need to refer to the [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf) to see which function to use.
 
 NOTE: not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in `congress_contact` is actually out of date. For this question, we will request from Twitter all of the valid usernames in our `congress_contact` dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because `congress_contact` only contains the Twitter usernames instead of the unique `user_id` that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts. For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in `congress_contact`.
@@ -121,6 +122,20 @@ HINT: If you haven't already, filter the `congress` dataframe to include only se
 HINT: you will first need to join the `congress_contact` dataframe to associate congress information with their Twitter handles.
 ```{r}
 # Write your answer here
+senators_all <- senators %>% 
+  left_join(congress_contact, by='bioguide_id')
+
+# Your answer here
+twitter_users <- lookup_users(senators_all$twitter)
+twitter_users %>% head()
+
+senators_twitter <- twitter_users %>% 
+  select(screen_name, followers_count, statuses_count) %>% 
+  inner_join(senators_all, by=c('screen_name'='twitter'))
+
+senators_twitter %>% 
+  group_by(party) %>% 
+  summarize(av_followers=mean(followers_count))
 ```
 <br/>
 
@@ -139,6 +154,21 @@ Written response here.
 NOTE: see the note in question number 2 about Twitter usernames that have been changed.
 ```{r}
 # Your answer here
+top_senators <- senators_twitter %>% 
+  mutate(age=2020-birthyear) %>% 
+  arrange(desc(age)) %>% 
+  head(10)
+  
+tweets <- get_timelines(top_senators$screen_name, n = 2)
+
+av_fav <- top_senators %>% 
+  select(party, screen_name, full_name) %>% 
+  inner_join(tweets, by=c('screen_name')) %>% 
+  group_by(screen_name) %>% 
+  summarize(av_favorites=mean(favorite_count), party=first(party))
+
+av_fav %>% ggplot(aes(x=party, y=av_favorites)) +
+  geom_violin()
 ```
 <br/>
 
@@ -150,6 +180,8 @@ NOTE: see the Lab Instructions page for more details on this dataset.
 NOTE: these are NOT the same tweet ids as the tweets stored in `senator_tweet_sample`, so you will need to collect them using the api directly. Look for a function that can download status informtion directly from status ids.
 ```{r}
 # Your answer here
+all_tweets <- lookup_tweets(senator_tweet_ids)
+all_tweets$favorite_count %>% mean()
 ```
 <br/>
 
@@ -161,6 +193,16 @@ HINT: See the suggested readings on this assignment for more information about g
 HINT: You will want to average by bioguide_id first so that we have within-person averages, then average by gender. Otherwise the proportion of tweets from each person will make the result misleading.
 ```{r}
 # Write your answer here
+senators_all %>% 
+  inner_join(senator_tweet_sample, by=c('twitter'='screen_name')) %>% 
+  group_by(bioguide_id) %>% 
+  summarize(av_fav_bio=mean(favorite_count), av_rt_bio=mean(retweet_count), gender=first(gender)) %>% 
+  group_by(gender) %>% 
+  summarize(av_fav=mean(av_fav_bio), av_rt=mean(av_rt_bio)) %>% 
+  pivot_longer(av_fav:av_rt, names_to='measure', values_to='average') %>% 
+  ggplot(aes(x=measure, y=average, group=gender, fill=gender)) +
+    geom_bar(stat='identity', position='dodge')
+
 ```
 <br/>
 

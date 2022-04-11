@@ -77,18 +77,43 @@ HINT: your merged dataframe should have as many rows as the original `senator_wi
 HINT: check out the `cast_dtm` function if you're using `unnest_tokens`. Recall that we created a DTM as part of Lab 8 as well.
 ```{r}
 # your answer here
+wiki_info <- congress %>% inner_join(senator_wiki, by='bioguide_id')
+dtm <- wiki_info %>% 
+  select(bioguide_id, subtext) %>% 
+  unnest_tokens('word', 'subtext') %>% 
+  anti_join(stop_words) %>% 
+  count(bioguide_id, word) %>% 
+  cast_dtm(bioguide_id, word, n)
 ```
 <br>
 
 **4. Construct a topic model with LDA using a specified random seed (see the `control` parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.**
 ```{r}
 # your answer here
+tm <- LDA(dtm, k=10, control=list(seed=0))
 ```
 <br>
 
 **5. Make a function that accepts (takes as an argument) a LDA topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
 ```{r}
 # your answer here
+plot_topwords <- function(tm) {
+  topwords <- tm %>% 
+    tidy() %>% 
+    group_by(topic) %>% 
+    top_n(10, beta) %>% 
+    ungroup() %>% 
+    arrange(topic, -beta)
+  plot <- topwords %>% ggplot(aes(x=reorder(term, beta), y=beta, fill=(topic))) + 
+    geom_col(show.legend=FALSE) +
+    facet_wrap(~topic, scales='free') +
+    theme(plot.title=element_text(hjust=0.5, size=18)) +
+    xlab("") + ylab("") +
+    theme_minimal() +
+    coord_flip()
+  return(plot)
+}
+plot_topwords(tm)
 ```
 ```
 your answer here
@@ -101,6 +126,17 @@ HINT: to create the STM, start with Section 3.1-3.3 of the stm Package Vignette 
 
 ```{r}
 # your answer here
+covariates <- wiki_info %>% 
+  mutate(age=2022-birthyear) %>% 
+  select(age, gender, party)
+  
+processed <- textProcessor(wiki_info$subtext, metadata=covariates)
+prep <- prepDocuments(processed$documents, processed$vocab, processed$meta)
+formula <- ~ age + gender + party
+wiki_stm <- stm(documents=prep$documents, vocab=prep$vocab, data=prep$meta, 
+                prevalence = formula, 
+                K=10, verbose=FALSE)
+plot(wiki_stm)
 ```
 ```
 your answer here
@@ -114,6 +150,7 @@ your answer here
 HINT: to use `labelTopics`, read Section 3.5 of the stm Package Vignette.
 ```{r}
 # your answer here
+labelTopics(wiki_stm, c(1, 8, 7))
 ```
 ```
 your answer here
@@ -126,6 +163,22 @@ your answer here
 HINT: See the plot in section 3.6 of the stm Package Vignette under the heading "Topical content" on pages 18-19.
 ```{r}
 # your answer here
+pred <- estimateEffect(formula = 1:10 ~ gender + party + age,
+                       stmobj = wiki_stm, metadata = prep$meta, uncertainty="Global")
+pred %>% summary()
+
+# just example - none of these are statistically significant
+pred %>% plot(covariate='gender', topics=c(1, 3, 4), model=wiki_stm, method='difference',
+     cov.value1 = 'F', cov.value2 = 'M')
+
+pred %>% plot(covariate='party', topics=c(7, 10), model=wiki_stm, method='difference',
+     cov.value1 = 'Democrat', cov.value2 = 'Republican')
+
+pred %>% plot(covariate='age', topics=c(1, 7, 8), model=wiki_stm, method='continuous')
+
+# if we have specific ages to compare, we can use difference method instead of continuous
+pred %>% plot(covariate='age', topics=c(1, 7, 8), model=wiki_stm, method='difference',
+     cov.value1 = 50, cov.value2 = 90)
 ```
 ```
 your answer here

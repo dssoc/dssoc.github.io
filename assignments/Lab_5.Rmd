@@ -54,6 +54,7 @@ library(ggplot2)
 
 load(url('https://dssoc.github.io/datasets/committees.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
+load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
 <br/>
 
@@ -145,6 +146,18 @@ HINT: You can get the edge weights of a network using `E(g)$weight`. You can add
 
 ```{r}
 # Your answer here
+
+h <- g %>% bipartite_projection(which=TRUE)
+
+congress_attr <- congress %>% 
+  filter(bioguide_id %in% V(h)$name) %>% 
+  mutate(age=2022-birthyear)
+
+# need to use set_vertex_attr because the order of the nodes in the network and their order in the `congress` dataframe may not be the same
+h <- h %>% set_vertex_attr('full_name', index=congress_attr$bioguide_id, value=congress_attr$full_name)
+h <- h %>% set_vertex_attr('party', index=congress_attr$bioguide_id, value=as.character(congress_attr$party))
+h <- h %>% set_vertex_attr('age', index=congress_attr$bioguide_id, value=congress_attr$age)
+
 ```
 <br/>
 
@@ -156,6 +169,11 @@ HINT: one way to set vertex attributes is to use `V(g)$my_attribute <- something
 Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
 ```{r}
 # Your answer here or in text.
+h %>% 
+  delete.edges(which(E(h)$weight <= 2)) %>% 
+  ggraph(layout='kk') + 
+    geom_edge_link(width=0.5) +
+    geom_node_point(aes(color=party, size=age))
 ```
 ```
 What can we see from this visualization?
@@ -165,7 +183,18 @@ What can we see from this visualization?
 
 **8. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
 ```{r}
-# your answer here
+
+V(h)$strength <- centralities$strength
+V(h)$eigen <- centralities$eigen
+V(h)$closeness <- centralities$closeness
+V(h)$betweenness <- centralities$betweenness
+centralities$bioguide_id <- V(h)$name
+
+congress_cent <- congress %>% 
+  left_join(centralities, by='bioguide_id')
+
+congress_cent %>% arrange(desc(strength)) %>% select(full_name) %>% head(1)
+congress_cent %>% arrange(desc(eigen)) %>% select(full_name) %>% head(1)
 ```
 ```
 What do these results tell us?

@@ -202,10 +202,26 @@ pre code {
 <pre class="r"><code>some_vector &lt;- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231,
                      1231231,12312312,12312312,123123,898972,789872,2343,23423423,2343221,23423,
                      14444,44324222,2342341,124231111,22233345,1111233333,1231231,1231231)
-# your code here</code></pre>
+# your code here
+#a
+class(some_vector)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
+<pre class="r"><code>#b
+max(some_vector)</code></pre>
+<pre><code>## [1] 1111233333</code></pre>
+<pre class="r"><code>#c
+mean(some_vector)</code></pre>
+<pre><code>## [1] 59756995</code></pre>
+<pre class="r"><code>#d
+54324222 %in% some_vector</code></pre>
+<pre><code>## [1] FALSE</code></pre>
 <p><br></p>
 <p><strong>4. Use the <code>congress</code> dataframe for the remainder of questions in this assignment. (a) How many rows and columns does the <code>congress</code> dataframe have? (b) Use a function to show its data type. You must use R code to generate these values.</strong></p>
-<pre class="r"><code># your code here</code></pre>
+<pre class="r"><code># your code here
+nrow(congress)</code></pre>
+<pre><code>## [1] 539</code></pre>
+<pre class="r"><code>ncol(congress)</code></pre>
+<pre><code>## [1] 8</code></pre>
 <p><br></p>
 <p><strong>5. Using the browse features of R or RStudio, write the ages of Sherrod Brown (a member of congress) and Dianne Feinstein.</strong></p>
 <pre><code>Your written response here.
@@ -213,7 +229,11 @@ Sherrod Brown:
 Dianne Feinstein: </code></pre>
 <p><br></p>
 <p><strong>6. What is the average birthyear of congress members? What is the data type of the <code>birthyear</code> column?</strong></p>
-<pre class="r"><code># your code here</code></pre>
+<pre class="r"><code># your code here
+mean(congress$birthyear)</code></pre>
+<pre><code>## [1] 1961.445</code></pre>
+<pre class="r"><code>class(congress$birthyear)</code></pre>
+<pre><code>## [1] &quot;numeric&quot;</code></pre>
 <p><br></p>
 <p><strong>7. What are your learning goals for this semester? Not a trick question ;)</strong></p>
 <pre><code>your written response here</code></pre>

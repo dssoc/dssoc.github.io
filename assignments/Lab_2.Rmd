@@ -66,6 +66,8 @@ NOTE: you can identify representators by `type=="rep"` and senators using `type=
 
 ```{r}
 # your answer here
+congress %>% 
+  count(type, gender)
 ```
 <br/>
 
@@ -74,6 +76,10 @@ NOTE: you can identify representators by `type=="rep"` and senators using `type=
 HINT: check out the `slice()` function.
 ```{r}
 # your answer here
+congress %>% 
+  filter(gender=='F', party=='Democrat', type=='sen') %>% 
+  arrange(birthyear) %>% 
+  slice(1:1, n():n())
 ```
 <br/>
 
@@ -82,6 +88,10 @@ HINT: check out the `slice()` function.
 Note: For this and all future questions this semester, you can approximate age using the formula `age = 2022-birthyear` (or replace 2022 with the current year).
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age = 2022-birthyear) %>% 
+  filter(party=='Democrat', type=='sen', age > 60) %>% 
+  nrow()
 ```
 <br/>
 
@@ -90,6 +100,9 @@ Note: For this and all future questions this semester, you can approximate age u
 Note: the dataframe should have four rows: number of females over 55, number of males over 55, number of females 55 and under, number of males 55 and under.
 ```{r}
 # your answer here
+congress %>% 
+  mutate(age = 2022-birthyear, is_old = age > 55) %>% 
+  count(gender, is_old)
 ```
 <br/>
 
@@ -102,9 +115,22 @@ HINT: the account name will be an empty string in cases where the member of cong
 
 ```{r}
 # your answer here
+congress_contact %>% 
+  gather(key='platform', value='username', twitter:youtube) %>% 
+  filter(username!='') %>% 
+  count(platform)
+
+congress_contact %>% 
+  pivot_longer(twitter:youtube, names_to = "platform", values_to = "username") %>% 
+  filter(username!='') %>% 
+  count(platform)
+
+congress_contact %>% 
+  pivot_longer(twitter:youtube, names_to = "platform", values_to = "username") %>% 
+  filter(username!='') %>% 
+  nrow()
 ```
 <br/>
-
 
 
 **Below, I define for you two vectors corresponding to policies that US States have adopted to respond to COVID-19: restrictions on travel ([recorded May 20, 2020](https://www.wsj.com/articles/a-state-by-state-guide-to-coronavirus-lockdowns-11584749351)) and requirements that citizens to wear masks in public ([recorded August 17, 2020](https://www.cnn.com/2020/06/19/us/states-face-mask-coronavirus-trnd/index.html)).**
@@ -118,12 +144,14 @@ require_masks <- c("HI", "WA", "OR", "NV", "CA", "MT", "CO", "NM", "KS", "TX", "
 **7. write code to print only the states who implemented both travel restrictions and mask requirements:**
 ```{r}
 # your answer here
+travel_restrictions %>% intersect(require_masks)
 ```
 <br/>
 
 **8. Write code to print the states who had implemented mask requirements but not travel restrictions:**
 ```{r}
 # your answer here
+travel_restrictions %>% setdiff(require_masks)
 ```
 
 **9. Describe two broad topics you might be interested in exploring for your final project. How would you use data science to gain insight about these topics? We won't require you to stick with these topics - we just want to see you brainstorming about what you might be interested in.**
