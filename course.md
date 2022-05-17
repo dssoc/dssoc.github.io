@@ -211,6 +211,22 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 
 ### FINAL PROJECT EXAMPLES
 
+***Spring 2022***
+
+[Public Interest In Covid-19](/project_examples/final_project_sophie_sanda.html)
+by Sophie Sanda
+<br/>
+
+[Diversion in the Digital Age: How U.S. Politicians Portray Foreign Countries on Social Media During COVID-19](/project_examples/final_project_Selina_Chu.html)
+by Selina Chu
+<br/>
+
+[How We Forget Mass Shootings: An Analysis of Google Trends for Mass Shooting Events](/project_examples/final_project_choo_DSSMassShootingFinalProject.html)
+by Joe Choo
+<br/>
+
+
+
 ***Fall 2020***
 
 [Hospice-related Google Search Volumes and Hospice Utilization](/project_examples/dss_fa2020_hospice_searches_and_utilization_Mihir_Patel.html)
