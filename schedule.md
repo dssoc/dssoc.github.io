@@ -18,14 +18,13 @@ page_nav:
 ---
 
 ## 1 - Orientation
-<b><i><font color="#E84E4E">January 5</font></i></b>
+<b><i><font color="#E84E4E">August 29</font></i></b>
 
-Class on Wednesday, Jan 5 via Zoom. Link will be available in our Slack workspace. See Course Description page to see how to join the class Slack channel.
 
 <br>
 
 ## 2 - Introduction and Ethics A
-<b><i><font color="#E84E4E">January 10-15</font></i></b>
+<b><i><font color="#E84E4E">August 31</font></i></b>
 
 **Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
 
