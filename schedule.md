@@ -531,7 +531,7 @@ allowfullscreen></iframe>
 
 
 
-## 11 - Hate Speech & Radicalization
+## 10 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -589,7 +589,7 @@ allowfullscreen></iframe>
 
 
 
-## 12 - Misinformation and Trolling
+## 11 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -662,6 +662,8 @@ allowfullscreen></iframe>
   <li><a href = "https://www.cambridge.org/core/journals/political-analysis/article/text-as-data-the-promise-and-pitfalls-of-automatic-content-analysis-methods-for-political-texts/F7AAC8B2909441603FEB25C156448F200">Text as Data: The Promises and Pitfalls of Automated Content Analysis, Justin Grimmer and Brandon Stewart</a></li>
 </ul>
 </div>
+
+
 
 ## 12 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
@@ -766,31 +768,12 @@ allowfullscreen></iframe>
 
 
 
-## 14 - One-on-one Meetings With Dr. Bail 
-<b><i><font color="#E84E4E">April 4-9</font></i></b>
+## 13 - Modeling and Communication 
+<b><i><font color="#E84E4E">November 14-16</font></i></b>
 
-[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
+<!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
 Regular TA office hours will be open.
-
-
-## 15 - Open Lab 
-<b><i><font color="#E84E4E">April 11-16</font></i></b>
-
-<!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
-
-**Monday** and **Wednesday**: open lab in usual room during regularly scheduled class @ 1:45-3pm.
-
-
-Work on final presentation and paper.
-
-***Required reading***:
-- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
-
-***Optional Materials***:
-
-
-
 
 #### Lab: Communicating Your Research
 <div class="callout callout--info">
@@ -803,26 +786,65 @@ frameborder="0"
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-
 </div>
+
+<!-->
+## 13 - One-on-one Meetings With Dr. Bail 
+<b><i><font color="#E84E4E">April 4-9</font></i></b>
+
+[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
+
+Regular TA office hours will be open.
+-->
+
+## 14 - Open Lab 
+<b><i><font color="#E84E4E">November 21</font></i></b>
+
+<!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
+
+**Wednesday**: open lab in usual room during regularly scheduled class @ 1:45-3pm.
+
+Work on final presentation and paper.
+
+***Required reading***:
+- David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
+
+***Optional Materials***:
+
+
+## 15 - Writing Up Your Results
+
+<b><i><font color="#E84E4E">November 28-30</font></i></b>
+
+**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+
+No videos this week.
+
+**Monday Lecture**: _Who is your audience?_
+
+**Wednesday Lecture**: _Writing up your research_
 
 
 ## 16 - Final Presentations
 
-<b><i><font color="#E84E4E">April 18-20</font></i></b>
+<b><i><font color="#E84E4E">December 5-7</font></i></b>
 
-Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+<!--Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+
+Final presentations during normal class time. Will post sign-up sheet.
 
 
 ## 17 - Final Paper Due
 
-<b><i><font color="#E84E4E">April 25-30</font></i></b>
+<!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
 Finals week - no class or Labs.
 
 TA office hours TBD.
 
-***Final paper DUE Thursday April 28 at 5pm EDT***
+***Final paper DUE.***
+
+<!--***Final paper DUE Thursday April 28 at 5pm EDT***-->
 
 
 
