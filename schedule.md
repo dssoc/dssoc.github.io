@@ -25,8 +25,8 @@ page_nav:
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
+No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>
-
 
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
@@ -39,6 +39,16 @@ page_nav:
 - Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
 
 <br>
+
+<!--
+#### Can Data Science Help us Fight COVID-19?
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/34fkLJEqr5w" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+-->
+
 
 #### Lab #0: Getting Started with RStudio
 <div class="callout callout--info">
@@ -62,33 +72,17 @@ page_nav:
 </div>
 
 
+
+
+
+
+
 <!--##################################### Week 2 #####################################-->
 
 ## 2 - Ethics
 <b><i><font color="#E84E4E">September 5-7</font></i></b>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
-
-**Wednesday**: regularly scheduled class @ 1:45-3pm.
-
-No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
-
-#### Can Data Science Help us Fight COVID-19?
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/34fkLJEqr5w" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-
-
-<!--##################################### Week 3 #####################################-->
-
-## 3 - Ethics
-
-<b><i><font color="#E84E4E">September 5-7</font></i></b>
-<!--<b><i><font color="#E84E4E">January 17-22</font></i></b>-->
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
@@ -99,7 +93,6 @@ Group discussion questions for this week:
 1. Should researchers always be required to get the consent of the people they study?
 2. Is there ever a point where the scientific value of research should trump ethical concerns?
 3. Are the old ethical guidelines that Matt Salganik discusses in his book "Bit by bit" sufficient, or do we need new ones for the post-COVID era?
-
 
 #### Ethics in Computational Social Science
 
@@ -117,6 +110,10 @@ allowfullscreen></iframe>
 - Adam Kramer, Jamie Guillory, & Jeffrey Hancock. [Emotional Contagion](https://www.pnas.org/content/111/24/8788).
 - Robinson Meyer. [Everything We Know About Facebook's Secret Mood Manipulation Experiment](https://www.theatlantic.com/technology/archive/2014/06/everything-we-know-about-facebooks-secret-mood-manipulation-experiment/373648/).
 - Matt Salganik. [Video: Ethics](https://www.youtube.com/watch?v=A-5QaX5ZiK8&feature=youtu.be).
+
+
+
+
 
 #### Lab #1: R Basics 
 <div class="callout callout--info">
@@ -149,6 +146,9 @@ allowfullscreen></iframe>
 </div>
 
 
+
+
+
 <!--##################################### Week 3 #####################################-->
 
 ## 3 - Social Media & Polarization
@@ -177,6 +177,11 @@ allowfullscreen></iframe>
 ***Optional Materials***:
 - Eli Pariser [Beware Online Filter Bubbles](https://www.ted.com/talks/eli_pariser_beware_online_filter_bubbles?language=en)
 - Pablo Barbera & Zachary C. Steinert-Threlkeld [How to Use Social Media Data for Political Science Research](http://pablobarbera.com/static/social-media-data-generators.pdf).
+
+
+
+
+
 
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
@@ -208,6 +213,11 @@ allowfullscreen></iframe>
 </ul>
 
 </div>
+
+
+
+
+
 
 <!--##################################### Week 4 #####################################-->
 
@@ -291,6 +301,15 @@ allowfullscreen></iframe>
   <li><b><a href = "https://civic.mit.edu/2015/12/01/feminist-data-visualization/">What would feminist data visualization look like?</a></b>, MIT Civic Media Lab by kanarinka. </li>
 </ul>-->
 </div>
+
+
+
+
+
+
+
+
+
 
 <!--##################################### Week 5 #####################################-->
 
@@ -573,7 +592,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 9 #####################################-->
 
 ## 9 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">March 14-19</font></i></b>
+<b><i><font color="#E84E4E">October 24-26</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
@@ -635,7 +654,7 @@ allowfullscreen></iframe>
 
 
 ## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 21-26</font></i></b>
+<b><i><font color="#E84E4E">October 31 - November 2</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
@@ -713,7 +732,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 11 #####################################-->
 
 ## 11 - Protest and Censorship
-<b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
+<b><i><font color="#E84E4E">November 7-9</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
@@ -887,7 +906,7 @@ Work on final presentation and paper.
 
 <!--##################################### Week 14 #####################################-->
 
-## 15 - Writing Up Your Results
+## 14 - Writing Up Your Results
 
 <b><i><font color="#E84E4E">November 28-30</font></i></b>
 
