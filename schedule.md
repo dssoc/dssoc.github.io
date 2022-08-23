@@ -20,13 +20,17 @@ page_nav:
 ## 1 - Orientation
 <b><i><font color="#E84E4E">August 29</font></i></b>
 
+**Monday**: regularly scheduled class @ 1:45-3pm.
+
 
 <br>
 
 ## 2 - Introduction and Ethics A
 <b><i><font color="#E84E4E">August 31</font></i></b>
 
-**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+
+**Wednesday**: regularly scheduled class @ 1:45-3pm.
 
 No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 
@@ -76,9 +80,7 @@ allowfullscreen></iframe>
 <b><i><font color="#E84E4E">September 5-7</font></i></b>
 <!--<b><i><font color="#E84E4E">January 17-22</font></i></b>-->
 
-**Monday**: No meetings.
-
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).
+**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
 **Following Monday**: Lab due by 5PM
 
@@ -361,7 +363,9 @@ For these excercises, you will need the following datasets:<br/>
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-**Following Monday**: Lab due by 5PM
+NOTE: due to spring break, the lab due date has been moved back.
+
+**Following Wednesday (Wednesday, October 12 by 5PM)**: Lab due by 5PM
 
 Group discussion questions for this week:
 
@@ -388,8 +392,16 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
+<!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due Wednesday, October 12 by 5PM)</i></p>-->
+<p><i><b>Lab #5: Coding Social Networks</b> (Due Wednesday, October 12 by 5PM)</i></p>
+
+
+<!-- THESE ARE CHANGED BECAUSE SPRING BREAK>
 <!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #5: Coding Social Networks</b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (due the following Monday by 5PM)</i></p>-->
+
+
+
 
 
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 
@@ -516,6 +528,35 @@ allowfullscreen></iframe>
 </ul>
 </div>
 
+
+
+
+## 11 - Hate Speech & Radicalization
+<b><i><font color="#E84E4E">March 14-19</font></i></b>
+
+**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+
+**Following Monday**: Lab due by 5PM
+
+#### Using Google Search to Track Radicalization
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/-XH_cF2S72g" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+***Required reading***:
+-  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).
+
+***Optional Materials***:
+- Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
+- Kevin Munger. [Tweetment Effects on the Tweeted](https://link.springer.com/article/10.1007/s11109-016-9373-5)
+- Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948)
+
+
 #### Lab #7: Modeling (A Brief Introduction)
 <div class="callout callout--info">
 
@@ -546,36 +587,42 @@ allowfullscreen></iframe>
 
 
 
-## 10 - Spring break
-<b><i><font color="#E84E4E">March 7-12</font></i></b>
 
-No class. Enjoy your break!
 
-## 11 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">March 14-19</font></i></b>
+## 12 - Misinformation and Trolling
+<b><i><font color="#E84E4E">March 21-26</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 **Following Monday**: Lab due by 5PM
 
-#### Using Google Search to Track Radicalization
+Discussion questions for this week:
+
+1. Have you ever been the target of trolling or a misinformation campaign? Was it successful? Why or why not?
+2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
+3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
+
+
+#### Did Russia's Social Media Campaign Succeed?
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/-XH_cF2S72g" 
+src="https://www.youtube.com/embed/J6WI38QvwFI" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+
 ***Required reading***:
--  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).
+- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 
 ***Optional Materials***:
-- Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
-- Kevin Munger. [Tweetment Effects on the Tweeted](https://link.springer.com/article/10.1007/s11109-016-9373-5)
-- Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948)
-
+- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
+- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
+- [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
 
 
 #### Lab #8: Introduction to text analysis
@@ -616,42 +663,32 @@ allowfullscreen></iframe>
 </ul>
 </div>
 
-
-
-## 12 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 21-26</font></i></b>
+## 12 - Protest and Censorship
+<b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
-<!--**Monday**: No meetings.
-
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Following Monday**: Lab due by 5PM
 
-Discussion questions for this week:
-
-1. Have you ever been the target of trolling or a misinformation campaign? Was it successful? Why or why not?
-2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
-3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
-
-
-#### Did Russia's Social Media Campaign Succeed?
+#### Online Social Change (Zeynep Tufekci)
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/J6WI38QvwFI" 
+src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
+***Required Reading***
 
-***Required reading***:
-- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
+Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
+
 
 ***Optional Materials***:
-- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
-- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
-- [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
+
+- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
+
 
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
@@ -685,34 +722,6 @@ allowfullscreen></iframe>
   <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
 </ul>
 </div>
-
-
-## 13 - Protest and Censorship
-<b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
-
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
-
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
-
-**Following Monday**: Lab due by 5PM
-
-#### Online Social Change (Zeynep Tufekci)
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-***Required Reading***
-
-Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
-
-
-***Optional Materials***:
-
-- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-
 
 
 #### Lab #10: Topic Modeling
