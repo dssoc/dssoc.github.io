@@ -534,8 +534,6 @@ Group discussion questions for this week:
 3. Google, Facebook, and many other large companies have created large teams specifically dedicated to creating fairness in Artificial Intelligence. Do you think it's possible for people on those teams to independently audit or evaluate social inequality without some type of bias?
 
 
-**Note**: Spring Break starts on the evening of March 4, but we will give you until Saturday, March 5 to submit the Lab in case you need more time.
-
 #### Challenging the Algorithms of Oppression (Safiya Noble)
 
 <iframe width="560" height="315"
