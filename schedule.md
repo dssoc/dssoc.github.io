@@ -726,6 +726,22 @@ allowfullscreen></iframe>
 </div>
 
 
+
+
+
+
+## 13 - Modeling and Communication 
+<b><i><font color="#E84E4E">November 14-16</font></i></b>
+
+**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+
+**Following Monday**: Lab due by 5PM
+
+<!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
+
+<!--Regular TA office hours will be open.-->
+
+
 #### Lab #10: Topic Modeling
 <div class="callout callout--info">
 
@@ -765,15 +781,6 @@ allowfullscreen></iframe>
 </ul>
 
 </div>
-
-
-
-## 13 - Modeling and Communication 
-<b><i><font color="#E84E4E">November 14-16</font></i></b>
-
-<!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
-
-Regular TA office hours will be open.
 
 #### Lab: Communicating Your Research
 <div class="callout callout--info">
