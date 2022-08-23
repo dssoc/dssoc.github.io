@@ -17,16 +17,55 @@ page_nav:
         url: '/course'
 ---
 
-## 1 - Orientation
-<b><i><font color="#E84E4E">August 29</font></i></b>
 
-**Monday**: regularly scheduled class @ 1:45-3pm.
+<!--##################################### Week 1 #####################################-->
 
+## 1 - Introduction and Orientation
+<b><i><font color="#E84E4E">August 29-31</font></i></b>
+
+**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
 
 <br>
 
-## 2 - Introduction and Ethics A
-<b><i><font color="#E84E4E">August 31</font></i></b>
+
+***Required Reading***:
+- Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
+
+***Optional Materials***:
+- David Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/).
+- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
+- Eszter Hargittai. [Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866).
+- Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
+- Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
+
+<br>
+
+#### Lab #0: Getting Started with RStudio
+<div class="callout callout--info">
+
+  <p><i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i></p>
+
+  <i><b>Lab Video Lecture: Getting Started with RStudio</b></i> 
+
+  <iframe width="560" height="315"
+  src="https://www.youtube.com/embed/oFv25YAWSNc" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  allowfullscreen></iframe>
+
+  <i><b>Ungraded Assignment:</b> Install R and R Studio</i> <br/>
+  <i>Optional Resource:</i><br/>
+  <ul>
+      <li><a href="https://rstudio-education.github.io/hopr/starting.html">Installing RStudio (Windows/Mac)</a></li>
+  </ul>
+
+</div>
+
+
+<!--##################################### Week 2 #####################################-->
+
+## 2 - Ethics
+<b><i><font color="#E84E4E">September 5-7</font></i></b>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -43,37 +82,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 
-***Required Reading***:
-- Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
-***Optional Materials***:
-- David Lazer et al. [Life in the network: the coming age of computational social science](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2745217/).
-- David Donoho. [50 Years of Data Science](https://courses.csail.mit.edu/18.337/2015/docs/50YearsDataScience.pdf)
-- Eszter Hargittai. [Is Bigger Always Better? Potential Biases of Big Data Derived from Social Network Sites](https://journals.sagepub.com/doi/abs/10.1177/0002716215570866).
-- Joshua Blumenstock et al. [Predicting Poverty and Wealth from Mobile Phone Data](https://science.sciencemag.org/content/350/6264/1073).
-- Matthew Salganik. [Bit by Bit: Asking Questions](https://www.bitbybitbook.com/en/1st-ed/asking-questions/).
-
-#### Lab #0: Getting Started with RStudio
-<div class="callout callout--info">
-
-<p><i><b><a href = "/assignments/Lab_0.html">Lab #0: Example Lab Markdown File</a></b> (Ungraded)</i></p>
-
-<i><b>Lab Video Lecture: Getting Started with RStudio</b></i> 
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/oFv25YAWSNc" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-<i><b>Ungraded Assignment:</b> Install R and R Studio</i> <br/>
-<i>Optional Resource:</i><br/>
-<ul>
-    <li><a href="https://rstudio-education.github.io/hopr/starting.html">Installing RStudio (Windows/Mac)</a></li>
-</ul>
-
-</div>
-
+<!--##################################### Week 3 #####################################-->
 
 ## 3 - Ethics
 
@@ -139,7 +149,9 @@ allowfullscreen></iframe>
 </div>
 
 
-## 4 - Social Media & Polarization
+<!--##################################### Week 3 #####################################-->
+
+## 3 - Social Media & Polarization
 
 <b><i><font color="#E84E4E">September 12-14</font></i></b>
 <!--<b><i><font color="#E84E4E">January 24-29</font></i></b>-->
@@ -197,8 +209,9 @@ allowfullscreen></iframe>
 
 </div>
 
+<!--##################################### Week 4 #####################################-->
 
-## 5 - The Echo Chamber
+## 4 - The Echo Chamber
 
 <b><i><font color="#E84E4E">September 19-21</font></i></b>
 
@@ -279,9 +292,9 @@ allowfullscreen></iframe>
 </ul>-->
 </div>
 
+<!--##################################### Week 5 #####################################-->
 
-
-## 6 - Social Networks and Health
+## 5 - Social Networks and Health
 
 <b><i><font color="#E84E4E">September 26-28</font></i></b>
 
@@ -354,7 +367,18 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-## 7 - Getting a Job
+
+
+
+
+
+
+
+
+
+<!--##################################### Week 6 #####################################-->
+
+## 6 - Getting a Job
 <b><i><font color="#E84E4E">October 3-5</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -400,10 +424,6 @@ allowfullscreen></iframe>
 <!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (due the following Monday by 5PM)</i></p>-->
 <!--<p><i><b>Lab #5: Coding Social Networks</b> (due the following Monday by 5PM)</i></p>-->
 
-
-
-
-
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 
 
 <iframe width="560" height="315"
@@ -438,7 +458,13 @@ Katya Ognyanova</a></li>
 </div>
 
 
-## 8 - Surveillance and Privacy
+
+
+
+
+<!--##################################### Week 7 #####################################-->
+
+## 7 - Surveillance and Privacy
 <b><i><font color="#E84E4E">October 12</font></i></b>
 
 <!--**Monday** and -->
@@ -463,7 +489,15 @@ allowfullscreen></iframe>
 - Shoshanna Zuboff. [You are Now Remotely Controlled](https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html)
 
 
-## 9 - Algorithms and Discrimination
+
+
+
+
+
+
+<!--##################################### Week 8 #####################################-->
+
+## 8 - Algorithms and Discrimination
 <b><i><font color="#E84E4E">October 17-19</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -531,7 +565,14 @@ allowfullscreen></iframe>
 
 
 
-## 10 - Hate Speech & Radicalization
+
+
+
+
+
+<!--##################################### Week 9 #####################################-->
+
+## 9 - Hate Speech & Radicalization
 <b><i><font color="#E84E4E">March 14-19</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -589,7 +630,11 @@ allowfullscreen></iframe>
 
 
 
-## 11 - Misinformation and Trolling
+
+<!--##################################### Week 10 #####################################-->
+
+
+## 10 - Misinformation and Trolling
 <b><i><font color="#E84E4E">March 21-26</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -665,7 +710,9 @@ allowfullscreen></iframe>
 
 
 
-## 12 - Protest and Censorship
+<!--##################################### Week 11 #####################################-->
+
+## 11 - Protest and Censorship
 <b><i><font color="#E84E4E">March 28 - April 2</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -730,7 +777,9 @@ allowfullscreen></iframe>
 
 
 
-## 13 - Modeling and Communication 
+<!--##################################### Week 12 #####################################-->
+
+## 12 - Modeling and Communication 
 <b><i><font color="#E84E4E">November 14-16</font></i></b>
 
 **Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
@@ -804,7 +853,20 @@ allowfullscreen></iframe>
 Regular TA office hours will be open.
 -->
 
-## 14 - Open Lab 
+
+
+
+
+
+
+
+
+
+
+
+<!--##################################### Week 13 #####################################-->
+
+## 13 - Open Lab 
 <b><i><font color="#E84E4E">November 21</font></i></b>
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
@@ -819,6 +881,12 @@ Work on final presentation and paper.
 ***Optional Materials***:
 
 
+
+
+
+
+<!--##################################### Week 14 #####################################-->
+
 ## 15 - Writing Up Your Results
 
 <b><i><font color="#E84E4E">November 28-30</font></i></b>
@@ -832,7 +900,14 @@ No videos this week.
 **Wednesday Lecture**: _Writing up your research_
 
 
-## 16 - Final Presentations
+
+
+
+
+
+<!--##################################### Week 15 #####################################-->
+
+## 15 - Final Presentations
 
 <b><i><font color="#E84E4E">December 5-7</font></i></b>
 
@@ -841,7 +916,13 @@ No videos this week.
 Final presentations during normal class time. Will post sign-up sheet.
 
 
-## 17 - Final Paper Due
+
+
+
+
+<!--##################################### Week 16 #####################################-->
+
+## 16 - Final Paper Due
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
