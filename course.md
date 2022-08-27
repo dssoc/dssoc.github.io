@@ -25,9 +25,9 @@ Office Hours: Wednesday 2-3:30pm (347 Reuben-Cooke Building or via Zoom, please 
 <br/>
 
 Teaching Assistant: Devin J. Cornell<br/> 
-<i>PhD Student, Sociology Department</i> <br/>
+<i>PhD Candidate, Sociology</i> <br/>
 devin.cornell@duke.edu <br/>
-Office Hours: Wed 2-3:30pm, Thurs 3-4:30pm on Zoom by appointment.
+Office Hours: Wed 3-4pm (after class), Thurs 1-3pm on Zoom by appointment.
 </div>
 
 ### COURSE DESCRIPTION
