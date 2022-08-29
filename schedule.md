@@ -28,6 +28,14 @@ page_nav:
 No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>
 
+#### Can Data Science Help us Fight COVID-19?
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/34fkLJEqr5w" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+<br/>
+
 ***Required Reading***:
 - Matthew Salganik. (1) [**Bit by Bit: Introduction**](https://www.bitbybitbook.com/en/1st-ed/introduction/), (2) [**Bit by Bit: Observing Behavior**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/)
 
@@ -40,14 +48,6 @@ No Lab homework due this week - please make sure you have R and RStudio installe
 
 <br>
 
-<!--
-#### Can Data Science Help us Fight COVID-19?
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/34fkLJEqr5w" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
--->
 
 
 #### Lab #0: Getting Started with RStudio
