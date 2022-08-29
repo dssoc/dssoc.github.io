@@ -41,14 +41,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ### OVERVIEW OF CLASS FORMAT
 
-Due to ongoing challenges related to the COVID-19 pandemic, at least the first two weeks of our class will be held entirely online. Though we hope to return to the classroom thereafter, we will abide by all college policies related to the pandemic and will not return until instructed to do so. Fortunately, this class has been carefully designed to succeed as a fully online class, as well as an in-person class. Until we return to in class instruction, we will utilize the online class format described in the following paragraphs. The format of the class and course requirements are designed to provide maximum flexibility to you as we all navigate these unprecedented times-- but also to build in new opportunities to learn through deeper engagement with me.
-
-Each week, there will be two re-recorded lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
-
-In addition to viewing the lectures each week, you will be required to sign up for a bi-weekly 15 minute one-on-one meeting with me (Professor Bail) via Zoom to discuss a topic of your choice from either the readings or the lab. Every other week you will be assigned to a small-group discussion with your classmates (also via Zoom) that will always be held from 12:30-1:30PM. I will circulate across the Zoom breakout rooms to check in with each group at some point during this time. See the [course schedule](https://dssoc.github.io/schedule/) to determine whether each week involves a one-on-one meeting or a small group meeting and please mark your calendars accordingly.
-
-My decision to meet with you one-on-one and in small groups is guided by my extensive previous experience teaching on Zoom, which has taught me that it is a very ineffective format for large group conversations in Duke courses. Meeting one on one will also help me tailor the class to your needs, and help you succeed with all of the work for our class-- weekly labs, and a final project that you will present during the last week of the semester.
-
+Each week, there will be two lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
 
 ***Required Readings***
 <br/>
@@ -81,12 +74,14 @@ The field of computational social science is growing so rapidly that none of the
 Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people [I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
 <br/>
 
+***Lecture Videos***
+
+During the period when all courses were online, I recorded videos of all of the lectures for this class which I have posted on the syllabus as a further reference for you.
+<br/>
+
 ### FORMAL REQUIREMENTS
 
-***Watch Pre-Recorded Lecture Videos***
 
-Each week you are required to watch one lecture on a substantive topic and one "lab" lecture. The substantive topics cover a range of different issues from public health to discrimination and artificial intelligence; the labs teach you the concrete techniques to perform the types of analysis we read about during the class, and provide you with the tools necessary to complete your final project.
-<br/>
 
 ***Weekly Readings***
 <br/>
