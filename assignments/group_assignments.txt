@@ -1,161 +1,161 @@
 18 Students assigned to 5 groups on 5 days.
-=============== WORKSHOP January 19 ===============
+=============== WORKSHOP September 5 ===============
 
 	----- Group 1 -----
-	Kevin Li
-	Siying Song
-	Devon Sinha
-	Peter Alfonsi
+	Michelle Si
+	Luke Thomas
+	Andrew Takais
+	Cassandra Zia Claros
 
 	----- Group 2 -----
-	Joey Lane
-	Brian Li
-	Will Hanna
-	Sophie Sanda
+	Kulsoom Rizavi
+	Ashley Shaaf
+	Hannah He
+	Zoe Svec
 
 	----- Group 3 -----
-	Maya Alexander
-	Ryan Champaigne
-	Ashil Jhaveri
-	Ellie Roza
+	Daniel Almeida Dequech
+	Drew (He/Him/His) Fate-Bolognone
+	Jack Mendelsohn
+	Ryan Smith
 
 	----- Group 4 -----
-	Dani Trejo
-	Selina Chu
-	Gracie Johnson
+	Andrew Weatherman
+	David (He/Him/His) Goh
+	Michelle Qiu
 
 	----- Group 5 -----
-	Edwin Barnes
-	Eleanore van Marwijk Kooy
-	Joe Choo
+	Matthew Cui
+	Eric Young
+	Naomie Gao
 
 
 
 =============== WORKSHOP February 2 ===============
 
 	----- Group 1 -----
-	Maya Alexander
-	Ryan Champaigne
-	Selina Chu
-	Joey Lane
+	Daniel Almeida Dequech
+	Drew (He/Him/His) Fate-Bolognone
+	David (He/Him/His) Goh
+	Kulsoom Rizavi
 
 	----- Group 2 -----
-	Sophie Sanda
-	Edwin Barnes
-	Brian Li
-	Joe Choo
+	Zoe Svec
+	Matthew Cui
+	Ashley Shaaf
+	Naomie Gao
 
 	----- Group 3 -----
-	Dani Trejo
-	Ellie Roza
-	Devon Sinha
-	Eleanore van Marwijk Kooy
+	Andrew Weatherman
+	Ryan Smith
+	Andrew Takais
+	Eric Young
 
 	----- Group 4 -----
-	Siying Song
-	Gracie Johnson
-	Kevin Li
+	Luke Thomas
+	Michelle Qiu
+	Michelle Si
 
 	----- Group 5 -----
-	Will Hanna
-	Ashil Jhaveri
-	Peter Alfonsi
+	Hannah He
+	Jack Mendelsohn
+	Cassandra Zia Claros
 
 
 
 =============== WORKSHOP February 16 ===============
 
 	----- Group 1 -----
-	Joe Choo
-	Edwin Barnes
-	Peter Alfonsi
-	Gracie Johnson
+	Naomie Gao
+	Matthew Cui
+	Cassandra Zia Claros
+	Michelle Qiu
 
 	----- Group 2 -----
-	Sophie Sanda
-	Joey Lane
-	Eleanore van Marwijk Kooy
-	Dani Trejo
+	Zoe Svec
+	Kulsoom Rizavi
+	Eric Young
+	Andrew Weatherman
 
 	----- Group 3 -----
-	Ryan Champaigne
-	Ashil Jhaveri
-	Siying Song
-	Devon Sinha
+	Drew (He/Him/His) Fate-Bolognone
+	Jack Mendelsohn
+	Luke Thomas
+	Andrew Takais
 
 	----- Group 4 -----
-	Selina Chu
-	Kevin Li
-	Ellie Roza
+	David (He/Him/His) Goh
+	Michelle Si
+	Ryan Smith
 
 	----- Group 5 -----
-	Brian Li
-	Will Hanna
-	Maya Alexander
+	Ashley Shaaf
+	Hannah He
+	Daniel Almeida Dequech
 
 
 
 =============== WORKSHOP March 2 ===============
 
 	----- Group 1 -----
-	Eleanore van Marwijk Kooy
-	Ryan Champaigne
-	Siying Song
-	Dani Trejo
+	Eric Young
+	Drew (He/Him/His) Fate-Bolognone
+	Luke Thomas
+	Andrew Weatherman
 
 	----- Group 2 -----
-	Kevin Li
-	Joe Choo
-	Gracie Johnson
-	Ashil Jhaveri
+	Michelle Si
+	Naomie Gao
+	Michelle Qiu
+	Jack Mendelsohn
 
 	----- Group 3 -----
-	Brian Li
-	Selina Chu
-	Devon Sinha
-	Will Hanna
+	Ashley Shaaf
+	David (He/Him/His) Goh
+	Andrew Takais
+	Hannah He
 
 	----- Group 4 -----
-	Sophie Sanda
-	Joey Lane
-	Edwin Barnes
+	Zoe Svec
+	Kulsoom Rizavi
+	Matthew Cui
 
 	----- Group 5 -----
-	Maya Alexander
-	Peter Alfonsi
-	Ellie Roza
+	Daniel Almeida Dequech
+	Cassandra Zia Claros
+	Ryan Smith
 
 
 
 =============== WORKSHOP March 23 ===============
 
 	----- Group 1 -----
-	Selina Chu
-	Dani Trejo
-	Joe Choo
-	Will Hanna
+	David (He/Him/His) Goh
+	Andrew Weatherman
+	Naomie Gao
+	Hannah He
 
 	----- Group 2 -----
-	Eleanore van Marwijk Kooy
-	Edwin Barnes
-	Sophie Sanda
-	Brian Li
+	Eric Young
+	Matthew Cui
+	Zoe Svec
+	Ashley Shaaf
 
 	----- Group 3 -----
-	Maya Alexander
-	Siying Song
-	Gracie Johnson
-	Ryan Champaigne
+	Daniel Almeida Dequech
+	Luke Thomas
+	Michelle Qiu
+	Drew (He/Him/His) Fate-Bolognone
 
 	----- Group 4 -----
-	Kevin Li
-	Peter Alfonsi
-	Joey Lane
+	Michelle Si
+	Cassandra Zia Claros
+	Kulsoom Rizavi
 
 	----- Group 5 -----
-	Devon Sinha
-	Ashil Jhaveri
-	Ellie Roza
+	Andrew Takais
+	Jack Mendelsohn
+	Ryan Smith
 
 
 
