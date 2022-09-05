@@ -225,6 +225,9 @@ by Selina Chu
 by Joe Choo
 <br/>
 
+[Birdwatch and the Polarization of the Crowds](/project_examples/final_project_Ryan_Champaigne_DSS-2022_Final_Project.pdf)
+by Ryan Champaigne
+<br/>
 
 
 ***Fall 2020***
