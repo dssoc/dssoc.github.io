@@ -88,7 +88,7 @@ allowfullscreen></iframe>
 
 **Following Monday**: Lab due by 5PM
 
-Group discussion questions for this week:
+Group discussion questions for this week ([see group assignments](https://dssoc.github.io/assignments/group_assignments.txt)):
 
 1. Should researchers always be required to get the consent of the people they study?
 2. Is there ever a point where the scientific value of research should trump ethical concerns?
