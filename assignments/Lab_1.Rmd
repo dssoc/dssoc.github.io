@@ -41,6 +41,24 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
+## Practice Questions
+
+**ex1. What is the sum of the values of `some_vector`?**
+```{r}
+some_vector <- c(25555,342343,123123123,4234234,53243234,54324234,5421111,12312312,111231)
+sum(some_vector)
+```
+
+
+
+**ex2. Compute the sum of all integers 1 through 100, inclusive.**
+
+HINT: The solution to this problem is found in the required readings.
+```{r}
+sum(seq(1, 100))
+```
+
+
 
 ## Questions
 
