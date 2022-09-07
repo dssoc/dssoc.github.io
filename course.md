@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Spring 2022 (Online)  
+description: Duke University, Sociology 367S <br/> Spring 2022
 
 
 # Micro navigation
@@ -22,9 +22,10 @@ micro_nav: true
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
 Office Hours: Wednesday 12:45-1:45pm (347 Reuben-Cooke Building or via Zoom, please email beforehand)
+<hr/>
 <br/>
-
-Teaching Assistant: Devin J. Cornell<br/> 
+<p><b>Teaching Assistant: Devin J. Cornell</b></p>
+<br/> 
 <i>PhD Candidate, Sociology</i> <br/>
 devin.cornell@duke.edu <br/>
 Office Hours: Wed 3-4pm (after class), Thurs 1-3pm on Zoom by appointment.
