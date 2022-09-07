@@ -12,9 +12,11 @@ import random
 if __name__ == '__main__':
     random.seed(0)
     n_groups = 5
-    workshop_dates = ['January 19', 'February 2', 'February 16', 'March 2', 'March 23']
+    #workshop_dates = ['January 19', 'February 2', 'February 16', 'March 2', 'March 23']
+    workshop_dates = ['September 5', 'February 2', 'February 16', 'March 2', 'March 23']
     
-    csv_fname = 'Class Roster - 2022 Spring Term - SOCIOL 367S (2968)_3.csv'
+    
+    csv_fname = 'raw_data/Class Roster - 2022 Fall Term - SOCIOL 367S (3165).csv'
     roster = list(pd.read_csv(csv_fname, index_col=False)['Name'].dropna())
     print(f'{len(roster)} Students assigned to {n_groups} groups on {len(workshop_dates)} days.')
     
