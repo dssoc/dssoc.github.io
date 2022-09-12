@@ -1,5 +1,5 @@
-18 Students assigned to 5 groups on 5 days.
-=============== WORKSHOP September 5 ===============
+18 Students assigned to 5 groups on 11 days.
+=============== Class September 5 ===============
 
 	----- Group 1 -----
 	Michelle Si
@@ -31,7 +31,7 @@
 
 
 
-=============== WORKSHOP February 2 ===============
+=============== Class September 12 ===============
 
 	----- Group 1 -----
 	Daniel Almeida Dequech
@@ -63,7 +63,7 @@
 
 
 
-=============== WORKSHOP February 16 ===============
+=============== Class September 19 ===============
 
 	----- Group 1 -----
 	Naomie Gao
@@ -95,7 +95,7 @@
 
 
 
-=============== WORKSHOP March 2 ===============
+=============== Class September 26 ===============
 
 	----- Group 1 -----
 	Eric Young
@@ -127,7 +127,7 @@
 
 
 
-=============== WORKSHOP March 23 ===============
+=============== Class October 3 ===============
 
 	----- Group 1 -----
 	David (He/Him/His) Goh
@@ -156,6 +156,198 @@
 	Andrew Takais
 	Jack Mendelsohn
 	Ryan Smith
+
+
+
+=============== Class October 12 ===============
+
+	----- Group 1 -----
+	Andrew Takais
+	Naomie Gao
+	Matthew Cui
+	Michelle Qiu
+
+	----- Group 2 -----
+	Luke Thomas
+	Eric Young
+	Ashley Shaaf
+	Cassandra Zia Claros
+
+	----- Group 3 -----
+	Hannah He
+	Ryan Smith
+	Zoe Svec
+	David (He/Him/His) Goh
+
+	----- Group 4 -----
+	Kulsoom Rizavi
+	Daniel Almeida Dequech
+	Andrew Weatherman
+
+	----- Group 5 -----
+	Drew (He/Him/His) Fate-Bolognone
+	Michelle Si
+	Jack Mendelsohn
+
+
+
+=============== Class October 17 ===============
+
+	----- Group 1 -----
+	Eric Young
+	Naomie Gao
+	David (He/Him/His) Goh
+	Michelle Qiu
+
+	----- Group 2 -----
+	Luke Thomas
+	Drew (He/Him/His) Fate-Bolognone
+	Ryan Smith
+	Zoe Svec
+
+	----- Group 3 -----
+	Daniel Almeida Dequech
+	Kulsoom Rizavi
+	Ashley Shaaf
+	Hannah He
+
+	----- Group 4 -----
+	Andrew Weatherman
+	Michelle Si
+	Andrew Takais
+
+	----- Group 5 -----
+	Matthew Cui
+	Cassandra Zia Claros
+	Jack Mendelsohn
+
+
+
+=============== Class October 24 ===============
+
+	----- Group 1 -----
+	Naomie Gao
+	Michelle Si
+	Hannah He
+	Jack Mendelsohn
+
+	----- Group 2 -----
+	Andrew Weatherman
+	Ashley Shaaf
+	Andrew Takais
+	Drew (He/Him/His) Fate-Bolognone
+
+	----- Group 3 -----
+	Luke Thomas
+	Zoe Svec
+	Matthew Cui
+	Michelle Qiu
+
+	----- Group 4 -----
+	Kulsoom Rizavi
+	Cassandra Zia Claros
+	Ryan Smith
+
+	----- Group 5 -----
+	Eric Young
+	Daniel Almeida Dequech
+	David (He/Him/His) Goh
+
+
+
+=============== Class October 31 ===============
+
+	----- Group 1 -----
+	Andrew Weatherman
+	Naomie Gao
+	Luke Thomas
+	Hannah He
+
+	----- Group 2 -----
+	Matthew Cui
+	Eric Young
+	Cassandra Zia Claros
+	Drew (He/Him/His) Fate-Bolognone
+
+	----- Group 3 -----
+	Michelle Qiu
+	Ryan Smith
+	Andrew Takais
+	Daniel Almeida Dequech
+
+	----- Group 4 -----
+	Jack Mendelsohn
+	David (He/Him/His) Goh
+	Zoe Svec
+
+	----- Group 5 -----
+	Ashley Shaaf
+	Michelle Si
+	Kulsoom Rizavi
+
+
+
+=============== Class November 7 ===============
+
+	----- Group 1 -----
+	Jack Mendelsohn
+	Michelle Si
+	Andrew Weatherman
+	Cassandra Zia Claros
+
+	----- Group 2 -----
+	Drew (He/Him/His) Fate-Bolognone
+	Ryan Smith
+	Michelle Qiu
+	Hannah He
+
+	----- Group 3 -----
+	David (He/Him/His) Goh
+	Naomie Gao
+	Daniel Almeida Dequech
+	Luke Thomas
+
+	----- Group 4 -----
+	Matthew Cui
+	Eric Young
+	Ashley Shaaf
+
+	----- Group 5 -----
+	Zoe Svec
+	Kulsoom Rizavi
+	Andrew Takais
+
+
+
+=============== Class November 14 ===============
+
+	----- Group 1 -----
+	Ashley Shaaf
+	Zoe Svec
+	Hannah He
+	Andrew Takais
+
+	----- Group 2 -----
+	Luke Thomas
+	Jack Mendelsohn
+	Michelle Si
+	Cassandra Zia Claros
+
+	----- Group 3 -----
+	Matthew Cui
+	Eric Young
+	Andrew Weatherman
+	David (He/Him/His) Goh
+
+	----- Group 4 -----
+	Ryan Smith
+	Naomie Gao
+	Kulsoom Rizavi
+
+	----- Group 5 -----
+	Michelle Qiu
+	Drew (He/Him/His) Fate-Bolognone
+	Daniel Almeida Dequech
 
 
 

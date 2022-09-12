@@ -13,7 +13,8 @@ if __name__ == '__main__':
     random.seed(0)
     n_groups = 5
     #workshop_dates = ['January 19', 'February 2', 'February 16', 'March 2', 'March 23']
-    workshop_dates = ['September 5', 'February 2', 'February 16', 'March 2', 'March 23']
+    workshop_dates = ['September 5', 'September 12', 'September 19', 'September 26', 'October 3', 
+        'October 12', 'October 17', 'October 24', 'October 31', 'November 7', 'November 14']
     
     
     csv_fname = 'raw_data/Class Roster - 2022 Fall Term - SOCIOL 367S (3165).csv'
@@ -21,7 +22,7 @@ if __name__ == '__main__':
     print(f'{len(roster)} Students assigned to {n_groups} groups on {len(workshop_dates)} days.')
     
     for date in workshop_dates:
-        print(f'{"="*15} WORKSHOP {date} {"="*15}\n')
+        print(f'{"="*15} Class {date} {"="*15}\n')
         groups = [[] for _ in range(n_groups)] # list of lists
 
         randomized_roster = list(roster)
