@@ -188,8 +188,8 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #2: Data Wrangling</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #2: Data Wrangling</b> (due the following Monday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data "Wrangling"</b></i> 
 

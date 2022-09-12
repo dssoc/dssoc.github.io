@@ -188,6 +188,52 @@ pre code {
 <li><a href="https://r4ds.had.co.nz/wrangle-intro.html">R4DS Chapters 9-16</a></li>
 </ul>
 <p><br /></p>
+<div id="example-questions" class="section level2">
+<h2>Example Questions</h2>
+<p><br></p>
+<p><strong>ex1. how many female and male senators from the Democrat party are older than 60? For this and all assignments, you may approximate age as <code>approx age = current year - birthyear</code>.</strong></p>
+<pre class="r"><code># this solution uses pipes (see required reading)
+congress %&gt;% 
+  filter(type==&#39;sen&#39;, party==&#39;Democrat&#39;, birthyear &gt; 1962) %&gt;% 
+  count(gender)</code></pre>
+<pre><code>##   gender  n
+## 1      F  4
+## 2      M 11</code></pre>
+<pre class="r"><code># this is old-school
+tmp &lt;- filter(congress, type==&#39;sen&#39;, party==&#39;Democrat&#39;, birthyear &gt; 1962)
+count(tmp, gender)</code></pre>
+<pre><code>##   gender  n
+## 1      F  4
+## 2      M 11</code></pre>
+<p><strong>ex2. Give the names of the 2 oldest senators.</strong></p>
+<pre class="r"><code># this solution uses pipes
+congress %&gt;% 
+  filter(type==&#39;sen&#39;) %&gt;% 
+  arrange(birthyear) %&gt;% 
+  select(full_name) %&gt;% 
+  head(2)</code></pre>
+<pre><code>##          full_name
+## 1 Dianne Feinstein
+## 2   Chuck Grassley</code></pre>
+<p><strong>ex3. How many valid Twitter and Facebook account handles are there in <code>congress_contact</code>?</strong></p>
+<pre class="r"><code># your answer here
+congress_contact %&gt;% 
+  select(facebook, youtube) %&gt;% 
+  gather(key=&#39;platform&#39;, value=&#39;handle&#39;, facebook, youtube) %&gt;% 
+  count(are_valid = handle!=&#39;&#39;) %&gt;% 
+  filter(are_valid)</code></pre>
+<pre><code>##   are_valid   n
+## 1      TRUE 638</code></pre>
+<pre class="r"><code>congress_contact %&gt;% 
+  select(facebook, youtube) %&gt;% 
+  pivot_longer(facebook:youtube, names_to=&#39;platform&#39;, values_to=&#39;handle&#39;) %&gt;% 
+  count(are_valid = handle!=&#39;&#39;) %&gt;% 
+  filter(are_valid)</code></pre>
+<pre><code>## # A tibble: 1 × 2
+##   are_valid     n
+##   &lt;lgl&gt;     &lt;int&gt;
+## 1 TRUE        638</code></pre>
+</div>
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>

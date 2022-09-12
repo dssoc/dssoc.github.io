@@ -42,6 +42,48 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
+## Example Questions
+<br>
+
+**ex1. how many female and male senators from the Democrat party are older than 60? For this and all assignments, you may approximate age as `approx age = current year - birthyear`.**
+```{r}
+# this solution uses pipes (see required reading)
+congress %>% 
+  filter(type=='sen', party=='Democrat', birthyear > 1962) %>% 
+  count(gender)
+
+# this is old-school
+tmp <- filter(congress, type=='sen', party=='Democrat', birthyear > 1962)
+count(tmp, gender)
+```
+
+**ex2. Give the names of the 2 oldest senators.**
+```{r}
+# this solution uses pipes
+congress %>% 
+  filter(type=='sen') %>% 
+  arrange(birthyear) %>% 
+  select(full_name) %>% 
+  head(2)
+```
+
+**ex3. How many valid Twitter and Facebook account handles are there in `congress_contact`?**
+```{r}
+# your answer here
+congress_contact %>% 
+  select(facebook, youtube) %>% 
+  gather(key='platform', value='handle', facebook, youtube) %>% 
+  count(are_valid = handle!='') %>% 
+  filter(are_valid)
+
+congress_contact %>% 
+  select(facebook, youtube) %>% 
+  pivot_longer(facebook:youtube, names_to='platform', values_to='handle') %>% 
+  count(are_valid = handle!='') %>% 
+  filter(are_valid)
+```
+
+
 ## Questions
 <br>
 
