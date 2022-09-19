@@ -261,8 +261,8 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #3: Data Visualization</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #3: Data Visualization</b> (due the following Monday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data Visualization</b></i> 
 

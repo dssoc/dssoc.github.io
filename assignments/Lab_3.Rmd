@@ -42,6 +42,35 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 ```
 <br/>
 
+
+## Example Questions
+<br>
+
+
+**ex1. make a bar chart showing the number of male and female members of congress in our dataset.**
+```{r}
+congress %>% 
+  ggplot(aes(x=gender)) +
+    geom_bar()
+```
+<br/>
+
+
+**ex2. make a bar chart showing the proportion of female senators in each pol.**
+```{r}
+congress %>% 
+  group_by(party) %>% 
+  summarize(proportion_gender=mean(gender=='F')) %>% 
+  ggplot(aes(x=party, y=proportion_gender)) +
+    geom_bar(stat='identity', position='dodge')
+```
+<br/>
+
+
+
+
+
+
 ## Questions
 <br>
 
@@ -127,3 +156,14 @@ This means you will need to join three dataframes: `committee_memberships` for m
 ```{r}
 # your answer here
 ```
+
+
+
+
+
+
+
+
+
+
+
