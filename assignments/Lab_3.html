@@ -220,29 +220,33 @@ ggplot: </code></pre>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>4. Create a bar chart showing the average ages of Senators and Representatives separately by weekday. The plot should make it easy to compare Senators and Representatives within each weekday. The x-labels should be weekday names and appear in chronological order.</strong></p>
-<p>NOTE: For convenience, I have already parsed the <code>birthdate</code> column into a <code>date</code> type, so you’ll just need to extract the day of week using <code>lubridate</code> methods.</p>
-<p>HINT: the final plot should have 14 bars: 7 weekdays by 2 types of congress members (Senators and Representatives).</p>
+<p>NOTE: For convenience, I have already parsed the <code>birthdate</code> column into a <code>date</code> type.</p>
+<p>NOTE: the final plot should have 14 bars: 7 weekdays by 2 types of congress members (Senators and Representatives).</p>
 <p>HINT: see the Optional Readings for more information about grouped bar charts using <code>ggplot2</code>.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. Use an inner join to combine the columns of the <code>congress</code> dataframe with the columns of <code>congress_contacts</code>, and show the average number of valid Twitter, Facebook, and YouTube social media accounts among congress members of each political party as a bar chart. Do the same for F and M genders.</strong></p>
+<p><strong>5. Use an inner join to combine the columns of the <code>congress</code> dataframe with the columns of <code>congress_contacts</code> and show the average proportion of congress members with valid Facebook accounts by gender.</strong></p>
 <p>HINT: you will want to join the dataframes based on a column that is common to both datasets.</p>
-<p>HINT: there are several ways to accomplish the counting of social media accounts. You could use <code>gather</code> again and then <code>group_by</code> and <code>summarise</code> within politician and then within party, or you could use <code>mutate</code> to get counts for each politican and then average by party. Any other approach is also fine.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>6. The remainder of problems in this homework will involve the use of the <code>committees.RData</code> dataset. You should refer to the Lab Instructions page for more information about this dataset. Create a plot showing the average number of subcommittees that F and M genders belong to. Then create a plot showing the average number of full committees that congress members belong to by party.</strong></p>
-<p>HINT: as described in the Lab Instructions page, you will need to perform a join between the <code>subcommittees</code> and <code>committee_memberships</code> dataframes to get ONLY subcommittee (and not committee) memberships, and a join between the <code>committees</code> and <code>committee_memberships</code> to get ONLY full committees. You may copy-paste the code from the Lab Instructions page if that would be helpful.</p>
+<p><strong>6. Create a bar chart comparing the average age of congress members that have valid Twitter, Facebook, and YouTube accounts. Each bar should correspond to a social media platform and the height should correspond to the average age of congress members with that type of account.</strong></p>
+<p>HINT: one way to accomplish this is by using gather to create a separate row for each person-account, and summarize to average by age.</p>
 <pre class="r"><code># your answer here</code></pre>
-<p><strong>7. Create a bar plot showing the number of members that belong to the 5 largest full congressional committees (i.e. full committees with the largest number of members). The bars should be sorted based on committee sizes.</strong></p>
+<p><br /></p>
+<p><strong>7. The remainder of problems in this homework will involve the use of the <code>committees.RData</code> dataset. Create a plot showing the average number of subcommittees that congress members belong to by gender.</strong></p>
+<p>HINT: as described in the Lab Instructions page, you will need to perform a join between the <code>subcommittees</code> and <code>committee_memberships</code> dataframes to get ONLY subcommittee (and not committee) memberships. You may copy-paste the code from the Lab Instructions page if that would be helpful.</p>
+<p>HINT: you should perform a join to get ONLY subcommittee (and not committee) memberships. Refer to the Lab Instructions page for more information about this dataset.</p>
+<pre class="r"><code># your answer here</code></pre>
+<p></br></p>
+<p><strong>8. Create a bar plot showing the number of members that belong to the 5 largest full congressional committees (i.e. full committees with the largest number of members). The bars should be sorted based on committee sizes.</strong></p>
 <p>NOTE: read the Lab Instructions page for more information about the standards for visualizations in this course. The full committee names should appear somewhere on the plot - please do not provide <code>thomas_id</code>s only (you may include full committee names in the legend though).</p>
-<p>HINT: See the Lab Instructions page for more info about filtering for full committees only (excluding subcommittees).</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>8. Create a single bar plot that shows the average age of the full committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages.</strong></p>
+<p><strong>9. Create a single bar plot that shows the average age of the full committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages.</strong></p>
 <p>This means you will need to join three dataframes: <code>committee_memberships</code> for membership information, <code>committees</code> to separate full committees from subcommittees and get committee names, and <code>congress</code> to get age information.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>9. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?</strong></p>
+<p><strong>10. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 </div>
 

@@ -99,11 +99,12 @@ Note: The plotted lines may not show up in decades where there were no births - 
 ```
 <br/>
 
+
 **4. Create a bar chart showing the average ages of Senators and Representatives separately by weekday. The plot should make it easy to compare Senators and Representatives within each weekday. The x-labels should be weekday names and appear in chronological order.**
 
-NOTE: For convenience, I have already parsed the `birthdate` column into a `date` type, so you'll just need to extract the day of week using `lubridate` methods.
+NOTE: For convenience, I have already parsed the `birthdate` column into a `date` type.
 
-HINT: the final plot should have 14 bars: 7 weekdays by 2 types of congress members (Senators and Representatives).
+NOTE: the final plot should have 14 bars: 7 weekdays by 2 types of congress members (Senators and Representatives).
 
 HINT: see the Optional Readings for more information about grouped bar charts using `ggplot2`.
 ```{r}
@@ -112,38 +113,49 @@ HINT: see the Optional Readings for more information about grouped bar charts us
 <br/>
 
 
-**5. Use an inner join to combine the columns of the `congress` dataframe with the columns of `congress_contacts`, and show the average number of valid Twitter, Facebook, and YouTube social media accounts among congress members of each political party as a bar chart. Do the same for F and M genders.**
+**5. Use an inner join to combine the columns of the `congress` dataframe with the columns of `congress_contacts` and show the average proportion of congress members with valid Facebook accounts by gender.**
 
 HINT: you will want to join the dataframes based on a column that is common to both datasets.
 
-HINT: there are several ways to accomplish the counting of social media accounts. You could use `gather` again and then `group_by` and `summarise` within politician and then within party, or you could use `mutate` to get counts for each politican and then average by party. Any other approach is also fine.
 ```{r}
 # your answer here
 ```
 <br/>
 
 
-**6. The remainder of problems in this homework will involve the use of the `committees.RData` dataset. You should refer to the Lab Instructions page for more information about this dataset. Create a plot showing the average number of subcommittees that F and M genders belong to. Then create a plot showing the average number of full committees that congress members belong to by party.**
 
-HINT: as described in the Lab Instructions page, you will need to perform a join between the `subcommittees` and `committee_memberships` dataframes to get ONLY subcommittee (and not committee) memberships, and a join between the `committees` and `committee_memberships` to get ONLY full committees. You may copy-paste the code from the Lab Instructions page if that would be helpful.
+**6. Create a bar chart comparing the average age of congress members that have valid Twitter, Facebook, and YouTube accounts. Each bar should correspond to a social media platform and the height should correspond to the average age of congress members with that type of account.**
 
+HINT: one way to accomplish this is by using gather to create a separate row for each person-account, and summarize to average by age.
 ```{r}
 # your answer here
 ```
+<br/>
 
 
-**7. Create a bar plot showing the number of members that belong to the 5 largest full congressional committees (i.e. full committees with the largest number of members). The bars should be sorted based on committee sizes.**
+
+**7. The remainder of problems in this homework will involve the use of the `committees.RData` dataset. Create a plot showing the average number of subcommittees that congress members belong to by gender.**
+
+HINT: as described in the Lab Instructions page, you will need to perform a join between the `subcommittees` and `committee_memberships` dataframes to get ONLY subcommittee (and not committee) memberships. You may copy-paste the code from the Lab Instructions page if that would be helpful.
+
+HINT: you should perform a join to get ONLY subcommittee (and not committee) memberships. Refer to the Lab Instructions page for more information about this dataset.
+```{r}
+# your answer here
+```
+</br>
+
+
+**8. Create a bar plot showing the number of members that belong to the 5 largest full congressional committees (i.e. full committees with the largest number of members). The bars should be sorted based on committee sizes.**
 
 NOTE: read the Lab Instructions page for more information about the standards for visualizations in this course. The full committee names should appear somewhere on the plot - please do not provide `thomas_id`s only (you may include full committee names in the legend though). 
 
-HINT: See the Lab Instructions page for more info about filtering for full committees only (excluding subcommittees).
 ```{r}
 # your answer here
 ```
 <br/>
 
 
-**8. Create a single bar plot that shows the average age of the full committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages.**
+**9. Create a single bar plot that shows the average age of the full committees with the 5 highest and lowest average ages. The bars should be sorted based on average committee ages.**
 
 This means you will need to join three dataframes: `committee_memberships` for membership information, `committees` to separate full committees from subcommittees and get committee names, and `congress` to get age information.
 
@@ -152,7 +164,7 @@ This means you will need to join three dataframes: `committee_memberships` for m
 ```
 <br/>
 
-**9. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?**
+**10. Using the topics you described last week or a new topic you have been thinking about, describe two social science questions that you would be interested in exploring for your final project. Do you think these questions might be answerable using real data?**
 ```{r}
 # your answer here
 ```
