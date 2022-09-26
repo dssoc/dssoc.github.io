@@ -343,8 +343,8 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #4: Programming Basics</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #4: Programming Basics</b> (due the following Monday by 5PM)</i></p>
     
 <i><b>Lab Video Lecture: Programming</b></i> 
 

@@ -57,7 +57,7 @@ my_numbers %>% is_even() %>% head()# note that this is equivalent if you've load
 <br/>
 
 
-**ex2. Write a function to compute the birth decade for the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.**
+**ex2. Write a function to compute the birth decade from the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.**
 ```{r}
 get_decade <- function(byear) {
   return(round(byear/10)*10)
@@ -72,7 +72,7 @@ get_decade_label(congress$birthyear) %>% head()
 
 congress %>% 
   mutate(birthdec=get_decade(birthyear), birthdec_label=get_decade_label(birthyear)) %>% 
-  select(birthdec, birthdec_label) %>% 
+  select(full_name, birthdec, birthdec_label) %>% 
   head()
 ```
 <br/>

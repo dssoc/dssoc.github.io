@@ -198,7 +198,7 @@ head(is_even(my_numbers))</code></pre>
 <pre class="r"><code>my_numbers %&gt;% is_even() %&gt;% head()# note that this is equivalent if you&#39;ve loaded dplyr</code></pre>
 <pre><code>## [1] FALSE  TRUE FALSE  TRUE FALSE FALSE</code></pre>
 <p><br /></p>
-<p><strong>ex2. Write a function to compute the birth decade for the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.</strong></p>
+<p><strong>ex2. Write a function to compute the birth decade from the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.</strong></p>
 <pre class="r"><code>get_decade &lt;- function(byear) {
   return(round(byear/10)*10)
 }
@@ -213,15 +213,15 @@ get_decade(congress$birthyear) %&gt;% head()</code></pre>
 <pre><code>## [1] &quot;1950&#39;s&quot; &quot;1960&#39;s&quot; &quot;1940&#39;s&quot; &quot;1950&#39;s&quot; &quot;1960&#39;s&quot; &quot;1930&#39;s&quot;</code></pre>
 <pre class="r"><code>congress %&gt;% 
   mutate(birthdec=get_decade(birthyear), birthdec_label=get_decade_label(birthyear)) %&gt;% 
-  select(birthdec, birthdec_label) %&gt;% 
+  select(full_name, birthdec, birthdec_label) %&gt;% 
   head()</code></pre>
-<pre><code>##   birthdec birthdec_label
-## 1     1950         1950&#39;s
-## 2     1960         1960&#39;s
-## 3     1940         1940&#39;s
-## 4     1950         1950&#39;s
-## 5     1960         1960&#39;s
-## 6     1930         1930&#39;s</code></pre>
+<pre><code>##              full_name birthdec birthdec_label
+## 1        Sherrod Brown     1950         1950&#39;s
+## 2       Maria Cantwell     1960         1960&#39;s
+## 3   Benjamin L. Cardin     1940         1940&#39;s
+## 4     Thomas R. Carper     1950         1950&#39;s
+## 5 Robert P. Casey, Jr.     1960         1960&#39;s
+## 6     Dianne Feinstein     1930         1930&#39;s</code></pre>
 <p><br /></p>
 </div>
 <div id="questions" class="section level2">
