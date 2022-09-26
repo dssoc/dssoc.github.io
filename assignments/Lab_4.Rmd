@@ -39,6 +39,46 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
+## Example Questions
+<br>
+
+
+**ex1. Write a function that accepts a numberical vector and returns a boolean vector indicating whether or not each number is even.**
+```{r}
+is_even <- function(nums) {
+  return((nums %% 2)==0)
+}
+
+my_numbers <- c(1, 4, 23, 34, 23, 5, 4, 39)
+
+head(is_even(my_numbers))
+my_numbers %>% is_even() %>% head()# note that this is equivalent if you've loaded dplyr
+```
+<br/>
+
+
+**ex2. Write a function to compute the birth decade for the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.**
+```{r}
+get_decade <- function(byear) {
+  return(round(byear/10)*10)
+}
+get_decade_label <- function(byear) {
+  return(paste0(round(byear/10), "0's"))
+}
+
+# using functions without mutate
+get_decade(congress$birthyear) %>% head()
+get_decade_label(congress$birthyear) %>% head()
+
+congress %>% 
+  mutate(birthdec=get_decade(birthyear), birthdec_label=get_decade_label(birthyear)) %>% 
+  select(birthdec, birthdec_label) %>% 
+  head()
+```
+<br/>
+
+
+
 ## Questions
 <br>
 
@@ -57,7 +97,7 @@ write your answer here
 <br/>
 
 
-**3. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector `sentence` defined below.**
+**3. Write a function that takes a character vector as an argument and returns a character vector containing the first 2 letters of each element in the original vector. To show that it works, test it on the character vector `sentence` defined below.**
 ```{r}
 sentence <- c('you', 'only', 'understand', 'data', 'if', 'data', 'is', 'tidy')
 # your answer here
@@ -74,7 +114,7 @@ Note: functions used inside mutate accept single columns from the original dataf
 <br/>
 
 
-**5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `area` column with `mutate`.**
+**5. Create your own function which accepts a string vector of phone numbers like the `phone` column of `congress_contact` and returns an area code (first three numbers in a phone number), then use it on the `phone` column of the `congress_contact` dataframe to create a new `area` column with `mutate`.**
 ```{r}
 # your answer here
 ```
@@ -88,9 +128,11 @@ Note: functions used inside mutate accept single columns from the original dataf
 <br/>
 
 
-**7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5. Test isusing this code: `congress %>% print_oldest(100)` (it should print ONLY the first 5 names and ages).**
+**7. Starting with the function from the previous question, change it such that if k > 5, it only prints the first 5 names and ages. Test using this code: `congress %>% print_oldest(100)` (it should print ONLY the first 5 names and ages).**
 ```{r}
 # your answer here
+# you will define print_oldest
+#congress %>% print_oldest(100)
 ```
 <br/>
 

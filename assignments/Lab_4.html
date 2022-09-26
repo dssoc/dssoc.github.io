@@ -183,6 +183,47 @@ pre code {
 <li><a href="https://r4ds.had.co.nz/dates-and-times.html">R for Data Science Chapter 16: Dates and times</a></li>
 </ul>
 <p><br /></p>
+<div id="example-questions" class="section level2">
+<h2>Example Questions</h2>
+<p><br></p>
+<p><strong>ex1. Write a function that accepts a numberical vector and returns a boolean vector indicating whether or not each number is even.</strong></p>
+<pre class="r"><code>is_even &lt;- function(nums) {
+  return((nums %% 2)==0)
+}
+
+my_numbers &lt;- c(1, 4, 23, 34, 23, 5, 4, 39)
+
+head(is_even(my_numbers))</code></pre>
+<pre><code>## [1] FALSE  TRUE FALSE  TRUE FALSE FALSE</code></pre>
+<pre class="r"><code>my_numbers %&gt;% is_even() %&gt;% head()# note that this is equivalent if you&#39;ve loaded dplyr</code></pre>
+<pre><code>## [1] FALSE  TRUE FALSE  TRUE FALSE FALSE</code></pre>
+<p><br /></p>
+<p><strong>ex2. Write a function to compute the birth decade for the birthyear of each politician. Then write a function to generate a label for each decade. Use these functions within the mutate function to create new columns in the congress dataframe.</strong></p>
+<pre class="r"><code>get_decade &lt;- function(byear) {
+  return(round(byear/10)*10)
+}
+get_decade_label &lt;- function(byear) {
+  return(paste0(round(byear/10), &quot;0&#39;s&quot;))
+}
+
+# using functions without mutate
+get_decade(congress$birthyear) %&gt;% head()</code></pre>
+<pre><code>## [1] 1950 1960 1940 1950 1960 1930</code></pre>
+<pre class="r"><code>get_decade_label(congress$birthyear) %&gt;% head()</code></pre>
+<pre><code>## [1] &quot;1950&#39;s&quot; &quot;1960&#39;s&quot; &quot;1940&#39;s&quot; &quot;1950&#39;s&quot; &quot;1960&#39;s&quot; &quot;1930&#39;s&quot;</code></pre>
+<pre class="r"><code>congress %&gt;% 
+  mutate(birthdec=get_decade(birthyear), birthdec_label=get_decade_label(birthyear)) %&gt;% 
+  select(birthdec, birthdec_label) %&gt;% 
+  head()</code></pre>
+<pre><code>##   birthdec birthdec_label
+## 1     1950         1950&#39;s
+## 2     1960         1960&#39;s
+## 3     1940         1940&#39;s
+## 4     1950         1950&#39;s
+## 5     1960         1960&#39;s
+## 6     1930         1930&#39;s</code></pre>
+<p><br /></p>
+</div>
 <div id="questions" class="section level2">
 <h2>Questions</h2>
 <p><br></p>
@@ -192,7 +233,7 @@ pre code {
 <p><strong>2. Packages in R can contain many useful functions/commands. If you didn’t know what a certain function did, or how it worked, where within RStudio would you look to learn more / see example code? Where would you look outside RStudio?</strong></p>
 <pre><code>write your answer here</code></pre>
 <p><br /></p>
-<p><strong>3. Write a function that takes a character vector as an argument and returns a character vector containing the first letters of each element in the original vector. To show that it works, test it on the character vector <code>sentence</code> defined below.</strong></p>
+<p><strong>3. Write a function that takes a character vector as an argument and returns a character vector containing the first 2 letters of each element in the original vector. To show that it works, test it on the character vector <code>sentence</code> defined below.</strong></p>
 <pre class="r"><code>sentence &lt;- c(&#39;you&#39;, &#39;only&#39;, &#39;understand&#39;, &#39;data&#39;, &#39;if&#39;, &#39;data&#39;, &#39;is&#39;, &#39;tidy&#39;)
 # your answer here</code></pre>
 <p><br /></p>
@@ -200,14 +241,16 @@ pre code {
 <p>Note: functions used inside mutate accept single columns from the original dataframe and should return a column or vector of the same size. This is a valuable tool for developing your data pipelines.</p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>5. Create your own function which accepts a phone number vector and returns an area code (first three numbers in a phone number), then use it on the <code>phone</code> column of the <code>congress_contact</code> dataframe to create a new <code>area</code> column with <code>mutate</code>.</strong></p>
+<p><strong>5. Create your own function which accepts a string vector of phone numbers like the <code>phone</code> column of <code>congress_contact</code> and returns an area code (first three numbers in a phone number), then use it on the <code>phone</code> column of the <code>congress_contact</code> dataframe to create a new <code>area</code> column with <code>mutate</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
 <p><strong>6. Write a function that accepts a dataframe with the columns <code>birthdate</code> and <code>full_name</code>, and prints (using the <code>print</code> function) the names and ages of the <code>k</code> oldest <em>representatives</em> in congress (i.e. not including senators) using a “for loop”. In this sense, <code>k</code> is an arbitrary number that should be given as an argument to the function - set the default value to be 5. If you use the dataframe as the first argument, you can use the pipe operator (<code>%&gt;%</code>) to pass the dataframe directly to the function. Define your function such that you can use it like this: <code>congress %&gt;% print_oldest(3)</code>.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
 <p><br /></p>
-<p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5. Test isusing this code: <code>congress %&gt;% print_oldest(100)</code> (it should print ONLY the first 5 names and ages).</strong></p>
-<pre class="r"><code># your answer here</code></pre>
+<p><strong>7. Starting with the function from the previous question, change it such that if k &gt; 5, it only prints the first 5 names and ages. Test using this code: <code>congress %&gt;% print_oldest(100)</code> (it should print ONLY the first 5 names and ages).</strong></p>
+<pre class="r"><code># your answer here
+# you will define print_oldest
+#congress %&gt;% print_oldest(100)</code></pre>
 <p><br /></p>
 <p><strong>8. Last week you were asked to come up with two interesting social science research questions you could address with your final project. This week, I’d like you to find at least one potential data source you could analyze (in theory) to answer each of those questions. If you can’t find a potential data source, feel free to change your question (but make sure you state it explicitly). In research that uses data science, there is often a tension between the questions you would like to ask and the data that is available. You can formulate a research question by going back and forth between your question and available data.</strong></p>
 <pre class="r"><code># your answer here</code></pre>
