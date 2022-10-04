@@ -20,14 +20,15 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 **Required reading:** 
 
 Theoretical:
-+ Chapter 3: Integrated Network Analysis Tutorial (see Slack)
-+ [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
-+ [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
-+ [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
+
+* Chapter 3: Integrated Network Analysis Tutorial (see Slack)
+* [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
+* [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
+* [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
 
 Practical:
 
-+ [R igraph Manual Pages](https://igraph.org/r/doc/aaa-igraph-package.html)
+* [R igraph Manual Pages](https://igraph.org/r/doc/aaa-igraph-package.html)
 * [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
 
 
@@ -40,7 +41,7 @@ Practical:
 * [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
 * [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
 * [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838): specifically, the sections "Loading and configuring two-mode data" and "Another way to produce an overlap count in igraph bipartite_projection()".
-* + [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
+* [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
 
 
 ```{r message=FALSE, echo=FALSE}
