@@ -20,16 +20,15 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 **Required reading:** 
 
 Theoretical:
-
++ Chapter 3: Integrated Network Analysis Tutorial (see Slack)
 + [Social Network Analysis Wikipedia](https://en.wikipedia.org/wiki/Social_network_analysis)
 + [Network Centrality Measures on Wikipedia](https://en.wikipedia.org/wiki/Centrality)
-+ [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
 + [Using Metadata to find Paul Revere](https://kieranhealy.org/blog/archives/2013/06/09/using-metadata-to-find-paul-revere/)
 
 Practical:
 
 + [R igraph Manual Pages](https://igraph.org/r/doc/aaa-igraph-package.html)
-+ [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838): specifically, the sections "Loading and configuring two-mode data" and "Another way to produce an overlap count in igraph bipartite_projection()".
+* [Official documentation for `ggraph` package](https://cran.r-project.org/web/packages/ggraph/ggraph.pdf)
 
 
 **Optional resources:**
@@ -40,22 +39,168 @@ Practical:
 * [Intro to Network Analysis with R, by Jesse Sadle](https://www.jessesadler.com/post/network-analysis-with-r/). 
 * [Network analysis with R and igraph: NetSci X Tutorial (Parts 2-7), by Katya Ognyanova](https://kateto.net/networks-r-igraph)
 * [R4DS Chapters 17-21: Programming](https://r4ds.had.co.nz/program-intro.html)
-
-
+* [Bipartite/Two-Mode Networks in igraph by Phil Murphy & Brendan Knapp](https://rpubs.com/pjmurphy/317838): specifically, the sections "Loading and configuring two-mode data" and "Another way to produce an overlap count in igraph bipartite_projection()".
+* + [Bipartite Graph Wikipedia](https://en.wikipedia.org/wiki/Bipartite_graph)
 
 
 ```{r message=FALSE, echo=FALSE}
 # Load the datasets and libraries. You shouldn't need to change the URL in the `load` function.
 
-library(igraph)
-library(ggraph)
 library(tidyverse)
 library(ggplot2)
+library(ggraph)
+library(igraph)
+
 
 load(url('https://dssoc.github.io/datasets/committees.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
+
+
+############# RUN THIS CODE TO GET common_committees #############
+# YOU CAN IGNORE THIS CODE - I JUST INCLUDED IT IN CASE YOU ARE CURIOUS
+
+get_committee_comemberships <- function(cong, subcomm, memberships) {
+  # you can ignore this function if you want - just setting up the lab.
+  # Gets the number of common committees that each pair of congress 
+  # members belong to.
+  
+  # get subcommittees only
+  subcommittee_memberships <- subcomm %>% 
+    inner_join(memberships, on=thomas_id)
+  
+  # create graph from subcommittee memberships
+  g <- subcommittee_memberships %>% select(thomas_id, bioguide_id) %>% graph_from_data_frame(directed=FALSE)
+  V(g)$type <- bipartite_mapping(g)$type
+  
+  # use bipartite projection to get number of shared committee memberships between
+  # each pair of congress members
+  h <- g %>% bipartite_projection(which=TRUE)
+  V(h) %>% length()
+  E(h) %>% length()
+  
+  # remove vertices that are not in congress
+  rm_vs <- V(h)[!V(h)$name %in% cong$bioguide_id]
+  rm_vs %>% length()
+  h <- h %>% delete_vertices(V(h)[!V(h)$name %in% cong$bioguide_id])
+  V(h) %>% length()
+  E(h) %>% length()
+  
+  common_committees <- h %>% igraph::as_data_frame(what="edges") %>% 
+    select(from, to, common_subcomm=weight)
+  common_committees %>% nrow()
+  return(common_committees)
+}
+
+common_subcomm <- get_committee_comemberships(congress, subcommittees, committee_memberships)
 ```
 <br/>
+
+
+## Lab Dataset
+
+For most of this lab we will use the `common_subcomm` data frame in addition to our other data sets. This dataset lists the number of common subcommittees that each pair of congress members is on. Note that the "from" and "to" columns correspond to the `bioguide_id` of congress members, and `common_subcomm` is the number of common committees they are on.
+
+```{r}
+common_subcomm %>% head()
+common_subcomm %>% summary()
+```
+
+
+## Example Questions
+<br>
+
+**ex1. Create an `igraph` graph from the data frame `common_committees`, and print the number of vertices and edges it has.**
+
+```{r}
+g <- common_subcomm %>% graph_from_data_frame()
+V(g) %>% length()
+E(g) %>% length()
+```
+<br/>
+
+**ex2. Create an `igraph` graph where edges only exist between congress members on at least 3 committees together. Output the number of edges that result.**
+
+```{r}
+# two ways to do this: filter before creating graph, or filter edges using igraph
+
+# solution 1: filter before crreating graph
+g <- common_subcomm %>% 
+  filter(common_subcomm >= 3) %>% 
+  graph_from_data_frame()
+
+# solution 2: filter edges using igraph
+h <- common_subcomm %>% graph_from_data_frame()
+edges_to_remove <- E(h)[E(h)$common_subcomm < 3]
+h <- h %>% delete_edges(edges_to_remove)
+
+E(g) %>% length()
+E(h) %>% length()
+#node_attr <- congress %>% filter(bioguide_id %in% V(g))
+#g %>% set_vertex_attr('full_name', index=node_attr$bioguide_id, value=node_attr$full_name)
+```
+<br/>
+
+
+**ex3. make a simple visualization of the previous network using ggraph.**
+
+```{r}
+g <- common_subcomm %>% 
+  filter(common_subcomm >= 3) %>% 
+  graph_from_data_frame()
+
+g %>% ggraph() +
+  geom_edge_link(aes(alpha=common_subcomm)) +
+  geom_node_point()
+```
+<br/>
+
+**ex4. make a network that includes only senators, not representatives.**
+
+```{r}
+# two fine ways to do this - filter the dataframe before making the graph, or 
+# remove nodes after creating the graph
+
+##################### solution 1 - filter dataframe first #####################
+senators <- (congress %>% filter(type=='sen'))$bioguide_id
+g <- common_subcomm %>% 
+  filter((to %in% senators) & (from %in% senators)) %>% 
+  graph_from_data_frame()
+
+V(g) %>% length()
+E(g) %>% length()
+
+##################### solution 2 - filter in graph #####################
+
+# get ids of node set
+node_ids <- c(common_subcomm$from, common_subcomm$to) %>% unique()
+
+# get only rows of congress that are in the network - this will be used as node data
+node_data <- congress %>% filter(bioguide_id %in% node_ids)
+
+########### graph creation method 1: use the vertices argument in graph_from_data_frame to add all the vertex info
+# this works because the first column of node_data is the bioguide_id.
+h1 <- common_subcomm %>% 
+  graph_from_data_frame(vertices=node_data)
+
+########### graph creation method 2: use set_vertex_attr to add the specific attribute to the graph after creating it
+h2 <- common_subcomm %>% 
+  graph_from_data_frame()
+h2 <- h2 %>% set_vertex_attr('type', index=node_data$bioguide_id, value=node_data$type)
+
+# h1, h2 should the be the same
+print(paste(gsize(h1), gsize(h2), gorder(h1), gorder(h2)))
+
+# filter out actual nodes
+vertices_to_remove <- V(h1)[V(h1)$type!='sen']
+h1 <- h1 %>% delete_vertices(vertices_to_remove)
+
+# same as in solution 1
+V(h1) %>% length()
+E(h1) %>% length()
+
+```
+<br/>
+
 
 ## Questions
 <br>
@@ -74,7 +219,6 @@ Network Representations
 Types of networks
   directed vs undirected network: 
   weighted vs unweighted network: 
-  bipartite vs unipartite network: 
 ```
 <br/>
 
@@ -91,8 +235,6 @@ HINT: see required reading about centrality measures on Wikipedia to get some id
 
 
 **3. Describe the behavior of the following functions, including their outputs and the behavior of each argument/parameter.**
-
-HINT: Note that `E()` and `V()` are both `igraph` functions.
 ```
 graph_from_data_frame: 
 graph_from_edgelist: 
@@ -101,47 +243,39 @@ E():
 V(): 
 
 strength: 
-
-bipartite_projection: 
-is_bipartite: 
-bipartite.mapping: 
+betweenness: 
 ```
 <br/>
 
 
-**4. For some of the following problems, we will be working with the `committee_memberships` dataframe which assigns congress members (specifically, their `bioguide_id`) to full committees and subcommittees. Would we consider this as an adjacency matrix or edge list network representation? Is the network weighted/unweighted, directed/undirected, bipartite/unipartite?**
+**4. Examine the `common_subcomm` dataframe. Would we consider this as an adjacency matrix or edge list network representation? Is the network that can be constructed from this dataframe weighted/unweighted or directed/undirected? Use your substantive understanding of the data to answer these questions.**
 
-HINT: see the Lab Instructions page linked at the top of this assignment for more information about the `committees.Rdata` dataset.
 ```
-Adjacency Matrix or Edge List?
-
-weighted/unweighted?
-directed/undirected?
-bipartite/unipartite?
+Adjacency Matrix or Edge List?: 
+weighted/unweighted?: 
+directed/undirected?: 
 ```
 <br/>
 
 
-**5. Create a bipartite network representing links between members of congress and the subcommittees (not full committees) they are associated with using the `committee_memberships` dataframe and the `graph_from_edgelist` function. Keep this graph for future problems. You can verify that your network is bipartite using the `is_bipartite` function; show this output as your solution to this question - it should return TRUE.**
+**5. Create a visualization showing a network of senators (NOT representatives) where edges exist only between those senators that are on at least three subcommittees. Set node color based on the gender of the senators. Do you see any patterns visually?**
 
-HINT: you will again need to join `committee_memberships` with `subcommittees` to remove the full committee memberships. You can just use the code on the Lab Instructions document to do this.
-
-HINT: pay special attention to the `graph_from_edgelist` function arguments. Our use here may vary slightly from the example in the lab lecture or video.
-
-HINT: see the section "Loading and configuring two-mode data" in the "Bipartite/Two-Mode Networks in igraph" required reading for information about how to make bipartite graphs in igraph. One way to create a bipartite graph in igraph is to use the line `V(g)$type <- bipartite_mapping(g)$type`, where `g` is the name of your graph. See from the documentation for `is_bipartite` that it simply returns true if the `type` vertex attribute is set.
+HINT: see the example questions for some ideas of how to accomplish this.
 ```{r}
 # Your answer here.
 ```
 <br/>
 
 
-**6. Starting with our bipartite network, create a network of members of congress with edge weights corresponding to the number of common subcommittees they are on. To do this, we can use the `bipartite_projection` function. Keep this network for future problems and compute the average weight of edges this new network for the solution to this problem.**
+**6. Find the average betweenness centrality (ignoring edge weights) of (ONLY) senators by gender after filtering edges that don't have at least three common subcommittees.**
 
-HINT: see the section on using `bipartite_projection` in the required reading "Bipartite/Two-Mode Networks in igraph." You can download their data to see how they use it.
+HINT: see `as_data_frame` for creating dataframes from node or edge attributes.
+```{r}
+```
+<br/>
 
-HINT: the function `bipartite_projection` produces two separate networks - read the documentation to see the meaning of each, and make sure you're using the network of politicians instead of the network of committees.
 
-HINT: You can get the edge weights of a network using `E(g)$weight`. You can add any number of edge attributes to an igraph network, but the `weight` attribute is a special attribute used by many igraph functions and, in this case, automatically populated by `bipartite_projection` according to the number of common committees the congress members are on.
+**7. Compute the correlation between birthyear and betweenness centrality (ignoring edge weights) of senators, filtering for edges with fewer than three common subcommittees. What can you conclude from the sign (positive or negative) of this result?**
 
 ```{r}
 # Your answer here
@@ -149,26 +283,12 @@ HINT: You can get the edge weights of a network using `E(g)$weight`. You can add
 <br/>
 
 
-**7. Add gender and age from the `congress` dataframe as vertex attributes in the network created in the previous question, and save this modified graph for future problems. Now create a `ggraph` visualization where node colors are based on gender and node size is based on age. For aesthetic purposes, you may try removing edges that are below a certain weight (weight <= 2 seems reasonable). What do you see from this visualization, if anything?**
-
-HINT: one way to set vertex attributes is to use `V(g)$my_attribute <- something` (assuming `g` is the name of your graph, `my_attribute` is the attribute name you want to set, and `something` is a vector corresponding to values of the attribute to be assigned), but this method assumes that the vector `something` gives node values in the same order of `V(g)` (which you can easily verify by inspecting). To solve this challenge, check out the `index` parameter of the `set_vertex_attr` function.
-
-Note: it may be difficult to make a clean visualization with so many nodes and edges, but do your best - this is a common task when working with network data. You may also try removing vertices with a small number of edges if it is easier to read.
-```{r}
-# Your answer here or in text.
-```
-```
-What can we see from this visualization?
-```
-<br/>
-
-
-**8. Compute these two measures: (a) the correlation between eigenvector centrality (use `eigen_centrality`) and age of congress members, and (b) the average strength centrality (use `strength`) by gender. How do we interpret these results substantially in terms of congressional committee membership and congress members?**
+**8. Compare the average shortest path length for senator and representative networks after filtering for edges where congress members are on at least three common committees. Why are they different?**
 ```{r}
 # your answer here
 ```
 ```
-What do these results tell us?
+Why are they different?
 ```
 <br/>
 
