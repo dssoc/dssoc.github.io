@@ -437,8 +437,8 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due Wednesday, October 12 by 5PM)</i></p>-->
-<p><i><b>Lab #5: Coding Social Networks</b> (Due Wednesday, October 12 by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due Wednesday, October 12 by 5PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due Wednesday, October 12 by 5PM)</i></p>-->
 
 
 <!-- THESE ARE CHANGED BECAUSE SPRING BREAK>

@@ -31,10 +31,9 @@ This is a list of all Labs and their associated markdown files:
 1. [R Basics](/assignments/Lab_1.html) ([markdown](/assignments/Lab_1.Rmd))
 2. [Data Visualization](/assignments/Lab_2.html) ([markdown](/assignments/Lab_2.Rmd))
 3. [Data Wrangling](/assignments/Lab_3.html) ([markdown](/assignments/Lab_3.Rmd))
-
-<!--
 4. [Programming Basics](/assignments/Lab_4.html) ([markdown](/assignments/Lab_4.Rmd))
 5. [Coding Social Networks](/assignments/Lab_5.html) ([markdown](/assignments/Lab_5.Rmd))
+<!--
 6. [Working with APIs](/assignments/Lab_6.html) ([markdown](/assignments/Lab_6.Rmd))
 7. [Modeling (A Brief Introduction)](/assignments/Lab_7.html) ([markdown](/assignments/Lab_7.Rmd))
 8. [Introduction to text analysis](/assignments/Lab_8.html) ([markdown](/assignments/Lab_8.Rmd))
