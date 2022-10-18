@@ -557,8 +557,8 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #6: Working with APIs</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Monday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 

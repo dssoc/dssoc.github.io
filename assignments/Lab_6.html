@@ -223,21 +223,90 @@ token &lt;- create_token(
 # this allows you to check the remaining data
 lim &lt;- rate_limit()
 lim[, 1:4]</code></pre>
-<pre><code>## # A tibble: 261 × 4
+<pre><code>## # A tibble: 262 × 4
 ##    query                   limit remaining reset        
 ##    &lt;chr&gt;                   &lt;int&gt;     &lt;int&gt; &lt;drtn&gt;       
-##  1 lists/list                 15        15 15.00411 mins
-##  2 lists/:id/tweets&amp;GET      900       900 15.00411 mins
-##  3 lists/:id/followers&amp;GET   180       180 15.00411 mins
-##  4 lists/memberships          75        75 15.00411 mins
-##  5 lists/:id&amp;DELETE          300       300 15.00411 mins
-##  6 lists/subscriptions        15        15 15.00411 mins
-##  7 lists/members             900       900 15.00411 mins
-##  8 lists/:id&amp;GET              75        75 15.00411 mins
-##  9 lists/subscribers/show     15        15 15.00411 mins
-## 10 lists/:id&amp;PUT             300       300 15.00411 mins
-## # … with 251 more rows</code></pre>
+##  1 lists/list                 15        15 15.00839 mins
+##  2 lists/:id/tweets&amp;GET      900       900 15.00839 mins
+##  3 lists/:id/followers&amp;GET   180       180 15.00839 mins
+##  4 lists/memberships          75        75 15.00839 mins
+##  5 lists/:id&amp;DELETE          300       300 15.00839 mins
+##  6 lists/subscriptions        15        15 15.00839 mins
+##  7 lists/members             900       900 15.00839 mins
+##  8 lists/:id&amp;GET              75        75 15.00839 mins
+##  9 lists/subscribers/show     15        15 15.00839 mins
+## 10 lists/:id&amp;PUT             300       300 15.00839 mins
+## # … with 252 more rows</code></pre>
 </div>
+</div>
+<div id="example-questions" class="section level2">
+<h2>Example Questions</h2>
+<p><br></p>
+<p><strong>ex1. How many senator Twitter accounts listed in our dataset were found on Twitter?</strong></p>
+<pre class="r"><code># Your answer here
+
+# filter for just senators and get contact info for each
+ex_senators_contact &lt;- congress %&gt;% 
+  filter(type==&#39;sen&#39;) %&gt;% 
+  left_join(congress_contact, by=&#39;bioguide_id&#39;) %&gt;% # combine congress with contact info
+  mutate(twitter=tolower(twitter)) %&gt;% # DON&#39;T FORGET THIS! Need correct case for merging later
+  filter(twitter != &#39;&#39;) # MUST INCLDUE THIS! Otherwise it will look for a username that is an empty string
+
+ex_senators_contact %&gt;% nrow()</code></pre>
+<pre><code>## [1] 98</code></pre>
+<pre class="r"><code># download data from Twitter, count the rows
+ex_twitter_users &lt;- lookup_users(ex_senators_contact$twitter) %&gt;% 
+  mutate(screen_name=tolower(screen_name)) # DON&#39;T FORGET THIS! Need correct case for merging later
+
+ex_twitter_users %&gt;% nrow() # show the number of Twitter accounts</code></pre>
+<pre><code>## [1] 98</code></pre>
+<p><br /></p>
+<p><strong>ex2. Give the average number of published Tweets for senators by gender using the Twitter data gathered in the previous question.</strong></p>
+<pre class="r"><code># combine congress info with the twitter user dataframe
+ex_senator_info &lt;- ex_senators_contact %&gt;% 
+  left_join(ex_twitter_users, by=c(&#39;twitter&#39;=&#39;screen_name&#39;)) %&gt;% # NOTE THAT I CHANGED THESE BOTH TO LOWER CASE 
+  drop_na(created_at) # this will drop dataframe rows that did not have a matching username
+# NOTE: THEY DON&#39;T ALL MATCH UP - that is fine. You may use drop the one inconsistent user
+
+# note that this gives fewer rows - not all retrieved users had the same username, so this method is sub-optimal (I&#39;ll show this later)
+ex_senator_info %&gt;% nrow()</code></pre>
+<pre><code>## [1] 97</code></pre>
+<pre class="r"><code># typical summary stat code
+ex_senator_info %&gt;% 
+  group_by(gender) %&gt;% 
+  summarize(av_statuses_count=mean(statuses_count), ct=n())</code></pre>
+<pre><code>## # A tibble: 2 × 3
+##   gender av_statuses_count    ct
+##   &lt;fct&gt;              &lt;dbl&gt; &lt;int&gt;
+## 1 F                 10272.    24
+## 2 M                 10528.    73</code></pre>
+<p><br /></p>
+<p><strong>ex3. What is the correlation between a senator’s age and the time their Twitter account was created?</strong></p>
+<pre class="r"><code>cor(ex_senator_info$birthyear, as.numeric(ex_senator_info$created_at))</code></pre>
+<pre><code>## [1] -0.06126896</code></pre>
+<p><br /></p>
+<p><strong>ex4. Collect the last two Tweets published by each senator in our dataset, and show the average number of retweets they received by gender of the publishing senator.</strong></p>
+<p>NOTE: I only used a subset of senators here to help with the rate limits.</p>
+<p>NOTE: we need to average by individual user and then by gender</p>
+<pre class="r"><code># get last three Tweets
+username_sample &lt;- ex_senator_info$twitter %&gt;% head(6) # to protect rate limit
+ex_senator_tweets &lt;- get_timeline(username_sample, n = 2)</code></pre>
+<pre class="r"><code># join tweet-level information with user-level information and average by individual
+ex_tweet_info &lt;- ex_senator_tweets %&gt;% 
+  inner_join(ex_senator_info, by=&#39;user_id&#39;)
+
+# average by individual first and then by gender
+ex_tweet_info %&gt;% 
+  group_by(user_id) %&gt;% 
+  summarize(gender=first(gender), user_av_retweet=mean(retweet_count.x)) %&gt;% # note use of the &quot;first&quot; function - acts as a pass-through
+  group_by(gender) %&gt;% 
+  summarize(av_retweet=mean(user_av_retweet))</code></pre>
+<pre><code>## # A tibble: 2 × 2
+##   gender av_retweet
+##   &lt;fct&gt;       &lt;dbl&gt;
+## 1 F           367. 
+## 2 M            11.4</code></pre>
+<p><br /></p>
 </div>
 <div id="questions" class="section level2">
 <h2>Questions</h2>
@@ -246,17 +315,16 @@ lim[, 1:4]</code></pre>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
 <p><strong>2. Use the Twitter API to augment Senator information with the number of followers and and the number of statuses they have posted on Twitter, and create a bar graph showing the average number of followers by political party. Save the joined dataframe for future problems.</strong></p>
-<p>NOTE: we don’t need to get the actual lists of followers or Tweets - we just need the <em>number</em> of followers and tweets (i.e. <strong>do not try to use <code>get_followers</code></strong>). You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use.</p>
-<p>NOTE: not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in <code>congress_contact</code> is actually out of date. For this question, we will request from Twitter all of the valid usernames in our <code>congress_contact</code> dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because <code>congress_contact</code> only contains the Twitter usernames instead of the unique <code>user_id</code> that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts. For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in <code>congress_contact</code>.</p>
-<p>HINT: If you haven’t already, filter the <code>congress</code> dataframe to include only senators (<code>type==&#39;sen&#39;</code>) - we will only use senators for this assignment. I provided a new variable <code>senators</code> where this filter has already been applied.</p>
-<p>HINT: you will first need to join the <code>congress_contact</code> dataframe to associate congress information with their Twitter handles.</p>
+<p>NOTE: We don’t need to get the actual lists of followers or Tweets - we just need the <em>number</em> of followers and tweets (i.e. <strong>do not try to use <code>get_followers</code></strong>). You may need to refer to the <a href="https://cran.r-project.org/web/packages/rtweet/rtweet.pdf">rtweet Package Documentation</a> to see which function to use.</p>
+<p>NOTE: Not all senators in our dataset have valid Twitter handles - we can ignore those for the purpose of this assignment. Additionally, Twitter users are allowed to change their usernames - this can cause some problems for us when the username listed in <code>congress_contact</code> is actually out of date. For this question, we will request from Twitter all of the valid usernames in our <code>congress_contact</code> dataframe. The dataframe that Twitter returns to us, however, will contain screen names that we did not originally request - that is because Twitter recognized we requested an account name that had been changed, so they gave us the account that our requested username previously referred to. Because <code>congress_contact</code> only contains the Twitter usernames instead of the unique <code>user_id</code> that would allow us to track the same account even when the username has changed, we have no way of automatically matching our original demographic information to the changed Twitter accounts when bulk requesting (one workaround would be to request accounts one-at-a-time so you can keep track of the requested and returned usernames). For the purpose of this assignment, you may discard retrieved Twitter information that does not match the usernames in <code>congress_contact</code>.</p>
+<p>HINT: We will only use senators for this assignment, not representatives.</p>
 <pre class="r"><code># Write your answer here</code></pre>
 <p><br /></p>
 <p><strong>3. Use <code>ggplot</code> to create a <a href="https://www.r-graph-gallery.com/boxplot.html">box plot</a> or <a href="https://www.r-graph-gallery.com/violin.html">violin plot</a> showing the average number of Tweets posted by gender. What does the visualization tell us? What advantage does a violin plot have over calculating averages (like we did in the previous question).</strong></p>
 <pre class="r"><code># Write your answer here</code></pre>
 <pre><code>Written response here.</code></pre>
 <p><br /></p>
-<p><strong>4. Use the Twitter API to retrieve the last 20 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by political party.</strong></p>
+<p><strong>4. Use the Twitter API to retrieve the last 5 Tweets from the 10 oldest senators in our dataset. Then, compute the average number of favorites that those Tweets received by Senator. Finally, create a violin or box plot showing the average number of Senator-averaged favorites by political party.</strong></p>
 <p>NOTE: see the note in question number 2 about Twitter usernames that have been changed.</p>
 <pre class="r"><code># Your answer here</code></pre>
 <p><br /></p>
