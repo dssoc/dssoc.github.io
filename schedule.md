@@ -609,7 +609,8 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 ***Required reading***:
--  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://alexandra-siegel.com/wp-content/uploads/2019/05/Sectarianism_Experiment_RR_Website.pdf).
+-  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://www.cambridge.org/core/journals/american-political-science-review/article/no2sectarianism-experimental-approaches-to-reducing-sectarian-hate-speech-online/27157485824C8E071CB2DD3E26012EA3).
+
 
 ***Optional Materials***:
 - Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
