@@ -21,6 +21,7 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Optional reading:** 
 
+* [Simple Linear Regression - An example using R](https://feliperego.github.io/blog/2015/03/11/Simple-Linear-Regression-Example-in-R)
 
 
 ```{r message=FALSE, echo=FALSE}
@@ -36,17 +37,105 @@ load(url('https://dssoc.github.io/datasets/committees.RData'))
 <br/>
 
 
-## Questions
+## Example Questions
 <br>
 
-**1. In your own words, describe what statistical modeling means. When is it used? What does it allow data scientists to do?**
+**ex1. Make a box plot showing the average approximate age of congress members by gender.**
 
-```
+```{r}
 # Your answer here
+congress %>% 
+  mutate(age=2022-birthyear) %>% 
+  #group_by(gender) %>% 
+  #summarize(av_age=mean(age)) %>% 
+  ggplot(aes(x=gender, y=age)) +
+    geom_boxplot()
 ```
 <br/>
 
-**2. Create the following new variables for each congress member: (a) age of each congress member, (b) the number of full committees that each congress member is on, and (c) the percentage of instances where congress members hold a title in the full committees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to create summary statistics for (ONLY) these new variables.**
+**ex2. Create a scatter plot showing the relationship between age and number of social media accounts that congress members have, and add a linear trendline.**
+
+```{r}
+# Your answer here
+congress %>% 
+  mutate(age=2022-birthyear) %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  mutate(num_accounts = (twitter!='') + (facebook!='') + (youtube!='')) %>% 
+  ggplot(aes(x=age, y=num_accounts)) + 
+    geom_point(alpha=0.1) + 
+    geom_smooth(method='lm', formula= y ~ x)
+```
+<br/>
+
+**ex3. Create a linear regression model predicting the number of social media accounts a congress member has from the following variables: type (senator or representative), age, party, and gender. Controlling for other factors, how would you communicate the relationship between age and the number of social media accounts a congress member has?**
+
+```{r}
+# create dataframe from which we will train the model
+model_df <- congress %>% 
+  mutate(age=2022-birthyear, is_repub=party=='Republican') %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  mutate(num_accounts = (twitter!='') + (facebook!='') + (youtube!=''))
+
+# fit the full model with all the variables
+m <- lm(num_accounts ~ type + age + is_repub + gender, data=model_df)
+m %>% summary()
+```
+```
+Response: On average, congress members have approximately 0.034 more social media accounts for every one year older they are.
+```
+<br/>
+
+**ex4. Using the model from the previous question, generate the predicted number of social media accounts that a Republican female senator born in 1952 would have. How does this compare with the actual congress members that match that profile?**
+
+```{r}
+# generate a dummy dataframe for prediction
+example_df <- data.frame(gender=c('F'), is_repub=T, type=c('sen'), age=c(2022-1952))
+m %>% predict(example_df)
+
+# show actual congress members
+model_df %>% 
+  filter(gender=='F', party=='Republican', type=='sen', birthyear==1952) %>% 
+  select(full_name, num_accounts)
+```
+```
+The model predicts that congress members with this profile would have an average of 2.3 social media accounts, but both congress members have 3 accounts.
+```
+<br/>
+
+**ex5. Create three statistical models to predict the number of social media accounts that congress members have: one with gender only, one with political party (you may create a dummy variable for Republicans or Democrats) only, and one that includes both gender and political party. What can you learn from the combination of these three models?**
+
+```{r}
+lm(num_accounts ~ gender, data=model_df) %>% summary()
+lm(num_accounts ~ is_repub, data=model_df) %>% summary()
+lm(num_accounts ~ gender + is_repub, data=model_df) %>% summary()
+```
+
+```
+From the first two models we can say that men tend to have more SM accounts and republicans have fewer fewer accounts on average. When we see the second model, both coefficients have higher magnitudes. This is likely due to the fact that republicans have a higher proportion of men. We can verify with a table or simple correlation test, as shown below. By including only one or the other in the model, we are getting an incomplete picture of what that relationship looks like.
+```
+
+```{r}
+# Your answer here
+table(model_df %>% select(gender, is_repub))
+cor.test(as.numeric(model_df$gender=='M'), as.numeric(model_df$is_repub))
+#cor.test(gender + is_repub, data=model_df)
+```
+
+
+<br/>
+
+
+## Questions
+<br>
+
+**1. When is statistical modeling used? Provide an example of an empirical question that could be answered using statistical modeling techniques.**
+
+```
+Write here
+```
+<br/>
+
+**2. Create the following new variables for each congress member: (a) approximate age, (b) the number of full committees that they are a part of, and (c) the percentage of instances where they hold a title in the full committees they belong to (i.e. when the `title` entry in the `committee_membership` dataframe is not empty). You will want to save these new variables for future problems. Then use the `summary` function to display summary statistics for (ONLY) these new variables.**
 ```{r}
 # Your answer here
 ```
@@ -63,7 +152,7 @@ written explanation here
 ```
 <br/>
 
-**4. Create a bar graph showing the average number of full committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
+**4. Create a box graph showing the average number of full committees that congress members belong to by gender (i.e. a bar for M and a bar for F) with error bars. What can you see from this visualization? Does there appear to be a significant difference?**
 
 Hint: you may want to see `geom_errorbar`.
 
@@ -78,7 +167,7 @@ written explanation here
 
 
 
-**5. Following section [24.2.2](https://r4ds.had.co.nz/model-building.html#a-more-complicated-model) of the R4DS required reading, construct a model using `lm` or `glm` to predict the proportion of instances where a member holds a title in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model `summary`, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the used variables change your original interpretation?**
+**5. Following section [24.2.2](https://r4ds.had.co.nz/model-building.html#a-more-complicated-model) of the R4DS required reading, construct a model using `lm` or `glm` to predict the proportion of instances where congress members hold titles in the committees they belong to from age, gender, and political party. Keep this model for future problems. Based on the model `summary`, which variables might be related to holding a title? Try removing and adding different variables. Does changing any of the included variables change your original interpretation?**
 
 HINT: see required readings for help interpreting regression models.
 ```{r}
@@ -89,9 +178,12 @@ written explanation here
 ```
 <br/>
 
-**6. Following that same R4DS section, use `data_grid` to create a dataframe where `age` and `gender` vary and political party is held constant, and then use `add_predictions` to make a new column for predictions based on our model. Using that dataframe, make a plot showing model predictions from age with separate lines for the two genders. How do you interpret this plot?**
+**6. Using that same model, make a line plot showing predicted likelihood of holding a committee title by age with separate lines for the two genders and holding political party constant to Republican. Your plot should have age on the x-axis and predicted proportion of instances where congress members hold a title on the y-axis. You should also include labels for gender. From this, we should be able to see model predictions for a Republican of any age and gender in our dataset.**
 
-HINT: check the arguments for `data_grid` to specify which variables to vary and which to hold constant. You'll likely want to use the `.model` argument.
+NOTE: you must use a single model for this - the one you produced from the previous question.
+
+HINT: you may want to create a dummy dataset where `age` and `gender` vary but political party is held constant to Republican in order to generate model predictions for the visualization. See the `data_grid` function.
+
 ```{r}
 # Your answer here
 ```
@@ -100,7 +192,7 @@ Your answer here
 ```
 <br/>
 
-**7. How could you use statistical modeling to answer the hypothesis you provided in the last assignment? What inferences could you make?**
+**7. How could you use statistical modeling to answer one of the Final Project hypotheses you provided in the last assignment? What inferences could you make?**
 ```
 # Your answer here
 ```

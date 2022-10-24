@@ -1,0 +1,224 @@
+---
+title: "Statistical Modeling Lecture"
+author: "Devin J. Cornell"
+date: "10/19/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(ggplot2)
+library(modelr) # this one is new!
+library(lubridate)
+```
+
+# Our Dataset: Twitter data from the last Lab!
+
+```{r}
+load(url('https://dssoc.github.io/datasets/congress.RData'))
+load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
+senator_tweet_sample %>% head()
+```
+
+# Advantages to Visualization
+
+## Start with basic Scatter Plot
+
+```{r}
+# basic scatter plot
+senator_tweet_sample %>% 
+  ggplot(aes(x=favorite_count, y=retweet_count)) +
+    geom_point()
+```
+
+## Can we improve it? Try adjusting alpha
+
+```{r}
+# basic scatter plot
+senator_tweet_sample %>% 
+  ggplot(aes(x=favorite_count, y=retweet_count)) +
+    geom_point(aes(alpha=0.2))
+```
+
+
+
+## Add trendlines
+
+
+```{r}
+# basic scatter plot
+senator_tweet_sample %>% 
+  ggplot(aes(x=favorite_count, y=retweet_count)) +
+    geom_point() +
+    geom_smooth(method='lm', formula= y ~ x)
+```
+
+
+## Try log version for better visualization
+
+
+```{r}
+# easier to see if we take the log
+senator_tweet_sample %>% 
+  ggplot(aes(x=log(favorite_count), y=log(retweet_count))) +
+    geom_point()
+```
+
+
+
+## Add trendline to lot plot
+
+```{r}
+senator_tweet_sample %>% 
+  ggplot(aes(x=log(favorite_count), y=log(retweet_count))) +
+    geom_point(aes(alpha=0.1)) + 
+    geom_smooth(method='lm', formula= y ~ x)
+```
+
+
+## What is off about this plot?
+
+### HINT: why do so many tweets have zero favorites?
+
+```{r}
+senator_tweet_sample %>% 
+  group_by(is_retweet) %>% 
+  summarize(mean(favorite_count))
+```
+
+
+## Now improve the trendline information with that knowledge
+
+```{r}
+senator_tweet_sample %>% 
+  filter(!is_retweet) %>% 
+  ggplot(aes(x=favorite_count, y=retweet_count)) +
+    geom_point(aes(alpha=0.1)) + 
+    geom_smooth(method='lm', formula= y ~ x)
+```
+
+
+## How do we get quantitative information about the relationship between these two variables?
+
+
+### try a correlation first.
+
+```{r}
+tmp <- senator_tweet_sample %>% 
+  filter(!is_retweet)
+
+cor.test(tmp$retweet_count, tmp$favorite_count)
+```
+
+
+### now try creating a linear model with `lm`
+
+```{r}
+tmp <- senator_tweet_sample %>% 
+  filter(!is_retweet)
+
+m <- lm(retweet_count ~ favorite_count, data=tmp)
+m
+m %>% summary()
+```
+
+
+## How can we visualize models?
+
+
+### One approach: create predictions from your actual dataset
+
+```{r}
+tmp$pred <- m %>% predict(tmp)
+tmp %>% ggplot() +
+  geom_line(aes(x=favorite_count, y=pred)) +
+  geom_point(aes(x=favorite_count, y=retweet_count, alpha=0.1))
+
+# check it out - R^2 is just based on the differences between predictions and observations
+a <- (tmp$retweet_count - tmp$pred)^2 %>% sum()
+b <- (tmp$retweet_count - mean(tmp$retweet_count))^2 %>% sum()
+rsq <- 1-a/b
+
+# this is the same as we see above in the linear model summary
+rsq
+```
+
+### Another approach: create a synthetic dataset from which to generate predictions
+
+```{r}
+pred_df <- data.frame(favorite_count=1:5000)
+pred_df$pred <- m %>% predict(pred_df)
+pred_df %>% ggplot(aes(x=favorite_count, y=pred)) +
+  geom_line()
+```
+
+
+# Which factors determine the number of Retweets a given Tweet receives?
+
+## Try variables in the Tweet dataset
+
+```{r}
+tmp <- senator_tweet_sample %>% 
+  mutate(is_weekend=wday(created_at, label = TRUE) %in% c('Sun', 'Sat'))
+tmp %>% head()
+
+m <- lm(retweet_count ~ is_weekend + is_quote, data=tmp)
+m %>% summary()
+```
+
+
+## Now augment with demographic characteristics from the `congress` dataframe
+
+```{r}
+# get info about congress members
+cdf <- congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  mutate(twitter=tolower(twitter))
+
+model_df <- senator_tweet_sample %>% 
+  mutate(is_weekend=wday(created_at, label = TRUE) %in% c('Sun', 'Sat')) %>% 
+  mutate(screen_name=tolower(screen_name)) %>% 
+  left_join(cdf, by=c('screen_name'='twitter')) %>% 
+  drop_na(gender) %>% 
+  mutate(is_repub=party=='Republican', age=2022-birthyear)
+  
+model_df %>% head()
+lm(favorite_count ~ is_weekend + is_quote + gender + age + is_repub, data=model_df) %>% summary()
+```
+
+## does the effect of age on number of favorites vary by gender?
+
+```{r}
+# try an interaction between gender and age
+m_interact <- lm(favorite_count ~ is_weekend + is_quote + is_repub + gender*age, data=model_df)
+m_interact %>% summary()
+```
+
+## how can we visualize this model?
+
+```{r}
+# make a synthetic dataset from which to create predictions
+pred_df <- model_df %>% 
+  data_grid(gender, age) %>% 
+  mutate(is_weekend=F, is_quote=F, is_repub=F)
+pred_df$pred <- m_interact %>% predict(pred_df)
+
+pred_df %>% ggplot(aes(x=age, y=pred, color=gender)) +
+  geom_line() +
+  ylab('Predicted Favorite Count') +
+  xlab('Author Age')
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
