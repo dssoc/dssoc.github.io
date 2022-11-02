@@ -694,8 +694,8 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<!--<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #8: Introduction to Text Analysis</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (due the following Monday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
