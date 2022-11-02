@@ -51,7 +51,7 @@ senator_tweet_sample %>%
 senator_tweet_sample %>% 
   ggplot(aes(x=favorite_count, y=retweet_count)) +
     geom_point() +
-    geom_smooth(method='lm', formula= y ~ x)
+    geom_smooth()
 ```
 
 
@@ -116,9 +116,9 @@ cor.test(tmp$retweet_count, tmp$favorite_count)
 
 ```{r}
 tmp <- senator_tweet_sample %>% 
-  filter(!is_retweet)
+  filter(!is_retweet, favorite_count > 0)
 
-m <- lm(retweet_count ~ favorite_count, data=tmp)
+m <- lm(retweet_count ~ favorite_count + log(favorite_count), data=tmp)
 m
 m %>% summary()
 ```
@@ -130,6 +130,7 @@ m %>% summary()
 ### One approach: create predictions from your actual dataset
 
 ```{r}
+tmp %>% select(favorite_count, retweet_count)
 tmp$pred <- m %>% predict(tmp)
 tmp %>% ggplot() +
   geom_line(aes(x=favorite_count, y=pred)) +
@@ -184,7 +185,7 @@ model_df <- senator_tweet_sample %>%
   mutate(is_repub=party=='Republican', age=2022-birthyear)
   
 model_df %>% head()
-lm(favorite_count ~ is_weekend + is_quote + gender + age + is_repub, data=model_df) %>% summary()
+lm(retweet_count ~ is_weekend + is_quote + gender + age + is_repub, data=model_df) %>% summary()
 ```
 
 ## does the effect of age on number of favorites vary by gender?
