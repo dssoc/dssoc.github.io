@@ -54,7 +54,7 @@ HINT: you can just look up the right regex string in threads like [this one](htt
 ```{r}
 # Your answer here
 tdf <- senator_tweet_sample %>% 
-  mutate(num_mentions=str_count(text, "(?<=@)[^\\s:]+")) %>% 
+  mutate(num_mentions=str_count(text, "@[A-Za-z0-9_]+")) %>% 
   select(num_mentions, favorite_count)# %>% 
 cor.test(tdf$num_mentions, tdf$favorite_count)
 ```
@@ -132,7 +132,7 @@ HINT: try using `str_extract_all` in conjunction with `unnest` (not `unnest_toke
 
 **4. Create a new column in `senator_tweet_sample` called `cleaned` which includes the original Tweets with hashtags and links removed. We will use this column for the remaining questions.** 
 
-HINT: see the `gsub` or `str_replace` functions.
+HINT: see the `gsub` or `str_replace_all` functions.
 ```{r}
 # your solution here
 ```

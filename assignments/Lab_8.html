@@ -399,7 +399,7 @@ one</a>. No need to learn regex in much detail - most people just do
 this.</p>
 <pre class="r"><code># Your answer here
 tdf &lt;- senator_tweet_sample %&gt;% 
-  mutate(num_mentions=str_count(text, &quot;(?&lt;=@)[^\\s:]+&quot;)) %&gt;% 
+  mutate(num_mentions=str_count(text, &quot;@[A-Za-z0-9_]+&quot;)) %&gt;% 
   select(num_mentions, favorite_count)# %&gt;% 
 cor.test(tdf$num_mentions, tdf$favorite_count)</code></pre>
 <pre><code>## 
@@ -511,7 +511,7 @@ Overflow solution</a> may be helpful.</p>
 called <code>cleaned</code> which includes the original Tweets with
 hashtags and links removed. We will use this column for the remaining
 questions.</strong></p>
-<p>HINT: see the <code>gsub</code> or <code>str_replace</code>
+<p>HINT: see the <code>gsub</code> or <code>str_replace_all</code>
 functions.</p>
 <pre class="r"><code># your solution here</code></pre>
 <p><br /></p>
