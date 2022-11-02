@@ -44,6 +44,54 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 <br/>
 
 
+## Example Questions
+<br>
+
+**ex1. In `senator_tweet_sample`, find the correlation between the number of "mentions" (cases where you see an "@" followed by non-whitespace characters) in Tweet texts and the number of favorites they receive.**
+
+HINT: you can just look up the right regex string in threads like [this one](https://stackoverflow.com/questions/46224205/regular-expression-in-r-for-twitter-username). No need to learn regex in much detail - most people just do this.
+
+```{r}
+# Your answer here
+tdf <- senator_tweet_sample %>% 
+  mutate(num_mentions=str_count(text, "(?<=@)[^\\s:]+")) %>% 
+  select(num_mentions, favorite_count)# %>% 
+cor.test(tdf$num_mentions, tdf$favorite_count)
+```
+```
+From this result, we can say that we don't have confidence that there is not a correlation between the two variables.
+```
+<br/>
+
+**ex2. In `senator_tweet_sample`, find the average number of "mentions" (cases where you see an "@" followed by non-whitespace characters) in Tweet texts by gender.**
+
+```{r}
+# first match congress twitter handles with gender
+congress_merged <- congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  filter(twitter != '') %>% # remove those with no twitter accoutns
+  mutate(twitter=tolower(twitter)) %>% # lower-case twitter handles for matching
+  select(twitter, gender)
+congress_merged %>% head()
+
+# match gender with twitter handles, count the number of mentions
+tdf <- senator_tweet_sample %>% 
+  mutate(num_mentions=str_count(text, "(?<=@)[^\\s:]+")) %>%  # this is the key regex
+  mutate(screen_name=tolower(screen_name)) %>% # lower-case to fix matches
+  select(screen_name, num_mentions) %>% 
+  left_join(congress_merged, by=c('screen_name'='twitter')) %>%
+  drop_na(gender) # drop those who didn't have matching Twitter handles
+tdf %>% head()
+
+# average by user and then gender (accounts for unequal # tweets for congress members)
+tdf %>% 
+  group_by(gender, screen_name) %>% 
+  summarize(av_mentions = mean(num_mentions)) %>% 
+  group_by(gender) %>% 
+  summarize(av_mentions_gender=mean(av_mentions))
+```
+
+
 
 ## Questions
 <br>
