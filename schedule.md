@@ -762,8 +762,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Lab #9: Word counts and dictionaries
 <div class="callout callout--info">
     
-<!--<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Monday by 5PM)</i></p>-->
-<p><i><b>Lab #9: Word Counts and Dictionaries</b> (due the following Monday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (due the following Monday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
 
