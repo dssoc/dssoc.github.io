@@ -15,14 +15,20 @@ See the "Instructions" section of the [Introduction to Lab Assignments](https://
 
 **Required reading:** 
 
-* R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
++ Text Mining with R: [Chapter 2: Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html)
++ Text Mining with R: [Chapter 3: Analyzing word and document frequency: tf-idf](https://www.tidytextmining.com/tfidf.html)
 
 
 **Optional reading:** 
 
-* [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
-* [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
-* Test and develop regex expressions on [regexr.com](https://regexr.com/)
+From previous labs:
+
++ R for Data Science: [Working with strings (Chapter 14)](https://r4ds.had.co.nz/strings.html)
++ Text Mining with R: [Chapter 1: The tidy text format](https://www.tidytextmining.com/tidytext.html)
+
++ [stringr package docs](https://www.rdocumentation.org/packages/stringr/versions/1.4.0)
++ [tidytext package docs](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6)
++ Test and develop regex expressions on [regexr.com](https://regexr.com/)
 
 
 
@@ -35,9 +41,133 @@ library(lubridate)
 
 load(url('https://dssoc.github.io/datasets/senator_tweets.RData'))
 load(url('https://dssoc.github.io/datasets/congress.RData'))
-
 ```
 <br/>
+
+
+
+## Example Questions
+<br>
+
+
+**ex1. In the same way we can use sentiment dictionaries like `bing` or `afinn` (see required reading on sentiment analysis), we can create our own dictionaries that allow us to detect features of the text we may be interested in. For this example, I will create a custom dictionary that can help us detect instances when Tweets mention or reference the concepts (i.e. different spellings or wordings that mean the same thing) "children" and "taxes". To construct the dictionary, start by looking closely at our Tweets to see if you can find any alternative spellings or words used to mean the same thing, and assign that set of relevant words to each category. From this, you can create a dataframe assigning each word to one of those categories. Finally, use the dictionary to count the proportion of Tweets that discuss these topics by weekday vs weekend.**
+
+NOTE: Be sure to remove URLs, stopwords, and "mentions" before performing word counts (cases where you see an "@" followed by non-whitespace characters - see Lab 8 example problems).
+
+ALSO NOTE: see the example dictionaries in the required reading on sentiment analysis to see what your custom dictionary dataframe should look like.
+```{r}
+# start by looking at Tweets that include the word "children"
+senator_tweet_sample %>% 
+  filter(str_detect(text, 'tax')) %>% 
+  select(text) %>% 
+  head(2)
+# we see a bunch of different words that are used as synonyms: "children", "child", "youth", "childs"
+
+# now try looking at Tweets that include the string "tax"
+senator_tweet_sample %>% 
+  filter(str_detect(text, 'tax')) %>% 
+  select(text) %>% 
+  head(2)
+# I only see "tax" or "taxes", but you may find others
+
+# now we create our dictionary in the format of a dataframe (see the sentiment analysis section to see the format of dictionaries)
+custom_topic_dict <- data.frame(
+  word=c('child', 'children', 'childs', 'youth', 'youths', 'tax', 'taxes'), # list of words
+  category=c('children', 'children', 'children', 'children', 'children', 'taxes', 'taxes') # list of categories associated with each word
+)
+custom_topic_dict
+```
+
+Now we'll clean the text, tokenize it, and apply our new dictionary. The dictionary is applied using a left join.
+```{r}
+
+# define regex patterns for removal (you did these in previous problems)
+url_pattern <- "http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\\(\\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+"
+mention_pattern <- "@[A-Za-z0-9_]+"
+
+# tokenize and count the appearance of each word
+token_counts <- senator_tweet_sample %>% 
+  mutate(is_weekend=wday(created_at, label=T) %in% c('Sat', 'Sun')) %>% 
+  select(status_id, is_weekend, text) %>% 
+  mutate(text = str_remove_all(text, url_pattern)) %>% # remove urls
+  mutate(text = str_remove_all(text, mention_pattern)) %>% # remove mentions
+  unnest_tokens("word", text, token = "tweets") %>%  # tokenize, preserving hashtags
+  anti_join(stop_words) %>% # remove stopwords
+  count(status_id, is_weekend, word) # count the words by weekday/weekend
+token_counts %>% head()
+
+# apply the dictionary to the word count dataframe
+token_cats <- token_counts %>% 
+  left_join(custom_topic_dict, by='word') # match topics with words
+  
+# compute proportion of tweets that mention each category by weekend/weekday
+token_cats %>% 
+  # first we detect whether or not each tweet mentions one of our categoreis
+  group_by(status_id, is_weekend) %>% 
+  summarize(mentioned_taxes='taxes' %in% category, mentioned_children='children' %in% category) %>% 
+  group_by(is_weekend) %>% 
+  summarize(
+    # show basic average differences
+    av_taxes=mean(mentioned_taxes), 
+    av_children=mean(mentioned_children),
+  )
+
+# we can see that Tweets published on weekdays are more likely to mention taxes and less likely to mention children...
+```
+<br/>
+
+
+**ex2. After removing URLs, stopwords, and "mentions" (cases where you see an "@" followed by non-whitespace characters - see Lab 8 example problems) from the tweets in `senator_tweet_sample`, show the words that most uniquely appear in Tweets published by Republicans compard to other parties using TF-IDF.**
+```{r}
+# first match congress twitter handles with party
+congress_merged <- congress %>% 
+  left_join(congress_contact, by='bioguide_id') %>% 
+  filter(twitter != '') %>% # remove those with no twitter accoutns
+  mutate(twitter=tolower(twitter)) %>% # lower-case twitter handles for matching
+  mutate(is_repub=party=='Republican') %>% 
+  select(twitter, is_repub)
+congress_merged %>% head()
+
+
+# match Tweet text with screen name and political party
+tdf <- senator_tweet_sample %>% 
+  mutate(text = str_remove(text, url_pattern)) %>% # remove urls
+  mutate(text = str_remove(text, mention_pattern)) %>% # remove mentions
+  mutate(screen_name=tolower(screen_name)) %>% # lower-case to match with congress_merged
+  left_join(congress_merged, by=c('screen_name'='twitter')) %>% 
+  select(is_repub, text)
+tdf %>% head()
+
+# tokenize texts (see 'token' parameter in docs)
+party_token_counts <- tdf %>% 
+  unnest_tokens("word", text, token = "tweets") %>% 
+  anti_join(stop_words) %>% # remove stopwords
+  count(is_repub, word)
+party_token_counts %>% head()
+
+# use the tf_idf to compare republican words with token frequency
+tf_idf_scores <- party_token_counts %>% 
+  bind_tf_idf(word, is_repub, n) %>% 
+  arrange(desc(tf_idf)) %>% 
+  select(is_repub, word, tf_idf)
+tf_idf_scores %>% head()
+
+# now pick out republican words and show them in graph
+tf_idf_scores %>% 
+  filter(is_repub) %>% 
+  arrange(desc(tf_idf)) %>% 
+  head(10) %>% 
+  ggplot(aes(y=reorder(word, tf_idf), x=tf_idf)) +
+    geom_bar(stat='identity', position='dodge') +
+    xlab('TF-IDF Score') + ylab('Word')
+```
+<br/>
+
+
+
+
+
+
 
 
 
@@ -51,27 +181,17 @@ load(url('https://dssoc.github.io/datasets/congress.RData'))
 ```
 <br/>
 
-**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our `senator_tweet_sample` corpus after removing URLs and stopwords, but preserving hashtags as tokens (e.g. "#19thamendment" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
+**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our `senator_tweet_sample` corpus after removing URLs, stopwords, and "mentions" (cases where you see an "@" followed by non-whitespace characters - see Lab 8 example problems), but preserving hashtags as tokens (e.g. "#19thamendment" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
 
 Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for [`unnest_tokens`](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens
-) - see the `token` parameter. Searching on the internet may also be a good strategy.
+) carefully.
 ```{r}
 # your answer here
 ```
 <br/>
 
-**3. For each of the top three most frequent non-stopword tokens, extract up to three tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about how they seem to be used in this context.**
+**3. For each of the top three most frequent non-stopword tokens, extract up to three tweets with the highest number of retweets that include the token. Based on the context provided in these Tweets, give a quick sentence about how they seem to be used and why they might appear frequently.**
 
-HINT: it might be useful to use `str_count` here.
-```{r}
-# your answer here
-```
-```
-your written explanation here
-```
-<br/>
-
-**4. Create a bar graph showing the tf-idf scores of the ten tokens with the highest values in our corpus, again preserving hashtags as tokens and removing urls/stopwords. What do these scores mean? Give a hypothesis for why the top three have the highest values.**
 ```{r}
 # your answer here
 ```
@@ -80,8 +200,17 @@ your written explanation here
 ```
 <br/>
 
+**4. Use TF-IDF to show the top 10 words that are most distinctive to Tweets published by Males and Females as a bar chart. To do this, you may combine texts from all Tweets published by these two genders, essentially treating our corpus as being two "documents" in the terminology that TF-IDF methods typically use. This approach provides a systematic way of comparing large number of texts along any dimension of interest.**
+```{r}
+# your answer here
+```
+```
+your written explanation here
+```
+<br/>
 
-**5. Create a new column in senator_tweet_sample that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in day (5am-5pm) vs night.**
+
+**5. Create a new column in senator_tweet_sample that corresponds to the time of day that a given tweet was posted, and make a bar graph comparing the number of tweets published in daytime (5am-5pm, inclusive) vs night.**
 
 Hint: see the `hour` function of lubridate.
 ```{r}
@@ -102,7 +231,7 @@ Explain why you chose to compute sentiment in this way.
 <br/>
 
 
-**7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?**
+**7. Create a custom dictionary with at least two categories (e.g. positive/negative, happy/sad, solution/problem-oriented, etc) and compare daytime-nightime scores for each of the two categories. What does this result tell you about your data? What is your dictionary capturing here?**
 
 Hint: you may want to look at the bing dictionary (`get_sentiments("bing")`) to see how you should format your custom dictionary.
 ```{r}
@@ -113,7 +242,7 @@ Explain what your dictionary is intended to capture and interpret the results.
 ```
 <br/>
 
-**8. Using the data you have collected for your final project, show one preliminary result or statistic from an analysis you ran. If you haven't collected your dataset computationally, try to look anecdotally at the original source (e.g. if Twitter is your dataset, then just look on the Twitter website) and give one observation about the data. Try to make an observation or result based on one of the variables you will use for your final analysis. What do you see? Send your figures and statistics directly to your TA in Slack - don't add them to your script.**
+**8. Using the data you have collected for your final project, show one preliminary result or statistic from an analysis you ran. If you haven't collected your dataset computationally, try to look anecdotally at the original source (e.g. if Twitter is your dataset, then just look on the Twitter website) and give one observation about the data. Try to make an observation or result based on one of the variables you will use for your final analysis. What do you see? Please send your figures and statistics directly to your TA in Slack - don't add them to your script.**
 ```
 written description here
 ```
