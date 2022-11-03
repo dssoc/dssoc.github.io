@@ -44,6 +44,7 @@ library(stringr)
 library(topicmodels)
 library(ggplot2)
 library(stm)
+library(reshape2)
 #install.packages('topicmodels')
 
 load(url('https://dssoc.github.io/datasets/congress.RData'))
@@ -52,6 +53,49 @@ load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
 ```
 <br/>
 
+
+## Example Questions
+<br>
+
+**ex1. Construct a LDA topic model from the `text` or `subtext` columns of `senator_wiki` with 10 topics, then compute the correlation between topic distributions and age/party. Do any topics appear to vary systematically with these covariates?**
+```{r}
+# join with congress dataset
+wiki_info <- congress %>% inner_join(senator_wiki, by='bioguide_id')
+
+# create the dtm from the subtext column
+dtm <- wiki_info %>% 
+  select(bioguide_id, subtext) %>% 
+  unnest_tokens('word', 'subtext') %>% 
+  anti_join(stop_words) %>% 
+  count(bioguide_id, word) %>% 
+  cast_dtm(bioguide_id, word, n)
+
+# create the topic model
+tm <- LDA(dtm, k=10, control=list(seed=0))
+
+# topic-word distributions
+topic_words <- tm %>% tidy(matrix = "beta")
+topic_words %>% head()
+
+# document_topic distributions
+doc_topics <- tm %>% tidy(matrix = "gamma")
+doc_topics %>% head()
+
+# compute correlations with age and party
+doc_topics %>% 
+  left_join(congress, by=c('document'='bioguide_id')) %>% 
+  mutate(age=2022-birthyear, is_repub=party=='Republican') %>% 
+  group_by(topic) %>% 
+  summarize(
+    age_cor=cor(gamma, age), 
+    age_pval=cor.test(gamma, age)$p.value,
+    is_repub_cor=cor(gamma, is_repub), 
+    is_repub_pval=cor.test(gamma, as.numeric(is_repub))$p.value
+  ) %>% arrange(age_cor)
+
+# based on this, we do NOT have evidence that topics differ along age or party lines
+```
+<br>
 
 
 ## Questions
@@ -93,28 +137,7 @@ Written explanation here.
 ```
 <br>
 
-#===============================================================================
-**3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have Senator member information (gender, age, etc) associated with every wikipedia page in our dataset, then create a document-term matrix from `text` or `subtext` (whichever is easier for you to use) after removing stopwords.**
-
-HINT: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
-
-HINT: check out the `cast_dtm` function if you're using `unnest_tokens`. Recall that we created a DTM as part of Lab 8 as well.
-```{r}
-# your answer here
-```
-<br>
-#===============================================================================
-
-**5. Make a function that accepts (takes as an argument) a LDA topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
-```{r}
-# your answer here
-```
-```
-your answer here
-```
-<br>
-
-**6. Create a structural topic model with the `stm` package using politician gender, political party affiliation, and (approximate) age as covariates in the model. Then use `plot` with no parameters to show prevalence and top words associated with each topic.**
+**5. Create a structural topic model with the `stm` package using politician gender, political party affiliation, and (approximate) age as covariates in the model. Then use `plot` with no parameters to show prevalence and top words associated with each topic.**
 
 HINT: to create the STM, start with Section 3.1-3.3 of the stm Package Vignette listed in the required readings. You'll use `textProcessor`, `prepDocuments`, and then `stm` to create the STM topic model.
 
@@ -125,7 +148,6 @@ HINT: to create the STM, start with Section 3.1-3.3 of the stm Package Vignette 
 your answer here
 ```
 <br>
-
 
 
 **7. Use `labelTopics` to view the words associated with two topics you find most interesting. Can you easily describe what these topics are capturing?**
