@@ -44,7 +44,7 @@ library(stringr)
 library(topicmodels)
 library(ggplot2)
 library(stm)
-
+#install.packages('topicmodels')
 
 load(url('https://dssoc.github.io/datasets/congress.RData'))
 load(url('https://dssoc.github.io/datasets/senator_wiki.RData'))
@@ -64,12 +64,36 @@ your answer here
 ```
 <br>
 
-**2. Describe a topic modeling algorithm in your own words. What is the input to a topic modeling algorithm (after parsing the raw text)? What does the actual topic model look like? How do you choose the number of topics? What are the beta parameter estimates?**
+**2. Answer each of the following questions:**
 ```
-your answer here
+What is a topic modeling algorithm?
+What is the input to a topic modeling algorithm?
+What is the structure of a fitted topic model?
+How do you choose the number of topics?
+What are the beta parameter estimates?
 ```
 <br>
 
+**3. Construct a LDA topic model from the `text` or `subtext` columns of `senator_wiki` (after removing stopwords) using a specified random seed (see the `control` parameter). You can choose the number of topics however you see fit - it might be useful to try multiple values. Finally, create a plot showing the word distributions for the top ten words associated with two topics of your choice.**
+
+NOTE: depending on the parameters you choose, this might take a little while to run.
+```{r}
+# your answer here
+```
+<br>
+
+**4. For this problem, we want to identify any topics from the previous LDA model that may be strongly associated with the gender of the senator about which the Wikipedia articles were written. To establish this, compute the correlation between the `gender` variable in our `congress` dataset and each of the topics in your LDA model from the previous question. Did you find that any of the topics from your model are strongly associated with the gender of the Senator? Based on the word distributions of those topics, what is your explanation for this finding?**
+
+HINT: you should use a correlation _test_ (i.e. `cor.test` instead of `cor`) to establish whether or not there is a significant difference.
+```{r}
+# your answer here
+```
+```
+Written explanation here.
+```
+<br>
+
+#===============================================================================
 **3. Join the columns of `congress` with `senator_wiki` (use `inner_join`) so that you should have Senator member information (gender, age, etc) associated with every wikipedia page in our dataset, then create a document-term matrix from `text` or `subtext` (whichever is easier for you to use) after removing stopwords.**
 
 HINT: your merged dataframe should have as many rows as the original `senator_wiki` dataframe.
@@ -79,12 +103,7 @@ HINT: check out the `cast_dtm` function if you're using `unnest_tokens`. Recall 
 # your answer here
 ```
 <br>
-
-**4. Construct a topic model with LDA using a specified random seed (see the `control` parameter). This might take a little while to run. You can choose the number of topics however you see fit - it might be useful to try multiple values.**
-```{r}
-# your answer here
-```
-<br>
+#===============================================================================
 
 **5. Make a function that accepts (takes as an argument) a LDA topic model and returns a plot showing the word distributions for the top ten words in each topic, then call the function with your topic model. Choose two topics which appear to be easiest to understand, and explain what you think they represent based on the word distributions.**
 ```{r}
