@@ -891,7 +891,7 @@ Regular TA office hours will be open.
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
-**Wednesday**: open lab in usual room during regularly scheduled class @ 1:45-3pm.
+Open lab in usual room during regularly scheduled class @ 1:45-3pm.
 
 Work on final presentation and paper.
 
