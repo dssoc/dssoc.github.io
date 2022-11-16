@@ -886,7 +886,8 @@ Regular TA office hours will be open.
 
 <!--##################################### Week 13 #####################################-->
 
-## 13 - Open Lab 
+## 13 - Tutorials: 1-1 meetings
+
 <b><i><font color="#E84E4E">November 21</font></i></b>
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
@@ -907,7 +908,7 @@ No class. Work on final presentation and paper.
 
 <!--##################################### Week 14 #####################################-->
 
-## 14 - Writing Up Your Results
+## 14 - Tutorials: 1-1 meetings
 
 <b><i><font color="#E84E4E">November 28-30</font></i></b>
 
