@@ -891,16 +891,16 @@ Regular TA office hours will be open.
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
-Open lab in usual room during regularly scheduled class @ 1:45-3pm.
+<!--Open lab in usual room during regularly scheduled class @ 1:45-3pm.-->
 
-Work on final presentation and paper.
+No class. Work on final presentation and paper.
 
+<!--
 ***Required reading***:
 - David Holtz et al. [Interdependence and the cost of uncoordinated responses to COVID-19](https://www.pnas.org/content/early/2020/07/29/2009522117)
 
 ***Optional Materials***:
-
-
+-->
 
 
 
@@ -911,13 +911,13 @@ Work on final presentation and paper.
 
 <b><i><font color="#E84E4E">November 28-30</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+<!--**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.-->
 
-No videos this week.
+No class. Work on final presentation and paper.
 
-**Monday Lecture**: _Who is your audience?_
+<!--**Monday Lecture**: _Who is your audience?_-->
 
-**Wednesday Lecture**: _Writing up your research_
+<!--**Wednesday Lecture**: _Writing up your research_-->
 
 
 
