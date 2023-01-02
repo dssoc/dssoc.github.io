@@ -947,11 +947,7 @@ Final presentations during normal class time. Will post sign-up sheet.
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
-Finals week - no class or Labs.
-
-TA office hours TBD.
-
-***Final paper DUE.***
+***Final paper DUE December 16 by 5pm.***
 
 <!--***Final paper DUE Thursday April 28 at 5pm EDT***-->
 
