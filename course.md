@@ -212,6 +212,12 @@ Because of our virtual format-- and weekly one-on-one meetings, I am not holding
 
 ### FINAL PROJECT EXAMPLES
 
+***Fall 2022***
+
+[Controversy on Twitter: How Certain Political Candidates Choose to Convey their Platforms to Constituents](/project_examples/Michelle_Qiu_Final-Project.html)
+by Michelle Qiu
+<br/>
+
 ***Spring 2022***
 
 [Public Interest In Covid-19](/project_examples/final_project_sophie_sanda.html)
