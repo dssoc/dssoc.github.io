@@ -21,9 +21,11 @@ page_nav:
 <!--##################################### Week 1 #####################################-->
 
 ## 1 - Introduction and Orientation
-<b><i><font color="#E84E4E">August 29-31</font></i></b>
+<b><i><font color="#E84E4E">January 10-12</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: 11:45am-1pm
+
+**Friday**: class online, 11:45am-1pm
 
 No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>

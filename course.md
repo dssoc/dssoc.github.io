@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Spring 2022
+description: Duke University, Sociology 367S <br/> Spring 2024
 
 
 # Micro navigation
@@ -18,17 +18,17 @@ micro_nav: true
 
 <div class="callout callout--info">
 <p><strong>Chris Bail</strong></p>
-<i>Professor of Sociology & Public Policy</i> <br/>
+<i>Professor of Sociology, Political Science, & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
 Office Hours: Wednesday 12:45-1:45pm (347 Reuben-Cooke Building or via Zoom, please email beforehand)
 <hr/>
 <br/>
-<p><b>Teaching Assistant: Devin J. Cornell</b></p>
+<p><b>Teaching Assistant: Noah Gibson</b></p>
 <br/> 
 <i>PhD Candidate, Sociology</i> <br/>
-devin.cornell@duke.edu <br/>
-Office Hours: Wed 3-4pm (after class), Thurs 1-3pm on Zoom by appointment.
+noah.gibson@duke.edu <br/>
+Office Hours: TBD.
 </div>
 
 ### COURSE DESCRIPTION
@@ -37,7 +37,7 @@ The past decade has witnessed an explosion of data produced by websites such as 
 
 ### COURSE GOALS
 
-This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also acquire skills in social network analysis, automated text analysis, application programming interfaces, and the R programming language.
+This course requires no prior knowledge of computer programming or social science. Students will learn to ask social science questions, and learn how to answer them by collecting data from digital sources such as social media sites. Students will also acquire skills in large language models, social network analysis, automated text analysis, application programming interfaces, and the R programming language.
 
 
 ### OVERVIEW OF CLASS FORMAT
