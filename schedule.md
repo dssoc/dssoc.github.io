@@ -21,13 +21,13 @@ page_nav:
 <!--##################################### Week 1 #####################################-->
 
 ## 1 - Introduction and Orientation
-<b><i><font color="#E84E4E">January 10-12</font></i></b>
+<b><i><font color="#E84E4E">January 10/12</font></i></b>
 
-**Wednesday**: 11:45am-1pm
+**Wednesday**: What is Computational Social Science? 11:45am-1pm
 
-**Friday**: class online, 11:45am-1pm
+**Friday**: Hello World: Let's Code!  <i>class online</i>, 11:45am-1pm
 
-No Lab homework due this week - please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
+No lab due this week, but please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>
 
 #### Can Data Science Help us Fight COVID-19?
@@ -82,13 +82,15 @@ allowfullscreen></iframe>
 <!--##################################### Week 2 #####################################-->
 
 ## 2 - Ethics
-<b><i><font color="#E84E4E">September 5-7</font></i></b>
+<b><i><font color="#E84E4E">January 17/19</font></i></b>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: How Can We Protect Human Subjects? <i>class online</i>, 11:45am-1pm
 
-**Following Monday**: Lab due by 5PM
+**Friday**: Coding Basics, 11:45am-1pm.
+
+**Following Monday (1/22)**: Lab due by 5PM
 
 <!--Group discussion questions for this week ([see group assignments](https://dssoc.github.io/assignments/group_assignments.txt)):-->
 
@@ -157,10 +159,12 @@ allowfullscreen></iframe>
 
 ## 3 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">September 12-14</font></i></b>
+<b><i><font color="#E84E4E">January 24/26</font></i></b>
 <!--<b><i><font color="#E84E4E">January 24-29</font></i></b>-->
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Monday**: Does Social Media Cause Harm? 1:45-3pm.
+
+**Wednesday**: Learning to Work with Data. 1:45-3pm.
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
