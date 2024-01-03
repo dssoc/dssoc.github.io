@@ -410,21 +410,21 @@ For these excercises, you will need the following datasets:<br/>
 
 **Wednesday**: How will Networks Shape your Career? @ 11:45-1pm
 
+Group discussion questions for this week:
+
+1. How did you find your last job?
+2. do you know anyone who’s gotten their job from a weak tie?
+3. How could social network analysis help you find a job?
+
+
 **Friday**: Let's code up some networks! @ 11:45-1pm
 
 <!--**Monday**: No meetings.
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
-NOTE: due to spring break, the lab due date has been moved back.
 
-**Following Wednesday (Wednesday, October 12 by 5PM)**: Lab due by 5PM
-
-Group discussion questions for this week:
-
-1. How did you find your last job?
-2. do you know anyone who’s gotten their job from a weak tie?
-3. How could social network analysis help you find a job?
+**Following Monday**: Lab due by 5PM
 
 #### How to find a job (and Succeed Once you Get One)
 

@@ -21,7 +21,7 @@ micro_nav: true
 <i>Professor of Sociology, Political Science, & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: Wednesday 12:45-1:45pm (347 Reuben-Cooke Building or via Zoom, please email beforehand)
+Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
 <hr/>
 <br/>
 <p><b>Teaching Assistant: Noah Gibson</b></p>
