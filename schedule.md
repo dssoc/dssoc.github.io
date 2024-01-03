@@ -231,13 +231,11 @@ allowfullscreen></iframe>
 
 ## 4 - The Echo Chamber
 
-<b><i><font color="#E84E4E">September 19-21</font></i></b>
+<b><i><font color="#E84E4E">Jan 31/Feb 2</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: The Echo Chamber @ 1:45-3pm.
 
-<!--**Monday**: No meetings.
-
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
+**Friday**: Visualizing Society @ 1:45-3pm
 
 **Following Monday**: Lab due by 5PM
 
@@ -323,9 +321,11 @@ allowfullscreen></iframe>
 
 ## 5 - Social Networks and Health
 
-<b><i><font color="#E84E4E">September 26-28</font></i></b>
+<b><i><font color="#E84E4E">February 7/9</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+ **Wednesday**: How do our Social Relationships Shape our Health? @ 11:45-1pm.
+
+**Friday**: Learning how to Iterate, Lecture by Noah Gibson, @ 11:45-1pm.
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -406,9 +406,11 @@ For these excercises, you will need the following datasets:<br/>
 <!--##################################### Week 6 #####################################-->
 
 ## 6 - Getting a Job
-<b><i><font color="#E84E4E">October 3-5</font></i></b>
+<b><i><font color="#E84E4E">February 14/16</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: How will Networks Shape your Career? @ 11:45-1pm
+
+**Friday**: Let's code up some networks! @ 11:45-1pm
 
 <!--**Monday**: No meetings.
 
@@ -492,12 +494,12 @@ Katya Ognyanova</a></li>
 <!--##################################### Week 7 #####################################-->
 
 ## 7 - Surveillance and Privacy
-<b><i><font color="#E84E4E">October 12</font></i></b>
+<b><i><font color="#E84E4E">February 21/23</font></i></b>
 
-<!--**Monday** and -->
-**Wednesday**: regularly scheduled class @ 1:45-3pm.
 
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+**Wednesday**: Are you worried about who can see your data? @ 1:45-3pm.
+
+**Friday**: 
 
 **Following Monday**: no lab due.
 
@@ -514,6 +516,38 @@ allowfullscreen></iframe>
 
 ***Optional Materials***:
 - Shoshanna Zuboff. [You are Now Remotely Controlled](https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html)
+
+
+
+#### Lab #6: Working with APIs
+<div class="callout callout--info">
+    
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Monday by 5PM)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Monday by 5PM)</i></p>-->
+    
+<i><b>Lab Video Lecture: Working with APIs</b></i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/LTC8laBJGP0" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+<br/>
+
+<i>Optional reading:</i> <br/>
+<ul>
+  <li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
+  <li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li>
+  <li>Setup for spotifyr <a href = "https://github.com/charlie86/spotifyr"></a></li>
+  <li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul>
+
+  <li><a href = "https://www.rcharlie.com/spotifyr/"> R wrapper for the Spotify API</a></li>
+  <li><a href = "https://rtweet.info/"> R wrapper for the Twitter API,</a></li>
+</ul>
+</div>
+
+
+
 
 
 
@@ -559,36 +593,6 @@ allowfullscreen></iframe>
 - Karen Hao. [How Facebook got addicted to spreading misinformation](https://www.technologyreview.com/2021/03/11/1020600/facebook-responsible-ai-misinformation/)
 - Alex Hanna and Meredith Whittaker. [Timnit Gebru’s Exit From Google Exposes a Crisis in AI](https://www.wired.com/story/timnit-gebru-exit-google-exposes-crisis-in-ai/)
 - David Lazer et al. [The Parable of the Google Flu](https://science-sciencemag-org.proxy.lib.duke.edu/content/343/6176/1203.full)
-
-#### Lab #6: Working with APIs
-<div class="callout callout--info">
-    
-<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Monday by 5PM)</i></p>-->
-    
-<i><b>Lab Video Lecture: Working with APIs</b></i> 
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/LTC8laBJGP0" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-<br/>
-
-<i>Optional reading:</i> <br/>
-<ul>
-  <li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
-  <li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li>
-  <li>Setup for spotifyr <a href = "https://github.com/charlie86/spotifyr"></a></li>
-  <li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul>
-
-  <li><a href = "https://www.rcharlie.com/spotifyr/"> R wrapper for the Spotify API</a></li>
-  <li><a href = "https://rtweet.info/"> R wrapper for the Twitter API,</a></li>
-</ul>
-</div>
-
-
-
 
 
 
