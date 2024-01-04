@@ -23,9 +23,9 @@ page_nav:
 ## 1 - Introduction and Orientation
 <b><i><font color="#E84E4E">January 10/12</font></i></b>
 
-**Wednesday**: What is Computational Social Science? 11:45am-1pm
+**Wednesday**: What is Computational Social Science? 
 
-**Friday**: Hello World: Let's Code!  <i>class online</i>, 11:45am-1pm
+**Friday**: Hello World: Let's Code!  <i>class online</i>, 
 
 No lab due this week, but please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>
@@ -86,9 +86,9 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Wednesday**: How Can We Protect Human Subjects? <i>class online</i>, 11:45am-1pm
+**Wednesday**: How Can We Protect Human Subjects? <i>class online</i>
 
-**Friday**: Coding Basics, 11:45am-1pm.
+**Friday**: Coding Basics
 
 **Following Monday (1/22)**: Lab due by 5PM
 
@@ -162,9 +162,9 @@ allowfullscreen></iframe>
 <b><i><font color="#E84E4E">January 24/26</font></i></b>
 <!--<b><i><font color="#E84E4E">January 24-29</font></i></b>-->
 
-**Monday**: Does Social Media Cause Harm? 1:45-3pm.
+**Monday**: Does Social Media Cause Harm? 
 
-**Wednesday**: Learning to Work with Data. 1:45-3pm.
+**Wednesday**: Learning to Work with Data. 
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -233,9 +233,9 @@ allowfullscreen></iframe>
 
 <b><i><font color="#E84E4E">Jan 31/Feb 2</font></i></b>
 
-**Wednesday**: The Echo Chamber @ 1:45-3pm.
+**Wednesday**: The Echo Chamber 
 
-**Friday**: Visualizing Society @ 1:45-3pm
+**Friday**: Visualizing Society 
 
 **Following Monday**: Lab due by 5PM
 
@@ -312,20 +312,15 @@ allowfullscreen></iframe>
 
 
 
-
-
-
-
-
 <!--##################################### Week 5 #####################################-->
 
 ## 5 - Social Networks and Health
 
 <b><i><font color="#E84E4E">February 7/9</font></i></b>
 
- **Wednesday**: How do our Social Relationships Shape our Health? @ 11:45-1pm.
+ **Wednesday**: How do our Social Relationships Shape our Health? 
 
-**Friday**: Learning how to Iterate, Lecture by Noah Gibson, @ 11:45-1pm.
+**Friday**: Learning how to Iterate, Lecture by Noah Gibson
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -408,7 +403,7 @@ For these excercises, you will need the following datasets:<br/>
 ## 6 - Getting a Job
 <b><i><font color="#E84E4E">February 14/16</font></i></b>
 
-**Wednesday**: How will Networks Shape your Career? @ 11:45-1pm
+**Wednesday**: How will Networks Shape your Career? 
 
 Group discussion questions for this week:
 
@@ -417,7 +412,7 @@ Group discussion questions for this week:
 3. How could social network analysis help you find a job?
 
 
-**Friday**: Let's code up some networks! @ 11:45-1pm
+**Friday**: Let's code up some networks! 
 
 <!--**Monday**: No meetings.
 
@@ -497,9 +492,9 @@ Katya Ognyanova</a></li>
 <b><i><font color="#E84E4E">February 21/23</font></i></b>
 
 
-**Wednesday**: Are you worried about who can see your data? @ 1:45-3pm.
+**Wednesday**: Are you worried about who can see your data? 
 
-**Friday**: 
+**Friday**: Collecting data from online sources
 
 **Following Monday**: no lab due.
 
@@ -559,9 +554,11 @@ allowfullscreen></iframe>
 <!--##################################### Week 8 #####################################-->
 
 ## 8 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">October 17-19</font></i></b>
+<b><i><font color="#E84E4E">February 28/March 1</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: AI Bias
+
+**Friday**: Intro to text analysis
 
 <!--**Monday**: No meetings.
 
@@ -596,111 +593,7 @@ allowfullscreen></iframe>
 
 
 
-
-
-
-<!--##################################### Week 9 #####################################-->
-
-## 9 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">October 24-26</font></i></b>
-
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
-
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
-
-**Following Monday**: Lab due by 5PM
-
-#### Using Google Search to Track Radicalization
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/-XH_cF2S72g" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-***Required reading***:
--  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://www.cambridge.org/core/journals/american-political-science-review/article/no2sectarianism-experimental-approaches-to-reducing-sectarian-hate-speech-online/27157485824C8E071CB2DD3E26012EA3).
-
-
-***Optional Materials***:
-- Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
-- Kevin Munger. [Tweetment Effects on the Tweeted](https://link.springer.com/article/10.1007/s11109-016-9373-5)
-- Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948)
-
-
-#### Lab #7: Modeling (A Brief Introduction)
-<div class="callout callout--info">
-
-<p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Monday by 5PM)</i></p>-->
-
-<i><b>Lab Video Lecture: Modeling</b></i> 
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/y4B3JVicRxY" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-
-<br/>
-
-<i>Materials from Video:</i><br/>
-<ul>
-  <li><a href = "/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
-</ul>
-
-<i>Required reading:</i> <br/>
-<ul>
-  <li>R for Data Science: <a href = "https://r4ds.had.co.nz/model-intro.html">Modeling (Chapters 23-25)</a></li>
-</ul>
-</div>
-
-
-
-
-
-
-<!--##################################### Week 10 #####################################-->
-
-
-## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">October 31 - November 2</font></i></b>
-
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
-
-<!--**Monday**: No meetings.
-
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
-
-**Following Monday**: Lab due by 5PM
-
-Discussion questions for this week:
-
-1. Have you ever been the target of trolling or a misinformation campaign? Was it successful? Why or why not?
-2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
-3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
-
-
-#### Did Russia's Social Media Campaign Succeed?
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/J6WI38QvwFI" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-
-***Required reading***:
-- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
-
-***Optional Materials***:
-- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
-- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
-- [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
-
-
-#### Lab #8: Introduction to text analysis
+#### Lab #7: Introduction to text analysis
 <div class="callout callout--info">
     
     
@@ -740,36 +633,43 @@ allowfullscreen></iframe>
 
 
 
-<!--##################################### Week 11 #####################################-->
 
-## 11 - Protest and Censorship
-<b><i><font color="#E84E4E">November 7-9</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+
+
+
+<!--##################################### Week 9 #####################################-->
+
+## 9 - Hate Speech & Radicalization
+<b><i><font color="#E84E4E">March 6/8</font></i></b>
+
+**Wednesday**: Does Hate Spread more Quickly Online?
+
+**Friday**: More Text Analysis!
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Following Monday**: Lab due by 5PM
 
-#### Online Social Change (Zeynep Tufekci)
+#### Using Google Search to Track Radicalization
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
+src="https://www.youtube.com/embed/-XH_cF2S72g" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
 
-***Required Reading***
-
-Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
+***Required reading***:
+-  Alexandra Siegal & Vivienne Badaan. [#No2Sectarianism: Experimental Approaches to Reducing Sectarian Hate Speech Online](https://www.cambridge.org/core/journals/american-political-science-review/article/no2sectarianism-experimental-approaches-to-reducing-sectarian-hate-speech-online/27157485824C8E071CB2DD3E26012EA3).
 
 
 ***Optional Materials***:
+- Paris Martineau. [Maybe It’s Not YouTube’s Algorithm That Radicalizes People](https://www.wired.com/story/not-youtubes-algorithm-radicalizes-people/)
+- Kevin Munger. [Tweetment Effects on the Tweeted](https://link.springer.com/article/10.1007/s11109-016-9373-5)
+- Chris Bail et al. [Using Internet Search Data to examine the relationship between anti-Muslim and pro-ISIS sentiment in U.S. counties](https://advances.sciencemag.org/content/4/6/eaao5948)
 
-- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
 
-
-#### Lab #9: Word counts and dictionaries
+#### Lab #8: Word counts and dictionaries
 <div class="callout callout--info">
     
 <p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Monday by 5PM)</i></p>
@@ -806,62 +706,182 @@ allowfullscreen></iframe>
 
 
 
+<!--##################################### Week 10 #####################################-->
+
+
+## 10 - Misinformation and Trolling
+<b><i><font color="#E84E4E">March 20/21</font></i></b>
+
+***Wednesday**: Does Misinformation Work?
+
+***Friday**: Word Embeddings
+
+<!--**Monday**: No meetings.
+
+**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
+
+**Following Monday**: Lab due by 5PM
+
+Discussion questions for this week:
+
+1. Have you ever been the target of trolling or a misinformation campaign? Was it successful? Why or why not?
+2. Do you think we need new studies to examine the role of misinformation about COVID that may be different than the type propagated by the Russia-linked IRA?
+3. What types of policies do you think that social media companies and the government should consider to address misinformation, if any?
+
+
+#### Did Russia's Social Media Campaign Succeed?
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/J6WI38QvwFI" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+
+***Required reading***:
+- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
+
+***Optional Materials***:
+- Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
+- Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
+- [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
+
+
+
+#### Lab #8: Word Embeddings
+<div class="callout callout--info">
+    
+
+
+
+
+<!--##################################### Week 11 #####################################-->
+
+## 11 - Protest and Censorship
+<b><i><font color="#E84E4E">March 27/29</font></i></b>
+
+**Wednesday**: Is Social Media Protest Different?
+
+**Friday**: Let's build a Large Language Model Together!
+
+<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+
+**Following Monday**: Lab due by 5PM
+
+#### Online Social Change (Zeynep Tufekci)
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+***Required Reading***
+
+Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
+
+
+***Optional Materials***:
+
+- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
+
+
+
+#### Lab #9: Large Language Models
+<div class="callout callout--info">
+    
+
+
+
+<!--  #   #### Lab #10: Topic Modeling
+ <!--   #   <div class="callout callout--info">
+ <!--   #   
+ <!--   #   <p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (due the following Monday by 5PM)</i></p>
+ <!--   # <!--<p><i><b>Lab #10: Topic Modeling</b> (due the following Monday by 5PM)</i></p>-->
+<!--    # 
+ <!--   # <i><b>Lab Video Lecture: Topic modeling</b></i> 
+ <!--   #   
+ <!--   #   <iframe width="560" height="315"
+ <!--   # src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
+   <!-- # frameborder="0" 
+   <!-- # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+  <!--  # allowfullscreen></iframe>
+  <!--  #   
+  <!--  #   <br/>
+  <!--  #   
+  <!--  #   <i>Materials from Video:</i><br/>
+  <!--  #   <ul>
+  <!--  #   <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump <!--Tweets</a></li>
+  <!--  #   </ul>
+   <!-- #   
+   <!-- #   <i>Required reading:</i><br/>
+   <!-- #   <ul>
+   <!-- #   <li>Text Mining with R: A Tidy Approach, <a href = <!--"https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
+   <!-- #   <li><a href = <!--"https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm Package <!--Vignette</a></li>
+<!--    #   
+<!--<!--    #   </ul>
+<!--    #   
+<!--    #   <i>Optional resources:</i><br/>
+<!--    #   <ul>
+<!--    #   
+<!--    #   <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
+<!--    #   <li><a href = <!--"https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analys<!--is-de5aa3e72bdb"> Intro to Topic Models</a></li>
+<!--    #   <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy <!--Approach</a>, by Julia Silge and David Robinson</li>
+<!--    #   <li><a href = <!--"https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> <!--cheet sheet</a></li>
+<!--    #   
+ <!--   #   </ul>
+ <!--   #   
+ <!--   #   </div>
+
+
+
 
 <!--##################################### Week 12 #####################################-->
 
 ## 12 - Modeling and Communication 
-<b><i><font color="#E84E4E">November 14-16</font></i></b>
+<b><i><font color="#E84E4E">April 3/5</font></i></b>
 
-**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.
+**Wednesday**: Making a social science Model
 
-**Following Monday**: Lab due by 5PM
+**Friday**: Communicating your results
 
+
+**No More Labs-- wor on your final projects instead**
 <!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
 <!--Regular TA office hours will be open.-->
 
 
-#### Lab #10: Topic Modeling
+#### Social Science Modeling (A Brief Introduction)
 <div class="callout callout--info">
-
-<p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #10: Topic Modeling</b> (due the following Monday by 5PM)</i></p>-->
-
-<i><b>Lab Video Lecture: Topic modeling</b></i> 
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-<br/>
-
-<i>Materials from Video:</i><br/>
-<ul>
-  <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump Tweets</a></li>
-</ul>
-
-<i>Required reading:</i><br/>
-<ul>
-  <li>Text Mining with R: A Tidy Approach, <a href = "https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
-  <li><a href = "https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm Package Vignette</a></li>
   
-</ul>
-
-<i>Optional resources:</i><br/>
-<ul>
-
-  <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
-  <li><a href = "https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analysis-de5aa3e72bdb"> Intro to Topic Models</a></li>
-  <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy Approach</a>, by Julia Silge and David Robinson</li>
-  <li><a href = "https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> cheet sheet</a></li>
+  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (due the following Monday by 5PM)</i></p>
+  <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Monday by 5PM)</i></p>-->
   
-</ul>
+  <i><b>Lab Video Lecture: Modeling</b></i> 
+    
+    <iframe width="560" height="315"
+    src="https://www.youtube.com/embed/y4B3JVicRxY" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen></iframe>
+      
+      
+      <br/>
+      
+      <i>Materials from Video:</i><br/>
+      <ul>
+      <li><a href = "/datasets/Wapo_Opioid_Data.Rdata">Download Opioid Dataset</a></li>
+      </ul>
+      
+      <i>Required reading:</i> <br/>
+      <ul>
+      <li>R for Data Science: <a href = "https://r4ds.had.co.nz/model-intro.html">Modeling (Chapters 23-25)</a></li>
+      </ul>
+      </div>
+      
 
-</div>
-
-#### Lab: Communicating Your Research
+#### Communicating Your Research
 <div class="callout callout--info">
 
 <p>No graded assignment this week-- apply communication or collaboration skills to your final project instead.</p>
@@ -873,6 +893,10 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 </div>
+
+
+
+
 
 <!--
 ## 13 - One-on-one Meetings With Dr. Bail 
@@ -889,16 +913,11 @@ Regular TA office hours will be open.
 
 
 
-
-
-
-
-
 <!--##################################### Week 13 #####################################-->
 
 ## 13 - Tutorials: 1-1 meetings
 
-<b><i><font color="#E84E4E">November 21</font></i></b>
+<b><i><font color="#E84E4E">April 10/12</font></i></b>
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
@@ -916,11 +935,12 @@ No class. Work on final presentation and paper.
 
 
 
+
 <!--##################################### Week 14 #####################################-->
 
 ## 14 - Tutorials: 1-1 meetings
 
-<b><i><font color="#E84E4E">November 28-30</font></i></b>
+<b><i><font color="#E84E4E">April 17/19</font></i></b>
 
 <!--**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.-->
 
@@ -940,11 +960,11 @@ No class. Work on final presentation and paper.
 
 ## 15 - Final Presentations
 
-<b><i><font color="#E84E4E">December 5-7</font></i></b>
+<b><i><font color="#E84E4E">April 24</font></i></b>
 
 <!--Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-Final presentations during normal class time. Will post sign-up sheet.
+Final presentations during normal class time and place (11:45-1pm) . Will post sign-up sheet.
 
 
 
@@ -957,9 +977,8 @@ Final presentations during normal class time. Will post sign-up sheet.
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
-***Final paper DUE December 16 by 5pm.***
+***Final paper DUE Thursday May 2nd at 5pm (submit via Slack DM to Professor Bail and TA).***
 
-<!--***Final paper DUE Thursday April 28 at 5pm EDT***-->
 
 
 

@@ -9,7 +9,7 @@ description:
 
 buttons:
     - content:
-      url: 'dssspring2021.slack.com'
+      url: 'https://datasciencean-lbv5536.slack.com/'
       external_url: true
       icon: slack
     - content:
@@ -17,7 +17,7 @@ buttons:
       external_url: true
       icon: youtube      
     - content:
-      url: 'https://twitter.com/chris_bail'
+      url: 'https://www.threads.net/@chris_bail_duke'
       external_url: true
       icon: twitter
 
@@ -26,7 +26,7 @@ buttons:
 author: 
     title: <a href="https://www.chrisbail.net/">Chris Bail</a>
     title_url: ''
-    description: <b>Professor of Sociology & Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
+    description: <b>Professor of Sociology, Political Science & Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
 
 
 # Micro navigation
@@ -40,7 +40,7 @@ grid_navigation:
       url: '/course'
       
     - title: Schedule
-      excerpt: Spring 2022
+      excerpt: Spring 2024
       cta: 
       url: '/schedule'
 ---
