@@ -144,9 +144,9 @@ My goal is for you to produce something that you can show to future employers, g
 
 ***How Your Grade Will be Calculated***
 <br/>
-- Final Project Paper 45%
-- Lab exercises 40%
-- Attendance and Participation 15%
+- Final Project Paper 60%
+- Lab exercises 20%
+- Attendance and Participation 20%
 <br/>
 
 ### COURSE POLICIES
