@@ -42,7 +42,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ### OVERVIEW OF CLASS FORMAT
 
-Each week, there will be two lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. 
+Each week, there will be two lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. In order to help you prepare for our substantive discussions about each social science topic, there are weekly "discussion questions" posted on the course website.
 
 ***Required Readings***
 <br/>
@@ -54,30 +54,32 @@ We will draw heavily on two excellent books, both of which are freely available 
 
 ***R & RStudio***
 <br/>
-In this class, we will use R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible.
+In this class, we will use R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible. I will discuss how to install and set up R during the first week of class.
 <br/>
 
 ***Slack***
 <br/>
 We will be using [Slack](https://www.youtube.com/watch?v=EYqxQGmQkVw ) to communicate with each other. Slack is a messaging platform that let's us share code, web links, and other things easily- it also allows me to make announcements to the class and share other things I think you might find interesting (e.g. internship announcements or articles that build upon our discussions with each other). Slack is also used by many different companies and organizations in and outside the tech world, so this might be a great chance to learn how to use it if you have not already. You can read more about getting started with Slack [here](https://slack.com/help/articles/218080037-Getting-started-for-new-members).
 
-The Slack channel invite will be sent to your email before the first day of class, but please contact the TA if you have not received it.
+The Slack channel invite will be sent to your email before the first day of class, but please contact the TA if you have not received it. I do not post the link to our Slack Workspace on this site in order to make sure access is restricted to people enrolled in the class at Duke.
 
 <br/>
+
+***ChatGPT/Large Language Model Policy***
+
+ChatGPT and other Large Language Models (LLMs) are permitted in this class for some, but not all assignments. LLMs are permitted for use in labs and in-class coding exercises. But please be aware that LLMs can sometimes create more problems than they solve. Research indicates LLMs can be useful for learning how to write software code. But they are most useful to people who are already familiar with core concepts in software development who know what terms to use to prompt models to produce the code they hope to create. If you are new to coding, I encourage you not to rely too heavily on LLMs for this reason. LLMS <i> can</> be useful for interpreting code (i.e. explaining how it works), but remember that most LLMs remain prone to "hallucinations" that might inaccurately describe code, or produce code that does not run.
+
+ChatGPT and other LLMs are <i>not</i> permitted for drafting text for your final paper. Though LLMs can easily write essays about well known topics, they cannot perform causal inference correctly, and therefore cannot write a research paper like the one you are assinged to create for this class. I do not employ any Generative AI detection tools in this class to review your writing, since research indicates they are not reliable. Instead, compliance with this policy relies upon your compliance with the Duke Community Standard.
 
 ***Stack Overflow***
 <br/>
 The field of computational social science is growing so rapidly that none of the resources I give you will remain at the cutting edge for long. You will almost certainly encounter issues unique to the data we collect as part of our final research projects and/or incompatibilities between software packages and/or your computer. Stack Overflow is a website where computer programmers help each other solve such problems. Individuals ask questions, and others earn “reputation points” for solving their problems—these reputation points are awarded by the person who asks the question as well as other site users who vote upon the elegance/efficiency of each solution. For you, this reputation system means you can quickly identify the most high-quality solutions to your problems. Take a tour of the site [here](https://stackoverflow.com/tour).
 <br/>
 
-***Twitter/Blogs***
-<br/>
-Many of the most important advances in computational social science appear first on Twitter or blogs. I therefore encourage you to open a Twitter account-if you don’t already have one- and follow the authors we read, or consider checking out the people [I follow](https://twitter.com/chris_bail/following). Having a Twitter account will also come in handy for some of the exercises we do in class to collect data from Twitter. Of the many blogs that you might read, I recommend R Bloggers, which provides a concise overview of new functions in R as well as solutions to common problems faced by computational social scientists, as well as those in other fields.
-<br/>
 
 ***Lecture Videos***
 
-During the period when all courses were online, I recorded videos of all of the lectures for this class which I have posted on the syllabus as a further reference for you.
+If you miss something from a lecture, I have recorded many of them in high quality 4k video and posted them on our website to help you review before labs and/or drafting your final paper.
 <br/>
 
 ### FORMAL REQUIREMENTS
@@ -86,14 +88,16 @@ During the period when all courses were online, I recorded videos of all of the 
 
 ***Weekly Readings***
 <br/>
-You are responsible for understanding the assigned readings each week. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Remember that this syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice. Each week, we also provide you with a list of "optional readings" in case you want to go deeper into the material that is covered in the assigned readings.
+You are responsible for reading and understanding the assigned readings each week. Make use of your fellow students, your TA, the Internet, a dictionary, and me to ensure that you understand the readings. Using Large Language Models to summarize readings is not permitted.
+
+This syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice. Each week, we also provide you with a list of "optional readings" in case you want to go deeper into the material that is covered in the assigned readings.
 <br/>
 
 ***Weekly Lab Assignments***
 <br/>
 _By 5PM on the listed due date_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
 
-Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfull completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments). Be sure to follow the guidelines posted in the Lab Instructions document at the top of each lab.
+Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfully completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments). Be sure to follow the guidelines posted in the Lab Instructions document at the top of each lab.
 
 Please Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
 <br/>
@@ -116,10 +120,11 @@ _Whether you find support for your hypothesis will not effect your grade_. Inste
 
 If you have questions about your grade for the final project at any time we can discuss them during our one-on-one meetings- the earlier you begin thinking about and developing your project, the more quickly and efficiently I can give you feedback to help you achieve the grade you desire.
 
-The final project will consist of two parts: a final presentation and a final paper.
+The final project will consist of three parts: two individual meetings with me (during our regular class time), a final presentation, and a final paper.
 
+**One-on-one Tutorial Meetings** To help you develop your final project, I ask that you meet with me individual towards the end of the semester so that we can discuss how to best identify a research question and suitable methods to answer it. These meetings will occur during our regularly scheduling class time, and a sign-up link for the meetings will be posted on slack several weeks before the first set of one-on-one meetings. All one-on-one meetings will be held in Dr. Bail's office, or via Zoom.
 
-**Your final project presentation** will be an opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen during normal class hours - see course schedule for the sign-up link.***
+**Your final project presentation** will be an additional opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen during normal class hours - see course schedule for the sign-up link.***
 
 
 **Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Friday, December 16 at 5pm EDT***. It should be **at least 2,500 words** and the knitted web page SHOULD NOT include code blocks. The written component grading will follow [this rubric](https://docs.google.com/document/d/193_AZY56F-QWdsKxzuVv-0ZrMWwCvOqaXtgvRQbAYmM/edit?usp=sharing), and it should include the following components:
@@ -206,9 +211,7 @@ computers and stable internet may request assistance in the form of loaner lapto
 
 ***Office Hours***
 <br/>
-Because of our virtual format-- and weekly one-on-one meetings, I am not holding regular office hours- however, I am very happy to find time to meet with you on an ad hoc basis if you wish to go above and beyond what we discuss in our weekly meetings.
-
-
+Please contact me in advance if you would like to visit my office hours. 
 
 ### FINAL PROJECT EXAMPLES
 
