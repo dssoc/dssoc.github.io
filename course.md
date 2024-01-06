@@ -28,7 +28,7 @@ Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>p
 <br/> 
 <i>PhD Candidate, Sociology</i> <br/>
 noah.gibson@duke.edu <br/>
-Office Hours: TBD.
+Office Hours: Wednesday 10:30-11:30pm (135 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
 </div>
 
 ### COURSE DESCRIPTION
