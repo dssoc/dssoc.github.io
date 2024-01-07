@@ -67,7 +67,7 @@ The Slack channel invite will be sent to your email before the first day of clas
 
 ***ChatGPT/Large Language Model Policy***
 
-ChatGPT and other Large Language Models (LLMs) are permitted in this class for some, but not all assignments. LLMs are permitted for use in labs and in-class coding exercises. But please be aware that LLMs can sometimes create more problems than they solve. Research indicates LLMs can be useful for learning how to write software code. But they are most useful to people who are already familiar with core concepts in software development who know what terms to use to prompt models to produce the code they hope to create. If you are new to coding, I encourage you not to rely too heavily on LLMs for this reason. LLMS <i> can</> be useful for interpreting code (i.e. explaining how it works), but remember that most LLMs remain prone to "hallucinations" that might inaccurately describe code, or produce code that does not run.
+ChatGPT and other Large Language Models (LLMs) are permitted in this class for some, but not all assignments. LLMs are permitted for use in labs and in-class coding exercises. But please be aware that LLMs can sometimes create more problems than they solve. Research indicates LLMs can be useful for learning how to write software code. But they are most useful to people who are already familiar with core concepts in software development who know what terms to use to prompt models to produce the code they hope to create. If you are new to coding, I encourage you not to rely too heavily on LLMs for this reason. LLMS can be useful for interpreting code (i.e. explaining how it works), but remember that most LLMs remain prone to "hallucinations" that might inaccurately describe code, or produce code that does not run.
 
 ChatGPT and other LLMs are <i>not</i> permitted for drafting text for your final paper. Though LLMs can easily write essays about well known topics, they cannot perform causal inference correctly, and therefore cannot write a research paper like the one you are assinged to create for this class. I do not employ any Generative AI detection tools in this class to review your writing, since research indicates they are not reliable. Instead, compliance with this policy relies upon your compliance with the Duke Community Standard.
 
@@ -99,7 +99,7 @@ _By 5PM on the listed due date_, you will be required to complete and submit the
 
 Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfully completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments). Be sure to follow the guidelines posted in the Lab Instructions document at the top of each lab.
 
-Please Submit all homework assignments to our TA (Devin Cornell) via direct message on Slack.
+Please Submit all homework assignments to our TA (Noah Gibson) via direct message on Slack.
 <br/>
 
 <!--
@@ -127,7 +127,7 @@ The final project will consist of three parts: two individual meetings with me (
 **Your final project presentation** will be an additional opportunity to get feedback from Prof. Bail and your fellow students that can help you write a better paper. The format of the presentation is entirely up to you. Feel free to use Google Slides, Powerpoint, or anything else that suits you. The presentations will be total 10 minutes including 8 minutes of presentation time and 2 minutes for questions and feedback. The presentation itself is ungraded, so only the final paper will be included in your final grade. ***Final presentations will happen during normal class hours - see course schedule for the sign-up link.***
 
 
-**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Friday, December 16 at 5pm EDT***. It should be **at least 2,500 words** and the knitted web page SHOULD NOT include code blocks. The written component grading will follow [this rubric](https://docs.google.com/document/d/193_AZY56F-QWdsKxzuVv-0ZrMWwCvOqaXtgvRQbAYmM/edit?usp=sharing), and it should include the following components:
+**Your final project paper** should be submitted as both an R Markdown (.Rmd) file and a knitted web page (.html) file by the ***deadline on Thursday, May 2nd at 5pm EDT***. It should be **at least 2,500 words** and the knitted web page SHOULD NOT include code blocks. The written component grading will follow [this rubric](https://docs.google.com/document/d/193_AZY56F-QWdsKxzuVv-0ZrMWwCvOqaXtgvRQbAYmM/edit?usp=sharing), and it should include the following components:
 
 A) an introduction in which you ask the research question and explain why it is important;
 B) a section where you define key concepts in your study and present hypotheses to answer your research question;
