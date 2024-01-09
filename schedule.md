@@ -710,7 +710,7 @@ allowfullscreen></iframe>
 
 
 ## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 20/21</font></i></b>
+<b><i><font color="#E84E4E">March 20/22</font></i></b>
 
 ***Wednesday**: Does Misinformation Work?
 
