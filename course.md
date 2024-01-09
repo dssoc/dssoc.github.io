@@ -172,7 +172,9 @@ group, and couples counseling services, health coaching, psychiatric services, a
 workshops and discussions. They can be reached at (919) 660-1000
 <br/>
 
-[Blue Devils Care](bluedevilscare.duke.edu). A convenient and cost-effective way for Duke students to receive 24/7 mental health support through TalkNow.  Managing daily stress and self-care are also important to well-being. 
+[TimelyCare](https://app.timelycare.com/auth/login). An online platform that is a convenient, confidential, and free way for Duke
+students to receive 24/7 mental health support through TalkNow and
+scheduled counseling.
 <br/>
 
 Duke offers several resources for students to both seek assistance on coursework and improve overall
@@ -192,7 +194,7 @@ In addition to accessibility issues experienced during the typical academic year
 
 <br/>
 **Technology Accommodations** Students with demonstrated high financial need who may have limited access to
-computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2022 technology assistance requests, please [go here](https://duke.qualtrics.com/jfe/form/SV_24Q2Iv1edXSwt5s). Please note that supplies are limited. For updates, please visit [this link](https://keeplearning.duke.edu/undergraduate-students/).
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2024 technology assistance requests, please [go here](https://dukelife.duke.edu/technology-assistance-program/). Please note that supplies are limited. 
 <br/>
 
 **Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.  
@@ -200,7 +202,7 @@ computers and stable internet may request assistance in the form of loaner lapto
 
 **Accommodations for Remote Students** If you are unable to attend one of our group meetings, please contact me and we can discuss how to accommodate your needs during this very challenging time.
 
-**Religious Accommodations** Students are permitted by university policy to be absent from class to observe a religious holiday. Accordingly, Trinity College of Arts & Sciences and the Pratt School of Engineering have established procedures to be followed by students for notifying their instructors of an absence necessitated by the observance of a religious holiday. Please submit requests forreligious accommodations at the beginning of the semester so that we can work to make suitablearrangements well ahead of time.You can find the policy and relevant notification form here: https://trinity.duke.edu/undergraduate/academic-policies/religious-holidays.
+**Religious Accommodations** Students are permitted by university policy to be absent from class to observe a religious holiday. Accordingly, Trinity College of Arts & Sciences and the Pratt School of Engineering have established procedures to be followed by students for notifying their instructors of an absence necessitated by the observance of a religious holiday. Please submit requests for religious accommodations at the beginning of the semester so that we can work to make suitable arrangements well ahead of time. You can find the policy and relevant notification form here: https://trinity.duke.edu/undergraduate/academic-policies/religious-holidays.
 <br/>
 
 **Pronouns** If you would like to specify the pronoun you prefer, please do so in DukeHub.
