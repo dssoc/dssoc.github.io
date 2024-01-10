@@ -25,7 +25,7 @@ page_nav:
 
 **Wednesday**: What is Computational Social Science? 
 
-**Friday**: Hello World: Let's Code!  <i>class online</i>, 
+**Friday**: Hello World: Let's Code!
 
 No lab due this week, but please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you got everything set up correctly.
 <br>
