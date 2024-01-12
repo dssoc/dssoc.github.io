@@ -124,8 +124,8 @@ allowfullscreen></iframe>
 #### Lab #1: R Basics 
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #1: R Basics</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_1.html">Lab #1: R Basics</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #1: R Basics</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: R Basics</b></i> 
 
@@ -194,8 +194,8 @@ allowfullscreen></iframe>
 #### Lab #2: Data Wrangling
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #2: Data Wrangling</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_2.html">Lab #2: Data Wrangling</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #2: Data Wrangling</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data "Wrangling"</b></i> 
 
@@ -265,8 +265,8 @@ allowfullscreen></iframe>
 #### Lab #3: Data Visualization
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #3: Data Visualization</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_3.html">Lab #3: Data Visualization</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #3: Data Visualization</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Data Visualization</b></i> 
 
@@ -344,8 +344,8 @@ allowfullscreen></iframe>
 #### Lab #4: Programming Basics
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #4: Programming Basics</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_4.html">Lab #4: Programming Basics</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #4: Programming Basics</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Programming</b></i> 
 
@@ -440,12 +440,12 @@ allowfullscreen></iframe>
 #### Lab #5: Coding Social Networks
 <div class="callout callout--info">
 
-<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (Due Wednesday, October 12 by 5PM)</i></p>
-<!--<p><i><b>Lab #5: Coding Social Networks</b> (Due Wednesday, October 12 by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #5: Coding Social Networks</b> (due the following Wednesday by 5PM)</i></p>-->
 
 
 <!-- THESE ARE CHANGED BECAUSE SPRING BREAK>
-<!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (due the following Monday by 5PM)</i></p>-->
+<!--<p><i><b><a href = "/assignments/Lab_5.html">Lab #5: Coding Social Networks</a></b> (due the following Wednesday by 5PM)</i></p>-->
 <!--<p><i><b>Lab #5: Coding Social Networks</b> (due the following Monday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Coding Social Networks</b></i> 
@@ -517,8 +517,8 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 
@@ -597,8 +597,8 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
     
@@ -672,8 +672,8 @@ allowfullscreen></iframe>
 #### Lab #8: Word counts and dictionaries
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Monday by 5PM)</i></p>
-<!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (due the following Monday by 5PM)</i></p>-->
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Wednesday by 5PM)</i></p>
+<!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
 
@@ -796,8 +796,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 <!--  #   #### Lab #10: Topic Modeling
  <!--   #   <div class="callout callout--info">
  <!--   #   
- <!--   #   <p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (due the following Monday by 5PM)</i></p>
- <!--   # <!--<p><i><b>Lab #10: Topic Modeling</b> (due the following Monday by 5PM)</i></p>-->
+ <!--   #   <p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (due the following Wednesday by 5PM)</i></p>
+ <!--   # <!--<p><i><b>Lab #10: Topic Modeling</b> (due the following Wednesday by 5PM)</i></p>-->
 <!--    # 
  <!--   # <i><b>Lab Video Lecture: Topic modeling</b></i> 
  <!--   #   
@@ -855,8 +855,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 #### Social Science Modeling (A Brief Introduction)
 <div class="callout callout--info">
   
-  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (due the following Monday by 5PM)</i></p>
-  <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Monday by 5PM)</i></p>-->
+  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (due the following Wednesday by 5PM)</i></p>
+  <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Wednesday by 5PM)</i></p>-->
   
   <i><b>Lab Video Lecture: Modeling</b></i> 
     
