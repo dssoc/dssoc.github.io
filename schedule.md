@@ -168,6 +168,11 @@ allowfullscreen></iframe>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
+Discussion questions for this week:
+1. Have you ever been surprised by political developments that you did not see coming on social media?
+2. Do you feel like you are in an echo chamber on some platforms more than others? Why?
+3. Do you think TikTok makes the echo chamber effect stronger or weaker?
+
 **Following Wednesday**: Lab due by 5PM
 
 #### Do our Platforms Push us Apart?
