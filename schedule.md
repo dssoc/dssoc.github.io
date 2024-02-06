@@ -331,6 +331,12 @@ allowfullscreen></iframe>
 
 **Following Wednesday**: Lab due by 5PM
 
+Group discussion questions for this week: 
+
+1. How do the three causes of similarity—induction, homophily, and confounding—outlined by Nicholas Christakis, contribute to our understanding of patterns in voting behavior and political polarization?
+2. Reflecting on your personal experiences, in what ways has your social network influenced your health?
+3. What are some ways in which the structure of social networks has changed since the rise of social media?
+
 #### The Hidden Influence of Social Networks
 
 <iframe width="560" height="315"
