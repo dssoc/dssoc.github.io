@@ -67,7 +67,7 @@ get_committee_comemberships <- function(cong, subcomm, memberships) {
   
   # get subcommittees only
   subcommittee_memberships <- subcomm %>% 
-    inner_join(memberships, on=thomas_id)
+    inner_join(memberships, by = "thomas_id")
   
   # create graph from subcommittee memberships
   g <- subcommittee_memberships %>% select(thomas_id, bioguide_id) %>% graph_from_data_frame(directed=FALSE)
