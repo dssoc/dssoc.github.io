@@ -528,13 +528,13 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (due the following Wednesday by 5PM)</i></p>
+<p><i><b><a > No lab </i></p>
 <!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/LTC8laBJGP0" 
+
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
