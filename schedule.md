@@ -524,18 +524,29 @@ allowfullscreen></iframe>
 - Shoshanna Zuboff. [You are Now Remotely Controlled](https://www.nytimes.com/2020/01/24/opinion/sunday/surveillance-capitalism.html)
 
 
+#### Lab #6: Working with APIs
+<div class="callout callout--info">
+    
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (No lab this week!)</i></p>
+<!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
+    
+<i><b>Lab Video Lecture: Working with APIs</b></i> 
+<iframe width="560" height="315"
+src="https://www.youtube.com/embed/LTC8laBJGP0" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+<br/>
 <i>Optional reading:</i> <br/>
 <ul>
   <li>Intro to APIs <a href = "https://medium.com/@rwilliams_bv/apis-d389aa68104f">, by Beck Williams</a></li>
   <li>An Illustrated Introduction to APIs <a href = "https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9">, by Xavier Adam</a></li>
   <li>Setup for spotifyr <a href = "https://github.com/charlie86/spotifyr"></a></li>
   <li>Obtaining and using access tokens for Twitter <a href = "https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html"></a></li></ul>
-
   <li><a href = "https://www.rcharlie.com/spotifyr/"> R wrapper for the Spotify API</a></li>
   <li><a href = "https://rtweet.info/"> R wrapper for the Twitter API,</a></li>
 </ul>
 </div>
-
 
 
 
