@@ -603,7 +603,7 @@ allowfullscreen></iframe>
 <div class="callout callout--info">
     
     
-<p><i><b><a href = "/assignments/Lab_8.html">Lab #8: Introduction to Text Analysis</a></b> (due the following Wednesday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_8.html">Lab #7: Introduction to Text Analysis</a></b> (due the following Wednesday by 5PM)</i></p>
 <!--<p><i><b>Lab #8: Introduction to Text Analysis</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Introduction to text analysis</b></i> 
@@ -678,7 +678,7 @@ allowfullscreen></iframe>
 #### Lab #8: Word counts and dictionaries
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_9.html">Lab #9: Word Counts and Dictionaries</a></b> (due the following Wednesday by 5PM)</i></p>
+<p><i><b><a href = "/assignments/Lab_9.html">Lab #8: Word Counts and Dictionaries</a></b> (due the following Wednesday by 5PM)</i></p>
 <!--<p><i><b>Lab #9: Word Counts and Dictionaries</b> (due the following Wednesday by 5PM)</i></p>-->
 
 <i><b>Lab Video Lecture: Word counts and dictionaries</b></i> 
@@ -754,7 +754,7 @@ allowfullscreen></iframe>
 
 
 
-#### Lab #8: Word Embeddings
+#### Lab #9: Word Embeddings
 <div class="callout callout--info">
 </div>
 
@@ -793,7 +793,7 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 
 
 
-#### Lab #9: Large Language Models
+#### Lab #10: Large Language Models
 <div class="callout callout--info">
 </div>
 
