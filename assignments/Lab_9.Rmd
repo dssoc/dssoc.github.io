@@ -1,11 +1,11 @@
 ---
-title: "Lab #9: Dictionary-Based Text Analysis"
+title: "Lab #8: Dictionary-Based Text Analysis"
 author: "Data Science and Society (Sociology 367)"
 date: ""
 output: html_document
 ---
 
-**[Lab #9 Markdown File](/assignments/Lab_9.Rmd)**
+**[Lab #8 Markdown File](/assignments/Lab_9.Rmd)**
 
 **[Lab Instructions](https://dssoc.github.io/assignments/lab_instructions.html)**
 
