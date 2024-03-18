@@ -91,7 +91,7 @@ token_counts <- senator_tweet_sample %>%
   select(status_id, is_weekend, text) %>% 
   mutate(text = str_remove_all(text, url_pattern)) %>% # remove urls
   mutate(text = str_remove_all(text, mention_pattern)) %>% # remove mentions
-  unnest_tokens("word", text, token = "tweets") %>%  # tokenize, preserving hashtags
+  unnest_tokens("word", text, token = "words") %>%  # tokenize, preserving hashtags
   anti_join(stop_words) %>% # remove stopwords
   count(status_id, is_weekend, word) # count the words by weekday/weekend
 token_counts %>% head()
@@ -140,7 +140,7 @@ tdf %>% head()
 
 # tokenize texts (see 'token' parameter in docs)
 party_token_counts <- tdf %>% 
-  unnest_tokens("word", text, token = "tweets") %>% 
+  unnest_tokens("word", text, token = "words") %>% 
   anti_join(stop_words) %>% # remove stopwords
   count(is_repub, word)
 party_token_counts %>% head()
@@ -181,10 +181,8 @@ tf_idf_scores %>%
 ```
 <br/>
 
-**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our `senator_tweet_sample` corpus after removing URLs, stopwords, and "mentions" (cases where you see an "@" followed by non-whitespace characters - see Lab 8 example problems), but preserving hashtags as tokens (e.g. "#19thamendment" should be a single token). Now create a similar plot that ONLY includes the hashtags.**
+**2. Create a bar graph showing the frequencies of the twenty most-used tokens in our `senator_tweet_sample` corpus after removing URLs, stopwords, and "mentions" (cases where you see an "@" followed by non-whitespace characters - see Lab 8 example problems).**
 
-Hint: you can do hashtag preservation in many ways, but you might find an easy solution by browsing the documentation for [`unnest_tokens`](https://www.rdocumentation.org/packages/tidytext/versions/0.2.6/topics/unnest_tokens
-) carefully.
 ```{r}
 # your answer here
 ```
@@ -204,9 +202,7 @@ your written explanation here
 ```{r}
 # your answer here
 ```
-```
-your written explanation here
-```
+
 <br/>
 
 
