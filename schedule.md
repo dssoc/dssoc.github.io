@@ -720,7 +720,7 @@ allowfullscreen></iframe>
 
 ***Wednesday**: Does Misinformation Work?
 
-***Friday**: Word Embeddings
+***Friday**: Word Embeddings; [See class tutorial here](https://cbail.github.io/textasdata/word2vec/rmarkdown/word2vec.html)
 
 <!--**Monday**: No meetings.
 
