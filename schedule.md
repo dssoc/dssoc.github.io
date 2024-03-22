@@ -754,8 +754,10 @@ allowfullscreen></iframe>
 
 
 
-#### Lab #9: Word Embeddings
+#### Lab #9: Final Project Hypotheses
 <div class="callout callout--info">
+    <p><i><b><a href = "/assignments/lab_9_hypotheses.html">Lab #9: Final Project Hypotheses</a></b> (due the following Wednesday by 5PM)</i></p>
+
 </div>
 
 
