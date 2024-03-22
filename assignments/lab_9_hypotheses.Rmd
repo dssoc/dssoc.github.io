@@ -1,0 +1,15 @@
+---
+title: 'Lab 9: Final Project Hypotheses'
+output: html_document
+date: "2024-03-22"
+---
+
+In Lab #4, we asked you to identify several possible datasets you could use for a final project. In lab #5, we asked you to write two specific research questions about a dataset. For this lab, we want you to gain experience developing hypotheses using social science research. Below, please write two paragraphs. Each paragraph should describe the hypothesis you want to test, including references to previous work that provide support for that hypothesis. For example, the theory of the “Strength of weak ties” might be used to support a hypothesis about the viral diffusion of YouTube videos (for a final project that was trying to determine why YouTube videos go viral).
+
+You do not need to use the same research question and/or data you described in Lab #4 or #5. It is very common for students to change their research questions, datasets, and hypotheses throughout the semester. On the other hand, if you are happy with the research question and dataset you identified in previous labs, that’s great! Feel free to use it for this lab as well. 
+
+HINT: Learning to write hypotheses well is one of the hardest parts of doing social science research. A good hypothesis usually a) draws/builds upon previous research; and b) specifies the relationship between one variable and another (e.g. YouTube videos will spread further if the people who share them are connected by weak ties). Note that you may need to do some research to “develop” or “support” your hypotheses in this way. Google scholar is one of the best resources for this. Please support your hypotheses with peer reviewed evidence created by other researchers, instead of simple web links or non-peer reviewed content from Wikipedia.
+
+***
+
+...your answer...
