@@ -1,0 +1,15 @@
+---
+title: 'Lab 10: Large Language Models'
+output: html_document
+date: "2024-03-22"
+---
+
+**[Lab #10 Markdown File](/assignments/lab_10_llm.Rmd)**
+
+In this week’s lab, your task is to use a LLM to code a group of documents. You can collect these documents in any way you want, but there need to be at least 20 of them. Some students will find this lab allows them to take the next step with their final project by testing out the feasibility of collecting some documents of interest, others may wish to simply collect a set of documents using the ArXiv API, as we did in our lab on APIs. 
+
+Next, you must code some attribute of each of the documents you collect using an LLM of your choice— however, this cannot be done manually (e.g. using the web interface for ChatGPT), instead, you must write code to do this using either the OpenAI API (warning: you will be charged once you use your free tokens so make sure that any for loops you create to encode your documents do not run-on too long). If you do not wish to use the OpenAI API, you may use one of the open-source models described on the Llammafile page linked on our syllabus. A downside of this approach is that you will require significant hard disk space to download a local large language model (e.g. 5gb).
+
+You may code whatever type of feature in the documents you collect that you like. You may find it useful to use this opportunity to do a very early test for a final paper. For example, a student interested in whether there is significant evidence of gender bias in statistics could a) download a set of articles from arxiv; and then b) pass the name of the author list to an LLM and ask it to determine what percentage of the authors are male.
+
+Note: a key challenge with this lab will be writing a prompt that creates the type of output you want. To that end, you may find this article useful.
