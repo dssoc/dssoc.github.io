@@ -799,6 +799,27 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 <div class="callout callout--info">
         <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday by 5PM)</i></p>
 
+<i><b>Lab Video Lecture: Large Language Models</b></i> 
+
+<iframe width="560" height="315"
+src="https://www.youtube.com/watch?v=FyeN5tXMnJ8" 
+frameborder="0" 
+allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+<br/>
+
+<i>Materials from Video:</i><br/>
+<ul>
+  <li><a href = "https://hacks.mozilla.org/2023/11/introducing-llamafile/">Introducing llamafile</a></li>
+</ul>
+
+<i>More Resources:</i><br/>
+<ul>
+  <li><a href = "https://www.youtube.com/watch?v=kCc8FmEb1nY">Building GPT</a></li>
+  <li><a href = "https://www.youtube.com/watch?v=fjJOgb-E41w">Attention Mechanism: Overview</a></li>
+</ul>
+
 </div>
 
 
