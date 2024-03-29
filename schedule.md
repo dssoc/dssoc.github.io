@@ -797,6 +797,8 @@ Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science
 
 #### Lab #10: Large Language Models
 <div class="callout callout--info">
+        <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday by 5PM)</i></p>
+
 </div>
 
 
