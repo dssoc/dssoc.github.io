@@ -877,7 +877,7 @@ allowfullscreen></iframe>
 **Friday**: Communicating your results
 
 
-**No More Labs-- wor on your final projects instead**
+**No More Labs-- work on your final projects instead**
 <!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
 <!--Regular TA office hours will be open.-->
@@ -886,7 +886,7 @@ allowfullscreen></iframe>
 #### Social Science Modeling (A Brief Introduction)
 <div class="callout callout--info">
   
-  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (due the following Wednesday by 5PM)</i></p>
+  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (No lab due this week)</i></p>
   <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Wednesday by 5PM)</i></p>-->
   
   <i><b>Lab Video Lecture: Modeling</b></i> 
