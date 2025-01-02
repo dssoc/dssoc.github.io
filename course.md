@@ -18,17 +18,17 @@ micro_nav: true
 
 <div class="callout callout--info">
 <p><strong>Chris Bail</strong></p>
-<i>Professor of Sociology, Political Science, & Public Policy</i> <br/>
+<i>Professor of Sociology, Computer Science, Political Science, & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
 Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
 <hr/>
 <br/>
-<p><b>Teaching Assistant: Noah Gibson</b></p>
+<p><b>Teaching Assistant: Andrew Joyce</b></p>
 <br/> 
 <i>PhD Candidate, Sociology</i> <br/>
-noah.gibson@duke.edu <br/>
-Office Hours: Wednesday 10:30-11:30pm (135 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
+andrew.joyce@duke.edu <br/>
+Office Hours: TBD (135 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
 </div>
 
 ### COURSE DESCRIPTION
