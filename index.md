@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Data Science & Society
+title: Studying Society with AI
 description: 
 
 buttons:
@@ -26,7 +26,7 @@ buttons:
 author: 
     title: <a href="https://www.chrisbail.net/">Chris Bail</a>
     title_url: ''
-    description: <b>Professor of Sociology, Political Science & Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
+    description: <b>Professor of Sociology, Computer Scinece, Political Science, Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
 
 
 # Micro navigation
