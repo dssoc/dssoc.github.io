@@ -40,7 +40,7 @@ grid_navigation:
       url: '/course'
       
     - title: Schedule
-      excerpt: Spring 2024
+      excerpt: Spring 2025
       cta: 
       url: '/schedule'
 ---
