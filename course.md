@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Spring 2024
+description: Duke University, Sociology 367S <br/> Spring 2025
 
 
 # Micro navigation
@@ -26,9 +26,9 @@ Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>p
 <br/>
 <p><b>Teaching Assistant: Andrew Joyce</b></p>
 <br/> 
-<i>PhD Candidate, Sociology</i> <br/>
+<i>PhD student, Sociology</i> <br/>
 andrew.joyce@duke.edu <br/>
-Office Hours: TBD (135 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
+Office Hours: Monday 2:30-3:30pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
 </div>
 
 ### COURSE DESCRIPTION
@@ -99,7 +99,7 @@ _By 5PM on the listed due date_, you will be required to complete and submit the
 
 Students are permitted to miss one lab assignment without penalty. Assignments will be graded as follows: 100% (Student writes code that successfully completes all tasks assigned); 90% (Student writes code that successfully completes all but one of the assigned tasks); 80% (Student writes code that successfully completes all but two of the assigned tasks); 70% student writes code that completes all but three of the assigned tasks); 0% (Student does not write code that completes assignments). Be sure to follow the guidelines posted in the Lab Instructions document at the top of each lab.
 
-Please Submit all homework assignments to our TA (Noah Gibson) via direct message on Slack.
+Please Submit all homework assignments to our TA (Andrew Joyce) via direct message on Slack.
 <br/>
 
 <!--
@@ -194,7 +194,7 @@ In addition to accessibility issues experienced during the typical academic year
 
 <br/>
 **Technology Accommodations** Students with demonstrated high financial need who may have limited access to
-computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new Spring 2024 technology assistance requests, please [go here](https://dukelife.duke.edu/technology-assistance-program/). Please note that supplies are limited. 
+computers and stable internet may request assistance in the form of loaner laptops and WIFI hotspots. For new technology assistance requests, please [go here](https://dukelife.duke.edu/technology-assistance-program/). Please note that supplies are limited. 
 <br/>
 
 **Academic Accommodations** The Student Disability Access Office (SDAO) will continue to be available to ensure that students are able to engage with their courses and related assignments. Students should be in touch with the Student Disability Access Office to request or update accommodations under these circumstances. Zoom has the ability to provide live closed captioning. If you are not seeing this, and but would like to see this feature, please reach out to Duke OIT for assistance.  
