@@ -9,7 +9,7 @@ description:
 
 buttons:
     - content:
-      url: 'https://datasciencean-lbv5536.slack.com/'
+      url: 'https://soc367s-sp25.slack.com/'
       external_url: true
       icon: slack
     - content:
@@ -26,7 +26,7 @@ buttons:
 author: 
     title: <a href="https://www.chrisbail.net/">Chris Bail</a>
     title_url: ''
-    description: <b>Professor of Sociology, Computer Scinece, Political Science, Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
+    description: <b>Professor of Sociology, Computer Science, Political Science, Public Policy</b> <br/>Duke University <br/> <a href="https://www.chrisbail.net/">https://www.chrisbail.net</a>
 
 
 # Micro navigation
