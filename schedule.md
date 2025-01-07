@@ -21,7 +21,7 @@ page_nav:
 <!--##################################### Week 1 #####################################-->
 
 ## 1 - Introduction and Orientation
-<b><i><font color="#E84E4E">January 10/12</font></i></b>
+<b><i><font color="#E84E4E">January 10</font></i></b>
 
 **Wednesday**: What is Computational Social Science? 
 
@@ -82,7 +82,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 2 #####################################-->
 
 ## 2 - Ethics
-<b><i><font color="#E84E4E">January 17/19</font></i></b>
+<b><i><font color="#E84E4E">January 15/17</font></i></b>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -159,7 +159,7 @@ allowfullscreen></iframe>
 
 ## 3 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">January 24/26</font></i></b>
+<b><i><font color="#E84E4E">January 22/24</font></i></b>
 <!--<b><i><font color="#E84E4E">January 24-29</font></i></b>-->
 
 **Wednesday**: Does Social Media Cause Harm? 
@@ -236,7 +236,7 @@ allowfullscreen></iframe>
 
 ## 4 - The Echo Chamber
 
-<b><i><font color="#E84E4E">Jan 31/Feb 2</font></i></b>
+<b><i><font color="#E84E4E">Jan 29/31</font></i></b>
 
 **Wednesday**: The Echo Chamber 
 
@@ -321,7 +321,7 @@ allowfullscreen></iframe>
 
 ## 5 - Social Networks and Health
 
-<b><i><font color="#E84E4E">February 7/9</font></i></b>
+<b><i><font color="#E84E4E">February 5/7</font></i></b>
 
  **Wednesday**: How do our Social Relationships Shape our Health? 
 
@@ -412,7 +412,7 @@ For these excercises, you will need the following datasets:<br/>
 <!--##################################### Week 6 #####################################-->
 
 ## 6 - Getting a Job
-<b><i><font color="#E84E4E">February 14/16</font></i></b>
+<b><i><font color="#E84E4E">February 12/14</font></i></b>
 
 **Wednesday**: How will Networks Shape your Career? 
 
@@ -500,7 +500,7 @@ Katya Ognyanova</a></li>
 <!--##################################### Week 7 #####################################-->
 
 ## 7 - Surveillance and Privacy
-<b><i><font color="#E84E4E">February 21/23</font></i></b>
+<b><i><font color="#E84E4E">February 19/21</font></i></b>
 
 
 **Wednesday**: Are you worried about who can see your data? 
@@ -560,7 +560,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 8 #####################################-->
 
 ## 8 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">February 28/March 1</font></i></b>
+<b><i><font color="#E84E4E">February 26/28</font></i></b>
 
 **Wednesday**: AI Bias
 
@@ -647,7 +647,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 9 #####################################-->
 
 ## 9 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">March 6/8</font></i></b>
+<b><i><font color="#E84E4E">March 5/7</font></i></b>
 
 **Wednesday**: Does Hate Spread more Quickly Online?
 
@@ -716,7 +716,7 @@ allowfullscreen></iframe>
 
 
 ## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 20/22</font></i></b>
+<b><i><font color="#E84E4E">March 19/21</font></i></b>
 
 ***Wednesday**: Does Misinformation Work?
 
@@ -766,7 +766,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 11 #####################################-->
 
 ## 11 - Protest and Censorship
-<b><i><font color="#E84E4E">March 27/29</font></i></b>
+<b><i><font color="#E84E4E">March 26/28</font></i></b>
 
 **Wednesday**: Is Social Media Protest Different?
 
@@ -870,7 +870,7 @@ allowfullscreen></iframe>
 <!--##################################### Week 12 #####################################-->
 
 ## 12 - Modeling and Communication 
-<b><i><font color="#E84E4E">April 3/5</font></i></b>
+<b><i><font color="#E84E4E">April 2/4</font></i></b>
 
 **Wednesday**: Making a social science Model
 
@@ -933,7 +933,7 @@ allowfullscreen></iframe>
 
 ## 13 - Tutorials: 1-1 meetings
 
-<b><i><font color="#E84E4E">April 10/12</font></i></b>
+<b><i><font color="#E84E4E">April 9/11</font></i></b>
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
@@ -956,7 +956,7 @@ No class. Work on final presentation and paper.
 
 ## 14 - Tutorials: 1-1 meetings
 
-<b><i><font color="#E84E4E">April 17/19</font></i></b>
+<b><i><font color="#E84E4E">April 16/18</font></i></b>
 
 <!--**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.-->
 
@@ -976,7 +976,7 @@ No class. Work on final presentation and paper.
 
 ## 15 - Final Presentations
 
-<b><i><font color="#E84E4E">April 24</font></i></b>
+<b><i><font color="#E84E4E">April 23</font></i></b>
 
 <!--Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -993,7 +993,7 @@ Final presentations during normal class time and place (11:45-1pm) . Will post s
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
-***Final paper DUE Thursday May 2nd at 5pm (submit via Slack DM to Professor Bail and TA).***
+***Final paper DUE TBD (submit via Slack DM to Professor Bail and TA).***
 
 
 
