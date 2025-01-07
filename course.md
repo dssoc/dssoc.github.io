@@ -33,7 +33,7 @@ Office Hours: Monday 2:30-3:30pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Buil
 
 ### COURSE DESCRIPTION
 
-The past decade has witnessed an explosion of data produced by websites such as Twitter, Facebook, Google, and Wikipedia, the mass digitization of administrative and historical records, and the rapid expansion of mobile technology into nearly every corner of our lives. A new wave of techniques for collecting, classifying, and analyzing these data hold enormous potential to address many of the most urgent questions in social science: How do diseases spread? What causes financial meltdowns? How did America become so politically polarized? This course surveys the inter-disciplinary field of computational social science, which combines insights from computer and information science, sociology and social network analysis, economics, political science, and public health in order to answer such questions.
+Artificial intelligence is revolutionizing many different fields— including social science. This course will introduce students to the techniques necessary to design, execute and analyze studies of human behavior using tools such as large language models, application programming interfaces, machine learning, and natural language processing. Students will also be introduced to cutting-edge debates in the field about the relationship between AI and bias, social media and misinformation, and how new technologies are revolutionizing health care and the economy. Students will complete weekly lab assignments on coding and complete an original research paper throughout the course of the semester.
 
 ### COURSE GOALS
 
