@@ -6,7 +6,7 @@ comments: false
 
 # Hero section
 title: Course Description & Policies
-description: Duke University, Sociology 367S <br/> Spring 2025
+description: Duke University, Sociology 367S <br/> Spring 2025, WF 10:05-11:20am Reuben-Cooke 129
 
 
 # Micro navigation
