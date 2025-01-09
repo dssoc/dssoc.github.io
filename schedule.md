@@ -325,11 +325,11 @@ allowfullscreen></iframe>
 
 ## 5 - Social Networks and Health
 
-<b><i><font color="#E84E4E">February 5/7</font></i></b>
+<b><i><font color="#E84E4E">February 12/14</font></i></b>
 
  **Wednesday**: How do our Social Relationships Shape our Health? 
 
-**Friday**: Learning how to Iterate, Lecture by Noah Gibson
+**Friday**: Learning how to Iterate (No in person class, please watch video below though!)
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
@@ -404,21 +404,12 @@ For these excercises, you will need the following datasets:<br/>
 
 
 
-
-
-
-
-
-
-
-
-
 <!--##################################### Week 6 #####################################-->
 
-## 6 - Getting a Job
+## 6 - Getting a Job (Optional Online Content/Lab)
 <b><i><font color="#E84E4E">February 12/14</font></i></b>
 
-**Wednesday**: How will Networks Shape your Career? 
+**Wednesday**: How will Networks Shape your Career? No in person class, watch online!
 
 Group discussion questions for this week:
 
@@ -427,14 +418,14 @@ Group discussion questions for this week:
 3. How could social network analysis help you find a job?
 
 
-**Friday**: Let's code up some networks! 
+**Friday**: Let's code up some networks! No in person class, watch online!
 
 <!--**Monday**: No meetings.
 
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 
-**Following Wednesday**: Lab due by 5PM
+**Lab is Optional this week (If you complete it, you can use your grade on this assignment to replace your lowest rated lab of the semester)**
 
 #### How to find a job (and Succeed Once you Get One)
 
@@ -503,15 +494,33 @@ Katya Ognyanova</a></li>
 
 <!--##################################### Week 7 #####################################-->
 
-## 7 - Surveillance and Privacy
-<b><i><font color="#E84E4E">February 19/21</font></i></b>
+## 7 - Responsible AI Symposium
+<b><i><font color="#E84E4E">February 26</font></i></b>
 
 
-**Wednesday**: Are you worried about who can see your data? 
+**Wednesday**: Surprise Guest Lecturer
 
-**Friday**: Collecting data from online sources
+**Friday**: [Responsible AI Symposium Day 1 (Karsh Auditorium):](https://responsibleaisymposium.com/)
+**Saturday**: [Responsible AI Symposium Day 2 (Karsh Auditorium):] (https://responsibleaisymposium.com/)
+
 
 **Following Wednesday**: no lab due.
+
+
+<!--##################################### Week 8 #####################################-->
+
+## 8 - Data Privacy & Working with APIs
+
+**Wednesday**: Data Privacy and Surveillance Capitalism
+
+Group discussion questions for this week:
+
+1. Who should have access to your data?
+2. Do you care more or less about privacy than your parent's generation?
+
+
+**Friday**: Working with APIs
+
 
 #### Surveillance Capitalism (Shoshana Zuboff)
 
