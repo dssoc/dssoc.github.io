@@ -6,7 +6,7 @@ doks:
 
     header:
         logo:
-            text: Data Science & Society
+            text: Studying Society with AI
             image:
         nav:
             - item_name: Course Description
@@ -16,7 +16,7 @@ doks:
     footer:
         content:
             logo:
-                text: Data Science & Society 
+                text: Studying Society with AI 
                 image:
             copyright: Copyright &copy; 2020, All rights reserved. <br> website background by <a href = "https://www.smithsonianmag.com/history/first-time-together-and-color-book-displays-web-du-bois-visionary-infographics-180970826/">W.E.B. Du Bois </a>
         social_list:
