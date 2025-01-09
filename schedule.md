@@ -512,6 +512,9 @@ Katya Ognyanova</a></li>
 
 ## 8 - Data Privacy & Working with APIs
 
+<b><i><font color="#E84E4E">March 5/7</font></i></b>
+
+
 **Wednesday**: Data Privacy and Surveillance Capitalism
 
 Group discussion questions for this week:
