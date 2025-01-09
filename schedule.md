@@ -325,13 +325,11 @@ allowfullscreen></iframe>
 
 ## 5 - Social Networks and Health
 
-<b><i><font color="#E84E4E">February 12/14</font></i></b>
+<b><i><font color="#E84E4E">February 12 (in person)/14 (online) </font></i></b>
 
  **Wednesday**: How do our Social Relationships Shape our Health? 
 
 **Friday**: Learning how to Iterate (No in person class, please watch video below though!)
-
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
 **Following Wednesday**: Lab due by 5PM
 
@@ -407,7 +405,7 @@ For these excercises, you will need the following datasets:<br/>
 <!--##################################### Week 6 #####################################-->
 
 ## 6 - Getting a Job (Online Pre-Recorded)
-<b><i><font color="#E84E4E">February 12/14</font></i></b>
+<b><i><font color="#E84E4E">February 19/21</font></i></b>
 
 **Wednesday**: How will Networks Shape your Career? No in person class,  to watch online!
 
@@ -802,12 +800,12 @@ allowfullscreen></iframe>
 
 <!--##################################### Week 12 #####################################-->
 
-## 12 - Modeling and Communication 
+## 12 - Modeling and Communication & Tutorials 1-1 Meetings 
 <b><i><font color="#E84E4E">April 9/11</font></i></b>
 
-**Wednesday**: Making a social science Model
+**Wednesday**: Making a social science Model & Communicating your results
 
-**Friday**: Communicating your results
+**Friday**: Tutorials: 1-1 Meetings
 
 
 **No More Labs-- work on your final projects instead**
@@ -869,7 +867,7 @@ allowfullscreen></iframe>
 
 <!--##################################### Week 13 #####################################-->
 
-## 13 - Tutorials: 1-1 meetings
+## 13 - Tutorials: 1-1 meetings & Presentations Begin
 
 <b><i><font color="#E84E4E">April 16/18</font></i></b>
 
@@ -877,7 +875,11 @@ allowfullscreen></iframe>
 
 <!--Open lab in usual room during regularly scheduled class @ 1:45-3pm.-->
 
-No class. Work on final presentation and paper.
+**Wednesday**: Tutorials: 1-1 Meetings
+
+**Friday**: Presentations Begin
+
+Final presentations during normal class time and place (10:05 - 11:20 am) . Will post sign-up sheet.
 
 <!--
 ***Required reading***:
@@ -892,42 +894,19 @@ No class. Work on final presentation and paper.
 
 <!--##################################### Week 14 #####################################-->
 
-## 14 - Tutorials: 1-1 meetings
-
-<b><i><font color="#E84E4E">April 16/18</font></i></b>
-
-<!--**Monday** and **Wednesday**: regularly scheduled class @ 1:45-3pm.-->
-
-No class. Work on final presentation and paper.
-
-<!--**Monday Lecture**: _Who is your audience?_-->
-
-<!--**Wednesday Lecture**: _Writing up your research_-->
-
-
-
-
-
-
-
-<!--##################################### Week 15 #####################################-->
-
-## 15 - Final Presentations
+## 14: Presentations
 
 <b><i><font color="#E84E4E">April 23</font></i></b>
 
-<!--Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
+**Wednesday** Presentations (and LDOC)
 
 Final presentations during normal class time and place (10:05 - 11:20 am) . Will post sign-up sheet.
 
 
 
+<!--##################################### Week 15 #####################################-->
 
-
-
-<!--##################################### Week 16 #####################################-->
-
-## 16 - Final Paper Due
+## 15 - Final Paper Due
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
