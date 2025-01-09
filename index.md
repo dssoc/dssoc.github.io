@@ -4,7 +4,7 @@ layout: homepage
 keywords:
 
 # Hero section
-title: Studying Society with AI
+title: Computational Social Science
 description: 
 
 buttons:
