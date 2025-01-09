@@ -138,7 +138,7 @@ F) a bibliography.
 My goal is for you to produce something that you can show to future employers, graduate schools, or even just your friends and families to showcase what you have learned. You can see some previous final project papers at the bottom of this course description website ([link](#final-project-examples)). You can see examples of student projects from previous semesters of this course at the links below.
 
 
-***Attendance and participation*** includes attending all classes, completing the required readings before the beginning of each class, and actively participating in group and class discussions. We will take attendance in the form of an in-class questionnaire about the readings at the beginning of every class, so please bring an electronic device such as a phone, tablet, or computer so that you can complete it. You will be allowed to miss up to three classes before points will be deducted.
+***Attendance and participation*** includes attending all classes, completing the required readings before the beginning of each class, and actively participating in group and class discussions. We will take attendance in the form of an in-class questionnaire about the readings at the beginning of every class, so please bring an electronic device such as a phone, tablet, or computer so that you can complete it. You will be allowed to miss up to three classes before points will be deducted. *Note that you are also required to attend at least four hours of the Responsible AI symposium on either February 28th or March 1st.*
 
 
 ***How Your Grade Will be Calculated***
