@@ -87,11 +87,11 @@ allowfullscreen></iframe>
 <!--##################################### Week 2 #####################################-->
 
 ## 2 - Ethics
-<b><i><font color="#E84E4E">January 15/17</font></i></b>
+<b><i><font color="#E84E4E">January 22/24</font></i></b>
 
 <!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-**Wednesday**: How Can We Protect Human Subjects? <i>class online</i>
+**Wednesday**: How Can We Protect Human Subjects? 
 
 **Friday**: Coding Basics
 
@@ -164,8 +164,7 @@ allowfullscreen></iframe>
 
 ## 3 - Social Media & Polarization
 
-<b><i><font color="#E84E4E">January 22/24</font></i></b>
-<!--<b><i><font color="#E84E4E">January 24-29</font></i></b>-->
+<b><i><font color="#E84E4E">January 29/31</font></i></b>
 
 **Wednesday**: Does Social Media Cause Harm? 
 
@@ -241,7 +240,7 @@ allowfullscreen></iframe>
 
 ## 4 - The Echo Chamber
 
-<b><i><font color="#E84E4E">Jan 29/31</font></i></b>
+<b><i><font color="#E84E4E">February 5/7</font></i></b>
 
 **Wednesday**: The Echo Chamber 
 
