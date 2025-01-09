@@ -500,9 +500,9 @@ Katya Ognyanova</a></li>
 
 **Wednesday**: Surprise Guest Lecturer
 
-**Friday**: [Responsible AI Symposium Day 1 (Karsh Auditorium):](https://responsibleaisymposium.com/)  
+**Friday**: [Responsible AI Symposium Day 1 (Karsh Auditorium)](https://responsibleaisymposium.com/)  
 
-**Saturday**: [Responsible AI Symposium Day 2 (Karsh Auditorium):](https://responsibleaisymposium.com/)
+**Saturday**: [Responsible AI Symposium Day 2 (Karsh Auditorium)](https://responsibleaisymposium.com/)
 
 
 **Following Wednesday**: no lab due.
