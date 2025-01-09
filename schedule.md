@@ -980,7 +980,7 @@ No class. Work on final presentation and paper.
 
 <!--Final presentations during normal class time. Sign up [here](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
 
-Final presentations during normal class time and place (11:45-1pm) . Will post sign-up sheet.
+Final presentations during normal class time and place (10:05 - 11:20 am) . Will post sign-up sheet.
 
 
 
@@ -993,7 +993,7 @@ Final presentations during normal class time and place (11:45-1pm) . Will post s
 
 <!--<b><i><font color="#E84E4E">April 25-30</font></i></b>-->
 
-***Final paper DUE TBD (submit via Slack DM to Professor Bail and TA).***
+***Final paper DUE Monday, April 28th at 5:00 pm (submit via Slack DM to Professor Bail and TA).***
 
 
 
