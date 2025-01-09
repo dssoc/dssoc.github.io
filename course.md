@@ -21,14 +21,14 @@ micro_nav: true
 <i>Professor of Sociology, Computer Science, Political Science, & Public Policy</i> <br/>
 christopher.bail@duke.edu <br/>
 <a href = "http://www.chrisbail.net">www.chrisbail.net</a><br/>
-Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
+Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>please email beforehand to schedule</i>)
 <hr/>
 <br/>
 <p><b>Teaching Assistant: Andrew Joyce</b></p>
 <br/> 
 <i>PhD student, Sociology</i> <br/>
 andrew.joyce@duke.edu <br/>
-Office Hours: Monday 2:30-3:30pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Building or via Zoom, <i>please email beforehand</i>)
+Office Hours: Monday 2:30-3:30pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Building or via Zoom, <i>please email beforehand to schedule</i>)
 </div>
 
 ### COURSE DESCRIPTION
@@ -42,7 +42,7 @@ This course requires no prior knowledge of computer programming or social scienc
 
 ### OVERVIEW OF CLASS FORMAT
 
-Each week, there will be two lectures that average 10-30 minutes each. One of these lectures will be about a social science topic (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. In order to help you prepare for our substantive discussions about each social science topic, there are weekly "discussion questions" posted on the course website.
+Each week, there are two classes. One class is designed to introduce you to a topic in social science (e.g. political polarization or public health), and the other is designed to introduce you to the programming you need to learn to complete the lab assignment for that week. There are also required readings for each week that build upon the content in the lectures, and help introduce you to the material you need to learn for the labs. Each student is responsible for making a brief, 10 minute presentation about one of the week's readings. The lab assignments do not always line up with the content of the social science lectures; instead, the goal is to introduce both social science and coding gradually/incrementally. In order to help you prepare for our substantive discussions about each social science topic, there are weekly "discussion questions" posted on the course website. Finally, our class will participate in a new "Responsible AI Symposium" that will be hosted at Duke this spring and feature leading speakers from academia and industry! 
 
 ***Required Readings***
 <br/>
@@ -52,9 +52,11 @@ We will draw heavily on two excellent books, both of which are freely available 
 - [**R for Data Science**](http://r4ds.had.co.nz/). Garrett Grolemund & Hadley Wickham, *O'Reilly*: )
 <br/>
 
+In addition to these two books, there are many other articles, book chapters, and blog posts linked on the syllabus that you are required to read before the class they are listed beneath.
+
 ***R & RStudio***
 <br/>
-In this class, we will use R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible. I will discuss how to install and set up R during the first week of class.
+In this class, we will use R, a free programming language that I will teach tou how to install during the first week of class. There are a variety of different ways to use R, but the most common way to do so is with the software [RStudio](https://www.rstudio.com/), a free Graphical User Interface which you can either run on your laptop, or via a web server. Though it is possible to run it on a Tablet or Microsoft Surface, I recommend using a laptop or desktop if possible. I will discuss how to install and set up R during the first week of class. 
 <br/>
 
 ***Slack***
@@ -79,7 +81,7 @@ The field of computational social science is growing so rapidly that none of the
 
 ***Lecture Videos***
 
-If you miss something from a lecture, I have recorded many of them in high quality 4k video and posted them on our website to help you review before labs and/or drafting your final paper.
+If you miss something from a lecture, I have recorded many of them in high quality 4k video and posted them on our website to help you review before labs and/or drafting your final paper. You will note that these are required viewing instead of in person classes during two weeks of the semester.
 <br/>
 
 ### FORMAL REQUIREMENTS
@@ -93,6 +95,10 @@ You are responsible for reading and understanding the assigned readings each wee
 This syllabus is a 'living document.' By this I mean I reserve the right to change the reading assignments in response to your feedback as well as my own sense of our group achievement. No changes will be made without at least two weeks of advance notice. Each week, we also provide you with a list of "optional readings" in case you want to go deeper into the material that is covered in the assigned readings.
 <br/>
 
+***Weekly Student Presentation***
+
+You are required to sign up to lead the presentation of one of the required social science readings each week-- please choose a date using this link. Your presentation should be approximately 10 minutes long, and delivered via Google slides, powerpoint, or a similar tool. The presentation should address the following questions: 1) "What is the main research question or problem that the author is posing/trying to solve"? 2) How do they try to answer this question? 3) What are the strengths of their overall argument? 4) What are the weakenesses of their argument? Wherever possible, use visuals or tables and figures from papers to communicate the findings.
+
 ***Weekly Lab Assignments***
 <br/>
 _By 5PM on the listed due date_, you will be required to complete and submit the assigned lab exercises described on the course schedule on this website. You must submit your lab assignments in a format called "R markdown" (abbreviated .Rmd). A video that describes how to create files in this format is available on the Schedule for the second lab (the first lab assignment is ungraded).
@@ -102,13 +108,6 @@ Students are permitted to miss one lab assignment without penalty. Assignments w
 Please Submit all homework assignments to our TA (Andrew Joyce) via direct message on Slack.
 <br/>
 
-<!--
-***Weekly Meeting with Dr. Bail***
-<br/>
-Every other week, you will be required to meet with Dr. Bail for 15 minutes to discuss the readings or the lab assignments (your choice). As I mentioned above, the purpose of these meetings is so that I can tailor the class to you and give you the best online course experience possible. These meetings do not count towards your grade, however, I think they will be very useful in helping you to design and conduct the final project for our class, which counts for 50% of your grade. You can use our time together to ask questions about the assigned readings, or discuss possible topics for your final project, which should build upon one or more of the required readings on our schedule. _You may cancel any of the one-on-one meetings with me at your discretion-- especially if unforeseen circumstances arise because of the pandemic- however, I ask that you give me 24 hours notice if you plan to cancel our meeting_
-
-To sign up for a weekly meeting time, please put your name in [this Google sheet](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)
--->
 
 ***Final Project***
 <br/>
@@ -146,7 +145,7 @@ My goal is for you to produce something that you can show to future employers, g
 <br/>
 - Final Project Paper 60%
 - Lab exercises 20%
-- Attendance and Participation 20%
+- Attendance and Participation (including presentation of reading) 20%
 <br/>
 
 ### COURSE POLICIES
