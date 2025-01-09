@@ -406,10 +406,10 @@ For these excercises, you will need the following datasets:<br/>
 
 <!--##################################### Week 6 #####################################-->
 
-## 6 - Getting a Job (Optional Online Content/Lab)
+## 6 - Getting a Job (Online Pre-Recorded)
 <b><i><font color="#E84E4E">February 12/14</font></i></b>
 
-**Wednesday**: How will Networks Shape your Career? No in person class, watch online!
+**Wednesday**: How will Networks Shape your Career? No in person class,  to watch online!
 
 Group discussion questions for this week:
 
@@ -425,7 +425,7 @@ Group discussion questions for this week:
 **Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
 
 
-**Lab is Optional this week (If you complete it, you can use your grade on this assignment to replace your lowest rated lab of the semester)**
+**Lab due Following Wednesday by 5pm**
 
 #### How to find a job (and Succeed Once you Get One)
 
@@ -501,7 +501,7 @@ Katya Ognyanova</a></li>
 **Wednesday**: Surprise Guest Lecturer
 
 **Friday**: [Responsible AI Symposium Day 1 (Karsh Auditorium):](https://responsibleaisymposium.com/)
-**Saturday**: [Responsible AI Symposium Day 2 (Karsh Auditorium):] (https://responsibleaisymposium.com/)
+**Saturday**: [Responsible AI Symposium Day 2 (Karsh Auditorium):](https://responsibleaisymposium.com/)
 
 
 **Following Wednesday**: no lab due.
@@ -562,9 +562,10 @@ allowfullscreen></iframe>
 </div>
 
 
+<b><i><font color="#E84E4E">March 12/14</font></i></b>
 
 
-
+**Spring Break!**
 
 
 
@@ -572,12 +573,12 @@ allowfullscreen></iframe>
 
 <!--##################################### Week 8 #####################################-->
 
-## 8 - Algorithms and Discrimination
-<b><i><font color="#E84E4E">February 26/28</font></i></b>
+## 9 - Algorithms and Discrimination (Online Pre-Recorded)
+<b><i><font color="#E84E4E">March 19/21</font></i></b>
 
-**Wednesday**: AI Bias
+**Wednesday**: AI Bias (no in person class, watch video online)
 
-**Friday**: Intro to text analysis
+**Friday**: Intro to text analysis (no in person class, watch video online)
 
 <!--**Monday**: No meetings.
 
@@ -659,8 +660,8 @@ allowfullscreen></iframe>
 
 <!--##################################### Week 9 #####################################-->
 
-## 9 - Hate Speech & Radicalization
-<b><i><font color="#E84E4E">March 5/7</font></i></b>
+## 10 - Hate Speech & Radicalization
+<b><i><font color="#E84E4E">March 26/28</font></i></b>
 
 **Wednesday**: Does Hate Spread more Quickly Online?
 
@@ -728,12 +729,12 @@ allowfullscreen></iframe>
 <!--##################################### Week 10 #####################################-->
 
 
-## 10 - Misinformation and Trolling
-<b><i><font color="#E84E4E">March 19/21</font></i></b>
+## 11 - Misinformation and LLMS
+<b><i><font color="#E84E4E">April 2/4</font></i></b>
 
 ***Wednesday**: Does Misinformation Work?
 
-***Friday**: Word Embeddings; **[See class tutorial here](https://cbail.github.io/textasdata/word2vec/rmarkdown/word2vec.html)**
+***Friday**: Large Language Models
 
 <!--**Monday**: No meetings.
 
@@ -766,49 +767,7 @@ allowfullscreen></iframe>
 - [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
 
 
-
-#### Lab #9: Final Project Hypotheses
-<div class="callout callout--info">
-    <p><i><b><a href = "/assignments/lab_9_hypotheses.html">Lab #9: Final Project Hypotheses</a></b> (due the following Wednesday by 5PM)</i></p>
-
-</div>
-
-
-
-
-<!--##################################### Week 11 #####################################-->
-
-## 11 - Protest and Censorship
-<b><i><font color="#E84E4E">March 26/28</font></i></b>
-
-**Wednesday**: Is Social Media Protest Different?
-
-**Friday**: Let's build a Large Language Model Together!
-
-<!--**Monday** and **Wednesday**: individual meetings with Dr. Bail. [Sign-up here.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing).-->
-
-**Following Wednesday**: Lab due by 5PM
-
-#### Online Social Change (Zeynep Tufekci)
-
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/Mo2Ai7ESNL8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
-
-***Required Reading***
-
-Gary King et al. 2014. [Reverse Engineering Censorship in China](https://science.sciencemag.org/content/345/6199/1251722.abstract).
-
-
-***Optional Materials***:
-
-- Julia Silge and David Robinson (2020). [Sentiment analysis with tidy data](https://www.tidytextmining.com/sentiment.html) in *Text Mining with R*.
-
-
-
-#### Lab #10: Large Language Models
+#### Lab #9: Large Language Models
 <div class="callout callout--info">
         <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday by 5PM)</i></p>
 
@@ -837,53 +796,10 @@ allowfullscreen></iframe>
 
 
 
-<!--  #   #### Lab #10: Topic Modeling
- <!--   #   <div class="callout callout--info">
- <!--   #   
- <!--   #   <p><i><b><a href = "/assignments/Lab_10.html">Lab #10: Topic Modeling</a></b> (due the following Wednesday by 5PM)</i></p>
- <!--   # <!--<p><i><b>Lab #10: Topic Modeling</b> (due the following Wednesday by 5PM)</i></p>-->
-<!--    # 
- <!--   # <i><b>Lab Video Lecture: Topic modeling</b></i> 
- <!--   #   
- <!--   #   <iframe width="560" height="315"
- <!--   # src="https://www.youtube.com/embed/IUAHUEy1V0Q" 
-   <!-- # frameborder="0" 
-   <!-- # allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-  <!--  # allowfullscreen></iframe>
-  <!--  #   
-  <!--  #   <br/>
-  <!--  #   
-  <!--  #   <i>Materials from Video:</i><br/>
-  <!--  #   <ul>
-  <!--  #   <li><a href = "https://cbail.github.io/Trump_Tweets.Rdata">Download Trump <!--Tweets</a></li>
-  <!--  #   </ul>
-   <!-- #   
-   <!-- #   <i>Required reading:</i><br/>
-   <!-- #   <ul>
-   <!-- #   <li>Text Mining with R: A Tidy Approach, <a href = <!--"https://www.tidytextmining.com/topicmodeling.html"> chapter 6: Topic Modeling</a> by Julia Silge and David Robinson</li>
-   <!-- #   <li><a href = <!--"https://cran.r-project.org/web/packages/stm/vignettes/stmVignette.pdf">stm Package <!--Vignette</a></li>
-<!--    #   
-<!--<!--    #   </ul>
-<!--    #   
-<!--    #   <i>Optional resources:</i><br/>
-<!--    #   <ul>
-<!--    #   
-<!--    #   <li><a href = "https://quanteda.io/"><code>quanteda</code> package</a></li>
-<!--    #   <li><a href = <!--"https://medium.com/pew-research-center-decoded/an-intro-to-topic-models-for-text-analys<!--is-de5aa3e72bdb"> Intro to Topic Models</a></li>
-<!--    #   <li><a href = "https://www.tidytextmining.com/">Text Mining with R: A Tidy <!--Approach</a>, by Julia Silge and David Robinson</li>
-<!--    #   <li><a href = <!--"https://github.com/rstudio/cheatsheets/blob/master/strings.pdf"><code>stringr</code> <!--cheet sheet</a></li>
-<!--    #   
- <!--   #   </ul>
- <!--   #   
- <!--   #   </div>
-
-
-
-
 <!--##################################### Week 12 #####################################-->
 
 ## 12 - Modeling and Communication 
-<b><i><font color="#E84E4E">April 2/4</font></i></b>
+<b><i><font color="#E84E4E">April 9/11</font></i></b>
 
 **Wednesday**: Making a social science Model
 
@@ -938,6 +854,11 @@ allowfullscreen></iframe>
 
 </div>
 
+#### Lab #10: Final Project Hypotheses
+<div class="callout callout--info">
+    <p><i><b><a href = "/assignments/lab_9_hypotheses.html">Lab #9: Final Project Hypotheses</a></b> (due the following Wednesday by 5PM)</i></p>
+
+</div>
 
 
 
@@ -946,7 +867,7 @@ allowfullscreen></iframe>
 
 ## 13 - Tutorials: 1-1 meetings
 
-<b><i><font color="#E84E4E">April 9/11</font></i></b>
+<b><i><font color="#E84E4E">April 16/18</font></i></b>
 
 <!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
 
