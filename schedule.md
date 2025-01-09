@@ -35,6 +35,8 @@ Welcome! Review of Syllabus and Introductions.
 No lab due this week, but please make sure you have R and RStudio installed (you can follow instructions in the lab video). Check out Lab #0 (linked below) to make sure you have everything set up correctly.
 <br>
 
+Sign up in pairs for reading presentations beginning next week [here](https://docs.google.com/document/d/1fo7PatHRY1GR9cD3a6Cr88kR2lhrta2uKIZ3l8N0vAs/edit?usp=sharing).
+
 #### Can Data Science Help us Fight COVID-19?
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/34fkLJEqr5w" 
@@ -95,7 +97,7 @@ allowfullscreen></iframe>
 
 **Friday**: Coding Basics
 
-**Following Wednesday (1/24)**: Lab due by 5PM
+**Following Wednesday (1/22)**: Lab due by 5PM
 
 <!--Group discussion questions for this week ([see group assignments](https://dssoc.github.io/assignments/group_assignments.txt)):-->
 
@@ -542,7 +544,7 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> (No lab this week!)</i></p>
+<p><i><b><a href = "/assignments/Lab_6.html">Lab #6: Working with APIs</a></b> </i></p>
 <!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
@@ -738,11 +740,9 @@ allowfullscreen></iframe>
 
 ***Friday**: Large Language Models
 
-<!--**Monday**: No meetings.
-
-**Wednesday**: small-group discussions with classmates via Zoom. See [group assignment page](https://dssoc.github.io/assignments/group_assignments.txt).-->
-
 **Following Wednesday**: Lab due by 5PM
+
+(Note: meetings w Dr Bail will be on Friday 4/11 and Wed 4/16. Sign up for these meetings [here](https://docs.google.com/document/d/1WQ0Z192UNhfOdJe18KxRMb5RVQi7CfnLxbry75TbFPc/edit?usp=sharing))
 
 Discussion questions for this week:
 
@@ -805,19 +805,18 @@ allowfullscreen></iframe>
 
 **Wednesday**: Making a social science Model & Communicating your results
 
-**Friday**: Tutorials: 1-1 Meetings
+**Friday**: Tutorials: 1-1 Meetings (sign up link [here](https://docs.google.com/document/d/1WQ0Z192UNhfOdJe18KxRMb5RVQi7CfnLxbry75TbFPc/edit?usp=sharing))
 
+**Labs**: There are two labs listed here. Complete the lab on Modeling.
 
-**No More Labs-- work on your final projects instead**
-<!--[Sign up for a slot.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
+**Presentations begin next week**: sign up link [here](https://docs.google.com/document/d/1MyVdiTIgyfkM4HG12Tq21jOEAe0r3we-qONWHeqkz1o/edit?usp=sharing).
 
-<!--Regular TA office hours will be open.-->
 
 
 #### Social Science Modeling (A Brief Introduction)
 <div class="callout callout--info">
   
-  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> (No lab due this week)</i></p>
+  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> </i></p>
   <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Wednesday by 5PM)</i></p>-->
   
   <i><b>Lab Video Lecture: Modeling</b></i> 
@@ -869,17 +868,12 @@ allowfullscreen></iframe>
 
 ## 13 - Tutorials: 1-1 meetings & Presentations Begin
 
-<b><i><font color="#E84E4E">April 16/18</font></i></b>
 
-<!--[Sign up for a meeting with Dr. Bail or Devin.](https://docs.google.com/spreadsheets/d/17tDqkqxXmdjFEB-B8xnUPpXeSdzIZm5mkcjo_832dAQ/edit?usp=sharing)-->
+**Wednesday**: Tutorials: 1-1 Meetings (sign up link [here](https://docs.google.com/document/d/1WQ0Z192UNhfOdJe18KxRMb5RVQi7CfnLxbry75TbFPc/edit?usp=sharing))
 
-<!--Open lab in usual room during regularly scheduled class @ 1:45-3pm.-->
+**Friday**: Presentations Begin (sign up link [here](https://docs.google.com/document/d/1MyVdiTIgyfkM4HG12Tq21jOEAe0r3we-qONWHeqkz1o/edit?usp=sharing)
 
-**Wednesday**: Tutorials: 1-1 Meetings
-
-**Friday**: Presentations Begin
-
-Final presentations during normal class time and place (10:05 - 11:20 am) . Will post sign-up sheet.
+Final presentations during normal class time and place (10:05 - 11:20 am). Sign up 
 
 <!--
 ***Required reading***:
@@ -900,7 +894,7 @@ Final presentations during normal class time and place (10:05 - 11:20 am) . Will
 
 **Wednesday** Presentations (and LDOC)
 
-Final presentations during normal class time and place (10:05 - 11:20 am) . Will post sign-up sheet.
+Final presentations during normal class time and place (10:05 - 11:20 am). Sign up link [here](https://docs.google.com/document/d/1MyVdiTIgyfkM4HG12Tq21jOEAe0r3we-qONWHeqkz1o/edit?usp=sharing)
 
 
 
