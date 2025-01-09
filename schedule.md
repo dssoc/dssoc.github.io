@@ -20,8 +20,13 @@ page_nav:
 
 <!--##################################### Week 1 #####################################-->
 
-## 1 - Introduction and Orientation
 <b><i><font color="#E84E4E">January 10</font></i></b>
+
+Welcome! Review of Syllabus and Introductions.
+
+## 1 - Introduction to Computational Social Science
+
+<b><i><font color="#E84E4E">January 15/17</font></i></b>
 
 **Wednesday**: What is Computational Social Science? 
 
