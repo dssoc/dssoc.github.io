@@ -28,7 +28,7 @@ Office Hours: Wednesday 1:00-2:00pm (347 Reuben-Cooke Building or via Zoom, <i>p
 <br/> 
 <i>PhD student, Sociology</i> <br/>
 andrew.joyce@duke.edu <br/>
-Office Hours: Monday 2:30-3:30pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Building or via Zoom, <i>please email beforehand to schedule</i>)
+Office Hours: Monday 11:00am - 12:00pm & Wednesday 12:00-1:00pm (142 Reuben-Cooke Building or via Zoom, <i>please email beforehand to schedule</i>)
 </div>
 
 ### COURSE DESCRIPTION
