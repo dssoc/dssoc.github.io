@@ -97,7 +97,7 @@ allowfullscreen></iframe>
 
 **Friday**: Coding Basics
 
-**Following Wednesday (1/22)**: Lab due by 5PM
+**Following Wednesday (1/29)**: Lab due by 5PM
 
 <!--Group discussion questions for this week ([see group assignments](https://dssoc.github.io/assignments/group_assignments.txt)):-->
 
@@ -179,7 +179,7 @@ Discussion questions for this week:
 2. Do you feel like you are in an echo chamber on some platforms more than others? Why?
 3. Do you think TikTok makes the echo chamber effect stronger or weaker?
 
-**Following Wednesday**: Lab due by 5PM
+**Following Wednesday (2/5)**: Lab due by 5PM
 
 #### Do our Platforms Push us Apart?
 
@@ -248,7 +248,7 @@ allowfullscreen></iframe>
 
 **Friday**: Visualizing Society 
 
-**Following Wednesday**: Lab due by 5PM
+**Following Wednesday (2/12)**: Lab due by 5PM
 
 Group discussion questions for this week:
 
