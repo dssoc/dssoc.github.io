@@ -327,11 +327,11 @@ allowfullscreen></iframe>
 
 ## 5 - Social Networks and Health
 
-<b><i><font color="#E84E4E">February 12 (in person)/14 (online) </font></i></b>
+<b><i><font color="#E84E4E">February 12 (in person)/14 (in person) </font></i></b>
 
  **Wednesday**: How do our Social Relationships Shape our Health? 
 
-**Friday**: Learning how to Iterate (No in person class, please watch video below though!)
+**Friday**: Learning how to Iterate (in person demo)
 
 **Following Wednesday**: Lab due by 5PM
 
@@ -407,7 +407,7 @@ For these excercises, you will need the following datasets:<br/>
 <!--##################################### Week 6 #####################################-->
 
 ## 6 - Getting a Job (Online Pre-Recorded)
-<b><i><font color="#E84E4E">February 19/21</font></i></b>
+<b><i><font color="#E84E4E">February 19 (online)/21 (in person)</font></i></b>
 
 **Wednesday**: How will Networks Shape your Career? No in person class,  to watch online!
 
@@ -418,7 +418,7 @@ Group discussion questions for this week:
 3. How could social network analysis help you find a job?
 
 
-**Friday**: Let's code up some networks! No in person class, watch online!
+**Friday**: Let's code up some networks! In person demo
 
 <!--**Monday**: No meetings.
 
