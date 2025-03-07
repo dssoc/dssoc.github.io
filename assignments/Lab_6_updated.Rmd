@@ -1,0 +1,82 @@
+---
+---
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Lab 6: Working with APIs
+
+[**Link to updated lab**](https://dssoc.github.io/assignments/Lab_6_updated.Rmd)
+
+[**Lab Instructions**](https://dssoc.github.io/assignments/lab_instructions.html)
+
+In this lab we will be learning about APIs.
+
+See the "Instructions" section of the [Introduction to Lab Assignments](https://dssoc.github.io/assignments/lab_instructions.html) page for more information about the labs. That page also gives descriptions for the datasets we will be using.
+
+**Required reading:**
+
+**Optional resources:**
+
+-   [Applying for a Twitter developer account](https://www.youtube.com/watch?v=LTC8laBJGP0&t=967s)
+-   [rtweet Package Documentation](https://cran.r-project.org/web/packages/rtweet/rtweet.pdf)
+-   [Intro to APIs](https://medium.com/@rwilliams_bv/apis-d389aa68104f), by Beck Williams
+-   [An Illustrated Introduction to APIs](https://medium.com/epfl-extension-school/an-illustrated-introduction-to-apis-10f8000313b9), by Xavier Adam
+-   [Obtaining and using access tokens for Twitter](https://cran.r-project.org/web/packages/rtweet/vignettes/auth.html)
+-   [Grouped, stacked and percent stacked barplot in ggplot2](https://www.r-graph-gallery.com/48-grouped-barplot-with-ggplot2.html)
+
+<br/>
+
+*Note: The above readings are for when this lab used Twitter's API. Some of the information might be helpful. Please refer to class slack for Zoom recording from class.*
+
+# Exercises
+
+## Q1
+
+**Learn to use an API of your choice (this can be OpenAI, which we used in class, or another model).**
+
+```         
+# Write what API you are using here.
+```
+
+## Q2
+
+**Write code in R to authenticate with this model (hint: you might find it useful to search for R packages that help you do this, and remember: you will need some type of API key or other "credential").**
+
+```{r}
+# Your answer here
+
+
+```
+
+## Q3
+
+**Write code to generate 25 fictional narratives less than 100 words each about a doctor and store them in a data frame.**
+
+```{r}
+# Your answer here
+
+
+```
+
+## Q4
+
+**Write more code that uses an LLM to analyze the gender of the doctor described in each narrative.**
+
+```{r}
+# Your answer here
+
+
+```
+
+## Q5
+
+**Report the percentage of times the LLM describes the doctor as having a "female" gender.**
+
+```{r}
+# Your answer here
+
+
+```
