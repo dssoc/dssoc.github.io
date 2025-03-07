@@ -544,7 +544,7 @@ allowfullscreen></iframe>
 #### Lab #6: Working with APIs
 <div class="callout callout--info">
     
-<p><i><b><a href = "/assignments/Lab_6_updated.html">Lab #6: Working with APIs</a></b> </i></p>
+<p><i><b><a href = "/assignments/Lab_6_updated.html">Lab #6: Working with APIs [updated]</a></b> </i></p>
 <!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Working with APIs</b></i> 
@@ -569,7 +569,7 @@ allowfullscreen></iframe>
 <b><i><font color="#E84E4E">March 12/14</font></i></b>
 
 
-**Spring Break!**
+**Spring Break! Lab 6 will be due March 19.** 
 
 
 
