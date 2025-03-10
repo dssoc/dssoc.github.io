@@ -548,11 +548,10 @@ allowfullscreen></iframe>
 <!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
 <i><b>Lab Video Lecture: Intro to APIS for Computational Social Scientists</b></i> 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/OD40nwKuVB8?si=gZ9PWlU7Y3BRQ6o8" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen></iframe>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/OD40nwKuVB8?si=gZ9PWlU7Y3BRQ6o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
 <br/>
 <i>Optional reading:</i> <br/>
 <ul>
