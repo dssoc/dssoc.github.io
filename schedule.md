@@ -547,7 +547,7 @@ allowfullscreen></iframe>
 <p><i><b><a href = "/assignments/Lab_6_updated.html">Lab #6: Working with APIs [updated]</a></b> </i></p>
 <!--<p><i><b>Lab #6: Working with APIs</b> (due the following Wednesday by 5PM)</i></p>-->
     
-<i><b>Lab Video Lecture: Working with APIs</b></i> 
+<i><b>Lab Video Lecture: Intro to APIS for Computational Social Scientists</b></i> 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/LTC8laBJGP0" 
 frameborder="0" 
