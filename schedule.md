@@ -549,7 +549,7 @@ allowfullscreen></iframe>
     
 <i><b>Lab Video Lecture: Intro to APIS for Computational Social Scientists</b></i> 
 <iframe width="560" height="315"
-src="https://www.youtube.com/embed/LTC8laBJGP0" 
+src="[https://www.youtube.com/embed/LTC8laBJGP0](https://www.youtube.com/embed/OD40nwKuVB8?si=gZ9PWlU7Y3BRQ6o8)" 
 frameborder="0" 
 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
 allowfullscreen></iframe>
