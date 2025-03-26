@@ -760,9 +760,10 @@ allowfullscreen></iframe>
 
 
 ***Required reading***:
-- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
+- Thomas Costello et al. [Durably reducing conspiracy beliefs through dialogues with AI](https://www.science.org/doi/10.1126/science.adq1814)
 
 ***Optional Materials***:
+- Gordon Pennycook and David Rand, [Fighting misinformation on social media using crowdsourced judgments of news source quality](https://www.pnas.org/content/116/7/2521)
 - Andrew Guess et al. [Less than you think: Prevalence and predictors of fake news dissemination on Facebook](https://advances.sciencemag.org/content/5/1/eaau4586).
 - Chris Bail et al. [Asessing the Impact of the Russian Internet Research Agency's Impact on the Political Attitudes and Behaviors of U.S. Twitter Users](https://www.pnas.org/content/early/2019/11/20/1906420116).
 - [The Supreme Court of Faceboo‪k‬](https://podcasts.apple.com/us/podcast/the-new-yorker-radio-hour/id1050430296?i=1000508724371) on The New Yorker Radio Hour
