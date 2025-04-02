@@ -771,7 +771,7 @@ allowfullscreen></iframe>
 
 #### Lab #9: Large Language Models
 <div class="callout callout--info">
-        <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday, April 9, by 5PM)</i></p>
+        <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #9: Large Language Models</a></b> (due the following Wednesday, April 9, by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Large Language Models</b></i> 
 
@@ -816,7 +816,7 @@ allowfullscreen></iframe>
 #### Social Science Modeling (A Brief Introduction)
 <div class="callout callout--info">
   
-  <p><i><b><a href = "/assignments/Lab_7.html">Lab #7: Introduction to modeling</a></b> </i></p>
+  <p><i><b><a href = "/assignments/Lab_7.html">Lab #10: Introduction to modeling</a></b> </i></p>
   <!--<p><i><b>Lab #7: Introduction to modeling</b> (due the following Wednesday by 5PM)</i></p>-->
   
   <i><b>Lab Video Lecture: Modeling</b></i> 
