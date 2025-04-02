@@ -771,7 +771,7 @@ allowfullscreen></iframe>
 
 #### Lab #9: Large Language Models
 <div class="callout callout--info">
-        <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday by 5PM)</i></p>
+        <p><i><b><a href = "/assignments/lab_10_llm.html">Lab #10: Large Language Models</a></b> (due the following Wednesday, April 9, by 5PM)</i></p>
 
 <i><b>Lab Video Lecture: Large Language Models</b></i> 
 
@@ -807,7 +807,7 @@ allowfullscreen></iframe>
 
 **Friday**: Tutorials: 1-1 Meetings (sign up link [here](https://docs.google.com/document/d/1WQ0Z192UNhfOdJe18KxRMb5RVQi7CfnLxbry75TbFPc/edit?usp=sharing))
 
-**Labs**: There are two labs listed here. Complete the lab on Modeling.
+**Labs**: Complete the lab on Modeling- Due Wed April 16.
 
 **Presentations begin next week**: sign up link [here](https://docs.google.com/document/d/1MyVdiTIgyfkM4HG12Tq21jOEAe0r3we-qONWHeqkz1o/edit?usp=sharing).
 
@@ -845,7 +845,7 @@ allowfullscreen></iframe>
 #### Communicating Your Research
 <div class="callout callout--info">
 
-<p>No graded assignment this week-- apply communication or collaboration skills to your final project instead.</p>
+<p>Apply communication and/or collaboration skills to your final project.</p>
 
 <iframe width="560" height="315"
 src="https://www.youtube.com/embed/K1QdcblKR1M" 
@@ -854,13 +854,14 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen></iframe>
 
 </div>
+<!--
 
-#### Lab #10: Final Project Hypotheses
+#### Lab #10: Final Project Hypotheses 
 <div class="callout callout--info">
     <p><i><b><a href = "/assignments/lab_9_hypotheses.html">Lab #9: Final Project Hypotheses</a></b> (due the following Wednesday by 5PM)</i></p>
 
 </div>
-
+--!>
 
 
 
