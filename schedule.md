@@ -792,9 +792,9 @@ allowfullscreen></iframe>
 <ul>
   <li><a href = "https://www.youtube.com/watch?v=kCc8FmEb1nY">Building GPT</a></li>
   <li><a href = "https://www.youtube.com/watch?v=fjJOgb-E41w">Attention Mechanism: Overview</a></li>
-  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">What is a neural network?</li>
-  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">What is a GPT? A Visual introduction to transformers</li>
-  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">Let's build GPT from scratch</li>
+  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">What is a neural network?</a></li>
+  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">What is a GPT? A Visual introduction to transformers</a></li>
+  <li><a href = "https://youtu.be/wjZofJX0v4M?si=hyCQ-oP41nNLoQ88">Let's build GPT from scratch</a></li>
 </ul>
 
 </div>
