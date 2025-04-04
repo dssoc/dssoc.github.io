@@ -12,4 +12,4 @@ Next, you must code some attribute of each of the documents you collect using an
 
 You may code whatever type of feature in the documents you collect that you like. You may find it useful to use this opportunity to do a very early test for a final paper. For example, a student interested in whether there is significant evidence of gender bias in statistics could a) download a set of articles from arxiv; and then b) pass the name of the author list to an LLM and ask it to determine what percentage of the authors are male.
 
-Note: a key challenge with this lab will be writing a prompt that creates the type of output you want. To that end, you may find this article useful.
+Note: a key challenge with this lab will be writing a prompt that creates the type of output you want. To that end, you may find [this](https://www.huit.harvard.edu/news/ai-prompts) article useful.
